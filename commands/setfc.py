@@ -1,0 +1,25 @@
+from header import *
+async def setfc(message, args):
+  url=None
+  if len(message.mentions) > 0:
+    msg = 'Please do not include user tags in your FC'
+  elif len(args) == 0:
+    msg = 'Please provide a friend code'
+  else:
+    user = message.author.id
+    url = None
+    if len(message.attachments) > 0:
+      url = message.attachments[0]['url']
+    cursor.execute(fc_select_str, (user,))
+    result = cursor.fetchone()
+    if result == None:
+      cursor.execute(fc_insert_str, (user, args, url))
+    else:
+      cursor.execute(fc_update_str, (args, url, user))
+    connection.commit()
+    msg = 'Friend code set to '
+  if url != None:
+    embd = make_embed(args, url, user)
+    await client.send_message(message.channel, content=msg, embed=embd)
+  else:
+    await client.send_message(message.channel, msg+args)
