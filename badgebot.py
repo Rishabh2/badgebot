@@ -22,7 +22,7 @@ from commands.setreddit import *
 from commands.swearlist import *
 from commands.wipe import *
 from commands.getchallenge import *
-
+from commands.time import *
 
 def resetModules():
   for mod in modules:
@@ -73,6 +73,7 @@ modules = [
 'commands.setreddit',
 'commands.swearlist',
 'commands.wipe',
+'commands.time'
 ]
 
 commands = {
@@ -102,7 +103,8 @@ commands = {
   'wipe': wipe,
   'reset': reset,
   'leaks': leaks,
-  'getchallenge': getchallenge
+  'getchallenge': getchallenge,
+  'time': time
   }
 
 
