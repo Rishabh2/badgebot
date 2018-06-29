@@ -1,11 +1,27 @@
 from header import *
 async def time(message, args):
         currentDT = datetime.datetime.now()
-        pst = (currentDT.strftime("%H:%M"))
-        Hour = currentDT.hour + 8
+        gmt = (currentDT.strftime("%H:%M"))
+        Hour = currentDT.hour
         Min = currentDT.minute
-        if message.content.lower().endswith('pst'):
-                await client.send_message(message.channel, pst)
+        if message.content.lower().endswith('gmt'):
+                await client.send_message(message.channel, gmt)
+        elif message.content.lower().endswith('cst'):
+                Hour = Hour - 6
+                if Hour < 0:
+                        Hour = Hour + 24
+                if Min >= 10:
+                        await client.send_message(message.channel, str(Hour) + str(":") + str(Min))
+                if Min < 10:
+                        await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
+        elif message.content.lower().endswith('pst'):
+                Hour = Hour - 8
+                if Hour < 0:
+                        Hour = Hour + 24
+                if Min >= 10:
+                        await client.send_message(message.channel, str(Hour) + str(":") + str(Min))
+                if Min < 10:
+                        await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
         elif message.content.lower().endswith('est') or message.content.lower().endswith('iet'):
                 Hour = Hour - 5
                 if Hour < 0:
