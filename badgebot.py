@@ -110,6 +110,10 @@ commands = {
   'coin': coin
   }
 
+@client.event
+async def on_member_update(before, after):
+  if any([role.name == 'Lost The Bet' for role in before.roles]):
+    await client.change_nickname(after, before.nick)
 
 swear=40
 
