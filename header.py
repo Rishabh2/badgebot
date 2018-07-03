@@ -47,13 +47,6 @@ reddit_update_str = 'UPDATE reddit SET name=? WHERE id=?;'
 reddit_delete_str = 'DELETE FROM reddit WHERE id=?;'
 
 
-pings_insert_str = 'INSERT into pings (id, message) VALUES (?, ?);'
-
-pings_select_str = 'SELECT * FROM pings'
-
-pings_clear_str = 'DELETE FROM pings'
-
-
 swear_insert_str = 'INSERT INTO swears (id,count) VALUES (?, 1);'
 
 swear_select_str = 'SELECT count FROM swears WHERE id=?;'
@@ -62,6 +55,14 @@ swear_update_str = 'UPDATE swears SET count=count+1 WHERE id=?;'
 
 swear_dump_str = 'SELECT * from swears ORDER BY count DESC;'
 
+
+coins_insert_str = 'INSERT INTO coins (id, count) VALUES (?, ?);'
+
+coins_select_str = 'SELECT count FROM coins WHERE id=?;'
+
+coins_update_str = 'UPDATE coins SET count=? WHERE id=?;'
+
+coins_dump_str = 'SELECT * from coins ORDER BY count DESC;'
 
 singles_types = ['grass', 'flying', 'poison', 'fairy', 'ice', 'normal', 'ground', 'rock']
 
