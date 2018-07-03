@@ -121,6 +121,10 @@ swear=40
 async def on_message(message):
   if message.author == client.user:
     return
+  userID = message.author.id
+  if userID == ('178255522531639296') or userID == ('293853774982938625') or userID == ('463781518909636620') or userID == ('360163090639224832'):
+    if not ":Dragonite:" in message.content:
+      await client.send_message(message.channel, "<@%s> That message does not end with the Dragonite emote" % (userID))
 
   if swear_jar(message):
     global swear
