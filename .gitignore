@@ -39,3 +39,4 @@ Thumbs.db
 *pycache*
 passwords.py
 *.sh
+*.db
