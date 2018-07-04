@@ -48,8 +48,8 @@ async def time(message, args):
       await client.send_message(message.channel, str(Hour) + str(":") + str(Min))
     if Min < 10:
       await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
-  elif message.content.lower().endswith('gmt'):
-    Hour = currentDT.hour
+  elif message.content.lower().endswith('bst'):
+    Hour = currentDT.hour + 1
     if Hour > 23:
       Hour = Hour - 24
     if Min >= 10:
@@ -192,8 +192,8 @@ async def time(message, args):
       await client.send_message(message.channel, str(Hour) + str(":") + str(Min))
     if Min < 10:
       await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
-  elif message.content.lower().endswith('ect'):
-    Hour = currentDT.hour + 1 + 1
+  elif message.content.lower().endswith('cet'):
+    Hour = currentDT.hour + 1
     if Hour > 23:
       Hour = Hour - 24
     if Min >= 10:
@@ -201,7 +201,7 @@ async def time(message, args):
     if Min < 10:
       await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
   elif message.content.lower().endswith('eet'):
-    Hour = currentDT.hour + 2 + 1
+    Hour = currentDT.hour + 2
     if Hour > 23:
       Hour = Hour - 24
     if Min >= 10:
