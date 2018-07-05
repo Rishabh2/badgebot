@@ -84,6 +84,8 @@ doubles_e4_channel = '455926712379768832'
 
 doubles_channels = ['456191512439685140', '455926804872429579', '455926861348995073', '455927300790157322', '455927335573520386', '455927379810975746', '455927398756777985', '455927412622884864']
 
+arcade_channel = '463817264752492574'
+
 facilities = ['tower', 'palace', 'factory', 'pyramid', 'arena', 'pike', 'dome']
 
 frontier_brains = ['KoheMaster133', 'H2owsome', 'SinkingWafers', 'Sceptistar', 'anthonyprz29', 'Sharbae', 'RoPr-Crusader']
