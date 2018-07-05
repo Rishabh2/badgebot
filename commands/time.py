@@ -185,7 +185,7 @@ async def time(message, args):
     if Min < 10:
       await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
   elif message.content.lower().endswith('art') or message.content.lower().endswith('eet'):
-    Hour = currentDT.hour + 2
+    Hour = currentDT.hour + 2 + 1
     if Hour > 23:
       Hour = Hour - 24
     if Min >= 10:
@@ -193,7 +193,7 @@ async def time(message, args):
     if Min < 10:
       await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
   elif message.content.lower().endswith('cet'):
-    Hour = currentDT.hour + 1
+    Hour = currentDT.hour + 1 + 1
     if Hour > 23:
       Hour = Hour - 24
     if Min >= 10:
