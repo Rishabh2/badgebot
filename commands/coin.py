@@ -30,7 +30,7 @@ async def coin(message, args):
       result = cursor.fetchone()
       if change == None and result != None:
         msg = result[0]
-      elif haspermission(message.author):
+      elif coinpermission(message.author):
         if result == None:
           change = 0 if change == None else change
           cursor.execute(coins_insert_str, (userid, change))
@@ -44,6 +44,8 @@ async def coin(message, args):
         for result in results:
           dump += str(result[1]) + ' - ' + id_to_discordname(result[0]) + '\n'
         msg = dump
+      elif change==None:
+        msg = 0
       else:
         msg = no_permissions_message
   await client.send_message(message.channel, msg)

@@ -318,6 +318,11 @@ def haspermission(user):
     user = id_to_discorduser(user)
   return any(role.hoist for role in user.roles)
 
+def coinpermission(user):
+  if isinstance(user, str):
+    user = id_to_discorduser(user)
+  return discorduser_to_id(user) == '202380877349650432' or any([role.name=='Arcade Master' for role in user.roles])
+
 def issingles(badge):
   if badge == 'e4champsingles':
     return True
