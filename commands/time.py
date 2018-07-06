@@ -144,6 +144,14 @@ async def time(message, args):
       await client.send_message(message.channel, str(Hour) + str(":") + str(Min))
     if Min < 10:
       await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
+  elif message.content.lower().endswith('kst'):
+    Hour = currentDT.hour + 9
+    if Hour > 23:
+      Hour = Hour - 24
+    if Min >= 10:
+      await client.send_message(message.channel, str(Hour) + str(":") + str(Min))
+    if Min < 10:
+      await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
   elif message.content.lower().endswith('vst'):
     Hour = currentDT.hour + 7
     if Hour > 23:
