@@ -223,3 +223,7 @@ async def time(message, args):
       await client.send_message(message.channel, str(Hour) + str(":") + str(Min))
     if Min < 10:
       await client.send_message(message.channel, str(Hour) + str(":") + str("0") + str(Min))
+  elif message.content.lower().endswith('!time'):
+    await client.send_message(message.channel, "Valid timezones include: gmt, cat, agt, est, prt, cst, mst, pst, pnt, ast, hst, mit, nst, sst, aet, jst, kst, ctt, vst, plt, net, eat, art, cet, eet, bst, utc. Please contact Scepti if you would like a timezone added. ^_^")
+  else:
+    await client.send_message(message.channel, "That does not contain a valid timezone, please use !time for a list of included timezones.")
