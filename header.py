@@ -316,13 +316,15 @@ def getmention(message):
   return message.mentions[0] if len(message.mentions) > 0 else None
 
 def haspermission(user):
-  if isinstance(user, str):
-    user = id_to_discorduser(user)
+  if not isinstance(user, str):
+    user = discorduser_to_id(user)
+  user = id_to_discorduser(user)
   return any(role.hoist for role in user.roles)
 
 def coinpermission(user):
-  if isinstance(user, str):
-    user = id_to_discorduser(user)
+  if notisinstance(user, str):
+    user = discorduser_to_id(user)
+  user = id_to_discorduser(user)
   return discorduser_to_id(user) == '202380877349650432' or any([role.name=='Arcade Master' for role in user.roles])
 
 def issingles(badge):
