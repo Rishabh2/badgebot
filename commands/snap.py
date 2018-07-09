@@ -1,5 +1,5 @@
 from header import *
-async def leaks(message, args):
+async def snap(message, args):
   if haspermissions(message.author.id):
     roles = message.server.roles
     for role in roles:
