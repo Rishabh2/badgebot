@@ -24,7 +24,6 @@ from commands.wipe import *
 from commands.getchallenge import *
 from commands.time import *
 from commands.coin import *
-from commands.pikasnap import *
 
 def resetModules():
   for mod in modules:
@@ -78,7 +77,6 @@ modules = [
 'commands.wipe',
 'commands.time',
 'commands.coin',
-'commands.pikasnap'
 ]
 
 commands = {
@@ -111,7 +109,6 @@ commands = {
   'getchallenge': getchallenge,
   'time': time,
   'coin': coin,
-  'pikasnap': pikasnap
   }
 
 swear=40
@@ -142,6 +139,9 @@ async def on_message(message):
       await client.send_message(message.channel, text)
   else:
     text = message.content
+
+  if 'pikasnap' in text.lower():
+    await client.send_message(message.channel, embed=make_embed(None, 'https://cdn.discordapp.com/attachments/365313213673373706/465698751177031690/pikasnapmk4.gif', None))
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)
