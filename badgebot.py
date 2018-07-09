@@ -76,7 +76,7 @@ modules = [
 'commands.swearlist',
 'commands.wipe',
 'commands.time',
-'commands.coin'
+'commands.coin',
 ]
 
 commands = {
@@ -108,7 +108,7 @@ commands = {
   'leaks': leaks,
   'getchallenge': getchallenge,
   'time': time,
-  'coin': coin
+  'coin': coin,
   }
 
 swear=40
@@ -139,6 +139,9 @@ async def on_message(message):
       await client.send_message(message.channel, text)
   else:
     text = message.content
+
+  #if 'pikasnap' in text.lower():
+    #await client.send_message(message.channel, embed=make_embed(None, 'https://cdn.discordapp.com/attachments/365313213673373706/465698751177031690/pikasnapmk4.gif', None))
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)

@@ -322,7 +322,7 @@ def haspermission(user):
   return any(role.hoist for role in user.roles)
 
 def coinpermission(user):
-  if notisinstance(user, str):
+  if not isinstance(user, str):
     user = discorduser_to_id(user)
   user = id_to_discorduser(user)
   return discorduser_to_id(user) == '202380877349650432' or any([role.name=='Arcade Master' for role in user.roles])
@@ -366,11 +366,11 @@ def ischallenge(title):
 
 
 def make_embed(text, url, user):
-  embed = discord.Embed(title=text)
-  if haspermission(user):
-    embed.set_thumbnail(url=url)
+  if text != None:
+    embed = discord.Embed(title=text)
   else:
-    embed.set_thumbnail(url=url)
+    embed = discord.Embed()
+  embed.set_thumbnail(url=url)
   return embed
 
 
