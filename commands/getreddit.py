@@ -8,7 +8,7 @@ async def getreddit(message, args):
       if result == None:
         msg = 'There is no one on this server with the reddit username ' + args
       else:
-        msg = id_to_discordname( result[0] )
+        msg = id_to_discordname( result[0], message.server )
       await client.send_message(message.channel, msg)
       return
     user = message.author.id
@@ -17,7 +17,7 @@ async def getreddit(message, args):
   cursor.execute(reddit_select_str, (user,))
   result = cursor.fetchone()
   if result == None:
-    msg = no_reddit_message.format(id_to_discordname(user))
+    msg = no_reddit_message.format(id_to_discordname(user, message.server))
   else:
     msg = result[0]
   await client.send_message(message.channel, msg)

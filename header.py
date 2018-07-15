@@ -235,6 +235,8 @@ season_start_date = datetime.datetime(2018, 6, 1) # June 1st 2018, LP limit
 
 pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
 
+pvl = client.get_server('372042060913442818')
+
 logger = logging.getLogger('discord')
 logger.setLevel(logging.ERROR)
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
@@ -318,13 +320,13 @@ def getmention(message):
 def haspermission(user):
   if not isinstance(user, str):
     user = discorduser_to_id(user)
-  user = id_to_discorduser(user)
+  user = id_to_discorduser(user, pvl)
   return any(role.hoist for role in user.roles)
 
 def coinpermission(user):
   if not isinstance(user, str):
     user = discorduser_to_id(user)
-  user = id_to_discorduser(user)
+  user = id_to_discorduser(user, pvl)
   return discorduser_to_id(user) == '202380877349650432' or any([role.name=='Arcade Master' for role in user.roles])
 
 def issingles(badge):
@@ -421,20 +423,17 @@ def time_to_challenge(name):
       return name + ' can post a challenge in ' + ':'.join(str(since_20).split(':')[:2])
   return name + ' is ready to post their next challenge!'
 
-def id_to_discorduser(discord_id):
-  result = list(filter( lambda x: x.id == discord_id, client.get_all_members()  ))
-  if len(result) == 0:
-    return None
-  return result[0]
+def id_to_discorduser(discord_id, server):
+  return server.get_member(discord_id)
 
-def id_to_discordname(discord_id):
-  return discorduser_to_discordname( id_to_discorduser( discord_id ) )
+def id_to_discordname(discord_id, server):
+  return discorduser_to_discordname( id_to_discorduser( discord_id, server ) )
 
 
-def redditname_to_discorduser(redditname):
-  return id_to_discorduser( redditname_to_id( redditname ) )
+def redditname_to_discorduser(redditname, server):
+  return id_to_discorduser( redditname_to_id( redditname ), server )
 
-def redditname_to_discordname(redditname):
+def redditname_to_discordname(redditname, server):
   return id_to_discordname( redditname_to_id( redditname ) )
 
 def redditname_to_id(redditname):
