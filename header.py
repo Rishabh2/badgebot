@@ -235,7 +235,6 @@ season_start_date = datetime.datetime(2018, 6, 1) # June 1st 2018, LP limit
 
 pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
 
-pvl = client.get_server('372042060913442818')
 
 logger = logging.getLogger('discord')
 logger.setLevel(logging.ERROR)
@@ -320,14 +319,16 @@ def getmention(message):
 def haspermission(user):
   if not isinstance(user, str):
     user = discorduser_to_id(user)
-  user = id_to_discorduser(user, pvl)
-  return any(role.hoist for role in user.roles)
+  user = id_to_discorduser(user, client.get_server('372042060913442818')
+)
+  return any(role.hoist for role in user.roles) if user != None else False
 
 def coinpermission(user):
   if not isinstance(user, str):
     user = discorduser_to_id(user)
-  user = id_to_discorduser(user, pvl)
-  return discorduser_to_id(user) == '202380877349650432' or any([role.name=='Arcade Master' for role in user.roles])
+  user = id_to_discorduser(user, client.get_server('372042060913442818')
+)
+  return discorduser_to_id(user) == '202380877349650432' or any([role.name=='Arcade Master' for role in user.roles]) if user != None else False
 
 def issingles(badge):
   if badge == 'e4champsingles':
