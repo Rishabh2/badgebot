@@ -7,7 +7,7 @@ async def getfc(message, args):
   cursor.execute(fc_select_str, (userid,))
   result = cursor.fetchone()
   if result == None:
-    await client.send_message(message.channel, id_to_discordname(userid) + " does not have a registered friend code.")
+    await client.send_message(message.channel, id_to_discordname(userid,message.server ) + " does not have a registered friend code.")
   elif result[1] == None:
     await client.send_message(message.channel, result[0])
   else:

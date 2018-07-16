@@ -6,7 +6,8 @@ async def getchallenge(message, args):
     name = discorduser_to_redditname(user)
   badge = badge.lower()
   if name == None:
-    msg = no_reddit_message.format(discorduser_to_discordname(user))
+    msg = no_reddit_message.format(discorduser_to_discordname(user, client.get_server('372042060913442818')
+))
   elif not wiki_exists(name):
     msg = name + ' does not have a reigstered league pass'
   elif not isbadge(badge):
