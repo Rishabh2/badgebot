@@ -5,7 +5,7 @@ async def message(message, args):
     if userid == passwords.modpass:
       user = client.get_channel('372042060913442820')
     else:
-      user = id_to_discorduser(userid)
+      user = id_to_discorduser(userid, client.get_server('372042060913442818'))
     if user == None or messagetext == None or len(messagetext) == 0:
       msg = (message.channel, 'Usage: !message USER-ID-HERE message text goes here')
     else:

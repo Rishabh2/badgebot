@@ -3,10 +3,10 @@ async def coin(message, args):
   if len(args) == 0:
     cursor.execute(coins_dump_str)
     results = cursor.fetchall()
-    results = list(filter(lambda x: id_to_discordname(x[0]) != None, results))
+    results = list(filter(lambda x: id_to_discordname(x[0], client.get_server('372042060913442818')) != None and x[1] != 0, results))
     dump = ''
     for result in results:
-      dump += str(result[1]) + ' - ' + id_to_discordname(result[0]) + '\n'
+      dump += str(result[1]) + ' - ' + id_to_discordname(result[0], client.get_server('372042060913442818')) + '\n'
     msg = dump
   else:
     splt = args.split(maxsplit=1)
@@ -21,7 +21,7 @@ async def coin(message, args):
       change = None
     user = getmention(message)
     if user == None:
-      user = redditname_to_discorduser(name)
+      user = redditname_to_discorduser(name, message.server)
     if user == None:
       msg = 'There is no once on the server with the reddit name ' + name
     else:
