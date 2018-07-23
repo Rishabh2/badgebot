@@ -307,11 +307,10 @@ def get_league_pass(username):
   if username in ['me', 'my', 'your']:
     return 'User is me'
   author = reddit.redditor(username)
-  cards = list(filter(lambda x: x.subreddit == subreddit and x.link_flair_text  == 'League Pass' and replied(x)>0 and season_start_date < datetime.datetime.utcfromtimestamp(x.created_utc), author.submissions.new()))
-  if len(cards) == 0:
-    return username + ' does not have a registered league pass'
-  else:
-    return cards[0]
+  for x in author.submissions.new(limit=100):
+    if x.subreddit == subreddit and x.link_flair_text  == 'League Pass' and replied(x)>0 and season_start_date < datetime.datetime.utcfromtimestamp(x.created_utc):
+      return x
+  return username + ' does not have a registered league pass'
 
 def getmention(message):
   return message.mentions[0] if len(message.mentions) > 0 else None
@@ -380,7 +379,6 @@ def make_embed(text, url, user):
 def replied(submission):
   me = reddit.user.me()
   return sum([1 if comment.author == me else 0 for comment in submission.comments])
-
 
 def swear_jar(message):
   return pf.is_profane(message.content)

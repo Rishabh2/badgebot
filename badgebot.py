@@ -117,8 +117,12 @@ swear=40
 async def on_message(message):
   if message.author.bot:
     return
+  try:
+    s = message.server.id
+  except:
+    s = None
 
-  if swear_jar(message):
+  if s=='372042060913442818' and swear_jar(message):
     global swear
     swear = (swear + 1)%50
     if swear == 0:
