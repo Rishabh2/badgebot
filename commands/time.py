@@ -48,7 +48,7 @@ async def time(message, args):
   elif args == 'cet':
     await client.send_message(message.channel, datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=+  (1+1)))).strftime('%I:%M%p'))
   elif args == 'eet':
-    await client.send_message(message.channel, datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=+  2))).strftime('%I:%M%p'))
+    await client.send_message(message.channel, datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=+  (2+1)))).strftime('%I:%M%p'))
   elif args == 'utc':
     await client.send_message(message.channel, datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=-  0))).strftime('%I:%M%p'))
   elif args == 'why':
