@@ -4,7 +4,6 @@ async def calculate(message, args):
   if all([c in allowed_chars for c in args]):
     try:
       args = eval(args)
-      break
     except:
       await client.send_message(message.channel, "Please check your syntax and try again")
       return
