@@ -81,6 +81,7 @@ modules = [
 
 commands = {
   'help': help,
+  'commands': help,
   'setfc': setfc,
   'getfc': getfc,
   'getreddit': getreddit,
