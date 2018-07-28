@@ -2,6 +2,7 @@ from header import *
 from commands.addtsv import *
 from commands.badge import *
 from commands.cancel import *
+from commands.calculate import *
 from commands.custom import *
 from commands.deletetsv import *
 from commands.dumptsv import *
@@ -56,6 +57,7 @@ modules = [
 'commands.addtsv',
 'commands.badge',
 'commands.cancel',
+'commands.calculate',
 'commands.custom',
 'commands.deletetsv',
 'commands.dumptsv',
@@ -109,6 +111,7 @@ commands = {
   'getchallenge': getchallenge,
   'time': time,
   'coin': coin,
+  'calculate': calculate,
   }
 
 swear=40
