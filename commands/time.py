@@ -1,5 +1,6 @@
 from header import *
 async def time(message, args):
+  args = args.lower()
   currentDT = datetime.datetime.now()
   if args == 'gmt':
     await client.send_message(message.channel, datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=-  0))).strftime('%I:%M%p'))
