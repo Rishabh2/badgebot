@@ -140,42 +140,12 @@ no_leader_message = "Please tag the Gym Leader you are battling in a comment"
 badgesheet_message = ">**Hello Challenger!** Your badgesheet has been created. Check it out [here](https://www.reddit.com/r/pokeverseleague/wiki/s2lps/{})"
 
 
-help_message = '''**How To Friend Codes!**
-
-*!setfc XXXX-XXXX-XXXX Additional Text Here* - Sets your FC
-     -The additional text can be your IGN, games, etc.
-     -You can also include a picture, if you like!
-*!getfc* - fetches your own FC
-*!getfc @someone* - fetches tagged user's FC
-
-**How To TSV!**
-
-*!addtsv XXXX Game Name Here* - adds your TSV to the database.
-     -If you have multiple games, please only add ONE AT A TIME to the bot. You can add multiple, but need to enter each TSV SEPARATELY
-*!gettsv* - pulls up a list of all TSVs that you have entered
-*!deletetsv XXXX* - deletes TSV that you have entered with the value XXXX
-*!gettsv XXXX* - pulls up a list of anyone who has entered their TSV as value XXXX in the database
-*!dumptsv* - lists all tsvs currently stored on the server
-
-**How To Reddit!**
-
-*!setreddit redditusername* - links your Reddit username with your Discord Account. Required to earn badges.
-     -Do NOT put anything that's not your Reddit username into the bot. Enter as "username" not "u/username"
-*!getreddit @someone* - fetches @someone's Reddit username
-*!getreddit redditusername* - fetches the discord name of the user with the specified reddit name
-
-*!getLP @someone* - fetches a quick link to @someone's League Pass
-*!getLP redditusername* - fetches redditusername's LP in the event that they have not set their username with badge bot
-
-*!getBadges @someone* - fetches a quick link to @someone's Records Page
-*!getBadges redditusername* - fetches redditusername's Records Page in the event that they have not set their username with badge bot
-
-**Misc**
-
-*!gettime - get the time remainaing until you can send your next gym leader challenge
-*!leaks - toggle access to the leaks and spoilers channel
-
-**If you still have questions, contact H2owsome**'''
+help_message = discord.Embed(title="Badgebot Commands", colour=discord.Colour(0x85bff8), description="Below is the documentation for the various badgebot commands.", timestamp=datetime.datetime.utcfromtimestamp(1532828425))
+help_message.set_footer(text="Please contact H2Owsome with any questions.")
+help_message.add_field(name="Friends", value="Commands related to 3DS Friend Codes:\n!setFC Text - Sets your Friend Code to the specified Text\n!getFC/!getFC @User - Obtains your or the tagged user's FC")
+help_message.add_field(name="TSV", value="Commands related to your games' shiny values:\n!addTSV XXXX GameName\n!deleteTSV XXXX - Deletes all instances of a given TSV you own\n!getTSV - Obtains all users with a matching TSV\n!dumpTSV - Lists all TSVs on the server")
+help_message.add_field(name="Reddit", value="Commands related to Reddit accounts:\n!setReddit Username - Links your discord and reddit accounts. *setReddit must be used before obtaining badges.*\n!getReddit @User - Obtains user's reddit account.\n!getLP @User - Obtains the tagged user's league pass.\n!getBadges @User - Obtains the tagged user's badges.\n*You may also provide a Reddit username to the above functions.*")
+help_message.add_field(name="Misc", value="!gettime - Obtains the amount of time until you may challenge.\n!est - Obtains the time in the EST timezone\n!time TimeZone - Obtains the time in the specified time zone.\n!calculate - Performs basic math calculations.\n!leaks - Toggles access to the #leaks-and-spoilers channel.", inline=True)
 
 help_message_mod = '''**GLs/FBs only:**
 *!badge @someone badgename* - assigns a badge and autoflairs user's reddit post
