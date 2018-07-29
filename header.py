@@ -140,21 +140,16 @@ no_leader_message = "Please tag the Gym Leader you are battling in a comment"
 badgesheet_message = ">**Hello Challenger!** Your badgesheet has been created. Check it out [here](https://www.reddit.com/r/pokeverseleague/wiki/s2lps/{})"
 
 
-help_message = discord.Embed(title="Badgebot Commands", colour=discord.Colour(0x85bff8), description="Below is the documentation for the various badgebot commands.", timestamp=datetime.datetime.utcfromtimestamp(1532828425))
-help_message.set_footer(text="Please contact H2Owsome with any questions.")
+help_message = discord.Embed(title="Badgebot Commands", color=discord.Color(0x85bff8), description="Below is the documentation for the various badgebot commands.")
+help_message.set_footer(text="Please contact H2owsome with any questions.")
 help_message.add_field(name="Friends", value="Commands related to 3DS Friend Codes:\n!setFC Text - Sets your Friend Code to the specified Text\n!getFC/!getFC @User - Obtains your or the tagged user's FC")
-help_message.add_field(name="TSV", value="Commands related to your games' shiny values:\n!addTSV XXXX GameName\n!deleteTSV XXXX - Deletes all instances of a given TSV you own\n!getTSV - Obtains all users with a matching TSV\n!dumpTSV - Lists all TSVs on the server")
+help_message.add_field(name="TSV", value="Commands related to your games' shiny values:\n!addTSV XXXX GameName\n!deleteTSV XXXX - Deletes all instances of a given TSV you own\n!getTSV - Obtains all users with a matching TSV\n!gettsv @User - Get the user's TSVs\n!dumpTSV - Lists all TSVs on the server")
 help_message.add_field(name="Reddit", value="Commands related to Reddit accounts:\n!setReddit Username - Links your discord and reddit accounts. *setReddit must be used before obtaining badges.*\n!getReddit @User - Obtains user's reddit account.\n!getLP @User - Obtains the tagged user's league pass.\n!getBadges @User - Obtains the tagged user's badges.\n*You may also provide a Reddit username to the above functions.*")
-help_message.add_field(name="Misc", value="!gettime - Obtains the amount of time until you may challenge.\n!est - Obtains the time in the EST timezone\n!time TimeZone - Obtains the time in the specified time zone.\n!calculate - Performs basic math calculations.\n!leaks - Toggles access to the #leaks-and-spoilers channel.", inline=True)
+help_message.add_field(name="Misc", value="!gettime - Obtains the amount of time until you may challenge.\n!est - Obtains the time in the EST timezone\n!time TimeZone - Obtains the time in the specified time zone.\n!calculate - Performs basic math calculations.\n!leaks - Toggles access to the #leaks-and-spoilers channel.\n!coin - Get a list of who has PVL coins\n!coin @User - check how many coins a user has\n", inline=True)
 
-help_message_mod = '''**GLs/FBs only:**
-*!badge @someone badgename* - assigns a badge and autoflairs user's reddit post
-*!loss @someone badgename* - assings a loss and autoflairs user's reddit post
-*!retry @someone badgename* - approves a retry
-*!cancel @someone badgename* - cancels someone's challenge
-
-For any of these commands, if someone has not registered their redditname, ask them to do so
-**If a command does not work, DO NOT try it again. Double check if it went through on reddit, and if not, please contact H2owsome**'''
+help_message_mod = discord.Embed(title="GLs/Mods only:", color=discord.Color(0x85bff8), description="These commands are for use with the official Gym Challenge.\nIf a command fails, do not repeatedly attempt to use it.")
+help_message_mod.set_footer(text="Please contact H2owsome with any questions.")
+help_message_mod.add_field(name="Commands", value="!badge @someone badgename - assigns a badge and autoflairs user's reddit post\n!loss @someone badgename - assings a loss and autoflairs user's reddit post\nretry @someone badgename - approves a retry\n!cancel @someone badgename - cancels someone's challengei\n!wipe - wipe your channel\nFor any of these commands, if someone has not registered their redditname, ask them to do so", inline=True)
 
 invalid_command_message = 'There was a problem with that command, pm me for "!help" for a full list of commands with instructions'
 
