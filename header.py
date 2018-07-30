@@ -200,6 +200,7 @@ season_start_date = datetime.datetime(2018, 6, 1) # June 1st 2018, LP limit
 
 pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
 
+giveawaybot = '294882584201003009'
 
 logger = logging.getLogger('discord')
 logger.setLevel(logging.ERROR)
