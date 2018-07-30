@@ -25,6 +25,7 @@ from commands.wipe import *
 from commands.getchallenge import *
 from commands.time import *
 from commands.coin import *
+from commands.forcewipe import *
 
 def resetModules():
   for mod in modules:
@@ -79,6 +80,7 @@ modules = [
 'commands.wipe',
 'commands.time',
 'commands.coin',
+'commands.forcewipe'
 ]
 
 commands = {
@@ -113,8 +115,9 @@ commands = {
   'getchallenge': getchallenge,
   'time': time,
   'coin': coin,
-  'coins': coin
+  'coins': coin,
   'calculate': calculate,
+  'forcewipe': forcewipe
   }
 
 swear=40
