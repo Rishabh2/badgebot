@@ -170,6 +170,14 @@ async def on_message(message):
     global swear
     swear = (swear + 1)%50
     if swear == 0:
+      
+      roles = message.server.roles
+      for role in roles:
+        if role.name=='Giveaways':
+          give_role=role
+      if not any([role == give_role for role in message.author.roles]):
+        await client.add_roles(message.author, give_role)
+        
       await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'!')
       cursor.execute(swear_select_str, (message.author.id,))
       result = cursor.fetchone()
