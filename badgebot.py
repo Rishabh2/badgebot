@@ -97,6 +97,7 @@ commands = {
   'dumptsv': dumptsv,
   'deletetsv': deletetsv,
   'badge': badge,
+  'win': badge,
   'loss': loss,
   'retry': retry,
   'cancel': cancel,
@@ -112,6 +113,7 @@ commands = {
   'getchallenge': getchallenge,
   'time': time,
   'coin': coin,
+  'coins': coin
   'calculate': calculate,
   }
 
