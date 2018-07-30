@@ -16,13 +16,13 @@ import passwords
 from profanityfilter import ProfanityFilter
 
 
-fc_insert_str = 'INSERT INTO friendcodes (id, fc, url) VALUES (?, ?, ?);'
+fc_insert_str = 'INSERT INTO userinfo (id, fc, url) VALUES (?, ?, ?);'
 
-fc_select_str = 'SELECT fc, url FROM friendcodes WHERE id=?;'
+fc_select_str = 'SELECT fc, url FROM userinfo WHERE id=?;'
 
-fc_update_str = 'UPDATE friendcodes SET fc=?, url=? WHERE id=?;'
+fc_update_str = 'UPDATE userinfo SET fc=?, url=? WHERE id=?;'
 
-fc_delete_str = 'DELETE FROM friendcodes WHERE id=?;'
+fc_delete_str = 'DELETE FROM userinfo WHERE id=?;'
 
 
 tsv_insert_str = 'INSERT INTO tsv (id, tsv, game) VALUES (?, ?, ?);'
@@ -36,33 +36,31 @@ tsv_select_str = 'SELECT tsv, game FROM tsv WHERE id=?;'
 tsv_dump_str = 'SELECT * FROM tsv'
 
 
-reddit_insert_str = 'INSERT INTO reddit (id, name) VALUES (?, ?);'
+reddit_insert_str = 'INSERT INTO userinfo (id, reddit) VALUES (?, ?);'
 
-reddit_select_str = 'SELECT name FROM reddit WHERE id=?;'
+reddit_select_str = 'SELECT reddit FROM userinfo WHERE id=?;'
 
-reddit_select_name_str = 'SELECT id FROM reddit WHERE lower(name)=?;'
+reddit_select_name_str = 'SELECT id FROM userinfo WHERE lower(reddit)=?;'
 
-reddit_update_str = 'UPDATE reddit SET name=? WHERE id=?;'
-
-reddit_delete_str = 'DELETE FROM reddit WHERE id=?;'
+reddit_update_str = 'UPDATE userinfo SET reddit=? WHERE id=?;'
 
 
-swear_insert_str = 'INSERT INTO swears (id,count) VALUES (?, 1);'
+swear_insert_str = 'INSERT INTO userinfo (id,swears) VALUES (?, 1);'
 
-swear_select_str = 'SELECT count FROM swears WHERE id=?;'
+swear_select_str = 'SELECT swears FROM userinfo WHERE id=?;'
 
-swear_update_str = 'UPDATE swears SET count=count+1 WHERE id=?;'
+swear_update_str = 'UPDATE userinfo SET swears=swears+1 WHERE id=?;'
 
-swear_dump_str = 'SELECT * from swears ORDER BY count DESC;'
+swear_dump_str = 'SELECT id, swears from userinfo WHERE swears>=? ORDER BY swears DESC;'
 
 
-coins_insert_str = 'INSERT INTO coins (id, count) VALUES (?, ?);'
+coins_insert_str = 'INSERT INTO userinfo (id, coins) VALUES (?, ?);'
 
-coins_select_str = 'SELECT count FROM coins WHERE id=?;'
+coins_select_str = 'SELECT coins FROM userinfo WHERE id=?;'
 
-coins_update_str = 'UPDATE coins SET count=? WHERE id=?;'
+coins_update_str = 'UPDATE userinfo SET coins=? WHERE id=?;'
 
-coins_dump_str = 'SELECT * from coins ORDER BY count DESC;'
+coins_dump_str = 'SELECT id, coins from userinfo WHERE coins>0 ORDER BY coins DESC;'
 
 singles_types = ['grass', 'flying', 'poison', 'fairy', 'ice', 'normal', 'ground', 'rock']
 
@@ -183,7 +181,7 @@ singles_e4_embed=discord.Embed(title='Congratulations Challenger!',
      - PVL''')
 
 
-connection = sqlite3.connect("/root/verse-bot/friendcodes.db")
+connection = sqlite3.connect("/root/badgebot/userinfo.db")
 cursor = connection.cursor()
 
 reddit = praw.Reddit(user_agent='PokeVerseLeagueBot v0.1',
@@ -404,7 +402,7 @@ def redditname_to_discordname(redditname, server):
 def redditname_to_id(redditname):
   cursor.execute(reddit_select_name_str, (redditname.lower(),))
   result = cursor.fetchone()
-  if result == None:
+  if result == None or result[0] == None:
     return None
   return result[0]
 
@@ -423,7 +421,7 @@ def discorduser_to_id(user):
 def id_to_redditname(discord_id):
   cursor.execute(reddit_select_str, (discord_id,))
   result = cursor.fetchone()
-  if result == None:
+  if result == None or result[0] == None:
     return None
   return result[0]
 

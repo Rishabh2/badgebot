@@ -5,7 +5,7 @@ async def getreddit(message, args):
     if len(args) > 0:
       cursor.execute(reddit_select_name_str, (args.lower(),))
       result = cursor.fetchone()
-      if result == None:
+      if result == None or result[0] == None:
         msg = 'There is no one on this server with the reddit username ' + args
       else:
         msg = id_to_discordname( result[0], message.server )
@@ -16,7 +16,7 @@ async def getreddit(message, args):
     user = user.id
   cursor.execute(reddit_select_str, (user,))
   result = cursor.fetchone()
-  if result == None:
+  if result == None or result[0] == None:
     msg = no_reddit_message.format(id_to_discordname(user, message.server))
   else:
     msg = result[0]
