@@ -25,6 +25,7 @@ from commands.wipe import *
 from commands.getchallenge import *
 from commands.time import *
 from commands.coin import *
+from commands.forcewipe import *
 
 def resetModules():
   for mod in modules:
@@ -79,10 +80,12 @@ modules = [
 'commands.wipe',
 'commands.time',
 'commands.coin',
+'commands.forcewipe'
 ]
 
 commands = {
   'help': help,
+  'commands': help,
   'setfc': setfc,
   'getfc': getfc,
   'getreddit': getreddit,
@@ -96,6 +99,7 @@ commands = {
   'dumptsv': dumptsv,
   'deletetsv': deletetsv,
   'badge': badge,
+  'win': badge,
   'loss': loss,
   'retry': retry,
   'cancel': cancel,
@@ -111,15 +115,52 @@ commands = {
   'getchallenge': getchallenge,
   'time': time,
   'coin': coin,
+  'coins': coin,
   'calculate': calculate,
+  'forcewipe': forcewipe
   }
 
 swear=40
 
+gcreator = None
+gstart = None
+
+def gcreate(message):
+  global gcreator
+  global gstart
+  if message.channel.id == '372924578483404802':
+    gcreator = message.author.id
+    gstart = message.timestamp
+  else:
+    gcreator = None
+    gstart = None
+
+def giveawaycheck(message):
+  if message.author.id not in [gcreator, giveawaybot]:
+    return False
+  if message.timestamp < gstart:
+    return False
+  if len(message.embeds) > 0:
+    return False
+  if message.pinned:
+    return False
+  return True
+
 @client.event
 async def on_message(message):
+  if message.author.id == giveawaybot and 'Done!' in message.content and message.channel.id == '372924578483404802' and gcreator != None and gstart != None:
+    await client.purge_from(message.channel, limit=50, check=giveawaycheck)
+  if message.author.id == giveawaybot and len(message.embeds) > 0:
+    await client.pin_message(message)
+  if message.author.id == giveawaybot and 'Congratulations' in message.content:
+    await asyncio.sleep(5)
+    pins = await client.pins_from(message.channel)
+    for p in pins:
+      if 'ENDED' in p.content:
+        await client.unpin_message(p)
   if message.author.bot:
     return
+
   try:
     s = message.server.id
   except:
@@ -132,7 +173,7 @@ async def on_message(message):
       await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'!')
       cursor.execute(swear_select_str, (message.author.id,))
       result = cursor.fetchone()
-      if result == None:
+      if result == None or result[0] == None:
         cursor.execute(swear_insert_str, (message.author.id,))
       else:
         cursor.execute(swear_update_str, (message.author.id,))
@@ -147,8 +188,8 @@ async def on_message(message):
   else:
     text = message.content
 
-  #if 'pikasnap' in text.lower():
-    #await client.send_message(message.channel, embed=make_embed(None, 'https://cdn.discordapp.com/attachments/365313213673373706/465698751177031690/pikasnapmk4.gif', None))
+  if text.startswith('g!create') or text.startswith('!gcreate'):
+    gcreate(message)
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)

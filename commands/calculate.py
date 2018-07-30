@@ -1,6 +1,6 @@
 from header import *
 async def calculate(message, args):
-  allowed_chars = ['+','-','*','/','^','0','1','2','3','4','5','6','7','8','9','.']
+  allowed_chars = '+-*/^0123456789.() '
   if all([c in allowed_chars for c in args]):
     try:
       args = eval(args)

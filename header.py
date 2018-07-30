@@ -16,13 +16,13 @@ import passwords
 from profanityfilter import ProfanityFilter
 
 
-fc_insert_str = 'INSERT INTO friendcodes (id, fc, url) VALUES (?, ?, ?);'
+fc_insert_str = 'INSERT INTO userinfo (id, fc, url) VALUES (?, ?, ?);'
 
-fc_select_str = 'SELECT fc, url FROM friendcodes WHERE id=?;'
+fc_select_str = 'SELECT fc, url FROM userinfo WHERE id=?;'
 
-fc_update_str = 'UPDATE friendcodes SET fc=?, url=? WHERE id=?;'
+fc_update_str = 'UPDATE userinfo SET fc=?, url=? WHERE id=?;'
 
-fc_delete_str = 'DELETE FROM friendcodes WHERE id=?;'
+fc_delete_str = 'DELETE FROM userinfo WHERE id=?;'
 
 
 tsv_insert_str = 'INSERT INTO tsv (id, tsv, game) VALUES (?, ?, ?);'
@@ -36,33 +36,31 @@ tsv_select_str = 'SELECT tsv, game FROM tsv WHERE id=?;'
 tsv_dump_str = 'SELECT * FROM tsv'
 
 
-reddit_insert_str = 'INSERT INTO reddit (id, name) VALUES (?, ?);'
+reddit_insert_str = 'INSERT INTO userinfo (id, reddit) VALUES (?, ?);'
 
-reddit_select_str = 'SELECT name FROM reddit WHERE id=?;'
+reddit_select_str = 'SELECT reddit FROM userinfo WHERE id=?;'
 
-reddit_select_name_str = 'SELECT id FROM reddit WHERE lower(name)=?;'
+reddit_select_name_str = 'SELECT id FROM userinfo WHERE lower(reddit)=?;'
 
-reddit_update_str = 'UPDATE reddit SET name=? WHERE id=?;'
-
-reddit_delete_str = 'DELETE FROM reddit WHERE id=?;'
+reddit_update_str = 'UPDATE userinfo SET reddit=? WHERE id=?;'
 
 
-swear_insert_str = 'INSERT INTO swears (id,count) VALUES (?, 1);'
+swear_insert_str = 'INSERT INTO userinfo (id,swears) VALUES (?, 1);'
 
-swear_select_str = 'SELECT count FROM swears WHERE id=?;'
+swear_select_str = 'SELECT swears FROM userinfo WHERE id=?;'
 
-swear_update_str = 'UPDATE swears SET count=count+1 WHERE id=?;'
+swear_update_str = 'UPDATE userinfo SET swears=swears+1 WHERE id=?;'
 
-swear_dump_str = 'SELECT * from swears ORDER BY count DESC;'
+swear_dump_str = 'SELECT id, swears from userinfo WHERE swears>=? ORDER BY swears DESC;'
 
 
-coins_insert_str = 'INSERT INTO coins (id, count) VALUES (?, ?);'
+coins_insert_str = 'INSERT INTO userinfo (id, coins) VALUES (?, ?);'
 
-coins_select_str = 'SELECT count FROM coins WHERE id=?;'
+coins_select_str = 'SELECT coins FROM userinfo WHERE id=?;'
 
-coins_update_str = 'UPDATE coins SET count=? WHERE id=?;'
+coins_update_str = 'UPDATE userinfo SET coins=? WHERE id=?;'
 
-coins_dump_str = 'SELECT * from coins ORDER BY count DESC;'
+coins_dump_str = 'SELECT id, coins from userinfo WHERE coins>0 ORDER BY coins DESC;'
 
 singles_types = ['grass', 'flying', 'poison', 'fairy', 'ice', 'normal', 'ground', 'rock']
 
@@ -140,51 +138,16 @@ no_leader_message = "Please tag the Gym Leader you are battling in a comment"
 badgesheet_message = ">**Hello Challenger!** Your badgesheet has been created. Check it out [here](https://www.reddit.com/r/pokeverseleague/wiki/s2lps/{})"
 
 
-help_message = '''**How To Friend Codes!**
+help_message = discord.Embed(title="Badgebot Commands", color=discord.Color(0x85bff8), description="Below is the documentation for the various badgebot commands.")
+help_message.set_footer(text="Please contact H2owsome with any questions.")
+help_message.add_field(name="Friends", value="Commands related to 3DS Friend Codes:\n!setFC Text - Sets your Friend Code to the specified Text\n!getFC/!getFC @User - Obtains your or the tagged user's FC")
+help_message.add_field(name="TSV", value="Commands related to your games' shiny values:\n!addTSV XXXX GameName\n!deleteTSV XXXX - Deletes all instances of a given TSV you own\n!getTSV - Obtains all users with a matching TSV\n!gettsv @User - Get the user's TSVs\n!dumpTSV - Lists all TSVs on the server")
+help_message.add_field(name="Reddit", value="Commands related to Reddit accounts:\n!setReddit Username - Links your discord and reddit accounts. *setReddit must be used before obtaining badges.*\n!getReddit @User - Obtains user's reddit account.\n!getLP @User - Obtains the tagged user's league pass.\n!getBadges @User - Obtains the tagged user's badges.\n*You may also provide a Reddit username to the above functions.*")
+help_message.add_field(name="Misc", value="!gettime - Obtains the amount of time until you may challenge.\n!est - Obtains the time in the EST timezone\n!time TimeZone - Obtains the time in the specified time zone.\n!calculate - Performs basic math calculations.\n!leaks - Toggles access to the #leaks-and-spoilers channel.\n!coin - Get a list of who has PVL coins\n!coin @User - check how many coins a user has\n", inline=True)
 
-*!setfc XXXX-XXXX-XXXX Additional Text Here* - Sets your FC
-     -The additional text can be your IGN, games, etc.
-     -You can also include a picture, if you like!
-*!getfc* - fetches your own FC
-*!getfc @someone* - fetches tagged user's FC
-
-**How To TSV!**
-
-*!addtsv XXXX Game Name Here* - adds your TSV to the database.
-     -If you have multiple games, please only add ONE AT A TIME to the bot. You can add multiple, but need to enter each TSV SEPARATELY
-*!gettsv* - pulls up a list of all TSVs that you have entered
-*!deletetsv XXXX* - deletes TSV that you have entered with the value XXXX
-*!gettsv XXXX* - pulls up a list of anyone who has entered their TSV as value XXXX in the database
-*!dumptsv* - lists all tsvs currently stored on the server
-
-**How To Reddit!**
-
-*!setreddit redditusername* - links your Reddit username with your Discord Account. Required to earn badges.
-     -Do NOT put anything that's not your Reddit username into the bot. Enter as "username" not "u/username"
-*!getreddit @someone* - fetches @someone's Reddit username
-*!getreddit redditusername* - fetches the discord name of the user with the specified reddit name
-
-*!getLP @someone* - fetches a quick link to @someone's League Pass
-*!getLP redditusername* - fetches redditusername's LP in the event that they have not set their username with badge bot
-
-*!getBadges @someone* - fetches a quick link to @someone's Records Page
-*!getBadges redditusername* - fetches redditusername's Records Page in the event that they have not set their username with badge bot
-
-**Misc**
-
-*!gettime - get the time remainaing until you can send your next gym leader challenge
-*!leaks - toggle access to the leaks and spoilers channel
-
-**If you still have questions, contact H2owsome**'''
-
-help_message_mod = '''**GLs/FBs only:**
-*!badge @someone badgename* - assigns a badge and autoflairs user's reddit post
-*!loss @someone badgename* - assings a loss and autoflairs user's reddit post
-*!retry @someone badgename* - approves a retry
-*!cancel @someone badgename* - cancels someone's challenge
-
-For any of these commands, if someone has not registered their redditname, ask them to do so
-**If a command does not work, DO NOT try it again. Double check if it went through on reddit, and if not, please contact H2owsome**'''
+help_message_mod = discord.Embed(title="GLs/Mods only:", color=discord.Color(0x85bff8), description="These commands are for use with the official Gym Challenge.\nIf a command fails, do not repeatedly attempt to use it.")
+help_message_mod.set_footer(text="Please contact H2owsome with any questions.")
+help_message_mod.add_field(name="Commands", value="!badge @someone badgename - assigns a badge and autoflairs user's reddit post\n!loss @someone badgename - assings a loss and autoflairs user's reddit post\nretry @someone badgename - approves a retry\n!cancel @someone badgename - cancels someone's challengei\n!wipe - wipe your channel\nFor any of these commands, if someone has not registered their redditname, ask them to do so", inline=True)
 
 invalid_command_message = 'There was a problem with that command, pm me for "!help" for a full list of commands with instructions'
 
@@ -218,7 +181,7 @@ singles_e4_embed=discord.Embed(title='Congratulations Challenger!',
      - PVL''')
 
 
-connection = sqlite3.connect("/root/verse-bot/friendcodes.db")
+connection = sqlite3.connect("/root/badgebot/userinfo.db")
 cursor = connection.cursor()
 
 reddit = praw.Reddit(user_agent='PokeVerseLeagueBot v0.1',
@@ -235,6 +198,7 @@ season_start_date = datetime.datetime(2018, 6, 1) # June 1st 2018, LP limit
 
 pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
 
+giveawaybot = '294882584201003009'
 
 logger = logging.getLogger('discord')
 logger.setLevel(logging.ERROR)
@@ -438,7 +402,7 @@ def redditname_to_discordname(redditname, server):
 def redditname_to_id(redditname):
   cursor.execute(reddit_select_name_str, (redditname.lower(),))
   result = cursor.fetchone()
-  if result == None:
+  if result == None or result[0] == None:
     return None
   return result[0]
 
@@ -457,7 +421,7 @@ def discorduser_to_id(user):
 def id_to_redditname(discord_id):
   cursor.execute(reddit_select_str, (discord_id,))
   result = cursor.fetchone()
-  if result == None:
+  if result == None or result[0] == None:
     return None
   return result[0]
 
