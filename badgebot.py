@@ -26,6 +26,7 @@ from commands.getchallenge import *
 from commands.time import *
 from commands.coin import *
 from commands.forcewipe import *
+from commands.info import *
 
 def resetModules():
   for mod in modules:
@@ -80,7 +81,8 @@ modules = [
 'commands.wipe',
 'commands.time',
 'commands.coin',
-'commands.forcewipe'
+'commands.forcewipe',
+'commands.info',
 ]
 
 commands = {
@@ -117,7 +119,8 @@ commands = {
   'coin': coin,
   'coins': coin,
   'calculate': calculate,
-  'forcewipe': forcewipe
+  'forcewipe': forcewipe,
+  'info': info,
   }
 
 swear=40
@@ -148,7 +151,7 @@ def giveawaycheck(message):
 
 @client.event
 async def on_message(message):
-  if message.author.id == giveawaybot and 'Done!' in message.content and message.channel.id == '372924578483404802' and gcreator != None and gstart != None:
+  if message.author.id == giveawaybot and ('Done!' in message.content or 'Alright,' in message.content) and message.channel.id == '372924578483404802' and gcreator != None and gstart != None:
     await client.purge_from(message.channel, limit=50, check=giveawaycheck)
   if message.author.id == giveawaybot and len(message.embeds) > 0:
     await client.pin_message(message)
@@ -188,7 +191,7 @@ async def on_message(message):
   else:
     text = message.content
 
-  if text.startswith('g!create') or text.startswith('!gcreate'):
+  if text.lower().startswith('g!create') or text.lower().startswith('!gcreate'):
     gcreate(message)
 
   if len(text) > 0 and text[0] == '!':

@@ -62,6 +62,8 @@ coins_update_str = 'UPDATE userinfo SET coins=? WHERE id=?;'
 
 coins_dump_str = 'SELECT id, coins from userinfo WHERE coins>0 ORDER BY coins DESC;'
 
+info_dump_str = 'SELECT * from userinfo WHERE id=?;'
+
 singles_types = ['grass', 'flying', 'poison', 'fairy', 'ice', 'normal', 'ground', 'rock']
 
 singles_leaders = ['Yuknessia', 'RoPr-Crusader', 'Zavtra13', 'hannyfish', 'TheRogueCookie', 'silent_sage93', '--Tort--', 'Esskido']
