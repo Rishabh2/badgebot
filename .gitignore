@@ -38,5 +38,6 @@ Thumbs.db
 
 *pycache*
 passwords.py
+commands/custom.py
 *.sh
 *.db

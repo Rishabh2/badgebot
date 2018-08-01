@@ -12,4 +12,4 @@ async def setreddit(message, args):
       cursor.execute(reddit_update_str, (args, user))
     connection.commit()
     msg = 'Reddit username set to ' + args
-  await client.send_message(message.channel, args)
+  await client.send_message(message.channel, msg)

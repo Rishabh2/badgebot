@@ -176,10 +176,9 @@ async def on_message(message):
       await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'!')
       cursor.execute(swear_select_str, (message.author.id,))
       result = cursor.fetchone()
-      if result == None or result[0] == None:
+      if result == None:
         cursor.execute(swear_insert_str, (message.author.id,))
-      else:
-        cursor.execute(swear_update_str, (message.author.id,))
+      cursor.execute(swear_update_str, (message.author.id,))
       connection.commit()
 
   m = re.search(tag_err_reg, message.content)

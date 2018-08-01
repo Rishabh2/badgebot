@@ -45,7 +45,7 @@ reddit_select_name_str = 'SELECT id FROM userinfo WHERE lower(reddit)=?;'
 reddit_update_str = 'UPDATE userinfo SET reddit=? WHERE id=?;'
 
 
-swear_insert_str = 'INSERT INTO userinfo (id,swears) VALUES (?, 1);'
+swear_insert_str = 'INSERT INTO userinfo (id,swears) VALUES (?, 0);'
 
 swear_select_str = 'SELECT swears FROM userinfo WHERE id=?;'
 
