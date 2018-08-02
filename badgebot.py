@@ -27,6 +27,7 @@ from commands.time import *
 from commands.coin import *
 from commands.forcewipe import *
 from commands.info import *
+from commands.draft import *
 
 def resetModules():
   for mod in modules:
@@ -83,6 +84,7 @@ modules = [
 'commands.coin',
 'commands.forcewipe',
 'commands.info',
+'commands.draft',
 ]
 
 commands = {
@@ -121,6 +123,7 @@ commands = {
   'calculate': calculate,
   'forcewipe': forcewipe,
   'info': info,
+  'draft':draft,
   }
 
 swear=40
@@ -173,14 +176,14 @@ async def on_message(message):
     global swear
     swear = (swear + 1)%50
     if swear == 0:
-      
+
       roles = message.server.roles
       for role in roles:
         if role.name=='Giveaways':
           give_role=role
       if not any([role == give_role for role in message.author.roles]):
         await client.add_roles(message.author, give_role)
-        
+
       await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'!')
       cursor.execute(swear_select_str, (message.author.id,))
       result = cursor.fetchone()

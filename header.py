@@ -12,6 +12,9 @@ import time
 import importlib
 import logging
 import os
+from apiclient.discovery import build
+from httplib2 import Http
+from oauth2client import file as oauth_file, client as gclient, tools
 import passwords
 from profanityfilter import ProfanityFilter
 
@@ -207,6 +210,16 @@ logger.setLevel(logging.ERROR)
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
+
+SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
+TEMPLATE_ID = '1mOA3Rxj8TSud5iirB8LcIDmiZ1UpmVAYVfAuaBKGtTk'
+
+store = oauth_file.Storage('/root/badgebot/token.json')
+creds = store.get()
+if not creds or creds.invalid:
+  flow = gclient.flow_from_clientsecrets('/root/badgebot/credentials.json', SCOPES)
+  creds = tools.run_flow(flow, store)
+service = build('sheets', 'v4', http=creds.authorize(Http()))
 
 def add_badge( username, badge ):
   badgesheet = subreddit.wiki['s2lps/' + username]
