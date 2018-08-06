@@ -48,11 +48,13 @@ reddit_select_name_str = 'SELECT id FROM userinfo WHERE lower(reddit)=?;'
 reddit_update_str = 'UPDATE userinfo SET reddit=? WHERE id=?;'
 
 
-swear_insert_str = 'INSERT INTO userinfo (id,swears) VALUES (?, 0);'
+swear_insert_str = 'INSERT INTO userinfo (id,swears) VALUES (?, 1);'
 
 swear_select_str = 'SELECT swears FROM userinfo WHERE id=?;'
 
 swear_update_str = 'UPDATE userinfo SET swears=swears+1 WHERE id=?;'
+
+swear_begin_str = 'UPDATE userinfo SET swears=1 WHERE id=?;'
 
 swear_dump_str = 'SELECT id, swears from userinfo WHERE swears>=? ORDER BY swears DESC;'
 
@@ -66,6 +68,10 @@ coins_update_str = 'UPDATE userinfo SET coins=? WHERE id=?;'
 coins_dump_str = 'SELECT id, coins from userinfo WHERE coins>0 ORDER BY coins DESC;'
 
 info_dump_str = 'SELECT * from userinfo WHERE id=?;'
+
+draft_select_str = 'SELECT conference, team FROM draft WHERE id=?;'
+
+draft_insert_str = 'INSERT INTO draft (id, conference, team) VALUES (?,?,?);'
 
 singles_types = ['grass', 'flying', 'poison', 'fairy', 'ice', 'normal', 'ground', 'rock']
 
@@ -202,7 +208,9 @@ client = discord.Client()
 season_start_date = datetime.datetime(2018, 6, 1) # June 1st 2018, LP limit
 
 pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
-
+words = pf.get_profane_words()
+words.remove('gay')
+pf.define_words(words)
 giveawaybot = '294882584201003009'
 
 logger = logging.getLogger('discord')
@@ -211,8 +219,8 @@ handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w'
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
 
-SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
-TEMPLATE_ID = '1mOA3Rxj8TSud5iirB8LcIDmiZ1UpmVAYVfAuaBKGtTk'
+SCOPES = 'https://www.googleapis.com/auth/spreadsheets'
+TEMPLATE_ID = '171F6N1PCm_wIi-pqzsRz71P2AL0McvPAQ62qMbYnbSE'
 
 store = oauth_file.Storage('/root/badgebot/token.json')
 creds = store.get()
