@@ -55,6 +55,6 @@ async def time(message, args):
   elif args == 'why':
     await client.send_message(message.channel, 'https://youtu.be/-5wpm-gesOY')
   elif len(args) == 0:
-    await client.send_message(message.channel, "Valid timezones include: gmt, cat, agt, bet, est, iet, prt, cst, mst, pst, pnt, ast, hst, mit, nst, sst, aet, jst, kst, ctt, vst, plt, net, eat, art, cet, eet, bst, utc. Please contact Scepti if you would like a timezone added. ^_^")
+    await client.send_message(message.channel, "Valid timezones include: gmt, cat, agt, bet, est, iet, prt, cst, mst, pst, pnt, ast, hst, mit, nst, sst, aet, jst, kst, ctt, vst, plt, net, eat, art, cet, eet, bst, utc.")
   else:
     await client.send_message(message.channel, str(args) + " is not a valid timezone, please use `!time` for a list of included timezones.")

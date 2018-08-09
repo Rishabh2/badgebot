@@ -210,6 +210,11 @@ season_start_date = datetime.datetime(2018, 6, 1) # June 1st 2018, LP limit
 pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
 words = pf.get_profane_words()
 words.remove('gay')
+words.remove('gaybor')
+words.remove('gayboy')
+words.remove('gaygirl')
+words.remove('gays')
+words.remove('gayz')
 pf.define_words(words)
 giveawaybot = '294882584201003009'
 

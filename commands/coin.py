@@ -23,7 +23,7 @@ async def coin(message, args):
     if user == None:
       user = redditname_to_discorduser(name, message.server)
     if user == None:
-      msg = 'There is no once on the server with the reddit name ' + name
+      msg = 'There is no one on the server with the reddit name ' + name
     else:
       userid = discorduser_to_id(user)
       cursor.execute(coins_select_str, (userid,))
