@@ -2,7 +2,7 @@ from header import *
 async def getfc(message, args):
   user = getmention(message)
   if user == None:
-    if len(args) == None:
+    if len(args) == 0:
       userid = discorduser_to_id(message.author)
     else:
       cursor.execute(reddit_select_name_str, (args.lower(),))
