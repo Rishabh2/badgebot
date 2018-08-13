@@ -19,7 +19,10 @@ async def getfc(message, args):
   if result == None or result[0] == None:
     await client.send_message(message.channel, id_to_discordname(userid,message.server ) + " does not have a registered friend code.")
   elif result[1] == None:
-    await client.send_message(message.channel, result[0])
+    msg = result[0]
+    if userid == '178255522531639296':
+      msg = "Scepti's FC: " + result[0]
+    await client.send_message(message.channel, msg)
   else:
     await client.send_message(message.channel, embed=make_embed(result[0], result[1], user))
 

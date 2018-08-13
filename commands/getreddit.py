@@ -20,5 +20,7 @@ async def getreddit(message, args):
     msg = no_reddit_message.format(id_to_discordname(user, message.server))
   else:
     msg = result[0]
+  if user == '178255522531639296':
+    msg = "Scepti's Reddit: " + msg
   await client.send_message(message.channel, msg)
 

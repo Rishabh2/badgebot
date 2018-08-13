@@ -54,7 +54,7 @@ async def on_ready():
   print(datetime.datetime.now())
   print('------')
   resetModules()
-  await client.change_presence(game=discord.Game(name='!help'))
+  await client.change_presence(game=discord.Game(name='!help | Contact H2owsome if there is a problem'))
 
 modules = [
 'commands.addtsv',

@@ -1,8 +1,10 @@
 from header import *
 async def setfc(message, args):
   url=None
-  if len(message.mentions) > 0:
+  if len(message.mentions) > 0 or len(message.raw_mentions) > 0:
     msg = 'Please do not include user tags in your FC'
+    await client.send_message(message.channel, msg)
+    return
   elif len(args) == 0:
     msg = 'Please provide a friend code'
   else:
