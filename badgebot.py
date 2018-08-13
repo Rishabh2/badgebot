@@ -44,7 +44,8 @@ async def reset(message, args):
 
 @client.event
 async def on_member_remove(member):
-  await client.send_message(client.get_channel('378725359014641667'), discorduser_to_discordname(member) + ' has left')
+  if member.server.id == '372042060913442818':
+    await client.send_message(client.get_channel('378725359014641667'), discorduser_to_discordname(member) + ' has left')
 
 @client.event
 async def on_ready():
