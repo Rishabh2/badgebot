@@ -81,7 +81,7 @@ async def draft(message, args):
               body={'majorDimension':'ROWS','values':[[args, None, cost]], 'range':'Rosters!'+mon_col+str(row)+':'+point_col+str(row)}, valueInputOption='USER_ENTERED').execute()
           # Next, add it to the draft column
           draftlist = service.spreadsheets().values().get(spreadsheetId=sheet,range='Draft!B3:B', majorDimension='COLUMNS').execute()
-          draftcount = len(draftlist.get('values', [])) + 3
+          draftcount = len(draftlist.get('values', [])[0]) + 3
           service.spreadsheets().values().update(spreadsheetId=sheet, range='Draft!B'+str(draftcount), body={'majorDimension':'ROWS', 'values':[[args]], 'range':'Draft!B'+str(draftcount)}, valueInputOption='USER_ENTERED').execute()
           await client.send_message(message.channel, 'Done')
           return
