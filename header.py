@@ -67,11 +67,14 @@ coins_update_str = 'UPDATE userinfo SET coins=? WHERE id=?;'
 
 coins_dump_str = 'SELECT id, coins from userinfo WHERE coins>0 ORDER BY coins DESC;'
 
+
 info_dump_str = 'SELECT * from userinfo WHERE id=?;'
+
 
 draft_select_str = 'SELECT conference, team FROM draft WHERE id=?;'
 
 draft_insert_str = 'INSERT INTO draft (id, conference, team) VALUES (?,?,?);'
+
 
 singles_types = ['grass', 'flying', 'poison', 'fairy', 'ice', 'normal', 'ground', 'rock']
 
@@ -225,14 +228,18 @@ handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(me
 logger.addHandler(handler)
 
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets'
-TEMPLATE_ID = '171F6N1PCm_wIi-pqzsRz71P2AL0McvPAQ62qMbYnbSE'
-
+TEMPLATE_ID = '1nrDrIZ-XmpHw7dF8EMc0LXMSYOhoXTqoX4WO-k8jAgk'
+SHEET_IDS = ['1HdtNLRyAMPCD2DYas7ChcS1luKcUTi4AvrdMIsbm1PQ', '1E6ew94iL4FaV2rWCIOdn_ibdFE3hJ_20lR-UmFDLwtk']
+TEAM_COLS = 'C,F,I,L,O,R,U,X,AA,AD,AG,AJ'.split(',')
+POINT_COLS = 'E,H,K,N,Q,T,W,Z,AC,AF,AI,AL'.split(',')
 store = oauth_file.Storage('/root/badgebot/token.json')
 creds = store.get()
 if not creds or creds.invalid:
   flow = gclient.flow_from_clientsecrets('/root/badgebot/credentials.json', SCOPES)
   creds = tools.run_flow(flow, store)
 service = build('sheets', 'v4', http=creds.authorize(Http()))
+
+
 
 def add_badge( username, badge ):
   badgesheet = subreddit.wiki['s2lps/' + username]
