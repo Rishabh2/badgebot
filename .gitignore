@@ -41,4 +41,4 @@ Thumbs.db
 passwords.py
 commands/custom.py
 *.sh
-*.db
+*.db*

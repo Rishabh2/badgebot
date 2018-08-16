@@ -36,8 +36,9 @@ async def coin(message, args):
           cursor.execute(coins_insert_str, (userid, change))
           msg = change
         else:
-          cursor.execute(coins_update_str, (change+result[0], userid))
-          msg = change+result[0]
+          value = 0 if result[0] == None else result[0]
+          cursor.execute(coins_update_str, (change+value, userid))
+          msg = change+value
       elif change==None:
         msg = 0
       else:
