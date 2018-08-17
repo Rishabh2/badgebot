@@ -42,11 +42,12 @@ async def coin(message, args):
         else:
           value = 0 if result[0] == None else result[0]
           cursor.execute(coins_update_str, (change+value, userid))
-          msg = value + " => " + (change+value)
-        embed.add_field("Coins for"+discorduser_to_discordname(user),value=msg)
+          msg = str(value) + " => " + str(change+value)
+        embed.add_field(name="Coins for"+discorduser_to_discordname(user),value=msg)
       elif change==None:
-        embed.add_field("Coins for"+discorduser_to_discordname(user),value="0")
+        embed.add_field(name="Coins for"+discorduser_to_discordname(user),value="0")
       else:
         msg = no_permissions_message
         embed.add_field(name="Error!",value=msg)
+  connection.commit()
   await client.send_message(message.channel, embed=embed)
