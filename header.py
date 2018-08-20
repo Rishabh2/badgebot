@@ -309,7 +309,7 @@ def get_league_pass(username):
   for x in author.submissions.new(limit=100):
     if x.subreddit == subreddit and x.link_flair_text  == 'League Pass' and replied(x)>0 and season_start_date < datetime.datetime.utcfromtimestamp(x.created_utc):
       return x
-  return username + ' does not have a registered league pass'
+  return username + ' register your League Pass! Or face the wrath of  <@!103049236525887488>.'
 
 def getmention(message):
   return message.mentions[0] if len(message.mentions) > 0 else None
