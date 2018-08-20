@@ -210,7 +210,7 @@ client = discord.Client()
 
 season_start_date = datetime.datetime(2018, 6, 1) # June 1st 2018, LP limit
 
-pf = ProfanityFilter(extra_censor_list=['twat','bellend', 'bloody', 'bugger'])
+pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
 words = pf.get_profane_words()
 words.remove('gay')
 words.remove('gaybor')
