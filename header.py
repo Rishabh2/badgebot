@@ -210,7 +210,7 @@ client = discord.Client()
 
 season_start_date = datetime.datetime(2018, 6, 1) # June 1st 2018, LP limit
 
-pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
+pf = ProfanityFilter(extra_censor_list=['twat','bellend', 'bloody', 'bugger'])
 words = pf.get_profane_words()
 words.remove('gay')
 words.remove('gaybor')
@@ -309,7 +309,7 @@ def get_league_pass(username):
   for x in author.submissions.new(limit=100):
     if x.subreddit == subreddit and x.link_flair_text  == 'League Pass' and replied(x)>0 and season_start_date < datetime.datetime.utcfromtimestamp(x.created_utc):
       return x
-  return username + ' does not have a registered league pass'
+  return username + ' register your League Pass! Or face the wrath of  <@!103049236525887488>.'
 
 def getmention(message):
   return message.mentions[0] if len(message.mentions) > 0 else None
