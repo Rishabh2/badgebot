@@ -28,6 +28,7 @@ from commands.coin import *
 from commands.forcewipe import *
 from commands.info import *
 from commands.draft import *
+from commands.art import *
 
 def resetModules():
   for mod in modules:
@@ -86,6 +87,7 @@ modules = [
 'commands.forcewipe',
 'commands.info',
 'commands.draft',
+'commands.art'
 ]
 
 commands = {
@@ -125,6 +127,7 @@ commands = {
   'forcewipe': forcewipe,
   'info': info,
   'draft':draft,
+  'art':art
   }
 
 swear=40
@@ -135,7 +138,7 @@ gstart = None
 def gcreate(message):
   global gcreator
   global gstart
-  if message.channel.id == '372924578483404802':
+  if message.channel.id == '480933325759053854':
     gcreator = message.author.id
     gstart = message.timestamp
   else:
@@ -155,7 +158,7 @@ def giveawaycheck(message):
 
 @client.event
 async def on_message(message):
-  if message.author.id == giveawaybot and ('Done!' in message.content or 'Alright,' in message.content) and message.channel.id == '372924578483404802' and gcreator != None and gstart != None:
+  if message.author.id == giveawaybot and ('Done!' in message.content or 'Alright,' in message.content) and message.channel.id == '480933325759053854' and gcreator != None and gstart != None:
     await client.purge_from(message.channel, limit=50, check=giveawaycheck)
   if message.author.id == giveawaybot and len(message.embeds) > 0:
     await client.pin_message(message)
