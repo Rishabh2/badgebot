@@ -29,6 +29,7 @@ from commands.forcewipe import *
 from commands.info import *
 from commands.draft import *
 from commands.art import *
+from commands.setlp import *
 
 def resetModules():
   for mod in modules:
@@ -87,7 +88,8 @@ modules = [
 'commands.forcewipe',
 'commands.info',
 'commands.draft',
-'commands.art'
+'commands.art',
+'commands.setlp'
 ]
 
 commands = {
@@ -127,7 +129,8 @@ commands = {
   'forcewipe': forcewipe,
   'info': info,
   'draft':draft,
-  'art':art
+  'art':art,
+  'setlp':setlp
   }
 
 swear=40
