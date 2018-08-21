@@ -7,12 +7,15 @@ async def setlp(message, args):
     await client.send_message(c, 'Now, enter the names of your first 6 pokemon:')
     await client.send_message(c, 'Type "cancel" to cancel')
     mons = []
-    for _ in range(6):
+    while len(mons) < 6:
       resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
       if resp == None or resp.content.lower() == 'cancel':
         await client.send_message(c, 'Bye')
         return
-      mons.append(resp.content)
+      if resp.content in pokemon_list:
+        mons.append(resp.content)
+      else:
+        await client.send_message(c, 'That is not a Pokemon I know. Double check spelling and capitalization, and you may need to specfiy form')
     await client.send_message(c, 'Alright, your pokemon are: ' + ', '.join(mons))
     await client.send_message(c, 'Is this correct? (y/n)')
     resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
