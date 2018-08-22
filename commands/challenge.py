@@ -1,7 +1,11 @@
 from header import *
 async def challenge(message, args):
   userid = message.author.id
-  if issingles(args):
+  cursor.execute('SELECT * FROM betalp WHERE id=?', (userid,))
+  result = cursor.fetchone()
+  if result == None:
+    msg = 'You do not have a league pass. Create one with !setlp'
+  elif issingles(args):
     cursor.execute('SELECT badge FROM betachallenge WHERE id=? AND status="O"', (userid,))
     result = cursor.fetchone()
     if result == None:

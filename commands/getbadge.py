@@ -3,12 +3,12 @@ async def getbadge(message, args):
   user = getmention(message)
   if user == None:
     user = message.author
-  cursor.execute('SELECT badges FROM betabadges WHERE id=?', (user.id,))
-  result = cursor.fetchone()
+  cursor.execute('SELECT badge FROM betabadges WHERE id=?', (user.id,))
+  result = cursor.fetchall()
   if result == None:
     msg = discorduser_to_discordname(user) + ' has no badges'
   else:
-    msg = result[0]
+    msg = '\n'.join([r[0] for r in result])
   await client.send_message(message.channel, msg)
 # async def getbadge(message, args):
 #   user = getmention(message)

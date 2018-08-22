@@ -195,8 +195,8 @@ singles_e4_embed=discord.Embed(title='Congratulations Challenger!',
 
      - PVL''')
 
-
-pokemon_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+with open('/root/badgebot/monlist', 'rb') as fp:
+  pokemon_list = pickle.load(fp)
 
 connection = sqlite3.connect("/root/badgebot/userinfo.db")
 cursor = connection.cursor()

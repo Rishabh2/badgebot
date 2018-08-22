@@ -9,16 +9,17 @@ async def badge(message, args):
       await client.send_message(message.channel, 'User does not have a matching challenge')
       return
     cursor.execute('UPDATE betachallenge SET status="W" WHERE id=? AND badge=? AND status="O"', (user.id, badge))
-    cursor.execute('SELECT * FROM betabadges WHERE id=?', (user.id,))
-    result = cursor.fetchone()
-    if result == None:
-      cursor.execute('INSERT INTO betabadges (id, badges) VALUES (?,?)', (user.id, badge))
+    cursor.execute('SELECT * FROM betabadges WHERE id=? AND badge=?', (user.id,badge))
+    result=cursor.fetchone()
+    if result != None:
+      await client.send_message(message.channel, 'User already has this badge')
     else:
-      cursor.execute('UPDATE betabadges SET badges=? WHERE id=?', (result[1]+'\n'+badge, user.id))
-    connection.commit()
-    await client.send_message(message.channel, 'Assigned ' + badge + ' badge to ' + discorduser_to_discordname(user))
+      cursor.execute('INSERT INTO betabadges (id, badge) VALUES (?,?)', (user.id, badge))
+      await client.send_message(message.channel, 'Assigned ' + badge + ' badge to ' + discorduser_to_discordname(user))
   else:
     await client.send_message(message.channel, no_permissions_message)
+  connection.commit()
+
 
 #async def badge(message, args):
 #   if haspermission(message.author):

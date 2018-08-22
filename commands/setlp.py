@@ -7,15 +7,15 @@ async def setlp(message, args):
   await client.send_message(c,'Time to set up your league pass!\nYou start with 6 main pokemon, and will unlock 4 sideboard slots as you continue.\nAs a reminder, legendary pokemon are not allowed in our format. The full details can be found on the subreddit wiki.')
   retry = False
   while not retry:
-    await client.send_message(c, 'Now, enter the names of your first 6 pokemon:')
     await client.send_message(c, 'Type "cancel" to cancel')
+    await client.send_message(c, 'Now, enter the names of your first 6 pokemon, one at a time:')
     mons = []
     while len(mons) < 6:
       resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
       if resp == None or resp.content.lower() == 'cancel':
         await client.send_message(c, 'Bye')
         return
-      if resp.content in pokemon_list:
+      if resp.content in pokemon_list[0]:
         mons.append(resp.content)
         await client.send_message(c, 'Added ' + resp.content)
       else:
