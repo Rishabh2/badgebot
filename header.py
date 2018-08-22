@@ -12,6 +12,7 @@ import time
 import importlib
 import logging
 import os
+import pickle
 from apiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file as oauth_file, client as gclient, tools
@@ -194,6 +195,8 @@ singles_e4_embed=discord.Embed(title='Congratulations Challenger!',
 
      - PVL''')
 
+with open('/root/badgebot/monlist', 'rb') as fp:
+  pokemon_list = pickle.load(fp)
 
 connection = sqlite3.connect("/root/badgebot/userinfo.db")
 cursor = connection.cursor()
