@@ -2,9 +2,15 @@ from header import *
 async def badge(message, args):
   if haspermission(message.author):
     user = getmention(message)
+    badge = args.split(maxsplit=1)[1]
+    cursor.execute('SELECT * FROM betachallenge WHERE id=? AND badge=? AND status="O"', (user.id, badge))
+    result = cursor.fetchone()
+    if result == None:
+      await client.send_message(message.channel, 'User does not have a matching challenge')
+      return
+    cursor.execute('UPDATE betachallenge SET status="W" WHERE id=? AND badge=? AND status="O"', (user.id, badge))
     cursor.execute('SELECT * FROM betabadges WHERE id=?', (user.id,))
     result = cursor.fetchone()
-    badge = args.split(maxsplit=1)[1]
     if result == None:
       cursor.execute('INSERT INTO betabadges (id, badges) VALUES (?,?)', (user.id, badge))
     else:

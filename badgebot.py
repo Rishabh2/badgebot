@@ -30,6 +30,7 @@ from commands.info import *
 from commands.draft import *
 from commands.art import *
 from commands.setlp import *
+from commands.challenge import *
 
 def resetModules():
   for mod in modules:
@@ -89,7 +90,8 @@ modules = [
 'commands.info',
 'commands.draft',
 'commands.art',
-'commands.setlp'
+'commands.setlp',
+'commands.challenge'
 ]
 
 commands = {
@@ -130,7 +132,8 @@ commands = {
   'info': info,
   'draft':draft,
   'art':art,
-  'setlp':setlp
+  'setlp':setlp,
+  'challenge':challenge
   }
 
 swear=40

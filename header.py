@@ -196,6 +196,8 @@ singles_e4_embed=discord.Embed(title='Congratulations Challenger!',
      - PVL''')
 
 
+pokemon_list = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+
 connection = sqlite3.connect("/root/badgebot/userinfo.db")
 cursor = connection.cursor()
 
