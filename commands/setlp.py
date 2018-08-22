@@ -29,9 +29,8 @@ async def setlp(message, args):
     retry = resp.content.lower()[0] == 'y'
   cursor.execute('SELECT * FROM betalp WHERE id=?', (message.author.id,))
   result = cursor.fetchone()
-  if result == None:
-    cursor.execute('INSERT INTO betalp (id, mon1, mon2, mon3, mon4, mon5, mon6) VALUES (?,?,?,?,?,?,?)', (message.author.id, *mons))
-  else:
-    cursor.execute('UPDATE betalp SET mon1=?, mon2=?, mon3=?, mon4=?, mon5=?, mon6=?) WHERE id=?', (*mons, message.author.id))
+  if result != None:
+    cursor.execute('DELETE FROM betalp WHERE id=?', (message.author.id,))
+  cursor.execute('INSERT INTO betalp (id, mon1, mon2, mon3, mon4, mon5, mon6) VALUES (?,?,?,?,?,?,?)', (message.author.id, *mons))
   connection.commit()
   await client.send_message(c, 'All Done!')
