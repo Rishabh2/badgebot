@@ -210,6 +210,9 @@ singles_e4_embed=discord.Embed(title='Congratulations Challenger!',
 with open('/root/badgebot/monlist', 'rb') as fp:
   pokemon_list = pickle.load(fp)
 
+sprite_url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'
+roster_url = 'https://raw.githubusercontent.com/Rishabh2/badgebot/master/rosters/{}.png'
+
 connection = sqlite3.connect("/root/badgebot/userinfo.db")
 cursor = connection.cursor()
 
