@@ -43,3 +43,4 @@ commands/custom.py
 *.sh
 *.db*
 monlist*
+*.png

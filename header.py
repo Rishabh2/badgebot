@@ -13,6 +13,8 @@ import importlib
 import logging
 import os
 import pickle
+from PIL import Image
+from io import BytesIO
 from apiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file as oauth_file, client as gclient, tools
@@ -103,6 +105,16 @@ facilities = ['tower', 'palace', 'factory', 'pyramid', 'arena', 'pike', 'dome']
 
 frontier_brains = ['KoheMaster133', 'H2owsome', 'SinkingWafers', 'Sceptistar', 'anthonyprz29', 'Sharbae', 'RoPr-Crusader']
 
+badge_ids = {
+    'grasssingles':'<a:grasssingles:482073772535578655>',
+    'normalsingles':'<a:normalsingles:482073773730824192>',
+    'fairysingles':'<a:fairysingles:482067974119882752>',
+    'icesingles':'<a:icesingles:482067977714401302>',
+    'groundsingles':'<a:groundsingles:482067974027739137>',
+    'poisonsingles':'<a:poisonsingles:482070458552942604>',
+    'rocksingles':'<a:rocksingles:482071206678495252>',
+    'flyingsingles':'<a:flyingsingles:482071987984793600>',
+    }
 
 s_gym_flair = 'Singles Gym'
 
