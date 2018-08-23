@@ -13,7 +13,7 @@ async def getlp(message, args):
 
   if result == None:
     msg = no_lp_message.format(discorduser_to_discordname(user))
-    embed.add_field(name="Error",value=msg)
+    embed.add_field(name="No LP found",value=msg)
   else:
     msg = ', '.join([x for x in result[1:7] if x!=None])
     embed.add_field(name="Main Roster",value=msg)
