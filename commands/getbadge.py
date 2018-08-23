@@ -1,5 +1,7 @@
 from header import *
 async def getbadge(message, args):
+  if args[:2] == 'my':
+    await client.send_message(message.channel, 'User is me')
   user = getmention(message)
   if user == None:
     user = message.author
