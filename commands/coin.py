@@ -33,7 +33,7 @@ async def coin(message, args):
       result = cursor.fetchone()
       if change == None and result != None and result[0] != None:
         msg = result[0]
-        embed.add_field(name="Coins for"+discorduser_to_discordname(user),value=msg)
+        embed.add_field(name="Coins for "+discorduser_to_discordname(user),value=msg)
       elif coinpermission(message.author):
         if result == None:
           change = 0 if change == None else change
@@ -43,9 +43,9 @@ async def coin(message, args):
           value = 0 if result[0] == None else result[0]
           cursor.execute(coins_update_str, (change+value, userid))
           msg = str(value) + " => " + str(change+value)
-        embed.add_field(name="Coins for"+discorduser_to_discordname(user),value=msg)
+        embed.add_field(name="Coins for "+discorduser_to_discordname(user),value=msg)
       elif change==None:
-        embed.add_field(name="Coins for"+discorduser_to_discordname(user),value="0")
+        embed.add_field(name="Coins for "+discorduser_to_discordname(user),value="0")
       else:
         msg = no_permissions_message
         embed.add_field(name="Error!",value=msg)
