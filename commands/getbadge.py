@@ -5,7 +5,7 @@ async def getbadge(message, args):
     user = message.author
   cursor.execute('SELECT badge FROM betabadges WHERE id=?', (user.id,))
   result = cursor.fetchall()
-  if result == None:
+  if len(result) == 0:
     msg = discorduser_to_discordname(user) + ' has no badges'
   else:
     msg = '\n'.join([r[0] for r in result])
