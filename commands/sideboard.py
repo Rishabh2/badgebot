@@ -6,7 +6,7 @@ async def sideboard(message, args):
   if result == None:
     msg = 'You do not have a league pass. Register one with !setlp'
   else:
-    newmons = args.split(maxsplit=1)
+    newmons = args.split('/', maxsplit=1)
     if not all([p in pokemon_list[0] for p in newmons]):
       msg = 'One or more of those is not a Pokemon I recognize.'
     elif len(newmons) == 1: #Add a pokemon to sideboard

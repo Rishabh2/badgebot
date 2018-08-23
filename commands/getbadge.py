@@ -8,7 +8,7 @@ async def getbadge(message, args):
   if len(result) == 0:
     msg = discorduser_to_discordname(user) + ' has no badges'
   else:
-    msg = '\n'.join([r[0] for r in result])
+    msg = ' '.join([badge_ids[r[0]] for r in result])
   await client.send_message(message.channel, msg)
 # async def getbadge(message, args):
 #   user = getmention(message)
