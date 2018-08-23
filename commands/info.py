@@ -29,4 +29,15 @@ async def info(message, args):
     if result != None and len(result) > 0:
       for pair in result:
         embed.add_field(name='TSV: '+pair[0], value=pair[1])
+
+    cursor.execute('SELECT * FROM betalp WHERE id=?', (user.id,))
+    result = cursor.fetchone()
+    if result != None:
+      msg = ', '.join([x for x in result[1:7] if x!=None])
+      embed.add_field(name="Main Roster",value=msg)
+      msg = ', '.join([x for x in result[7:] if x!=None])
+      if msg != '':
+        embed.add_field(name="Sideboard",value=msg)
+
+
     await client.send_message(message.channel, embed=embed)
