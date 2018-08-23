@@ -14,6 +14,7 @@ import logging
 import os
 import pickle
 from PIL import Image
+import subprocess
 from io import BytesIO
 from apiclient.discovery import build
 from httplib2 import Http
