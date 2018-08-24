@@ -506,7 +506,7 @@ def roster_sprites(mons, userid):
   sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons if mon != None]
   moncount = len(sprites)
   sidecount = moncount - 6
-  finalimg = Image.new('RGBA', (130 + (0 if sidecount==0 else (65 + 45*(sidecount//3))), 65), (0,0,0,0))
+  finalimg = Image.new('RGBA', (130 + (0 if sidecount<=0 else (60 + 35*(sidecount//3))), 65), (0,0,0,0))
   for i in range(moncount):
     mon = sprites[i]
     print(mon)
