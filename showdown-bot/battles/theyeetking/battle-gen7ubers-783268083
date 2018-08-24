@@ -1,0 +1,223 @@
+|init|battle
+|title|The Yeet King vs. Jiraya teem
+|j|☆The Yeet King
+|j|☆Jiraya teem
+|player|p1|The Yeet King|156
+|player|p2|Jiraya teem|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Marshadow|item
+|poke|p1|Necrozma-Dusk-Mane|item
+|poke|p1|Arceus-*|item
+|poke|p1|Salamence, F|item
+|poke|p1|Groudon|item
+|poke|p1|Darkrai|item
+|poke|p2|Politoed, F|item
+|poke|p2|Greninja, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Tangrowth, M|item
+|poke|p2|Kommo-o, F|item
+|poke|p2|Seismitoad, F|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Yeet King)
+|
+|start
+|switch|p1a: Mega Silvally|Arceus-Water|100/100
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|turn|1
+
+|
+|move|p1a: Mega Silvally|Stealth Rock|p2a: Kommo-o
+|-sidestart|p2: Jiraya teem|move: Stealth Rock
+|-zpower|p2a: Kommo-o
+|move|p2a: Kommo-o|Clangorous Soulblaze|p1a: Mega Silvally|[zeffect]
+|-damage|p1a: Mega Silvally|65/100
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|turn|2
+
+|inactive|Jiraya teem has 135 seconds left.
+
+|
+|move|p1a: Mega Silvally|Toxic|p2a: Kommo-o|[miss]
+|-miss|p1a: Mega Silvally|p2a: Kommo-o
+|move|p2a: Kommo-o|Poison Jab|p1a: Mega Silvally
+|-damage|p1a: Mega Silvally|44/100
+|
+|upkeep
+|turn|3
+
+|inactive|The Yeet King has 135 seconds left.
+
+|
+|move|p1a: Mega Silvally|Toxic|p2a: Kommo-o|[miss]
+|-miss|p1a: Mega Silvally|p2a: Kommo-o
+|move|p2a: Kommo-o|Poison Jab|p1a: Mega Silvally
+|-crit|p1a: Mega Silvally
+|-damage|p1a: Mega Silvally|15/100
+|-status|p1a: Mega Silvally|psn
+|
+|-damage|p1a: Mega Silvally|3/100 psn|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Mega Silvally|Toxic|p2a: Kommo-o
+|-status|p2a: Kommo-o|tox
+|move|p2a: Kommo-o|Ice Punch|p1a: Mega Silvally
+|-resisted|p1a: Mega Silvally
+|-damage|p1a: Mega Silvally|0 fnt
+|faint|p1a: Mega Silvally
+|
+|-damage|p2a: Kommo-o|94/100 tox|[from] psn
+|upkeep
+
+|inactive|The Yeet King has 135 seconds left.
+
+|
+|switch|p1a: Marshmellow|Marshadow|100/100
+|turn|5
+
+|
+|move|p1a: Marshmellow|Spectral Thief|p2a: Kommo-o|[still]
+|-clearpositiveboost|p2a: Kommo-o|p1a: Marshmellow|move: Spectral Thief
+|-boost|p1a: Marshmellow|atk|1
+|-boost|p1a: Marshmellow|def|1
+|-boost|p1a: Marshmellow|spa|1
+|-boost|p1a: Marshmellow|spd|1
+|-boost|p1a: Marshmellow|spe|1
+|-anim|p1a: Marshmellow|Spectral Thief|p2a: Kommo-o
+|-damage|p2a: Kommo-o|39/100 tox
+|move|p2a: Kommo-o|Ice Punch|p1a: Marshmellow
+|-damage|p1a: Marshmellow|84/100
+|
+|-damage|p2a: Kommo-o|26/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|inactive|The Yeet King has 135 seconds left.
+
+|inactive|Jiraya teem has 135 seconds left.
+
+|
+|move|p1a: Marshmellow|Spectral Thief|p2a: Kommo-o
+|-crit|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+
+|
+|switch|p2a: Politoed|Politoed, F|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|7
+
+|
+|move|p1a: Marshmellow|Close Combat|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|-unboost|p1a: Marshmellow|def|1
+|-unboost|p1a: Marshmellow|spd|1
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|turn|8
+
+|inactive|The Yeet King has 135 seconds left.
+
+|
+|detailschange|p2a: Swampert|Swampert-Mega, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p1a: Marshmellow|Close Combat|p2a: Swampert
+|-damage|p2a: Swampert|18/100
+|-unboost|p1a: Marshmellow|def|1
+|-unboost|p1a: Marshmellow|spd|1
+|-enditem|p1a: Marshmellow|White Herb
+|-clearnegativeboost|p1a: Marshmellow|[silent]
+|move|p2a: Swampert|Waterfall|p1a: Marshmellow
+|-damage|p1a: Marshmellow|0 fnt
+|faint|p1a: Marshmellow
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: pee-don|Groudon|100/100
+|detailschange|p1a: pee-don|Groudon-Primal
+|-primal|p1a: pee-don
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: pee-don
+|turn|9
+
+|inactive|Jiraya teem has 135 seconds left.
+
+|
+|move|p2a: Swampert|Earthquake|p1a: pee-don
+|-supereffective|p1a: pee-don
+|-damage|p1a: pee-don|32/100
+|move|p1a: pee-don|Solar Beam|p2a: Swampert|[still]
+|-prepare|p1a: pee-don|Solar Beam|p2a: Swampert
+|-anim|p1a: pee-don|Solar Beam|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|inactive|Jiraya teem has 135 seconds left.
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|turn|10
+
+|inactive|The Yeet King has 135 seconds left.
+
+|inactive|The Yeet King has 120 seconds left.
+
+|inactive|The Yeet King has 105 seconds left.
+
+|inactive|The Yeet King has 90 seconds left.
+
+|inactive|The Yeet King has 75 seconds left.
+
+|inactive|The Yeet King has 60 seconds left.
+
+|inactive|The Yeet King has 45 seconds left.
+
+|inactive|The Yeet King has 30 seconds left.
+
+|inactive|The Yeet King has 20 seconds left.
+
+|inactive|The Yeet King has 15 seconds left.
+
+|inactive|The Yeet King has 10 seconds left.
+
+|inactive|The Yeet King has 5 seconds left.
+
+|-message|The Yeet King lost due to inactivity.
+|
+|win|Jiraya teem

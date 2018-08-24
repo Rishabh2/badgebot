@@ -1,0 +1,353 @@
+|init|battle
+|title|I Probably Lose㋛ vs. TheEGirls
+|j|☆I Probably Lose㋛
+|j|☆TheEGirls
+|player|p1|I Probably Lose㋛|80
+|player|p2|TheEGirls|4
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|Tournament battle
+|html|<div class="broadcast-green"><strong>UU is currently suspecting Mega Venusaur! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3639617/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Venusaur, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Swampert, M|item
+|poke|p1|Stakataka|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Crobat, F|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Primarina, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Kommo-o, F|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Scizor, M|item
+|teampreview
+|j|‽Mighty Hercules
+|j| The Yeet King
+|
+|start
+|switch|p1a: Crobat|Crobat, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|1
+|c| The Yeet King|ayo Mighty Hercules whats cracking
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Crobat|U-turn|p2a: Hippowdon
+|-damage|p2a: Hippowdon|79/100
+|
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|c| The Yeet King|hey Mighty Hercules if youre NOT ass at this game, say something in the chat
+|
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|detailschange|p1a: Venusaur|Venusaur-Mega, M
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Venusaur|Leech Seed|p2a: Kommo-o
+|-start|p2a: Kommo-o|move: Leech Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kommo-o|94/100|[from] Sandstorm
+|-damage|p1a: Venusaur|88/100|[from] Sandstorm
+|-damage|p2a: Kommo-o|82/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|98/100|[silent]
+|upkeep
+|turn|3
+|c| The Yeet King|if youre MAJOR ASS, then do not say anything Mighty Hercules
+|
+|switch|p1a: Crobat|Crobat, F|100/100
+|move|p2a: Kommo-o|Dragon Dance|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kommo-o|76/100|[from] Sandstorm
+|-damage|p1a: Crobat|94/100|[from] Sandstorm
+|-damage|p2a: Kommo-o|63/100|[from] Leech Seed|[of] p1a: Crobat
+|-heal|p1a: Crobat|100/100|[silent]
+|upkeep
+|turn|4
+|j| oscyoscyoscy
+|
+|move|p2a: Kommo-o|Ice Punch|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kommo-o|57/100|[from] Sandstorm
+|upkeep
+
+|j| Agarica
+
+|l|‽Mighty Hercules
+
+|
+|switch|p1a: Swampert|Swampert, M|100/100
+|turn|5
+
+|
+|move|p2a: Kommo-o|Drain Punch|p1a: Swampert
+|-damage|p1a: Swampert|62/100
+|-heal|p2a: Kommo-o|84/100|[from] drain|[of] p1a: Swampert
+|move|p1a: Swampert|Stealth Rock|p2a: Kommo-o
+|-sidestart|p2: TheEGirls|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Swampert|68/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|72/100|[from] Leech Seed|[of] p1a: Swampert
+|-heal|p1a: Swampert|77/100|[silent]
+|upkeep
+|turn|6
+
+|
+|-zpower|p2a: Kommo-o
+|move|p2a: Kommo-o|Devastating Drake|p1a: Swampert|[zeffect]
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|upkeep
+
+|j| hasuhahasuha
+
+|l| The Yeet King
+
+|
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|7
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Kommo-o
+|-damage|p2a: Kommo-o|22/100
+|move|p2a: Kommo-o|Drain Punch|p1a: Scizor
+|-damage|p1a: Scizor|26/100
+|-heal|p2a: Kommo-o|58/100|[from] drain|[of] p1a: Scizor
+|
+|-damage|p2a: Kommo-o|46/100|[from] Leech Seed|[of] p1a: Scizor
+|-heal|p1a: Scizor|39/100|[silent]
+|upkeep
+|turn|8
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+
+|
+|switch|p2a: Hippowdon|Hippowdon, F|85/100
+|-damage|p2a: Hippowdon|79/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|9
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, M|98/100
+|move|p2a: Hippowdon|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|64/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|85/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|45/100
+|-heal|p1a: Venusaur|87/100|[from] drain|[of] p2a: Hippowdon
+|move|p2a: Hippowdon|Stealth Rock|p1a: Venusaur
+|-sidestart|p1: I Probably Lose㋛|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|81/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|51/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Hippowdon
+|-start|p2a: Hippowdon|move: Leech Seed
+|move|p2a: Hippowdon|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|52/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|46/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|57/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|45/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|60/100|[silent]
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: Venusaur|Giga Drain|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|80/100
+|-heal|p1a: Venusaur|64/100|[from] drain|[of] p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|58/100|[from] Sandstorm
+|-heal|p2a: Scizor|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Venusaur|Hidden Power|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Primarina|Primarina, M|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|12/100
+|move|p2a: Primarina|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, F|39/100
+|-damage|p1a: Scizor|27/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+
+|
+|switch|p2a: Hippowdon|Hippowdon, F|45/100
+|-damage|p2a: Hippowdon|38/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|16
+
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|-damage|p1a: Tentacruel|88/100|[from] Stealth Rock
+|move|p2a: Hippowdon|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|7/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|1/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|7/100|[from] item: Black Sludge
+|-heal|p2a: Hippowdon|45/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|move|p1a: Tentacruel|Scald|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|10/100
+|move|p2a: Hippowdon|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|16/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Scizor|Scizor, F|27/100
+|-damage|p1a: Scizor|14/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|-damage|p2a: Amoonguss|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Amoonguss
+|-damage|p2a: Amoonguss|35/100
+|move|p2a: Amoonguss|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|29/100|[from] Sandstorm
+|-heal|p2a: Amoonguss|35/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Stakataka|Stakataka, shiny|100/100
+|-damage|p1a: Stakataka|94/100|[from] Stealth Rock
+|turn|20
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve|p1: I Probably Lose㋛
+|-damage|p2a: Aerodactyl|76/100|[from] Stealth Rock
+|move|p1a: Stakataka|Trick Room|p1a: Stakataka
+|-fieldstart|move: Trick Room|[of] p1a: Stakataka
+|
+|-weather|none
+|upkeep
+|turn|21
+
+|
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, M
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Stakataka|Gyro Ball|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|-ability|p1a: Stakataka|Beast Boost|boost
+|-boost|p1a: Stakataka|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Amoonguss|Amoonguss, M|69/100
+|-damage|p2a: Amoonguss|56/100|[from] Stealth Rock
+|turn|22
+
+|
+|-zpower|p1a: Stakataka
+|move|p1a: Stakataka|Continental Crush|p2a: Amoonguss|[zeffect]
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|win|I Probably Lose㋛

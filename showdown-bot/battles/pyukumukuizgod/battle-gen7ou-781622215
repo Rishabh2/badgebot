@@ -1,0 +1,468 @@
+|init|battle
+|title|PYUKUMUKU IZ GOD vs. GraeGol
+|j|☆PYUKUMUKU IZ GOD
+|j|☆GraeGol
+|player|p1|PYUKUMUKU IZ GOD|2
+|player|p2|GraeGol|126
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zeraora|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Tapu Bulu|item
+|poke|p1|Latios, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Zeraora|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Latios, M|item
+|poke|p2|Bisharp, M|item
+|teampreview
+|
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Latios|atk|1
+|turn|1
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|detailschange|p1a: Latios|Latios-Mega, M
+|-mega|p1a: Latios|Latios|Latiosite
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Tapu Fini|Toxic|p1a: Tentacruel
+|-immune|p1a: Tentacruel|[msg]
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Bisharp
+|-sidestart|p2: GraeGol|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|92/100
+|-enditem|p2a: Bisharp|Focus Sash|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Bisharp|Knock Off|p1a: Tentacruel
+|-damage|p1a: Tentacruel|52/100
+|-enditem|p1a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p2a: Bisharp
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p2a: Bisharp|98/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Bisharp|Iron Head|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|62/100
+|
+|-heal|p1a: Skarmory|68/100|[from] item: Leftovers
+|-heal|p2a: Bisharp|100/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+
+|
+|move|p2a: Bisharp|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|6/100
+|-enditem|p1a: Skarmory|Leftovers|[from] move: Knock Off|[of] p2a: Bisharp
+|move|p1a: Skarmory|Whirlwind|p2a: Bisharp
+|drag|p2a: Zeraora|Zeraora|100/100
+|-status|p2a: Zeraora|psn
+|
+|-damage|p2a: Zeraora|88/100 psn|[from] psn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu|100/100
+|move|p2a: Zeraora|Volt Switch|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|84/100
+|-damage|p2a: Zeraora|78/100 psn|[from] item: Life Orb
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tapu Bulu|atk|1
+|
+|-heal|p1a: Tapu Bulu|90/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|96/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PYUKUMUKU IZ GOD)
+
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Tapu Bulu
+|-sidestart|p1: PYUKUMUKU IZ GOD|move: Stealth Rock
+|move|p1a: Tapu Bulu|Substitute|p1a: Tapu Bulu
+|-start|p1a: Tapu Bulu|Substitute
+|-damage|p1a: Tapu Bulu|71/100
+|
+|-heal|p1a: Tapu Bulu|77/100|[from] item: Leftovers
+|-heal|p1a: Tapu Bulu|84/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+
+|
+|move|p2a: Landorus|Earthquake|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-end|p1a: Tapu Bulu|Substitute
+|move|p1a: Tapu Bulu|Bulk Up|p1a: Tapu Bulu
+|-boost|p1a: Tapu Bulu|atk|1
+|-boost|p1a: Tapu Bulu|def|1
+|
+|-heal|p1a: Tapu Bulu|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|-zpower|p2a: Landorus
+|move|p2a: Landorus|Supersonic Skystrike|p1a: Tapu Bulu|[zeffect]
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|faint|p1a: Tapu Bulu
+|
+|upkeep
+
+|
+|switch|p1a: Latios|Latios-Mega, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-status|p2a: Tapu Fini|psn
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Latios|Psychic|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|73/100 psn
+|
+|-heal|p2a: Tapu Fini|80/100 psn|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|67/100 psn|[from] psn
+|upkeep
+|turn|13
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 120 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 105 seconds left.
+
+|
+|switch|p1a: Tentacruel|Tentacruel, M|52/100
+|-damage|p1a: Tentacruel|39/100|[from] Stealth Rock
+|move|p2a: Tapu Fini|Nature's Madness|p1a: Tentacruel
+|-damage|p1a: Tentacruel|20/100
+|
+|-heal|p2a: Tapu Fini|73/100 psn|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|61/100 psn|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|57/100 psn
+|-sideend|p1: PYUKUMUKU IZ GOD|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Tapu Fini|Taunt|p1a: Tentacruel
+|-start|p1a: Tentacruel|move: Taunt
+|
+|-heal|p2a: Tapu Fini|64/100 psn|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|51/100 psn|[from] psn
+|upkeep
+|turn|15
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|inactive|GraeGol has 135 seconds left.
+
+|
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Tentacruel|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|90/100
+|
+|upkeep
+|turn|16
+
+|inactive|GraeGol has 135 seconds left.
+
+|
+|move|p2a: Latios|Trick|p1a: Tentacruel
+|-activate|p2a: Latios|move: Trick|[of] p1a: Tentacruel
+|-item|p1a: Tentacruel|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Latios|Choice Scarf|[silent]|[from] move: Trick
+|move|p1a: Tentacruel|Knock Off|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|61/100
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|17
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|31/100
+|move|p2a: Latios|Psyshock|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+
+|
+|switch|p1a: Zeraora|Zeraora|100/100
+|turn|18
+
+|
+|move|p1a: Zeraora|Hidden Power|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-damage|p1a: Zeraora|91/100|[from] item: Life Orb
+|faint|p2a: Latios
+|
+|upkeep
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zeraora|atk|1
+|turn|19
+
+|
+|switch|p1a: Latios|Latios-Mega, M|88/100
+|move|p2a: Landorus|Earthquake|p1a: Latios
+|-immune|p1a: Latios|[msg]|[from] ability: Levitate
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Landorus|Stealth Rock|p1a: Latios
+|-sidestart|p1: PYUKUMUKU IZ GOD|move: Stealth Rock
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Tapu Fini|Tapu Fini|51/100 psn
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|
+|-heal|p2a: Tapu Fini|57/100 psn|[from] item: Leftovers
+|-damage|p2a: Tapu Fini|45/100 psn|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Latios|Psychic|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|upkeep
+
+|
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|23
+
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|100/100
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|24
+
+|
+|move|p1a: Latios|Draco Meteor|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|55/100
+|-unboost|p1a: Latios|spa|2
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|upkeep
+|turn|25
+
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Latios|[still]
+|-fail|p2a: Bisharp
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|26
+
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|95/100|[from] Stealth Rock
+|turn|27
+
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|34/100
+|move|p1a: Bisharp|Sucker Punch|p2a: Bisharp|[still]
+|-fail|p1a: Bisharp
+|
+|upkeep
+|turn|28
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|30/100
+|move|p2a: Bisharp|Sucker Punch|p1a: Bisharp|[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|29
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|5/100
+|move|p2a: Bisharp|Sucker Punch|p1a: Bisharp|[still]
+|-fail|p2a: Bisharp
+|
+|upkeep
+|turn|30
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+
+|c|☆GraeGol|wow
+
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Bisharp|atk|1
+|-ability|p1a: Bisharp|Defiant|boost
+|-boost|p1a: Bisharp|atk|2
+|turn|31
+
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Landorus
+|-damage|p2a: Landorus|40/100
+|move|p2a: Landorus|Earthquake|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+
+|
+|switch|p1a: Zeraora|Zeraora|91/100
+|-damage|p1a: Zeraora|78/100|[from] Stealth Rock
+|turn|32
+
+|
+|move|p1a: Zeraora|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Zeraora|69/100|[from] item: Life Orb
+|faint|p2a: Landorus
+|
+|upkeep
+
+|
+|switch|p2a: Charizard|Charizard, M, shiny|100/100
+|turn|33
+
+|
+|detailschange|p2a: Charizard|Charizard-Mega-Y, M, shiny
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Zeraora|Thunderbolt|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-damage|p1a: Zeraora|59/100|[from] item: Life Orb
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Zeraora|Zeraora|78/100 psn
+|turn|34
+
+|
+|move|p1a: Zeraora|Focus Blast|p2a: Zeraora|[miss]
+|-miss|p1a: Zeraora|p2a: Zeraora
+|move|p2a: Zeraora|Close Combat|p1a: Zeraora
+|-damage|p1a: Zeraora|0 fnt
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|-damage|p2a: Zeraora|69/100 psn|[from] item: Life Orb
+|faint|p1a: Zeraora
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Zeraora|56/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Skarmory|Skarmory, M|6/100
+|-damage|p1a: Skarmory|0 fnt|[from] Stealth Rock
+|faint|p1a: Skarmory
+|
+|win|GraeGol

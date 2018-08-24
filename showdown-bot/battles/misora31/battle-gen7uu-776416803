@@ -1,0 +1,369 @@
+|init|battle
+|title|PYUKUMUKU IZ GOD vs. misora31
+|j|☆PYUKUMUKU IZ GOD
+|j|☆misora31
+|player|p1|PYUKUMUKU IZ GOD|266
+|player|p2|misora31|96
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Absol, M|item
+|poke|p1|Arcanine, F|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Blissey, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Mandibuzz, F|item
+|poke|p2|Haxorus, M|item
+|poke|p2|Primarina, M|item
+|poke|p2|Incineroar, F|item
+|poke|p2|Swampert, M|item
+|poke|p2|Zygarde-10%|item
+|poke|p2|Mismagius, F|item
+|teampreview
+
+|c|☆misora31|heyo
+
+|c|☆PYUKUMUKU IZ GOD|sup
+
+|
+|start
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|switch|p2a: Swampert|Swampert, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|turn|1
+
+|
+|-zpower|p1a: Arcanine
+|move|p1a: Arcanine|Bloom Doom|p2a: Swampert|[zeffect]
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+
+|c|☆misora31|GG
+
+|c|☆misora31|xD
+
+|c|☆PYUKUMUKU IZ GOD|kills swampert and primirina
+
+|
+|switch|p2a: Haxorus|Haxorus, M|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|2
+
+|
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: Arcanine|Dragon Pulse|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|13/100
+|
+|upkeep
+|turn|3
+
+|c|☆misora31|yep
+
+|c|☆misora31|I lose
+
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+
+|c|☆PYUKUMUKU IZ GOD|why not eq first turn it ko's
+
+|c|☆misora31|Because I suck
+
+|c|☆PYUKUMUKU IZ GOD|why are you so negative
+
+|c|☆misora31|Because I do
+
+|c|☆misora31|xD
+
+|
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|turn|4
+
+|c|☆PYUKUMUKU IZ GOD|your additude is half the reason you are not improving
+
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|move|p2a: Incineroar|U-turn|p1a: Seismitoad
+|-damage|p1a: Seismitoad|67/100
+
+|
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Seismitoad|Knock Off|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|18/100
+|move|p2a: Mismagius|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|
+|-damage|p1a: Seismitoad|61/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Zygarde|Zygarde-10%|100/100
+|-ability|p2a: Zygarde|Aura Break
+|move|p1a: Seismitoad|Knock Off|p2a: Zygarde
+|-crit|p2a: Zygarde
+|-damage|p2a: Zygarde|60/100
+|-enditem|p2a: Zygarde|Focus Sash|[from] move: Knock Off|[of] p1a: Seismitoad
+|
+|-damage|p1a: Seismitoad|55/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Zygarde|Outrage|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|86/100
+|
+|-heal|p1a: Forretress|92/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Zygarde|Outrage|p1a: Forretress|[from]lockedmove
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|78/100
+|-start|p2a: Zygarde|confusion|[fatigue]
+|move|p1a: Forretress|Stealth Rock|p2a: Zygarde
+|-sidestart|p2: misora31|move: Stealth Rock
+|
+|-heal|p1a: Forretress|84/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Mismagius|Mismagius, F|18/100
+|-damage|p2a: Mismagius|5/100|[from] Stealth Rock
+|move|p1a: Forretress|Toxic Spikes|p2a: Mismagius
+|-sidestart|p2: misora31|move: Toxic Spikes
+|
+|-heal|p1a: Forretress|91/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|-zpower|p2a: Mismagius
+|move|p2a: Mismagius|Never-Ending Nightmare|p1a: Forretress|[zeffect]
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+
+|
+|switch|p1a: Absol|Absol, M|100/100
+|-ability|p1a: Absol|Pressure
+|turn|11
+
+|
+|detailschange|p1a: Absol|Absol-Mega, M
+|-mega|p1a: Absol|Absol|Absolite
+|move|p2a: Mismagius|Will-O-Wisp|p1a: Absol
+|move|p1a: Absol|Will-O-Wisp|p2a: Mismagius|[from]Magic Bounce
+|-status|p2a: Mismagius|brn
+|move|p1a: Absol|Knock Off|p2a: Mismagius
+|-supereffective|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+
+|
+|switch|p2a: Primarina|Primarina, M|100/100
+|-status|p2a: Primarina|psn
+|-damage|p2a: Primarina|88/100 psn|[from] Stealth Rock
+|turn|12
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Primarina|Moonblast|p1a: Blissey
+|-damage|p1a: Blissey|69/100
+|
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|-damage|p2a: Primarina|76/100 psn|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Primarina|Moonblast|p1a: Blissey
+|-damage|p1a: Blissey|45/100
+|-unboost|p1a: Blissey|spa|1
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|51/100|[from] item: Leftovers
+|-damage|p2a: Primarina|63/100 psn|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Primarina|Moonblast|p1a: Blissey
+|-damage|p1a: Blissey|22/100
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1: Seismitoad|brn|[msg]
+|
+|-heal|p1a: Blissey|72/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|79/100|[from] item: Leftovers
+|-damage|p2a: Primarina|51/100 psn|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Primarina|Moonblast|p1a: Blissey
+|-damage|p1a: Blissey|48/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|54/100|[from] item: Leftovers
+|-damage|p2a: Primarina|39/100 psn|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Primarina|Moonblast|p1a: Blissey
+|-activate|p1a: Blissey|move: Protect
+|
+|-heal|p1a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-damage|p2a: Primarina|26/100 psn|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Primarina|Moonblast|p1a: Blissey
+|-damage|p1a: Blissey|72/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|-damage|p2a: Primarina|14/100 psn|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|move|p2a: Primarina|Moonblast|p1a: Blissey
+|-activate|p1a: Blissey|move: Protect
+|
+|-heal|p1a: Blissey|100/100|[from] move: Wish|[wisher] Blissey
+|-damage|p2a: Primarina|2/100 psn|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Primarina|Moonblast|p1a: Blissey
+|-damage|p1a: Blissey|70/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|76/100|[from] item: Leftovers
+|-damage|p2a: Primarina|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Primarina
+
+|
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-damage|p2a: Incineroar|76/100|[from] Stealth Rock
+|-status|p2a: Incineroar|psn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Blissey|atk|1
+|turn|20
+
+|
+|switch|p1a: Seismitoad|Seismitoad, M|55/100
+|move|p2a: Incineroar|Fake Out|p1a: Seismitoad
+|-damage|p1a: Seismitoad|36/100
+|
+|-heal|p1a: Seismitoad|100/100|[from] move: Wish|[wisher] Blissey
+|-damage|p2a: Incineroar|63/100 psn|[from] psn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Seismitoad|Ice Punch|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|47/100 psn
+|move|p2a: Incineroar|Knock Off|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|-enditem|p1a: Seismitoad|Choice Scarf|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1a: Seismitoad
+|
+|-damage|p2a: Incineroar|35/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Absol|Absol-Mega, M|100/100
+|turn|22
+
+|
+|move|p1a: Absol|Play Rough|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|upkeep
+
+|
+|switch|p2a: Zygarde|Zygarde-10%|60/100
+|-damage|p2a: Zygarde|54/100|[from] Stealth Rock
+|-status|p2a: Zygarde|psn
+|-ability|p2a: Zygarde|Aura Break
+|turn|23
+
+|
+|move|p2a: Zygarde|Thousand Arrows|p1a: Absol
+|-damage|p1a: Absol|30/100
+|move|p1a: Absol|Play Rough|p2a: Zygarde|[miss]
+|-miss|p1a: Absol|p2a: Zygarde
+|
+|-damage|p2a: Zygarde|41/100 psn|[from] psn
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Zygarde|atk|1
+|move|p2a: Zygarde|Thousand Arrows|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|46/100
+|
+|-damage|p2a: Zygarde|29/100 psn|[from] psn
+|upkeep
+|turn|25
+
+|
+|move|p2a: Zygarde|Extreme Speed|p1a: Arcanine
+|-damage|p1a: Arcanine|30/100
+|move|p1a: Arcanine|Extreme Speed|p2a: Zygarde
+|-damage|p2a: Zygarde|0 fnt
+|faint|p2a: Zygarde
+|
+|win|PYUKUMUKU IZ GOD

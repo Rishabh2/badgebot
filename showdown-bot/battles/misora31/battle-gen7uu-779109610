@@ -1,0 +1,1297 @@
+|init|battle
+|title|The Yeet King vs. Misora31
+|j|☆The Yeet King
+|j|☆Misora31
+|player|p1|The Yeet King|156
+|player|p2|Misora31|96
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, F|item
+|poke|p1|Bronzong|item
+|poke|p1|Kingdra, F|item
+|poke|p1|Houndoom, M|item
+|poke|p1|Donphan, F|item
+|poke|p1|Gourgeist-*, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Froslass, F|item
+|poke|p2|Registeel|item
+|poke|p2|Whimsicott, F|item
+|poke|p2|Porygon2|item
+|poke|p2|Milotic, F|item
+|teampreview
+|c|☆Misora31|Heyo
+|c|☆The Yeet King|hey
+|c|☆The Yeet King|just made this team
+|c|☆The Yeet King|its similar but got bronzong and gourgeist, and I made some changes to the overall layout
+|
+|start
+|switch|p1a: ring the bell|Bronzong|100/100
+|switch|p2a: Froslass|Froslass, F, shiny|100/100
+|turn|1
+|
+|switch|p1a: fire doggo|Houndoom, M|100/100
+|move|p2a: Froslass|Spikes|p1a: fire doggo
+|-sidestart|p1: The Yeet King|Spikes
+|
+|upkeep
+|turn|2
+
+|c|☆The Yeet King|have in mind I just made this thing up
+
+|
+|detailschange|p1a: fire doggo|Houndoom-Mega, M
+|-mega|p1a: fire doggo|Houndoom|Houndoominite
+|move|p1a: fire doggo|Dark Pulse|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-enditem|p2a: Froslass|Focus Sash
+|-damage|p2a: Froslass|1/100
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|
+|upkeep
+|turn|3
+
+|c|☆The Yeet King|so it might be flawed
+
+|
+|move|p1a: fire doggo|Nasty Plot|p1a: fire doggo
+|-boost|p1a: fire doggo|spa|2
+|move|p2a: Froslass|Icy Wind|p1a: fire doggo|[miss]
+|-miss|p2a: Froslass|p1a: fire doggo
+|
+|upkeep
+|turn|4
+
+|c|☆Misora31|sigh
+
+|
+|move|p1a: fire doggo|Dark Pulse|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|
+|upkeep
+
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|turn|5
+
+|
+|switch|p1a: ring the bell|Bronzong|100/100
+|move|p2a: Terrakion|Close Combat|p1a: ring the bell
+|-damage|p1a: ring the bell|37/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|
+|-heal|p1a: ring the bell|43/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p1a: zoo wee mama|Gourgeist-Super, M|100/100
+|-damage|p1a: zoo wee mama|88/100|[from] Spikes
+|-item|p2a: Terrakion|Choice Scarf|[from] ability: Frisk|[of] p1a: zoo wee mama|[identify]
+|move|p2a: Terrakion|Close Combat|p1a: zoo wee mama
+|-immune|p1a: zoo wee mama|[msg]
+|
+|-heal|p1a: zoo wee mama|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Frisk|[from] ability: Trace|[of] p1a: zoo wee mama
+|-item|p1a: zoo wee mama|Leftovers|[from] ability: Frisk|[of] p2a: Porygon2|[identify]
+|move|p1a: zoo wee mama|Leech Seed|p2a: Porygon2
+|-start|p2a: Porygon2|move: Leech Seed
+|
+|-heal|p1a: zoo wee mama|100/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|88/100|[from] Leech Seed|[of] p1a: zoo wee mama
+|upkeep
+|turn|8
+
+|c|☆The Yeet King|someone told you your whole team would get walled by this right?
+
+|c|☆Misora31|Yes
+
+|c|☆Misora31|and it's true
+
+|
+|switch|p1a: ring the bell|Bronzong|43/100
+|move|p2a: Porygon2|Ice Beam|p1a: ring the bell
+|-resisted|p1a: ring the bell
+|-damage|p1a: ring the bell|33/100
+|
+|-heal|p1a: ring the bell|39/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|76/100|[from] Leech Seed|[of] p1a: ring the bell
+|-heal|p1a: ring the bell|53/100|[silent]
+|upkeep
+|turn|9
+
+|c|☆The Yeet King|we'll see
+
+|
+|switch|p2a: Milotic|Milotic, F, shiny|100/100
+|move|p1a: ring the bell|Stealth Rock|p2a: Milotic
+|-sidestart|p2: Misora31|move: Stealth Rock
+|
+|-heal|p1a: ring the bell|59/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|c|☆Misora31|I mean
+
+|c|☆Misora31|without Froslass
+
+|c|☆Misora31|I can do zip to it
+
+|
+|switch|p1a: blowjob lips|Kingdra, F|100/100
+|-damage|p1a: blowjob lips|88/100|[from] Spikes
+|move|p2a: Milotic|Scald|p1a: blowjob lips
+|-resisted|p1a: blowjob lips
+|-crit|p1a: blowjob lips
+|-damage|p1a: blowjob lips|77/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: blowjob lips|Draco Meteor|p2a: Milotic
+|-damage|p2a: Milotic|31/100
+|-unboost|p1a: blowjob lips|spa|2
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|81/100
+|
+|-heal|p2a: Milotic|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|c|☆The Yeet King|well fuck now i dont have necrozma
+
+|
+|switch|p1a: star power|Togekiss, F|100/100
+|move|p2a: Milotic|Toxic|p1a: star power
+|-status|p1a: star power|tox
+|
+|-heal|p2a: Milotic|93/100|[from] item: Leftovers
+|-damage|p1a: star power|94/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p1a: star power|Nasty Plot|p1a: star power
+|-boost|p1a: star power|spa|2
+|move|p2a: Milotic|Scald|p1a: star power
+|-damage|p1a: star power|74/100 tox
+|
+|-heal|p1a: star power|80/100 tox|[from] item: Leftovers
+|-heal|p2a: Milotic|99/100|[from] item: Leftovers
+|-damage|p1a: star power|68/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|c|☆Misora31|and I don't have haze
+
+|c|☆Misora31|dragon tail is useless
+
+|c|☆The Yeet King|registeel
+
+|c|☆Misora31|Aura sphere
+
+|
+|switch|p2a: The Great Wall Of|Registeel|100/100
+|-damage|p2a: The Great Wall Of|94/100|[from] Stealth Rock
+|move|p1a: star power|Air Slash|p2a: The Great Wall Of
+|-resisted|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|74/100
+|
+|-heal|p1a: star power|74/100 tox|[from] item: Leftovers
+|-heal|p2a: The Great Wall Of|80/100|[from] item: Leftovers
+|-damage|p1a: star power|56/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|switch|p1a: ring the bell|Bronzong|59/100
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: ring the bell
+|-damage|p1a: ring the bell|29/100
+|
+|-heal|p2a: The Great Wall Of|86/100|[from] item: Leftovers
+|-heal|p1a: ring the bell|36/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: zoo wee mama|Gourgeist-Super, M|100/100
+|-damage|p1a: zoo wee mama|88/100|[from] Spikes
+|-item|p2a: The Great Wall Of|Leftovers|[from] ability: Frisk|[of] p1a: zoo wee mama|[identify]
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: zoo wee mama
+|-immune|p1a: zoo wee mama|[msg]
+|
+|-heal|p1a: zoo wee mama|94/100|[from] item: Leftovers
+|-heal|p2a: The Great Wall Of|92/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Milotic|Milotic, F, shiny|99/100
+|-damage|p2a: Milotic|87/100|[from] Stealth Rock
+|move|p1a: zoo wee mama|Substitute|p1a: zoo wee mama
+|-start|p1a: zoo wee mama|Substitute
+|-damage|p1a: zoo wee mama|69/100
+|
+|-heal|p2a: Milotic|93/100|[from] item: Leftovers
+|-heal|p1a: zoo wee mama|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|c|☆The Yeet King|regi gets walled by this fella
+
+|c|☆Misora31|Sigh
+
+|c|☆The Yeet King|why didnt u pick whimsi
+
+|c|☆Misora31|told you
+
+|
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|100/100
+|-damage|p2a: Whimsicott|88/100|[from] Stealth Rock
+|move|p1a: zoo wee mama|Leech Seed|p2a: Whimsicott|[miss]
+|-miss|p1a: zoo wee mama|p2a: Whimsicott
+|
+|-heal|p1a: zoo wee mama|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Whimsicott|Moonblast|p1a: zoo wee mama
+|-end|p1a: zoo wee mama|Substitute
+|move|p1a: zoo wee mama|Phantom Force|p2a: Whimsicott|[still]
+|-prepare|p1a: zoo wee mama|Phantom Force|p2a: Whimsicott
+|
+|-heal|p1a: zoo wee mama|88/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|c|☆Misora31|WHY AM I STILL PRANKSTER
+
+|c|☆The Yeet King|really hoping this does something
+
+|c|☆Misora31|STUPID
+
+|c|☆Misora31|FUCKING
+
+|c|☆The Yeet King|actually
+
+|c|☆Misora31|DESKTOP SHOWDOWN
+
+|
+|move|p2a: Whimsicott|Moonblast|p1a: zoo wee mama|[miss]
+|-miss|p2a: Whimsicott|p1a: zoo wee mama
+|move|p1a: zoo wee mama|Phantom Force|p2a: Whimsicott|[from]lockedmove
+|-damage|p2a: Whimsicott|42/100
+|
+|-heal|p1a: zoo wee mama|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|c|☆The Yeet King|!dt whimsi
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">NU</span> <span class="col iconcol"><psicon pokemon="whimsicott"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://pokemonshowdown.com/dex/pokemon/whimsicott" target="_blank">Whimsicott</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Grass.png" alt="Grass" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Fairy.png" alt="Fairy" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col twoabilitycol">Prankster<br />Infiltrator</span><span class="col abilitycol"><em>Chlorophyll</em></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />60</span> <span class="col statcol"><em>Atk</em><br />67</span> <span class="col statcol"><em>Def</em><br />85</span> <span class="col statcol"><em>SpA</em><br />77</span> <span class="col statcol"><em>SpD</em><br />75</span> <span class="col statcol"><em>Spe</em><br />116</span> <span class="col bstcol"><em>BST<br />480</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> 547&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 5&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 0.7 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 6.6 kg <em>(20 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Green&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Fairy, Grass&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+
+|c|☆Misora31|I know
+
+|c|☆Misora31|I wanted infiltrator
+
+|c|☆The Yeet King|youd rather get infiltrator?
+
+|c|☆The Yeet King|oh
+
+|c|☆Misora31|I set it to infiltraotr
+
+|c|☆The Yeet King|also
+
+|c|☆Misora31|AND IT DIDN"T FUCKIGN SAVE
+
+|
+|move|p2a: Whimsicott|Moonblast|p1a: zoo wee mama
+|-damage|p1a: zoo wee mama|33/100
+|move|p1a: zoo wee mama|Phantom Force|p2a: Whimsicott|[still]
+|-prepare|p1a: zoo wee mama|Phantom Force|p2a: Whimsicott
+|
+|-heal|p1a: zoo wee mama|39/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|c|☆The Yeet King|u dont run ice beam with milo?
+
+|c|☆Misora31|No
+
+|c|☆Misora31|I am using the sets
+
+|c|☆Misora31|you gave me
+
+|c|☆The Yeet King|whats the moves on milo?
+
+|c|☆Misora31|dragon tail
+
+|c|☆Misora31|toxic
+
+|c|☆Misora31|scald
+
+|c|☆Misora31|recover
+
+|
+|switch|p2a: Milotic|Milotic, F, shiny|93/100
+|-damage|p2a: Milotic|80/100|[from] Stealth Rock
+|move|p1a: zoo wee mama|Phantom Force|p2a: Milotic|[from]lockedmove
+|-damage|p2a: Milotic|57/100
+|
+|-heal|p2a: Milotic|63/100|[from] item: Leftovers
+|-heal|p1a: zoo wee mama|45/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: ring the bell|Bronzong|36/100
+|move|p2a: Milotic|Dragon Tail|p1a: ring the bell
+|-resisted|p1a: ring the bell
+|-damage|p1a: ring the bell|32/100
+|drag|p1a: GEOTUS|Donphan, F, shiny|100/100
+|-damage|p1a: GEOTUS|88/100|[from] Spikes
+|
+|-heal|p2a: Milotic|69/100|[from] item: Leftovers
+|-heal|p1a: GEOTUS|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|c|☆The Yeet King|you predicted my bronzong switch in?
+
+|c|☆Misora31|No
+
+|c|☆Misora31|I wanted that thing out
+
+|c|☆Misora31|I don't predict because I suck at it
+
+|c|☆The Yeet King|if you predicted the sub then I wouldve still managed to sub
+
+|c|☆The Yeet King|milotics dragon tail hits like a wet noodle
+
+|c|☆The Yeet King|doesnt break my sub
+
+|c|☆The Yeet King|also check this
+
+|c|☆Misora31|ok
+
+|c|☆The Yeet King|!dt gourgeist
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">PU</span> <span class="col iconcol"><psicon pokemon="gourgeist"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://pokemonshowdown.com/dex/pokemon/gourgeist" target="_blank">Gourgeist</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Ghost.png" alt="Ghost" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Grass.png" alt="Grass" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col twoabilitycol">Pickup<br />Frisk</span><span class="col abilitycol"><em>Insomnia</em></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />65</span> <span class="col statcol"><em>Atk</em><br />90</span> <span class="col statcol"><em>Def</em><br />122</span> <span class="col statcol"><em>SpA</em><br />58</span> <span class="col statcol"><em>SpD</em><br />75</span> <span class="col statcol"><em>Spe</em><br />84</span> <span class="col bstcol"><em>BST<br />494</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> 711&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 6&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 0.9 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 12.5 kg <em>(40 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Brown&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Amorphous&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+
+|c|☆The Yeet King|122 defense
+
+|c|☆Misora31|This is why I had glalie
+
+|c|☆Misora31|over lass
+
+|c|☆The Yeet King|might wanna run ice beam instead of scald
+
+|c|☆Misora31|I sure as hell ain't running dragon tail
+
+|c|☆Misora31|xD
+
+|c|☆The Yeet King|ice beam over dragon tail* not scald
+
+|c|☆The Yeet King|hahaha
+
+|
+|move|p2a: Milotic|Scald|p1a: GEOTUS
+|-supereffective|p1a: GEOTUS
+|-damage|p1a: GEOTUS|22/100
+|move|p1a: GEOTUS|Toxic|p2a: Milotic
+|-status|p2a: Milotic|tox
+|
+|-heal|p2a: Milotic|75/100 tox|[from] item: Leftovers
+|-heal|p1a: GEOTUS|28/100|[from] item: Leftovers
+|-damage|p2a: Milotic|69/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|c|☆Misora31|ohhh
+
+|c|☆Misora31|and I didn't add altaria
+
+|c|☆Misora31|because of course
+
+|c|☆Misora31|sigh
+
+|c|☆The Yeet King|your team didnt save?
+
+|c|☆Misora31|No
+
+|c|☆Misora31|I had it on phone
+
+|c|☆Misora31|and it doesn't transfer
+
+|c|☆Misora31|yes
+
+|c|☆Misora31|that match we did earlier
+
+|c|☆Misora31|I did it on my phone
+
+|c|☆The Yeet King|im not running a webs team right now but with stowy having ariados on his roster its a totally possible for him to run webs
+
+|c|☆The Yeet King|so a defogger is a must
+
+|c|☆Misora31|Yeah
+
+|c|☆Misora31|I know
+
+|
+|switch|p1a: blowjob lips|Kingdra, F|77/100
+|-damage|p1a: blowjob lips|65/100|[from] Spikes
+|move|p2a: Milotic|Scald|p1a: blowjob lips
+|-resisted|p1a: blowjob lips
+|-damage|p1a: blowjob lips|58/100
+|
+|-heal|p2a: Milotic|75/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|63/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|c|☆Misora31|I was dumb
+
+|c|☆Misora31|and didn't change
+
+|
+|switch|p1a: ring the bell|Bronzong|32/100
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|42/100
+|-damage|p2a: Whimsicott|30/100|[from] Stealth Rock
+|
+|-heal|p1a: ring the bell|38/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|c|☆The Yeet King|this bronzong set is so dumb
+
+|
+|move|p2a: Whimsicott|U-turn|p1a: ring the bell
+|-damage|p1a: ring the bell|29/100
+
+|
+|switch|p2a: The Great Wall Of|Registeel|92/100
+|-damage|p2a: The Great Wall Of|86/100|[from] Stealth Rock
+|move|p1a: ring the bell|Calm Mind|p1a: ring the bell
+|-boost|p1a: ring the bell|spa|1
+|-boost|p1a: ring the bell|spd|1
+|
+|-heal|p2a: The Great Wall Of|92/100|[from] item: Leftovers
+|-heal|p1a: ring the bell|35/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p1a: zoo wee mama|Gourgeist-Super, M|45/100
+|-damage|p1a: zoo wee mama|33/100|[from] Spikes
+|-item|p2a: The Great Wall Of|Leftovers|[from] ability: Frisk|[of] p1a: zoo wee mama|[identify]
+|move|p2a: The Great Wall Of|Amnesia|p2a: The Great Wall Of
+|-boost|p2a: The Great Wall Of|spd|2
+|
+|-heal|p1a: zoo wee mama|39/100|[from] item: Leftovers
+|-heal|p2a: The Great Wall Of|98/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|c|☆The Yeet King|im 100% walled by regi
+
+|
+|switch|p2a: Terrakion|Terrakion|100/100
+|-damage|p2a: Terrakion|94/100|[from] Stealth Rock
+|move|p1a: zoo wee mama|Leech Seed|p2a: Terrakion|[miss]
+|-miss|p1a: zoo wee mama|p2a: Terrakion
+|
+|-heal|p1a: zoo wee mama|45/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|c|☆The Yeet King|u can always check the movepool
+
+|c|☆The Yeet King|I say u predicted me to hit u with bronzong right?
+
+|c|☆Misora31|No
+
+|c|☆Misora31|I don't predict
+
+|c|☆The Yeet King|because you feared that id have something like earth power right?
+
+|c|☆The Yeet King|bro this game is 90% predictions
+
+|c|☆Misora31|Yeah
+
+|c|☆Misora31|I knoww
+
+|c|☆Misora31|but I don't go looking up pokemon during matches
+
+|c|☆The Yeet King|and if u predicted something like earth power then you got that wrong, cause bronzong doesnt get that move
+
+|c|☆Misora31|I'm not that kind of person
+
+|c|☆The Yeet King|its pretty important
+
+|
+|switch|p1a: ring the bell|Bronzong|35/100
+|move|p2a: Terrakion|Stone Edge|p1a: ring the bell
+|-resisted|p1a: ring the bell
+|-damage|p1a: ring the bell|7/100
+|
+|-heal|p1a: ring the bell|14/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p2a: Terrakion|Stone Edge|p1a: ring the bell|[miss]
+|-miss|p2a: Terrakion|p1a: ring the bell
+|move|p1a: ring the bell|Psychic|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|7/100
+|
+|-heal|p1a: ring the bell|20/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|c|☆Misora31|BECAUSE OF COURSE I MISS
+
+|c|☆Misora31|;-;
+
+|
+|move|p2a: Terrakion|Stone Edge|p1a: ring the bell|[miss]
+|-miss|p2a: Terrakion|p1a: ring the bell
+|move|p1a: ring the bell|Psychic|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-heal|p1a: ring the bell|26/100|[from] item: Leftovers
+|upkeep
+
+|c|☆Misora31|twice
+
+|c|☆Misora31|in a fucking
+
+|c|☆Misora31|row
+
+|c|☆The Yeet King|whats ur terrakion set
+
+|c|☆Misora31|The one you gav me
+
+|c|☆The Yeet King|i forget
+
+|c|☆Misora31|choice scarf
+
+|
+|switch|p2a: Porygon2|Porygon2|76/100
+|-damage|p2a: Porygon2|64/100|[from] Stealth Rock
+|-ability|p2a: Porygon2|Levitate|[from] ability: Trace|[of] p1a: ring the bell
+|turn|33
+
+|c|☆The Yeet King|moves?
+
+|
+|move|p2a: Porygon2|Thunder Wave|p1a: ring the bell|[miss]
+|-miss|p2a: Porygon2|p1a: ring the bell
+|move|p1a: ring the bell|Calm Mind|p1a: ring the bell
+|-boost|p1a: ring the bell|spa|1
+|-boost|p1a: ring the bell|spd|1
+|
+|-heal|p1a: ring the bell|32/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|c|☆Misora31|I give up
+
+|c|☆Misora31|I freaking give
+
+|c|☆Misora31|3 misses ina  row
+
+|
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1a: ring the bell|Calm Mind|p1a: ring the bell
+|-boost|p1a: ring the bell|spa|1
+|-boost|p1a: ring the bell|spd|1
+|
+|-heal|p1a: ring the bell|38/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|c|☆The Yeet King|yeah thats competitive pokemon for u
+
+|
+|move|p2a: Porygon2|Thunder Wave|p1a: ring the bell|[miss]
+|-miss|p2a: Porygon2|p1a: ring the bell
+|move|p1a: ring the bell|Calm Mind|p1a: ring the bell
+|-boost|p1a: ring the bell|spa|1
+|-boost|p1a: ring the bell|spd|1
+|
+|-heal|p1a: ring the bell|45/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|c|☆Misora31|4
+
+|c|☆The Yeet King|lmao
+
+|c|☆Misora31|This isn't fun
+
+|c|☆The Yeet King|come on dude
+
+|c|☆Misora31|is the problem
+
+|c|☆The Yeet King|theres an easy play right now
+
+|
+|move|p2a: Porygon2|Thunder Wave|p1a: ring the bell
+|-status|p1a: ring the bell|par
+|move|p1a: ring the bell|Psychic|p2a: Porygon2
+|-damage|p2a: Porygon2|57/100
+|
+|-heal|p1a: ring the bell|51/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|c|☆Misora31|It's infuriating
+
+|
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1a: ring the bell|Calm Mind|p1a: ring the bell
+|-boost|p1a: ring the bell|spa|1
+|-boost|p1a: ring the bell|spd|1
+|
+|-heal|p1a: ring the bell|57/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|c|☆The Yeet King|you can keep stalling me with porygon
+
+|c|☆The Yeet King|but at what cost
+
+|c|☆The Yeet King|you know that after I reach max spatk ill KO pory right
+
+|
+|switch|p2a: The Great Wall Of|Registeel|98/100
+|-damage|p2a: The Great Wall Of|92/100|[from] Stealth Rock
+|cant|p1a: ring the bell|par
+|
+|-heal|p2a: The Great Wall Of|98/100|[from] item: Leftovers
+|-heal|p1a: ring the bell|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|c|☆Misora31|Yeah
+
+|c|☆Misora31|but I really don't care anymore
+
+|
+|move|p2a: The Great Wall Of|Amnesia|p2a: The Great Wall Of
+|-boost|p2a: The Great Wall Of|spd|2
+|move|p1a: ring the bell|Psychic|p2a: The Great Wall Of
+|-resisted|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|85/100
+|
+|-heal|p2a: The Great Wall Of|91/100|[from] item: Leftovers
+|-heal|p1a: ring the bell|69/100 par|[from] item: Leftovers
+|upkeep
+|turn|40
+
+|c|☆The Yeet King|see
+
+|c|☆The Yeet King|this fella gets 200% walled by regi
+
+|
+|switch|p1a: zoo wee mama|Gourgeist-Super, M|45/100
+|-damage|p1a: zoo wee mama|33/100|[from] Spikes
+|-item|p2a: The Great Wall Of|Leftovers|[from] ability: Frisk|[of] p1a: zoo wee mama|[identify]
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: zoo wee mama
+|-immune|p1a: zoo wee mama|[msg]
+|
+|-heal|p1a: zoo wee mama|39/100|[from] item: Leftovers
+|-heal|p2a: The Great Wall Of|97/100|[from] item: Leftovers
+|upkeep
+|turn|41
+
+|c|☆Misora31|Cause I can't kill those two together
+
+|
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|30/100
+|-damage|p2a: Whimsicott|18/100|[from] Stealth Rock
+|move|p1a: zoo wee mama|Leech Seed|p2a: Whimsicott
+|-immune|p2a: Whimsicott|[msg]
+|
+|-heal|p1a: zoo wee mama|45/100|[from] item: Leftovers
+|upkeep
+|turn|42
+
+|
+|switch|p1a: ring the bell|Bronzong|69/100 par
+|move|p2a: Whimsicott|Moonblast|p1a: ring the bell
+|-resisted|p1a: ring the bell
+|-damage|p1a: ring the bell|48/100 par
+|
+|-heal|p1a: ring the bell|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+
+|c|☆The Yeet King|also u let bronzong get a bunch of HP back with lefties
+
+|c|☆Misora31|this isn't fun
+
+|c|☆Misora31|I hate it
+
+|
+|switch|p2a: Milotic|Milotic, F, shiny|63/100 tox
+|-damage|p2a: Milotic|50/100 tox|[from] Stealth Rock
+|switch|p1a: fire doggo|Houndoom-Mega, M|100/100
+|-damage|p1a: fire doggo|88/100|[from] Spikes
+|
+|-heal|p2a: Milotic|56/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|50/100 tox|[from] psn
+|upkeep
+|turn|44
+
+|c|☆The Yeet King|fuuuuck nice predic
+
+|c|☆Misora31|I didn't predit
+
+|c|☆Misora31|xD
+
+|c|☆The Yeet King|then why do that
+
+|
+|switch|p1a: GEOTUS|Donphan, F, shiny|28/100
+|-damage|p1a: GEOTUS|16/100|[from] Spikes
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|99/100 tox
+|
+|-heal|p2a: Milotic|100/100 tox|[from] item: Leftovers
+|-heal|p1a: GEOTUS|22/100|[from] item: Leftovers
+|-damage|p2a: Milotic|88/100 tox|[from] psn
+|upkeep
+|turn|45
+
+|c|☆Misora31|because milotic is the only mon left that can hurt it
+
+|
+|move|p2a: Milotic|Scald|p1a: GEOTUS
+|-supereffective|p1a: GEOTUS
+|-damage|p1a: GEOTUS|0 fnt
+|faint|p1a: GEOTUS
+|
+|-heal|p2a: Milotic|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|76/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: blowjob lips|Kingdra, F|58/100
+|-damage|p1a: blowjob lips|46/100|[from] Spikes
+|turn|46
+
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-damage|p2a: Porygon2|88/100|[from] Stealth Rock
+|-ability|p2a: Porygon2|Sniper|[from] ability: Trace|[of] p1a: blowjob lips
+|move|p1a: blowjob lips|Surf|p2a: Porygon2
+|-damage|p2a: Porygon2|61/100
+|
+|upkeep
+|turn|47
+
+|
+|move|p1a: blowjob lips|Surf|p2a: Porygon2
+|-damage|p2a: Porygon2|35/100
+|move|p2a: Porygon2|Ice Beam|p1a: blowjob lips
+|-damage|p1a: blowjob lips|23/100
+|
+|upkeep
+|turn|48
+
+|
+|switch|p1a: star power|Togekiss, F|56/100 tox
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|85/100
+|
+|-heal|p1a: star power|62/100 tox|[from] item: Leftovers
+|-damage|p1a: star power|56/100 tox|[from] psn
+|upkeep
+|turn|49
+
+|
+|move|p1a: star power|Thunder Wave|p2a: Porygon2
+|-status|p2a: Porygon2|par
+|move|p2a: Porygon2|Ice Beam|p1a: star power
+|-supereffective|p1a: star power
+|-damage|p1a: star power|22/100 tox
+|
+|-heal|p1a: star power|28/100 tox|[from] item: Leftovers
+|-damage|p1a: star power|16/100 tox|[from] psn
+|upkeep
+|turn|50
+
+|
+|move|p1a: star power|Air Slash|p2a: Porygon2
+|-damage|p2a: Porygon2|68/100 par
+|cant|p2a: Porygon2|flinch
+|
+|-heal|p1a: star power|22/100 tox|[from] item: Leftovers
+|-damage|p1a: star power|3/100 tox|[from] psn
+|upkeep
+|turn|51
+
+|c|☆The Yeet King|how am I supposed to break this fat fella
+
+|
+|move|p1a: star power|Air Slash|p2a: Porygon2
+|-damage|p2a: Porygon2|52/100 par
+|cant|p2a: Porygon2|flinch
+|
+|-heal|p1a: star power|10/100 tox|[from] item: Leftovers
+|-damage|p1a: star power|0 fnt|[from] psn
+|upkeep
+|faint|p1a: star power
+
+|c|☆Misora31|I don't know
+
+|c|☆Misora31|how am I supposed to kill bronzong
+
+|
+|switch|p1a: ring the bell|Bronzong|54/100 par
+|turn|52
+
+|c|☆The Yeet King|we both wall each other
+
+|c|☆The Yeet King|its a PP battle lmao
+
+|
+|switch|p2a: The Great Wall Of|Registeel|97/100
+|-damage|p2a: The Great Wall Of|91/100|[from] Stealth Rock
+|move|p1a: ring the bell|Psychic|p2a: The Great Wall Of
+|-resisted|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|81/100
+|
+|-heal|p2a: The Great Wall Of|87/100|[from] item: Leftovers
+|-heal|p1a: ring the bell|60/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+
+|
+|switch|p2a: Milotic|Milotic, F, shiny|76/100 tox
+|-damage|p2a: Milotic|64/100 tox|[from] Stealth Rock
+|switch|p1a: zoo wee mama|Gourgeist-Super, M|45/100
+|-damage|p1a: zoo wee mama|33/100|[from] Spikes
+|-item|p2a: Milotic|Leftovers|[from] ability: Frisk|[of] p1a: zoo wee mama|[identify]
+|
+|-heal|p2a: Milotic|70/100 tox|[from] item: Leftovers
+|-heal|p1a: zoo wee mama|39/100|[from] item: Leftovers
+|-damage|p2a: Milotic|64/100 tox|[from] psn
+|upkeep
+|turn|54
+
+|c|☆The Yeet King|now you know how this play goes
+
+|c|☆The Yeet King|you switch to regi, I switch to gourgeist
+
+|c|☆The Yeet King|you shouldve picked whimsi
+
+|c|☆The Yeet King|predict my switch
+
+|c|☆Misora31|You just click sub
+
+|c|☆The Yeet King|whimsi vs gourgeist
+
+|c|☆The Yeet King|whimsi wins
+
+|c|☆The Yeet King|im slower than u + im weakened
+
+|
+|switch|p2a: Porygon2|Porygon2|52/100 par
+|-damage|p2a: Porygon2|39/100 par|[from] Stealth Rock
+|-ability|p2a: Porygon2|Frisk|[from] ability: Trace|[of] p1a: zoo wee mama
+|-item|p1a: zoo wee mama|Leftovers|[from] ability: Frisk|[of] p2a: Porygon2|[identify]
+|move|p1a: zoo wee mama|Leech Seed|p2a: Porygon2
+|-start|p2a: Porygon2|move: Leech Seed
+|
+|-heal|p1a: zoo wee mama|45/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|27/100 par|[from] Leech Seed|[of] p1a: zoo wee mama
+|-heal|p1a: zoo wee mama|58/100|[silent]
+|upkeep
+|turn|55
+
+|
+|switch|p1a: ring the bell|Bronzong|60/100 par
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|77/100 par
+|
+|-heal|p1a: ring the bell|66/100 par|[from] item: Leftovers
+|-damage|p2a: Porygon2|65/100 par|[from] Leech Seed|[of] p1a: ring the bell
+|-heal|p1a: ring the bell|80/100 par|[silent]
+|upkeep
+|turn|56
+
+|
+|switch|p2a: The Great Wall Of|Registeel|87/100
+|-damage|p2a: The Great Wall Of|81/100|[from] Stealth Rock
+|move|p1a: ring the bell|Calm Mind|p1a: ring the bell
+|-boost|p1a: ring the bell|spa|1
+|-boost|p1a: ring the bell|spd|1
+|
+|-heal|p2a: The Great Wall Of|87/100|[from] item: Leftovers
+|-heal|p1a: ring the bell|86/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+
+|
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|18/100
+|-damage|p2a: Whimsicott|5/100|[from] Stealth Rock
+|switch|p1a: zoo wee mama|Gourgeist-Super, M|58/100
+|-damage|p1a: zoo wee mama|45/100|[from] Spikes
+|-item|p2a: Whimsicott|Choice Specs|[from] ability: Frisk|[of] p1a: zoo wee mama|[identify]
+|
+|-heal|p1a: zoo wee mama|52/100|[from] item: Leftovers
+|upkeep
+|turn|58
+
+|c|☆The Yeet King|see that was a good prediction
+
+|c|☆Misora31|then you just immediately go back to bronzong
+
+|c|☆Misora31|easy switch
+
+|c|☆Misora31|whimsi can't come back in
+
+|
+|switch|p1a: ring the bell|Bronzong|86/100 par
+|move|p2a: Whimsicott|Moonblast|p1a: ring the bell
+|-resisted|p1a: ring the bell
+|-damage|p1a: ring the bell|64/100 par
+|
+|-heal|p1a: ring the bell|71/100 par|[from] item: Leftovers
+|upkeep
+|turn|59
+
+|c|☆The Yeet King|yeah
+
+|c|☆The Yeet King|but u got damage on at least
+
+|c|☆Misora31|and then I forfeit
+
+|c|☆Misora31|cause I can't win
+
+|c|☆The Yeet King|bro come on
+
+|c|☆The Yeet King|why are u so defeatist
+
+|c|☆The Yeet King|you already beat me once
+
+|c|☆Misora31|because with this team
+
+|c|☆Misora31|I can't win
+
+|
+|move|p2a: Whimsicott|Moonblast|p1a: ring the bell
+|-resisted|p1a: ring the bell
+|-crit|p1a: ring the bell
+|-damage|p1a: ring the bell|38/100 par
+|cant|p1a: ring the bell|par
+|
+|-heal|p1a: ring the bell|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|60
+
+|c|☆The Yeet King|if u wanna think that then sure
+
+|
+|move|p2a: Whimsicott|Moonblast|p1a: ring the bell
+|-resisted|p1a: ring the bell
+|-damage|p1a: ring the bell|20/100 par
+|-unboost|p1a: ring the bell|spa|1
+|move|p1a: ring the bell|Psychic|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-heal|p1a: ring the bell|27/100 par|[from] item: Leftovers
+|upkeep
+
+|c|☆The Yeet King|but it wont get u far
+
+|
+|switch|p2a: Milotic|Milotic, F, shiny|64/100 tox
+|-damage|p2a: Milotic|51/100 tox|[from] Stealth Rock
+|turn|61
+
+|
+|move|p2a: Milotic|Scald|p1a: ring the bell
+|-damage|p1a: ring the bell|4/100 par
+|move|p1a: ring the bell|Psychic|p2a: Milotic
+|-damage|p2a: Milotic|33/100 tox
+|
+|-heal|p2a: Milotic|39/100 tox|[from] item: Leftovers
+|-heal|p1a: ring the bell|11/100 par|[from] item: Leftovers
+|-damage|p2a: Milotic|33/100 tox|[from] psn
+|upkeep
+|turn|62
+
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|83/100 tox
+|move|p1a: ring the bell|Psychic|p2a: Milotic
+|-damage|p2a: Milotic|67/100 tox
+|
+|-heal|p2a: Milotic|73/100 tox|[from] item: Leftovers
+|-heal|p1a: ring the bell|17/100 par|[from] item: Leftovers
+|-damage|p2a: Milotic|61/100 tox|[from] psn
+|upkeep
+|turn|63
+
+|
+|move|p2a: Milotic|Scald|p1a: ring the bell
+|-damage|p1a: ring the bell|0 fnt
+|faint|p1a: ring the bell
+|
+|-heal|p2a: Milotic|67/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|48/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: blowjob lips|Kingdra, F|23/100
+|-damage|p1a: blowjob lips|11/100|[from] Spikes
+|turn|64
+
+|
+|switch|p2a: The Great Wall Of|Registeel|87/100
+|-damage|p2a: The Great Wall Of|81/100|[from] Stealth Rock
+|move|p1a: blowjob lips|Draco Meteor|p2a: The Great Wall Of|[miss]
+|-miss|p1a: blowjob lips|p2a: The Great Wall Of
+|
+|-heal|p2a: The Great Wall Of|87/100|[from] item: Leftovers
+|upkeep
+|turn|65
+
+|c|☆The Yeet King|its SUPPOSED to work
+
+|c|☆The Yeet King|but it DOESNT
+
+|c|☆The Yeet King|lol
+
+|
+|switch|p1a: fire doggo|Houndoom-Mega, M|88/100
+|-damage|p1a: fire doggo|76/100|[from] Spikes
+|switch|p2a: Porygon2|Porygon2|65/100 par
+|-damage|p2a: Porygon2|52/100 par|[from] Stealth Rock
+|-ability|p2a: Porygon2|Solar Power|[from] ability: Trace|[of] p1a: fire doggo
+|
+|upkeep
+|turn|66
+
+|
+|move|p1a: fire doggo|Nasty Plot|p1a: fire doggo
+|-boost|p1a: fire doggo|spa|2
+|cant|p2a: Porygon2|par
+|
+|upkeep
+|turn|67
+
+|
+|move|p1a: fire doggo|Flamethrower|p2a: Porygon2
+|-damage|p2a: Porygon2|11/100 par
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|61/100 par
+|
+|upkeep
+|turn|68
+
+|
+|move|p1a: fire doggo|Nasty Plot|p1a: fire doggo
+|-boost|p1a: fire doggo|spa|2
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100 par
+|
+|upkeep
+|turn|69
+
+|
+|move|p1a: fire doggo|Nasty Plot|p1a: fire doggo
+|-boost|p1a: fire doggo|spa|2
+|move|p2a: Porygon2|Thunder Wave|p1a: fire doggo
+|-status|p1a: fire doggo|par
+|
+|upkeep
+|turn|70
+
+|
+|move|p1a: fire doggo|Flamethrower|p2a: Porygon2
+|-damage|p2a: Porygon2|8/100 par
+|move|p2a: Porygon2|Tri Attack|p1a: fire doggo
+|-damage|p1a: fire doggo|41/100 par
+|
+|upkeep
+|turn|71
+
+|
+|move|p1a: fire doggo|Flamethrower|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|upkeep
+
+|c|☆The Yeet King|im fast as fart
+
+|c|☆The Yeet King|gotta go fast
+
+|
+|switch|p2a: The Great Wall Of|Registeel|87/100
+|-damage|p2a: The Great Wall Of|81/100|[from] Stealth Rock
+|turn|72
+
+|
+|move|p1a: fire doggo|Flamethrower|p2a: The Great Wall Of
+|-supereffective|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|0 fnt
+|faint|p2a: The Great Wall Of
+|
+|upkeep
+
+|c|☆The Yeet King|whyd u pick regi
+
+|c|☆The Yeet King|bro
+
+|
+|switch|p2a: Milotic|Milotic, F, shiny|48/100 tox
+|-damage|p2a: Milotic|36/100 tox|[from] Stealth Rock
+|turn|73
+
+|c|☆The Yeet King|u just sacced registeel
+
+|c|☆Misora31|Well
+
+|
+|move|p2a: Milotic|Scald|p1a: fire doggo
+|-supereffective|p1a: fire doggo
+|-damage|p1a: fire doggo|0 fnt
+|faint|p1a: fire doggo
+|
+|-heal|p2a: Milotic|42/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|36/100 tox|[from] psn
+|upkeep
+
+|c|☆Misora31|ohhh
+
+|c|☆Misora31|huh
+
+|
+|switch|p1a: zoo wee mama|Gourgeist-Super, M|52/100
+|-damage|p1a: zoo wee mama|39/100|[from] Spikes
+|-item|p2a: Milotic|Leftovers|[from] ability: Frisk|[of] p1a: zoo wee mama|[identify]
+|turn|74
+
+|c|☆Misora31|didn't think I outsped
+
+|c|☆Misora31|ohh well
+
+|
+|move|p2a: Milotic|Toxic|p1a: zoo wee mama
+|-status|p1a: zoo wee mama|tox
+|move|p1a: zoo wee mama|Seed Bomb|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|11/100 tox
+|
+|-heal|p2a: Milotic|17/100 tox|[from] item: Leftovers
+|-heal|p1a: zoo wee mama|45/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|5/100 tox|[from] psn
+|-damage|p1a: zoo wee mama|39/100 tox|[from] psn
+|upkeep
+|turn|75
+
+|c|☆The Yeet King|fuuuuck
+
+|c|☆The Yeet King|die already bromigo
+
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|55/100 tox
+|move|p1a: zoo wee mama|Seed Bomb|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|26/100 tox
+|
+|-heal|p2a: Milotic|32/100 tox|[from] item: Leftovers
+|-heal|p1a: zoo wee mama|45/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|13/100 tox|[from] psn
+|-damage|p1a: zoo wee mama|33/100 tox|[from] psn
+|upkeep
+|turn|76
+
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|63/100 tox
+|move|p1a: zoo wee mama|Seed Bomb|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|36/100 tox
+|
+|-heal|p2a: Milotic|42/100 tox|[from] item: Leftovers
+|-heal|p1a: zoo wee mama|39/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|17/100 tox|[from] psn
+|-damage|p1a: zoo wee mama|21/100 tox|[from] psn
+|upkeep
+|turn|77
+
+|c|☆The Yeet King|here is where ice beam plays out
+
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|67/100 tox
+|move|p1a: zoo wee mama|Seed Bomb|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|41/100 tox
+|
+|-heal|p2a: Milotic|47/100 tox|[from] item: Leftovers
+|-heal|p1a: zoo wee mama|27/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|16/100 tox|[from] psn
+|-damage|p1a: zoo wee mama|2/100 tox|[from] psn
+|upkeep
+|turn|78
+
+|c|☆The Yeet King|if you would had it of course
+
+|
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|66/100 tox
+|move|p1a: zoo wee mama|Leech Seed|p2a: Milotic
+|-start|p2a: Milotic|move: Leech Seed
+|
+|-heal|p2a: Milotic|73/100 tox|[from] item: Leftovers
+|-heal|p1a: zoo wee mama|9/100 tox|[from] item: Leftovers
+|-damage|p2a: Milotic|60/100 tox|[from] Leech Seed|[of] p1a: zoo wee mama
+|-heal|p1a: zoo wee mama|22/100 tox|[silent]
+|-damage|p2a: Milotic|24/100 tox|[from] psn
+|-damage|p1a: zoo wee mama|0 fnt|[from] psn
+|upkeep
+|faint|p1a: zoo wee mama
+
+|
+|switch|p1a: blowjob lips|Kingdra, F|11/100
+|-damage|p1a: blowjob lips|0 fnt|[from] Spikes
+|faint|p1a: blowjob lips
+|
+|win|Misora31

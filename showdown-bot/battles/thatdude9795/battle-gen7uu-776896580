@@ -1,0 +1,32 @@
+
+|
+|move|p1a: Roserade|Energy Ball|p2a: Nidoking
+|-damage|p2a: Nidoking|32/100
+|move|p2a: Nidoking|Earth Power|p1a: Roserade
+|-damage|p1a: Roserade|17/100
+|
+|upkeep
+|turn|19
+
+|
+|move|p1a: Roserade|Energy Ball|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|upkeep
+
+|
+|switch|p2a: Mamoswine|Mamoswine, M|54/100
+|turn|20
+
+|c|☆thatdude9795|gg
+
+|c|☆Tapu rara|gg
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|win|Tapu rara

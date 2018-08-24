@@ -1,0 +1,107 @@
+|init|battle
+|title|wibby12345 vs. Old_Man_Waffles
+|j|☆wibby12345
+|j|☆Old_Man_Waffles
+|player|p1|wibby12345|293
+|player|p2|Old_Man_Waffles|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Omastar, F|item
+|poke|p1|Pelipper, M|item
+|poke|p1|Alomomola, F|item
+|poke|p1|Seismitoad, F|item
+|poke|p1|Crawdaunt, F|item
+|poke|p1|Walrein, M|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Talonflame, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wibby12345)
+|inactive|Old_Man_Waffles has 135 seconds left.
+|inactive|Old_Man_Waffles has 120 seconds left.
+|
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Darmanitan|Darmanitan, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|move|p2a: Darmanitan|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|90/100
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Pelipper|Scald|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|49/100|[from] item: Leftovers
+|-heal|p1a: Pelipper|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Seismitoad|[miss]
+|-miss|p2a: Rotom|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|55/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Old_Man_Waffles|move: Stealth Rock
+|move|p2a: Rotom|Will-O-Wisp|p1a: Seismitoad
+|-status|p1a: Seismitoad|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|61/100|[from] item: Leftovers
+|-damage|p1a: Seismitoad|95/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Seismitoad|Hydro Pump|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Seismitoad|89/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Volcarona|Volcarona, M|100/100
+|-damage|p2a: Volcarona|51/100|[from] Stealth Rock
+|turn|5
+
+|
+|-zpower|p1a: Seismitoad
+|move|p1a: Seismitoad|Hydro Vortex|p2a: Volcarona|[zeffect]
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|none
+|-damage|p1a: Seismitoad|83/100 brn|[from] brn
+|upkeep
+
+|-message|Old_Man_Waffles forfeited.
+
+|
+|win|wibby12345

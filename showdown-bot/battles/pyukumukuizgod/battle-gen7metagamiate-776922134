@@ -1,0 +1,185 @@
+|init|battle
+|title|PYUKUMUKU IZ GOD vs. squiddddddy
+|j|☆PYUKUMUKU IZ GOD
+|j|☆squiddddddy
+|player|p1|PYUKUMUKU IZ GOD|266
+|player|p2|squiddddddy|126
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Metagamiate
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tapu Bulu|item
+|poke|p1|Terrakion|item
+|poke|p1|Lucario, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Kartana|item
+|poke|p1|Noivern, M|item
+|poke|p2|Zeraora|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Noivern, F|item
+|poke|p2|Magearna|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Clefable, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by squiddddddy)
+|j| davidcom
+|inactive|squiddddddy has 135 seconds left.
+|
+|start
+|switch|p1a: Noivern|Noivern, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Noivern|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Return|p1a: Noivern
+|-damage|p1a: Noivern|9/100
+|move|p1a: Noivern|Boomburst|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|turn|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zeraora|atk|1
+|move|p2a: Zeraora|Fake Out|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Zeraora|Hidden Power|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|24/100
+|-damage|p2a: Zeraora|91/100|[from] item: Life Orb
+|move|p1a: Landorus|U-turn|p2a: Zeraora
+|-damage|p2a: Zeraora|51/100
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Zeraora|Close Combat|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|31/100
+|-unboost|p2a: Zeraora|def|1
+|-unboost|p2a: Zeraora|spd|1
+|-damage|p2a: Zeraora|42/100|[from] item: Life Orb
+|move|p1a: Terrakion|Earthquake|p2a: Zeraora
+|-supereffective|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|-damage|p1a: Terrakion|21/100|[from] item: Life Orb
+|faint|p2a: Zeraora
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|5
+
+|
+|move|p1a: Terrakion|Return|p2a: Clefable
+|-damage|p2a: Clefable|11/100
+|-damage|p1a: Terrakion|11/100|[from] item: Life Orb
+|move|p2a: Clefable|Stealth Rock|p1a: Terrakion
+|-sidestart|p1: PYUKUMUKU IZ GOD|move: Stealth Rock
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Terrakion|Return|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Terrakion|1/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+
+|
+|switch|p2a: Noivern|Noivern, F|100/100
+|turn|7
+
+|
+|move|p2a: Noivern|Boomburst|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|24/100
+|-damage|p1a: Landorus|12/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Noivern|atk|1
+|turn|8
+
+|
+|move|p2a: Noivern|Boomburst|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+
+|
+|switch|p1a: Noivern|Noivern, M|9/100
+|-damage|p1a: Noivern|0 fnt|[from] Stealth Rock
+|faint|p1a: Noivern
+
+|
+|switch|p1a: Lucario|Lucario, F|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p1a: Lucario|Extreme Speed|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|70/100
+|move|p2a: Noivern|Boomburst|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+
+|
+|switch|p1a: Kartana|Kartana, shiny|100/100
+|-damage|p1a: Kartana|94/100|[from] Stealth Rock
+|turn|10
+
+|c|☆squiddddddy|u right about pyukumuku my dude
+
+|
+|move|p2a: Noivern|Boomburst|p1a: Kartana
+|-damage|p1a: Kartana|0 fnt
+|faint|p1a: Kartana
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, shiny|100/100
+|-damage|p1a: Tapu Bulu|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|turn|11
+
+|c|☆squiddddddy|best mon
+
+|
+|move|p2a: Noivern|Boomburst|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|0 fnt
+|faint|p1a: Tapu Bulu
+|
+|win|squiddddddy

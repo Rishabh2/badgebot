@@ -1,0 +1,530 @@
+|init|battle
+|title|Old_Man_Waffles vs. lyom
+|j|☆Old_Man_Waffles
+|j|☆lyom
+|player|p1|Old_Man_Waffles|169
+|player|p2|lyom|294
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Magnezone|item
+|poke|p1|Arcanine, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Donphan, M|item
+|poke|p1|Azumarill, M|item
+|poke|p2|Toxapex, M|item
+|poke|p2|Spiritomb, F|item
+|poke|p2|Weavile, M|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Serperior, M|item
+|poke|p2|Alakazam, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Old_Man_Waffles)
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|start
+|switch|p1a: Plantasaur|Venusaur, M, shiny|100/100
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|1
+
+|
+|detailschange|p1a: Plantasaur|Venusaur-Mega, M, shiny
+|-mega|p1a: Plantasaur|Venusaur|Venusaurite
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|76/100
+|move|p1a: Plantasaur|Sludge Bomb|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Plantasaur|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|67/100
+|
+|-heal|p2a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|inactive|lyom has 135 seconds left.
+
+|inactive|lyom has 120 seconds left.
+
+|
+|move|p1a: Plantasaur|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|move|p2a: Toxapex|Scald|p1a: Plantasaur
+|-resisted|p1a: Plantasaur
+|-damage|p1a: Plantasaur|95/100
+|
+|-heal|p2a: Toxapex|79/100|[from] item: Black Sludge
+|-damage|p2a: Toxapex|67/100|[from] Leech Seed|[of] p1a: Plantasaur
+|-heal|p1a: Plantasaur|100/100|[silent]
+|upkeep
+|turn|4
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|lyom has 135 seconds left.
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Plantasaur|Earthquake|p2a: Tornadus
+|-immune|p2a: Tornadus|[msg]
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Yeah B!|Magnezone|100/100
+|move|p2a: Tornadus|Hurricane|p1a: Yeah B!
+|-resisted|p1a: Yeah B!
+|-damage|p1a: Yeah B!|90/100
+|-start|p1a: Yeah B!|confusion
+|
+|upkeep
+|turn|6
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|lyom has 135 seconds left.
+
+|inactive|lyom has 120 seconds left.
+
+|
+|move|p2a: Tornadus|U-turn|p1a: Yeah B!
+|-resisted|p1a: Yeah B!
+|-damage|p1a: Yeah B!|83/100
+
+|
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|-activate|p1a: Yeah B!|confusion
+|-damage|p1a: Yeah B!|79/100|[from] confusion
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Clifford|Arcanine, M|100/100
+|-ability|p1a: Clifford|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|move|p2a: Weavile|Low Kick|p1a: Clifford
+|-damage|p1a: Clifford|65/100
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+
+|inactive|lyom has 135 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, M|99/100
+|move|p1a: Clifford|Flare Blitz|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|-damage|p1a: Clifford|59/100|[from] Recoil
+|
+|-heal|p2a: Toxapex|85/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Plantasaur|Venusaur-Mega, M, shiny|100/100
+|move|p2a: Toxapex|Scald|p1a: Plantasaur
+|-resisted|p1a: Plantasaur
+|-damage|p1a: Plantasaur|96/100
+|
+|-heal|p2a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Plantasaur|Sludge Bomb|p2a: Tornadus
+|-damage|p2a: Tornadus|63/100
+|-status|p2a: Tornadus|psn
+|
+|-damage|p2a: Tornadus|50/100 psn|[from] psn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Tornadus|Hurricane|p1a: Plantasaur
+|-supereffective|p1a: Plantasaur
+|-damage|p1a: Plantasaur|45/100
+|move|p1a: Plantasaur|Leech Seed|p2a: Tornadus
+|-start|p2a: Tornadus|move: Leech Seed
+|
+|-damage|p2a: Tornadus|38/100 psn|[from] Leech Seed|[of] p1a: Plantasaur
+|-heal|p1a: Plantasaur|58/100|[silent]
+|-damage|p2a: Tornadus|26/100 psn|[from] psn
+|upkeep
+|turn|12
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Yeah B!|Magnezone|79/100
+|move|p2a: Tornadus|U-turn|p1a: Yeah B!
+|-resisted|p1a: Yeah B!
+|-damage|p1a: Yeah B!|72/100
+
+|inactive|lyom has 135 seconds left.
+
+|
+|switch|p2a: Spiritomb|Spiritomb, F|100/100
+|
+|upkeep
+|turn|13
+
+|inactive|lyom has 135 seconds left.
+
+|inactive|lyom has 120 seconds left.
+
+|
+|move|p1a: Yeah B!|Volt Switch|p2a: Spiritomb
+|-damage|p2a: Spiritomb|58/100
+
+|
+|switch|p1a: Clifford|Arcanine, M|59/100
+|-ability|p1a: Clifford|Intimidate|boost
+|-unboost|p2a: Spiritomb|atk|1
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Clifford
+|-immune|p1a: Clifford|[msg]
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Clifford|Bulldoze|p2a: Spiritomb
+|-damage|p2a: Spiritomb|38/100
+|-unboost|p2a: Spiritomb|spe|1
+|move|p2a: Spiritomb|Foul Play|p1a: Clifford
+|-damage|p1a: Clifford|7/100
+|
+|upkeep
+|turn|15
+
+|
+|-activate|p1a: Clifford|move: Pursuit
+|move|p2a: Spiritomb|Pursuit|p1a: Clifford|[from]Pursuit
+|-damage|p1a: Clifford|0 fnt
+|faint|p1a: Clifford
+|
+|upkeep
+
+|
+|switch|p1a: Tantor|Donphan, M|100/100
+|turn|16
+
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Tantor|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: lyom|move: Stealth Rock
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Toxapex|Toxic|p1a: Tantor
+|-status|p1a: Tantor|tox
+|move|p1a: Tantor|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|79/100
+|-enditem|p2a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p1a: Tantor
+|
+|-damage|p1a: Tantor|94/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Toxapex|Scald|p1a: Tantor
+|-supereffective|p1a: Tantor
+|-damage|p1a: Tantor|45/100 tox
+|move|p1a: Tantor|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|19/100
+|
+|-heal|p1a: Tantor|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Tantor|39/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|inactive|lyom has 135 seconds left.
+
+|
+|move|p2a: Toxapex|Scald|p1a: Tantor
+|-supereffective|p1a: Tantor
+|-damage|p1a: Tantor|0 fnt
+|faint|p1a: Tantor
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|switch|p1a: Plantasaur|Venusaur-Mega, M, shiny|58/100
+|turn|20
+
+|inactive|lyom has 135 seconds left.
+
+|inactive|lyom has 120 seconds left.
+
+|inactive|lyom has 105 seconds left.
+
+|
+|switch|p2a: Spiritomb|Spiritomb, F|38/100
+|-damage|p2a: Spiritomb|26/100|[from] Stealth Rock
+|move|p1a: Plantasaur|Earthquake|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|upkeep
+
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|59/100 psn
+|-damage|p2a: Tornadus|34/100 psn|[from] Stealth Rock
+|turn|21
+
+|inactive|lyom has 135 seconds left.
+
+|
+|move|p2a: Tornadus|Hurricane|p1a: Plantasaur
+|-supereffective|p1a: Plantasaur
+|-damage|p1a: Plantasaur|12/100
+|move|p1a: Plantasaur|Sludge Bomb|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, M|91/100
+|-damage|p2a: Weavile|66/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|22
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Oswald|Azumarill, M|100/100
+|move|p2a: Weavile|Knock Off|p1a: Oswald
+|-resisted|p1a: Oswald
+|-damage|p1a: Oswald|69/100
+|-enditem|p1a: Oswald|Assault Vest|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|56/100|[from] item: Life Orb
+|
+|upkeep
+|turn|23
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, M|52/100
+|-damage|p2a: Toxapex|40/100|[from] Stealth Rock
+|move|p1a: Oswald|Aqua Jet|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|
+|upkeep
+|turn|24
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Yeah B!|Magnezone|72/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|81/100
+|
+|upkeep
+|turn|25
+
+|inactive|lyom has 135 seconds left.
+
+|
+|switch|p2a: Serperior|Serperior, M|82/100
+|-damage|p2a: Serperior|69/100|[from] Stealth Rock
+|move|p1a: Yeah B!|Thunderbolt|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|40/100
+|
+|-heal|p2a: Serperior|46/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Serperior|Leech Seed|p1a: Yeah B!
+|-start|p1a: Yeah B!|move: Leech Seed
+|move|p1a: Yeah B!|Hidden Power|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+
+|
+|switch|p2a: Weavile|Weavile, M|56/100
+|-damage|p2a: Weavile|31/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|turn|27
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Norberta|Latias, F|100/100
+|move|p2a: Weavile|Low Kick|p1a: Norberta
+|-resisted|p1a: Norberta
+|-damage|p1a: Norberta|84/100
+|-damage|p2a: Weavile|21/100|[from] item: Life Orb
+|
+|upkeep
+|turn|28
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Norberta|Draco Meteor|p2a: Weavile|[miss]
+|-miss|p1a: Norberta|p2a: Weavile
+|move|p2a: Weavile|Knock Off|p1a: Norberta
+|-supereffective|p1a: Norberta
+|-damage|p1a: Norberta|0 fnt
+|-enditem|p1a: Norberta|Choice Scarf|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|11/100|[from] item: Life Orb
+|faint|p1a: Norberta
+|
+|upkeep
+
+|
+|switch|p1a: Oswald|Azumarill, M|69/100
+|turn|29
+
+|inactive|lyom has 135 seconds left.
+
+|
+|switch|p1a: Plantasaur|Venusaur-Mega, M, shiny|12/100
+|move|p2a: Weavile|Icicle Crash|p1a: Plantasaur
+|-supereffective|p1a: Plantasaur
+|-damage|p1a: Plantasaur|0 fnt
+|-damage|p2a: Weavile|1/100|[from] item: Life Orb
+|faint|p1a: Plantasaur
+|
+|upkeep
+
+|
+|switch|p1a: Oswald|Azumarill, M|69/100
+|turn|30
+
+|
+|move|p1a: Oswald|Aqua Jet|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|turn|31
+
+|
+|detailschange|p2a: Alakazam|Alakazam-Mega, M
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|-ability|p2a: Alakazam|Huge Power|[from] ability: Trace|[of] p1a: Oswald
+|move|p1a: Oswald|Aqua Jet|p2a: Alakazam
+|-damage|p2a: Alakazam|53/100
+|move|p2a: Alakazam|Psychic|p1a: Oswald
+|-damage|p1a: Oswald|10/100
+|
+|upkeep
+|turn|32
+
+|
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Oswald|Aqua Jet|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100
+|
+|upkeep
+|turn|33
+
+|
+|switch|p1a: Yeah B!|Magnezone|72/100
+|move|p2a: Toxapex|Scald|p1a: Yeah B!
+|-damage|p1a: Yeah B!|54/100
+|-status|p1a: Yeah B!|brn
+|
+|-damage|p1a: Yeah B!|48/100 brn|[from] brn
+|upkeep
+|turn|34
+
+|
+|move|p1a: Yeah B!|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|8/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|59/100
+|
+|-damage|p1a: Yeah B!|42/100 brn|[from] brn
+|upkeep
+|turn|35
+
+|
+|move|p1a: Yeah B!|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Yeah B!|36/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Alakazam|Alakazam-Mega, M|53/100
+|-damage|p2a: Alakazam|41/100|[from] Stealth Rock
+|-ability|p2a: Alakazam|Magnet Pull|[from] ability: Trace|[of] p1a: Yeah B!
+|turn|36
+
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Yeah B!
+|-supereffective|p1a: Yeah B!
+|-damage|p1a: Yeah B!|0 fnt
+|faint|p1a: Yeah B!
+|
+|upkeep
+
+|
+|switch|p1a: Oswald|Azumarill, M|10/100
+|turn|37
+
+|
+|move|p1a: Oswald|Aqua Jet|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|win|Old_Man_Waffles

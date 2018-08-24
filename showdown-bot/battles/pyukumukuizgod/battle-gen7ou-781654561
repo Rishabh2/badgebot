@@ -1,0 +1,192 @@
+|init|battle
+|title|sergio_sanchez96 vs. PYUKUMUKU IZ GOD
+|j|☆sergio_sanchez96
+|j|☆PYUKUMUKU IZ GOD
+|player|p1|sergio_sanchez96|265
+|player|p2|PYUKUMUKU IZ GOD|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Serperior, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Gengar, F|item
+|poke|p1|Scizor, F|
+|poke|p1|Latias, F|item
+|poke|p2|Pyukumuku, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Sableye, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Toxapex, M|item
+|poke|p2|Gliscor, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PYUKUMUKU IZ GOD)
+|
+|start
+|switch|p1a: Serperior|Serperior, M|100/100
+|switch|p2a: Reverse|Sableye, M|100/100
+|turn|1
+|
+|switch|p2a: Thiq|Chansey, F|100/100
+|move|p1a: Serperior|Leaf Storm|p2a: Thiq
+|-damage|p2a: Thiq|88/100
+|-boost|p1a: Serperior|spa|2
+|
+|upkeep
+|turn|2
+|inactive|sergio_sanchez96 has 135 seconds left.
+|
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|75/100
+|move|p2a: Thiq|Seismic Toss|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|sergio_sanchez96 has 135 seconds left.
+|inactive|sergio_sanchez96 has 120 seconds left.
+|
+|move|p1a: Serperior|Leech Seed|p2a: Thiq
+|-start|p2a: Thiq|move: Leech Seed
+|move|p2a: Thiq|Seismic Toss|p1a: Serperior
+|-damage|p1a: Serperior|48/100
+|
+|-heal|p1a: Serperior|54/100|[from] item: Leftovers
+|-damage|p2a: Thiq|75/100|[from] Leech Seed|[of] p1a: Serperior
+|-heal|p1a: Serperior|83/100|[silent]
+|upkeep
+|turn|4
+|
+|switch|p2a: birdo|Skarmory, M|100/100
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|58/100
+|
+|-heal|p1a: Serperior|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Serperior|Glare|p2a: birdo
+|-status|p2a: birdo|par
+|cant|p2a: birdo|par
+|
+|-heal|p1a: Serperior|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Serperior|Leech Seed|p2a: birdo
+|-start|p2a: birdo|move: Leech Seed
+|move|p2a: birdo|Whirlwind|p1a: Serperior
+|drag|p1a: Latias|Latias, F|100/100
+|
+|-damage|p2a: birdo|88/100 par|[from] Leech Seed|[of] p1a: Latias
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Thiq|Chansey, F|75/100
+|move|p1a: Latias|Thunderbolt|p2a: Thiq
+|-crit|p2a: Thiq
+|-damage|p2a: Thiq|63/100
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Thiq|Stealth Rock|p1a: Gengar
+|-sidestart|p1: sergio_sanchez96|move: Stealth Rock
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Serperior|Serperior, M|70/100
+|-damage|p1a: Serperior|58/100|[from] Stealth Rock
+|switch|p2a: Reverse|Sableye, M|100/100
+|
+|-heal|p1a: Serperior|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|detailschange|p2a: Reverse|Sableye-Mega, M
+|-mega|p2a: Reverse|Sableye|Sablenite
+|move|p1a: Serperior|Leaf Storm|p2a: Reverse
+|-damage|p2a: Reverse|74/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Reverse|Calm Mind|p2a: Reverse
+|-boost|p2a: Reverse|spa|1
+|-boost|p2a: Reverse|spd|1
+|
+|-heal|p1a: Serperior|70/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Reverse
+|-damage|p2a: Reverse|33/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Reverse|Dark Pulse|p1a: Serperior
+|-damage|p1a: Serperior|36/100
+|
+|-heal|p1a: Serperior|42/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Thiq|Chansey, F|63/100
+|move|p1a: Serperior|Leaf Storm|p2a: Thiq
+|-damage|p2a: Thiq|27/100
+|-boost|p1a: Serperior|spa|2
+|
+|-heal|p1a: Serperior|48/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Serperior|Leaf Storm|p2a: Thiq
+|-damage|p2a: Thiq|0 fnt
+|faint|p2a: Thiq
+|
+|-heal|p1a: Serperior|54/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: sexy pexy|Toxapex, M|100/100
+|turn|14
+
+|
+|move|p1a: Serperior|Leaf Storm|p2a: sexy pexy
+|-damage|p2a: sexy pexy|0 fnt
+|faint|p2a: sexy pexy
+|
+|-heal|p1a: Serperior|60/100|[from] item: Leftovers
+|upkeep
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 120 seconds left.
+
+|
+|switch|p2a: birdo|Skarmory, M|88/100 par
+|turn|15
+
+|-message|PYUKUMUKU IZ GOD forfeited.
+
+|
+|win|sergio_sanchez96

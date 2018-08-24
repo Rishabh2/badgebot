@@ -1,0 +1,64 @@
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Heatran|Magma Storm|p2a: Gliscor
+|-damage|p2a: Gliscor|36/100 tox
+|-activate|p2a: Gliscor|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|36/100 tox|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|22
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|-heal|p2a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Nightmare|Pyukumuku, F|100/100
+|move|p1a: Landorus|Defog|p2a: Nightmare
+|-unboost|p2a: Nightmare|evasion|1
+|-sideend|p1: TitleVII|Toxic Spikes|[from] move: Defog|[of] p1a: Landorus
+|
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Nightmare|Soak|p1a: Clefable
+|-start|p1a: Clefable|typechange|Water
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Nightmare
+|-sidestart|p2: PYUKUMUKU IZ GOD|move: Stealth Rock
+|move|p2a: Nightmare|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|upkeep
+|turn|26
+
+|
+|switch|p2a: Reverse|Sableye-Mega, F|73/100 brn
+|-damage|p2a: Reverse|61/100 brn|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Reverse
+|-supereffective|p2a: Reverse
+|-damage|p2a: Reverse|29/100 brn
+|
+|-damage|p2a: Reverse|23/100 brn|[from] brn
+|upkeep
+|turn|27
+
+|-message|PYUKUMUKU IZ GOD forfeited.
+
+|
+|win|TitleVII

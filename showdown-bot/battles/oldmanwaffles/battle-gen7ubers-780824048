@@ -1,0 +1,415 @@
+|init|battle
+|title|Old_Man_Waffles vs. Kyalessa
+|j|☆Old_Man_Waffles
+|j|☆Kyalessa
+|player|p1|Old_Man_Waffles|102
+|player|p2|Kyalessa|232
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Azumarill, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Darkrai|item
+|poke|p1|Arcanine, M|item
+|poke|p1|Azelf|item
+|poke|p1|Latias, F|item
+|poke|p2|Zoroark, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Sylveon, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Talonflame, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Plantasaur|Venusaur, M|100/100
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|1
+|
+|switch|p1a: Clifford|Arcanine, M|100/100
+|-ability|p1a: Clifford|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|move|p2a: Talonflame|Nasty Plot|p2a: Talonflame
+|-boost|p2a: Talonflame|spa|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Clifford|Extreme Speed|p2a: Talonflame
+|-damage|p2a: Talonflame|60/100
+|replace|p2a: Zoroark|Zoroark, M
+|-end|p2a: Zoroark|Illusion
+|move|p2a: Zoroark|Night Slash|p1a: Clifford
+|-damage|p1a: Clifford|89/100
+|
+|-heal|p1a: Clifford|95/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Clifford|Flamethrower|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|86/100
+|
+|-heal|p1a: Clifford|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|switch|p1a: Nigel|Azelf|100/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Talonflame|Talonflame, M|60/100
+|move|p1a: Nigel|Ice Punch|p2a: Talonflame
+|-damage|p2a: Talonflame|12/100
+|replace|p2a: Zoroark|Zoroark, M
+|-end|p2a: Zoroark|Illusion
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Nigel|Ice Punch|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|upkeep
+
+|
+|switch|p2a: Gengar|Gengar, M, shiny|100/100
+|turn|7
+
+|
+|move|p1a: Nigel|Ice Punch|p2a: Gengar
+|-damage|p2a: Gengar|49/100
+|move|p2a: Gengar|Shadow Ball|p1a: Nigel
+|-supereffective|p1a: Nigel
+|-damage|p1a: Nigel|0 fnt
+|faint|p1a: Nigel
+|
+|upkeep
+
+|
+|switch|p1a: Mr. Sandman|Darkrai|100/100
+|turn|8
+
+|
+|move|p1a: Mr. Sandman|Nasty Plot|p1a: Mr. Sandman
+|-boost|p1a: Mr. Sandman|spa|2
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Mr. Sandman|Nasty Plot|p1a: Mr. Sandman
+|-boost|p1a: Mr. Sandman|spa|2
+|move|p2a: Gengar|Shadow Ball|p1a: Mr. Sandman
+|-resisted|p1a: Mr. Sandman
+|-damage|p1a: Mr. Sandman|71/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Mr. Sandman|Dark Pulse|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Mr. Sandman|Disable|Dark Pulse|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|upkeep
+
+|
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|11
+
+|
+|move|p1a: Mr. Sandman|Ice Beam|p2a: Sylveon
+|-damage|p2a: Sylveon|40/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Mr. Sandman
+|-supereffective|p1a: Mr. Sandman
+|-damage|p1a: Mr. Sandman|0 fnt
+|faint|p1a: Mr. Sandman
+|
+|-heal|p2a: Sylveon|46/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Plantasaur|Venusaur, M|100/100
+|turn|12
+
+|
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|detailschange|p1a: Plantasaur|Venusaur-Mega, M
+|-mega|p1a: Plantasaur|Venusaur|Venusaurite
+|move|p1a: Plantasaur|Leech Seed|p2a: Talonflame
+|-start|p2a: Talonflame|move: Leech Seed
+|
+|-damage|p2a: Talonflame|88/100|[from] Leech Seed|[of] p1a: Plantasaur
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Clifford|Arcanine, M|100/100
+|-ability|p1a: Clifford|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|move|p2a: Talonflame|Flare Blitz|p1a: Clifford
+|-resisted|p1a: Clifford
+|-damage|p1a: Clifford|89/100
+|-damage|p2a: Talonflame|84/100|[from] Recoil
+|
+|-heal|p2a: Talonflame|90/100|[from] item: Leftovers
+|-heal|p1a: Clifford|95/100|[from] item: Leftovers
+|-damage|p2a: Talonflame|77/100|[from] Leech Seed|[of] p1a: Clifford
+|-heal|p1a: Clifford|100/100|[silent]
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Clifford|Extreme Speed|p2a: Gliscor
+|-damage|p2a: Gliscor|80/100 tox
+|
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Norberta|Latias, F|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Norberta
+|-immune|p1a: Norberta|[msg]|[from] ability: Levitate
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Plantasaur|Venusaur-Mega, M|100/100
+|switch|p2a: Sylveon|Sylveon, M|46/100
+|
+|-heal|p2a: Sylveon|52/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Garchomp|Garchomp, M|86/100
+|move|p1a: Plantasaur|Leech Seed|p2a: Garchomp
+|-start|p2a: Garchomp|move: Leech Seed
+|
+|-damage|p2a: Garchomp|73/100|[from] Leech Seed|[of] p1a: Plantasaur
+|upkeep
+|turn|18
+
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, M
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p2a: Garchomp|Stealth Rock|p1a: Plantasaur
+|-sidestart|p1: Old_Man_Waffles|move: Stealth Rock
+|move|p1a: Plantasaur|Giga Drain|p2a: Garchomp
+|-damage|p2a: Garchomp|48/100
+|
+|-damage|p2a: Garchomp|35/100|[from] Leech Seed|[of] p1a: Plantasaur
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|switch|p1a: Clifford|Arcanine, M|100/100
+|-damage|p1a: Clifford|76/100|[from] Stealth Rock
+|-ability|p1a: Clifford|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|
+|-heal|p1a: Clifford|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Plantasaur|Venusaur-Mega, M|100/100
+|-damage|p1a: Plantasaur|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Plantasaur
+|-damage|p1a: Plantasaur|62/100
+|
+|upkeep
+|turn|21
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Plantasaur
+|-damage|p1a: Plantasaur|39/100
+|move|p1a: Plantasaur|Synthesis|p1a: Plantasaur
+|-heal|p1a: Plantasaur|89/100
+|
+|upkeep
+|turn|22
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Plantasaur
+|-damage|p1a: Plantasaur|67/100
+|move|p1a: Plantasaur|Leech Seed|p2a: Gliscor|[miss]
+|-miss|p1a: Plantasaur|p2a: Gliscor
+|
+|upkeep
+|turn|23
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Plantasaur
+|-crit|p1a: Plantasaur
+|-damage|p1a: Plantasaur|9/100
+|move|p1a: Plantasaur|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-damage|p2a: Gliscor|88/100 tox|[from] Leech Seed|[of] p1a: Plantasaur
+|-heal|p1a: Plantasaur|19/100|[silent]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Plantasaur
+|-damage|p1a: Plantasaur|0 fnt
+|faint|p1a: Plantasaur
+|
+|upkeep
+
+|
+|switch|p1a: Oswald|Azumarill, M|100/100
+|-damage|p1a: Oswald|88/100|[from] Stealth Rock
+|turn|25
+
+|
+|switch|p2a: Sylveon|Sylveon, M|52/100
+|move|p1a: Oswald|Liquidation|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|
+|upkeep
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|turn|26
+
+|
+|move|p2a: Gliscor|Earthquake|p1a: Oswald
+|-damage|p1a: Oswald|41/100
+|move|p1a: Oswald|Liquidation|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+
+|
+|switch|p2a: Talonflame|Talonflame, M|77/100
+|turn|27
+
+|
+|switch|p1a: Clifford|Arcanine, M|82/100
+|-damage|p1a: Clifford|57/100|[from] Stealth Rock
+|-ability|p1a: Clifford|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|move|p2a: Talonflame|Brave Bird|p1a: Clifford
+|-damage|p1a: Clifford|30/100
+|-damage|p2a: Talonflame|67/100|[from] Recoil
+|
+|-heal|p2a: Talonflame|73/100|[from] item: Leftovers
+|-heal|p1a: Clifford|36/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p1a: Clifford|Extreme Speed|p2a: Talonflame
+|-damage|p2a: Talonflame|43/100
+|move|p2a: Talonflame|Brave Bird|p1a: Clifford
+|-damage|p1a: Clifford|13/100
+|-damage|p2a: Talonflame|34/100|[from] Recoil
+|
+|-heal|p2a: Talonflame|40/100|[from] item: Leftovers
+|-heal|p1a: Clifford|19/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Clifford|Extreme Speed|p2a: Talonflame
+|-damage|p2a: Talonflame|13/100
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|63/100
+|
+|-heal|p2a: Talonflame|69/100|[from] item: Leftovers
+|-heal|p1a: Clifford|25/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Clifford
+|-damage|p1a: Clifford|0 fnt
+|-damage|p2a: Talonflame|59/100|[from] Recoil
+|faint|p1a: Clifford
+|
+|-heal|p2a: Talonflame|65/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Norberta|Latias, F|100/100
+|-damage|p1a: Norberta|88/100|[from] Stealth Rock
+|turn|31
+
+|
+|move|p1a: Norberta|Healing Wish|p1a: Norberta
+|faint|p1a: Norberta
+|move|p2a: Talonflame|Brave Bird|p1: Norberta|[notarget]
+|-notarget
+|
+|-heal|p2a: Talonflame|71/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Oswald|Azumarill, M|41/100
+|-heal|p1a: Oswald|100/100|[from] move: Healing Wish
+|-damage|p1a: Oswald|88/100|[from] Stealth Rock
+|turn|32
+
+|
+|move|p1a: Oswald|Aqua Jet|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|upkeep
+
+|
+|switch|p2a: Garchomp|Garchomp-Mega, M|35/100
+|turn|33
+
+|
+|move|p1a: Oswald|Aqua Jet|p2a: Garchomp
+|-damage|p2a: Garchomp|8/100
+|move|p2a: Garchomp|Dragon Claw|p1a: Oswald
+|-immune|p1a: Oswald|[msg]
+|
+|upkeep
+|turn|34
+
+|
+|move|p1a: Oswald|Aqua Jet|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|win|Old_Man_Waffles

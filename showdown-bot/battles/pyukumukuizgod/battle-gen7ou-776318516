@@ -1,0 +1,275 @@
+|init|battle
+|title|PYUKUMUKU IZ GOD vs. Coltonisbest
+|j|☆PYUKUMUKU IZ GOD
+|j|☆Coltonisbest
+|player|p1|PYUKUMUKU IZ GOD|2
+|player|p2|Coltonisbest|267
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pyukumuku, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Sableye, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Toxapex, F|item
+|poke|p2|Manaphy|item
+|poke|p2|Kartana|item
+|poke|p2|Porygon-Z|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Tauros, M|item
+|poke|p2|Magnezone|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Coltonisbest)
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+|
+|start
+|switch|p1a: sexy pexy|Toxapex, F|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|1
+|
+|switch|p1a: Thiq|Chansey, F|100/100
+|move|p2a: Magnezone|Volt Switch|p1a: Thiq
+|-damage|p1a: Thiq|83/100
+|
+|switch|p2a: Kartana|Kartana|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: birdo|Skarmory, M|100/100
+|move|p2a: Kartana|Sacred Sword|p1a: birdo
+|-damage|p1a: birdo|65/100
+|
+|-heal|p1a: birdo|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Coltonisbest has 135 seconds left.
+|
+|switch|p2a: Magnezone|Magnezone|100/100
+|switch|p1a: Reverse|Sableye, M|100/100
+|
+|upkeep
+|turn|4
+|
+|detailschange|p1a: Reverse|Sableye-Mega, M
+|-mega|p1a: Reverse|Sableye|Sablenite
+|move|p2a: Magnezone|Thunderbolt|p1a: Reverse
+|-damage|p1a: Reverse|45/100
+|move|p1a: Reverse|Will-O-Wisp|p2a: Magnezone
+|-status|p2a: Magnezone|brn
+|
+|-damage|p2a: Magnezone|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Thiq|Chansey, F|83/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Thiq
+|-damage|p1a: Thiq|57/100
+|
+|-damage|p2a: Magnezone|89/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Thiq
+|-damage|p1a: Thiq|33/100
+|move|p1a: Thiq|Soft-Boiled|p1a: Thiq
+|-heal|p1a: Thiq|83/100
+|
+|-damage|p2a: Magnezone|83/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p2a: Beedrill|Beedrill, M|100/100
+|move|p1a: Thiq|Stealth Rock|p2a: Beedrill
+|-sidestart|p2: Coltonisbest|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: birdo|Skarmory, M|71/100
+|detailschange|p2a: Beedrill|Beedrill-Mega, M
+|-mega|p2a: Beedrill|Beedrill|Beedrillite
+|move|p2a: Beedrill|Knock Off|p1a: birdo
+|-damage|p1a: birdo|48/100
+|-enditem|p1a: birdo|Leftovers|[from] move: Knock Off|[of] p2a: Beedrill
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Beedrill|U-turn|p1a: birdo
+|-resisted|p1a: birdo
+|-damage|p1a: birdo|39/100
+|
+|switch|p2a: Magnezone|Magnezone|83/100 brn
+|-damage|p2a: Magnezone|77/100 brn|[from] Stealth Rock
+|move|p1a: birdo|Roost|p1a: birdo
+|-heal|p1a: birdo|89/100
+|
+|-damage|p2a: Magnezone|71/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p2a: Magnezone|Volt Switch|p1a: birdo
+|-supereffective|p1a: birdo
+|-damage|p1a: birdo|0 fnt
+|faint|p1a: birdo
+|
+|switch|p2a: Manaphy|Manaphy|100/100
+|-damage|p2a: Manaphy|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Manaphy|94/100|[from] item: Leftovers
+|upkeep
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+|inactive|PYUKUMUKU IZ GOD has 120 seconds left.
+|
+|switch|p1a: sexy pexy|Toxapex, F|100/100
+|turn|11
+
+|
+|move|p2a: Manaphy|Substitute|p2a: Manaphy
+|-start|p2a: Manaphy|Substitute
+|-damage|p2a: Manaphy|69/100
+|move|p1a: sexy pexy|Toxic Spikes|p2a: Manaphy
+|-sidestart|p2: Coltonisbest|move: Toxic Spikes
+|
+|-heal|p2a: Manaphy|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|move|p1a: sexy pexy|Haze|p1a: sexy pexy
+|-clearallboost
+|
+|-heal|p2a: Manaphy|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Manaphy|Psychic|p1a: sexy pexy
+|-supereffective|p1a: sexy pexy
+|-damage|p1a: sexy pexy|65/100
+|move|p1a: sexy pexy|Toxic Spikes|p2a: Manaphy
+|-sidestart|p2: Coltonisbest|move: Toxic Spikes
+|
+|-heal|p2a: Manaphy|88/100|[from] item: Leftovers
+|-heal|p1a: sexy pexy|71/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+
+|inactive|Coltonisbest has 135 seconds left.
+
+|
+|switch|p1a: Thiq|Chansey, F|83/100
+|move|p2a: Manaphy|Psychic|p1a: Thiq
+|-damage|p1a: Thiq|76/100
+|
+|-heal|p2a: Manaphy|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 120 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 105 seconds left.
+
+|
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|move|p1a: Thiq|Seismic Toss|p2a: Manaphy
+|-end|p2a: Manaphy|Substitute
+|
+|-heal|p2a: Manaphy|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|inactive|Coltonisbest has 135 seconds left.
+
+|
+|switch|p2a: Beedrill|Beedrill-Mega, M|100/100
+|-damage|p2a: Beedrill|75/100|[from] Stealth Rock
+|-sideend|p2: Coltonisbest|move: Toxic Spikes|[of] p2a: Beedrill
+|switch|p1a: Nightmare|Pyukumuku, M|100/100
+|
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Magnezone|Magnezone|71/100 brn
+|-damage|p2a: Magnezone|65/100 brn|[from] Stealth Rock
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-fail|p1a: Nightmare
+|
+|-damage|p2a: Magnezone|59/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|
+|switch|p1a: Thiq|Chansey, F|76/100
+|move|p2a: Magnezone|Volt Switch|p1a: Thiq
+|-damage|p1a: Thiq|59/100
+
+|
+|switch|p2a: Kartana|Kartana|100/100
+|-damage|p2a: Kartana|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+
+|
+|switch|p1a: sexy pexy|Toxapex, F|100/100
+|move|p2a: Kartana|Leaf Blade|p1a: sexy pexy
+|-damage|p1a: sexy pexy|39/100
+|
+|-heal|p1a: sexy pexy|46/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+
+|
+|move|p2a: Kartana|Leaf Blade|p1a: sexy pexy
+|-damage|p1a: sexy pexy|0 fnt
+|faint|p1a: sexy pexy
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: u thot|Clefable, M|100/100
+|turn|21
+
+|
+|move|p2a: Kartana|Leaf Blade|p1a: u thot
+|-crit|p1a: u thot
+|-damage|p1a: u thot|0 fnt
+|faint|p1a: u thot
+|-ability|p2a: Kartana|Beast Boost|boost
+|-boost|p2a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p1a: Reverse|Sableye-Mega, M|45/100
+|turn|22
+
+|-message|PYUKUMUKU IZ GOD forfeited.
+
+|
+|win|Coltonisbest

@@ -1,0 +1,739 @@
+|init|battle
+|title|stowy24 vs. TheHonch9
+|j|☆stowy24
+|j|☆TheHonch9
+|player|p1|stowy24|66
+|player|p2|TheHonch9|223
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Suicune|item
+|poke|p1|Jirachi|item
+|poke|p1|Cresselia, F|item
+|poke|p1|Landorus, M|item
+|poke|p1|Raikou|item
+|poke|p1|Absol, M|item
+|poke|p2|Buzzwole|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Persian-Alola, F|item
+|poke|p2|Nidoqueen, F|item
+|poke|p2|Quagsire, F|item
+|poke|p2|Clefable, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|☆stowy24|ok I have good news
+|c|☆TheHonch9|?
+|c|☆stowy24|after this game
+|c|☆stowy24|one of us will have a win
+|c|☆TheHonch9|and its gonna be me bby <3
+|c|☆stowy24|lets see
+|j| Misora31
+|l| Misora31
+|c|☆stowy24|oh shit
+
+|c|☆stowy24|wait nah its coo
+
+|j| Misora31
+
+|c| Misora31|Go
+
+|c| Misora31|Beat each other up
+
+|c| Misora31|I wanna see blood on this floor!
+
+|c| Misora31|XD
+
+|c|☆TheHonch9|christ man
+
+|
+|start
+|switch|p1a: I drink black coff|Absol, M|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-ability|p1a: I drink black coff|Pressure
+|turn|1
+
+|c| Misora31|Anyways
+
+|c| Misora31|Good luck you two
+
+|c| Misora31|Work starting
+
+|c|☆TheHonch9|ty
+
+|c|☆stowy24|thanks
+
+|c|☆TheHonch9|see ya
+
+|l| Misora31
+
+|
+|switch|p1a: Pokken > Smash|Suicune|100/100
+|-ability|p1a: Pokken > Smash|Pressure
+|move|p2a: Rotom|Volt Switch|p1a: Pokken > Smash
+|-supereffective|p1a: Pokken > Smash
+|-damage|p1a: Pokken > Smash|57/100
+
+|
+|switch|p2a: Persian|Persian-Alola, F|100/100
+|
+|-heal|p1a: Pokken > Smash|63/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Persian|Taunt|p1a: Pokken > Smash
+|-start|p1a: Pokken > Smash|move: Taunt
+|move|p1a: Pokken > Smash|Scald|p2a: Persian
+|-damage|p2a: Persian|62/100
+|
+|-heal|p2a: Persian|68/100|[from] item: Leftovers
+|-heal|p1a: Pokken > Smash|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Persian|Knock Off|p1a: Pokken > Smash
+|-damage|p1a: Pokken > Smash|57/100
+|-enditem|p1a: Pokken > Smash|Leftovers|[from] move: Knock Off|[of] p2a: Persian
+|move|p1a: Pokken > Smash|Scald|p2a: Persian
+|-damage|p2a: Persian|28/100
+|
+|-heal|p2a: Persian|34/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Persian|U-turn|p1a: Pokken > Smash
+|-damage|p1a: Pokken > Smash|51/100
+
+|
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Pokken > Smash|Scald|p2a: Quagsire
+|-immune|p2a: Quagsire|[msg]|[from] ability: Water Absorb
+|
+|-end|p1a: Pokken > Smash|move: Taunt
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Luna|Jirachi|100/100
+|move|p2a: Quagsire|Toxic|p1a: Luna
+|-immune|p1a: Luna|[msg]
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Luna|Wish|p1a: Luna
+|move|p2a: Quagsire|Scald|p1a: Luna
+|-damage|p1a: Luna|86/100
+|
+|-heal|p1a: Luna|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p1a: Luna|Protect|p1a: Luna
+|-singleturn|p1a: Luna|Protect
+|move|p2a: Quagsire|Earthquake|p1a: Luna
+|-activate|p1a: Luna|move: Protect
+|
+|-heal|p1a: Luna|100/100|[from] move: Wish|[wisher] Luna
+|upkeep
+|turn|8
+
+|
+|move|p1a: Luna|Wish|p1a: Luna
+|move|p2a: Quagsire|Scald|p1a: Luna
+|-damage|p1a: Luna|86/100
+|-status|p1a: Luna|brn
+|
+|-heal|p1a: Luna|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Luna|86/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Banana Bird|Cresselia, F|100/100
+|move|p2a: Quagsire|Earthquake|p1a: Banana Bird
+|-immune|p1a: Banana Bird|[msg]|[from] ability: Levitate
+|
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Luna|Jirachi|86/100 brn
+|move|p2a: Quagsire|Toxic|p1a: Luna
+|-fail|p1a: Luna
+|
+|-heal|p1a: Luna|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Luna|86/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Luna|Psychic|p2a: Quagsire
+|-damage|p2a: Quagsire|56/100
+|move|p2a: Quagsire|Earthquake|p1a: Luna
+|-supereffective|p1a: Luna
+|-damage|p1a: Luna|43/100 brn
+|
+|-heal|p1a: Luna|50/100 brn|[from] item: Leftovers
+|-heal|p2a: Quagsire|62/100|[from] item: Leftovers
+|-damage|p1a: Luna|43/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Persian|Persian-Alola, F|34/100
+|move|p1a: Luna|Protect|p1a: Luna
+|-fail|p1a: Luna
+|
+|-heal|p2a: Persian|40/100|[from] item: Leftovers
+|-heal|p1a: Luna|50/100 brn|[from] item: Leftovers
+|-damage|p1a: Luna|43/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Persian|Knock Off|p1a: Luna
+|-supereffective|p1a: Luna
+|-damage|p1a: Luna|15/100 brn
+|-enditem|p1a: Luna|Leftovers|[from] move: Knock Off|[of] p2a: Persian
+|move|p1a: Luna|Wish|p1a: Luna
+|
+|-heal|p2a: Persian|46/100|[from] item: Leftovers
+|-damage|p1a: Luna|8/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p1a: Luna|Protect|p1a: Luna
+|-singleturn|p1a: Luna|Protect
+|move|p2a: Persian|U-turn|p1a: Luna
+|-activate|p1a: Luna|move: Protect
+|
+|-heal|p1a: Luna|58/100 brn|[from] move: Wish|[wisher] Luna
+|-heal|p2a: Persian|52/100|[from] item: Leftovers
+|-damage|p1a: Luna|52/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Persian|Taunt|p1a: Luna
+|-start|p1a: Luna|move: Taunt
+|cant|p1a: Luna|move: Taunt|Wish
+|
+|-heal|p2a: Persian|58/100|[from] item: Leftovers
+|-damage|p1a: Luna|46/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Persian|Knock Off|p1a: Luna
+|-supereffective|p1a: Luna
+|-damage|p1a: Luna|25/100 brn
+|move|p1a: Luna|Psychic|p2a: Persian
+|-immune|p2a: Persian|[msg]
+|
+|-heal|p2a: Persian|64/100|[from] item: Leftovers
+|-damage|p1a: Luna|19/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Persian|Knock Off|p1a: Luna
+|-supereffective|p1a: Luna
+|-damage|p1a: Luna|0 fnt
+|faint|p1a: Luna
+|
+|-heal|p2a: Persian|70/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: I drink black coff|Absol, M|100/100
+|-ability|p1a: I drink black coff|Pressure
+|turn|18
+
+|
+|detailschange|p1a: I drink black coff|Absol-Mega, M
+|-mega|p1a: I drink black coff|Absol|Absolite
+|move|p2a: Persian|U-turn|p1a: I drink black coff
+|-supereffective|p1a: I drink black coff
+|-damage|p1a: I drink black coff|55/100
+
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: I drink black coff|Swords Dance|p1a: I drink black coff
+|-boost|p1a: I drink black coff|atk|2
+|
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Banana Bird|Cresselia, F|100/100
+|move|p2a: Clefable|Counter|p1a: Banana Bird
+|-fail|p1a: Banana Bird
+|
+|upkeep
+|turn|20
+
+|
+|move|p1a: Banana Bird|Calm Mind|p1a: Banana Bird
+|-boost|p1a: Banana Bird|spa|1
+|-boost|p1a: Banana Bird|spd|1
+|move|p2a: Clefable|Stealth Rock|p1a: Banana Bird
+|-sidestart|p1: stowy24|move: Stealth Rock
+|
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Buzzwole|Buzzwole|100/100
+|move|p1a: Banana Bird|Toxic|p2a: Buzzwole
+|-status|p2a: Buzzwole|tox
+|
+|-damage|p2a: Buzzwole|94/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|c|☆TheHonch9|the calcs are strong in this one
+
+|
+|move|p1a: Banana Bird|Calm Mind|p1a: Banana Bird
+|-boost|p1a: Banana Bird|spa|1
+|-boost|p1a: Banana Bird|spd|1
+|move|p2a: Buzzwole|Leech Life|p1a: Banana Bird
+|-supereffective|p1a: Banana Bird
+|-damage|p1a: Banana Bird|63/100
+|-heal|p2a: Buzzwole|100/100 tox|[from] drain|[of] p1a: Banana Bird
+|
+|-heal|p1a: Banana Bird|69/100|[from] item: Leftovers
+|-damage|p2a: Buzzwole|88/100 tox|[from] psn
+|upkeep
+|turn|23
+
+|c|☆stowy24|bro
+
+|c|☆stowy24|not gonna lie
+
+|c|☆stowy24|I just opened the calc for that turn lo
+
+|c|☆TheHonch9|xD i know i dont really care
+
+|
+|switch|p2a: Persian|Persian-Alola, F|70/100
+|move|p1a: Banana Bird|Moonlight|p1a: Banana Bird
+|-heal|p1a: Banana Bird|100/100
+|
+|-heal|p2a: Persian|76/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Persian|Taunt|p1a: Banana Bird
+|-start|p1a: Banana Bird|move: Taunt
+|cant|p1a: Banana Bird|move: Taunt|Toxic
+|
+|-heal|p2a: Persian|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|switch|p1a: I drink black coff|Absol-Mega, M|55/100
+|-damage|p1a: I drink black coff|43/100|[from] Stealth Rock
+|move|p2a: Persian|Knock Off|p1a: I drink black coff
+|-resisted|p1a: I drink black coff
+|-damage|p1a: I drink black coff|28/100
+|
+|-heal|p2a: Persian|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|switch|p1a: Lakitu|Landorus, M|100/100
+|-damage|p1a: Lakitu|88/100|[from] Stealth Rock
+|move|p2a: Persian|U-turn|p1a: Lakitu
+|-resisted|p1a: Lakitu
+|-damage|p1a: Lakitu|82/100
+
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|
+|upkeep
+|turn|27
+
+|
+|move|p2a: Nidoqueen|Ice Beam|p1a: Lakitu
+|-supereffective|p1a: Lakitu
+|-damage|p1a: Lakitu|0 fnt
+|faint|p1a: Lakitu
+|
+|upkeep
+
+|
+|switch|p1a: Banana Bird|Cresselia, F|100/100
+|-damage|p1a: Banana Bird|88/100|[from] Stealth Rock
+|turn|28
+
+|
+|switch|p1a: Pokken > Smash|Suicune|51/100
+|-damage|p1a: Pokken > Smash|38/100|[from] Stealth Rock
+|-ability|p1a: Pokken > Smash|Pressure
+|move|p2a: Nidoqueen|Ice Beam|p1a: Pokken > Smash
+|-resisted|p1a: Pokken > Smash
+|-damage|p1a: Pokken > Smash|29/100
+|
+|upkeep
+|turn|29
+
+|c|☆stowy24|gg
+
+|
+|switch|p2a: Quagsire|Quagsire, F|62/100
+|move|p1a: Pokken > Smash|Rest|p1a: Pokken > Smash
+|-status|p1a: Pokken > Smash|slp
+|-heal|p1a: Pokken > Smash|100/100 slp|[silent]
+|-status|p1a: Pokken > Smash|slp|[from] move: Rest
+|
+|-heal|p2a: Quagsire|68/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p1a: Banana Bird|Cresselia, F|88/100
+|-damage|p1a: Banana Bird|76/100|[from] Stealth Rock
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|
+|-heal|p1a: Banana Bird|82/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p2a: Rotom|Volt Switch|p1a: Banana Bird
+|-damage|p1a: Banana Bird|63/100
+
+|
+|switch|p2a: Persian|Persian-Alola, F|88/100
+|move|p1a: Banana Bird|Toxic|p2a: Persian
+|-status|p2a: Persian|tox
+|
+|-heal|p2a: Persian|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Banana Bird|69/100|[from] item: Leftovers
+|-damage|p2a: Persian|88/100 tox|[from] psn
+|upkeep
+|turn|32
+
+|
+|move|p2a: Persian|Knock Off|p1a: Banana Bird
+|-supereffective|p1a: Banana Bird
+|-damage|p1a: Banana Bird|47/100
+|-enditem|p1a: Banana Bird|Leftovers|[from] move: Knock Off|[of] p2a: Persian
+|move|p1a: Banana Bird|Moonlight|p1a: Banana Bird
+|-heal|p1a: Banana Bird|97/100
+|
+|-heal|p2a: Persian|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Persian|82/100 tox|[from] psn
+|upkeep
+|turn|33
+
+|
+|move|p2a: Persian|Taunt|p1a: Banana Bird
+|-start|p1a: Banana Bird|move: Taunt
+|cant|p1a: Banana Bird|move: Taunt|Moonlight
+|
+|-heal|p2a: Persian|88/100 tox|[from] item: Leftovers
+|-damage|p2a: Persian|70/100 tox|[from] psn
+|upkeep
+|turn|34
+
+|
+|switch|p1a: I drink black coff|Absol-Mega, M|28/100
+|-damage|p1a: I drink black coff|16/100|[from] Stealth Rock
+|move|p2a: Persian|Toxic|p1a: I drink black coff
+|move|p1a: I drink black coff|Toxic|p2a: Persian|[from]Magic Bounce
+|-fail|p2a: Persian|tox
+|
+|-heal|p2a: Persian|76/100 tox|[from] item: Leftovers
+|-damage|p2a: Persian|52/100 tox|[from] psn
+|upkeep
+|turn|35
+
+|
+|move|p1a: I drink black coff|Sucker Punch|p2a: Persian
+|-resisted|p2a: Persian
+|-damage|p2a: Persian|38/100 tox
+|move|p2a: Persian|U-turn|p1a: I drink black coff
+|-supereffective|p1a: I drink black coff
+|-damage|p1a: I drink black coff|0 fnt
+|faint|p1a: I drink black coff
+
+|
+|switch|p2a: Buzzwole|Buzzwole|88/100 tox
+|
+|-damage|p2a: Buzzwole|82/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Banana Bird|Cresselia, F|97/100
+|-damage|p1a: Banana Bird|85/100|[from] Stealth Rock
+|turn|36
+
+|c|☆TheHonch9|why is your team so fat
+
+|
+|move|p1a: Banana Bird|Calm Mind|p1a: Banana Bird
+|-boost|p1a: Banana Bird|spa|1
+|-boost|p1a: Banana Bird|spd|1
+|move|p2a: Buzzwole|Leech Life|p1a: Banana Bird
+|-supereffective|p1a: Banana Bird
+|-damage|p1a: Banana Bird|44/100
+|-heal|p2a: Buzzwole|100/100 tox|[from] drain|[of] p1a: Banana Bird
+|
+|-damage|p2a: Buzzwole|88/100 tox|[from] psn
+|upkeep
+|turn|37
+
+|
+|move|p1a: Banana Bird|Moonlight|p1a: Banana Bird
+|-heal|p1a: Banana Bird|94/100
+|move|p2a: Buzzwole|Leech Life|p1a: Banana Bird
+|-supereffective|p1a: Banana Bird
+|-damage|p1a: Banana Bird|49/100
+|-heal|p2a: Buzzwole|100/100 tox|[from] drain|[of] p1a: Banana Bird
+|
+|-damage|p2a: Buzzwole|82/100 tox|[from] psn
+|upkeep
+|turn|38
+
+|
+|switch|p2a: Persian|Persian-Alola, F|38/100 tox
+|move|p1a: Banana Bird|Moonlight|p1a: Banana Bird
+|-heal|p1a: Banana Bird|99/100
+|
+|-heal|p2a: Persian|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Persian|38/100 tox|[from] psn
+|upkeep
+|turn|39
+
+|
+|switch|p1a: Pokken > Smash|Suicune|100/100 slp
+|-damage|p1a: Pokken > Smash|88/100 slp|[from] Stealth Rock
+|-ability|p1a: Pokken > Smash|Pressure
+|move|p2a: Persian|Taunt|p1a: Pokken > Smash
+|-start|p1a: Pokken > Smash|move: Taunt
+|
+|-heal|p2a: Persian|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Persian|32/100 tox|[from] psn
+|upkeep
+|turn|40
+
+|
+|move|p2a: Persian|U-turn|p1a: Pokken > Smash
+|-damage|p1a: Pokken > Smash|83/100 slp
+
+|
+|switch|p2a: Nidoqueen|Nidoqueen, F|100/100
+|cant|p1a: Pokken > Smash|slp
+|
+|upkeep
+|turn|41
+
+|
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Pokken > Smash
+|-supereffective|p1a: Pokken > Smash
+|-damage|p1a: Pokken > Smash|39/100 slp
+|cant|p1a: Pokken > Smash|slp
+|
+|-end|p1a: Pokken > Smash|move: Taunt
+|upkeep
+|turn|42
+
+|
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Pokken > Smash
+|-supereffective|p1a: Pokken > Smash
+|-damage|p1a: Pokken > Smash|0 fnt
+|faint|p1a: Pokken > Smash
+|
+|upkeep
+
+|
+|switch|p1a: Banana Bird|Cresselia, F|99/100
+|-damage|p1a: Banana Bird|87/100|[from] Stealth Rock
+|turn|43
+
+|
+|switch|p2a: Persian|Persian-Alola, F|32/100 tox
+|move|p1a: Banana Bird|Calm Mind|p1a: Banana Bird
+|-boost|p1a: Banana Bird|spa|1
+|-boost|p1a: Banana Bird|spd|1
+|
+|-heal|p2a: Persian|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Persian|32/100 tox|[from] psn
+|upkeep
+|turn|44
+
+|
+|move|p2a: Persian|Taunt|p1a: Banana Bird
+|-start|p1a: Banana Bird|move: Taunt
+|cant|p1a: Banana Bird|move: Taunt|Calm Mind
+|
+|-heal|p2a: Persian|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Persian|26/100 tox|[from] psn
+|upkeep
+|turn|45
+
+|
+|switch|p1a: El Tigger|Raikou|100/100
+|-damage|p1a: El Tigger|88/100|[from] Stealth Rock
+|-ability|p1a: El Tigger|Pressure
+|move|p2a: Persian|Toxic|p1a: El Tigger
+|-status|p1a: El Tigger|tox
+|
+|-heal|p2a: Persian|32/100 tox|[from] item: Leftovers
+|-damage|p2a: Persian|14/100 tox|[from] psn
+|-damage|p1a: El Tigger|82/100 tox|[from] psn
+|upkeep
+|turn|46
+
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: El Tigger|Extrasensory|p2a: Rotom
+|-damage|p2a: Rotom|50/100
+|
+|-damage|p1a: El Tigger|69/100 tox|[from] psn
+|upkeep
+|turn|47
+
+|
+|move|p2a: Rotom|Trick|p1a: El Tigger
+|-activate|p2a: Rotom|move: Trick|[of] p1a: El Tigger
+|-item|p1a: El Tigger|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Choice Specs|[from] move: Trick
+|move|p1a: El Tigger|Extrasensory|p2a: Rotom
+|-damage|p2a: Rotom|18/100
+|
+|-damage|p1a: El Tigger|51/100 tox|[from] psn
+|upkeep
+|turn|48
+
+|
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: El Tigger|Extrasensory|p2a: Clefable
+|-damage|p2a: Clefable|77/100
+|
+|-heal|p2a: Clefable|83/100|[from] item: Leftovers
+|-damage|p1a: El Tigger|26/100 tox|[from] psn
+|upkeep
+|turn|49
+
+|
+|switch|p1a: Banana Bird|Cresselia, F|87/100
+|-damage|p1a: Banana Bird|74/100|[from] Stealth Rock
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|upkeep
+|turn|50
+
+|
+|move|p1a: Banana Bird|Calm Mind|p1a: Banana Bird
+|-boost|p1a: Banana Bird|spa|1
+|-boost|p1a: Banana Bird|spd|1
+|move|p2a: Clefable|Ice Beam|p1a: Banana Bird
+|-damage|p1a: Banana Bird|66/100
+|
+|upkeep
+|turn|51
+
+|
+|switch|p2a: Persian|Persian-Alola, F|14/100 tox
+|move|p1a: Banana Bird|Toxic|p2a: Persian
+|-fail|p2a: Persian|tox
+|
+|-heal|p2a: Persian|20/100 tox|[from] item: Leftovers
+|-damage|p2a: Persian|14/100 tox|[from] psn
+|upkeep
+|turn|52
+
+|
+|switch|p1a: El Tigger|Raikou|26/100 tox
+|-damage|p1a: El Tigger|13/100 tox|[from] Stealth Rock
+|-ability|p1a: El Tigger|Pressure
+|move|p2a: Persian|Taunt|p1a: El Tigger
+|-start|p1a: El Tigger|move: Taunt
+|
+|-heal|p2a: Persian|20/100 tox|[from] item: Leftovers
+|-damage|p1a: El Tigger|7/100 tox|[from] psn
+|-damage|p2a: Persian|8/100 tox|[from] psn
+|upkeep
+|turn|53
+
+|
+|switch|p2a: Quagsire|Quagsire, F|68/100
+|move|p1a: El Tigger|Thunderbolt|p2a: Quagsire
+|-immune|p2a: Quagsire|[msg]
+|
+|-heal|p2a: Quagsire|74/100|[from] item: Leftovers
+|-damage|p1a: El Tigger|0 fnt|[from] psn
+|upkeep
+|faint|p1a: El Tigger
+
+|
+|switch|p1a: Banana Bird|Cresselia, F|66/100
+|-damage|p1a: Banana Bird|54/100|[from] Stealth Rock
+|turn|54
+
+|
+|move|p1a: Banana Bird|Calm Mind|p1a: Banana Bird
+|-boost|p1a: Banana Bird|spa|1
+|-boost|p1a: Banana Bird|spd|1
+|move|p2a: Quagsire|Toxic|p1a: Banana Bird
+|-status|p1a: Banana Bird|tox
+|
+|-heal|p2a: Quagsire|80/100|[from] item: Leftovers
+|-damage|p1a: Banana Bird|48/100 tox|[from] psn
+|upkeep
+|turn|55
+
+|
+|move|p1a: Banana Bird|Calm Mind|p1a: Banana Bird
+|-boost|p1a: Banana Bird|spa|1
+|-boost|p1a: Banana Bird|spd|1
+|move|p2a: Quagsire|Scald|p1a: Banana Bird
+|-damage|p1a: Banana Bird|42/100 tox
+|
+|-heal|p2a: Quagsire|87/100|[from] item: Leftovers
+|-damage|p1a: Banana Bird|30/100 tox|[from] psn
+|upkeep
+|turn|56
+
+|
+|move|p1a: Banana Bird|Calm Mind|p1a: Banana Bird
+|-boost|p1a: Banana Bird|spa|1
+|-boost|p1a: Banana Bird|spd|1
+|move|p2a: Quagsire|Scald|p1a: Banana Bird
+|-damage|p1a: Banana Bird|25/100 tox
+|
+|-heal|p2a: Quagsire|93/100|[from] item: Leftovers
+|-damage|p1a: Banana Bird|7/100 tox|[from] psn
+|upkeep
+|turn|57
+
+|
+|move|p1a: Banana Bird|Psyshock|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|32/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|82/100
+|
+|-heal|p2a: Quagsire|88/100|[from] item: Leftovers
+|-damage|p1a: Banana Bird|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Banana Bird
+|
+|win|TheHonch9

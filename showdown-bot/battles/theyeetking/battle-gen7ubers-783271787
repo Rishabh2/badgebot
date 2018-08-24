@@ -1,0 +1,291 @@
+|init|battle
+|title|A little handsome vs. The Yeet King
+|j|☆A little handsome
+|j|☆The Yeet King
+|player|p1|A little handsome|108
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Greninja, F|item
+|poke|p1|Lopunny, F|item
+|poke|p1|Magearna|item
+|poke|p1|Zeraora|item
+|poke|p1|Groudon|item
+|poke|p1|Mamoswine, F|item
+|poke|p2|Marshadow|item
+|poke|p2|Necrozma-Dusk-Mane|item
+|poke|p2|Arceus-*|item
+|poke|p2|Salamence, M|item
+|poke|p2|Groudon|item
+|poke|p2|Darkrai|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Yeet King)
+|inactive|A little handsome has 135 seconds left.
+|
+|start
+|switch|p1a: Super gril|Lopunny, F|100/100
+|switch|p2a: Mega Silvally|Arceus-Water|100/100
+|turn|1
+|inactive|The Yeet King has 135 seconds left.
+|
+|detailschange|p1a: Super gril|Lopunny-Mega, F
+|-mega|p1a: Super gril|Lopunny|Lopunnite
+|move|p1a: Super gril|Fake Out|p2a: Mega Silvally
+|-damage|p2a: Mega Silvally|86/100
+|cant|p2a: Mega Silvally|flinch
+|
+|upkeep
+|turn|2
+|inactive|A little handsome has 135 seconds left.
+|inactive|A little handsome has 120 seconds left.
+|l|☆A little handsome
+|inactive|A little handsome disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆A little handsome
+|inactive|A little handsome reconnected and has 110 seconds left.
+|player|p1|A little handsome|108
+|inactive|A little handsome has 105 seconds left.
+|
+|move|p1a: Super gril|Power-Up Punch|p2a: Mega Silvally
+|-damage|p2a: Mega Silvally|71/100
+|-boost|p1a: Super gril|atk|1
+|move|p2a: Mega Silvally|Stealth Rock|p1a: Super gril
+|-sidestart|p1: A little handsome|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|inactive|The Yeet King has 135 seconds left.
+
+|c|☆A little handsome|b
+
+|inactive|The Yeet King has 120 seconds left.
+
+|
+|move|p1a: Super gril|High Jump Kick|p2a: Mega Silvally
+|-damage|p2a: Mega Silvally|0 fnt
+|faint|p2a: Mega Silvally
+|
+|upkeep
+
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|4
+
+|inactive|The Yeet King has 135 seconds left.
+
+|
+|move|p1a: Super gril|High Jump Kick|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+
+|
+|switch|p2a: Negrosma|Necrozma-Dusk-Mane|100/100
+|turn|5
+
+|
+|move|p1a: Super gril|High Jump Kick|p2a: Negrosma
+|-damage|p2a: Negrosma|16/100
+|move|p2a: Negrosma|Rock Polish|p2a: Negrosma
+|-boost|p2a: Negrosma|spe|2
+|
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Toki Tori|Greninja, F|100/100
+|-damage|p1a: Toki Tori|88/100|[from] Stealth Rock
+|move|p2a: Negrosma|Photon Geyser|p1a: Toki Tori
+|-immune|p1a: Toki Tori|[msg]
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Toki Tori|U-turn|p2a: Negrosma
+|-start|p1a: Toki Tori|typechange|Bug|[from] Protean
+|-damage|p2a: Negrosma|0 fnt
+|faint|p2a: Negrosma
+
+|
+|switch|p1a: Big mountain|Mamoswine, F|100/100
+|-damage|p1a: Big mountain|88/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p2a: Marshmellow|Marshadow|100/100
+|turn|8
+
+|inactive|A little handsome has 135 seconds left.
+
+|
+|move|p2a: Marshmellow|Swagger|p1a: Big mountain
+|-boost|p1a: Big mountain|atk|2
+|-start|p1a: Big mountain|confusion
+|-activate|p1a: Big mountain|confusion
+|-damage|p1a: Big mountain|59/100|[from] confusion
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Super gril|Lopunny-Mega, F|100/100
+|-damage|p1a: Super gril|95/100|[from] Stealth Rock
+|move|p2a: Marshmellow|Spectral Thief|p1a: Super gril
+|-immune|p1a: Super gril|[msg]
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Super gril|High Jump Kick|p2a: Marshmellow
+|-damage|p2a: Marshmellow|11/100
+|move|p2a: Marshmellow|Close Combat|p1a: Super gril
+|-supereffective|p1a: Super gril
+|-damage|p1a: Super gril|0 fnt
+|-unboost|p2a: Marshmellow|def|1
+|-unboost|p2a: Marshmellow|spd|1
+|-enditem|p2a: Marshmellow|White Herb
+|-clearnegativeboost|p2a: Marshmellow|[silent]
+|faint|p1a: Super gril
+|
+|upkeep
+
+|
+|switch|p1a: Toki Tori|Greninja, F|88/100
+|-damage|p1a: Toki Tori|76/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Toki Tori|Ice Beam|p2a: Marshmellow
+|-start|p1a: Toki Tori|typechange|Ice|[from] Protean
+|-damage|p2a: Marshmellow|0 fnt
+|faint|p2a: Marshmellow
+|
+|upkeep
+
+|
+|switch|p2a: pee-don|Groudon|100/100
+|detailschange|p2a: pee-don|Groudon-Primal
+|-primal|p2a: pee-don
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: pee-don
+|turn|12
+
+|
+|move|p1a: Toki Tori|Ice Beam|p2a: pee-don
+|-crit|p2a: pee-don
+|-damage|p2a: pee-don|57/100
+|move|p2a: pee-don|Swords Dance|p2a: pee-don
+|-boost|p2a: pee-don|atk|2
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|13
+
+|inactive|The Yeet King has 135 seconds left.
+
+|inactive|The Yeet King has 120 seconds left.
+
+|inactive|The Yeet King has 105 seconds left.
+
+|inactive|The Yeet King has 90 seconds left.
+
+|inactive|The Yeet King has 75 seconds left.
+
+|
+|move|p1a: Toki Tori|Ice Beam|p2a: pee-don
+|-damage|p2a: pee-don|26/100
+|move|p2a: pee-don|Fire Punch|p1a: Toki Tori
+|-supereffective|p1a: Toki Tori
+|-damage|p1a: Toki Tori|0 fnt
+|faint|p1a: Toki Tori
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|c|☆The Yeet King|literally fuck off
+
+|
+|switch|p1a: A little handsome|Zeraora|100/100
+|-damage|p1a: A little handsome|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: A little handsome|Outrage|p2a: pee-don
+|-damage|p2a: pee-don|0 fnt
+|-damage|p1a: A little handsome|78/100|[from] item: Life Orb
+|faint|p2a: pee-don
+|-weather|none
+|
+|upkeep
+
+|
+|switch|p2a: Croissant|Salamence, M|100/100
+|-ability|p2a: Croissant|Intimidate|boost
+|-unboost|p1a: A little handsome|atk|1
+|turn|15
+
+|
+|detailschange|p2a: Croissant|Salamence-Mega, M
+|-mega|p2a: Croissant|Salamence|Salamencite
+|move|p1a: A little handsome|Outrage|p2a: Croissant|[from]lockedmove
+|-supereffective|p2a: Croissant
+|-damage|p2a: Croissant|42/100
+|-damage|p1a: A little handsome|69/100|[from] item: Life Orb
+|-start|p1a: A little handsome|confusion|[fatigue]
+|move|p2a: Croissant|Dragon Dance|p2a: Croissant
+|-boost|p2a: Croissant|atk|1
+|-boost|p2a: Croissant|spe|1
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Croissant|Dragon Dance|p2a: Croissant
+|-boost|p2a: Croissant|atk|1
+|-boost|p2a: Croissant|spe|1
+|-activate|p1a: A little handsome|confusion
+|-damage|p1a: A little handsome|53/100|[from] confusion
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Croissant|Dragon Claw|p1a: A little handsome
+|-damage|p1a: A little handsome|0 fnt
+|faint|p1a: A little handsome
+|
+|upkeep
+
+|
+|switch|p1a: Big boy|Groudon|100/100
+|-damage|p1a: Big boy|94/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Big boy
+|turn|18
+
+|
+|move|p2a: Croissant|Return|p1a: Big boy
+|-damage|p1a: Big boy|2/100
+|move|p1a: Big boy|Rock Slide|p2a: Croissant
+|-supereffective|p2a: Croissant
+|-damage|p2a: Croissant|0 fnt
+|faint|p2a: Croissant
+|
+|win|A little handsome

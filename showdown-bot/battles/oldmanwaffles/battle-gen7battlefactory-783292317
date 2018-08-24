@@ -1,0 +1,422 @@
+|init|battle
+|title|jeremyluan vs. Old_Man_Waffles
+|j|☆jeremyluan
+|j|☆Old_Man_Waffles
+|player|p1|jeremyluan|101
+|player|p2|Old_Man_Waffles|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Swellow, M|item
+|poke|p1|Torkoal, F|item
+|poke|p1|Rotom-Mow|item
+|poke|p1|Roserade, F|item
+|poke|p1|Comfey, M|item
+|poke|p1|Toxicroak, F|item
+|poke|p2|Comfey, F|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Virizion|item
+|poke|p2|Bronzong|item
+|poke|p2|Dhelmise|item
+|poke|p2|Feraligatr, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jeremyluan)
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Comfey|Comfey, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|move|p2a: Comfey|Taunt|p1a: Torkoal
+|-start|p1a: Torkoal|move: Taunt
+|cant|p1a: Torkoal|move: Taunt|Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Comfey|Leech Seed|p1a: Torkoal
+|-start|p1a: Torkoal|move: Leech Seed
+|move|p1a: Torkoal|Lava Plume|p2a: Comfey
+|-damage|p2a: Comfey|57/100
+|-status|p2a: Comfey|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Torkoal|88/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|72/100 brn|[silent]
+|-damage|p2a: Comfey|66/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|switch|p2a: Feraligatr|Feraligatr, F|100/100
+|move|p1a: Torkoal|Lava Plume|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|94/100|[from] item: Leftovers
+|-damage|p1a: Torkoal|82/100|[from] Leech Seed|[of] p2a: Feraligatr
+|-heal|p2a: Feraligatr|91/100|[silent]
+|-end|p1a: Torkoal|move: Taunt
+|upkeep
+|turn|4
+|inactive|jeremyluan has 135 seconds left.
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|move|p2a: Feraligatr|Swords Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|2
+|move|p1a: Torkoal|Lava Plume|p2a: Feraligatr
+|-resisted|p2a: Feraligatr
+|-damage|p2a: Feraligatr|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|88/100|[from] item: Leftovers
+|-damage|p1a: Torkoal|76/100|[from] Leech Seed|[of] p2a: Feraligatr
+|-heal|p2a: Feraligatr|81/100|[silent]
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Feraligatr|Waterfall|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Virizion|Virizion|100/100
+|move|p1a: Rotom|Leaf Storm|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|76/100
+|-unboost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|7
+
+|inactive|jeremyluan has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Comfey|Comfey, M|100/100
+|move|p2a: Virizion|Zen Headbutt|p1a: Comfey|[miss]
+|-miss|p2a: Virizion|p1a: Comfey
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Comfey|Leech Seed|p2a: Bronzong
+|-start|p2a: Bronzong|move: Leech Seed
+|
+|-damage|p2a: Bronzong|88/100|[from] Leech Seed|[of] p1a: Comfey
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Torkoal|Torkoal, F|76/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Bronzong|Stealth Rock|p1a: Torkoal
+|-sidestart|p1: jeremyluan|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|82/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|94/100|[from] item: Leftovers
+|-damage|p2a: Bronzong|82/100|[from] Leech Seed|[of] p1a: Torkoal
+|-heal|p1a: Torkoal|94/100|[silent]
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Comfey|Comfey, F|66/100 brn
+|move|p1a: Torkoal|Stealth Rock|p2a: Comfey
+|-sidestart|p2: Old_Man_Waffles|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|100/100|[from] item: Leftovers
+|-damage|p2a: Comfey|60/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|100/100 brn
+|move|p1a: Torkoal|Lava Plume|p2a: Comfey
+|-damage|p2a: Comfey|60/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Comfey|54/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p2a: Comfey|Leech Seed|p1a: Torkoal
+|-start|p1a: Torkoal|move: Leech Seed
+|move|p1a: Torkoal|Lava Plume|p2a: Comfey
+|-damage|p2a: Comfey|8/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Torkoal|88/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|23/100 brn|[silent]
+|-damage|p2a: Comfey|17/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|84/100 brn
+|move|p1a: Torkoal|Rapid Spin|p2a: Comfey
+|-damage|p2a: Comfey|79/100 brn
+|-end|p1a: Torkoal|Leech Seed|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-sideend|p1: jeremyluan|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|none
+|-heal|p1a: Torkoal|94/100|[from] item: Leftovers
+|-damage|p2a: Comfey|73/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|78/100
+|-heal|p2a: Comfey|89/100 brn|[from] drain|[of] p1a: Torkoal
+|move|p1a: Torkoal|Lava Plume|p2a: Comfey
+|-damage|p2a: Comfey|60/100 brn
+|
+|-heal|p1a: Torkoal|84/100|[from] item: Leftovers
+|-damage|p2a: Comfey|54/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|jeremyluan has 135 seconds left.
+
+|
+|switch|p1a: Swellow|Swellow, M|100/100
+|move|p2a: Comfey|Taunt|p1a: Swellow
+|-start|p1a: Swellow|move: Taunt
+|
+|-damage|p2a: Comfey|48/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Swellow
+|-damage|p1a: Swellow|41/100
+|-heal|p2a: Comfey|92/100 brn|[from] drain|[of] p1a: Swellow
+|move|p1a: Swellow|Hurricane|p2a: Comfey
+|-damage|p2a: Comfey|19/100 brn
+|
+|-damage|p2a: Comfey|13/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Comfey|Draining Kiss|p1a: Swellow
+|-damage|p1a: Swellow|0 fnt
+|-heal|p2a: Comfey|43/100 brn|[from] drain|[of] p1a: Swellow
+|faint|p1a: Swellow
+|
+|-damage|p2a: Comfey|37/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Roserade|Roserade, F|100/100
+|turn|18
+
+|
+|move|p1a: Roserade|Sludge Bomb|p2a: Comfey
+|-supereffective|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|switch|p2a: Bronzong|Bronzong|82/100
+|-damage|p2a: Bronzong|76/100|[from] Stealth Rock
+|turn|19
+
+|
+|switch|p1a: Torkoal|Torkoal, F|84/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Bronzong|Stealth Rock|p1a: Torkoal
+|-sidestart|p1: jeremyluan|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|91/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Torkoal|Lava Plume|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|30/100
+|move|p2a: Bronzong|Toxic|p1a: Torkoal|[miss]
+|-miss|p2a: Bronzong|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|97/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|37/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Torkoal|Lava Plume|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|100/100|[from] item: Leftovers
+|-heal|p2a: Bronzong|43/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Virizion|Virizion|76/100
+|-damage|p2a: Virizion|70/100|[from] Stealth Rock
+|move|p1a: Torkoal|Lava Plume|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-damage|p2a: Virizion|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+
+|
+|move|p2a: Virizion|Close Combat|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|60/100
+|-unboost|p2a: Virizion|def|1
+|-unboost|p2a: Virizion|spd|1
+|move|p1a: Torkoal|Lava Plume|p2a: Virizion
+|-supereffective|p2a: Virizion
+|-crit|p2a: Virizion
+|-damage|p2a: Virizion|0 fnt
+|faint|p2a: Virizion
+|
+|-weather|none
+|-heal|p1a: Torkoal|66/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Feraligatr|Feraligatr, F|81/100
+|-damage|p2a: Feraligatr|68/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p2a: Feraligatr|Ice Punch|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|55/100
+|move|p1a: Torkoal|Toxic|p2a: Feraligatr
+|-status|p2a: Feraligatr|tox
+|
+|-heal|p1a: Torkoal|61/100|[from] item: Leftovers
+|-damage|p2a: Feraligatr|62/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|switch|p1a: Toxicroak|Toxicroak, F|100/100
+|-damage|p1a: Toxicroak|94/100|[from] Stealth Rock
+|move|p2a: Feraligatr|Waterfall|p1a: Toxicroak
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin|[of] p2a: Feraligatr
+|
+|-damage|p2a: Feraligatr|50/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|switch|p2a: Bronzong|Bronzong|43/100
+|-damage|p2a: Bronzong|37/100|[from] Stealth Rock
+|move|p1a: Toxicroak|Swords Dance|p1a: Toxicroak
+|-boost|p1a: Toxicroak|atk|2
+|
+|-heal|p2a: Bronzong|43/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+
+|
+|switch|p2a: Dhelmise|Dhelmise|100/100
+|-damage|p2a: Dhelmise|88/100|[from] Stealth Rock
+|turn|28
+
+|
+|-zpower|p1a: Toxicroak
+|move|p1a: Toxicroak|Black Hole Eclipse|p2a: Dhelmise|[zeffect]
+|-supereffective|p2a: Dhelmise
+|-damage|p2a: Dhelmise|0 fnt
+|faint|p2a: Dhelmise
+|
+|upkeep
+
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|29
+
+|
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, M
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p1a: Toxicroak|Drain Punch|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Toxicroak|94/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Feraligatr|Feraligatr, F|50/100 tox
+|-damage|p2a: Feraligatr|38/100 tox|[from] Stealth Rock
+|turn|30
+
+|
+|move|p2a: Feraligatr|Aqua Jet|p1a: Toxicroak
+|-heal|p1a: Toxicroak|100/100|[from] ability: Dry Skin|[of] p2a: Feraligatr
+|move|p1a: Toxicroak|Drain Punch|p2a: Feraligatr
+|-crit|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|win|jeremyluan

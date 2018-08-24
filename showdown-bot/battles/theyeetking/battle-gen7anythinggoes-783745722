@@ -1,0 +1,19 @@
+
+|c|☆Nuzboa|dazzling
+
+|c| Sceptistar|inb4 quick claw Kyurem-W
+
+|
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|-activate|p1a: Kyurem|move: Sticky Web
+|-unboost|p1a: Kyurem|spe|1
+|-ability|p1a: Kyurem|Turboblaze
+|turn|20
+
+|
+|move|p2a: Xurkitree|Thunderbolt|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|Jettrush

@@ -1,0 +1,118 @@
+|init|battle
+|title|ev999 vs. PYUKUMUKU IZ GOD
+|j|☆ev999
+|j|☆PYUKUMUKU IZ GOD
+|player|p1|ev999|265
+|player|p2|PYUKUMUKU IZ GOD|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lopunny, F|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Greninja, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Kartana|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Pyukumuku, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Sableye, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Clefable, M|item
+|poke|p2|Toxapex, M|item
+|teampreview
+|
+|start
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|switch|p2a: Reverse|Sableye, F|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|turn|1
+|
+|switch|p1a: Lopunny|Lopunny, F|100/100
+|switch|p2a: Thiq|Chansey, F|100/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: birdo|Skarmory, F|100/100
+|detailschange|p1a: Lopunny|Lopunny-Mega, F
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: birdo
+|-resisted|p2a: birdo
+|-damage|p2a: birdo|94/100
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ev999)
+
+|
+|switch|p1a: Jirachi|Jirachi|100/100
+|move|p2a: birdo|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: ev999|move: Stealth Rock
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: birdo
+|-sidestart|p2: PYUKUMUKU IZ GOD|move: Stealth Rock
+|move|p2a: birdo|Roost|p2a: birdo
+|-heal|p2a: birdo|100/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Jirachi|Body Slam|p2a: birdo
+|-resisted|p2a: birdo
+|-damage|p2a: birdo|95/100
+|-status|p2a: birdo|par
+|move|p2a: birdo|Spikes|p1a: Jirachi
+|-sidestart|p1: ev999|Spikes
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+
+|
+|move|p1a: Jirachi|Wish|p1a: Jirachi
+|move|p2a: birdo|Spikes|p1a: Jirachi
+|-sidestart|p1: ev999|Spikes
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-damage|p1a: Tapu Fini|88/100|[from] Stealth Rock
+|-damage|p1a: Tapu Fini|72/100|[from] Spikes
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: birdo|Whirlwind|p1a: Tapu Fini
+|drag|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: birdo|atk|1
+|
+|-heal|p1a: Landorus|100/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|8
+
+|
+|move|p1a: Landorus|U-turn|p2a: birdo
+|-resisted|p2a: birdo
+|-damage|p2a: birdo|91/100 par
+
+|-message|ev999 forfeited.
+
+|
+|win|PYUKUMUKU IZ GOD

@@ -1,0 +1,442 @@
+|init|battle
+|title|H2owsome vs. stowy24
+|j|☆H2owsome
+|j|☆stowy24
+|player|p1|H2owsome|169
+|player|p2|stowy24|66
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Mismagius, F|item
+|poke|p1|Incineroar, M|item
+|poke|p1|Zygarde-10%|item
+|poke|p1|Haxorus, F|item
+|poke|p1|Leavanny, F|item
+|poke|p1|Ampharos, F|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Necrozma|item
+|poke|p2|Bronzong|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Houndoom, M|item
+|poke|p2|Glaceon, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+
+|c|☆stowy24|hello
+
+|c|☆stowy24|my name is Rick Harris
+
+|c|☆stowy24|this is my pawn shop
+
+|j| The Yeet King
+
+|c|☆stowy24|oh LMAO
+
+|c|☆H2owsome|im gonna give them a min to join
+
+|c|☆stowy24|I was like "Ok he hasn't brought Zydog"
+
+|c|☆H2owsome|zydog is small
+
+|c|☆stowy24|and I see Haxorus hiding it
+
+|c|☆stowy24|>.<
+
+|c|☆H2owsome|hide behind his big brother
+
+|c|☆stowy24|double drankon
+
+|j| Savage14455
+
+|c| Savage14455|Triple
+
+|c|☆stowy24|o yeah
+
+|c|☆stowy24|tru
+
+|c|☆stowy24|mega fabulous
+
+|c|☆H2owsome|im a dragony boi
+
+|c|☆H2owsome|alright im ready
+
+|c|☆stowy24|do you have to mega turn 1?
+
+|j| KvnLiao
+
+|c|☆H2owsome|no oyu dont
+
+|c|☆stowy24|o
+
+|
+|start
+|switch|p1a: Bitch|Incineroar, M|100/100
+|switch|p2a: Learn to Fly|Togekiss, M|100/100
+|-ability|p1a: Bitch|Intimidate|boost
+|-unboost|p2a: Learn to Fly|atk|1
+|turn|1
+
+|c| KvnLiao|@stowy
+
+|c|☆stowy24|STAHP
+
+|
+|move|p1a: Bitch|Fake Out|p2a: Learn to Fly
+|-damage|p2a: Learn to Fly|90/100
+|cant|p2a: Learn to Fly|flinch
+|
+|-heal|p2a: Learn to Fly|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Learn to Fly|Dazzling Gleam|p1a: Bitch
+|-damage|p1a: Bitch|80/100
+|move|p1a: Bitch|Knock Off|p2a: Learn to Fly
+|-resisted|p2a: Learn to Fly
+|-damage|p2a: Learn to Fly|78/100
+|-enditem|p2a: Learn to Fly|Leftovers|[from] move: Knock Off|[of] p1a: Bitch
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Learn to Fly|Air Slash|p1a: Bitch
+|-damage|p1a: Bitch|61/100
+|cant|p1a: Bitch|flinch
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Learn to Fly|Air Slash|p1a: Bitch
+|-damage|p1a: Bitch|42/100
+|move|p1a: Bitch|U-turn|p2a: Learn to Fly
+|-resisted|p2a: Learn to Fly
+|-damage|p2a: Learn to Fly|74/100
+
+|
+|switch|p1a: Stich|Haxorus, F|100/100
+|-ability|p1a: Stich|Mold Breaker
+|
+|upkeep
+|turn|5
+
+|l| KvnLiao
+
+|
+|move|p1a: Stich|Dragon Dance|p1a: Stich
+|-boost|p1a: Stich|atk|1
+|-boost|p1a: Stich|spe|1
+|move|p2a: Learn to Fly|Roost|p2a: Learn to Fly
+|-heal|p2a: Learn to Fly|100/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Stich|Dragon Dance|p1a: Stich
+|-boost|p1a: Stich|atk|1
+|-boost|p1a: Stich|spe|1
+|move|p2a: Learn to Fly|Dazzling Gleam|p1a: Stich
+|-supereffective|p1a: Stich
+|-damage|p1a: Stich|13/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Stich|Poison Jab|p2a: Learn to Fly
+|-supereffective|p2a: Learn to Fly
+|-damage|p2a: Learn to Fly|14/100
+|move|p2a: Learn to Fly|Dazzling Gleam|p1a: Stich
+|-supereffective|p1a: Stich
+|-damage|p1a: Stich|0
+|faint|p1a: Stich
+|
+|upkeep
+
+|c|☆H2owsome|oof
+
+|c|☆H2owsome|dammit
+
+|c|☆stowy24|WHEW
+
+|c| Savage14455|Calcs boi
+
+|c|☆stowy24|thought it was over for a second
+
+|c|☆H2owsome|should have calced for sure
+
+|c|☆H2owsome|that really sucks
+
+|
+|switch|p1a: Glitch|Zygarde-10%|100/100
+|-ability|p1a: Glitch|Aura Break
+|turn|8
+
+|c| Savage14455|Could have won
+
+|c|☆H2owsome|i misplayed
+
+|c| Savage14455|on +1
+
+|
+|switch|p2a: Walk|Glaceon, M|100/100
+|move|p1a: Glitch|Thousand Arrows|p2a: Walk
+|-damage|p2a: Walk|40/100
+|
+|-heal|p2a: Walk|46/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Walk|Protect|p2a: Walk
+|-singleturn|p2a: Walk|Protect
+|move|p1a: Glitch|Thousand Arrows|p2a: Walk
+|-activate|p2a: Walk|move: Protect
+|
+|-heal|p2a: Walk|52/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|c| Savage14455|Interesting
+
+|
+|move|p1a: Glitch|Thousand Arrows|p2a: Walk
+|-damage|p2a: Walk|0
+|faint|p2a: Walk
+|
+|upkeep
+
+|c| Savage14455|Makes me think no ice shard
+
+|c| Savage14455|wow
+
+|c|☆H2owsome|learns it
+
+|c|☆H2owsome|doesnt carry it
+
+|c| Savage14455|zydog is a beast
+
+|c|☆stowy24|uh thats interesting
+
+|c|☆stowy24|oh nvm
+
+|c|☆stowy24|I'm dumb
+
+|
+|switch|p2a: Monkey Wrench|Bronzong|100/100
+|turn|11
+
+|l| Savage14455
+
+|
+|move|p1a: Glitch|Thousand Arrows|p2a: Monkey Wrench
+|-supereffective|p2a: Monkey Wrench
+|-crit|p2a: Monkey Wrench
+|-damage|p2a: Monkey Wrench|0
+|faint|p2a: Monkey Wrench
+|
+|upkeep
+
+|c|☆stowy24|oh
+
+|c|☆stowy24|well thats gg
+
+|j| Savage14455
+
+|
+|switch|p2a: Let It Die|Houndoom, M|100/100
+|turn|12
+
+|c|☆H2owsome|that crit only mattered if you were max/max
+
+|c|☆stowy24|I was max/max
+
+|c|☆H2owsome|oh
+
+|c|☆H2owsome|sorry
+
+|c|☆stowy24|dw it's my only answer anyways
+
+|
+|detailschange|p2a: Let It Die|Houndoom-Mega, M
+|-mega|p2a: Let It Die|Houndoom|Houndoominite
+|move|p2a: Let It Die|Dark Pulse|p1a: Glitch
+|-damage|p1a: Glitch|37/100
+|cant|p1a: Glitch|flinch
+|
+|upkeep
+|turn|13
+
+|c|☆H2owsome|god damn it
+
+|c|☆H2owsome|thats fair
+
+|c|☆H2owsome|but sill
+
+|
+|switch|p1a: Rich|Ampharos, F|100/100
+|move|p2a: Let It Die|Dark Pulse|p1a: Rich
+|-damage|p1a: Rich|45/100
+|
+|upkeep
+|turn|14
+
+|
+|detailschange|p1a: Rich|Ampharos-Mega, F
+|-mega|p1a: Rich|Ampharos|Ampharosite
+|-ability|p1a: Rich|Mold Breaker
+|move|p2a: Let It Die|Dark Pulse|p1a: Rich
+|-damage|p1a: Rich|3/100
+|move|p1a: Rich|Power Gem|p2a: Let It Die
+|-supereffective|p2a: Let It Die
+|-damage|p2a: Let It Die|13/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Let It Die|Dark Pulse|p1a: Rich
+|-damage|p1a: Rich|0
+|faint|p1a: Rich
+|
+|upkeep
+
+|
+|switch|p1a: Bitch|Incineroar, M|42/100
+|-ability|p1a: Bitch|Intimidate|boost
+|-unboost|p2a: Let It Die|atk|1
+|turn|16
+
+|
+|move|p1a: Bitch|Fake Out|p2a: Let It Die
+|-damage|p2a: Let It Die|0
+|faint|p2a: Let It Die
+|
+|upkeep
+
+|
+|switch|p2a: Come Alive|Kingdra, F|100/100
+|turn|17
+
+|
+|move|p2a: Come Alive|Dragon Dance|p2a: Come Alive
+|-boost|p2a: Come Alive|atk|1
+|-boost|p2a: Come Alive|spe|1
+|move|p1a: Bitch|U-turn|p2a: Come Alive
+|-damage|p2a: Come Alive|70/100
+
+|
+|switch|p1a: Twitch|Leavanny, F|100/100
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Come Alive|Iron Head|p1a: Twitch
+|-damage|p1a: Twitch|37/100
+|-damage|p2a: Come Alive|60/100|[from] item: Life Orb
+|cant|p1a: Twitch|flinch
+|
+|upkeep
+|turn|19
+
+|c|☆H2owsome|GOD DAMN IT
+
+|c|☆stowy24|IM SO SORRY
+
+|c|☆H2owsome|GG
+
+|l| Savage14455
+
+|c|☆H2owsome|there goes my wincon
+
+|
+|move|p2a: Come Alive|Iron Head|p1a: Twitch
+|-damage|p1a: Twitch|0
+|-damage|p2a: Come Alive|50/100|[from] item: Life Orb
+|faint|p1a: Twitch
+|
+|upkeep
+
+|
+|switch|p1a: Bitch|Incineroar, M|42/100
+|-ability|p1a: Bitch|Intimidate|boost
+|-unboost|p2a: Come Alive|atk|1
+|turn|20
+
+|
+|move|p1a: Bitch|Fake Out|p2a: Come Alive
+|-damage|p2a: Come Alive|31/100
+|cant|p2a: Come Alive|flinch
+|
+|upkeep
+|turn|21
+
+|
+|move|p2a: Come Alive|Waterfall|p1a: Bitch
+|-supereffective|p1a: Bitch
+|-damage|p1a: Bitch|0
+|-damage|p2a: Come Alive|21/100|[from] item: Life Orb
+|faint|p1a: Bitch
+|
+|upkeep
+
+|
+|switch|p1a: Glitch|Zygarde-10%|37/100
+|-ability|p1a: Glitch|Aura Break
+|turn|22
+
+|
+|move|p1a: Glitch|Extreme Speed|p2a: Come Alive
+|-damage|p2a: Come Alive|0
+|faint|p2a: Come Alive
+|
+|upkeep
+
+|
+|switch|p2a: Congregation|Necrozma|100/100
+|turn|23
+
+|
+|switch|p1a: Witch|Mismagius, F|100/100
+|move|p2a: Congregation|Autotomize|p2a: Congregation
+|-boost|p2a: Congregation|spe|2
+|-start|p2a: Congregation|Autotomize
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Congregation|Photon Geyser|p1a: Witch
+|-damage|p1a: Witch|36/100
+|-zpower|p1a: Witch
+|move|p1a: Witch|Never-Ending Nightmare|p2a: Congregation|[zeffect]
+|-supereffective|p2a: Congregation
+|-damage|p2a: Congregation|0
+|faint|p2a: Congregation
+|
+|upkeep
+
+|c|☆H2owsome|oh phew
+
+|c|☆stowy24|I choked
+
+|c|☆H2owsome|GG
+
+|
+|switch|p2a: Learn to Fly|Togekiss, M|14/100
+|turn|25
+
+|
+|move|p1a: Witch|Shadow Ball|p2a: Learn to Fly
+|-damage|p2a: Learn to Fly|0
+|faint|p2a: Learn to Fly
+|
+|win|H2owsome

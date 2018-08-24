@@ -1,0 +1,608 @@
+|init|battle
+|title|Extremekz vs. dancin_darunia
+|j|☆Extremekz
+|j|☆dancin_darunia
+|player|p1|Extremekz|264
+|player|p2|dancin_darunia|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Magmortar, M|item
+|poke|p1|Archeops, F|item
+|poke|p1|Metagross|item
+|poke|p1|Manectric, F|item
+|poke|p1|Necrozma|item
+|poke|p1|Kyurem-Black|item
+|poke|p2|Magearna|item
+|poke|p2|Greninja, M|item
+|poke|p2|Ribombee, M|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Muk-Alola, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|☆Extremekz|hf
+|c|☆dancin_darunia|Gl hf
+|j| Diviniya
+|j| stowy24
+|j| Memer Hazy
+|j| Doctor_DraX
+|j| Gryphon11114
+|c| Gryphon11114|Hazy you got kills?
+|
+|start
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|switch|p2a: Magiana|Magearna|100/100
+|turn|1
+|c| Memer Hazy|yeah
+|j| Old_Man_Waffles
+|
+|switch|p2a: George|Rotom-Wash|100/100
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Kyurem|Kyurem-Black|100/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: George|Will-O-Wisp|p1a: Kyurem
+|-status|p1a: Kyurem|brn
+|
+|-damage|p1a: Kyurem|94/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|c|☆Extremekz|damn
+
+|c| stowy24|big plays from George
+
+|c| stowy24|the washing machine
+
+|c| Old_Man_Waffles|Billy Mays putting in the finest
+
+|
+|move|p1a: Kyurem|Earth Power|p2a: George
+|-supereffective|p2a: George
+|-damage|p2a: George|58/100
+|move|p2a: George|Volt Switch|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|82/100 brn
+
+|c| Memer Hazy|HI BILLY MAYS HERE
+
+|c| stowy24|...
+
+|
+|switch|p2a: Bee Movie 2|Ribombee, M|100/100
+|
+|-damage|p1a: Kyurem|76/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|c| stowy24|am I missing something here
+
+|c| stowy24|who is Billy Mays
+
+|
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|move|p2a: Bee Movie 2|Sticky Web|p1a: Metagross
+|-sidestart|p1: Extremekz|move: Sticky Web
+|
+|upkeep
+|turn|5
+
+|c| Old_Man_Waffles|I nickname my Rotom Washes Billy Mays
+
+|c| Memer Hazy|billy mays was an informercial guy who died
+
+|c| Memer Hazy|and he was a meme
+
+|c| Memer Hazy|also a god
+
+|c| Old_Man_Waffles|And he was a legend
+
+|c| stowy24|oh
+
+|
+|switch|p2a: George|Rotom-Wash|58/100
+|switch|p1a: Magmortar|Magmortar, M|100/100
+|-activate|p1a: Magmortar|move: Sticky Web
+|-unboost|p1a: Magmortar|spe|1
+|
+|-heal|p2a: George|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|c| stowy24|was he as good as the flextape guy
+
+|c| Memer Hazy|better
+
+|l| Old_Man_Waffles
+
+|j| Old_Man_Waffles
+
+|c| Memer Hazy|Phil Swift is the successor of Billy Mays
+
+|c| stowy24|HI PHIL SWIFT HERE
+
+|c| stowy24|Phil Swift is my spirit animal
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|76/100 brn
+|-activate|p1a: Kyurem|move: Sticky Web
+|-unboost|p1a: Kyurem|spe|1
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: George|Volt Switch|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|63/100 brn
+
+|
+|switch|p2a: Bee Movie 2|Ribombee, M|100/100
+|
+|-damage|p1a: Kyurem|57/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Magmortar|Magmortar, M|100/100
+|-activate|p1a: Magmortar|move: Sticky Web
+|-unboost|p1a: Magmortar|spe|1
+|move|p2a: Bee Movie 2|Moonblast|p1a: Magmortar
+|-resisted|p1a: Magmortar
+|-damage|p1a: Magmortar|76/100
+|-unboost|p1a: Magmortar|spa|1
+|
+|upkeep
+|turn|8
+
+|c|☆Extremekz|omfg
+
+|
+|switch|p2a: Gaychomp|Garchomp, M, shiny|100/100
+|move|p1a: Magmortar|Hidden Power|p2a: Gaychomp
+|-supereffective|p2a: Gaychomp
+|-damage|p2a: Gaychomp|14/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Archeops|Archeops, F|100/100
+|detailschange|p2a: Gaychomp|Garchomp-Mega, M, shiny
+|-mega|p2a: Gaychomp|Garchomp|Garchompite
+|move|p2a: Gaychomp|Substitute|p2a: Gaychomp
+|-fail|p2a: Gaychomp|move: Substitute|[weak]
+|
+|upkeep
+|turn|10
+
+|c| Old_Man_Waffles|The roads are real
+
+|c| Old_Man_Waffles|*reads
+
+|c| stowy24|which roads
+
+|c| stowy24|country roads?
+
+|c| Memer Hazy|TAKE ME HOME
+
+|c| Memer Hazy|WEST VIRGINIA
+
+|c| stowy24|TO THE PLACE
+
+|c| stowy24|I BELOOOOOOOOOONG
+
+|c|☆dancin_darunia|Where's my face palm emoji
+
+|c| Old_Man_Waffles|Oh goodness what have I done
+
+|c|☆Extremekz|i don't normally hate hax but the sp.atk drop just killed me lmao
+
+|c| stowy24|WEEEEEEEEST VIRGINIA
+
+|
+|move|p1a: Archeops|Defog|p2a: Gaychomp
+|-unboost|p2a: Gaychomp|evasion|1
+|-sideend|p1: Extremekz|Sticky Web|[from] move: Defog|[of] p1a: Archeops
+|move|p2a: Gaychomp|Poison Jab|p1a: Archeops
+|-resisted|p1a: Archeops
+|-damage|p1a: Archeops|73/100
+|-status|p1a: Archeops|psn
+|
+|-damage|p1a: Archeops|61/100 psn|[from] psn
+|upkeep
+|turn|11
+
+|c| stowy24|MOUNTAIN MAMA
+
+|c| Memer Hazy|one of my friends from west virginia got pissed off when he found out it became a meme
+
+|c| Gryphon11114|damn
+
+|c| stowy24|I actually fucking love that song not gonna lie
+
+|c| Gryphon11114|it's not ba
+
+|
+|move|p1a: Archeops|Stone Edge|p2a: Gaychomp
+|-resisted|p2a: Gaychomp
+|-damage|p2a: Gaychomp|0 fnt
+|faint|p2a: Gaychomp
+|
+|-damage|p1a: Archeops|48/100 psn|[from] psn
+|upkeep
+
+|c| Gryphon11114|d
+
+|c| stowy24|I also love fallout though
+
+|c| stowy24|:shrug:
+
+|c|☆Extremekz|ok ok no 6-0
+
+|
+|switch|p2a: George|Rotom-Wash|65/100
+|turn|12
+
+|
+|switch|p1a: Manectric|Manectric, F|100/100
+|move|p2a: George|Hydro Pump|p1a: Manectric
+|-damage|p1a: Manectric|36/100
+|
+|-heal|p2a: George|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|detailschange|p1a: Manectric|Manectric-Mega, F
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: George|atk|1
+|move|p1a: Manectric|Volt Switch|p2a: George
+|-damage|p2a: George|42/100
+
+|
+|switch|p1a: Archeops|Archeops, F|48/100 psn
+|move|p2a: George|Hydro Pump|p1a: Archeops
+|-supereffective|p1a: Archeops
+|-damage|p1a: Archeops|0 fnt
+|faint|p1a: Archeops
+|
+|-heal|p2a: George|48/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|57/100 brn
+|-ability|p1a: Kyurem|Teravolt
+|turn|14
+
+|
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|100/100 brn
+|move|p2a: George|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|69/100 brn|p2a: George|89/100|[from] move: Pain Split
+|
+|-heal|p2a: George|95/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|63/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|100/100 brn
+|move|p2a: George|Hydro Pump|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|83/100 brn
+|
+|-heal|p2a: George|100/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|77/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Kyurem|Earth Power|p2a: George
+|-supereffective|p2a: George
+|-damage|p2a: George|55/100
+|move|p2a: George|Volt Switch|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|64/100 brn
+
+|l| Old_Man_Waffles
+
+|l|☆Extremekz
+
+|player|p1|
+|j|☆Extremekz
+
+|player|p1|Extremekz|264
+
+|
+|switch|p2a: Bee Movie 2|Ribombee, M|100/100
+|
+|-damage|p1a: Kyurem|58/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|move|p2a: Bee Movie 2|Sticky Web|p1a: Metagross
+|-sidestart|p1: Extremekz|move: Sticky Web
+|
+|upkeep
+|turn|18
+
+|
+|switch|p2a: George|Rotom-Wash|55/100
+|move|p1a: Metagross|Meteor Mash|p2a: George
+|-resisted|p2a: George
+|-damage|p2a: George|42/100
+|
+|-heal|p2a: George|49/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|58/100 brn
+|-activate|p1a: Kyurem|move: Sticky Web
+|-unboost|p1a: Kyurem|spe|1
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: George|Will-O-Wisp|p1a: Kyurem
+|-fail|p1a: Kyurem|brn
+|
+|-heal|p2a: George|55/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|52/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p2a: George|Hydro Pump|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|32/100 brn
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|82/100 brn
+|
+|-heal|p2a: George|61/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|76/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|-zpower|p1a: Kyurem
+|move|p1a: Kyurem|Z-Hail|p1a: Kyurem|[anim]Hail
+|-boost|p1a: Kyurem|spe|1|[zeffect]
+|-weather|Hail
+|move|p2a: George|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|62/100 brn|p2a: George|79/100|[from] move: Pain Split
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: George|73/100|[from] Hail
+|-heal|p2a: George|79/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|56/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Kyurem|Blizzard|p2a: George
+|-resisted|p2a: George
+|-damage|p2a: George|59/100
+|move|p2a: George|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|51/100 brn|p2a: George|65/100|[from] move: Pain Split
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: George|59/100|[from] Hail
+|-heal|p2a: George|65/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|44/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|c|☆Extremekz|memes i'm special kyurem
+
+|
+|move|p1a: Kyurem|Blizzard|p2a: George
+|-resisted|p2a: George
+|-damage|p2a: George|43/100
+|move|p2a: George|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|39/100 brn|p2a: George|50/100|[from] move: Pain Split
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: George|44/100|[from] Hail
+|-heal|p2a: George|50/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|33/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|83/100 brn
+|move|p2a: George|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|61/100 brn|p2a: George|78/100|[from] move: Pain Split
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: George|72/100|[from] Hail
+|-heal|p2a: George|78/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|55/100 brn|[from] brn
+|upkeep
+|turn|25
+
+|
+|move|p1a: Kyurem|Blizzard|p2a: George
+|-resisted|p2a: George
+|-damage|p2a: George|56/100
+|move|p2a: George|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|49/100 brn|p2a: George|63/100|[from] move: Pain Split
+|
+|-weather|none
+|-heal|p2a: George|70/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|43/100 brn|[from] brn
+|upkeep
+|turn|26
+
+|
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|93/100 brn
+|move|p2a: George|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|74/100 brn|p2a: George|95/100|[from] move: Pain Split
+|
+|-heal|p2a: George|100/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|68/100 brn|[from] brn
+|upkeep
+|turn|27
+
+|
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|100/100 brn
+|move|p2a: George|Volt Switch|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|88/100 brn
+
+|
+|switch|p2a: Bee Movie 2|Ribombee, M|100/100
+|
+|-damage|p1a: Kyurem|82/100 brn|[from] brn
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|-activate|p1a: Metagross|move: Sticky Web
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|move|p2a: Bee Movie 2|Moonblast|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|73/100
+|
+|upkeep
+|turn|29
+
+|
+|switch|p1a: Necrozma|Necrozma|100/100
+|-activate|p1a: Necrozma|move: Sticky Web
+|-unboost|p1a: Necrozma|spe|1
+|move|p2a: Bee Movie 2|Bug Buzz|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|32/100
+|
+|upkeep
+|turn|30
+
+|
+|move|p2a: Bee Movie 2|Bug Buzz|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+
+|c|☆Extremekz|k yeah i lose
+
+|
+|switch|p1a: Magmortar|Magmortar, M|76/100
+|-activate|p1a: Magmortar|move: Sticky Web
+|-unboost|p1a: Magmortar|spe|1
+|turn|31
+
+|
+|switch|p2a: George|Rotom-Wash|100/100
+|move|p1a: Magmortar|Thunderbolt|p2a: George
+|-damage|p2a: George|60/100
+|
+|-heal|p2a: George|66/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Kyurem|Kyurem-Black|82/100 brn
+|-activate|p1a: Kyurem|move: Sticky Web
+|-unboost|p1a: Kyurem|spe|1
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: George|Hydro Pump|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|63/100 brn
+|
+|-heal|p2a: George|72/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|57/100 brn|[from] brn
+|upkeep
+|turn|33
+
+|
+|move|p2a: George|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|56/100 brn|p2a: George|72/100|[from] move: Pain Split
+|move|p1a: Kyurem|Earth Power|p2a: George
+|-supereffective|p2a: George
+|-damage|p2a: George|23/100
+|
+|-heal|p2a: George|29/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|50/100 brn|[from] brn
+|upkeep
+|turn|34
+
+|
+|move|p2a: George|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|36/100 brn|p2a: George|47/100|[from] move: Pain Split
+|move|p1a: Kyurem|Earth Power|p2a: George
+|-supereffective|p2a: George
+|-damage|p2a: George|0 fnt
+|faint|p2a: George
+|
+|-damage|p1a: Kyurem|30/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Virgin Ninja|Greninja, M, shiny|100/100
+|turn|35
+
+|
+|move|p2a: Virgin Ninja|Dark Pulse|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+
+|
+|switch|p1a: Magmortar|Magmortar, M|76/100
+|-activate|p1a: Magmortar|move: Sticky Web
+|-unboost|p1a: Magmortar|spe|1
+|turn|36
+
+|
+|move|p2a: Virgin Ninja|Surf|p1a: Magmortar
+|-supereffective|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|faint|p1a: Magmortar
+|
+|upkeep
+
+|
+|switch|p1a: Metagross|Metagross, shiny|73/100
+|-activate|p1a: Metagross|move: Sticky Web
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|turn|37
+
+|
+|move|p2a: Virgin Ninja|Dark Pulse|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+
+|
+|switch|p1a: Manectric|Manectric-Mega, F|36/100
+|-activate|p1a: Manectric|move: Sticky Web
+|-unboost|p1a: Manectric|spe|1
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Virgin Ninja|atk|1
+|turn|38
+
+|c|☆Extremekz|gg
+
+|
+|move|p2a: Virgin Ninja|Surf|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|
+|win|dancin_darunia

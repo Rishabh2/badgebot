@@ -1,0 +1,105 @@
+|init|battle
+|title|Huanjohn vs. trvsXX
+|j|☆Huanjohn
+|j|☆trvsXX
+|player|p1|Huanjohn|170
+|player|p2|trvsXX|151
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, F|item
+|poke|p1|Aggron, M|item
+|poke|p1|Chansey, F|item
+|poke|p2|Diancie|item
+|poke|p2|Genesect-*|item
+|poke|p2|Gyarados, M|item
+|teampreview|1
+|
+|start
+|switch|p1a: ⁢|Aggron, M|100/100
+|switch|p2a: not mega|Gyarados, M, shiny|100/100
+|-ability|p2a: not mega|Intimidate|boost
+|-unboost|p1a: ⁢|atk|1
+|turn|1
+|j| The Yeet King
+|
+|detailschange|p2a: not mega|Gyarados-Mega, M, shiny
+|-mega|p2a: not mega|Gyarados|Gyaradosite
+|-ability|p2a: not mega|Mold Breaker
+|detailschange|p1a: ⁢|Aggron-Mega, M
+|-mega|p1a: ⁢|Aggron|Aggronite
+|move|p2a: not mega|Dragon Dance|p2a: not mega
+|-boost|p2a: not mega|atk|1
+|-boost|p2a: not mega|spe|1
+|move|p1a: ⁢|Iron Defense|p1a: ⁢
+|-boost|p1a: ⁢|def|2
+|
+|upkeep
+|turn|2
+|c| The Yeet King|go
+|c| The Yeet King|retarded fuckwit
+|j| waateveor
+|
+|move|p2a: not mega|Dragon Dance|p2a: not mega
+|-boost|p2a: not mega|atk|1
+|-boost|p2a: not mega|spe|1
+|move|p1a: ⁢|Taunt|p2a: not mega
+|-start|p2a: not mega|move: Taunt
+|
+|upkeep
+|turn|3
+|c| The Yeet King|hit him
+|c| The Yeet King|dumb ass nibber
+|
+|move|p2a: not mega|Waterfall|p1a: ⁢
+|-damage|p1a: ⁢|85/100
+|move|p1a: ⁢|Metal Burst|p2a: not mega
+|-damage|p2a: not mega|81/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: not mega|Waterfall|p1a: ⁢
+|-damage|p1a: ⁢|70/100
+|cant|p1a: ⁢|flinch
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: not mega|Waterfall|p1a: ⁢
+|-damage|p1a: ⁢|54/100
+|cant|p1a: ⁢|flinch
+|
+|-end|p2a: not mega|move: Taunt
+|upkeep
+|turn|6
+
+|
+|move|p2a: not mega|Waterfall|p1a: ⁢
+|-damage|p1a: ⁢|39/100
+|move|p1a: ⁢|Iron Defense|p1a: ⁢
+|-boost|p1a: ⁢|def|2
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: not mega|Waterfall|p1a: ⁢
+|-crit|p1a: ⁢
+|-damage|p1a: ⁢|0 fnt
+|faint|p1a: ⁢
+|
+|win|trvsXX

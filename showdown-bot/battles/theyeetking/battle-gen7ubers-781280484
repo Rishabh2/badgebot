@@ -1,0 +1,75 @@
+|init|battle
+|title|The Yeet King vs. tysonmorton
+|j|☆The Yeet King
+|j|☆tysonmorton
+|player|p1|The Yeet King|156
+|player|p2|tysonmorton|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Marshadow|item
+|poke|p1|Necrozma-Dusk-Mane|item
+|poke|p1|Arceus-*|item
+|poke|p1|Salamence, M|item
+|poke|p1|Groudon|item
+|poke|p1|Darkrai|item
+|poke|p2|Aegislash, F|item
+|poke|p2|Blaziken, F|item
+|poke|p2|Dialga|item
+|poke|p2|Darkrai|item
+|poke|p2|Deoxys|item
+|poke|p2|Genesect-*|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Mega Silvally|Arceus-Water|100/100
+|switch|p2a: Aegislash|Aegislash, F, shiny|100/100
+|turn|1
+|
+|move|p2a: Aegislash|King's Shield|p2a: Aegislash
+|-singleturn|p2a: Aegislash|Protect
+|move|p1a: Mega Silvally|Stealth Rock|p2a: Aegislash
+|-sidestart|p2: tysonmorton|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Yeet King)
+|inactive|tysonmorton has 135 seconds left.
+
+|inactive|tysonmorton has 120 seconds left.
+
+|inactive|tysonmorton has 105 seconds left.
+
+|inactive|tysonmorton has 90 seconds left.
+
+|inactive|tysonmorton has 75 seconds left.
+
+|inactive|tysonmorton has 60 seconds left.
+
+|inactive|tysonmorton has 45 seconds left.
+
+|inactive|tysonmorton has 30 seconds left.
+
+|inactive|tysonmorton has 20 seconds left.
+
+|inactive|tysonmorton has 15 seconds left.
+
+|inactive|tysonmorton has 10 seconds left.
+
+|inactive|tysonmorton has 5 seconds left.
+
+|-message|tysonmorton lost due to inactivity.
+|
+|win|The Yeet King

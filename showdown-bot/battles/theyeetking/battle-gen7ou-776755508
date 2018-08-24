@@ -1,0 +1,197 @@
+|init|battle
+|title|Assdasdss vs. The Yeet King
+|j|☆Assdasdss
+|j|☆The Yeet King
+|player|p1|Assdasdss|102
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Clefable, F|item
+|poke|p1|Zapdos|item
+|poke|p1|Medicham, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Zygarde|item
+|poke|p2|Hoopa-Unbound|item
+|poke|p2|Toxapex, M|item
+|poke|p2|Magearna|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Kartana|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Assdasdss)
+
+|
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|turn|1
+
+|inactive|The Yeet King has 135 seconds left.
+
+|inactive|The Yeet King has 120 seconds left.
+
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: Assdasdss|move: Stealth Rock
+|move|p1a: Zapdos|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+
+|c|☆Assdasdss|Ooooo
+
+|c|☆Assdasdss|Oooo
+
+|inactive|The Yeet King has 135 seconds left.
+
+|c|☆Assdasdss|Unooooooo
+
+|c|☆Assdasdss|Keys
+
+|c|☆Assdasdss|Someone taste my oversized
+
+|inactive|The Yeet King has 120 seconds left.
+
+|c|☆Assdasdss|Buiscut Pleeaaase
+
+|inactive|The Yeet King has 105 seconds left.
+
+|c|☆Assdasdss|Take My taco and eat it
+
+|c|☆Assdasdss|Carefully
+
+|inactive|The Yeet King has 90 seconds left.
+
+|inactive|The Yeet King has 75 seconds left.
+
+|c|☆Assdasdss|Memes
+
+|c|☆The Yeet King|looks shithead
+
+|inactive|The Yeet King has 60 seconds left.
+
+|c|☆The Yeet King|you either fuck off with the sexual spam
+
+|c|☆Assdasdss|You need a high iq to get the E
+
+|c|☆The Yeet King|or Im fucking banning you
+
+|inactive|The Yeet King has 45 seconds left.
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|2
+
+|inactive|The Yeet King has 90 seconds left.
+
+|inactive|The Yeet King has 75 seconds left.
+
+|c|☆Assdasdss|What The Fuck
+
+|c|☆Assdasdss|Ate my last burrito
+
+|inactive|The Yeet King has 60 seconds left.
+
+|c|☆Assdasdss|Gonna colab with Migooos
+
+|
+|switch|p2a: Kartana|Kartana|100/100
+|switch|p1a: Ferrothorn|Ferrothorn, M|100/100
+|-damage|p1a: Ferrothorn|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Ferrothorn|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|move|p2a: Kartana|Sacred Sword|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|56/100
+|
+|-heal|p1a: Zapdos|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|c|☆The Yeet King|shoop de whoop
+
+|
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100/100
+|
+|upkeep
+|turn|5
+
+|c|☆The Yeet King|hoopidy poop
+
+|c|☆The Yeet King|scoopidy poop
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hoopa|atk|1
+|move|p2a: Hoopa|Nasty Plot|p2a: Hoopa
+|-boost|p2a: Hoopa|spa|2
+|
+|upkeep
+|turn|6
+
+|inactive|The Yeet King has 75 seconds left.
+
+|c|☆The Yeet King|MEGA OOF
+
+|
+|move|p1a: Landorus|U-turn|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+
+|c|☆The Yeet King|oh wow
+
+|c|☆The Yeet King|right
+
+|c|☆The Yeet King|I forgot that shit existed
+
+|inactive|Assdasdss has 135 seconds left.
+
+|c|☆Assdasdss|Dude it’s just despacito 2
+
+|c|☆Assdasdss|Lyrica
+
+|c|☆Assdasdss|*lyrics
+
+|inactive|Assdasdss has 120 seconds left.
+
+|c|☆The Yeet King|yeah fuck off
+
+|
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|75/100|[from] Stealth Rock
+|
+|-heal|p1a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+
+|-message|The Yeet King forfeited.
+
+|
+|win|Assdasdss

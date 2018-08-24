@@ -1,0 +1,351 @@
+|init|battle
+|title|TryHonesty vs. The Yeet King
+|j|☆TryHonesty
+|j|☆The Yeet King
+|player|p1|TryHonesty|170
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Houndoom, M|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Klefki, M|item
+|poke|p1|Heliolisk, F|item
+|poke|p1|Charizard, M|item
+|poke|p1|Sawsbuck, F|item
+|poke|p2|Diancie|item
+|poke|p2|Scizor, M|item
+|poke|p2|Magneton|item
+|poke|p2|Hydreigon, M|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Gengar, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TryHonesty)
+|inactive|The Yeet King has 135 seconds left.
+|inactive|The Yeet King has 120 seconds left.
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|switch|p2a: socks and crocs|Krookodile, M|100/100
+|-ability|p2a: socks and crocs|Intimidate|boost
+|-unboost|p1a: Hippowdon|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|j| esfrtedr
+|l| esfrtedr
+|c|☆The Yeet King|yo, fuck off already
+|inactive|TryHonesty has 135 seconds left.
+
+|
+|move|p2a: socks and crocs|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: TryHonesty|move: Stealth Rock
+|move|p1a: Hippowdon|Stealth Rock|p2a: socks and crocs
+|-sidestart|p2: The Yeet King|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p2a: socks and crocs|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|75/100
+|-enditem|p1a: Hippowdon|Heat Rock|[from] move: Knock Off|[of] p2a: socks and crocs
+|move|p1a: Hippowdon|Sunny Day|p1a: Hippowdon
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+
+|c|☆The Yeet King|the actual fuck
+
+|c|☆The Yeet King|whyd you do that
+
+|inactive|The Yeet King has 135 seconds left.
+
+|c|☆TryHonesty|I just came to feel
+
+|inactive|The Yeet King has 120 seconds left.
+
+|c|☆The Yeet King|you actually listened to me
+
+|c|☆TryHonesty|real sadboi hours only
+
+|c|☆The Yeet King|you fucked off already
+
+|
+|switch|p2a: bitch dragon|Hydreigon, M|100/100
+|-damage|p2a: bitch dragon|88/100|[from] Stealth Rock
+|switch|p1a: Sawsbuck|Sawsbuck, F|100/100
+|-damage|p1a: Sawsbuck|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+
+|
+|move|p1a: Sawsbuck|Jump Kick|p2a: bitch dragon
+|-supereffective|p2a: bitch dragon
+|-damage|p2a: bitch dragon|0 fnt
+|-damage|p1a: Sawsbuck|78/100|[from] item: Life Orb
+|faint|p2a: bitch dragon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: shiny clefairy|Gengar, M|100/100
+|-damage|p2a: shiny clefairy|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|switch|p1a: Houndoom|Houndoom, M|100/100
+|-damage|p1a: Houndoom|76/100|[from] Stealth Rock
+|move|p2a: shiny clefairy|Sludge Wave|p1a: Houndoom
+|-damage|p1a: Houndoom|2/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|
+|detailschange|p1a: Houndoom|Houndoom-Mega, M
+|-mega|p1a: Houndoom|Houndoom|Houndoominite
+|move|p2a: shiny clefairy|Sludge Wave|p1a: Houndoom
+|-crit|p1a: Houndoom
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|
+|-weather|none
+|upkeep
+
+|c|☆The Yeet King|too easy nerd
+
+|
+|switch|p1a: Klefki|Klefki, M|100/100
+|-damage|p1a: Klefki|95/100|[from] Stealth Rock
+|turn|7
+
+|
+|switch|p2a: socks and crocs|Krookodile, M|100/100
+|-damage|p2a: socks and crocs|94/100|[from] Stealth Rock
+|-ability|p2a: socks and crocs|Intimidate|boost
+|-unboost|p1a: Klefki|atk|1
+|move|p1a: Klefki|Spikes|p2a: socks and crocs
+|-sidestart|p2: The Yeet King|Spikes
+|
+|upkeep
+|turn|8
+
+|c|☆TryHonesty|feelsbadman
+
+|
+|move|p1a: Klefki|Sunny Day|p1a: Klefki
+|-weather|SunnyDay
+|move|p2a: socks and crocs|Earthquake|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+
+|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: TryHonesty|Reflect
+|move|p2a: socks and crocs|Knock Off|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|10/100
+|-enditem|p1a: Klefki|Heat Rock|[from] move: Knock Off|[of] p2a: socks and crocs
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+
+|
+|move|p1a: Klefki|Spikes|p2a: socks and crocs
+|-sidestart|p2: The Yeet King|Spikes
+|move|p2a: socks and crocs|Earthquake|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|-damage|p1a: Charizard|51/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p1a: Charizard|Flamethrower|p2a: socks and crocs
+|-damage|p2a: socks and crocs|0 fnt
+|faint|p2a: socks and crocs
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|38/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+
+|
+|switch|p2a: B O N E L E S S|Diancie|100/100
+|-damage|p2a: B O N E L E S S|88/100|[from] Stealth Rock
+|-damage|p2a: B O N E L E S S|71/100|[from] Spikes
+|turn|12
+
+|
+|detailschange|p2a: B O N E L E S S|Diancie-Mega
+|-mega|p2a: B O N E L E S S|Diancie|Diancite
+|move|p1a: Charizard|Flamethrower|p2a: B O N E L E S S
+|-resisted|p2a: B O N E L E S S
+|-damage|p2a: B O N E L E S S|9/100
+|move|p2a: B O N E L E S S|Diamond Storm|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Sawsbuck|Sawsbuck, F|78/100
+|-damage|p1a: Sawsbuck|66/100|[from] Stealth Rock
+|turn|13
+
+|c|☆The Yeet King|weak AF
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|84/100|[from] Spikes
+|-damage|p2a: Scizor|72/100|[from] Stealth Rock
+|move|p1a: Sawsbuck|Horn Leech|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|59/100
+|-heal|p1a: Sawsbuck|73/100|[from] drain|[of] p2a: Scizor
+|-damage|p1a: Sawsbuck|63/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: TryHonesty|Reflect
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Heliolisk|Heliolisk, F|100/100
+|-damage|p1a: Heliolisk|88/100|[from] Stealth Rock
+|move|p2a: Scizor|Bullet Punch|p1a: Heliolisk
+|-resisted|p1a: Heliolisk
+|-damage|p1a: Heliolisk|44/100
+|-damage|p2a: Scizor|49/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Heliolisk|31/100|[from] ability: Solar Power|[of] p1a: Heliolisk
+|upkeep
+|turn|15
+
+|c|☆The Yeet King|fuck off nerd
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Heliolisk
+|-resisted|p1a: Heliolisk
+|-damage|p1a: Heliolisk|0 fnt
+|-damage|p2a: Scizor|40/100|[from] item: Life Orb
+|faint|p1a: Heliolisk
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Hippowdon|Hippowdon, M|75/100
+|-damage|p1a: Hippowdon|68/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|16
+
+|c|☆The Yeet King|fuck off already
+
+|c|☆The Yeet King|click X
+
+|
+|move|p2a: Scizor|Bug Bite|p1a: Hippowdon
+|-damage|p1a: Hippowdon|37/100
+|-damage|p2a: Scizor|30/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Hippowdon|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+
+|
+|switch|p2a: shiny clefairy|Gengar, M|88/100
+|-damage|p2a: shiny clefairy|76/100|[from] Stealth Rock
+|-damage|p2a: shiny clefairy|60/100|[from] Spikes
+|turn|18
+
+|c|☆TryHonesty|I came to win games and feel
+
+|c|☆TryHonesty|And I'm all out of winning
+
+|
+|move|p2a: shiny clefairy|Shadow Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|45/100
+|move|p1a: Hippowdon|Sunny Day|p1a: Hippowdon
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+
+|
+|switch|p2a: magic houdini|Magneton|100/100
+|-damage|p2a: magic houdini|84/100|[from] Spikes
+|-damage|p2a: magic houdini|78/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Earthquake|p2a: magic houdini
+|-supereffective|p2a: magic houdini
+|-damage|p2a: magic houdini|0 fnt
+|faint|p2a: magic houdini
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: B O N E L E S S|Diancie-Mega|9/100
+|-damage|p2a: B O N E L E S S|0 fnt|[from] Spikes
+|faint|p2a: B O N E L E S S
+
+|
+|switch|p2a: shiny clefairy|Gengar, M|60/100
+|-damage|p2a: shiny clefairy|43/100|[from] Spikes
+|-damage|p2a: shiny clefairy|31/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p2a: shiny clefairy|Sludge Wave|p1a: Hippowdon
+|-resisted|p1a: Hippowdon
+|-damage|p1a: Hippowdon|17/100
+|move|p1a: Hippowdon|Earthquake|p2a: shiny clefairy
+|-supereffective|p2a: shiny clefairy
+|-damage|p2a: shiny clefairy|0 fnt
+|faint|p2a: shiny clefairy
+|
+|win|TryHonesty

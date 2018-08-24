@@ -1,0 +1,5 @@
+requests==2.9.1
+discord==0.0.2
+praw==5.4.0
+profanityfilter==2.0.3
+websockets==5.0.1

@@ -1,0 +1,412 @@
+|init|battle
+|title|Bakrys vs. The Yeet King
+|j|☆Bakrys
+|j|☆The Yeet King
+|player|p1|Bakrys|266
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Custom Game
+|seed|3603,46966,34485,29475
+|clearpoke
+|poke|p1|Druddigon, L50, M|item
+|poke|p1|Klefki, L50, M|item
+|poke|p1|Alakazam, L50, M|item
+|poke|p1|Tapu Bulu, L50|item
+|poke|p1|Heatran, L50, F|item
+|poke|p1|Starmie|item
+|poke|p2|Salamence, L50, F|item
+|poke|p2|Charizard-Mega-Y, L50, M|item
+|poke|p2|Sylveon, L50, F|item
+|poke|p2|Donphan, L50, M|item
+|poke|p2|Golisopod, L50, F|item
+|poke|p2|Quagsire, L50, M|item
+|teampreview|24
+|debug|ModifySpe handler suppressed by Embargo, Klutz or Magic Room
+|
+|start
+|switch|p1a: Druddigon|Druddigon, L50, M|184/184
+|switch|p2a: GEOTUS|Donphan, L50, M|197/197
+|turn|1
+|
+|move|p2a: GEOTUS|Knock Off|p1a: Druddigon
+|-damage|p1a: Druddigon|110/184
+|-damage|p2a: GEOTUS|173/197|[from] ability: Rough Skin|[of] p1a: Druddigon
+|-damage|p2a: GEOTUS|141/197|[from] item: Rocky Helmet|[of] p1a: Druddigon
+|-enditem|p1a: Druddigon|Rocky Helmet|[from] move: Knock Off|[of] p2a: GEOTUS
+|move|p1a: Druddigon|Glare|p2a: GEOTUS
+|-status|p2a: GEOTUS|par
+|
+|-heal|p2a: GEOTUS|153/197 par|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Druddigon|Stealth Rock|p2a: GEOTUS
+|-sidestart|p2: The Yeet King|move: Stealth Rock
+|move|p2a: GEOTUS|Earthquake|p1a: Druddigon
+|-damage|p1a: Druddigon|7/184
+|
+|-heal|p2a: GEOTUS|165/197 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L50|145/145
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: GEOTUS|Rapid Spin|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|131/145
+|-sideend|p2: The Yeet King|Stealth Rock|[from] move: Rapid Spin|[of] p2a: GEOTUS
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Tapu Bulu|140/145|[from] Grassy Terrain
+|-heal|p2a: GEOTUS|177/197 par|[from] item: Leftovers
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p2a: GEOTUS|189/197 par|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|switch|p2a: Mega Best Starter|Charizard-Mega-Y, L50, M|153/153
+|move|p1a: Tapu Bulu|Stone Edge|p2a: Mega Best Starter
+|-supereffective|p2a: Mega Best Starter
+|-crit|p2a: Mega Best Starter
+|-damage|p2a: Mega Best Starter|0 fnt
+|faint|p2a: Mega Best Starter
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Tapu Bulu|145/145|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Flynium Z|Salamence, L50, F|174/174
+|turn|5
+
+|
+|switch|p1a: Klefki|Klefki, L50, M|163/163
+|move|p2a: Flynium Z|Earthquake|p1a: Klefki
+|debug|move weakened by grassy terrain
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|93/163
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Klefki|103/163|[from] Grassy Terrain
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Quagmire|Quagsire, L50, M|202/202
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Bakrys|Reflect
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Klefki|113/163|[from] Grassy Terrain
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|upkeep
+|turn|7
+
+|
+|move|p1a: Klefki|Toxic|p2a: Quagmire
+|-status|p2a: Quagmire|tox
+|move|p2a: Quagmire|Scald|p1a: Klefki
+|-damage|p1a: Klefki|86/163
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Klefki|96/163|[from] Grassy Terrain
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Quagmire|190/202 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Bakrys|move: Light Screen
+|move|p2a: Quagmire|Scald|p1a: Klefki
+|debug|Light Screen weaken
+|-damage|p1a: Klefki|82/163
+|
+|-heal|p2a: Quagmire|202/202 tox|[from] item: Leftovers
+|-damage|p2a: Quagmire|178/202 tox|[from] psn
+|upkeep
+|turn|9
+
+|
+|move|p1a: Klefki|Spikes|p2a: Quagmire
+|-sidestart|p2: The Yeet King|Spikes
+|move|p2a: Quagmire|Scald|p1a: Klefki
+|debug|Light Screen weaken
+|-damage|p1a: Klefki|68/163
+|
+|-heal|p2a: Quagmire|190/202 tox|[from] item: Leftovers
+|-damage|p2a: Quagmire|154/202 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|switch|p2a: GEOTUS|Donphan, L50, M|189/197 par
+|-damage|p2a: GEOTUS|165/197 par|[from] Spikes
+|move|p1a: Klefki|Spikes|p2a: GEOTUS
+|-sidestart|p2: The Yeet King|Spikes
+|
+|-heal|p2a: GEOTUS|177/197 par|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L50|145/145
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|cant|p2a: GEOTUS|par
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p2a: GEOTUS|189/197 par|[from] item: Leftovers
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p2a: GEOTUS|197/197 par|[from] Grassy Terrain
+|upkeep
+|turn|12
+
+|
+|move|p2a: GEOTUS|Ice Shard|p1a: Tapu Bulu
+|-supereffective|p1a: Tapu Bulu
+|debug|Reflect weaken
+|-damage|p1a: Tapu Bulu|121/145
+|move|p1a: Tapu Bulu|Horn Leech|p2a: GEOTUS
+|debug|grassy terrain boost
+|-supereffective|p2a: GEOTUS
+|-ability|p2a: GEOTUS|Sturdy
+|-damage|p2a: GEOTUS|1/197 par
+|-heal|p1a: Tapu Bulu|145/145|[from] drain|[of] p2a: GEOTUS
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p2a: GEOTUS|13/197 par|[from] item: Leftovers
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p2a: GEOTUS|25/197 par|[from] Grassy Terrain
+|upkeep
+|turn|13
+
+|
+|move|p1a: Tapu Bulu|Horn Leech|p2a: GEOTUS
+|debug|grassy terrain boost
+|-supereffective|p2a: GEOTUS
+|-damage|p2a: GEOTUS|0 fnt
+|faint|p2a: GEOTUS
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|debug|Terrain handler suppressed by Embargo, Klutz or Magic Room
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-sideend|p1: Bakrys|Reflect
+|upkeep
+
+|
+|switch|p2a: Flynium Z|Salamence, L50, F|174/174
+|turn|14
+
+|
+|switch|p2a: Iron Bugaroo|Golisopod, L50, F|182/182
+|-damage|p2a: Iron Bugaroo|152/182|[from] Spikes
+|switch|p1a: Druddigon|Druddigon, L50, M|7/184
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Druddigon|18/184|[from] Grassy Terrain
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p2a: Iron Bugaroo|163/182|[from] Grassy Terrain
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Heatran|Heatran, L50, F|193/193
+|move|p2a: Iron Bugaroo|First Impression|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|167/193
+|-damage|p2a: Iron Bugaroo|145/182|[from] item: Life Orb
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Heatran|179/193|[from] Grassy Terrain
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p2a: Iron Bugaroo|156/182|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-sideend|p1: Bakrys|move: Light Screen
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L50|145/145
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Iron Bugaroo|Liquidation|p1a: Tapu Bulu
+|-resisted|p1a: Tapu Bulu
+|-damage|p1a: Tapu Bulu|93/145
+|-unboost|p1a: Tapu Bulu|def|1
+|-damage|p2a: Iron Bugaroo|138/182|[from] item: Life Orb
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Tapu Bulu|102/145|[from] Grassy Terrain
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p2a: Iron Bugaroo|149/182|[from] Grassy Terrain
+|upkeep
+|turn|17
+
+|
+|move|p1a: Tapu Bulu|Stone Edge|p2a: Iron Bugaroo
+|-supereffective|p2a: Iron Bugaroo
+|-damage|p2a: Iron Bugaroo|35/182
+|-activate|p2a: Iron Bugaroo|ability: Emergency Exit
+
+|
+|switch|p2a: Flynium Z|Salamence, L50, F|174/174
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Tapu Bulu|111/145|[from] Grassy Terrain
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Druddigon|Druddigon, L50, M|18/184
+|move|p2a: Flynium Z|Dragon Dance|p2a: Flynium Z
+|-boost|p2a: Flynium Z|atk|1
+|-boost|p2a: Flynium Z|spe|1
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Druddigon|29/184|[from] Grassy Terrain
+|upkeep
+|turn|19
+
+|
+|move|p2a: Flynium Z|Earthquake|p1a: Druddigon
+|debug|move weakened by grassy terrain
+|-damage|p1a: Druddigon|0 fnt
+|faint|p1a: Druddigon
+|-ability|p2a: Flynium Z|Moxie|boost
+|-boost|p2a: Flynium Z|atk|1
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|upkeep
+
+|
+|switch|p1a: Starmie|Starmie|261/261
+|turn|20
+
+|
+|move|p1a: Starmie|Ice Beam|p2a: Flynium Z
+|-supereffective|p2a: Flynium Z
+|-damage|p2a: Flynium Z|0 fnt
+|faint|p2a: Flynium Z
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-fieldend|move: Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: raw doggy|Sylveon, L50, F, shiny|202/202
+|-damage|p2a: raw doggy|169/202|[from] Spikes
+|turn|21
+
+|
+|switch|p1a: Heatran|Heatran, L50, F|179/193
+|move|p2a: raw doggy|Hyper Voice|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|154/193
+|
+|-heal|p2a: raw doggy|181/202|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Heatran|Flash Cannon|p2a: raw doggy
+|-supereffective|p2a: raw doggy
+|-crit|p2a: raw doggy
+|-damage|p2a: raw doggy|35/202
+|move|p2a: raw doggy|Hidden Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|38/193
+|
+|-heal|p2a: raw doggy|47/202|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: raw doggy|Protect|p2a: raw doggy
+|-singleturn|p2a: raw doggy|Protect
+|move|p1a: Heatran|Flash Cannon|p2a: raw doggy
+|-activate|p2a: raw doggy|move: Protect
+|
+|-heal|p2a: raw doggy|59/202|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|switch|p2a: Quagmire|Quagsire, L50, M|154/202 tox
+|-damage|p2a: Quagmire|121/202 tox|[from] Spikes
+|move|p1a: Heatran|Flash Cannon|p2a: Quagmire
+|-resisted|p2a: Quagmire
+|-damage|p2a: Quagmire|63/202 tox
+|
+|-heal|p2a: Quagmire|75/202 tox|[from] item: Leftovers
+|-damage|p2a: Quagmire|63/202 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L50|111/145
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Tapu Bulu
+|move|p2a: Quagmire|Toxic|p1a: Tapu Bulu
+|-status|p1a: Tapu Bulu|tox
+|-enditem|p1a: Tapu Bulu|Lum Berry|[eat]
+|-curestatus|p1a: Tapu Bulu|tox|[msg]
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Tapu Bulu|120/145|[from] Grassy Terrain
+|-heal|p2a: Quagmire|75/202 tox|[from] item: Leftovers
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p2a: Quagmire|87/202 tox|[from] Grassy Terrain
+|-damage|p2a: Quagmire|63/202 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|switch|p2a: raw doggy|Sylveon, L50, F, shiny|59/202
+|-damage|p2a: raw doggy|26/202|[from] Spikes
+|move|p1a: Tapu Bulu|Horn Leech|p2a: raw doggy
+|debug|grassy terrain boost
+|-damage|p2a: raw doggy|0 fnt
+|-heal|p1a: Tapu Bulu|133/145|[from] drain|[of] p2a: raw doggy
+|faint|p2a: raw doggy
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|-heal|p1a: Tapu Bulu|142/145|[from] Grassy Terrain
+|debug|Terrain handler suppressed by Embargo, Klutz or Magic Room
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|upkeep
+
+|
+|switch|p2a: Iron Bugaroo|Golisopod, L50, F|35/182
+|-damage|p2a: Iron Bugaroo|5/182|[from] Spikes
+|turn|27
+
+|
+|switch|p1a: Heatran|Heatran, L50, F|38/193
+|move|p2a: Iron Bugaroo|Liquidation|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-damage|p2a: Iron Bugaroo|0 fnt|[from] item: Life Orb
+|faint|p1a: Heatran
+|faint|p2a: Iron Bugaroo
+|
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|debug|Pokemon is grounded, healing through Grassy Terrain.
+|upkeep
+
+|
+|switch|p1a: Tapu Bulu|Tapu Bulu, L50|142/145
+|switch|p2a: Quagmire|Quagsire, L50, M|63/202 tox
+|-damage|p2a: Quagmire|30/202 tox|[from] Spikes
+|turn|28
+
+|
+|move|p1a: Tapu Bulu|Horn Leech|p2a: Quagmire
+|debug|grassy terrain boost
+|-supereffective|p2a: Quagmire
+|-damage|p2a: Quagmire|0 fnt
+|-heal|p1a: Tapu Bulu|145/145|[from] drain|[of] p2a: Quagmire
+|faint|p2a: Quagmire
+|
+|win|Bakrys

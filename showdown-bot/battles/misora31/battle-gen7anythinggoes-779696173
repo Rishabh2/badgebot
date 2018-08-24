@@ -1,0 +1,353 @@
+|init|battle
+|title|Memer Hazy vs. Extremekz
+|j|☆Memer Hazy
+|j|☆Extremekz
+|player|p1|Memer Hazy|117
+|player|p2|Extremekz|264
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Hydreigon, M|item
+|poke|p1|Necrozma-Dawn-Wings|item
+|poke|p1|Vaporeon, M|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Scizor, M|item
+|poke|p1|Garbodor, F|item
+|poke|p2|Greninja, M|item
+|poke|p2|Sylveon, F|item
+|poke|p2|Magmortar, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Ambipom, M|item
+|poke|p2|Manectric, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|☆Extremekz|hf
+|c|☆Memer Hazy|hf
+|j| Maik93
+|j| Doctor_DraX
+|j| Misora31
+|l| Doctor_DraX
+|j| roguaran
+|
+|start
+|switch|p1a: SOLID CHRIS|Garbodor, F|100/100
+|switch|p2a: Manectric|Manectric, F|100/100
+|turn|1
+|
+|detailschange|p2a: Manectric|Manectric-Mega, F
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: SOLID CHRIS|atk|1
+|move|p2a: Manectric|Volt Switch|p1a: SOLID CHRIS
+|-damage|p1a: SOLID CHRIS|71/100
+|
+|switch|p2a: Ambipom|Ambipom, M|100/100
+|move|p1a: SOLID CHRIS|Toxic Spikes|p2a: Ambipom
+|-sidestart|p2: Extremekz|move: Toxic Spikes
+|
+|-heal|p1a: SOLID CHRIS|77/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+
+|
+|move|p2a: Ambipom|Tail Slap|p1a: SOLID CHRIS|[miss]
+|-miss|p2a: Ambipom|p1a: SOLID CHRIS
+|move|p1a: SOLID CHRIS|Spikes|p2a: Ambipom
+|-sidestart|p2: Extremekz|Spikes
+|
+|-heal|p1a: SOLID CHRIS|83/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+
+|c|☆Extremekz|ok ambipom
+
+|
+|move|p2a: Ambipom|Tail Slap|p1a: SOLID CHRIS
+|-damage|p1a: SOLID CHRIS|63/100
+|-damage|p1a: SOLID CHRIS|43/100
+|-crit|p1a: SOLID CHRIS
+|-damage|p1a: SOLID CHRIS|15/100
+|-damage|p1a: SOLID CHRIS|0 fnt
+|-damage|p2a: Ambipom|76/100|[from] ability: Aftermath|[of] p1a: SOLID CHRIS
+|-hitcount|p1a: SOLID CHRIS|4
+|faint|p1a: SOLID CHRIS
+|
+|upkeep
+
+|c|☆Extremekz|I see how it is
+
+|c|☆Memer Hazy|oof
+
+|c|☆Extremekz|STUPID MONKEY
+
+|c| Misora31|I didn't know Garbador got spikes and toxic spikes
+
+|j| dancin_darunia
+
+|c| Misora31|good information
+
+|c|☆Extremekz|Now you do
+
+|c|☆Extremekz|:)
+
+|
+|switch|p1a: Panzermensch|Scizor, M|100/100
+|turn|4
+
+|c| dancin_darunia|Don't worry Hazy I got haxed at the beginning and still won. You can do it :)
+
+|c| dancin_darunia|KZ is bad anyways
+
+|c|☆Extremekz|:D
+
+|j| Gryphon11114
+
+|
+|switch|p2a: Manectric|Manectric-Mega, F|100/100
+|-status|p2a: Manectric|psn
+|-damage|p2a: Manectric|88/100 psn|[from] Spikes
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Panzermensch|atk|1
+|detailschange|p1a: Panzermensch|Scizor-Mega, M
+|-mega|p1a: Panzermensch|Scizor|Scizorite
+|move|p1a: Panzermensch|U-turn|p2a: Manectric
+|-damage|p2a: Manectric|52/100 psn
+
+|
+|switch|p1a: rip my bacon|Mamoswine, F|100/100
+|
+|-damage|p2a: Manectric|40/100 psn|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Manectric|Flamethrower|p1a: rip my bacon
+|-supereffective|p1a: rip my bacon
+|-damage|p1a: rip my bacon|69/100
+|-status|p1a: rip my bacon|brn
+|move|p1a: rip my bacon|Earthquake|p2a: Manectric
+|-supereffective|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|-damage|p1a: rip my bacon|63/100 brn|[from] brn
+|upkeep
+
+|c|☆Memer Hazy|ofc
+
+|c|☆Extremekz|did that actually work
+
+|c| dancin_darunia|Ouch
+
+|
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Spikes
+|-status|p2a: Greninja|psn
+|turn|6
+
+|
+|switch|p1a: LIQUID CHRIS|Vaporeon, M|100/100
+|move|p2a: Greninja|U-turn|p1a: LIQUID CHRIS
+|-damage|p1a: LIQUID CHRIS|89/100
+
+|
+|switch|p2a: Kyurem|Kyurem-Black|100/100
+|-damage|p2a: Kyurem|88/100|[from] Spikes
+|-status|p2a: Kyurem|psn
+|-ability|p2a: Kyurem|Teravolt
+|
+|-heal|p1a: LIQUID CHRIS|95/100|[from] item: Leftovers
+|-damage|p2a: Kyurem|76/100 psn|[from] psn
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|-damage|p2a: Sylveon|88/100|[from] Spikes
+|-status|p2a: Sylveon|psn
+|move|p1a: LIQUID CHRIS|Wish|p1a: LIQUID CHRIS
+|
+|-heal|p1a: LIQUID CHRIS|100/100|[from] item: Leftovers
+|-damage|p2a: Sylveon|76/100 psn|[from] psn
+|upkeep
+|turn|8
+
+|
+|move|p1a: LIQUID CHRIS|Scald|p2a: Sylveon
+|-damage|p2a: Sylveon|55/100 psn
+|move|p2a: Sylveon|Hyper Voice|p1a: LIQUID CHRIS
+|-damage|p1a: LIQUID CHRIS|63/100
+|
+|-heal|p1a: LIQUID CHRIS|100/100|[from] move: Wish|[wisher] LIQUID CHRIS
+|-damage|p2a: Sylveon|42/100 psn|[from] psn
+|upkeep
+|turn|9
+
+|c| dancin_darunia|KZ automatically loses because he didn't nickname his mons.
+
+|c|☆Extremekz|:/
+
+|
+|switch|p2a: Kyurem|Kyurem-Black|76/100 psn
+|-damage|p2a: Kyurem|64/100 psn|[from] Spikes
+|-ability|p2a: Kyurem|Teravolt
+|move|p1a: LIQUID CHRIS|Wish|p1a: LIQUID CHRIS
+|
+|-damage|p2a: Kyurem|51/100 psn|[from] psn
+|upkeep
+|turn|10
+
+|
+|-zpower|p2a: Kyurem
+|move|p2a: Kyurem|Gigavolt Havoc|p1a: LIQUID CHRIS|[zeffect]
+|-supereffective|p1a: LIQUID CHRIS
+|-damage|p1a: LIQUID CHRIS|0 fnt
+|faint|p1a: LIQUID CHRIS
+|
+|-damage|p2a: Kyurem|39/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Ragnarök|Necrozma-Dawn-Wings|100/100
+|turn|11
+
+|
+|move|p2a: Kyurem|Ice Beam|p1a: Ragnarök
+|-damage|p1a: Ragnarök|68/100
+|move|p1a: Ragnarök|Rock Polish|p1a: Ragnarök
+|-boost|p1a: Ragnarök|spe|2
+|
+|-damage|p2a: Kyurem|27/100 psn|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Ragnarök|Flash Cannon|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-damage|p1a: Ragnarök|58/100|[from] item: Life Orb
+|faint|p2a: Kyurem
+|
+|upkeep
+
+|
+|switch|p2a: Ambipom|Ambipom, M|76/100
+|-damage|p2a: Ambipom|63/100|[from] Spikes
+|-status|p2a: Ambipom|psn
+|turn|13
+
+|
+|switch|p1a: Panzermensch|Scizor-Mega, M|100/100
+|move|p2a: Ambipom|Knock Off|p1a: Panzermensch
+|-damage|p1a: Panzermensch|77/100
+|
+|-damage|p2a: Ambipom|51/100 psn|[from] psn
+|upkeep
+|turn|14
+
+|c| dancin_darunia|No Autotomize smh
+
+|l| Gryphon11114
+
+|
+|move|p2a: Ambipom|Knock Off|p1a: Panzermensch
+|-damage|p1a: Panzermensch|54/100
+|move|p1a: Panzermensch|U-turn|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|faint|p2a: Ambipom
+
+|
+|switch|p1a: Stroheim|Hydreigon, M|100/100
+|
+|upkeep
+
+|
+|switch|p2a: Greninja|Greninja, M|88/100 psn
+|-damage|p2a: Greninja|76/100 psn|[from] Spikes
+|turn|15
+
+|j| Diviniya
+
+|
+|move|p1a: Stroheim|U-turn|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|27/100 psn
+
+|
+|switch|p1a: rip my bacon|Mamoswine, F|63/100 brn
+|move|p2a: Greninja|Ice Beam|p1a: rip my bacon
+|-damage|p1a: rip my bacon|46/100 brn
+|
+|-damage|p2a: Greninja|15/100 psn|[from] psn
+|-damage|p1a: rip my bacon|40/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p1a: rip my bacon|Ice Shard|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|6/100 psn
+|move|p2a: Greninja|Ice Beam|p1a: rip my bacon
+|-damage|p1a: rip my bacon|23/100 brn
+|
+|-damage|p2a: Greninja|0 fnt|[from] psn
+|-damage|p1a: rip my bacon|17/100 brn|[from] brn
+|upkeep
+|faint|p2a: Greninja
+
+|c|☆Extremekz|fml
+
+|
+|switch|p2a: Magmortar|Magmortar, F|100/100
+|-damage|p2a: Magmortar|88/100|[from] Spikes
+|-status|p2a: Magmortar|psn
+|turn|17
+
+|
+|move|p2a: Magmortar|Flame Charge|p1a: rip my bacon
+|-supereffective|p1a: rip my bacon
+|-damage|p1a: rip my bacon|0 fnt
+|-boost|p2a: Magmortar|spe|1
+|faint|p1a: rip my bacon
+|
+|-damage|p2a: Magmortar|76/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Ragnarök|Necrozma-Dawn-Wings|58/100
+|turn|18
+
+|
+|move|p2a: Magmortar|Belly Drum|p2a: Magmortar
+|-damage|p2a: Magmortar|26/100 psn
+|-setboost|p2a: Magmortar|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Magmortar|Sitrus Berry|[eat]
+|-heal|p2a: Magmortar|51/100 psn|[from] item: Sitrus Berry
+|move|p1a: Ragnarök|Moongeist Beam|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|-damage|p1a: Ragnarök|48/100|[from] item: Life Orb
+|faint|p2a: Magmortar
+|
+|upkeep
+
+|
+|switch|p2a: Sylveon|Sylveon, F|42/100 psn
+|-damage|p2a: Sylveon|30/100 psn|[from] Spikes
+|turn|19
+
+|c|☆Memer Hazy|gg
+
+|
+|move|p1a: Ragnarök|Flash Cannon|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-enditem|p2a: Sylveon|Babiri Berry|[eat]
+|-enditem|p2a: Sylveon|Babiri Berry|[weaken]
+|-damage|p2a: Sylveon|0 fnt
+|-damage|p1a: Ragnarök|38/100|[from] item: Life Orb
+|faint|p2a: Sylveon
+|
+|win|Memer Hazy

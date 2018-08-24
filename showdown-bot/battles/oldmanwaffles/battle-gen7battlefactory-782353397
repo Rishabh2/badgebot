@@ -1,0 +1,130 @@
+|init|battle
+|title|Cor4zon vs. Old_Man_Waffles
+|j|☆Cor4zon
+|j|☆Old_Man_Waffles
+|player|p1|Cor4zon|155
+|player|p2|Old_Man_Waffles|224
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Clefairy, M|item
+|poke|p1|Liepard, F|item
+|poke|p1|Shiftry, F|item
+|poke|p1|Raichu-Alola, F|item
+|poke|p1|Sandslash-Alola, F|item
+|poke|p1|Sableye, M|item
+|poke|p2|Silvally-*|item
+|poke|p2|Primeape, F|item
+|poke|p2|Golem, F|item
+|poke|p2|Musharna, M|item
+|poke|p2|Skuntank, M|item
+|poke|p2|Ursaring, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+
+|
+|start
+|switch|p1a: Liepard|Liepard, F|100/100
+|switch|p2a: Primeape|Primeape, F|100/100
+|turn|1
+
+|
+|switch|p2a: Golem|Golem, F|100/100
+|switch|p1a: Clefairy|Clefairy, M|100/100
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Golem|Stealth Rock|p1a: Clefairy
+|-sidestart|p1: Cor4zon|move: Stealth Rock
+|move|p1a: Clefairy|Stealth Rock|p2a: Golem
+|-sidestart|p2: Old_Man_Waffles|move: Stealth Rock
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Golem|Rock Blast|p1a: Clefairy
+|-damage|p1a: Clefairy|83/100
+|-damage|p1a: Clefairy|67/100
+|-hitcount|p1a: Clefairy|2
+|move|p1a: Clefairy|Soft-Boiled|p1a: Clefairy
+|-heal|p1a: Clefairy|100/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Golem|Rock Blast|p1a: Clefairy
+|-damage|p1a: Clefairy|85/100
+|-damage|p1a: Clefairy|68/100
+|-damage|p1a: Clefairy|51/100
+|-hitcount|p1a: Clefairy|3
+|move|p1a: Clefairy|Knock Off|p2a: Golem
+|-damage|p2a: Golem|93/100
+|-enditem|p2a: Golem|Weakness Policy|[from] move: Knock Off|[of] p1a: Clefairy
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|-damage|p1a: Shiftry|88/100|[from] Stealth Rock
+|move|p2a: Golem|Rock Blast|p1a: Shiftry|[miss]
+|-miss|p2a: Golem|p1a: Shiftry
+|
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Silvally|Silvally-Fairy|100/100
+|-damage|p2a: Silvally|88/100|[from] Stealth Rock
+|move|p1a: Shiftry|Defog|p2a: Silvally
+|-unboost|p2a: Silvally|evasion|1
+|-sideend|p2: Old_Man_Waffles|Stealth Rock|[from] move: Defog|[of] p2a: Silvally
+|-sideend|p1: Cor4zon|Stealth Rock|[from] move: Defog|[of] p1a: Shiftry
+|
+|upkeep
+|turn|7
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cor4zon)
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Sandslash|Sandslash-Alola, F|100/100
+|move|p2a: Silvally|Parting Shot|p1a: Sandslash
+|-unboost|p1a: Sandslash|atk|1
+|-unboost|p1a: Sandslash|spa|1
+
+|l|☆Cor4zon
+
+|inactive|Cor4zon disconnected and has a minute to reconnect!
+
+|player|p1|
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Golem|Golem, F|93/100
+|
+|upkeep
+|turn|8
+
+|inactive|Cor4zon has 20 seconds to reconnect!
+
+|inactive|Cor4zon has 15 seconds to reconnect!
+
+|inactive|Cor4zon has 10 seconds to reconnect!
+
+|inactive|Cor4zon has 5 seconds to reconnect!
+
+|-message|Cor4zon lost due to inactivity.
+|
+|win|Old_Man_Waffles

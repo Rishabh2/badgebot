@@ -1,0 +1,324 @@
+|init|battle
+|title|ShinyKyelle97 vs. The Yeet King
+|j|☆ShinyKyelle97
+|j|☆The Yeet King
+|player|p1|ShinyKyelle97|92
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Aegislash, M|item
+|poke|p1|Necrozma-Dawn-Wings|item
+|poke|p1|Lugia|item
+|poke|p1|Kyogre|item
+|poke|p1|Dialga|item
+|poke|p1|Blaziken, M|item
+|poke|p2|Marshadow|item
+|poke|p2|Necrozma-Dusk-Mane|item
+|poke|p2|Arceus-*|item
+|poke|p2|Salamence, M|item
+|poke|p2|Groudon|item
+|poke|p2|Darkrai|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Kyogre|Kyogre|100/100
+|switch|p2a: Arceus|Arceus-Water|100/100
+|detailschange|p1a: Kyogre|Kyogre-Primal
+|-primal|p1a: Kyogre
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|1
+|
+|move|p2a: Arceus|Toxic|p1a: Kyogre
+|-status|p1a: Kyogre|tox
+|move|p1a: Kyogre|Thunder|p2a: Arceus
+|-supereffective|p2a: Arceus
+|-damage|p2a: Arceus|29/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Kyogre|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|move|p2a: Arceus|Stealth Rock|p1a: Kyogre
+|-sidestart|p1: ShinyKyelle97|move: Stealth Rock
+|move|p1a: Kyogre|Ice Beam|p2a: Arceus
+|-resisted|p2a: Arceus
+|-damage|p2a: Arceus|14/100
+|
+|-weather|PrimordialSea|[upkeep]
+|-damage|p1a: Kyogre|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p2a: Groudon|Groudon|100/100
+|detailschange|p2a: Groudon|Groudon-Primal
+|-primal|p2a: Groudon
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p2a: Groudon
+|move|p1a: Kyogre|Ice Beam|p2a: Groudon
+|-damage|p2a: Groudon|54/100
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: Kyogre|63/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|switch|p1a: Lugia|Lugia|100/100
+|-damage|p1a: Lugia|76/100|[from] Stealth Rock
+|-weather|none
+|switch|p2a: Arceus|Arceus-Water|14/100
+|
+|-heal|p1a: Lugia|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Aegislash|Aegislash, M|100/100
+|-damage|p1a: Aegislash|94/100|[from] Stealth Rock
+|move|p2a: Arceus|Judgment|p1a: Aegislash
+|-damage|p1a: Aegislash|59/100
+|
+|-heal|p1a: Aegislash|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|-formechange|p1a: Aegislash|Aegislash-Blade||[from] ability: Stance Change
+|move|p1a: Aegislash|Shadow Sneak|p2a: Arceus
+|-damage|p2a: Arceus|0 fnt
+|faint|p2a: Arceus
+|
+|-heal|p1a: Aegislash|71/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|7
+|
+|-zpower|p2a: Darkrai
+|move|p2a: Darkrai|Z-Hypnosis|p1a: Aegislash|[anim]Hypnosis
+|-boost|p2a: Darkrai|spe|1|[zeffect]
+|-status|p1a: Aegislash|slp
+|cant|p1a: Aegislash|slp
+|
+|-heal|p1a: Aegislash|77/100 slp|[from] item: Leftovers
+|-damage|p1a: Aegislash|65/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|8
+
+|c|☆The Yeet King|easy peasy nerd
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The Yeet King)
+
+|
+|move|p2a: Darkrai|Calm Mind|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|1
+|-boost|p2a: Darkrai|spd|1
+|cant|p1a: Aegislash|slp
+|
+|-heal|p1a: Aegislash|71/100 slp|[from] item: Leftovers
+|-damage|p1a: Aegislash|59/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|9
+
+|inactive|ShinyKyelle97 has 135 seconds left.
+
+|inactive|The Yeet King has 135 seconds left.
+
+|
+|move|p2a: Darkrai|Shadow Ball|p1a: Aegislash
+|-supereffective|p1a: Aegislash
+|-damage|p1a: Aegislash|0 fnt
+|faint|p1a: Aegislash
+|
+|upkeep
+
+|
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|turn|10
+
+|inactive|ShinyKyelle97 has 135 seconds left.
+
+|inactive|ShinyKyelle97 has 120 seconds left.
+
+|inactive|ShinyKyelle97 has 105 seconds left.
+
+|
+|detailschange|p1a: Blaziken|Blaziken-Mega, M
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p2a: Darkrai|Hypnosis|p1a: Blaziken|[miss]
+|-miss|p2a: Darkrai|p1a: Blaziken
+|move|p1a: Blaziken|High Jump Kick|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-crit|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+
+|
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Blaziken|atk|1
+|turn|11
+
+|
+|detailschange|p2a: Salamence|Salamence-Mega, M
+|-mega|p2a: Salamence|Salamence|Salamencite
+|move|p1a: Blaziken|Thunder Punch|p2a: Salamence
+|-damage|p2a: Salamence|81/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|12
+
+|c|☆The Yeet King|lmao
+
+|
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|13
+
+|c|☆The Yeet King|do it again nerd
+
+|
+|move|p1a: Blaziken|Thunder Punch|p2a: Salamence
+|-damage|p2a: Salamence|42/100
+|move|p2a: Salamence|Return|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+
+|
+|switch|p1a: Dialga|Dialga|100/100
+|-damage|p1a: Dialga|94/100|[from] Stealth Rock
+|-ability|p1a: Dialga|Pressure
+|turn|14
+
+|
+|move|p2a: Salamence|Dragon Claw|p1a: Dialga
+|-damage|p1a: Dialga|28/100
+|move|p1a: Dialga|Ice Beam|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+
+|
+|switch|p2a: Marshadow|Marshadow|100/100
+|turn|15
+
+|
+|move|p2a: Marshadow|Swagger|p1a: Dialga
+|-boost|p1a: Dialga|atk|2
+|-start|p1a: Dialga|confusion
+|-activate|p1a: Dialga|confusion
+|move|p1a: Dialga|Ice Beam|p2a: Marshadow
+|-damage|p2a: Marshadow|38/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Marshadow|Spectral Thief|p1a: Dialga|[still]
+|-clearpositiveboost|p1a: Dialga|p2a: Marshadow|move: Spectral Thief
+|-boost|p2a: Marshadow|atk|2
+|-anim|p2a: Marshadow|Spectral Thief|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|upkeep
+
+|
+|switch|p1a: Kyogre|Kyogre-Primal|63/100 tox
+|-damage|p1a: Kyogre|51/100 tox|[from] Stealth Rock
+|-weather|PrimordialSea|[from] ability: Primordial Sea|[of] p1a: Kyogre
+|turn|17
+
+|
+|move|p2a: Marshadow|Close Combat|p1a: Kyogre
+|-damage|p1a: Kyogre|0 fnt
+|-unboost|p2a: Marshadow|def|1
+|-unboost|p2a: Marshadow|spd|1
+|-enditem|p2a: Marshadow|White Herb
+|-clearnegativeboost|p2a: Marshadow|[silent]
+|faint|p1a: Kyogre
+|-weather|none
+|
+|upkeep
+
+|c|☆The Yeet King|E
+
+|c|☆The Yeet King|A
+
+|c|☆The Yeet King|S
+
+|c|☆The Yeet King|Y
+
+|
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings|100/100
+|-damage|p1a: Necrozma|88/100|[from] Stealth Rock
+|turn|18
+
+|
+|detailschange|p1a: Necrozma|Necrozma-Ultra
+|-burst|p1a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p2a: Marshadow|Spectral Thief|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|upkeep
+
+|c|☆The Yeet King|F
+
+|c|☆The Yeet King|U
+
+|c|☆The Yeet King|C
+
+|
+|switch|p1a: Lugia|Lugia|82/100
+|-damage|p1a: Lugia|57/100|[from] Stealth Rock
+|turn|19
+
+|c|☆The Yeet King|K
+
+|c|☆The Yeet King|I
+
+|c|☆The Yeet King|N
+
+|c|☆The Yeet King|G
+
+|
+|move|p2a: Marshadow|Spectral Thief|p1a: Lugia
+|-supereffective|p1a: Lugia
+|-damage|p1a: Lugia|0 fnt
+|faint|p1a: Lugia
+|
+|win|The Yeet King

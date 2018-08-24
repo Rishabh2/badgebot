@@ -1,0 +1,507 @@
+|init|battle
+|title|pyukumuku iz god vs. VFernandes02
+|j|☆pyukumuku iz god
+|j|☆VFernandes02
+|player|p1|pyukumuku iz god|101
+|player|p2|VFernandes02|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pyukumuku, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Sableye, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Toxapex, M|item
+|poke|p1|Gliscor, F|item
+|poke|p2|Weavile, F|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Infernape, M|item
+|teampreview
+|
+|start
+|switch|p1a: Reverse|Sableye, M|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|move|p1a: Reverse|Will-O-Wisp|p2a: Weavile
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Weavile|[msg]
+|move|p2a: Weavile|Icicle Crash|p1a: Reverse
+|-damage|p1a: Reverse|5/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Nightmare|Pyukumuku, M|100/100
+|move|p2a: Weavile|Icicle Crash|p1a: Nightmare
+|-resisted|p1a: Nightmare
+|-damage|p1a: Nightmare|72/100
+|
+|-heal|p1a: Nightmare|78/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|100/100
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Tapu Koko|Hidden Power|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|16/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Thiq|Chansey, F|100/100
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Thiq
+|-damage|p1a: Thiq|90/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Tapu Koko|Volt Switch|p1a: Thiq
+|-damage|p1a: Thiq|75/100
+
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Thiq|Stealth Rock|p2a: Weavile
+|-sidestart|p2: VFernandes02|move: Stealth Rock
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: sexy pexy|Toxapex, M|100/100
+|move|p2a: Weavile|Knock Off|p1a: sexy pexy
+|-damage|p1a: sexy pexy|56/100
+|-enditem|p1a: sexy pexy|Black Sludge|[from] move: Knock Off|[of] p2a: Weavile
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: sexy pexy|Recover|p1a: sexy pexy
+|-heal|p1a: sexy pexy|100/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p1a: birdo|Skarmory, M|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: birdo
+|-sidestart|p1: pyukumuku iz god|move: Stealth Rock
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|100/100
+|-damage|p2a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: birdo|Spikes|p2a: Tapu Koko
+|-sidestart|p2: VFernandes02|Spikes
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Thiq|Chansey, F|75/100
+|-damage|p1a: Thiq|63/100|[from] Stealth Rock
+|move|p2a: Tapu Koko|Volt Switch|p1a: Thiq
+|-damage|p1a: Thiq|49/100
+
+|
+|switch|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|88/100|[from] Spikes
+|-damage|p2a: Weavile|63/100|[from] Stealth Rock
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|12
+
+|
+|-activate|p1a: Thiq|move: Pursuit
+|move|p2a: Weavile|Pursuit|p1a: Thiq|[from]Pursuit
+|-damage|p1a: Thiq|14/100
+|switch|p1a: Nightmare|Pyukumuku, M|100/100
+|-damage|p1a: Nightmare|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Nightmare|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|88/100
+|-damage|p2a: Tapu Koko|76/100|[from] Spikes
+|-damage|p2a: Tapu Koko|63/100|[from] Stealth Rock
+|move|p1a: Nightmare|Toxic|p2a: Tapu Koko
+|-status|p2a: Tapu Koko|tox
+|
+|-heal|p1a: Nightmare|99/100|[from] item: Leftovers
+|-damage|p2a: Tapu Koko|57/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Nightmare
+|-damage|p1a: Nightmare|80/100
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|100/100
+|
+|-damage|p2a: Tapu Koko|45/100 tox|[from] psn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|15
+
+|
+|move|p2a: Tapu Koko|Volt Switch|p1a: Nightmare
+|-supereffective|p1a: Nightmare
+|-damage|p1a: Nightmare|64/100
+
+|
+|switch|p2a: Excadrill|Excadrill, F|97/100
+|-damage|p2a: Excadrill|85/100|[from] Spikes
+|-damage|p2a: Excadrill|82/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Nightmare|Soak|p2a: Excadrill
+|-start|p2a: Excadrill|typechange|Water
+|
+|-heal|p1a: Nightmare|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Nightmare
+|-damage|p1a: Nightmare|63/100
+|-sideend|p2: VFernandes02|Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-sideend|p2: VFernandes02|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Nightmare|Toxic|p2a: Excadrill
+|-status|p2a: Excadrill|tox
+|
+|-heal|p1a: Nightmare|69/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|76/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Tapu Koko|Tapu Koko|45/100 tox
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|100/100
+|
+|-damage|p2a: Tapu Koko|39/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Reverse|Sableye, M|5/100
+|-damage|p1a: Reverse|0 fnt|[from] Stealth Rock
+|faint|p1a: Reverse
+|move|p2a: Tapu Koko|Hidden Power|p1: Reverse|[notarget]
+|-notarget
+|
+|-damage|p2a: Tapu Koko|27/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Nightmare|Pyukumuku, M|100/100
+|-damage|p1a: Nightmare|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Nightmare
+|-supereffective|p1a: Nightmare
+|-damage|p1a: Nightmare|19/100
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|69/100
+|
+|-heal|p1a: Nightmare|75/100|[from] item: Leftovers
+|-damage|p2a: Tapu Koko|9/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Gliscor|Gliscor, F|16/100 tox
+|-damage|p1a: Gliscor|3/100 tox|[from] Stealth Rock
+|move|p2a: Tapu Koko|Thunderbolt|p1a: Gliscor
+|-immune|p1a: Gliscor|[msg]
+|
+|-damage|p2a: Tapu Koko|0 fnt|[from] psn
+|-heal|p1a: Gliscor|16/100 tox|[from] ability: Poison Heal
+|upkeep
+|faint|p2a: Tapu Koko
+
+|
+|switch|p2a: Weavile|Weavile, F|63/100
+|-ability|p2a: Weavile|Pressure
+|turn|21
+
+|
+|move|p2a: Weavile|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Gliscor
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|
+|switch|p1a: Nightmare|Pyukumuku, M|75/100
+|-damage|p1a: Nightmare|63/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p2a: Weavile|Knock Off|p1a: Nightmare
+|-damage|p1a: Nightmare|4/100
+|-enditem|p1a: Nightmare|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|54/100
+|
+|upkeep
+|turn|23
+
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|100/100
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Nightmare|Toxic|p2a: Gyarados
+|-status|p2a: Gyarados|tox
+|
+|-damage|p2a: Gyarados|94/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Nightmare|Block|p2a: Gyarados
+|-activate|p2a: Gyarados|trapped
+|
+|-damage|p2a: Gyarados|82/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|-zpower|p2a: Gyarados
+|move|p2a: Gyarados|Supersonic Skystrike|p1a: Nightmare|[zeffect]
+|-damage|p1a: Nightmare|31/100
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|81/100
+|
+|-damage|p2a: Gyarados|64/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Nightmare|Soak|p2a: Gyarados
+|-start|p2a: Gyarados|typechange|Water
+|
+|-damage|p2a: Gyarados|40/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|move|p2a: Gyarados|Waterfall|p1a: Nightmare
+|-resisted|p1a: Nightmare
+|-damage|p1a: Nightmare|63/100
+|cant|p1a: Nightmare|flinch
+|
+|-damage|p2a: Gyarados|10/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|c|☆pyukumuku iz god|unaware
+
+|
+|move|p2a: Gyarados|Earthquake|p1a: Nightmare
+|-damage|p1a: Nightmare|34/100
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|84/100
+|
+|-damage|p2a: Gyarados|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Gyarados
+
+|c|☆VFernandes02|wow
+
+|
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|30
+
+|
+|move|p2a: Infernape|Close Combat|p1a: Nightmare
+|-damage|p1a: Nightmare|12/100
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|move|p1a: Nightmare|Toxic|p2a: Infernape
+|-status|p2a: Infernape|tox
+|
+|-damage|p2a: Infernape|94/100 tox|[from] psn
+|upkeep
+|turn|31
+
+|
+|switch|p1a: sexy pexy|Toxapex, M|100/100
+|-damage|p1a: sexy pexy|88/100|[from] Stealth Rock
+|move|p2a: Infernape|Close Combat|p1a: sexy pexy
+|-resisted|p1a: sexy pexy
+|-damage|p1a: sexy pexy|62/100
+|-unboost|p2a: Infernape|def|1
+|-unboost|p2a: Infernape|spd|1
+|
+|-damage|p2a: Infernape|82/100 tox|[from] psn
+|upkeep
+|turn|32
+
+|
+|switch|p2a: Alakazam|Alakazam, M|100/100
+|move|p1a: sexy pexy|Scald|p2a: Alakazam
+|-damage|p2a: Alakazam|77/100
+|-status|p2a: Alakazam|brn
+|
+|upkeep
+|turn|33
+
+|
+|switch|p2a: Infernape|Infernape, M|82/100 tox
+|switch|p1a: Thiq|Chansey, F|14/100
+|-damage|p1a: Thiq|1/100|[from] Stealth Rock
+|
+|-damage|p2a: Infernape|76/100 tox|[from] psn
+|upkeep
+|turn|34
+
+|
+|move|p2a: Infernape|U-turn|p1a: Thiq
+|-damage|p1a: Thiq|0 fnt
+|faint|p1a: Thiq
+
+|
+|switch|p2a: Alakazam|Alakazam, M|77/100 brn
+|
+|upkeep
+
+|
+|switch|p1a: birdo|Skarmory, M|100/100
+|-damage|p1a: birdo|88/100|[from] Stealth Rock
+|turn|35
+
+|
+|detailschange|p2a: Alakazam|Alakazam-Mega, M
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|-ability|p2a: Alakazam|Sturdy|[from] ability: Trace|[of] p1a: birdo
+|move|p2a: Alakazam|Hidden Power|p1a: birdo
+|-supereffective|p1a: birdo
+|-damage|p1a: birdo|19/100
+|move|p1a: birdo|Whirlwind|p2a: Alakazam
+|drag|p2a: Excadrill|Excadrill, F|76/100 tox
+|-ability|p2a: Excadrill|Mold Breaker
+|
+|-heal|p1a: birdo|25/100|[from] item: Leftovers
+|-damage|p2a: Excadrill|70/100 tox|[from] psn
+|upkeep
+|turn|36
+
+|
+|switch|p2a: Infernape|Infernape, M|76/100 tox
+|move|p1a: birdo|Roost|p1a: birdo
+|-heal|p1a: birdo|75/100
+|
+|-heal|p1a: birdo|81/100|[from] item: Leftovers
+|-damage|p2a: Infernape|70/100 tox|[from] psn
+|upkeep
+|turn|37
+
+|
+|switch|p1a: sexy pexy|Toxapex, M|95/100
+|-damage|p1a: sexy pexy|83/100|[from] Stealth Rock
+|move|p2a: Infernape|U-turn|p1a: sexy pexy
+|-resisted|p1a: sexy pexy
+|-damage|p1a: sexy pexy|74/100
+
+|
+|switch|p2a: Alakazam|Alakazam-Mega, M|77/100 brn
+|-ability|p2a: Alakazam|Regenerator|[from] ability: Trace|[of] p1a: sexy pexy
+|
+|-damage|p2a: Alakazam|71/100 brn|[from] brn
+|upkeep
+|turn|38
+
+|
+|switch|p1a: birdo|Skarmory, M|81/100
+|-damage|p1a: birdo|69/100|[from] Stealth Rock
+|move|p2a: Alakazam|Psychic|p1a: birdo
+|-resisted|p1a: birdo
+|-damage|p1a: birdo|30/100
+|
+|-heal|p1a: birdo|36/100|[from] item: Leftovers
+|-damage|p2a: Alakazam|65/100 brn|[from] brn
+|upkeep
+|turn|39
+
+|
+|move|p2a: Alakazam|Psychic|p1a: birdo
+|-resisted|p1a: birdo
+|-damage|p1a: birdo|0 fnt
+|faint|p1a: birdo
+|
+|-damage|p2a: Alakazam|59/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Nightmare|Pyukumuku, M|12/100
+|-damage|p1a: Nightmare|0 fnt|[from] Stealth Rock
+|faint|p1a: Nightmare
+
+|
+|switch|p1a: sexy pexy|Toxapex, M|100/100
+|-damage|p1a: sexy pexy|88/100|[from] Stealth Rock
+|turn|40
+
+|
+|move|p2a: Alakazam|Psychic|p1a: sexy pexy
+|-supereffective|p1a: sexy pexy
+|-damage|p1a: sexy pexy|0 fnt
+|faint|p1a: sexy pexy
+|
+|win|VFernandes02

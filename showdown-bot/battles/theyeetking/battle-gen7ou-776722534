@@ -1,0 +1,450 @@
+|init|battle
+|title|The Yeet King vs. GeneralGunderson
+|j|☆The Yeet King
+|j|☆GeneralGunderson
+|player|p1|The Yeet King|156
+|player|p2|GeneralGunderson|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Diancie|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Muk-Alola, F|item
+|poke|p1|Celesteela|item
+|poke|p1|Jolteon, F|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Victreebel, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Flygon, M|item
+|poke|p2|Thundurus-Therian, M|item
+|teampreview
+|c|☆The Yeet King|I had forgotten the name I gave this team
+|
+|start
+|switch|p1a: hard on|Celesteela|100/100
+|switch|p2a: StevenTriesStone|Skarmory, F|100/100
+|turn|1
+|
+|move|p2a: StevenTriesStone|Taunt|p1a: hard on
+|-start|p1a: hard on|move: Taunt
+|cant|p1a: hard on|move: Taunt|Leech Seed
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: bitch cat|Jolteon, F|100/100
+|move|p2a: StevenTriesStone|Stealth Rock|p1a: bitch cat
+|-sidestart|p1: The Yeet King|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|c|☆The Yeet King|dang
+|
+|switch|p2a: Fly-gon-Jin|Flygon, M|100/100
+|move|p1a: bitch cat|Hidden Power|p2a: Fly-gon-Jin
+|-supereffective|p2a: Fly-gon-Jin
+|-enditem|p2a: Fly-gon-Jin|Yache Berry|[eat]
+|-enditem|p2a: Fly-gon-Jin|Yache Berry|[weaken]
+|-damage|p2a: Fly-gon-Jin|35/100
+|-damage|p1a: bitch cat|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+
+|c|☆GeneralGunderson|damn it
+
+|j| Alutard
+
+|c|☆GeneralGunderson|was close predicting that
+
+|
+|move|p1a: bitch cat|Hidden Power|p2a: Fly-gon-Jin
+|-supereffective|p2a: Fly-gon-Jin
+|-damage|p2a: Fly-gon-Jin|0 fnt
+|-damage|p1a: bitch cat|81/100|[from] item: Life Orb
+|faint|p2a: Fly-gon-Jin
+|
+|upkeep
+
+|c|☆The Yeet King|no one gets to predict me twice and live bro
+
+|
+|switch|p2a: The Dark Side|Kyurem-Black|100/100
+|-ability|p2a: The Dark Side|Teravolt
+|turn|5
+
+|
+|switch|p1a: hard on|Celesteela|100/100
+|-damage|p1a: hard on|88/100|[from] Stealth Rock
+|move|p2a: The Dark Side|Earth Power|p1a: hard on
+|-immune|p1a: hard on|[msg]
+|
+|-heal|p1a: hard on|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|-zpower|p2a: The Dark Side
+|move|p2a: The Dark Side|Gigavolt Havoc|p1a: hard on|[zeffect]
+|-supereffective|p1a: hard on
+|-damage|p1a: hard on|20/100
+|move|p1a: hard on|Leech Seed|p2a: The Dark Side
+|-start|p2a: The Dark Side|move: Leech Seed
+|
+|-heal|p1a: hard on|26/100|[from] item: Leftovers
+|-damage|p2a: The Dark Side|88/100|[from] Leech Seed|[of] p1a: hard on
+|-heal|p1a: hard on|39/100|[silent]
+|upkeep
+|turn|7
+
+|c|☆The Yeet King|YUSS
+
+|
+|switch|p2a: Gotta make it quik|Thundurus-Therian, M|100/100
+|move|p1a: hard on|Substitute|p1a: hard on
+|-start|p1a: hard on|Substitute
+|-damage|p1a: hard on|14/100
+|
+|-heal|p1a: hard on|20/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Gotta make it quik|Thunderbolt|p1a: hard on
+|-supereffective|p1a: hard on
+|-end|p1a: hard on|Substitute
+|move|p1a: hard on|Leech Seed|p2a: Gotta make it quik
+|-start|p2a: Gotta make it quik|move: Leech Seed
+|
+|-heal|p1a: hard on|26/100|[from] item: Leftovers
+|-damage|p2a: Gotta make it quik|88/100|[from] Leech Seed|[of] p1a: hard on
+|-heal|p1a: hard on|35/100|[silent]
+|upkeep
+|turn|9
+
+|
+|move|p1a: hard on|Protect|p1a: hard on
+|-singleturn|p1a: hard on|Protect
+|move|p2a: Gotta make it quik|Thunderbolt|p1a: hard on
+|-activate|p1a: hard on|move: Protect
+|
+|-heal|p2a: Gotta make it quik|94/100|[from] item: Leftovers
+|-heal|p1a: hard on|41/100|[from] item: Leftovers
+|-damage|p2a: Gotta make it quik|82/100|[from] Leech Seed|[of] p1a: hard on
+|-heal|p1a: hard on|50/100|[silent]
+|upkeep
+|turn|10
+
+|
+|switch|p1a: bitch cat|Jolteon, F|81/100
+|-damage|p1a: bitch cat|68/100|[from] Stealth Rock
+|move|p2a: Gotta make it quik|Thunderbolt|p1a: bitch cat
+|-heal|p1a: bitch cat|93/100|[from] ability: Volt Absorb|[of] p2a: Gotta make it quik
+|
+|-heal|p2a: Gotta make it quik|88/100|[from] item: Leftovers
+|-damage|p2a: Gotta make it quik|75/100|[from] Leech Seed|[of] p1a: bitch cat
+|-heal|p1a: bitch cat|100/100|[silent]
+|upkeep
+|turn|11
+
+|c|☆The Yeet King|yeah im F.A.S.T.
+
+|c|☆The Yeet King|Furiously
+
+|c|☆The Yeet King|Ahmed
+
+|c|☆The Yeet King|Strategy
+
+|c|☆The Yeet King|Turd
+
+|
+|switch|p2a: My Food (Gyros)|Gyarados, F|100/100
+|-ability|p2a: My Food (Gyros)|Intimidate|boost
+|-unboost|p1a: bitch cat|atk|1
+|move|p1a: bitch cat|Hidden Power|p2a: My Food (Gyros)
+|-damage|p2a: My Food (Gyros)|76/100
+|-damage|p1a: bitch cat|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+
+|
+|detailschange|p2a: My Food (Gyros)|Gyarados-Mega, F
+|-mega|p2a: My Food (Gyros)|Gyarados|Gyaradosite
+|-ability|p2a: My Food (Gyros)|Mold Breaker
+|move|p1a: bitch cat|Volt Switch|p2a: My Food (Gyros)
+|-supereffective|p2a: My Food (Gyros)
+|-damage|p2a: My Food (Gyros)|12/100
+|-damage|p1a: bitch cat|81/100|[from] item: Life Orb
+
+|
+|switch|p1a: triple benis|Hydreigon, M|100/100
+|-damage|p1a: triple benis|88/100|[from] Stealth Rock
+|move|p2a: My Food (Gyros)|Dragon Dance|p2a: My Food (Gyros)
+|-boost|p2a: My Food (Gyros)|atk|1
+|-boost|p2a: My Food (Gyros)|spe|1
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: triple benis|Dark Pulse|p2a: My Food (Gyros)
+|-resisted|p2a: My Food (Gyros)
+|-damage|p2a: My Food (Gyros)|0 fnt
+|faint|p2a: My Food (Gyros)
+|
+|upkeep
+
+|
+|switch|p2a: The Dark Side|Kyurem-Black|88/100
+|-ability|p2a: The Dark Side|Teravolt
+|turn|14
+
+|
+|move|p1a: triple benis|Dark Pulse|p2a: The Dark Side
+|-damage|p2a: The Dark Side|52/100
+|move|p2a: The Dark Side|Ice Beam|p1a: triple benis
+|-supereffective|p1a: triple benis
+|-damage|p1a: triple benis|0 fnt
+|faint|p1a: triple benis
+|
+|upkeep
+
+|
+|switch|p1a: BONELESS|Diancie|100/100
+|-damage|p1a: BONELESS|88/100|[from] Stealth Rock
+|turn|15
+
+|
+|detailschange|p1a: BONELESS|Diancie-Mega
+|-mega|p1a: BONELESS|Diancie|Diancite
+|move|p1a: BONELESS|Diamond Storm|p2a: The Dark Side
+|-supereffective|p2a: The Dark Side
+|-damage|p2a: The Dark Side|0 fnt
+|faint|p2a: The Dark Side
+|
+|upkeep
+
+|
+|switch|p2a: Not a Leecher|Victreebel, M|100/100
+|turn|16
+
+|
+|move|p1a: BONELESS|Protect|p1a: BONELESS
+|-singleturn|p1a: BONELESS|Protect
+|move|p2a: Not a Leecher|Power Whip|p1a: BONELESS
+|-activate|p1a: BONELESS|move: Protect
+|
+|upkeep
+|turn|17
+
+|c|☆The Yeet King|well if youre NOT a leecher then what are you
+
+|c|☆GeneralGunderson|1. Bad
+
+|
+|switch|p1a: Cancerous-T|Landorus-Therian, M|100/100
+|-damage|p1a: Cancerous-T|88/100|[from] Stealth Rock
+|-ability|p1a: Cancerous-T|Intimidate|boost
+|-unboost|p2a: Not a Leecher|atk|1
+|move|p2a: Not a Leecher|Knock Off|p1a: Cancerous-T
+|-damage|p1a: Cancerous-T|78/100
+|
+|upkeep
+|turn|18
+
+|
+|switch|p2a: StevenTriesStone|Skarmory, F|100/100
+|move|p1a: Cancerous-T|Stealth Rock|p2a: StevenTriesStone
+|-sidestart|p2: GeneralGunderson|move: Stealth Rock
+|
+|upkeep
+|turn|19
+
+|c|☆The Yeet King|yeah im also B.A.D.
+
+|c|☆The Yeet King|Basculin
+
+|c|☆GeneralGunderson|2. Hard Misplayer
+
+|c|☆The Yeet King|Air BnB
+
+|c|☆GeneralGunderson|3. Out of Playoffs
+
+|c|☆The Yeet King|Dicking
+
+|c|☆The Yeet King|am I out of playoffs?
+
+|
+|move|p2a: StevenTriesStone|Spikes|p1a: Cancerous-T
+|-sidestart|p1: The Yeet King|Spikes
+|move|p1a: Cancerous-T|U-turn|p2a: StevenTriesStone
+|-resisted|p2a: StevenTriesStone
+|-damage|p2a: StevenTriesStone|95/100
+
+|
+|switch|p1a: bitch cat|Jolteon, F|81/100
+|-damage|p1a: bitch cat|68/100|[from] Spikes
+|-damage|p1a: bitch cat|56/100|[from] Stealth Rock
+|
+|-heal|p2a: StevenTriesStone|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: bitch cat|Thunderbolt|p2a: StevenTriesStone
+|-supereffective|p2a: StevenTriesStone
+|-ability|p2a: StevenTriesStone|Sturdy
+|-damage|p2a: StevenTriesStone|1/100
+|-damage|p1a: bitch cat|46/100|[from] item: Life Orb
+|move|p2a: StevenTriesStone|Taunt|p1a: bitch cat
+|-start|p1a: bitch cat|move: Taunt
+|
+|-heal|p2a: StevenTriesStone|7/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|c| Alutard|Beat meh in ou
+
+|c| Alutard|kek
+
+|c| Alutard|k that was out of the blue
+
+|c|☆The Yeet King|I would but I dont do OU
+
+|
+|move|p1a: bitch cat|Hidden Power|p2a: StevenTriesStone
+|-damage|p2a: StevenTriesStone|0 fnt
+|-damage|p1a: bitch cat|36/100|[from] item: Life Orb
+|faint|p2a: StevenTriesStone
+|
+|upkeep
+
+|c|☆The Yeet King|sorry bromigo
+
+|
+|switch|p2a: Not a Leecher|Victreebel, M|100/100
+|-damage|p2a: Not a Leecher|88/100|[from] Stealth Rock
+|turn|22
+
+|c| Alutard|nah i was joking
+
+|
+|switch|p1a: hard on|Celesteela|50/100
+|-damage|p1a: hard on|38/100|[from] Stealth Rock
+|move|p2a: Not a Leecher|Toxic|p1a: hard on
+|-immune|p1a: hard on|[msg]
+|
+|-heal|p1a: hard on|44/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Not a Leecher|Knock Off|p1a: hard on
+|-damage|p1a: hard on|30/100
+|-enditem|p1a: hard on|Leftovers|[from] move: Knock Off|[of] p2a: Not a Leecher
+|move|p1a: hard on|Leech Seed|p2a: Not a Leecher
+|-immune|p2a: Not a Leecher|[msg]
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Not a Leecher|Power Whip|p1a: hard on|[miss]
+|-miss|p2a: Not a Leecher|p1a: hard on
+|move|p1a: hard on|Heavy Slam|p2a: Not a Leecher
+|-damage|p2a: Not a Leecher|35/100
+|-enditem|p2a: Not a Leecher|Iapapa Berry|[eat]
+|-heal|p2a: Not a Leecher|85/100|[from] item: Iapapa Berry
+|
+|upkeep
+|turn|25
+
+|c|☆The Yeet King|stupid me
+
+|c| Alutard|I know u guys are vgc/1v1 tryhards
+
+|
+|move|p2a: Not a Leecher|Power Whip|p1a: hard on
+|-resisted|p1a: hard on
+|-damage|p1a: hard on|24/100
+|move|p1a: hard on|Heavy Slam|p2a: Not a Leecher
+|-damage|p2a: Not a Leecher|30/100
+|
+|upkeep
+|turn|26
+
+|c|☆The Yeet King|who are you even
+
+|c|☆GeneralGunderson|VGC? Im jsut 1v1 and AG tryhard
+
+|c|☆GeneralGunderson|that is blue
+
+|c|☆GeneralGunderson|or Alu
+
+|
+|move|p2a: Not a Leecher|Synthesis|p2a: Not a Leecher
+|-heal|p2a: Not a Leecher|80/100
+|move|p1a: hard on|Heavy Slam|p2a: Not a Leecher
+|-crit|p2a: Not a Leecher
+|-damage|p2a: Not a Leecher|0 fnt
+|faint|p2a: Not a Leecher
+|-ability|p1a: hard on|Beast Boost|boost
+|-boost|p1a: hard on|def|1
+|
+|upkeep
+
+|c|☆The Yeet King|even your name says youre a fucking tard
+
+|c| Alutard|WEll yeah
+
+|
+|switch|p2a: Gotta make it quik|Thundurus-Therian, M|75/100
+|-damage|p2a: Gotta make it quik|51/100|[from] Stealth Rock
+|turn|27
+
+|c|☆The Yeet King|bro dont play me like that
+
+|
+|switch|p1a: Kum Backwards|Muk-Alola, F|100/100
+|-damage|p1a: Kum Backwards|88/100|[from] Spikes
+|-damage|p1a: Kum Backwards|76/100|[from] Stealth Rock
+|move|p2a: Gotta make it quik|Thunderbolt|p1a: Kum Backwards
+|-damage|p1a: Kum Backwards|55/100
+|
+|-heal|p2a: Gotta make it quik|57/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|c|☆The Yeet King|this is the only reason I wanted to pick this fugly dude
+
+|
+|move|p2a: Gotta make it quik|Nasty Plot|p2a: Gotta make it quik
+|-boost|p2a: Gotta make it quik|spa|2
+|move|p1a: Kum Backwards|Knock Off|p2a: Gotta make it quik
+|-damage|p2a: Gotta make it quik|8/100
+|-enditem|p2a: Gotta make it quik|Leftovers|[from] move: Knock Off|[of] p1a: Kum Backwards
+|
+|upkeep
+|turn|29
+
+|
+|move|p2a: Gotta make it quik|Thunderbolt|p1a: Kum Backwards
+|-damage|p1a: Kum Backwards|14/100
+|move|p1a: Kum Backwards|Knock Off|p2a: Gotta make it quik
+|-damage|p2a: Gotta make it quik|0 fnt
+|faint|p2a: Gotta make it quik
+|
+|win|The Yeet King

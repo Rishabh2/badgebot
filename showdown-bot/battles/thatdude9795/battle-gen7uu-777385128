@@ -1,0 +1,288 @@
+|init|battle
+|title|Alaynah vs. thatdude9795
+|j|☆Alaynah
+|j|☆thatdude9795
+|player|p1|Alaynah|37
+|player|p2|thatdude9795|196
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Diancie|item
+|poke|p1|Mamoswine, F|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Crobat, F|item
+|poke|p1|Volcanion|item
+|poke|p1|Latias, F|item
+|poke|p2|Lycanroc, M|item
+|poke|p2|Crawdaunt, M|item
+|poke|p2|Roserade, F|item
+|poke|p2|Machoke, M|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Gligar, F|item
+|teampreview
+|
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|switch|p2a: Gligar|Gligar, F, shiny|100/100
+|turn|1
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Gligar
+|-supereffective|p2a: Gligar
+|-damage|p2a: Gligar|0 fnt
+|faint|p2a: Gligar
+|
+|upkeep
+
+|
+|switch|p2a: Machoke|Machoke, M|100/100
+|turn|2
+
+|
+|switch|p1a: Crobat|Crobat, F|100/100
+|move|p2a: Machoke|Bulk Up|p2a: Machoke
+|-boost|p2a: Machoke|atk|1
+|-boost|p2a: Machoke|def|1
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Crobat|Toxic|p2a: Machoke
+|-status|p2a: Machoke|tox
+|move|p2a: Machoke|Rock Slide|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|25/100
+|
+|-heal|p1a: Crobat|32/100|[from] item: Black Sludge
+|-damage|p2a: Machoke|94/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Machoke|Rock Slide|p1a: Hippowdon
+|-resisted|p1a: Hippowdon
+|-damage|p1a: Hippowdon|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machoke|88/100 tox|[from] Sandstorm
+|-heal|p1a: Hippowdon|96/100|[from] item: Leftovers
+|-damage|p2a: Machoke|76/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p1a: Hippowdon|Stealth Rock|p2a: Machoke
+|-sidestart|p2: thatdude9795|move: Stealth Rock
+|move|p2a: Machoke|Knock Off|p1a: Hippowdon
+|-damage|p1a: Hippowdon|70/100
+|-enditem|p1a: Hippowdon|Leftovers|[from] move: Knock Off|[of] p2a: Machoke
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Machoke|70/100 tox|[from] Sandstorm
+|-damage|p2a: Machoke|52/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Machoke|Cross Chop|p1a: Hippowdon
+|-damage|p1a: Hippowdon|29/100
+|move|p1a: Hippowdon|Whirlwind|p2a: Machoke
+|drag|p2a: Roserade|Roserade, F, shiny|100/100
+|-damage|p2a: Roserade|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Roserade|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Roserade|Energy Ball|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|76/100|[from] Sandstorm
+|-damage|p2a: Roserade|76/100|[from] Sandstorm
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M, shiny|100/100
+|-damage|p2a: Aerodactyl|76/100|[from] Stealth Rock
+|move|p1a: Latias|Trick|p2a: Aerodactyl
+|-fail|p1a: Latias
+|
+|-weather|none
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Diancie|Diancie|100/100
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, M, shiny
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Dragon Claw|p1a: Diancie
+|-immune|p1a: Diancie|[msg]
+|
+|upkeep
+|turn|10
+
+|
+|detailschange|p1a: Diancie|Diancie-Mega
+|-mega|p1a: Diancie|Diancie|Diancite
+|move|p2a: Aerodactyl|Aqua Tail|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+
+|
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|turn|11
+
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|24/100
+|move|p2a: Aerodactyl|Aqua Tail|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-crit|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, F|76/100
+|turn|12
+
+|
+|move|p1a: Latias|Psyshock|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p2a: Roserade|Roserade, F, shiny|76/100
+|-damage|p2a: Roserade|64/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Latias|Psyshock|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|upkeep
+
+|
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|switch|p1a: Crobat|Crobat, F|32/100
+|move|p2a: Crawdaunt|Dragon Dance|p2a: Crawdaunt
+|-boost|p2a: Crawdaunt|atk|1
+|-boost|p2a: Crawdaunt|spe|1
+|
+|-heal|p1a: Crobat|38/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+
+|
+|move|p1a: Crobat|Brave Bird|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|33/100
+|-damage|p1a: Crobat|25/100|[from] Recoil
+|move|p2a: Crawdaunt|Knock Off|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|-enditem|p1a: Crobat|Black Sludge|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|23/100|[from] item: Life Orb
+|faint|p1a: Crobat
+|
+|upkeep
+
+|
+|switch|p1a: Latias|Latias, F|76/100
+|turn|16
+
+|
+|move|p1a: Latias|Psyshock|p2a: Crawdaunt
+|-immune|p2a: Crawdaunt|[msg]
+|move|p2a: Crawdaunt|Knock Off|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|-enditem|p1a: Latias|Choice Scarf|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|13/100|[from] item: Life Orb
+|faint|p1a: Latias
+|
+|upkeep
+
+|
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|17
+
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Volcanion
+|-damage|p1a: Volcanion|6/100
+|-damage|p2a: Crawdaunt|3/100|[from] item: Life Orb
+|move|p1a: Volcanion|Sludge Wave|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+
+|
+|switch|p2a: Machoke|Machoke, M|52/100 tox
+|-damage|p2a: Machoke|46/100 tox|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|
+|upkeep
+
+|
+|switch|p2a: Lycanroc|Lycanroc, M, shiny|100/100
+|-damage|p2a: Lycanroc|88/100|[from] Stealth Rock
+|turn|19
+
+|
+|move|p2a: Lycanroc|Accelerock|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+
+|
+|switch|p1a: Hippowdon|Hippowdon, M|29/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|20
+
+|
+|move|p2a: Lycanroc|Drill Run|p1a: Hippowdon
+|-damage|p1a: Hippowdon|13/100
+|move|p1a: Hippowdon|Earthquake|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|win|Alaynah

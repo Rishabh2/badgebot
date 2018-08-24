@@ -1,0 +1,34 @@
+|init|battle
+|title|Old_Man_Waffles vs. e23quiel
+|j|☆Old_Man_Waffles
+|j|☆e23quiel
+|player|p1|Old_Man_Waffles|102
+|player|p2|e23quiel|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Mamoswine, M|item
+|poke|p1|Nidoqueen, F|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Camerupt, M|item
+|poke|p1|Krookodile, F|item
+|poke|p1|Hippowdon, F|item
+|poke|p2|Galvantula, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Magnezone|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Raikou|item
+|poke|p2|Golem-Alola, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+
+|-message|e23quiel forfeited.
+
+|
+|win|Old_Man_Waffles

@@ -1,0 +1,688 @@
+|init|battle
+|title|savage14455 vs. Misora31
+|j|☆savage14455
+|j|☆Misora31
+|player|p1|savage14455|101
+|player|p2|Misora31|96
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Darkrai|item
+|poke|p1|Latios, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Aggron, M|item
+|poke|p1|Uxie|item
+|poke|p1|Tapu Koko|item
+|poke|p2|Giratina|item
+|poke|p2|Blissey, F|item
+|poke|p2|Sableye, F|item
+|poke|p2|Gothorita, M|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Ribombee, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|☆Misora31|Heyo
+|c|☆savage14455|heyo
+|c|☆savage14455|so the leads on my team either set rocks or are koko pm
+|c|☆Misora31|Yep
+|c|☆Misora31|I'll lead bulu
+|c|☆Misora31|Wait
+|c|☆Misora31|No
+|c|☆savage14455|since gothitelle destroys aggron
+|c|☆Misora31|Hmm
+|c|☆Misora31|Ok
+|c|☆savage14455|no bulu cause it gives away scarf if he leads koko
+
+|c|☆Misora31|So lead gothitelle
+
+|c|☆savage14455|but no goth
+
+|c|☆savage14455|cause if he leads something else it is a problem
+
+|c|☆Misora31|What do I lead then
+
+|c|☆savage14455|ribombee or blissey
+
+|c|☆Misora31|Ribombee
+
+|c|☆savage14455|ribombee webs might be the way to go over your wierd roost set
+
+|c|☆savage14455|but we will see
+
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|1
+
+|c|☆savage14455|webs gives you band bulu
+
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Tapu Koko|Light Screen|p1a: Tapu Koko
+|-sidestart|p1: savage14455|move: Light Screen
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Tapu Koko|Volt Switch|p2a: Blissey
+|-damage|p2a: Blissey|84/100
+
+|
+|switch|p1a: Aggron|Aggron, M|100/100
+|move|p2a: Blissey|Stealth Rock|p1a: Aggron
+|-sidestart|p1: savage14455|move: Stealth Rock
+|
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Gothorita|Gothorita, M|100/100
+|switch|p1a: Infernape|Infernape, M|100/100
+|-damage|p1a: Infernape|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+
+|c|☆Misora31|Because of course
+
+|c|☆savage14455|Goth is the best way to kill agron so I switched
+
+|c|☆savage14455|Which is fine cause I most likely u turn
+
+|
+|switch|p2a: Giratina|Giratina|100/100
+|-ability|p2a: Giratina|Pressure
+|move|p1a: Infernape|U-turn|p2a: Giratina
+|-resisted|p2a: Giratina
+|-damage|p2a: Giratina|92/100
+
+|
+|switch|p1a: Darkrai|Darkrai|100/100
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Giratina|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Blissey|Blissey, F|91/100
+|move|p1a: Darkrai|Dark Pulse|p2a: Blissey
+|-damage|p2a: Blissey|73/100
+|-damage|p1a: Darkrai|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Blissey|80/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+
+|
+|move|p1a: Darkrai|Hypnosis|p2a: Blissey|[miss]
+|-miss|p1a: Darkrai|p2a: Blissey
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|upkeep
+|turn|7
+
+|c|☆Misora31|Damn it phone
+
+|c|☆savage14455|that is not a bad play
+
+|c|☆savage14455|what would you have done
+
+|c|☆Misora31|Toxic
+
+|c|☆Misora31|Phone
+
+|c|☆savage14455|probably better play but both are not bad
+
+|c|☆Misora31|Brb
+
+|c|☆savage14455|ok
+
+|c|☆Misora31|Back
+
+|
+|switch|p1a: Uxie|Uxie|100/100
+|-damage|p1a: Uxie|88/100|[from] Stealth Rock
+|move|p2a: Blissey|Toxic|p1a: Uxie
+|-status|p1a: Uxie|tox
+|
+|-damage|p1a: Uxie|82/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Uxie|Trick|p2a: Sableye
+|-fail|p1a: Uxie
+|
+|-damage|p1a: Uxie|70/100 tox|[from] psn
+|-sideend|p1: savage14455|move: Light Screen
+|upkeep
+|turn|9
+
+|c|☆savage14455|wp
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-damage|p1a: Tapu Koko|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|detailschange|p2a: Sableye|Sableye-Mega, F
+|-mega|p2a: Sableye|Sableye|Sablenite
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Tapu Koko|Light Screen|p1a: Tapu Koko
+|-sidestart|p1: savage14455|move: Light Screen
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Tapu Koko|Volt Switch|p2a: Sableye
+|-damage|p2a: Sableye|85/100
+
+|
+|switch|p1a: Aggron|Aggron, M|100/100
+|-damage|p1a: Aggron|94/100|[from] Stealth Rock
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|
+|upkeep
+|turn|12
+
+|
+|detailschange|p1a: Aggron|Aggron-Mega, M
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p1a: Aggron|Whirlpool|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|79/100
+|-activate|p2a: Sableye|move: Whirlpool|[of] p1a: Aggron
+|move|p2a: Sableye|Will-O-Wisp|p1a: Aggron|[miss]
+|-miss|p2a: Sableye|p1a: Aggron
+|
+|-damage|p2a: Sableye|67/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|13
+
+|c|☆savage14455|you stayed in
+
+|c|☆Misora31|Sigh
+
+|c|☆savage14455|interesting
+
+|
+|move|p1a: Aggron|Heavy Slam|p2a: Sableye
+|-damage|p2a: Sableye|42/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Aggron
+|-status|p1a: Aggron|brn
+|
+|-damage|p1a: Aggron|88/100 brn|[from] brn
+|-damage|p2a: Sableye|30/100|[from] move: Whirlpool|[partiallytrapped]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|14
+
+|c|☆savage14455|not bad
+
+|c|☆savage14455|it is actually a pretty good play tbh
+
+|
+|move|p1a: Aggron|Heavy Slam|p2a: Sableye
+|-damage|p2a: Sableye|17/100
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|67/100
+|
+|-damage|p1a: Aggron|82/100 brn|[from] brn
+|-damage|p2a: Sableye|54/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|15
+
+|c|☆savage14455|U pm just won
+
+|c|☆savage14455|I can't touch you
+
+|
+|move|p1a: Aggron|Heavy Slam|p2a: Sableye
+|-damage|p2a: Sableye|42/100
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|92/100
+|
+|-damage|p1a: Aggron|76/100 brn|[from] brn
+|-damage|p2a: Sableye|79/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|16
+
+|
+|move|p1a: Aggron|Heavy Slam|p2a: Sableye
+|-damage|p2a: Sableye|67/100
+|move|p2a: Sableye|Calm Mind|p2a: Sableye
+|-boost|p2a: Sableye|spa|1
+|-boost|p2a: Sableye|spd|1
+|
+|-damage|p1a: Aggron|70/100 brn|[from] brn
+|-damage|p2a: Sableye|54/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Uxie|Uxie|70/100 tox
+|-damage|p1a: Uxie|57/100 tox|[from] Stealth Rock
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|
+|-damage|p1a: Uxie|51/100 tox|[from] psn
+|-end|p2a: Sableye|Whirlpool|[partiallytrapped]
+|-sideend|p1: savage14455|move: Light Screen
+|upkeep
+|turn|18
+
+|
+|move|p1a: Uxie|Heal Bell|p1a: Uxie
+|-activate|p1a: Uxie|move: Heal Bell
+|-curestatus|p1a: Uxie|tox|[msg]
+|-curestatus|p1: Aggron|brn|[msg]
+|move|p2a: Sableye|Dark Pulse|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|faint|p1a: Uxie
+|
+|upkeep
+
+|
+|switch|p1a: Infernape|Infernape, M|88/100
+|-damage|p1a: Infernape|76/100|[from] Stealth Rock
+|turn|19
+
+|c|☆savage14455|Band ape
+
+|c|☆savage14455|to help your decision
+
+|
+|move|p1a: Infernape|Flare Blitz|p2a: Sableye
+|-damage|p2a: Sableye|28/100
+|-status|p2a: Sableye|brn
+|-damage|p1a: Infernape|51/100|[from] Recoil
+|move|p2a: Sableye|Dark Pulse|p1a: Infernape
+|-resisted|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-damage|p2a: Sableye|22/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Aggron|Aggron-Mega, M|70/100
+|-damage|p1a: Aggron|64/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p1a: Aggron|Heavy Slam|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|upkeep
+
+|
+|switch|p2a: Giratina|Giratina|98/100
+|-ability|p2a: Giratina|Pressure
+|turn|21
+
+|c|☆savage14455|nooo
+
+|c|☆savage14455|why not gothorita
+
+|
+|move|p1a: Aggron|Toxic|p2a: Giratina
+|-status|p2a: Giratina|tox
+|move|p2a: Giratina|Dragon Tail|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|60/100
+|drag|p1a: Darkrai|Darkrai|78/100
+|-damage|p1a: Darkrai|66/100|[from] Stealth Rock
+|
+|-heal|p2a: Giratina|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Giratina|94/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|c|☆Misora31|I'm sorry
+
+|c|☆savage14455|you h ad free kill
+
+|c|☆Misora31|I'm sorry
+
+|c|☆savage14455|no need to say sorry
+
+|c|☆Misora31|My phone misclicked
+
+|c|☆savage14455|oh that happens
+
+|
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Darkrai|Dark Pulse|p2a: Blissey
+|-damage|p2a: Blissey|82/100
+|-damage|p1a: Darkrai|56/100|[from] item: Life Orb
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|c|☆savage14455|Obvi in battle go goth
+
+|
+|move|p1a: Darkrai|Hypnosis|p2a: Blissey
+|-status|p2a: Blissey|slp
+|cant|p2a: Blissey|slp
+|
+|-heal|p2a: Blissey|94/100 slp|[from] item: Leftovers
+|-damage|p2a: Blissey|82/100 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+|upkeep
+|turn|24
+
+|c|☆Misora31|Sigh
+
+|c|☆Misora31|Because of course
+
+|
+|move|p1a: Darkrai|Focus Blast|p2a: Blissey
+|-supereffective|p2a: Blissey
+|-damage|p2a: Blissey|41/100 slp
+|-damage|p1a: Darkrai|46/100|[from] item: Life Orb
+|cant|p2a: Blissey|slp
+|
+|-heal|p2a: Blissey|47/100 slp|[from] item: Leftovers
+|-damage|p2a: Blissey|35/100 slp|[from] ability: Bad Dreams|[of] p1a: Darkrai
+|upkeep
+|turn|25
+
+|c|☆savage14455|it missed last time
+
+|c|☆Misora31|Lost to a misclick
+
+|
+|move|p1a: Darkrai|Focus Blast|p2a: Blissey|[miss]
+|-miss|p1a: Darkrai|p2a: Blissey
+|-curestatus|p2a: Blissey|slp|[msg]
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|85/100
+|
+|-heal|p2a: Blissey|91/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|c|☆savage14455|you did not lose
+
+|
+|move|p1a: Darkrai|Hypnosis|p2a: Blissey|[miss]
+|-miss|p1a: Darkrai|p2a: Blissey
+|move|p2a: Blissey|Toxic|p1a: Darkrai
+|-status|p1a: Darkrai|tox
+|
+|-heal|p2a: Blissey|97/100|[from] item: Leftovers
+|-damage|p1a: Darkrai|40/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|c|☆savage14455|blissey is a mega threat
+
+|
+|switch|p1a: Latios|Latios, M|100/100
+|-damage|p1a: Latios|88/100|[from] Stealth Rock
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Giratina|tox|[msg]
+|
+|-heal|p2a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|c|☆Misora31|I need seismic toss
+
+|
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Blissey|Toxic|p1a: Latios
+|-status|p1a: Latios|tox
+|
+|-damage|p1a: Latios|82/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|c|☆savage14455|run it then
+
+|c|☆Misora31|Because now this fuckin mon can't do anything
+
+|c|☆Misora31|Sigh
+
+|c|☆Misora31|I hate this team
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|
+|-damage|p1a: Latios|70/100 tox|[from] psn
+|upkeep
+|turn|30
+
+|
+|move|p2a: Tapu Bulu|Megahorn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+
+|
+|switch|p1a: Aggron|Aggron-Mega, M|60/100
+|-damage|p1a: Aggron|54/100|[from] Stealth Rock
+|turn|31
+
+|
+|switch|p2a: Gothorita|Gothorita, M|100/100
+|move|p1a: Aggron|Whirlpool|p2a: Gothorita
+|-crit|p2a: Gothorita
+|-damage|p2a: Gothorita|94/100
+|-activate|p2a: Gothorita|move: Whirlpool|[of] p1a: Aggron
+|
+|-heal|p2a: Gothorita|99/100|[from] Grassy Terrain
+|-heal|p1a: Aggron|60/100|[from] Grassy Terrain
+|-damage|p2a: Gothorita|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|32
+
+|
+|move|p2a: Gothorita|Charm|p1a: Aggron
+|-unboost|p1a: Aggron|atk|2
+|move|p1a: Aggron|Heavy Slam|p2a: Gothorita
+|-damage|p2a: Gothorita|69/100
+|
+|-heal|p2a: Gothorita|75/100|[from] Grassy Terrain
+|-heal|p1a: Aggron|66/100|[from] Grassy Terrain
+|-damage|p2a: Gothorita|63/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|33
+
+|
+|move|p2a: Gothorita|Taunt|p1a: Aggron
+|-start|p1a: Aggron|move: Taunt
+|cant|p1a: Aggron|move: Taunt|Toxic
+|
+|-heal|p2a: Gothorita|69/100|[from] Grassy Terrain
+|-heal|p1a: Aggron|72/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Gothorita|57/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|34
+
+|c|☆savage14455|and now this mon dies
+
+|
+|move|p2a: Gothorita|Charm|p1a: Aggron
+|-unboost|p1a: Aggron|atk|2
+|move|p1a: Aggron|Heavy Slam|p2a: Gothorita
+|-damage|p2a: Gothorita|44/100
+|
+|-damage|p2a: Gothorita|31/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|35
+
+|c|☆savage14455|see what I am saying
+
+|c|☆savage14455|I cannot touch you
+
+|
+|move|p2a: Gothorita|Rest|p2a: Gothorita
+|-status|p2a: Gothorita|slp
+|-heal|p2a: Gothorita|100/100 slp|[silent]
+|-status|p2a: Gothorita|slp|[from] move: Rest
+|move|p1a: Aggron|Heavy Slam|p2a: Gothorita
+|-damage|p2a: Gothorita|87/100 slp
+|
+|-damage|p2a: Gothorita|75/100 slp|[from] move: Whirlpool|[partiallytrapped]
+|-end|p1a: Aggron|move: Taunt
+|upkeep
+|turn|36
+
+|
+|cant|p2a: Gothorita|slp
+|move|p1a: Aggron|Stealth Rock|p2a: Gothorita
+|-sidestart|p2: Misora31|move: Stealth Rock
+|
+|-end|p2a: Gothorita|Whirlpool|[partiallytrapped]
+|upkeep
+|turn|37
+
+|c|☆savage14455|blissey wins now
+
+|c|☆savage14455|keep goth in
+
+|
+|cant|p2a: Gothorita|slp
+|move|p1a: Aggron|Whirlpool|p2a: Gothorita
+|-damage|p2a: Gothorita|71/100 slp
+|-activate|p2a: Gothorita|move: Whirlpool|[of] p1a: Aggron
+|
+|-damage|p2a: Gothorita|58/100 slp|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|38
+
+|c|☆savage14455|and just taunt/charm the wake up
+
+|c|☆savage14455|taunt actually
+
+|c|☆savage14455|cause it prevents toxic
+
+|
+|-curestatus|p2a: Gothorita|slp|[msg]
+|move|p2a: Gothorita|Rest|p2a: Gothorita
+|-status|p2a: Gothorita|slp
+|-heal|p2a: Gothorita|100/100 slp|[silent]
+|-status|p2a: Gothorita|slp|[from] move: Rest
+|move|p1a: Aggron|Heavy Slam|p2a: Gothorita
+|-damage|p2a: Gothorita|88/100 slp
+|
+|-damage|p2a: Gothorita|75/100 slp|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|39
+
+|c|☆savage14455|why
+
+|c|☆Misora31|I can't r
+
+|c|☆savage14455|lower the attack more taunt shortens it
+
+|c|☆Misora31|Redecide on phone
+
+|c|☆savage14455|ok
+
+|
+|cant|p2a: Gothorita|slp
+|move|p1a: Aggron|Heavy Slam|p2a: Gothorita
+|-damage|p2a: Gothorita|63/100 slp
+|
+|-damage|p2a: Gothorita|50/100 slp|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|40
+
+|
+|cant|p2a: Gothorita|slp
+|move|p1a: Aggron|Stealth Rock|p2a: Gothorita
+|-fail|p1a: Aggron
+|
+|-damage|p2a: Gothorita|38/100 slp|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|41
+
+|
+|-curestatus|p2a: Gothorita|slp|[msg]
+|move|p2a: Gothorita|Taunt|p1a: Aggron
+|-start|p1a: Aggron|move: Taunt
+|move|p1a: Aggron|Heavy Slam|p2a: Gothorita
+|-damage|p2a: Gothorita|27/100
+|
+|-end|p2a: Gothorita|Whirlpool|[partiallytrapped]
+|upkeep
+|turn|42
+
+|
+|move|p2a: Gothorita|Rest|p2a: Gothorita
+|-status|p2a: Gothorita|slp
+|-heal|p2a: Gothorita|100/100 slp|[silent]
+|-status|p2a: Gothorita|slp|[from] move: Rest
+|move|p1a: Aggron|Whirlpool|p2a: Gothorita
+|-damage|p2a: Gothorita|96/100 slp
+|-activate|p2a: Gothorita|move: Whirlpool|[of] p1a: Aggron
+|
+|-damage|p2a: Gothorita|84/100 slp|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|43
+
+|c|☆Misora31|Phone
+
+|c|☆savage14455|smart play
+
+|c|☆savage14455|just keep doing that and you win
+
+|c|☆savage14455|taunt on wake up and I run out of pp eventually
+
+|c|☆savage14455|Honestly you won I need to go soon
+
+|c|☆savage14455|but if you just do this until he dies
+
+|c|☆savage14455|It dies and you can bring in blissey who walls the rest of his team
+
+|c|☆savage14455|and physical koko is not a threat cause no dazzle
+
+|c|☆savage14455|special loses to bliss
+
+|c|☆savage14455|I gtg
+
+|c|☆savage14455|ttyl
+
+|-message|savage14455 forfeited.
+
+|
+|win|Misora31

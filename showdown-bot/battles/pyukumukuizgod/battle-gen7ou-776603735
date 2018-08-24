@@ -1,0 +1,91 @@
+|init|battle
+|title|PYUKUMUKU IZ GOD vs. nubob
+|j|☆PYUKUMUKU IZ GOD
+|j|☆nubob
+|player|p1|PYUKUMUKU IZ GOD|265
+|player|p2|nubob|265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pyukumuku, F|item
+|poke|p1|Chansey, F|item
+|poke|p1|Sableye, F|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Clefable, F|item
+|poke|p1|Toxapex, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Pinsir, F|item
+|poke|p2|Darmanitan, M|item
+|poke|p2|Dhelmise|item
+|poke|p2|Excadrill, M|item
+|teampreview
+|
+|start
+|switch|p1a: Reverse|Sableye, F|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|1
+
+|
+|detailschange|p1a: Reverse|Sableye-Mega, F
+|-mega|p1a: Reverse|Sableye|Sablenite
+|move|p2a: Thundurus|Agility|p2a: Thundurus
+|-boost|p2a: Thundurus|spe|2
+|move|p1a: Reverse|Calm Mind|p1a: Reverse
+|-boost|p1a: Reverse|spa|1
+|-boost|p1a: Reverse|spd|1
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Thundurus|Thunderbolt|p1a: Reverse
+|-damage|p1a: Reverse|65/100
+|-damage|p2a: Thundurus|91/100|[from] item: Life Orb
+|move|p1a: Reverse|Calm Mind|p1a: Reverse
+|-boost|p1a: Reverse|spa|1
+|-boost|p1a: Reverse|spd|1
+|
+|upkeep
+|turn|3
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nubob)
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 120 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 105 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 90 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 75 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 60 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 45 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 30 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 20 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 15 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 10 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 5 seconds left.
+
+|-message|PYUKUMUKU IZ GOD lost due to inactivity.
+|
+|win|nubob

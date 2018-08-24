@@ -1,0 +1,634 @@
+|init|battle
+|title|The Yeet King vs. bamobucks
+|j|☆The Yeet King
+|j|☆bamobucks
+|player|p1|The Yeet King|156
+|player|p2|bamobucks|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Infernape, M|item
+|poke|p1|Rotom-Mow|item
+|poke|p1|Scizor, M|item
+|poke|p1|Swampert, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Nihilego|item
+|poke|p2|Scizor, M|item
+|poke|p2|Moltres|item
+|poke|p2|Primarina, F|item
+|poke|p2|Empoleon, F|item
+|poke|p2|Crobat, F|item
+|poke|p2|Hydreigon, M|item
+|teampreview
+|j| the tipsy spinda
+|j| Andre200412
+|c| the tipsy spinda|YEET THE MEAT
+|j|%martha ♫
+|j| MarvelousManiac
+|c|☆bamobucks|lol
+|c| the tipsy spinda|YEET THE MEAT
+|c| the tipsy spinda|YEET THE MEAT
+|c|☆bamobucks|OMG IM BEING GETTING FAMOUS
+|c|☆bamobucks|EEE
+|c|☆The Yeet King|look at this nerd
+|j| I Use Bad Mons ✪
+|
+|start
+|switch|p1a: roids frog|Swampert, M|100/100
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|turn|1
+|c| the tipsy spinda|Bamo you better beat this faglord
+|c| Andre200412|bamo has got this
+|c| the tipsy spinda|BAMO USE FISSURE
+|c|☆The Yeet King|u think im getting beat by some nibba called after that one black president
+|
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|move|p1a: roids frog|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: bamobucks|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: used U-turn|Scizor, M|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: used U-turn
+|-damage|p1a: used U-turn|40/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: used U-turn|Bullet Punch|p2a: Hydreigon
+|-damage|p2a: Hydreigon|45/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: used U-turn
+|-damage|p1a: used U-turn|0 fnt
+|faint|p1a: used U-turn
+|
+|upkeep
+|c|%martha ♫|the tipsy spinda could you chill out
+|c|☆bamobucks|lolno
+|c|☆bamobucks|XD
+
+|c|☆The Yeet King|bro gtfo off my battle
+
+|c|☆The Yeet King|no snitches
+
+|c| Andre200412|ez kill
+
+|c| the tipsy spinda|Im loling
+
+|c| the tipsy spinda|calm down
+
+|
+|switch|p1a: Latiass|Latias, F|100/100
+|turn|4
+
+|c|☆bamobucks|keking*
+
+|c| the tipsy spinda|mememing*
+
+|c|☆bamobucks|I love ur strat
+
+|c|☆bamobucks|its 10/10
+
+|c|☆The Yeet King|yo im bluffing the scarf
+
+|c|☆The Yeet King|trust me
+
+|
+|move|p1a: Latiass|Draco Meteor|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Latiass|spa|2
+|faint|p2a: Hydreigon
+|
+|upkeep
+
+|c|☆bamobucks|your hilarious
+
+|c|☆bamobucks|ohwo
+
+|c|☆The Yeet King|look at this dude
+
+|c|☆bamobucks|a scarf mon
+
+|c|☆bamobucks|IM SHOCKED
+
+|
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|turn|5
+
+|c|☆The Yeet King|u actually fell for it wtf
+
+|
+|switch|p1a: roids frog|Swampert, M|100/100
+|move|p2a: Empoleon|Toxic|p1a: roids frog
+|-status|p1a: roids frog|tox
+|
+|-heal|p2a: Empoleon|100/100|[from] item: Leftovers
+|-damage|p1a: roids frog|94/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|c| Andre200412|bamo thats why alola muk is op
+
+|
+|switch|p2a: Primarina|Primarina, F|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|move|p1a: roids frog|Roar|p2a: Primarina
+|drag|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|
+|-heal|p1a: roids frog|100/100 tox|[from] item: Leftovers
+|-damage|p1a: roids frog|88/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|c| Andre200412|sacrifice a mon and kill latias
+
+|
+|switch|p2a: Primarina|Primarina, F|88/100
+|-damage|p2a: Primarina|76/100|[from] Stealth Rock
+|move|p1a: roids frog|Scald|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|66/100
+|
+|-heal|p1a: roids frog|94/100 tox|[from] item: Leftovers
+|-damage|p1a: roids frog|76/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|j| carlthebison
+
+|
+|switch|p1a: GETOFFMYLAWN|Rotom-Mow|100/100
+|move|p2a: Primarina|Moonblast|p1a: GETOFFMYLAWN
+|-damage|p1a: GETOFFMYLAWN|0 fnt
+|faint|p1a: GETOFFMYLAWN
+|
+|upkeep
+
+|c| Andre200412|bop
+
+|
+|switch|p1a: bitch squid|Nihilego|100/100
+|turn|9
+
+|c|☆bamobucks|EAT THAT
+
+|c|☆The Yeet King|im about to YEET on ya
+
+|c| the tipsy spinda|damn
+
+|c| the tipsy spinda|the bulk
+
+|c| the tipsy spinda|Busta
+
+|c| the tipsy spinda|finna
+
+|c| carlthebison|big PP
+
+|c| the tipsy spinda|nut
+
+|
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|-zpower|p1a: bitch squid
+|move|p1a: bitch squid|Gigavolt Havoc|p2a: Empoleon|[zeffect]
+|-supereffective|p2a: Empoleon
+|-crit|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|-ability|p1a: bitch squid|Beast Boost|boost
+|-boost|p1a: bitch squid|spa|1
+|
+|upkeep
+
+|c|☆bamobucks|what bulk
+
+|c|☆bamobucks|owo
+
+|c| carlthebison|omg
+
+|c|☆The Yeet King|**MEGA YEET**
+
+|
+|switch|p2a: Scizor|Scizor, M|88/100
+|-damage|p2a: Scizor|76/100|[from] Stealth Rock
+|turn|10
+
+|c| the tipsy spinda|DAMN THAT NU
+
+|c| the tipsy spinda|How do u bold text
+
+|
+|switch|p1a: Apeshit|Infernape, M|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Apeshit
+|-resisted|p1a: Apeshit
+|-damage|p1a: Apeshit|65/100
+|-damage|p2a: Scizor|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+
+|c| carlthebison|click flare blitz
+
+|c| the tipsy spinda|click fissure
+
+|c|☆bamobucks|lol
+
+|c|☆The Yeet King|hey obamobucks you gonna u turn?
+
+|c| Andre200412|click splash
+
+|c| MarvelousManiac|do you have any nicks without insults?
+
+|c|☆bamobucks|*secretly pulls out seel*
+
+|c|☆The Yeet King|maybe
+
+|c| carlthebison|click z celebrate
+
+|c| I Use Bad Mons ✪|Apeshit isn't an insult
+
+|c|☆bamobucks|yeet king
+
+|c|☆bamobucks|do a move yet
+
+|c|☆bamobucks|kthx
+
+|
+|switch|p2a: Primarina|Primarina, F|66/100
+|-damage|p2a: Primarina|53/100|[from] Stealth Rock
+|move|p1a: Apeshit|U-turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|33/100
+
+|c| the tipsy spinda|you know what
+
+|c|☆bamobucks|this is like my 6th battle lel
+
+|c| carlthebison|why didnt you u turn?
+
+|c|☆bamobucks|oh ya
+
+|c|☆The Yeet King|cause he feared the blitz
+
+|c|☆bamobucks|*imstupid*
+
+|c| I Use Bad Mons ✪|Or at least go out into Moltres
+
+|c|☆The Yeet King|he a scaredy cat
+
+|j| faded love
+
+|c|☆bamobucks|I want him to make a move
+
+|
+|switch|p1a: bitch squid|Nihilego|100/100
+|
+|upkeep
+|turn|12
+
+|c| carlthebison|big pp
+
+|c| faded love|have I stepped into the most
+
+|c|☆The Yeet King|yo why my peepee hard?
+
+|c| faded love|toxic chat of all time?
+
+|c| Andre200412|"scaredy cat" what are u 5?
+
+|c|☆bamobucks|yes
+
+|c|☆The Yeet King|im inviting you to step out nerd
+
+|c|☆bamobucks|to faded love
+
+|
+|move|p1a: bitch squid|Thunder|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|-ability|p1a: bitch squid|Beast Boost|boost
+|-boost|p1a: bitch squid|spa|1
+|
+|upkeep
+
+|c| carlthebison|pen1s
+
+|c|☆bamobucks|owo
+
+|
+|switch|p2a: Scizor|Scizor, M|66/100
+|-damage|p2a: Scizor|53/100|[from] Stealth Rock
+|turn|13
+
+|c|☆The Yeet King|hey faded love that last message was for you ner
+
+|j| LT51NP lOUthier神
+
+|c|☆The Yeet King|nerd*
+
+|
+|switch|p1a: roids frog|Swampert, M|76/100 tox
+|move|p2a: Scizor|Bullet Punch|p1a: roids frog
+|-resisted|p1a: roids frog
+|-damage|p1a: roids frog|62/100 tox
+|-damage|p2a: Scizor|43/100|[from] item: Life Orb
+|
+|-heal|p1a: roids frog|68/100 tox|[from] item: Leftovers
+|-damage|p1a: roids frog|62/100 tox|[from] psn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Crobat|Crobat, F|100/100
+|-damage|p2a: Crobat|76/100|[from] Stealth Rock
+|move|p1a: roids frog|Scald|p2a: Crobat
+|-damage|p2a: Crobat|43/100
+|
+|-heal|p1a: roids frog|68/100 tox|[from] item: Leftovers
+|-damage|p1a: roids frog|56/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|c| carlthebison|dude he used electrium z are you ecial sped
+
+|
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|93/100
+|move|p1a: roids frog|Scald|p2a: Crobat
+|-damage|p2a: Crobat|64/100
+|
+|-heal|p1a: roids frog|62/100 tox|[from] item: Leftovers
+|-damage|p1a: roids frog|43/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|100/100
+|move|p1a: roids frog|Roar|p2a: Crobat
+|drag|p2a: Scizor|Scizor, M|43/100
+|-damage|p2a: Scizor|31/100|[from] Stealth Rock
+|
+|-heal|p1a: roids frog|50/100 tox|[from] item: Leftovers
+|-damage|p1a: roids frog|25/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|c| Andre200412|ur asking to get burned
+
+|
+|move|p2a: Scizor|Superpower|p1a: roids frog
+|-crit|p1a: roids frog
+|-damage|p1a: roids frog|0 fnt
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|-damage|p2a: Scizor|21/100|[from] item: Life Orb
+|faint|p1a: roids frog
+|
+|upkeep
+
+|c| carlthebison|yeah dont heal stall on scald
+
+|c| Andre200412|uturn smh
+
+|c|☆The Yeet King|look first im gonna beat this ni**BB**as sorry ass
+
+|c|☆bamobucks|I dont have uturn
+
+|c|☆The Yeet King|then im gonna win that room tour
+
+|c|☆bamobucks|Yeet king
+
+|c|☆bamobucks|I'd fight a actually player
+
+|
+|switch|p1a: Apeshit|Infernape, M|65/100
+|turn|18
+
+|c|☆bamobucks|not someone who's played like 5 matcehes
+
+|j|‽q0wiu9o
+
+|
+|switch|p2a: Moltres|Moltres|100/100
+|-damage|p2a: Moltres|51/100|[from] Stealth Rock
+|move|p1a: Apeshit|Flare Blitz|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|13/100
+|-damage|p1a: Apeshit|49/100|[from] Recoil
+|
+|upkeep
+|turn|19
+
+|n|‽q0wiu9o|q0wiu9o
+
+|n|‽MARTHAAAAAAAAAAA|q0wiu9o
+
+|c| Andre200412|roost
+
+|c|☆The Yeet King|hey q0wiu9o whatsup?
+
+|c| Andre200412|ez
+
+|
+|move|p1a: Apeshit|Flare Blitz|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-damage|p1a: Apeshit|44/100|[from] Recoil
+|faint|p2a: Moltres
+|
+|upkeep
+
+|l|‽MARTHAAAAAAAAAAA
+
+|c|☆bamobucks|how are u outspeeding me
+
+|c|☆The Yeet King|if youre ass at the game say nothing q0wiu9o
+
+|c|☆bamobucks|I call hacks
+
+|
+|switch|p2a: Crobat|Crobat, F|100/100
+|-damage|p2a: Crobat|76/100|[from] Stealth Rock
+|turn|20
+
+|
+|switch|p1a: bitch squid|Nihilego|100/100
+|move|p2a: Crobat|Brave Bird|p1a: bitch squid
+|-resisted|p1a: bitch squid
+|-damage|p1a: bitch squid|56/100
+|-damage|p2a: Crobat|59/100|[from] Recoil
+|
+|upkeep
+|turn|21
+
+|c| Andre200412|scarf...
+
+|c|☆The Yeet King|no shit hombre
+
+|l| MarvelousManiac
+
+|c|☆bamobucks|Andre u should fight him next
+
+|c|☆bamobucks|uwu
+
+|c| Andre200412|im down
+
+|c|☆bamobucks|ye ill watch that
+
+|c|☆The Yeet King|not battling any more nerds
+
+|
+|move|p1a: bitch squid|Protect|p1a: bitch squid
+|-singleturn|p1a: bitch squid|Protect
+|move|p2a: Crobat|Brave Bird|p1a: bitch squid
+|-activate|p1a: bitch squid|move: Protect
+|
+|upkeep
+|turn|22
+
+|c|☆bamobucks|im not a ner
+
+|c|☆bamobucks|d
+
+|c|☆bamobucks|im a noob
+
+|
+|switch|p1a: Latiass|Latias, F|100/100
+|move|p2a: Crobat|Brave Bird|p1a: Latiass
+|-damage|p1a: Latiass|24/100
+|-damage|p2a: Crobat|34/100|[from] Recoil
+|
+|upkeep
+|turn|23
+
+|j| ayevon
+
+|j| MarvelousManiac
+
+|c|☆bamobucks|get your facts right
+
+|
+|move|p1a: Latiass|Healing Wish|p1a: Latiass
+|faint|p1a: Latiass
+|move|p2a: Crobat|U-turn|p1: Latiass|[notarget]
+|-notarget
+|
+|upkeep
+
+|c|☆The Yeet King|watch me YEET
+
+|c| Andre200412|the yeet king ur ass
+
+|
+|switch|p1a: Apeshit|Infernape, M|44/100
+|-heal|p1a: Apeshit|100/100|[from] move: Healing Wish
+|turn|24
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Apeshit
+|-supereffective|p1a: Apeshit
+|-crit|p1a: Apeshit
+|-damage|p1a: Apeshit|0 fnt
+|-damage|p2a: Crobat|3/100|[from] Recoil
+|faint|p1a: Apeshit
+|
+|upkeep
+
+|l| faded love
+
+|c| Andre200412|bop
+
+|c|☆The Yeet King|lmao watch that
+
+|
+|switch|p1a: bitch squid|Nihilego|56/100
+|turn|25
+
+|
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|53/100
+|move|p1a: bitch squid|Sludge Wave|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|22/100
+|
+|upkeep
+|turn|26
+
+|c|☆bamobucks|dont mind me
+
+|c|☆The Yeet King|i thought iwas scarf
+
+|
+|move|p2a: Crobat|Roost|p2a: Crobat
+|-heal|p2a: Crobat|73/100
+|move|p1a: bitch squid|Thunder|p2a: Crobat
+|-damage|p2a: Crobat|25/100
+|
+|upkeep
+|turn|27
+
+|c|☆bamobucks|just roosting
+
+|c|☆The Yeet King|wtf
+
+|
+|move|p2a: Crobat|U-turn|p1a: bitch squid
+|-resisted|p1a: bitch squid
+|-damage|p1a: bitch squid|40/100
+
+|j| reioNatro
+
+|
+|switch|p2a: Scizor|Scizor, M|21/100
+|-damage|p2a: Scizor|8/100|[from] Stealth Rock
+|move|p1a: bitch squid|Sludge Wave|p2a: Scizor
+|-immune|p2a: Scizor|[msg]
+|
+|upkeep
+|turn|28
+
+|l| reioNatro
+
+|c| Andre200412|ez
+
+|c| I Use Bad Mons ✪|"I thought I was scarf"
+
+|c| I Use Bad Mons ✪|Big brain on this guy
+
+|c| Andre200412|great excuse
+
+|
+|move|p1a: bitch squid|Protect|p1a: bitch squid
+|-singleturn|p1a: bitch squid|Protect
+|move|p2a: Scizor|Bullet Punch|p1a: bitch squid
+|-activate|p1a: bitch squid|move: Protect
+|
+|upkeep
+|turn|29
+
+|c| Andre200412|pidgey brain
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: bitch squid
+|-supereffective|p1a: bitch squid
+|-damage|p1a: bitch squid|0 fnt
+|-damage|p2a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p1a: bitch squid
+|faint|p2a: Scizor
+|
+|win|bamobucks

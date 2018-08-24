@@ -1,0 +1,233 @@
+|init|battle
+|title|HDZl vs. stowy24
+|j|☆HDZl
+|j|☆stowy24
+|player|p1|HDZl|288
+|player|p2|stowy24|190
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] LC
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Swagger Clause: Swagger is banned
+|clearpoke
+|poke|p1|Mienfoo, L5, M|item
+|poke|p1|Meowth-Alola, L5, F|item
+|poke|p1|Foongus, L5, F|item
+|poke|p1|Gastly, L5, F|item
+|poke|p1|Spritzee, L5, F|item
+|poke|p1|Ponyta, L5, M|item
+|poke|p2|Diglett, L5, M|item
+|poke|p2|Timburr, L5, M|item
+|poke|p2|Pawniard, L5, F|item
+|poke|p2|Omanyte, L5, F|item
+|poke|p2|Foongus, L5, M|item
+|poke|p2|Vullaby, L5, F|item
+|teampreview
+
+|
+|start
+|switch|p1a: Foongus|Foongus, L5, F|100/100
+|switch|p2a: Pawniard|Pawniard, L5, F|100/100
+|turn|1
+
+|
+|move|p2a: Pawniard|Stealth Rock|p1a: Foongus
+|-sidestart|p1: HDZl|move: Stealth Rock
+|move|p1a: Foongus|Spore|p2a: Pawniard
+|-status|p2a: Pawniard|slp
+|
+|upkeep
+|turn|2
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HDZl)
+
+|
+|switch|p2a: Vullaby|Vullaby, L5, F|100/100
+|move|p1a: Foongus|Hidden Power|p2a: Vullaby
+|-damage|p2a: Vullaby|88/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Vullaby|Knock Off|p1a: Foongus
+|-damage|p1a: Foongus|72/100
+|-enditem|p1a: Foongus|Eviolite|[from] move: Knock Off|[of] p2a: Vullaby
+|move|p1a: Foongus|Giga Drain|p2a: Vullaby
+|-resisted|p2a: Vullaby
+|-damage|p2a: Vullaby|76/100
+|-heal|p1a: Foongus|80/100|[from] drain|[of] p2a: Vullaby
+|
+|upkeep
+|turn|4
+
+|inactive|HDZl has 135 seconds left.
+
+|
+|switch|p1a: Spritzee|Spritzee, L5, F|100/100
+|-damage|p1a: Spritzee|89/100|[from] Stealth Rock
+|move|p2a: Vullaby|Brave Bird|p1a: Spritzee
+|-damage|p1a: Spritzee|41/100
+|-damage|p2a: Vullaby|60/100|[from] Recoil
+|-enditem|p1a: Spritzee|Berry Juice
+|-heal|p1a: Spritzee|100/100|[from] item: Berry Juice
+|
+|upkeep
+|turn|5
+
+|inactive|stowy24 has 135 seconds left.
+
+|
+|switch|p2a: Pawniard|Pawniard, L5, F|100/100 slp
+|move|p1a: Spritzee|Moonblast|p2a: Pawniard
+|-damage|p2a: Pawniard|29/100 slp
+|-unboost|p2a: Pawniard|spa|1
+|-ability|p2a: Pawniard|Defiant|boost
+|-boost|p2a: Pawniard|atk|2
+|
+|upkeep
+|turn|6
+
+|
+|cant|p2a: Pawniard|slp
+|move|p1a: Spritzee|Moonblast|p2a: Pawniard
+|-damage|p2a: Pawniard|0 fnt
+|faint|p2a: Pawniard
+|
+|upkeep
+
+|
+|switch|p2a: Diglett|Diglett, L5, M|100/100
+|turn|7
+
+|
+|move|p2a: Diglett|Earthquake|p1a: Spritzee
+|-damage|p1a: Spritzee|45/100
+|move|p1a: Spritzee|Calm Mind|p1a: Spritzee
+|-boost|p1a: Spritzee|spa|1
+|-boost|p1a: Spritzee|spd|1
+|
+|upkeep
+|turn|8
+
+|inactive|HDZl has 135 seconds left.
+
+|
+|move|p2a: Diglett|Earthquake|p1a: Spritzee
+|-damage|p1a: Spritzee|0 fnt
+|faint|p1a: Spritzee
+|
+|upkeep
+
+|
+|switch|p1a: Foongus|Foongus, L5, F|100/100
+|-damage|p1a: Foongus|88/100|[from] Stealth Rock
+|turn|9
+
+|
+|-zpower|p2a: Diglett
+|move|p2a: Diglett|Tectonic Rage|p1a: Foongus|[zeffect]
+|-damage|p1a: Foongus|0 fnt
+|faint|p1a: Foongus
+|
+|upkeep
+
+|inactive|HDZl has 135 seconds left.
+
+|
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|turn|10
+
+|
+|move|p2a: Diglett|Memento|p1a: Mienfoo
+|-unboost|p1a: Mienfoo|atk|2
+|-unboost|p1a: Mienfoo|spa|2
+|faint|p2a: Diglett
+|move|p1a: Mienfoo|High Jump Kick|p2: Diglett|[notarget]
+|-notarget
+|
+|upkeep
+
+|inactive|stowy24 has 135 seconds left.
+
+|inactive|stowy24 has 120 seconds left.
+
+|inactive|stowy24 has 105 seconds left.
+
+|
+|switch|p2a: Omanyte|Omanyte, L5, F|100/100
+|turn|11
+
+|
+|move|p2a: Omanyte|Shell Smash|p2a: Omanyte
+|-unboost|p2a: Omanyte|def|1
+|-unboost|p2a: Omanyte|spd|1
+|-boost|p2a: Omanyte|atk|2
+|-boost|p2a: Omanyte|spa|2
+|-boost|p2a: Omanyte|spe|2
+|move|p1a: Mienfoo|Knock Off|p2a: Omanyte
+|-damage|p2a: Omanyte|75/100
+|-enditem|p2a: Omanyte|Eviolite|[from] move: Knock Off|[of] p1a: Mienfoo
+|
+|upkeep
+|turn|12
+
+|inactive|HDZl has 135 seconds left.
+
+|
+|switch|p1a: Meowth|Meowth-Alola, L5, F|100/100
+|-damage|p1a: Meowth|90/100|[from] Stealth Rock
+|move|p2a: Omanyte|Surf|p1a: Meowth
+|-crit|p1a: Meowth
+|-damage|p1a: Meowth|0 fnt
+|faint|p1a: Meowth
+|
+|upkeep
+
+|
+|switch|p1a: Mienfoo|Mienfoo, L5, M|100/100
+|-damage|p1a: Mienfoo|96/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Mienfoo|Fake Out|p2a: Omanyte
+|-resisted|p2a: Omanyte
+|-damage|p2a: Omanyte|60/100
+|cant|p2a: Omanyte|flinch
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Omanyte|Surf|p1a: Mienfoo
+|-damage|p1a: Mienfoo|0 fnt
+|faint|p1a: Mienfoo
+|
+|upkeep
+
+|
+|switch|p1a: Gastly|Gastly, L5, F|100/100
+|-damage|p1a: Gastly|90/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p2a: Omanyte|Surf|p1a: Gastly
+|-damage|p1a: Gastly|0 fnt
+|faint|p1a: Gastly
+|
+|upkeep
+
+|-message|HDZl forfeited.
+
+|
+|win|stowy24

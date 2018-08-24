@@ -1,0 +1,68 @@
+|init|battle
+|title|ZestOfLife vs. The Yeet King
+|j|☆ZestOfLife
+|j|☆The Yeet King
+|player|p1|ZestOfLife|#wally
+|player|p2|The Yeet King|156
+|teamsize|p1|3
+|teamsize|p2|3
+|gametype|singles
+|gen|7
+|tier|[Gen 7] 1v1
+|rated|Tournament battle
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Moody Clause: Moody is banned
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Swagger Clause: Swagger is banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, M|item
+|poke|p1|Mimikyu, M|item
+|poke|p1|Zygarde|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Jumpluff, F|item
+|poke|p2|Medicham, F|item
+|teampreview|1
+|c|☆The Yeet King|lets go nerd
+|c|☆The Yeet King|how big u calculate a snorlax dick is?
+|j| waateveor
+|j| Attidude
+|
+|start
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|switch|p2a: Roundhouse KO|Medicham, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Roundhouse KO|atk|1
+|turn|1
+
+|
+|detailschange|p2a: Roundhouse KO|Medicham-Mega, F
+|-mega|p2a: Roundhouse KO|Medicham|Medichamite
+|move|p2a: Roundhouse KO|Fake Out|p1a: Gyarados
+|-damage|p1a: Gyarados|79/100
+|cant|p1a: Gyarados|flinch
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Roundhouse KO|Ice Punch|p1a: Gyarados
+|-damage|p1a: Gyarados|41/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|3
+
+|
+|detailschange|p1a: Gyarados|Gyarados-Mega, M
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p1a: Gyarados|Crunch|p2a: Roundhouse KO
+|-damage|p2a: Roundhouse KO|0 fnt
+|faint|p2a: Roundhouse KO
+|
+|win|ZestOfLife

@@ -1,0 +1,215 @@
+|init|battle
+|title|unitex vs. nekomashiro
+|j|☆unitex
+|j|☆nekomashiro
+|player|p1|unitex|170
+|player|p2|nekomashiro|253
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Heracross, M|item
+|poke|p1|Moltres|item
+|poke|p1|Slowbro, M|item
+|poke|p1|Sceptile, F|item
+|poke|p1|Chandelure, F|item
+|poke|p1|Nihilego|item
+|poke|p2|Heracross, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Entei|item
+|poke|p2|Altaria, M|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Nidoking, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by unitex)
+|inactive|unitex has 135 seconds left.
+|inactive|nekomashiro has 135 seconds left.
+|
+|start
+|switch|p1a: Slowbro|Slowbro, M|100/100
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|turn|1
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Slowbro
+|-sidestart|p1: unitex|move: Toxic Spikes
+|move|p1a: Slowbro|Psyshock|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|45/100
+|
+|upkeep
+|turn|2
+|inactive|nekomashiro has 135 seconds left.
+|
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Slowbro|Psyshock|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz|[msg]
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|76/100
+|-enditem|p1a: Slowbro|Leftovers|[from] move: Knock Off|[of] p2a: Mandibuzz
+|move|p1a: Slowbro|Scald|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|81/100
+|-status|p2a: Mandibuzz|brn
+|
+|-heal|p2a: Mandibuzz|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|81/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|nekomashiro has 135 seconds left.
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|68/100
+|move|p1a: Slowbro|Counter|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|65/100 brn
+|
+|-heal|p2a: Mandibuzz|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|65/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|nekomashiro has 135 seconds left.
+|
+|move|p2a: Mandibuzz|Foul Play|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|52/100
+|move|p1a: Slowbro|Psyshock|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz|[msg]
+|
+|-heal|p2a: Mandibuzz|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|65/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p2a: Mandibuzz|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|44/100
+|move|p1a: Slowbro|Slack Off|p1a: Slowbro
+|-heal|p1a: Slowbro|94/100
+|
+|-heal|p2a: Mandibuzz|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|65/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Nihilego|Nihilego|100/100
+|-sideend|p1: unitex|move: Toxic Spikes|[of] p1a: Nihilego
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 brn
+|
+|-damage|p2a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|nekomashiro has 135 seconds left.
+|inactive|unitex has 135 seconds left.
+|inactive|nekomashiro has 120 seconds left.
+|
+|move|p1a: Nihilego|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: nekomashiro|move: Stealth Rock
+|move|p2a: Mandibuzz|Knock Off|p1a: Nihilego
+|-damage|p1a: Nihilego|89/100
+|
+|-heal|p2a: Mandibuzz|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p2a: Nidoking|Nidoking, M|100/100
+|-damage|p2a: Nidoking|95/100|[from] Stealth Rock
+|move|p1a: Nihilego|Thunder|p2a: Nidoking
+|-immune|p2a: Nidoking|[msg]
+|
+|upkeep
+|turn|10
+|j| The Yeet King
+|c| The Yeet King|hey this nekomashiro dude is  a fuckiing nerd
+|inactive|nekomashiro has 135 seconds left.
+|c|☆nekomashiro|thx
+|c|☆nekomashiro|lol
+|c| The Yeet King|yo bro wanna smell my dads taint?
+|
+|move|p1a: Nihilego|Hidden Power|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|39/100
+|move|p2a: Nidoking|Stealth Rock|p1a: Nihilego
+|-sidestart|p1: unitex|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|c|☆unitex|been there, done that
+|c|☆nekomashiro|what?
+|inactive|nekomashiro has 135 seconds left.
+|inactive|nekomashiro has 120 seconds left.
+|
+|switch|p2a: Tentacruel|Tentacruel, F|45/100
+|-damage|p2a: Tentacruel|33/100|[from] Stealth Rock
+|move|p1a: Nihilego|Hidden Power|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|25/100
+|
+|upkeep
+|turn|12
+|inactive|nekomashiro has 135 seconds left.
+|inactive|unitex has 135 seconds left.
+|
+|move|p1a: Nihilego|Thunder|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|-ability|p1a: Nihilego|Beast Boost|boost
+|-boost|p1a: Nihilego|spa|1
+|
+|upkeep
+
+|inactive|nekomashiro has 120 seconds left.
+
+|c| The Yeet King|yoooo nekomashiro is that a yes or  a no?
+
+|inactive|nekomashiro has 105 seconds left.
+
+|l|☆unitex
+
+|inactive|unitex disconnected and has a minute to reconnect!
+
+|player|p1|
+|c|☆nekomashiro|what?
+
+|inactive|nekomashiro has 90 seconds left.
+
+|inactive|nekomashiro has 75 seconds left.
+
+|
+|switch|p2a: Altaria|Altaria, M|100/100
+|-damage|p2a: Altaria|76/100|[from] Stealth Rock
+|turn|13
+
+|inactive|nekomashiro has 75 seconds left.
+
+|c| The Yeet King|are you illiterate?
+
+|c|☆nekomashiro|what did u ask?
+
+|c|☆nekomashiro|ooh no thx
+
+|inactive|unitex has 20 seconds to reconnect!
+
+|inactive|unitex has 15 seconds to reconnect!
+
+|c| The Yeet King|why not brochacho
+
+|inactive|unitex has 10 seconds to reconnect!
+
+|inactive|unitex has 5 seconds to reconnect!
+
+|-message|unitex lost due to inactivity.
+|
+|win|nekomashiro

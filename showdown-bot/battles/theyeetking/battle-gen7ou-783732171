@@ -1,0 +1,144 @@
+|init|battle
+|title|The Yeet King vs. Showdowndude123
+|j|☆The Yeet King
+|j|☆Showdowndude123
+|player|p1|The Yeet King|156
+|player|p2|Showdowndude123|52
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Hawlucha, F|item
+|poke|p1|Zygarde|item
+|poke|p1|Magearna|item
+|poke|p1|Gyarados, M|item
+|poke|p2|Galvantula, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Celesteela|item
+|poke|p2|Mimikyu, M|item
+|poke|p2|Conkeldurr, M|item
+|poke|p2|Sceptile, M|item
+|teampreview
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Showdowndude123)
+
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Galvantula|Galvantula, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Galvantula|atk|1
+|turn|1
+
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Landorus
+|-sidestart|p1: The Yeet King|move: Sticky Web
+|move|p1a: Landorus|Stealth Rock|p2a: Galvantula
+|-sidestart|p2: Showdowndude123|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|inactive|The Yeet King has 135 seconds left.
+
+|
+|move|p2a: Galvantula|Energy Ball|p1a: Landorus
+|-damage|p1a: Landorus|75/100
+|-unboost|p1a: Landorus|spd|1
+|move|p1a: Landorus|Swords Dance|p1a: Landorus
+|-boost|p1a: Landorus|atk|2
+|
+|upkeep
+|turn|3
+
+|
+|move|p2a: Galvantula|Energy Ball|p1a: Landorus
+|-damage|p1a: Landorus|39/100
+|move|p1a: Landorus|Earthquake|p2a: Galvantula
+|-enditem|p2a: Galvantula|Focus Sash
+|-damage|p2a: Galvantula|1/100
+|
+|upkeep
+|turn|4
+
+|inactive|The Yeet King has 135 seconds left.
+
+|inactive|The Yeet King has 120 seconds left.
+
+|
+|move|p2a: Galvantula|Energy Ball|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-activate|p1a: Tapu Koko|move: Sticky Web
+|-unboost|p1a: Tapu Koko|spe|1
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|5
+
+|
+|move|p2a: Galvantula|Bug Buzz|p1a: Tapu Koko
+|-resisted|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|80/100
+|move|p1a: Tapu Koko|Light Screen|p1a: Tapu Koko
+|-sidestart|p1: The Yeet King|move: Light Screen
+|
+|upkeep
+|turn|6
+
+|inactive|The Yeet King has 135 seconds left.
+
+|inactive|Showdowndude123 has 135 seconds left.
+
+|
+|switch|p2a: Celesteela|Celesteela, shiny|100/100
+|-damage|p2a: Celesteela|88/100|[from] Stealth Rock
+|move|p1a: Tapu Koko|Reflect|p1a: Tapu Koko
+|-sidestart|p1: The Yeet King|Reflect
+|
+|-heal|p2a: Celesteela|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|The Yeet King has 135 seconds left.
+
+|inactive|The Yeet King has 120 seconds left.
+
+|inactive|The Yeet King has 105 seconds left.
+
+|inactive|The Yeet King has 90 seconds left.
+
+|inactive|The Yeet King has 75 seconds left.
+
+|inactive|The Yeet King has 60 seconds left.
+
+|inactive|The Yeet King has 45 seconds left.
+
+|inactive|The Yeet King has 30 seconds left.
+
+|inactive|The Yeet King has 20 seconds left.
+
+|inactive|The Yeet King has 15 seconds left.
+
+|inactive|The Yeet King has 10 seconds left.
+
+|inactive|The Yeet King has 5 seconds left.
+
+|-message|The Yeet King lost due to inactivity.
+|
+|win|Showdowndude123

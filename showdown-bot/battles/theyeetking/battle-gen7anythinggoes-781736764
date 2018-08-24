@@ -1,0 +1,912 @@
+|init|battle
+|title|savage14455 vs. The Yeet King
+|j|☆savage14455
+|j|☆The Yeet King
+|player|p1|savage14455|266
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Absol, M|item
+|poke|p1|Blissey, F|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Forretress, M|item
+|poke|p1|Arcanine, F|item
+|poke|p1|Pyukumuku, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Darmanitan, F|item
+|poke|p2|Cobalion|item
+|poke|p2|Mantine, M|item
+|poke|p2|Smeargle, F|item
+|poke|p2|Ditto|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|☆The Yeet King|good luck
+|c|☆savage14455|gl
+|
+|start
+|switch|p1a: Absol|Absol, M|100/100
+|switch|p2a: picasso|Smeargle, F|100/100
+|-ability|p1a: Absol|Pressure
+|turn|1
+
+|c|☆The Yeet King|well played
+
+|c|☆The Yeet King|anti lead
+
+|
+|switch|p2a: Flynium Z|Mantine, M|100/100
+|detailschange|p1a: Absol|Absol-Mega, M
+|-mega|p1a: Absol|Absol|Absolite
+|move|p1a: Absol|Play Rough|p2a: Flynium Z
+|-damage|p2a: Flynium Z|74/100
+|
+|-heal|p2a: Flynium Z|80/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p1a: Absol|Perish Song|p1a: Absol
+|-start|p1a: Absol|perish3|[silent]
+|-start|p2a: Flynium Z|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Flynium Z|Scald|p1a: Absol
+|-damage|p1a: Absol|65/100
+|-status|p1a: Absol|brn
+|
+|-heal|p2a: Flynium Z|86/100|[from] item: Leftovers
+|-damage|p1a: Absol|59/100 brn|[from] brn
+|-start|p1a: Absol|perish3
+|-start|p2a: Flynium Z|perish3
+|upkeep
+|turn|3
+
+|c|☆The Yeet King|nooo
+
+|c|☆The Yeet King|why would u do that
+
+|c|☆The Yeet King|dont stay in for the perish
+
+|c|☆The Yeet King|you risk getting absol burned
+
+|c|☆savage14455|I have a strat
+
+|c|☆savage14455|I don't need absol not burned
+
+|c|☆The Yeet King|shouldve switched over to blissey
+
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|switch|p2a: no u|Ditto|100/100
+|-transform|p2a: no u|p1a: Pyukumuku|[from] ability: Imposter
+|
+|upkeep
+|turn|4
+
+|c|☆savage14455|I mean it sucks but I have clerics
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by savage14455)
+
+|inactive|The Yeet King has 285 seconds left.
+
+|c|☆The Yeet King|bro do you really expect lolz to not switch out
+
+|inactive|The Yeet King has 270 seconds left.
+
+|c|☆savage14455|nope just forces the switch
+
+|inactive|The Yeet King has 255 seconds left.
+
+|c|☆The Yeet King|!dt block
+|raw|<ul class="utilichart"><li class="result"><span class="col movenamecol"><a href="https://pokemonshowdown.com/dex/moves/block">Block</a></span> <span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/Normal.png" alt="Normal" width="32" height="14"><img src="//play.pokemonshowdown.com/sprites/categories/Status.png" alt="Status" width="32" height="14"></span> <span class="col widelabelcol"><em>Accuracy</em><br>—</span> <span class="col pplabelcol"><em>PP</em><br>8</span> <span class="col movedesccol">The target cannot switch out.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Priority:</font> 0&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 3&nbsp;|&ThickSpace;&#10003; Bypasses Protect&nbsp;|&ThickSpace;&#10003; Bounceable&nbsp;|&ThickSpace;<font color="#686868">Z-Effect:</font>  Defense +1&nbsp;|&ThickSpace;<font color="#686868">Target:</font> One Adjacent Pokémon</font>
+
+
+|c|☆savage14455|trust me I stayed in and perished for a reason
+
+|inactive|The Yeet King has 240 seconds left.
+
+|
+|switch|p2a: picasso|Smeargle, F|100/100
+|switch|p1a: Absol|Absol-Mega, M|59/100 brn
+|
+|-damage|p1a: Absol|53/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|inactive|The Yeet King has 240 seconds left.
+
+|c|☆The Yeet King|well played did u predict my switch
+
+|c|☆The Yeet King|?
+
+|inactive|savage14455 has 285 seconds left.
+
+|c|☆savage14455|no need I go absol either way
+
+|c|☆The Yeet King|also turn timer off
+
+|c|☆savage14455|pyuk can't touch mega absol
+
+|
+|switch|p2a: Flynium Z|Mantine, M|86/100
+|move|p1a: Absol|Play Rough|p2a: Flynium Z
+|-damage|p2a: Flynium Z|72/100
+|-unboost|p2a: Flynium Z|atk|1
+|
+|-heal|p2a: Flynium Z|78/100|[from] item: Leftovers
+|-damage|p1a: Absol|47/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|c|☆The Yeet King|he can use toxic on absol tho
+
+|inactive|The Yeet King has 225 seconds left.
+
+|c|☆savage14455|magic bounce
+
+|c|☆The Yeet King|right
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Flynium Z|Air Slash|p1a: Blissey
+|-damage|p1a: Blissey|92/100
+|
+|-heal|p2a: Flynium Z|84/100|[from] item: Leftovers
+|-heal|p1a: Blissey|98/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p2a: baller lion|Cobalion|100/100
+|move|p1a: Blissey|Heal Bell|p1a: Blissey
+|-activate|p1a: Blissey|move: Heal Bell
+|-curestatus|p1: Absol|brn|[msg]
+|
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: baller lion|atk|1
+|move|p2a: baller lion|Substitute|p2a: baller lion
+|-start|p2a: baller lion|Substitute
+|-damage|p2a: baller lion|76/100
+|
+|-heal|p2a: baller lion|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: baller lion|Close Combat|p1a: Arcanine
+|-damage|p1a: Arcanine|63/100
+|-unboost|p2a: baller lion|def|1
+|-unboost|p2a: baller lion|spd|1
+|move|p1a: Arcanine|Flare Blitz|p2a: baller lion
+|-supereffective|p2a: baller lion
+|-end|p2a: baller lion|Substitute
+|-damage|p1a: Arcanine|56/100|[from] Recoil|[of] p2a: baller lion
+|
+|-heal|p2a: baller lion|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|The Yeet King has 240 seconds left.
+
+|inactive|savage14455 has 285 seconds left.
+
+|
+|switch|p2a: Flynium Z|Mantine, M|84/100
+|switch|p1a: Forretress|Forretress, M|100/100
+|
+|-heal|p2a: Flynium Z|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Flynium Z|Scald|p1a: Forretress
+|-damage|p1a: Forretress|67/100
+|move|p1a: Forretress|Volt Switch|p2a: Flynium Z
+|-supereffective|p2a: Flynium Z
+|-damage|p2a: Flynium Z|57/100
+
+|c|☆The Yeet King|volt switch?
+
+|c|☆The Yeet King|right
+
+|c|☆savage14455|momentum
+
+|
+|switch|p1a: Arcanine|Arcanine, F|56/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Flynium Z|atk|1
+|
+|-heal|p2a: Flynium Z|63/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Arcanine|Wild Charge|p2a: Flynium Z
+|-supereffective|p2a: Flynium Z
+|-damage|p2a: Flynium Z|0 fnt
+|-damage|p1a: Arcanine|41/100|[from] Recoil
+|faint|p2a: Flynium Z
+|
+|upkeep
+
+|c|☆The Yeet King|that
+
+|inactive|The Yeet King has 270 seconds left.
+
+|c|☆savage14455|yep
+
+|
+|switch|p2a: busta rhymes|Darmanitan, F|100/100
+|turn|13
+
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|100/100
+|move|p2a: busta rhymes|U-turn|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|75/100
+
+|
+|switch|p2a: baller lion|Cobalion|88/100
+|
+|-heal|p2a: baller lion|94/100|[from] item: Leftovers
+|-heal|p1a: Pyukumuku|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|The Yeet King has 285 seconds left.
+
+|
+|switch|p2a: triple benis|Hydreigon, F|100/100
+|switch|p1a: Arcanine|Arcanine, F|41/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: triple benis|atk|1
+|
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: triple benis|Superpower|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|67/100
+|-unboost|p2a: triple benis|atk|1
+|-unboost|p2a: triple benis|def|1
+|
+|-heal|p1a: Blissey|74/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|c|☆The Yeet King|fuck 33 only
+
+|c|☆savage14455|lol that tickled
+
+|inactive|The Yeet King has 285 seconds left.
+
+|c|☆savage14455|blissey is bulky af
+
+|
+|switch|p2a: baller lion|Cobalion|94/100
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p2a: baller lion|100/100|[from] item: Leftovers
+|-heal|p1a: Blissey|80/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|inactive|The Yeet King has 285 seconds left.
+
+|
+|switch|p1a: Arcanine|Arcanine, F|41/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: baller lion|atk|1
+|move|p2a: baller lion|Close Combat|p1a: Arcanine
+|-damage|p1a: Arcanine|5/100
+|-unboost|p2a: baller lion|def|1
+|-unboost|p2a: baller lion|spd|1
+|
+|-heal|p1a: Arcanine|98/100|[from] move: Wish|[wisher] Blissey
+|upkeep
+|turn|18
+
+|inactive|The Yeet King has 285 seconds left.
+
+|c|☆The Yeet King|fuck
+
+|inactive|savage14455 has 285 seconds left.
+
+|inactive|The Yeet King has 270 seconds left.
+
+|
+|switch|p2a: no u|Ditto|100/100
+|-transform|p2a: no u|p1a: Arcanine|[from] ability: Imposter
+|-ability|p2a: no u|Intimidate|boost
+|-unboost|p1a: Arcanine|atk|1
+|move|p1a: Arcanine|Flare Blitz|p2a: no u
+|-resisted|p2a: no u
+|-damage|p2a: no u|74/100
+|-damage|p1a: Arcanine|92/100|[from] Recoil
+|
+|upkeep
+|turn|19
+
+|inactive|The Yeet King has 270 seconds left.
+
+|inactive|savage14455 has 285 seconds left.
+
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: no u
+|-damage|p2a: no u|48/100
+|move|p2a: no u|Wild Charge|p1a: Arcanine
+|-damage|p1a: Arcanine|59/100
+|-damage|p2a: no u|38/100|[from] Recoil
+|
+|upkeep
+|turn|20
+
+|inactive|The Yeet King has 270 seconds left.
+
+|
+|switch|p2a: triple benis|Hydreigon, F|100/100
+|-zpower|p1a: Arcanine
+|move|p1a: Arcanine|Gigavolt Havoc|p2a: triple benis|[zeffect]
+|-resisted|p2a: triple benis
+|-crit|p2a: triple benis
+|-damage|p2a: triple benis|54/100
+|
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Blissey|Blissey, F|80/100
+|move|p2a: triple benis|Roost|p2a: triple benis
+|-heal|p2a: triple benis|100/100
+|
+|-heal|p1a: Blissey|86/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|c|☆The Yeet King|gotcha
+
+|inactive|The Yeet King has 285 seconds left.
+
+|c|☆savage14455|not really
+
+|c|☆savage14455|hydreigon is not a threat
+
+|
+|switch|p2a: baller lion|Cobalion|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: baller lion
+|-damage|p2a: baller lion|70/100
+|
+|-heal|p2a: baller lion|76/100|[from] item: Leftovers
+|-heal|p1a: Blissey|92/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|switch|p1a: Forretress|Forretress, M|67/100
+|move|p2a: baller lion|Swords Dance|p2a: baller lion
+|-boost|p2a: baller lion|atk|2
+|
+|-heal|p2a: baller lion|82/100|[from] item: Leftovers
+|-heal|p1a: Forretress|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|c|☆The Yeet King|you sure about that
+
+|
+|move|p2a: baller lion|Substitute|p2a: baller lion
+|-start|p2a: baller lion|Substitute
+|-damage|p2a: baller lion|57/100
+|move|p1a: Forretress|Volt Switch|p2a: baller lion
+|-activate|p2a: baller lion|move: Substitute|[damage]
+
+|
+|switch|p1a: Arcanine|Arcanine, F|59/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-immune|p2a: baller lion|[msg]
+|
+|-heal|p2a: baller lion|63/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Arcanine|Extreme Speed|p2a: baller lion
+|-resisted|p2a: baller lion
+|-end|p2a: baller lion|Substitute
+|move|p2a: baller lion|Close Combat|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: baller lion|def|1
+|-unboost|p2a: baller lion|spd|1
+|faint|p1a: Arcanine
+|
+|-heal|p2a: baller lion|70/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Absol|Absol-Mega, M|47/100
+|turn|26
+
+|inactive|savage14455 has 285 seconds left.
+
+|inactive|The Yeet King has 285 seconds left.
+
+|
+|switch|p2a: triple benis|Hydreigon, F|100/100
+|move|p1a: Absol|Me First|p2a: triple benis
+|-fail|p2a: triple benis
+|
+|upkeep
+|turn|27
+
+|c|☆The Yeet King|this team has nearly everything
+
+|c|☆savage14455|wdum
+
+|inactive|The Yeet King has 285 seconds left.
+
+|c|☆The Yeet King|EXCEPT someone faster than absol
+
+|c|☆The Yeet King|which is why im carrying ditto
+
+|c|☆savage14455|lol
+
+|c|☆savage14455|scarfers
+
+|inactive|The Yeet King has 270 seconds left.
+
+|c|☆The Yeet King|bro im not gonna lie im carrying dragonium z
+
+|inactive|The Yeet King has 255 seconds left.
+
+|inactive|The Yeet King has 240 seconds left.
+
+|c|☆The Yeet King|but fightinium z looks better IMO
+
+|c|☆savage14455|I was expecting z cobalion
+
+|
+|switch|p1a: Blissey|Blissey, F|92/100
+|move|p2a: triple benis|Superpower|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|39/100
+|-unboost|p2a: triple benis|atk|1
+|-unboost|p2a: triple benis|def|1
+|
+|-heal|p1a: Blissey|45/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|c|☆The Yeet King|for the sake of
+
+|c|☆The Yeet King|CRIT
+
+|
+|move|p2a: triple benis|Superpower|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|12/100
+|-unboost|p2a: triple benis|atk|1
+|-unboost|p2a: triple benis|def|1
+|move|p1a: Blissey|Wish|p1a: Blissey
+|
+|-heal|p1a: Blissey|18/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|c|☆The Yeet King|please tell me youve got protect
+
+|
+|move|p1a: Blissey|Protect|p1a: Blissey
+|-singleturn|p1a: Blissey|Protect
+|-zpower|p2a: triple benis
+|move|p2a: triple benis|Devastating Drake|p1a: Blissey|[zeffect]
+|-zbroken|p1a: Blissey
+|-damage|p1a: Blissey|8/100
+|
+|-heal|p1a: Blissey|58/100|[from] move: Wish|[wisher] Blissey
+|-heal|p1a: Blissey|64/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|c|☆The Yeet King|FML
+
+|c|☆savage14455|doesn't matter
+
+|
+|switch|p2a: baller lion|Cobalion|70/100
+|move|p1a: Blissey|Seismic Toss|p2a: baller lion
+|-damage|p2a: baller lion|39/100
+|
+|-heal|p2a: baller lion|45/100|[from] item: Leftovers
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|inactive|The Yeet King has 270 seconds left.
+
+|
+|move|p2a: baller lion|Close Combat|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-unboost|p2a: baller lion|def|1
+|-unboost|p2a: baller lion|spd|1
+|faint|p1a: Blissey
+|
+|-heal|p2a: baller lion|51/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Absol|Absol-Mega, M|47/100
+|turn|32
+
+|c|☆The Yeet King|whyd  u sacc blis
+
+|inactive|The Yeet King has 285 seconds left.
+
+|c|☆savage14455|no need for it gives me absol for free
+
+|
+|move|p1a: Absol|Play Rough|p2a: baller lion
+|-damage|p2a: baller lion|10/100
+|-unboost|p2a: baller lion|atk|1
+|move|p2a: baller lion|Iron Head|p1a: Absol
+|-damage|p1a: Absol|4/100
+|
+|-heal|p2a: baller lion|16/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|inactive|The Yeet King has 285 seconds left.
+
+|c|☆The Yeet King|luckyy
+
+|c|☆savage14455|I mis clicked
+
+|c|☆The Yeet King|!dt play rough
+|raw|<ul class="utilichart"><li class="result"><span class="col movenamecol"><a href="https://pokemonshowdown.com/dex/moves/playrough">Play Rough</a></span> <span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/Fairy.png" alt="Fairy" width="32" height="14"><img src="//play.pokemonshowdown.com/sprites/categories/Physical.png" alt="Physical" width="32" height="14"></span> <span class="col labelcol"><em>Power</em><br>90</span> <span class="col widelabelcol"><em>Accuracy</em><br>90%</span> <span class="col pplabelcol"><em>PP</em><br>16</span> <span class="col movedesccol">10% chance to lower the target's Attack by 1.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Priority:</font> 0&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 6&nbsp;|&ThickSpace;&#10003; Secondary effect&nbsp;|&ThickSpace;&#10003; Contact&nbsp;|&ThickSpace;<font color="#686868">Z-Power:</font> 175&nbsp;|&ThickSpace;<font color="#686868">Target:</font> One Adjacent Pokémon</font>
+
+
+|inactive|The Yeet King has 270 seconds left.
+
+|c|☆The Yeet King|10% chance to lower attack holy shit
+
+|
+|move|p1a: Absol|Flamethrower|p2a: baller lion
+|-supereffective|p2a: baller lion
+|-damage|p2a: baller lion|0 fnt
+|faint|p2a: baller lion
+|
+|upkeep
+
+|
+|switch|p2a: no u|Ditto|38/100
+|-transform|p2a: no u|p1a: Absol|[from] ability: Imposter
+|turn|34
+
+|c|☆savage14455|that was my better play
+
+|inactive|savage14455 has 285 seconds left.
+
+|inactive|The Yeet King has 270 seconds left.
+
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: no u|Me First|p1a: Mandibuzz
+|-fail|p1a: Mandibuzz
+|
+|upkeep
+|turn|35
+
+|inactive|The Yeet King has 270 seconds left.
+
+|
+|switch|p2a: triple benis|Hydreigon, F|100/100
+|switch|p1a: Forretress|Forretress, M|73/100
+|
+|-heal|p1a: Forretress|80/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|81/100
+|move|p2a: triple benis|Dark Pulse|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|43/100
+|
+|-heal|p1a: Pyukumuku|49/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|move|p2a: triple benis|Dark Pulse|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|9/100
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|59/100
+|
+|-heal|p1a: Pyukumuku|65/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|inactive|The Yeet King has 285 seconds left.
+
+|
+|move|p2a: triple benis|Dark Pulse|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|24/100
+|cant|p1a: Pyukumuku|flinch
+|
+|-heal|p1a: Pyukumuku|30/100|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|c|☆The Yeet King|bro flinch already
+
+|c|☆The Yeet King|there we go
+
+|
+|switch|p1a: Forretress|Forretress, M|80/100
+|move|p2a: triple benis|Dark Pulse|p1a: Forretress
+|-damage|p1a: Forretress|12/100
+|
+|-heal|p1a: Forretress|18/100|[from] item: Leftovers
+|upkeep
+|turn|40
+
+|c|☆The Yeet King|noo
+
+|c|☆The Yeet King|you shouldve sacced pyuku
+
+|c|☆The Yeet King|he didnt beat anything
+
+|inactive|The Yeet King has 285 seconds left.
+
+|c|☆savage14455|nope I don;t need this
+
+|
+|move|p2a: triple benis|Dark Pulse|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+
+|c|☆savage14455|and yeah he does
+
+|
+|switch|p1a: Absol|Absol-Mega, M|4/100
+|turn|41
+
+|c|☆The Yeet King|i guess we are about to see
+
+|inactive|The Yeet King has 285 seconds left.
+
+|inactive|The Yeet King has 270 seconds left.
+
+|c|☆savage14455|I shouldn't have saced blissey tbh
+
+|c|☆savage14455|you were right this thing is hard to deal with without it
+
+|inactive|The Yeet King has 255 seconds left.
+
+|inactive|The Yeet King has 240 seconds left.
+
+|
+|switch|p2a: picasso|Smeargle, F|100/100
+|move|p1a: Absol|Play Rough|p2a: picasso
+|-damage|p2a: picasso|29/100
+|
+|upkeep
+|turn|42
+
+|inactive|savage14455 has 285 seconds left.
+
+|c|☆The Yeet King|dont kill me brochacho
+
+|
+|move|p1a: Absol|Flamethrower|p2a: picasso
+|-damage|p2a: picasso|0 fnt
+|faint|p2a: picasso
+|
+|upkeep
+
+|c|☆The Yeet King|im just a fellow doggy dog
+
+|
+|switch|p2a: busta rhymes|Darmanitan, F|100/100
+|turn|43
+
+|c|☆savage14455|nah
+
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: busta rhymes|U-turn|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|77/100
+
+|inactive|The Yeet King has 270 seconds left.
+
+|
+|switch|p2a: triple benis|Hydreigon, F|100/100
+|
+|-heal|p1a: Mandibuzz|83/100|[from] item: Leftovers
+|upkeep
+|turn|44
+
+|c|☆The Yeet King|the flinching has begun
+
+|
+|move|p2a: triple benis|Dark Pulse|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|66/100
+|move|p1a: Mandibuzz|Knock Off|p2a: triple benis
+|-resisted|p2a: triple benis
+|-damage|p2a: triple benis|93/100
+|
+|-heal|p1a: Mandibuzz|72/100|[from] item: Leftovers
+|upkeep
+|turn|45
+
+|c|☆The Yeet King|nvm it doesnt hit for shit
+
+|inactive|The Yeet King has 255 seconds left.
+
+|
+|move|p2a: triple benis|Dark Pulse|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|55/100
+|cant|p1a: Mandibuzz|flinch
+|
+|-heal|p1a: Mandibuzz|61/100|[from] item: Leftovers
+|upkeep
+|turn|46
+
+|
+|move|p2a: triple benis|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|-unboost|p2a: triple benis|spa|2
+|faint|p1a: Mandibuzz
+|
+|upkeep
+
+|
+|switch|p1a: Absol|Absol-Mega, M|4/100
+|turn|47
+
+|
+|move|p1a: Absol|Play Rough|p2a: triple benis
+|-supereffective|p2a: triple benis
+|-damage|p2a: triple benis|0 fnt
+|faint|p2a: triple benis
+|
+|upkeep
+
+|
+|switch|p2a: busta rhymes|Darmanitan, F|100/100
+|turn|48
+
+|inactive|The Yeet King has 270 seconds left.
+
+|c|☆The Yeet King|down to this huh
+
+|
+|move|p1a: Absol|Play Rough|p2a: busta rhymes
+|-resisted|p2a: busta rhymes
+|-damage|p2a: busta rhymes|74/100
+|move|p2a: busta rhymes|U-turn|p1a: Absol
+|-supereffective|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+
+|
+|switch|p2a: no u|Ditto|38/100
+|
+|upkeep
+
+|
+|switch|p1a: Pyukumuku|Pyukumuku, M|30/100
+|turn|49
+
+|
+|move|p2a: no u|Transform|p1a: Pyukumuku
+|-transform|p2a: no u|p1a: Pyukumuku
+|-endability|p2a: no u|Imposter|[from] move: Transform
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|80/100
+|
+|-heal|p1a: Pyukumuku|86/100|[from] item: Leftovers
+|upkeep
+|turn|50
+
+|
+|move|p2a: no u|Toxic|p1a: Pyukumuku
+|-status|p1a: Pyukumuku|tox
+|move|p1a: Pyukumuku|Toxic|p2a: no u
+|-status|p2a: no u|tox
+|
+|-heal|p1a: Pyukumuku|93/100 tox|[from] item: Leftovers
+|-damage|p2a: no u|32/100 tox|[from] psn
+|-damage|p1a: Pyukumuku|86/100 tox|[from] psn
+|upkeep
+|turn|51
+
+|c|☆The Yeet King|i win this toxic war now
+
+|
+|move|p2a: no u|Toxic|p1a: Pyukumuku|[miss]
+|-miss|p2a: no u|p1a: Pyukumuku
+|move|p1a: Pyukumuku|Block|p2a: no u
+|-activate|p2a: no u|trapped
+|
+|-heal|p1a: Pyukumuku|93/100 tox|[from] item: Leftovers
+|-damage|p2a: no u|20/100 tox|[from] psn
+|-damage|p1a: Pyukumuku|80/100 tox|[from] psn
+|upkeep
+|turn|52
+
+|
+|move|p2a: no u|Toxic|p1a: Pyukumuku
+|-fail|p1a: Pyukumuku|tox
+|move|p1a: Pyukumuku|Soak|p2a: no u
+|-start|p2a: no u|typechange|Water
+|
+|-heal|p1a: Pyukumuku|86/100 tox|[from] item: Leftovers
+|-damage|p2a: no u|2/100 tox|[from] psn
+|-damage|p1a: Pyukumuku|68/100 tox|[from] psn
+|upkeep
+|turn|53
+
+|c|☆savage14455|why
+
+|c|☆The Yeet King|cause
+
+|
+|move|p2a: no u|Toxic|p1a: Pyukumuku
+|-fail|p1a: Pyukumuku|tox
+|move|p1a: Pyukumuku|Recover|p1a: Pyukumuku
+|-heal|p1a: Pyukumuku|100/100 tox
+|
+|-damage|p2a: no u|0 fnt|[from] psn
+|-damage|p1a: Pyukumuku|76/100 tox|[from] psn
+|upkeep
+|faint|p2a: no u
+
+|
+|switch|p2a: busta rhymes|Darmanitan, F|74/100
+|turn|54
+
+|inactive|The Yeet King has 285 seconds left.
+
+|
+|move|p2a: busta rhymes|Superpower|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|25/100 tox
+|-unboost|p2a: busta rhymes|atk|1
+|-unboost|p2a: busta rhymes|def|1
+|move|p1a: Pyukumuku|Toxic|p2a: busta rhymes
+|-status|p2a: busta rhymes|tox
+|
+|-heal|p1a: Pyukumuku|31/100 tox|[from] item: Leftovers
+|-damage|p2a: busta rhymes|68/100 tox|[from] psn
+|-damage|p1a: Pyukumuku|1/100 tox|[from] psn
+|upkeep
+|turn|55
+
+|c|☆The Yeet King|see
+
+|c|☆savage14455|I misplayed on absolan blissey which cost me the game
+
+|
+|move|p2a: busta rhymes|Superpower|p1a: Pyukumuku
+|-damage|p1a: Pyukumuku|0 fnt
+|-unboost|p2a: busta rhymes|atk|1
+|-unboost|p2a: busta rhymes|def|1
+|faint|p1a: Pyukumuku
+|
+|win|The Yeet King

@@ -1,0 +1,80 @@
+|init|battle
+|title|Thatdude9795 vs. squashthatapple
+|j|☆Thatdude9795
+|j|☆squashthatapple
+|player|p1|Thatdude9795|196
+|player|p2|squashthatapple|142
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-green"><strong>UU is currently suspecting Mega Venusaur! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3639617/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togedemaru, M|item
+|poke|p1|Dunsparce, F|item
+|poke|p1|Torkoal, F|item
+|poke|p1|Drampa, F|item
+|poke|p1|Lycanroc, F|item
+|poke|p1|Crawdaunt, M|item
+|poke|p2|Togekiss, F|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Scizor, M|item
+|poke|p2|Azelf|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Starmie|item
+|teampreview
+|
+|start
+|switch|p1a: Shell|Torkoal, F, shiny|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+|
+|move|p2a: Azelf|Taunt|p1a: Shell
+|-start|p1a: Shell|move: Taunt
+|cant|p1a: Shell|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Shell
+|-sidestart|p1: Thatdude9795|move: Stealth Rock
+|move|p1a: Shell|Heat Wave|p2a: Azelf
+|-damage|p2a: Azelf|51/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Azelf|Knock Off|p1a: Shell
+|-damage|p1a: Shell|78/100
+|-enditem|p1a: Shell|White Herb|[from] move: Knock Off|[of] p2a: Azelf
+|move|p1a: Shell|Heat Wave|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|-end|p1a: Shell|move: Taunt
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|4
+|
+|move|p2a: Hydreigon|Taunt|p1a: Shell
+|-start|p1a: Shell|move: Taunt
+|cant|p1a: Shell|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|5
+|-message|squashthatapple forfeited.
+|
+|win|Thatdude9795
+|l|☆squashthatapple
+|raw|Thatdude9795's rating: 1026 &rarr; <strong>1061</strong><br />(+35 for winning)
+|raw|squashthatapple's rating: 1018 &rarr; <strong>1005</strong><br />(-13 for losing)

@@ -1,0 +1,266 @@
+|init|battle
+|title|stowy24 vs. dutyhj
+|j|☆stowy24
+|j|☆dutyhj
+|player|p1|stowy24|66
+|player|p2|dutyhj|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Thundurus, M|item
+|poke|p1|Ditto|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Altaria, M|item
+|poke|p1|Hoopa-Unbound|item
+|poke|p1|Jirachi|item
+|poke|p2|Volcanion|item
+|poke|p2|Manectric, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Muk-Alola, M|item
+|poke|p2|Azelf|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|c|☆stowy24|hf :D
+|
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Azelf|Azelf|100/100
+|turn|1
+
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: stowy24|move: Stealth Rock
+|move|p1a: Jirachi|Stealth Rock|p2a: Azelf
+|-sidestart|p2: dutyhj|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Azelf|Fire Blast|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|48/100
+|move|p1a: Jirachi|U-turn|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|48/100
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dutyhj)
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+
+|inactive|dutyhj has 135 seconds left.
+
+|
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|-damage|p1a: Thundurus|76/100|[from] Stealth Rock
+|move|p2a: Azelf|Explosion|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p2a: Azelf
+|faint|p1a: Thundurus
+|
+|upkeep
+
+|
+|switch|p2a: Muk|Muk-Alola, M|100/100
+|switch|p1a: Rotom|Rotom-Wash|88/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|-damage|p2a: Muk|88/100|[from] Stealth Rock
+|turn|4
+
+|
+|-zpower|p1a: Rotom
+|move|p1a: Rotom|Hydro Vortex|p2a: Muk|[zeffect]
+|-damage|p2a: Muk|45/100
+|move|p2a: Muk|Poison Jab|p1a: Rotom
+|-damage|p1a: Rotom|33/100
+|-status|p1a: Rotom|psn
+|
+|-damage|p1a: Rotom|20/100 psn|[from] psn
+|upkeep
+|turn|5
+
+|
+|move|p1a: Rotom|Defog|p2a: Muk
+|-unboost|p2a: Muk|evasion|1
+|-sideend|p2: dutyhj|Stealth Rock|[from] move: Defog|[of] p2a: Muk
+|-sideend|p1: stowy24|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|move|p2a: Muk|Poison Jab|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+
+|
+|switch|p1a: Altaria|Altaria, M|100/100
+|turn|6
+
+|
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|move|p2a: Muk|Poison Jab|p1a: Altaria
+|-damage|p1a: Altaria|58/100
+|
+|upkeep
+|turn|7
+
+|
+|detailschange|p1a: Altaria|Altaria-Mega, M
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p1a: Altaria|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|8
+
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|100/100
+|-zpower|p2a: Rotom
+|move|p2a: Rotom|Hydro Vortex|p1a: Altaria|[zeffect]
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|46/100
+|
+|upkeep
+|turn|9
+
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|96/100
+|move|p2a: Rotom|Volt Switch|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|76/100
+
+|
+|switch|p2a: Manectric|Manectric, F|100/100
+|
+|upkeep
+|turn|10
+
+|
+|detailschange|p2a: Manectric|Manectric-Mega, F
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Altaria|atk|1
+|move|p1a: Altaria|Earthquake|p2a: Manectric
+|-supereffective|p2a: Manectric
+|-damage|p2a: Manectric|9/100
+|move|p2a: Manectric|Hidden Power|p1a: Altaria
+|-supereffective|p1a: Altaria
+|-damage|p1a: Altaria|29/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Altaria|Earthquake|p2a: Manectric
+|-supereffective|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|upkeep
+
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|12
+
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|79/100
+|move|p2a: Rotom|Hydro Pump|p1a: Altaria|[miss]
+|-miss|p2a: Rotom|p1a: Altaria
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|move|p2a: Rotom|Hydro Pump|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|49/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|99/100
+|move|p2a: Rotom|Hydro Pump|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|71/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|move|p2a: Rotom|Hydro Pump|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|42/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|92/100
+|move|p2a: Rotom|Hydro Pump|p1a: Altaria|[miss]
+|-miss|p2a: Rotom|p1a: Altaria
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Altaria|Return|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+
+|
+|switch|p2a: Volcanion|Volcanion|100/100
+|turn|18
+
+|
+|move|p1a: Altaria|Earthquake|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|upkeep
+
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|19
+
+|c|☆stowy24|gg
+
+|
+|move|p1a: Altaria|Return|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|stowy24

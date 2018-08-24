@@ -1,0 +1,99 @@
+
+|
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Darmanitan
+|-supereffective|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|-damage|p2a: Crawdaunt|81/100|[from] item: Life Orb
+|faint|p1a: Darmanitan
+|
+|upkeep
+
+|
+|switch|p1a: Primarina|Primarina, F|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|turn|7
+
+|
+|move|p2a: Crawdaunt|Knock Off|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|4/100
+|-enditem|p1a: Primarina|Choice Specs|[from] move: Knock Off|[of] p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|71/100|[from] item: Life Orb
+|move|p1a: Primarina|Moonblast|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+
+|
+|switch|p2a: Lycanroc|Lycanroc, M, shiny|100/100
+|turn|8
+
+|inactive|T4Phage has 135 seconds left.
+
+|
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|move|p1a: Primarina|Scald|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-enditem|p2a: Lycanroc|Focus Sash
+|-damage|p2a: Lycanroc|1/100
+|-status|p2a: Lycanroc|brn
+|
+|-damage|p2a: Lycanroc|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Lycanroc
+
+|
+|switch|p2a: Roserade|Roserade, M, shiny|100/100
+|turn|9
+
+|
+|move|p2a: Roserade|Energy Ball|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+
+|
+|switch|p1a: Metagross|Metagross|100/100
+|-damage|p1a: Metagross|95/100|[from] Stealth Rock
+|turn|10
+
+|c|☆thatdude9795|I was expecting a switch sad day
+
+|
+|move|p2a: Roserade|Energy Ball|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|65/100
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, F, shiny|100/100
+|move|p1a: Metagross|Zen Headbutt|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-damage|p1a: Metagross|55/100|[from] item: Life Orb
+|faint|p2a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p2a: Roserade|Roserade, M, shiny|100/100
+|turn|12
+
+|c|☆T4Phage|sorry for the hax with lycanroc
+
+|
+|move|p1a: Metagross|Zen Headbutt|p2a: Roserade
+|-supereffective|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|-damage|p1a: Metagross|45/100|[from] item: Life Orb
+|faint|p2a: Roserade
+|
+|win|T4Phage

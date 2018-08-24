@@ -1,0 +1,432 @@
+|init|battle
+|title|sabaisabai vs. stowy24
+|j|☆sabaisabai
+|j|☆stowy24
+|player|p1|sabaisabai|170
+|player|p2|stowy24|66
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pachirisu|Pachirisu, L83, M|100/100
+|switch|p2a: Komala|Komala, L83, M|100/100
+|-ability|p2a: Komala|Comatose
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sabaisabai)
+|
+|move|p1a: Pachirisu|Toxic|p2a: Komala
+|-immune|p2a: Komala|[msg]|[from] ability: Comatose
+|move|p2a: Komala|Return|p1a: Pachirisu
+|-damage|p1a: Pachirisu|26/100
+|-damage|p2a: Komala|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|inactive|sabaisabai has 135 seconds left.
+|inactive|stowy24 has 135 seconds left.
+|
+|move|p1a: Pachirisu|U-turn|p2a: Komala
+|-damage|p2a: Komala|77/100
+|
+|switch|p1a: Mimikyu|Mimikyu, L75, M|100/100
+|move|p2a: Komala|U-turn|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L75, M
+|-damage|p2a: Komala|67/100|[from] item: Life Orb
+|inactive|stowy24 has 135 seconds left.
+|
+|switch|p2a: Parasect|Parasect, L83, M|100/100
+|
+|upkeep
+|turn|3
+|inactive|sabaisabai has 135 seconds left.
+
+|inactive|sabaisabai has 120 seconds left.
+
+|
+|switch|p1a: Infernape|Infernape, L77, M|100/100
+|move|p2a: Parasect|Spore|p1a: Infernape
+|-status|p1a: Infernape|slp
+|
+|upkeep
+|turn|4
+
+|inactive|stowy24 has 135 seconds left.
+
+|
+|switch|p2a: Deoxys|Deoxys, L73|100/100
+|-ability|p2a: Deoxys|Pressure
+|cant|p1a: Infernape|slp
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Deoxys|Spikes|p1a: Infernape
+|-sidestart|p1: sabaisabai|Spikes
+|-curestatus|p1a: Infernape|slp|[msg]
+|move|p1a: Infernape|Fire Blast|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-damage|p1a: Infernape|91/100|[from] item: Life Orb
+|faint|p2a: Deoxys
+|
+|upkeep
+
+|inactive|stowy24 has 135 seconds left.
+
+|
+|switch|p2a: Slowbro|Slowbro, L79, F|100/100
+|turn|6
+
+|inactive|sabaisabai has 135 seconds left.
+
+|inactive|sabaisabai has 120 seconds left.
+
+|
+|detailschange|p2a: Slowbro|Slowbro-Mega, L79, F
+|-mega|p2a: Slowbro|Slowbro|Slowbronite
+|move|p1a: Infernape|Grass Knot|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|30/100
+|-damage|p1a: Infernape|81/100|[from] item: Life Orb
+|move|p2a: Slowbro|Scald|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+
+|
+|switch|p1a: Pachirisu|Pachirisu, L83, M|26/100
+|-damage|p1a: Pachirisu|14/100|[from] Spikes
+|turn|7
+
+|
+|switch|p2a: Komala|Komala, L83, M|67/100
+|-ability|p2a: Komala|Comatose
+|move|p1a: Pachirisu|Thunderbolt|p2a: Komala
+|-damage|p2a: Komala|46/100
+|
+|upkeep
+|turn|8
+
+|inactive|sabaisabai has 135 seconds left.
+
+|
+|move|p2a: Komala|Sucker Punch|p1a: Pachirisu
+|-damage|p1a: Pachirisu|0 fnt
+|-damage|p2a: Komala|36/100|[from] item: Life Orb
+|faint|p1a: Pachirisu
+|
+|upkeep
+
+|
+|switch|p1a: Mimikyu|Mimikyu-Busted, L75, M|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Spikes
+|turn|9
+
+|
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Komala|Wood Hammer|p1a: Mimikyu
+|-damage|p1a: Mimikyu|15/100
+|-damage|p2a: Komala|15/100|[from] Recoil
+|-damage|p2a: Komala|5/100|[from] item: Life Orb
+|
+|-heal|p1a: Mimikyu|21/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|inactive|sabaisabai has 135 seconds left.
+
+|inactive|stowy24 has 135 seconds left.
+
+|
+|move|p1a: Mimikyu|Taunt|p2a: Komala
+|-start|p2a: Komala|move: Taunt
+|move|p2a: Komala|Wood Hammer|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|-damage|p2a: Komala|0 fnt|[from] Recoil
+|faint|p1a: Mimikyu
+|faint|p2a: Komala
+|
+|upkeep
+
+|inactive|sabaisabai has 135 seconds left.
+
+|
+|switch|p1a: Kingdra|Kingdra, L80, F|100/100
+|switch|p2a: Parasect|Parasect, L83, M|100/100
+|-damage|p1a: Kingdra|88/100|[from] Spikes
+|turn|11
+
+|
+|move|p1a: Kingdra|Outrage|p2a: Parasect
+|-damage|p2a: Parasect|50/100
+|move|p2a: Parasect|Spore|p1a: Kingdra
+|-status|p1a: Kingdra|slp
+|
+|-heal|p1a: Kingdra|94/100 slp|[from] item: Leftovers
+|-heal|p2a: Parasect|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|cant|p1a: Kingdra|slp
+|move|p2a: Parasect|Leech Seed|p1a: Kingdra
+|-start|p1a: Kingdra|move: Leech Seed
+|
+|-heal|p1a: Kingdra|99/100 slp|[from] item: Leftovers
+|-heal|p2a: Parasect|62/100|[from] item: Leftovers
+|-damage|p1a: Kingdra|88/100 slp|[from] Leech Seed|[of] p2a: Parasect
+|-heal|p2a: Parasect|75/100|[silent]
+|upkeep
+|turn|13
+
+|inactive|sabaisabai has 135 seconds left.
+
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L83, M|100/100
+|-damage|p1a: Hitmonchan|88/100|[from] Spikes
+|move|p2a: Parasect|Leech Life|p1a: Hitmonchan
+|-resisted|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|66/100
+|-heal|p2a: Parasect|86/100|[from] drain|[of] p1a: Hitmonchan
+|
+|-heal|p1a: Hitmonchan|72/100|[from] item: Leftovers
+|-heal|p2a: Parasect|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Slowbro|Slowbro-Mega, L79, F|30/100
+|move|p1a: Hitmonchan|Fire Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|22/100
+|
+|-heal|p1a: Hitmonchan|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|inactive|sabaisabai has 135 seconds left.
+
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|10/100
+|-heal|p1a: Hitmonchan|86/100|[from] drain|[of] p2a: Slowbro
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|60/100
+|
+|-heal|p1a: Hitmonchan|92/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Hitmonchan|Rapid Spin|p2a: Slowbro
+|-damage|p2a: Slowbro|57/100
+|-sideend|p1: sabaisabai|Spikes|[from] move: Rapid Spin|[of] p1a: Hitmonchan
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100
+|
+|-heal|p1a: Hitmonchan|98/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Kingdra|Kingdra, L80, F|88/100 slp
+|move|p2a: Slowbro|Psyshock|p1a: Kingdra
+|-damage|p1a: Kingdra|50/100 slp
+|
+|-heal|p1a: Kingdra|56/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p2a: Parasect|Parasect, L83, M|92/100
+|cant|p1a: Kingdra|slp
+|
+|-heal|p1a: Kingdra|62/100 slp|[from] item: Leftovers
+|-heal|p2a: Parasect|98/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|cant|p1a: Kingdra|slp
+|move|p2a: Parasect|Spore|p1a: Kingdra
+|-fail|p1a: Kingdra|slp
+|
+|-heal|p1a: Kingdra|68/100 slp|[from] item: Leftovers
+|-heal|p2a: Parasect|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|-curestatus|p1a: Kingdra|slp|[msg]
+|move|p1a: Kingdra|Substitute|p1a: Kingdra
+|-start|p1a: Kingdra|Substitute
+|-damage|p1a: Kingdra|44/100
+|move|p2a: Parasect|Leech Seed|p1a: Kingdra|[miss]
+|-miss|p2a: Parasect|p1a: Kingdra
+|
+|-heal|p1a: Kingdra|50/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Kingdra|Iron Head|p2a: Parasect
+|-damage|p2a: Parasect|77/100
+|move|p2a: Parasect|Leech Life|p1a: Kingdra
+|-end|p1a: Kingdra|Substitute
+|-heal|p2a: Parasect|90/100|[from] drain|[of] p1a: Kingdra
+|
+|-heal|p1a: Kingdra|55/100|[from] item: Leftovers
+|-heal|p2a: Parasect|96/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Kingdra|Substitute|p1a: Kingdra
+|-start|p1a: Kingdra|Substitute
+|-damage|p1a: Kingdra|31/100
+|move|p2a: Parasect|Leech Life|p1a: Kingdra
+|-end|p1a: Kingdra|Substitute
+|-heal|p2a: Parasect|100/100|[from] drain|[of] p1a: Kingdra
+|
+|-heal|p1a: Kingdra|37/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p1a: Kingdra|Outrage|p2a: Parasect
+|-damage|p2a: Parasect|49/100
+|move|p2a: Parasect|Leech Life|p1a: Kingdra
+|-damage|p1a: Kingdra|3/100
+|-heal|p2a: Parasect|67/100|[from] drain|[of] p1a: Kingdra
+|
+|-heal|p1a: Kingdra|9/100|[from] item: Leftovers
+|-heal|p2a: Parasect|73/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p1a: Kingdra|Outrage|p2a: Parasect|[from]lockedmove
+|-damage|p2a: Parasect|17/100
+|move|p2a: Parasect|Leech Life|p1a: Kingdra
+|-crit|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|-heal|p2a: Parasect|22/100|[from] drain|[of] p1a: Kingdra
+|faint|p1a: Kingdra
+|
+|-heal|p2a: Parasect|28/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L83, M|98/100
+|turn|25
+
+|
+|move|p1a: Hitmonchan|Fire Punch|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|-heal|p1a: Hitmonchan|100/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gastrodon|Gastrodon, L75, M|100/100
+|turn|26
+
+|
+|move|p1a: Hitmonchan|Bulk Up|p1a: Hitmonchan
+|-boost|p1a: Hitmonchan|atk|1
+|-boost|p1a: Hitmonchan|def|1
+|move|p2a: Gastrodon|Toxic|p1a: Hitmonchan
+|-status|p1a: Hitmonchan|tox
+|
+|-damage|p1a: Hitmonchan|95/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p1a: Hitmonchan|Drain Punch|p2a: Gastrodon
+|-damage|p2a: Gastrodon|33/100
+|-heal|p1a: Hitmonchan|100/100 tox|[from] drain|[of] p2a: Gastrodon
+|move|p2a: Gastrodon|Scald|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|66/100 tox
+|-damage|p2a: Gastrodon|23/100|[from] item: Life Orb
+|
+|-heal|p1a: Hitmonchan|72/100 tox|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|60/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|
+|switch|p2a: Slowbro|Slowbro-Mega, L79, F|100/100
+|move|p1a: Hitmonchan|Drain Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|84/100
+|-heal|p1a: Hitmonchan|71/100 tox|[from] drain|[of] p2a: Slowbro
+|
+|-heal|p1a: Hitmonchan|77/100 tox|[from] item: Leftovers
+|-damage|p1a: Hitmonchan|59/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|
+|switch|p1a: Escavalier|Escavalier, L79, M|100/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100/100
+|
+|upkeep
+|turn|30
+
+|
+|switch|p2a: Gastrodon|Gastrodon, L75, M|23/100
+|move|p1a: Escavalier|Megahorn|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-damage|p1a: Escavalier|90/100|[from] item: Life Orb
+|faint|p2a: Gastrodon
+|
+|upkeep
+
+|
+|switch|p2a: Machamp|Machamp, L79, F|100/100
+|turn|31
+
+|
+|switch|p1a: Hitmonchan|Hitmonchan, L83, M|59/100 tox
+|move|p2a: Machamp|Dynamic Punch|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|upkeep
+
+|
+|switch|p1a: Escavalier|Escavalier, L79, M|90/100
+|turn|32
+
+|
+|move|p2a: Machamp|Dynamic Punch|p1a: Escavalier
+|-damage|p1a: Escavalier|43/100
+|-start|p1a: Escavalier|confusion
+|-activate|p1a: Escavalier|confusion
+|-damage|p1a: Escavalier|25/100|[from] confusion
+|
+|upkeep
+|turn|33
+
+|c|☆stowy24|gg
+
+|-message|sabaisabai forfeited.
+
+|
+|win|stowy24

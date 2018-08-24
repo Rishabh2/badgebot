@@ -1,0 +1,752 @@
+|init|battle
+|title|Roguaran vs. stowy24
+|j|☆Roguaran
+|j|☆stowy24
+|player|p1|Roguaran|127
+|player|p2|stowy24|190
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Venomoth, F|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Piloswine, M|item
+|poke|p1|Manaphy|item
+|poke|p1|Genesect-*|item
+|poke|p2|Landorus, M|item
+|poke|p2|Raikou|item
+|poke|p2|Jirachi|item
+|poke|p2|Smeargle, F|item
+|poke|p2|Beedrill, M|item
+|poke|p2|Suicune|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|☆stowy24|VENOMOTH :heart_eyes:
+
+|c|☆Roguaran|You won't be making heart eyes when this thing 6-0s you :o
+
+|c|☆stowy24|uh do you wanna post a link
+
+|c|☆stowy24|damn straight I wont lol
+
+|j| Memer Hazy
+
+|c|☆stowy24|I just wanna let you know I was THIS close to bringing beautifly over beedrill
+
+|j| dancin_darunia
+
+|c|☆Roguaran|You should have
+
+|c|☆Roguaran|We could have had a bug competition
+
+|c|☆stowy24|confirmed I'm drafting mono bug next season
+
+|c|☆stowy24|too much heat
+
+|
+|start
+|switch|p1a: Mothra|Venomoth, F|100/100
+|switch|p2a: hi|Smeargle, F|100/100
+|turn|1
+
+|c|☆Roguaran|Guaranteed championship
+
+|c| dancin_darunia|You could draft mono of a good type
+
+|
+|move|p1a: Mothra|Sleep Powder|p2a: hi|[miss]
+|-miss|p1a: Mothra|p2a: hi
+|move|p2a: hi|Searing Shot|p1a: Mothra
+|-supereffective|p1a: Mothra
+|-damage|p1a: Mothra|62/100
+|
+|upkeep
+|turn|2
+
+|c|☆Roguaran|Fuu
+
+|c|☆stowy24|oof
+
+|c| Memer Hazy|rip
+
+|j| Doctor_DraX
+
+|c|☆stowy24|wow
+
+|c|☆Roguaran|Round 2
+
+|
+|move|p1a: Mothra|Sleep Powder|p2a: hi|[miss]
+|-miss|p1a: Mothra|p2a: hi
+|move|p2a: hi|Sticky Web|p1a: Mothra
+|-sidestart|p1: Roguaran|move: Sticky Web
+|
+|upkeep
+|turn|3
+
+|c|☆stowy24|this isn't fair
+
+|c| dancin_darunia|Don't complain
+
+|c|☆stowy24|I will
+
+|c|☆Roguaran|I'm not worried
+
+|c|☆stowy24|oh
+
+|
+|move|p1a: Mothra|Sleep Powder|p2a: hi
+|-status|p2a: hi|slp
+|cant|p2a: hi|slp
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: hi|Landorus, M|100/100
+|move|p1a: Mothra|Quiver Dance|p1a: Mothra
+|-boost|p1a: Mothra|spa|1
+|-boost|p1a: Mothra|spd|1
+|-boost|p1a: Mothra|spe|1
+|
+|upkeep
+|turn|5
+
+|c|☆stowy24|this thing aboutta have hp ice huh
+
+|
+|-zpower|p1a: Mothra
+|move|p1a: Mothra|Savage Spin-Out|p2a: hi|[zeffect]
+|-resisted|p2a: hi
+|-damage|p2a: hi|0 fnt
+|faint|p2a: hi
+|
+|upkeep
+
+|c|☆Roguaran|Bye felicia
+
+|c| dancin_darunia|Nani tf
+
+|c| Memer Hazy|tinted lens
+
+|c|☆Roguaran|Tinted lens is a hell of a drug
+
+|c|☆stowy24|wtf kinda venemoth is this
+
+|c|☆Roguaran|This is Mothra
+
+|c|☆stowy24|I'm legit about to get 6-0'd be this thing
+
+|c|☆Roguaran|Destroyer of cities
+
+|
+|switch|p2a: hi|Jirachi|100/100
+|turn|6
+
+|c|☆stowy24|switch into genesect if you are a man
+
+|c|☆stowy24|if you've got balls of steel
+
+|
+|move|p2a: hi|Fire Punch|p1a: Mothra
+|-supereffective|p1a: Mothra
+|-damage|p1a: Mothra|0 fnt
+|faint|p1a: Mothra
+|
+|upkeep
+
+|c| dancin_darunia|Tinted Lens makes resisted hits neutral, right?
+
+|c|☆Roguaran|Nah Venomoth did its job
+
+|c|☆Roguaran|Yeah
+
+|c|☆stowy24|tbf Lando deserves to die
+
+|c|☆stowy24|trash mon
+
+|
+|switch|p1a: Enola Gay|Skarmory, M|100/100
+|turn|7
+
+|c|☆stowy24|I brought it as a sack mon
+
+|
+|switch|p2a: hi|Smeargle, F|100/100 slp
+|move|p1a: Enola Gay|Defog|p2a: hi
+|-unboost|p2a: hi|evasion|1
+|-sideend|p1: Roguaran|Sticky Web|[from] move: Defog|[of] p1a: Enola Gay
+|
+|upkeep
+|turn|8
+
+|c| dancin_darunia|emvee
+
+|
+|switch|p1a: Deltron|Genesect|100/100
+|-ability|p1a: Deltron|Download|boost
+|-boost|p1a: Deltron|atk|1
+|-curestatus|p2a: hi|slp|[msg]
+|move|p2a: hi|Searing Shot|p1a: Deltron
+|-supereffective|p1a: Deltron
+|-damage|p1a: Deltron|28/100
+|
+|upkeep
+|turn|9
+
+|c| Memer Hazy|big think out here
+
+|c|☆Roguaran|oof
+
+|c|☆stowy24|SMEARGLE BABY
+
+|
+|move|p1a: Deltron|U-turn|p2a: hi
+|-enditem|p2a: hi|Focus Sash
+|-damage|p2a: hi|1/100
+
+|
+|switch|p1a: The Dude|Manaphy|100/100
+|move|p2a: hi|Searing Shot|p1a: The Dude
+|-resisted|p1a: The Dude
+|-damage|p1a: The Dude|94/100
+|-status|p1a: The Dude|brn
+|
+|-damage|p1a: The Dude|88/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|c|☆stowy24|I do not have bolt strike
+
+|
+|move|p1a: The Dude|Surf|p2a: hi
+|-damage|p2a: hi|0 fnt
+|faint|p2a: hi
+|
+|-damage|p1a: The Dude|82/100 brn|[from] brn
+|upkeep
+
+|c|☆stowy24|stay in
+
+|c|☆stowy24|oh
+
+|c|☆stowy24|;-;
+
+|
+|switch|p2a: hi|Raikou, shiny|100/100
+|-ability|p2a: hi|Pressure
+|turn|11
+
+|c|☆Roguaran|I was calcing some other stuff
+
+|
+|switch|p1a: Pile-O-Fine|Piloswine, M|100/100
+|move|p2a: hi|Calm Mind|p2a: hi
+|-boost|p2a: hi|spa|1
+|-boost|p2a: hi|spd|1
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: hi|Suicune|100/100
+|-ability|p2a: hi|Pressure
+|move|p1a: Pile-O-Fine|Earthquake|p2a: hi
+|-damage|p2a: hi|62/100
+|
+|-heal|p2a: hi|68/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Enola Gay|Skarmory, M|100/100
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|75/100
+|
+|-heal|p2a: hi|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|c|☆stowy24|piloswine makes me wanna cri
+
+|
+|move|p1a: Enola Gay|Taunt|p2a: hi
+|-start|p2a: hi|move: Taunt
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|47/100
+|
+|-heal|p2a: hi|80/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Enola Gay|Roost|p1a: Enola Gay
+|-heal|p1a: Enola Gay|97/100
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|71/100
+|
+|-heal|p2a: hi|86/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|l| Memer Hazy
+
+|
+|switch|p2a: hi|Raikou, shiny|100/100
+|-ability|p2a: hi|Pressure
+|move|p1a: Enola Gay|Defog|p2a: hi
+|-unboost|p2a: hi|evasion|1
+|
+|upkeep
+|turn|17
+
+|
+|switch|p1a: Pile-O-Fine|Piloswine, M|100/100
+|move|p2a: hi|Thunderbolt|p1a: Pile-O-Fine
+|-immune|p1a: Pile-O-Fine|[msg]
+|
+|upkeep
+|turn|18
+
+|j| Memer Hazy
+
+|
+|switch|p2a: hi|Suicune|86/100
+|-ability|p2a: hi|Pressure
+|move|p1a: Pile-O-Fine|Earthquake|p2a: hi
+|-damage|p2a: hi|50/100
+|
+|-heal|p2a: hi|56/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Enola Gay|Skarmory, M|71/100
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|43/100
+|
+|-heal|p2a: hi|62/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Enola Gay|Roost|p1a: Enola Gay
+|-heal|p1a: Enola Gay|94/100
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|68/100
+|-status|p1a: Enola Gay|brn
+|
+|-heal|p2a: hi|68/100|[from] item: Leftovers
+|-damage|p1a: Enola Gay|62/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Enola Gay|Roost|p1a: Enola Gay
+|-heal|p1a: Enola Gay|100/100 brn
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|73/100 brn
+|
+|-heal|p2a: hi|75/100|[from] item: Leftovers
+|-damage|p1a: Enola Gay|67/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Enola Gay|Brave Bird|p2a: hi
+|-damage|p2a: hi|63/100
+|-damage|p1a: Enola Gay|63/100 brn|[from] Recoil
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|36/100 brn
+|
+|-heal|p2a: hi|69/100|[from] item: Leftovers
+|-damage|p1a: Enola Gay|30/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|
+|move|p1a: Enola Gay|Roost|p1a: Enola Gay
+|-heal|p1a: Enola Gay|80/100 brn
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|51/100 brn
+|
+|-heal|p2a: hi|75/100|[from] item: Leftovers
+|-damage|p1a: Enola Gay|45/100 brn|[from] brn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Enola Gay|Roost|p1a: Enola Gay
+|-heal|p1a: Enola Gay|95/100 brn
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|65/100 brn
+|
+|-heal|p2a: hi|82/100|[from] item: Leftovers
+|-damage|p1a: Enola Gay|59/100 brn|[from] brn
+|upkeep
+|turn|25
+
+|
+|move|p1a: Enola Gay|Taunt|p2a: hi
+|-start|p2a: hi|move: Taunt
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|34/100 brn
+|
+|-heal|p2a: hi|88/100|[from] item: Leftovers
+|-damage|p1a: Enola Gay|28/100 brn|[from] brn
+|upkeep
+|turn|26
+
+|
+|move|p1a: Enola Gay|Roost|p1a: Enola Gay
+|-heal|p1a: Enola Gay|78/100 brn
+|move|p2a: hi|Scald|p1a: Enola Gay
+|-damage|p1a: Enola Gay|53/100 brn
+|
+|-heal|p2a: hi|94/100|[from] item: Leftovers
+|-damage|p1a: Enola Gay|47/100 brn|[from] brn
+|upkeep
+|turn|27
+
+|
+|switch|p2a: hi|Raikou, shiny|100/100
+|-ability|p2a: hi|Pressure
+|move|p1a: Enola Gay|Roost|p1a: Enola Gay
+|-heal|p1a: Enola Gay|97/100 brn
+|
+|-damage|p1a: Enola Gay|91/100 brn|[from] brn
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Pile-O-Fine|Piloswine, M|100/100
+|move|p2a: hi|Aura Sphere|p1a: Pile-O-Fine
+|-supereffective|p1a: Pile-O-Fine
+|-damage|p1a: Pile-O-Fine|54/100
+|
+|upkeep
+|turn|29
+
+|
+|switch|p2a: hi|Suicune|94/100
+|-ability|p2a: hi|Pressure
+|move|p1a: Pile-O-Fine|Stealth Rock|p2a: hi
+|-sidestart|p2: stowy24|move: Stealth Rock
+|
+|-heal|p2a: hi|99/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p1a: The Dude|Manaphy|82/100 brn
+|move|p2a: hi|Scald|p1a: The Dude
+|-resisted|p1a: The Dude
+|-damage|p1a: The Dude|69/100 brn
+|
+|-heal|p2a: hi|100/100|[from] item: Leftovers
+|-damage|p1a: The Dude|63/100 brn|[from] brn
+|upkeep
+|turn|31
+
+|
+|switch|p2a: hi|Raikou, shiny|100/100
+|-damage|p2a: hi|88/100|[from] Stealth Rock
+|-ability|p2a: hi|Pressure
+|move|p1a: The Dude|Rest|p1a: The Dude
+|-status|p1a: The Dude|slp
+|-heal|p1a: The Dude|100/100 slp|[silent]
+|-status|p1a: The Dude|slp|[from] move: Rest
+|
+|-heal|p2a: hi|94/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|switch|p1a: Nightwing|Gliscor, F|100/100
+|move|p2a: hi|Calm Mind|p2a: hi
+|-boost|p2a: hi|spa|1
+|-boost|p2a: hi|spd|1
+|
+|-heal|p2a: hi|100/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p2a: hi|Hidden Power|p1a: Nightwing
+|-supereffective|p1a: Nightwing
+|-enditem|p1a: Nightwing|Yache Berry|[eat]
+|-enditem|p1a: Nightwing|Yache Berry|[weaken]
+|-damage|p1a: Nightwing|19/100
+|move|p1a: Nightwing|Agility|p1a: Nightwing
+|-boost|p1a: Nightwing|spe|2
+|
+|upkeep
+|turn|34
+
+|
+|move|p1a: Nightwing|Earthquake|p2a: hi
+|-supereffective|p2a: hi
+|-damage|p2a: hi|0 fnt
+|faint|p2a: hi
+|
+|upkeep
+
+|
+|switch|p2a: hi|Suicune|100/100
+|-damage|p2a: hi|88/100|[from] Stealth Rock
+|-ability|p2a: hi|Pressure
+|turn|35
+
+|
+|move|p1a: Nightwing|Acrobatics|p2a: hi
+|-damage|p2a: hi|48/100
+|move|p2a: hi|Scald|p1a: Nightwing
+|-supereffective|p1a: Nightwing
+|-damage|p1a: Nightwing|0 fnt
+|faint|p1a: Nightwing
+|
+|-heal|p2a: hi|54/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Deltron|Genesect|28/100
+|-ability|p1a: Deltron|Download|boost
+|-boost|p1a: Deltron|atk|1
+|turn|36
+
+|c|☆stowy24|well
+
+|c|☆stowy24|at least I haven't lost 5-0 or 6-0
+
+|
+|move|p1a: Deltron|U-turn|p2a: hi
+|-damage|p2a: hi|13/100
+
+|
+|switch|p1a: The Dude|Manaphy|100/100 slp
+|move|p2a: hi|Scald|p1a: The Dude
+|-resisted|p1a: The Dude
+|-damage|p1a: The Dude|89/100 slp
+|
+|-heal|p2a: hi|19/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|cant|p1a: The Dude|slp
+|move|p2a: hi|Rest|p2a: hi
+|-status|p2a: hi|slp
+|-heal|p2a: hi|100/100 slp|[silent]
+|-status|p2a: hi|slp|[from] move: Rest
+|
+|upkeep
+|turn|38
+
+|
+|cant|p1a: The Dude|slp
+|cant|p2a: hi|slp
+|move|p2a: hi|Sleep Talk|p2a: hi
+|move|p2a: hi|Ice Beam|p1a: The Dude|[from]Sleep Talk
+|-resisted|p1a: The Dude
+|-damage|p1a: The Dude|80/100 slp
+|
+|upkeep
+|turn|39
+
+|c|☆Roguaran|This is gonna be a long fight
+
+|
+|-curestatus|p1a: The Dude|slp|[msg]
+|move|p1a: The Dude|Rain Dance|p1a: The Dude
+|-weather|RainDance
+|cant|p2a: hi|slp
+|move|p2a: hi|Sleep Talk|p2a: hi
+|move|p2a: hi|Rest|p2a: hi|[from]Sleep Talk
+|-fail|p2a: hi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|40
+
+|c|☆stowy24|hahaha
+
+|c|☆stowy24|idk
+
+|
+|move|p1a: The Dude|Calm Mind|p1a: The Dude
+|-boost|p1a: The Dude|spa|1
+|-boost|p1a: The Dude|spd|1
+|-curestatus|p2a: hi|slp|[msg]
+|move|p2a: hi|Sleep Talk|p2a: hi
+|-fail|p2a: hi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+
+|c|☆stowy24|nah its over
+
+|
+|move|p1a: The Dude|Calm Mind|p1a: The Dude
+|-boost|p1a: The Dude|spa|1
+|-boost|p1a: The Dude|spd|1
+|move|p2a: hi|Scald|p1a: The Dude
+|-resisted|p1a: The Dude
+|-damage|p1a: The Dude|70/100
+|-status|p1a: The Dude|brn
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: The Dude|ability: Hydration
+|-curestatus|p1a: The Dude|brn|[msg]
+|upkeep
+|turn|42
+
+|c|☆Roguaran|Where there's a scarf rachi there's a way
+
+|c|☆stowy24|thats ok though
+
+|
+|move|p1a: The Dude|Rest|p1a: The Dude
+|-status|p1a: The Dude|slp
+|-heal|p1a: The Dude|100/100 slp|[silent]
+|-status|p1a: The Dude|slp|[from] move: Rest
+|move|p2a: hi|Scald|p1a: The Dude
+|-resisted|p1a: The Dude
+|-damage|p1a: The Dude|92/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-activate|p1a: The Dude|ability: Hydration
+|-curestatus|p1a: The Dude|slp|[msg]
+|upkeep
+|turn|43
+
+|c|☆stowy24|you played better than me
+
+|
+|move|p1a: The Dude|Calm Mind|p1a: The Dude
+|-boost|p1a: The Dude|spa|1
+|-boost|p1a: The Dude|spd|1
+|move|p2a: hi|Scald|p1a: The Dude
+|-resisted|p1a: The Dude
+|-damage|p1a: The Dude|84/100
+|
+|-weather|none
+|upkeep
+|turn|44
+
+|j| KvnLiao
+
+|c|☆stowy24|i forgot to put evs on my beedrill
+
+|
+|move|p1a: The Dude|Rain Dance|p1a: The Dude
+|-weather|RainDance
+|move|p2a: hi|Scald|p1a: The Dude
+|-resisted|p1a: The Dude
+|-damage|p1a: The Dude|77/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|45
+
+|c|☆Roguaran|Oof
+
+|c|☆stowy24|so yeah
+
+|
+|switch|p2a: hi|Beedrill, M|100/100
+|-damage|p2a: hi|76/100|[from] Stealth Rock
+|move|p1a: The Dude|Calm Mind|p1a: The Dude
+|-boost|p1a: The Dude|spa|1
+|-boost|p1a: The Dude|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|46
+
+|
+|detailschange|p2a: hi|Beedrill-Mega, M
+|-mega|p2a: hi|Beedrill|Beedrillite
+|move|p2a: hi|Swords Dance|p2a: hi
+|-boost|p2a: hi|atk|2
+|move|p1a: The Dude|Surf|p2a: hi
+|-damage|p2a: hi|0 fnt
+|faint|p2a: hi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|c|☆stowy24|let me sack this
+
+|
+|switch|p2a: hi|Jirachi|100/100
+|-damage|p2a: hi|94/100|[from] Stealth Rock
+|turn|47
+
+|
+|move|p2a: hi|Iron Head|p1a: The Dude
+|-resisted|p1a: The Dude
+|-damage|p1a: The Dude|60/100
+|move|p1a: The Dude|Surf|p2a: hi
+|-damage|p2a: hi|0 fnt
+|faint|p2a: hi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|c|☆Roguaran|Oof
+
+|
+|switch|p2a: hi|Suicune|100/100
+|-damage|p2a: hi|88/100|[from] Stealth Rock
+|-ability|p2a: hi|Pressure
+|turn|48
+
+|c|☆Roguaran|Not even 1
+
+|
+|move|p1a: The Dude|Calm Mind|p1a: The Dude
+|-boost|p1a: The Dude|spa|1
+|-boost|p1a: The Dude|spd|1
+|move|p2a: hi|Sleep Talk|p2a: hi
+|-fail|p2a: hi
+|
+|-weather|none
+|-heal|p2a: hi|94/100|[from] item: Leftovers
+|upkeep
+|turn|49
+
+|
+|move|p1a: The Dude|Rain Dance|p1a: The Dude
+|-weather|RainDance
+|move|p2a: hi|Sleep Talk|p2a: hi
+|-fail|p2a: hi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: hi|100/100|[from] item: Leftovers
+|upkeep
+|turn|50
+
+|
+|move|p1a: The Dude|Surf|p2a: hi
+|-resisted|p2a: hi
+|-damage|p2a: hi|43/100
+|move|p2a: hi|Sleep Talk|p2a: hi
+|-fail|p2a: hi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: hi|49/100|[from] item: Leftovers
+|upkeep
+|turn|51
+
+|
+|move|p1a: The Dude|Surf|p2a: hi
+|-resisted|p2a: hi
+|-damage|p2a: hi|0 fnt
+|faint|p2a: hi
+|
+|win|Roguaran

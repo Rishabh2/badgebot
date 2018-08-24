@@ -1,0 +1,469 @@
+|init|battle
+|title|Old_Man_Waffles vs. Bam17
+|j|☆Old_Man_Waffles
+|j|☆Bam17
+|player|p1|Old_Man_Waffles|169
+|player|p2|Bam17|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Magnezone|item
+|poke|p1|Arcanine, M|item
+|poke|p1|Venusaur, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Donphan, M|item
+|poke|p1|Azumarill, M|item
+|poke|p2|Heliolisk, M|item
+|poke|p2|Cofagrigus, M|item
+|poke|p2|Gyarados, M|item
+|poke|p2|Mamoswine, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Old_Man_Waffles)
+|inactive|Bam17 has 135 seconds left.
+|
+|start
+|switch|p1a: Plantasaur|Venusaur, M, shiny|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|
+|detailschange|p1a: Plantasaur|Venusaur-Mega, M, shiny
+|-mega|p1a: Plantasaur|Venusaur|Venusaurite
+|move|p1a: Plantasaur|Leech Seed|p2a: Scizor
+|-start|p2a: Scizor|move: Leech Seed
+|move|p2a: Scizor|U-turn|p1a: Plantasaur
+|-damage|p1a: Plantasaur|68/100
+|inactive|Bam17 has 135 seconds left.
+|
+|switch|p2a: Gyarados|Gyarados, M|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Plantasaur|atk|1
+|
+|upkeep
+|turn|2
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|move|p2a: Gyarados|Thunder Wave|p1a: Plantasaur
+|-status|p1a: Plantasaur|par
+|move|p1a: Plantasaur|Synthesis|p1a: Plantasaur
+|-heal|p1a: Plantasaur|100/100 par
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Plantasaur|Leech Seed|p2a: Gyarados
+|-start|p2a: Gyarados|move: Leech Seed
+|move|p2a: Gyarados|Dragon Tail|p1a: Plantasaur
+|-damage|p1a: Plantasaur|88/100 par
+|drag|p1a: Norberta|Latias, F|100/100
+|
+|-damage|p2a: Gyarados|88/100|[from] Leech Seed|[of] p1a: Norberta
+|upkeep
+|turn|4
+|
+|move|p1a: Norberta|Draco Meteor|p2a: Gyarados
+|-damage|p2a: Gyarados|33/100
+|-unboost|p1a: Norberta|spa|2
+|move|p2a: Gyarados|Thunder Wave|p1a: Norberta|[miss]
+|-miss|p2a: Gyarados|p1a: Norberta
+|
+|-heal|p2a: Gyarados|39/100|[from] item: Leftovers
+|-damage|p2a: Gyarados|27/100|[from] Leech Seed|[of] p1a: Norberta
+|upkeep
+|turn|5
+
+|
+|move|p1a: Norberta|Draco Meteor|p2a: Gyarados|[miss]
+|-miss|p1a: Norberta|p2a: Gyarados
+|move|p2a: Gyarados|Thunder Wave|p1a: Norberta
+|-status|p1a: Norberta|par
+|
+|-heal|p2a: Gyarados|33/100|[from] item: Leftovers
+|-damage|p2a: Gyarados|21/100|[from] Leech Seed|[of] p1a: Norberta
+|upkeep
+|turn|6
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Bam17 has 135 seconds left.
+
+|
+|switch|p1a: Plantasaur|Venusaur-Mega, M, shiny|88/100 par
+|switch|p2a: Scizor|Scizor, M|100/100
+|
+|upkeep
+|turn|7
+
+|inactive|Bam17 has 135 seconds left.
+
+|
+|switch|p1a: Tantor|Donphan, M|100/100
+|move|p2a: Scizor|U-turn|p1a: Tantor
+|-damage|p1a: Tantor|78/100
+
+|inactive|Bam17 has 135 seconds left.
+
+|
+|switch|p2a: Heliolisk|Heliolisk, M, shiny|100/100
+|
+|-heal|p1a: Tantor|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Plantasaur|Venusaur-Mega, M, shiny|88/100 par
+|move|p2a: Heliolisk|Surf|p1a: Plantasaur
+|-resisted|p1a: Plantasaur
+|-damage|p1a: Plantasaur|75/100 par
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Plantasaur|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|79/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Scizor|U-turn|p1a: Plantasaur
+|-damage|p1a: Plantasaur|41/100 par
+
+|inactive|Bam17 has 135 seconds left.
+
+|
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|move|p1a: Plantasaur|Synthesis|p1a: Plantasaur
+|-heal|p1a: Plantasaur|91/100 par
+|
+|upkeep
+|turn|11
+
+|
+|move|p2a: Garchomp|Stealth Rock|p1a: Plantasaur
+|-sidestart|p1: Old_Man_Waffles|move: Stealth Rock
+|cant|p1a: Plantasaur|par
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Garchomp|Fire Fang|p1a: Plantasaur
+|-supereffective|p1a: Plantasaur
+|-damage|p1a: Plantasaur|66/100 par
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|cant|p1a: Plantasaur|flinch
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Garchomp|Fire Fang|p1a: Plantasaur
+|-supereffective|p1a: Plantasaur
+|-damage|p1a: Plantasaur|43/100 par
+|-damage|p2a: Garchomp|81/100|[from] item: Life Orb
+|cant|p1a: Plantasaur|par
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Garchomp|Fire Fang|p1a: Plantasaur
+|-supereffective|p1a: Plantasaur
+|-damage|p1a: Plantasaur|20/100 par
+|-damage|p2a: Garchomp|71/100|[from] item: Life Orb
+|move|p1a: Plantasaur|Synthesis|p1a: Plantasaur
+|-heal|p1a: Plantasaur|70/100 par
+|
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|move|p1a: Plantasaur|Leech Seed|p2a: Mamoswine
+|-start|p2a: Mamoswine|move: Leech Seed
+|
+|-damage|p2a: Mamoswine|88/100|[from] Leech Seed|[of] p1a: Plantasaur
+|-heal|p1a: Plantasaur|85/100 par|[silent]
+|upkeep
+|turn|16
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|-zpower|p2a: Mamoswine
+|move|p2a: Mamoswine|Z-Curse|p2a: Mamoswine|[anim]Curse
+|-boost|p2a: Mamoswine|atk|1|[zeffect]
+|-unboost|p2a: Mamoswine|spe|1
+|-boost|p2a: Mamoswine|atk|1
+|-boost|p2a: Mamoswine|def|1
+|cant|p1a: Plantasaur|par
+|
+|-damage|p2a: Mamoswine|75/100|[from] Leech Seed|[of] p1a: Plantasaur
+|-heal|p1a: Plantasaur|99/100 par|[silent]
+|upkeep
+|turn|17
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Mamoswine|Earthquake|p1a: Plantasaur
+|-damage|p1a: Plantasaur|8/100 par
+|move|p1a: Plantasaur|Sludge Bomb|p2a: Mamoswine
+|-resisted|p2a: Mamoswine
+|-damage|p2a: Mamoswine|52/100
+|-status|p2a: Mamoswine|psn
+|
+|-damage|p2a: Mamoswine|39/100 psn|[from] Leech Seed|[of] p1a: Plantasaur
+|-heal|p1a: Plantasaur|23/100 par|[silent]
+|-damage|p2a: Mamoswine|27/100 psn|[from] psn
+|upkeep
+|turn|18
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Norberta|Latias, F|100/100 par
+|-damage|p1a: Norberta|88/100 par|[from] Stealth Rock
+|move|p2a: Mamoswine|Earthquake|p1a: Norberta
+|-immune|p1a: Norberta|[msg]|[from] ability: Levitate
+|
+|-damage|p2a: Mamoswine|14/100 psn|[from] Leech Seed|[of] p1a: Norberta
+|-heal|p1a: Norberta|100/100 par|[silent]
+|-damage|p2a: Mamoswine|2/100 psn|[from] psn
+|upkeep
+|turn|19
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Mamoswine|Ice Shard|p1a: Norberta
+|-supereffective|p1a: Norberta
+|-damage|p1a: Norberta|0 fnt
+|faint|p1a: Norberta
+|
+|-damage|p2a: Mamoswine|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Mamoswine
+
+|
+|switch|p1a: Yeah B!|Magnezone|100/100
+|switch|p2a: Heliolisk|Heliolisk, M, shiny|100/100
+|-damage|p1a: Yeah B!|94/100|[from] Stealth Rock
+|turn|20
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Heliolisk|Surf|p1a: Yeah B!
+|-crit|p1a: Yeah B!
+|-damage|p1a: Yeah B!|28/100
+|move|p1a: Yeah B!|Hidden Power|p2a: Heliolisk
+|-damage|p2a: Heliolisk|59/100
+|
+|upkeep
+|turn|21
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Plantasaur|Venusaur-Mega, M, shiny|23/100 par
+|-damage|p1a: Plantasaur|10/100 par|[from] Stealth Rock
+|move|p2a: Heliolisk|Surf|p1a: Plantasaur
+|-resisted|p1a: Plantasaur
+|-damage|p1a: Plantasaur|0 fnt
+|faint|p1a: Plantasaur
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|switch|p1a: Clifford|Arcanine, M|100/100
+|-damage|p1a: Clifford|76/100|[from] Stealth Rock
+|-ability|p1a: Clifford|Intimidate|boost
+|-unboost|p2a: Heliolisk|atk|1
+|turn|22
+
+|
+|switch|p2a: Gyarados|Gyarados, M|21/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Clifford|atk|1
+|move|p1a: Clifford|Bulldoze|p2a: Gyarados
+|-immune|p2a: Gyarados|[msg]
+|
+|-heal|p2a: Gyarados|27/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|inactive|Bam17 has 135 seconds left.
+
+|
+|switch|p1a: Yeah B!|Magnezone|28/100
+|-damage|p1a: Yeah B!|22/100|[from] Stealth Rock
+|move|p2a: Gyarados|Thunder Wave|p1a: Yeah B!
+|-immune|p1a: Yeah B!|[msg]
+|
+|-heal|p2a: Gyarados|33/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Gyarados|Waterfall|p1a: Yeah B!
+|-damage|p1a: Yeah B!|0 fnt
+|faint|p1a: Yeah B!
+|
+|-heal|p2a: Gyarados|39/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Oswald|Azumarill, M|100/100
+|-damage|p1a: Oswald|88/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p1a: Oswald|Aqua Jet|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|29/100
+|move|p2a: Gyarados|Thunder Wave|p1a: Oswald
+|-status|p1a: Oswald|par
+|
+|-heal|p2a: Gyarados|35/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Gyarados|Taunt|p1a: Oswald
+|-start|p1a: Oswald|move: Taunt
+|move|p1a: Oswald|Play Rough|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+
+|inactive|Bam17 has 135 seconds left.
+
+|
+|switch|p2a: Scizor|Scizor, M|79/100
+|turn|27
+
+|
+|move|p2a: Scizor|U-turn|p1a: Oswald
+|-resisted|p1a: Oswald
+|-damage|p1a: Oswald|69/100 par
+
+|
+|switch|p2a: Heliolisk|Heliolisk, M, shiny|59/100
+|move|p1a: Oswald|Knock Off|p2a: Heliolisk
+|-damage|p2a: Heliolisk|0 fnt
+|-enditem|p2a: Heliolisk|Choice Specs|[from] move: Knock Off|[of] p1a: Oswald
+|faint|p2a: Heliolisk
+|
+|upkeep
+
+|inactive|Bam17 has 135 seconds left.
+
+|
+|switch|p2a: Scizor|Scizor, M|79/100
+|turn|28
+
+|
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|cant|p1a: Oswald|par
+|
+|-end|p1a: Oswald|move: Taunt
+|upkeep
+|turn|29
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Oswald
+|-damage|p1a: Oswald|0 fnt
+|faint|p1a: Oswald
+|
+|upkeep
+
+|
+|switch|p1a: Tantor|Donphan, M|84/100
+|-damage|p1a: Tantor|78/100|[from] Stealth Rock
+|turn|30
+
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Tantor
+|-damage|p1a: Tantor|42/100
+|move|p1a: Tantor|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|36/100
+|
+|-heal|p1a: Tantor|48/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p2a: Scizor|U-turn|p1a: Tantor
+|-damage|p1a: Tantor|1/100
+
+|
+|switch|p2a: Cofagrigus|Cofagrigus, M|100/100
+|move|p1a: Tantor|Earthquake|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|71/100
+|
+|-heal|p1a: Tantor|7/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Tantor
+|-damage|p1a: Tantor|0 fnt
+|faint|p1a: Tantor
+|
+|upkeep
+
+|
+|switch|p1a: Clifford|Arcanine, M|76/100
+|-damage|p1a: Clifford|51/100|[from] Stealth Rock
+|-ability|p1a: Clifford|Intimidate|boost
+|-unboost|p2a: Cofagrigus|atk|1
+|turn|33
+
+|
+|move|p1a: Clifford|Crunch|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|38/100
+|-activate|p2a: Cofagrigus|ability: Mummy|Intimidate|[of] p1a: Clifford
+|-damage|p1a: Clifford|34/100|[from] item: Rocky Helmet|[of] p2a: Cofagrigus
+|-unboost|p2a: Cofagrigus|def|1
+|move|p2a: Cofagrigus|Shadow Ball|p1a: Clifford
+|-damage|p1a: Clifford|12/100
+|
+|upkeep
+|turn|34
+
+|
+|move|p1a: Clifford|Crunch|p2a: Cofagrigus
+|-supereffective|p2a: Cofagrigus
+|-damage|p2a: Cofagrigus|0 fnt
+|-damage|p1a: Clifford|0 fnt|[from] item: Rocky Helmet|[of] p2a: Cofagrigus
+|faint|p2a: Cofagrigus
+|faint|p1a: Clifford
+|
+|win|Bam17

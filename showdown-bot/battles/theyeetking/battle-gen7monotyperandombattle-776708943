@@ -1,0 +1,204 @@
+|init|battle
+|title|HardLineInternet vs. The Yeet King
+|j|☆HardLineInternet
+|j|☆The Yeet King
+|player|p1|HardLineInternet|222
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Monotype Random Battle
+|rated|Tournament battle
+|rule|Same Type Clause: Pokémon in a team must share a type
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Toucannon|Toucannon, L83, M|100/100
+|switch|p2a: Gengar|Gengar, L73, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HardLineInternet)
+|j| jearldster
+|inactive|The Yeet King has 135 seconds left.
+|inactive|The Yeet King has 120 seconds left.
+|inactive|The Yeet King has 105 seconds left.
+|
+|switch|p2a: Seviper|Seviper, L83, M|100/100
+|move|p1a: Toucannon|Substitute|p1a: Toucannon
+|-start|p1a: Toucannon|Substitute
+|-damage|p1a: Toucannon|76/100
+|
+|-heal|p1a: Toucannon|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|The Yeet King has 135 seconds left.
+
+|inactive|The Yeet King has 120 seconds left.
+
+|inactive|The Yeet King has 105 seconds left.
+
+|inactive|The Yeet King has 90 seconds left.
+
+|inactive|The Yeet King has 75 seconds left.
+
+|
+|move|p2a: Seviper|Dark Pulse|p1a: Toucannon
+|-damage|p1a: Toucannon|57/100
+|move|p1a: Toucannon|Swords Dance|p1a: Toucannon
+|-boost|p1a: Toucannon|atk|2
+|
+|-heal|p1a: Toucannon|63/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|inactive|The Yeet King has 105 seconds left.
+
+|inactive|HardLineInternet has 135 seconds left.
+
+|inactive|The Yeet King has 90 seconds left.
+
+|inactive|HardLineInternet has 120 seconds left.
+
+|inactive|The Yeet King has 75 seconds left.
+
+|l|☆HardLineInternet
+
+|inactive|HardLineInternet disconnected and has a minute to reconnect!
+
+|player|p1|
+|inactive|The Yeet King has 60 seconds left.
+
+|inactive|The Yeet King has 45 seconds left.
+
+|j|☆HardLineInternet
+
+|inactive|HardLineInternet reconnected and has 85 seconds left.
+
+|player|p1|HardLineInternet|222
+|inactive|HardLineInternet has 75 seconds left.
+
+|
+|-singleturn|p1a: Toucannon|move: Beak Blast
+|move|p2a: Seviper|Sludge Wave|p1a: Toucannon
+|-crit|p1a: Toucannon
+|-damage|p1a: Toucannon|3/100
+|move|p1a: Toucannon|Beak Blast|p2a: Seviper
+|-damage|p2a: Seviper|0 fnt
+|faint|p2a: Seviper
+|
+|-heal|p1a: Toucannon|9/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Muk|Muk-Alola, L77, F|100/100
+|turn|4
+
+|
+|move|p1a: Toucannon|Bullet Seed|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|92/100
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|82/100
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|73/100
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|64/100
+|-resisted|p2a: Muk
+|-crit|p2a: Muk
+|-damage|p2a: Muk|51/100
+|-hitcount|p2a: Muk|5
+|move|p2a: Muk|Pursuit|p1a: Toucannon
+|-crit|p1a: Toucannon
+|-end|p1a: Toucannon|Substitute
+|
+|-heal|p1a: Toucannon|15/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|inactive|The Yeet King has 45 seconds left.
+
+|
+|move|p1a: Toucannon|Bullet Seed|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|42/100
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|33/100
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|24/100
+|-resisted|p2a: Muk
+|-crit|p2a: Muk
+|-damage|p2a: Muk|12/100
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|3/100
+|-hitcount|p2a: Muk|5
+|move|p2a: Muk|Pursuit|p1a: Toucannon
+|-damage|p1a: Toucannon|0 fnt
+|faint|p1a: Toucannon
+|
+|upkeep
+
+|inactive|HardLineInternet has 135 seconds left.
+
+|
+|switch|p1a: Girafarig|Girafarig, L83, F|100/100
+|turn|6
+
+|
+|move|p1a: Girafarig|Hyper Voice|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|upkeep
+
+|
+|switch|p2a: Dragalge|Dragalge, L79, F|100/100
+|turn|7
+
+|
+|move|p1a: Girafarig|Substitute|p1a: Girafarig
+|-start|p1a: Girafarig|Substitute
+|-damage|p1a: Girafarig|75/100
+|move|p2a: Dragalge|Sludge Wave|p1a: Girafarig
+|-end|p1a: Girafarig|Substitute
+|
+|-heal|p1a: Girafarig|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|inactive|The Yeet King has 60 seconds left.
+
+|inactive|The Yeet King has 45 seconds left.
+
+|
+|move|p1a: Girafarig|Nasty Plot|p1a: Girafarig
+|-boost|p1a: Girafarig|spa|2
+|move|p2a: Dragalge|Sludge Wave|p1a: Girafarig
+|-damage|p1a: Girafarig|0 fnt
+|faint|p1a: Girafarig
+|
+|upkeep
+
+|inactive|HardLineInternet has 135 seconds left.
+
+|
+|switch|p1a: Drampa|Drampa, L83, F|100/100
+|turn|9
+
+|inactive|The Yeet King has 60 seconds left.
+
+|inactive|The Yeet King has 45 seconds left.
+
+|inactive|The Yeet King has 30 seconds left.
+
+|inactive|The Yeet King has 20 seconds left.
+
+|inactive|The Yeet King has 15 seconds left.
+
+|inactive|The Yeet King has 10 seconds left.
+
+|inactive|The Yeet King has 5 seconds left.
+
+|-message|The Yeet King lost due to inactivity.
+|
+|win|HardLineInternet

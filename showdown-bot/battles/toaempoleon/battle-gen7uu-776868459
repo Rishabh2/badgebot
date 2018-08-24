@@ -1,0 +1,187 @@
+|init|battle
+|title|ToaEmpoleon vs. H2owsome
+|j|☆ToaEmpoleon
+|j|☆H2owsome
+|player|p1|ToaEmpoleon|265
+|player|p2|H2owsome|120
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, F|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Swellow, F|item
+|poke|p1|Virizion|item
+|poke|p1|Feraligatr, F|item
+|poke|p1|Steelix, F|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Florges, F|item
+|poke|p2|Doublade, M|item
+|poke|p2|Golisopod, F|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Rotom-Heat|item
+|teampreview
+|j| GHG DITTO
+|c|☆ToaEmpoleon|oh you're using his mons :P
+|l| GHG DITTO
+|c|☆H2owsome|is that not the point?
+|c|☆ToaEmpoleon|i guess its more helpful
+
+|
+|start
+|switch|p1a: Swellow|Swellow, F|100/100
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|turn|1
+
+|
+|move|p1a: Swellow|U-turn|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|92/100
+
+|
+|switch|p1a: Virizion|Virizion|100/100
+|move|p2a: Empoleon|Agility|p2a: Empoleon
+|-boost|p2a: Empoleon|spe|2
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Empoleon|Brick Break|p1a: Virizion
+|-damage|p1a: Virizion|72/100
+|-zpower|p1a: Virizion
+|move|p1a: Virizion|All-Out Pummeling|p2a: Empoleon|[zeffect]
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|upkeep
+
+|
+|switch|p2a: Doublade|Doublade, M|100/100
+|turn|3
+
+|c|☆ToaEmpoleon|i have no way to gaurentee stop his trick room is what i'm most worried about
+
+|c|☆ToaEmpoleon|wait no i can
+
+|c|☆H2owsome|hmm i didn't consider trick room
+
+|c|☆H2owsome|what does he set it with?
+
+|c|☆ToaEmpoleon|musharna
+
+|c|☆ToaEmpoleon|there
+
+|c|☆ToaEmpoleon|there's no 100% way to stop it without risking losing a mon
+
+|
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Doublade|atk|1
+|move|p2a: Doublade|Swords Dance|p2a: Doublade
+|-boost|p2a: Doublade|atk|2
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Krookodile|Knock Off|p2a: Doublade
+|-supereffective|p2a: Doublade
+|-damage|p2a: Doublade|50/100
+|-enditem|p2a: Doublade|Eviolite|[from] move: Knock Off|[of] p1a: Krookodile
+|move|p2a: Doublade|Sacred Sword|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|5/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Swellow|Swellow, F|100/100
+|move|p2a: Doublade|Shadow Sneak|p1a: Swellow
+|-immune|p1a: Swellow|[msg]
+|
+|upkeep
+|turn|6
+
+|c|☆H2owsome|too obvious lol
+
+|c|☆ToaEmpoleon|i'm usually bad at those sorts of plays
+
+|
+|move|p1a: Swellow|Boomburst|p2a: Doublade
+|-resisted|p2a: Doublade
+|-damage|p2a: Doublade|0 fnt
+|faint|p2a: Doublade
+|
+|upkeep
+
+|
+|switch|p2a: Florges|Florges, F|100/100
+|turn|7
+
+|c|☆ToaEmpoleon|boomburst to freedom?
+
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|move|p1a: Swellow|Boomburst|p2a: Kommo-o
+|-damage|p2a: Kommo-o|15/100
+|
+|upkeep
+|turn|8
+
+|c|☆H2owsome|welp
+
+|c|☆H2owsome|GG
+
+|c|☆ToaEmpoleon|he could totally run soundproof
+
+|c|☆H2owsome|honestly swellow kinda eats him
+
+|c|☆H2owsome|...i thought i did
+
+|c|☆H2owsome|lol
+
+|c|☆H2owsome|ok other than soundproof
+
+|c|☆H2owsome|swellow eats him
+
+|c|☆ToaEmpoleon|i'll probably have to survive a trick room before counter sweeping
+
+|c|☆ToaEmpoleon|if there's no TR it should be much easier
+
+|
+|move|p1a: Swellow|Boomburst|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+
+|
+|switch|p2a: Florges|Florges, F|100/100
+|turn|9
+
+|
+|move|p1a: Swellow|Boomburst|p2a: Florges
+|-damage|p2a: Florges|60/100
+|move|p2a: Florges|Toxic|p1a: Swellow|[miss]
+|-miss|p2a: Florges|p1a: Swellow
+|
+|-heal|p2a: Florges|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|-message|H2owsome forfeited.
+
+|
+|win|ToaEmpoleon

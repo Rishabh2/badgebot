@@ -1,0 +1,301 @@
+|init|battle
+|title|oxco vs. Old_Man_Waffles
+|j|☆oxco
+|j|☆Old_Man_Waffles
+|player|p1|oxco|12
+|player|p2|Old_Man_Waffles|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Togekiss, F|item
+|poke|p1|Rotom-Mow|item
+|poke|p1|Altaria, F|item
+|poke|p1|Kabutops, F|item
+|poke|p1|Hydreigon, F|item
+|poke|p1|Porygon2|item
+|poke|p2|Magneton|item
+|poke|p2|Pidgeot, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Tsareena, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Suicune|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Old_Man_Waffles)
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|start
+|switch|p1a: Kabutops|Kabutops, F|100/100
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|turn|1
+
+|
+|switch|p1a: Altaria|Altaria, F|100/100
+|move|p2a: Tsareena|U-turn|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|80/100
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Latias|Latias, F|100/100
+|
+|upkeep
+|turn|2
+
+|
+|detailschange|p1a: Altaria|Altaria-Mega, F
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p2a: Latias|Ice Beam|p1a: Altaria
+|-supereffective|p1a: Altaria
+|-damage|p1a: Altaria|21/100
+|move|p1a: Altaria|Hyper Voice|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|switch|p2a: Pidgeot|Pidgeot, M|100/100
+|turn|3
+
+|
+|switch|p1a: Kabutops|Kabutops, F|100/100
+|detailschange|p2a: Pidgeot|Pidgeot-Mega, M
+|-mega|p2a: Pidgeot|Pidgeot|Pidgeotite
+|move|p2a: Pidgeot|Hurricane|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|47/100
+|
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Kabutops|Stealth Rock|p2a: Suicune
+|-sidestart|p2: Old_Man_Waffles|move: Stealth Rock
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Suicune|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|83/100
+|-status|p1a: Rotom|brn
+|
+|-damage|p1a: Rotom|77/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|move|p1a: Rotom|Leaf Storm|p2a: Gliscor
+|-damage|p2a: Gliscor|14/100
+|-unboost|p1a: Rotom|spa|2
+|
+|-damage|p1a: Rotom|71/100 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Rotom|Leaf Storm|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Gliscor
+|
+|-damage|p1a: Rotom|64/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Magneton|Magneton|100/100
+|-damage|p2a: Magneton|94/100|[from] Stealth Rock
+|turn|8
+
+|
+|switch|p1a: Kabutops|Kabutops, F|47/100
+|move|p2a: Magneton|Volt Switch|p1a: Kabutops
+|-supereffective|p1a: Kabutops
+|-damage|p1a: Kabutops|0 fnt
+|faint|p1a: Kabutops
+
+|
+|switch|p2a: Pidgeot|Pidgeot-Mega, M|100/100
+|-damage|p2a: Pidgeot|76/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|No Guard|[from] ability: Trace|[of] p2a: Pidgeot
+|turn|9
+
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Porygon2
+|-damage|p1a: Porygon2|69/100
+|move|p1a: Porygon2|Thunder Wave|p2a: Pidgeot
+|-status|p2a: Pidgeot|par
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Porygon2
+|-damage|p1a: Porygon2|41/100
+|move|p1a: Porygon2|Ice Beam|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-crit|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|upkeep
+
+|
+|switch|p2a: Tsareena|Tsareena, F|100/100
+|-damage|p2a: Tsareena|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|move|p2a: Tsareena|High Jump Kick|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|upkeep
+
+|
+|switch|p1a: Togekiss|Togekiss, F|100/100
+|turn|12
+
+|
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Togekiss|Air Slash|p2a: Suicune
+|-damage|p2a: Suicune|65/100
+|
+|-heal|p2a: Suicune|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Magneton|Magneton|94/100
+|-damage|p2a: Magneton|88/100|[from] Stealth Rock
+|move|p1a: Togekiss|Air Slash|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|73/100
+|
+|upkeep
+|turn|14
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|6/100
+|move|p1a: Togekiss|Air Slash|p2a: Magneton
+|-resisted|p2a: Magneton
+|-damage|p2a: Magneton|60/100
+|
+|-heal|p1a: Togekiss|12/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p2a: Magneton|Flash Cannon|p1a: Togekiss
+|-supereffective|p1a: Togekiss
+|-damage|p1a: Togekiss|0 fnt
+|faint|p1a: Togekiss
+|
+|upkeep
+
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|16
+
+|
+|switch|p2a: Suicune|Suicune|71/100
+|-damage|p2a: Suicune|59/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Hydreigon|Dark Pulse|p2a: Suicune
+|-damage|p2a: Suicune|30/100
+|
+|-heal|p2a: Suicune|36/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|-zpower|p1a: Hydreigon
+|move|p1a: Hydreigon|Devastating Drake|p2a: Suicune|[zeffect]
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|upkeep
+
+|
+|switch|p2a: Tsareena|Tsareena, F|88/100
+|-damage|p2a: Tsareena|76/100|[from] Stealth Rock
+|turn|18
+
+|
+|switch|p1a: Rotom|Rotom-Mow|64/100 brn
+|move|p2a: Tsareena|U-turn|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+
+|
+|switch|p2a: Magneton|Magneton|60/100
+|-damage|p2a: Magneton|53/100|[from] Stealth Rock
+|
+|upkeep
+
+|
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|19
+
+|
+|move|p1a: Hydreigon|Dark Pulse|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|upkeep
+
+|
+|switch|p2a: Tsareena|Tsareena, F|76/100
+|-damage|p2a: Tsareena|64/100|[from] Stealth Rock
+|turn|20
+
+|
+|move|p1a: Hydreigon|Draco Meteor|p2a: Tsareena
+|-damage|p2a: Tsareena|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Tsareena
+|
+|win|oxco

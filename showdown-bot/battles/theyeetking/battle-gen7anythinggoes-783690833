@@ -1,0 +1,186 @@
+|init|battle
+|title|Oxford White vs. The Yeet King
+|j|☆Oxford White
+|j|☆The Yeet King
+|player|p1|Oxford White|101
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Buzzwole|item
+|poke|p1|Blissey, F|item
+|poke|p1|Houndoom, F|item
+|poke|p1|Empoleon, M|item
+|poke|p1|Staraptor, M|item
+|poke|p1|Minior-Blue|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Charizard, M|item
+|poke|p2|Xurkitree|item
+|poke|p2|Crobat, M|item
+|poke|p2|Galvantula, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Oxford White)
+|c|☆The Yeet King|whos this
+|inactive|The Yeet King has 285 seconds left.
+|c|☆The Yeet King|who are u
+
+|inactive|The Yeet King has 270 seconds left.
+
+|inactive|The Yeet King has 255 seconds left.
+
+|inactive|The Yeet King has 240 seconds left.
+
+|c|☆Oxford White|Just someone who wants to battle
+
+|inactive|The Yeet King has 225 seconds left.
+
+|inactive|The Yeet King has 210 seconds left.
+
+|c|☆Oxford White|I take on random people
+
+|inactive|The Yeet King has 195 seconds left.
+
+|inactive|The Yeet King has 180 seconds left.
+
+|inactive|The Yeet King has 165 seconds left.
+
+|c|☆The Yeet King|uhh
+
+|c|☆The Yeet King|fuck right off
+
+|inactive|The Yeet King has 150 seconds left.
+
+|c|☆Oxford White|Thats the point of showdown dude
+
+|inactive|The Yeet King has 135 seconds left.
+
+|inactive|The Yeet King has 120 seconds left.
+
+|inactive|The Yeet King has 105 seconds left.
+
+|c|☆The Yeet King|eat shit
+
+|inactive|The Yeet King has 90 seconds left.
+
+|c|☆Oxford White|Ok lol ill eait till i win
+
+|c|☆Oxford White|Wait
+
+|inactive|The Yeet King has 75 seconds left.
+
+|c|☆The Yeet King|you realize this isnt ranked?
+
+|inactive|The Yeet King has 60 seconds left.
+
+|c|☆Oxford White|If you wanna be like that ill let the admins know and i dont care i just like to battle
+
+|inactive|The Yeet King has 45 seconds left.
+
+|
+|start
+|switch|p1a: Buzzwole|Buzzwole, shiny|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|1
+
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Buzzwole
+|-sidestart|p1: Oxford White|move: Sticky Web
+|move|p1a: Buzzwole|Power-Up Punch|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|77/100
+|-boost|p1a: Buzzwole|atk|1
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Galvantula|Thunder|p1a: Buzzwole
+|-damage|p1a: Buzzwole|22/100
+|-enditem|p1a: Buzzwole|Mago Berry|[eat]
+|-heal|p1a: Buzzwole|72/100|[from] item: Mago Berry
+|move|p1a: Buzzwole|Earthquake|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|-ability|p1a: Buzzwole|Beast Boost|boost
+|-boost|p1a: Buzzwole|atk|1
+|
+|upkeep
+
+|inactive|The Yeet King has 60 seconds left.
+
+|inactive|The Yeet King has 45 seconds left.
+
+|
+|switch|p2a: Crobat|Crobat, M|100/100
+|turn|3
+
+|
+|move|p2a: Crobat|Brave Bird|p1a: Buzzwole
+|-supereffective|p1a: Buzzwole
+|-damage|p1a: Buzzwole|0 fnt
+|-damage|p2a: Crobat|78/100|[from] Recoil
+|faint|p1a: Buzzwole
+|
+|-heal|p2a: Crobat|84/100|[from] item: Black Sludge
+|upkeep
+
+|
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|turn|4
+
+|inactive|The Yeet King has 60 seconds left.
+
+|inactive|The Yeet King has 45 seconds left.
+
+|
+|move|p1a: Staraptor|Sky Attack|p2a: Crobat|[still]
+|-prepare|p1a: Staraptor|Sky Attack|p2a: Crobat
+|-enditem|p1a: Staraptor|Power Herb
+|-anim|p1a: Staraptor|Sky Attack|p2a: Crobat
+|-damage|p2a: Crobat|13/100
+|move|p2a: Crobat|U-turn|p1a: Staraptor
+|-resisted|p1a: Staraptor
+|-damage|p1a: Staraptor|84/100
+
+|
+|switch|p2a: Xurkitree|Xurkitree|100/100
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Staraptor|Close Combat|p2a: Xurkitree
+|-damage|p2a: Xurkitree|50/100
+|-unboost|p1a: Staraptor|def|1
+|-unboost|p1a: Staraptor|spd|1
+|-zpower|p2a: Xurkitree
+|move|p2a: Xurkitree|Z-Hypnosis|p1a: Staraptor|[anim]Hypnosis
+|-boost|p2a: Xurkitree|spe|1|[zeffect]
+|-status|p1a: Staraptor|slp
+|
+|upkeep
+|turn|6
+
+|inactive|The Yeet King has 60 seconds left.
+
+|inactive|The Yeet King has 45 seconds left.
+
+|inactive|The Yeet King has 30 seconds left.
+
+|inactive|The Yeet King has 20 seconds left.
+
+|inactive|The Yeet King has 15 seconds left.
+
+|inactive|The Yeet King has 10 seconds left.
+
+|inactive|The Yeet King has 5 seconds left.
+
+|-message|The Yeet King lost due to inactivity.
+|
+|win|Oxford White

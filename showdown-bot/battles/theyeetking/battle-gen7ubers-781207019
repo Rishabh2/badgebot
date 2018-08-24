@@ -1,0 +1,289 @@
+|init|battle
+|title|The Yeet King vs. Pikqchu
+|j|☆The Yeet King
+|j|☆Pikqchu
+|player|p1|The Yeet King|156
+|player|p2|Pikqchu|218
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Marshadow|item
+|poke|p1|Necrozma-Dusk-Mane|item
+|poke|p1|Arceus-*|item
+|poke|p1|Salamence, F|item
+|poke|p1|Groudon|item
+|poke|p1|Darkrai|item
+|poke|p2|Raichu-Alola, F|item
+|poke|p2|Bellossom, M|item
+|poke|p2|Unfezant, M|item
+|poke|p2|Masquerain, M|item
+|poke|p2|Torkoal, F|item
+|poke|p2|Meowstic, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|
+|start
+|switch|p1a: Arceus|Arceus-Water|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|turn|1
+|
+|move|p1a: Arceus|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: Pikqchu|move: Stealth Rock
+|move|p2a: Torkoal|Stealth Rock|p1a: Arceus
+|-sidestart|p1: The Yeet King|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|c|☆The Yeet King|the actual fuck
+|
+|move|p1a: Arceus|Judgment|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|1/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Arceus
+|-damage|p1a: Arceus|98/100
+|-sideend|p2: Pikqchu|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-heal|p2a: Torkoal|7/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆The Yeet King|get outa here nerd
+|
+|switch|p2a: Unfezant|Unfezant, M|100/100
+|move|p1a: Arceus|Defog|p2a: Unfezant
+|-unboost|p2a: Unfezant|evasion|1
+|-sideend|p1: The Yeet King|Stealth Rock|[from] move: Defog|[of] p1a: Arceus
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Arceus|Stealth Rock|p2a: Unfezant
+|-sidestart|p2: Pikqchu|move: Stealth Rock
+|move|p2a: Unfezant|Return|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|47/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Arceus|Judgment|p2a: Unfezant
+|-damage|p2a: Unfezant|17/100
+|move|p2a: Unfezant|Return|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|0 fnt
+|faint|p1a: Arceus
+|
+|upkeep
+|c|☆The Yeet King|nibba
+|c|☆The Yeet King|stop
+|c|☆Pikqchu|lmao
+|
+|switch|p1a: Necrozma|Necrozma-Dusk-Mane|100/100
+|turn|6
+|
+|switch|p2a: Torkoal|Torkoal, F|7/100
+|-damage|p2a: Torkoal|0 fnt|[from] Stealth Rock
+|faint|p2a: Torkoal
+|move|p1a: Necrozma|Rock Polish|p1a: Necrozma
+|-boost|p1a: Necrozma|spe|2
+|
+|upkeep
+|
+|switch|p2a: Bellossom|Bellossom, M|100/100
+|-damage|p2a: Bellossom|88/100|[from] Stealth Rock
+|turn|7
+|c|☆The Yeet King|yeah flex on em necrozma
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Bellossom
+|-damage|p2a: Bellossom|10/100
+|-zpower|p2a: Bellossom
+|move|p2a: Bellossom|Z-Strength Sap|p1a: Necrozma|[anim]Strength Sap
+|-boost|p2a: Bellossom|def|1|[zeffect]
+|-unboost|p1a: Necrozma|atk|1
+|-heal|p2a: Bellossom|100/100
+|
+|upkeep
+|turn|8
+|c|☆Pikqchu|ok
+
+|
+|move|p1a: Necrozma|Sunsteel Strike|p2a: Bellossom
+|-damage|p2a: Bellossom|65/100
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|upkeep
+|turn|9
+
+|c|☆The Yeet King|the actual fuck
+
+|c|☆The Yeet King|stop doing this already
+
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Bellossom
+|-damage|p2a: Bellossom|32/100
+|move|p2a: Bellossom|Quiver Dance|p2a: Bellossom
+|-boost|p2a: Bellossom|spa|1
+|-boost|p2a: Bellossom|spd|1
+|-boost|p2a: Bellossom|spe|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Bellossom
+|-damage|p2a: Bellossom|0 fnt
+|faint|p2a: Bellossom
+|
+|upkeep
+
+|c|☆Pikqchu|damn
+
+|
+|switch|p2a: Masquerain|Masquerain, M|100/100
+|-damage|p2a: Masquerain|50/100|[from] Stealth Rock
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Necrozma|atk|1
+|turn|11
+
+|c|☆The Yeet King|you cant win
+
+|c|☆The Yeet King|stop already
+
+|c|☆Pikqchu|lol
+
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Masquerain
+|-damage|p2a: Masquerain|5/100
+|move|p2a: Masquerain|Sticky Web|p1a: Necrozma
+|-sidestart|p1: The Yeet King|move: Sticky Web
+|
+|upkeep
+|turn|12
+
+|c|☆Pikqchu|im just doing this for fun
+
+|
+|move|p1a: Necrozma|Photon Geyser|p2a: Masquerain
+|-damage|p2a: Masquerain|0 fnt
+|faint|p2a: Masquerain
+|
+|upkeep
+
+|c|☆The Yeet King|>sticky web on a necrozma
+
+|
+|switch|p2a: Meowstic|Meowstic, M|100/100
+|-damage|p2a: Meowstic|88/100|[from] Stealth Rock
+|turn|13
+
+|c|☆The Yeet King|ever heard of
+
+|c|☆The Yeet King|**OFFENSIVE PRESENCE**
+
+|
+|move|p2a: Meowstic|Trick|p1a: Necrozma
+|-activate|p2a: Meowstic|move: Trick|[of] p1a: Necrozma
+|-item|p1a: Necrozma|Choice Scarf|[from] move: Trick
+|-item|p2a: Meowstic|Weakness Policy|[from] move: Trick
+|move|p1a: Necrozma|Photon Geyser|p2a: Meowstic
+|-resisted|p2a: Meowstic
+|-damage|p2a: Meowstic|62/100
+|
+|upkeep
+|turn|14
+
+|c|☆The Yeet King|huh
+
+|c|☆The Yeet King|why
+
+|c|☆Pikqchu|idk
+
+|c|☆The Yeet King|photon geyser is super effective
+
+|
+|switch|p1a: Darkrai|Darkrai|100/100
+|-activate|p1a: Darkrai|move: Sticky Web
+|-unboost|p1a: Darkrai|spe|1
+|move|p2a: Meowstic|Thunder Wave|p1a: Darkrai
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Darkrai|[msg]
+|
+|upkeep
+|turn|15
+
+|c|☆The Yeet King|look fuck off already
+
+|
+|move|p2a: Meowstic|Trick|p1a: Darkrai
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Darkrai|[msg]
+|-zpower|p1a: Darkrai
+|move|p1a: Darkrai|Z-Hypnosis|p2a: Meowstic|[anim]Hypnosis|[miss]
+|-boost|p1a: Darkrai|spe|1|[zeffect]
+|-miss|p1a: Darkrai|p2a: Meowstic
+|
+|upkeep
+|turn|16
+
+|
+|switch|p2a: Unfezant|Unfezant, M|17/100
+|-damage|p2a: Unfezant|0 fnt|[from] Stealth Rock
+|faint|p2a: Unfezant
+|move|p1a: Darkrai|Hypnosis|p2: Unfezant|[notarget]
+|-notarget
+|
+|upkeep
+
+|
+|switch|p2a: Raichu|Raichu-Alola, F|100/100
+|-damage|p2a: Raichu|88/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p1a: Darkrai|Shadow Ball|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-damage|p2a: Raichu|1/100
+|move|p2a: Raichu|Focus Blast|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+
+|
+|switch|p1a: Marshadow|Marshadow|100/100
+|-activate|p1a: Marshadow|move: Sticky Web
+|-unboost|p1a: Marshadow|spe|1
+|-enditem|p1a: Marshadow|White Herb
+|-clearnegativeboost|p1a: Marshadow|[silent]
+|turn|18
+
+|
+|switch|p2a: Meowstic|Meowstic, M|62/100
+|-damage|p2a: Meowstic|50/100|[from] Stealth Rock
+|move|p1a: Marshadow|Spectral Thief|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|upkeep
+
+|
+|switch|p2a: Raichu|Raichu-Alola, F|1/100
+|-damage|p2a: Raichu|0 fnt|[from] Stealth Rock
+|faint|p2a: Raichu
+|
+|win|The Yeet King

@@ -1,0 +1,468 @@
+|init|battle
+|title|The Yeet King vs. Misora31
+|j|☆The Yeet King
+|j|☆Misora31
+|player|p1|The Yeet King|156
+|player|p2|Misora31|96
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togekiss, F|item
+|poke|p1|Necrozma|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Houndoom, F|item
+|poke|p1|Donphan, F|item
+|poke|p1|Ariados, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Registeel|item
+|poke|p2|Porygon2|item
+|poke|p2|Milotic, M|item
+|poke|p2|Glalie, F|item
+|teampreview
+|c|☆The Yeet King|whats up fam
+|c|☆Misora31|Heyo
+|c|☆Misora31|Here's to hoping I can actually win
+|c|☆The Yeet King|honestly I expected my man druddigon to show up
+|j| dlozpwox4v
+|c|☆Misora31|why?
+|c|☆Misora31|It was P2 or Druddigon
+|c|☆The Yeet King|ill tell ya later
+|
+|start
+|switch|p1a: bitch spider|Ariados, M|100/100
+|switch|p2a: Milotic|Milotic, M, shiny|100/100
+|turn|1
+
+|
+|move|p2a: Milotic|Scald|p1a: bitch spider
+|-damage|p1a: bitch spider|66/100
+|move|p1a: bitch spider|Sticky Web|p2a: Milotic
+|-sidestart|p2: Misora31|move: Sticky Web
+|
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+
+|
+|switch|p2a: Whimsicott|Whimsicott, M, shiny|100/100
+|-activate|p2a: Whimsicott|move: Sticky Web
+|-unboost|p2a: Whimsicott|spe|1
+|move|p1a: bitch spider|Toxic Spikes|p2a: Whimsicott
+|-sidestart|p2: Misora31|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+
+|
+|switch|p1a: fire doggo|Houndoom, F|100/100
+|move|p2a: Whimsicott|Defog|p1a: fire doggo
+|-hint|In gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: fire doggo|[msg]
+|
+|upkeep
+|turn|4
+
+|c|☆The Yeet King|booyah
+
+|
+|detailschange|p1a: fire doggo|Houndoom-Mega, F
+|-mega|p1a: fire doggo|Houndoom|Houndoominite
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Misora31|move: Tailwind
+|move|p1a: fire doggo|Will-O-Wisp|p2a: Whimsicott
+|-status|p2a: Whimsicott|brn
+|
+|-damage|p2a: Whimsicott|94/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Porygon2|Porygon2, shiny|100/100
+|-status|p2a: Porygon2|psn
+|-activate|p2a: Porygon2|move: Sticky Web
+|-unboost|p2a: Porygon2|spe|1
+|-ability|p2a: Porygon2|Solar Power|[from] ability: Trace|[of] p1a: fire doggo
+|move|p1a: fire doggo|Flamethrower|p2a: Porygon2
+|-damage|p2a: Porygon2|75/100 psn
+|
+|-damage|p2a: Porygon2|62/100 psn|[from] psn
+|upkeep
+|turn|6
+
+|
+|switch|p1a: bitch spider|Ariados, M|66/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100 psn
+|
+|-damage|p2a: Porygon2|88/100 psn|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Porygon2|Protect|p2a: Porygon2
+|-singleturn|p2a: Porygon2|Protect
+|move|p1a: bitch spider|Toxic Spikes|p2a: Porygon2
+|-sidestart|p2: Misora31|move: Toxic Spikes
+|
+|-damage|p2a: Porygon2|76/100 psn|[from] psn
+|-sideend|p2: Misora31|move: Tailwind
+|upkeep
+|turn|8
+
+|
+|move|p1a: bitch spider|X-Scissor|p2a: Porygon2
+|-damage|p2a: Porygon2|60/100 psn
+|move|p2a: Porygon2|Tri Attack|p1a: bitch spider
+|-damage|p1a: bitch spider|26/100
+|
+|-damage|p2a: Porygon2|47/100 psn|[from] psn
+|upkeep
+|turn|9
+
+|c|☆The Yeet King|fuck if im weak lmao
+
+|c|☆The Yeet King|hit me with that sweet 16 damage
+
+|
+|switch|p1a: star power|Togekiss, F|100/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|97/100 psn
+|
+|-damage|p2a: Porygon2|85/100 psn|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Porygon2|Protect|p2a: Porygon2
+|-singleturn|p2a: Porygon2|Protect
+|move|p1a: star power|Nasty Plot|p1a: star power
+|-boost|p1a: star power|spa|2
+|
+|-damage|p2a: Porygon2|73/100 psn|[from] psn
+|upkeep
+|turn|11
+
+|
+|move|p1a: star power|Air Slash|p2a: Porygon2
+|-damage|p2a: Porygon2|29/100 psn
+|-damage|p1a: star power|91/100|[from] item: Life Orb
+|move|p2a: Porygon2|Tri Attack|p1a: star power
+|-crit|p1a: star power
+|-damage|p1a: star power|55/100
+|
+|-damage|p2a: Porygon2|16/100 psn|[from] psn
+|upkeep
+|turn|12
+
+|c|☆The Yeet King|no ice beam?
+
+|c|☆The Yeet King|or tbolt
+
+|c|☆Misora31|No
+
+|
+|switch|p2a: Registeel|Registeel|100/100
+|-activate|p2a: Registeel|move: Sticky Web
+|-fail|p2a: Registeel|unboost|[from] ability: Clear Body|[of] p2a: Registeel
+|move|p1a: star power|Air Slash|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|78/100
+|-damage|p1a: star power|46/100|[from] item: Life Orb
+|
+|-heal|p2a: Registeel|84/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|c|☆The Yeet King|dang im curious to whats your 4th move
+
+|
+|switch|p1a: bitch spider|Ariados, M|26/100
+|move|p2a: Registeel|Thunder Wave|p1a: bitch spider
+|-status|p1a: bitch spider|par
+|
+|-heal|p2a: Registeel|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p1a: fire doggo|Houndoom-Mega, F|100/100
+|move|p2a: Registeel|Stealth Rock|p1a: fire doggo
+|-sidestart|p1: The Yeet King|move: Stealth Rock
+|
+|-heal|p2a: Registeel|96/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|c|☆Misora31|and this is basically where I get swept
+
+|
+|switch|p1a: GEOTUS|Donphan, F, shiny|100/100
+|-damage|p1a: GEOTUS|94/100|[from] Stealth Rock
+|switch|p2a: Porygon2|Porygon2, shiny|16/100 psn
+|-activate|p2a: Porygon2|move: Sticky Web
+|-unboost|p2a: Porygon2|spe|1
+|-ability|p2a: Porygon2|Sturdy|[from] ability: Trace|[of] p1a: GEOTUS
+|
+|-heal|p1a: GEOTUS|100/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|4/100 psn|[from] psn
+|upkeep
+|turn|16
+
+|c|☆The Yeet King|PLEASE WORK
+
+|
+|move|p2a: Porygon2|Protect|p2a: Porygon2
+|-singleturn|p2a: Porygon2|Protect
+|move|p1a: GEOTUS|Rapid Spin|p2a: Porygon2
+|-activate|p2a: Porygon2|move: Protect
+|
+|-damage|p2a: Porygon2|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Porygon2
+
+|c|☆The Yeet King|damn
+
+|
+|switch|p2a: Milotic|Milotic, M, shiny|100/100 brn
+|-activate|p2a: Milotic|move: Sticky Web
+|-unboost|p2a: Milotic|spe|1
+|turn|17
+
+|
+|move|p1a: GEOTUS|Rapid Spin|p2a: Milotic
+|-damage|p2a: Milotic|96/100 brn
+|-sideend|p1: The Yeet King|Stealth Rock|[from] move: Rapid Spin|[of] p1a: GEOTUS
+|move|p2a: Milotic|Scald|p1a: GEOTUS
+|-supereffective|p1a: GEOTUS
+|-damage|p1a: GEOTUS|28/100
+|-status|p1a: GEOTUS|brn
+|
+|-heal|p1a: GEOTUS|34/100 brn|[from] item: Leftovers
+|-damage|p1a: GEOTUS|28/100 brn|[from] brn
+|-damage|p2a: Milotic|90/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|c|☆The Yeet King|damnn dog dont burn my president
+
+|
+|switch|p1a: bitch spider|Ariados, M|26/100 par
+|move|p2a: Milotic|Scald|p1a: bitch spider
+|-damage|p1a: bitch spider|0 fnt
+|faint|p1a: bitch spider
+|
+|-damage|p2a: Milotic|84/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: discount lele|Necrozma|100/100
+|turn|19
+
+|
+|move|p1a: discount lele|Calm Mind|p1a: discount lele
+|-boost|p1a: discount lele|spa|1
+|-boost|p1a: discount lele|spd|1
+|move|p2a: Milotic|Toxic|p1a: discount lele
+|-status|p1a: discount lele|tox
+|
+|-damage|p1a: discount lele|94/100 tox|[from] psn
+|-damage|p2a: Milotic|78/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|-zpower|p1a: discount lele
+|move|p1a: discount lele|Shattered Psyche|p2a: Milotic|[zeffect]
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|-damage|p1a: discount lele|82/100 tox|[from] psn
+|upkeep
+
+|c|☆Misora31|sigh
+
+|c|☆Misora31|because of fucking course you crit
+
+|c|☆The Yeet King|no lie I shouldve seen that toxic coming in
+
+|
+|switch|p2a: Registeel|Registeel|96/100
+|-activate|p2a: Registeel|move: Sticky Web
+|-fail|p2a: Registeel|unboost|[from] ability: Clear Body|[of] p2a: Registeel
+|turn|21
+
+|c|☆The Yeet King|it kills anyway I think
+
+|
+|move|p1a: discount lele|Earth Power|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|55/100
+|move|p2a: Registeel|Seismic Toss|p1a: discount lele
+|-damage|p1a: discount lele|57/100 tox
+|
+|-heal|p2a: Registeel|61/100|[from] item: Leftovers
+|-damage|p1a: discount lele|39/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|c|☆Misora31|Nope
+
+|c|☆Misora31|max special defense
+
+|c|☆Misora31|Max special defense flame orb
+
+|
+|move|p1a: discount lele|Earth Power|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|19/100
+|move|p2a: Registeel|Seismic Toss|p1a: discount lele
+|-damage|p1a: discount lele|14/100 tox
+|
+|-heal|p2a: Registeel|25/100|[from] item: Leftovers
+|-damage|p1a: discount lele|0 fnt|[from] psn
+|upkeep
+|faint|p1a: discount lele
+
+|c|☆The Yeet King|why the flame orb tho?
+
+|
+|switch|p1a: fire doggo|Houndoom-Mega, F|100/100
+|turn|23
+
+|c|☆Misora31|For physical defense
+
+|
+|switch|p2a: Whimsicott|Whimsicott, M, shiny|94/100 brn
+|-activate|p2a: Whimsicott|move: Sticky Web
+|-unboost|p2a: Whimsicott|spe|1
+|move|p1a: fire doggo|Flamethrower|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+
+|c|☆The Yeet King|does flame orb add physical defense?
+
+|c|☆Misora31|Now I lose
+
+|c|☆Misora31|yes
+
+|c|☆Misora31|Marvel Scale
+
+|
+|switch|p2a: Terrakion|Terrakion, shiny|100/100
+|-status|p2a: Terrakion|tox
+|-activate|p2a: Terrakion|move: Sticky Web
+|-unboost|p2a: Terrakion|spe|1
+|turn|24
+
+|
+|switch|p1a: GEOTUS|Donphan, F, shiny|28/100 brn
+|-zpower|p2a: Terrakion
+|move|p2a: Terrakion|All-Out Pummeling|p1a: GEOTUS|[zeffect]
+|-damage|p1a: GEOTUS|0 fnt
+|faint|p1a: GEOTUS
+|
+|-damage|p2a: Terrakion|94/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: blowjob lips|Kingdra, M|100/100
+|turn|25
+
+|c|☆Misora31|sigh
+
+|c|☆Misora31|I fucking suck
+
+|c|☆Misora31|like I always do
+
+|c|☆The Yeet King|+1 0 SpA Necrozma Shattered Psyche (180 BP) vs. 252 HP / 252 SpD Milotic: 241-285 (61.1 - 72.3%) -- guaranteed 2HKO after Leftovers recovery
+
+|c|☆Misora31|ok
+
+|c|☆The Yeet King|actually necrozma wouldnt have killed
+
+|c|☆The Yeet King|after burn damage it wouldve killed tho
+
+|c|☆Misora31|Yeah
+
+|c|☆The Yeet King|did you go for recover?
+
+|
+|move|p1a: blowjob lips|Surf|p2a: Terrakion
+|-supereffective|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|upkeep
+
+|c|☆Misora31|Haze
+
+|c|☆The Yeet King|nice
+
+|
+|switch|p2a: Registeel|Registeel|25/100
+|-activate|p2a: Registeel|move: Sticky Web
+|-fail|p2a: Registeel|unboost|[from] ability: Clear Body|[of] p2a: Registeel
+|turn|26
+
+|
+|move|p1a: blowjob lips|Surf|p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|
+|upkeep
+
+|c|☆Misora31|Yep
+
+|c|☆Misora31|I don't think I can win this match
+
+|c|☆Misora31|at all
+
+|
+|switch|p2a: Glalie|Glalie, F, shiny|100/100
+|-activate|p2a: Glalie|move: Sticky Web
+|-unboost|p2a: Glalie|spe|1
+|-status|p2a: Glalie|tox
+|turn|27
+
+|c|☆The Yeet King|hey bro dont go so hard on yourself
+
+|c|☆Misora31|Naw
+
+|c|☆Misora31|dude
+
+|
+|move|p1a: blowjob lips|Surf|p2a: Glalie
+|-damage|p2a: Glalie|20/100 tox
+|move|p2a: Glalie|Freeze-Dry|p1a: blowjob lips
+|-supereffective|p1a: blowjob lips
+|-damage|p1a: blowjob lips|16/100
+|
+|-damage|p2a: Glalie|14/100 tox|[from] psn
+|upkeep
+|turn|28
+
+|c|☆The Yeet King|its ok to be ass sometimes
+
+|c|☆The Yeet King|you do have a tough matchup
+
+|
+|move|p1a: blowjob lips|Surf|p2a: Glalie
+|-damage|p2a: Glalie|0 fnt
+|faint|p2a: Glalie
+|
+|win|The Yeet King

@@ -1,0 +1,420 @@
+|init|battle
+|title|tonatiuh10 vs. Old_Man_Waffles
+|j|☆tonatiuh10
+|j|☆Old_Man_Waffles
+|player|p1|tonatiuh10|15
+|player|p2|Old_Man_Waffles|265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alomomola|Alomomola, L77, M|100/100
+|switch|p2a: Shedinja|Shedinja, L83|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Old_Man_Waffles)
+|
+|move|p1a: Alomomola|Toxic|p2a: Shedinja
+|-status|p2a: Shedinja|tox
+|move|p2a: Shedinja|Swords Dance|p2a: Shedinja
+|-boost|p2a: Shedinja|atk|2
+|
+|-damage|p2a: Shedinja|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Shedinja
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Wash, L75|100/100
+|turn|2
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Alomomola
+|-status|p1a: Alomomola|brn
+|move|p1a: Alomomola|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|-damage|p1a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Rotom|Volt Switch|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|15/100 brn
+|-damage|p2a: Rotom|85/100 tox|[from] item: Life Orb
+|
+|switch|p2a: Vaporeon|Vaporeon, L81, F|100/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p1a: Alomomola|21/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|15/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|move|p2a: Vaporeon|Heal Bell|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Heal Bell
+|-curestatus|p2: Rotom|tox|[msg]
+|move|p1a: Alomomola|Knock Off|p2a: Vaporeon
+|-damage|p2a: Vaporeon|91/100
+|-enditem|p2a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p1a: Alomomola
+|
+|-heal|p1a: Alomomola|65/100 brn|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Alomomola|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|65/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Vaporeon|Scald|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|46/100 brn
+|move|p1a: Alomomola|Toxic|p2a: Vaporeon
+|-status|p2a: Vaporeon|tox
+|
+|-heal|p1a: Alomomola|52/100 brn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|85/100 tox|[from] psn
+|-damage|p1a: Alomomola|46/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|inactive|tonatiuh10 has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Weezing|Weezing, L83, F|100/100
+|move|p2a: Vaporeon|Roar|p1a: Weezing
+|drag|p1a: Rotom|Rotom-Mow, L79|100/100
+|
+|-damage|p2a: Vaporeon|73/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Rotom|Volt Switch|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-damage|p2a: Vaporeon|54/100 tox|[from] psn
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Shiinotic|Shiinotic, L83, F|100/100
+|move|p1a: Rotom|Leaf Storm|p2a: Shiinotic
+|-resisted|p2a: Shiinotic
+|-damage|p2a: Shiinotic|66/100
+|-unboost|p1a: Rotom|spa|2
+|-damage|p1a: Rotom|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Shiinotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|tonatiuh10 has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|tonatiuh10 has 120 seconds left.
+
+|inactive|tonatiuh10 has 105 seconds left.
+
+|
+|move|p1a: Rotom|Volt Switch|p2a: Shiinotic
+|-resisted|p2a: Shiinotic
+|-damage|p2a: Shiinotic|64/100
+|-damage|p1a: Rotom|81/100|[from] item: Life Orb
+
+|
+|switch|p1a: Weezing|Weezing, L83, F|100/100
+|move|p2a: Shiinotic|Substitute|p2a: Shiinotic
+|-start|p2a: Shiinotic|Substitute
+|-damage|p2a: Shiinotic|39/100
+|
+|-heal|p2a: Shiinotic|45/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Weezing|Sludge Bomb|p2a: Shiinotic
+|-supereffective|p2a: Shiinotic
+|-end|p2a: Shiinotic|Substitute
+|move|p2a: Shiinotic|Strength Sap|p1a: Weezing
+|-unboost|p1a: Weezing|atk|1
+|-heal|p2a: Shiinotic|100/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Vaporeon|Vaporeon, L81, F|54/100 tox
+|move|p1a: Weezing|Sludge Bomb|p2a: Vaporeon
+|-damage|p2a: Vaporeon|31/100 tox
+|
+|-damage|p2a: Vaporeon|25/100 tox|[from] psn
+|upkeep
+|turn|12
+
+|
+|move|p2a: Vaporeon|Scald|p1a: Weezing
+|-damage|p1a: Weezing|58/100
+|move|p1a: Weezing|Toxic Spikes|p2a: Vaporeon
+|-sidestart|p2: Old_Man_Waffles|move: Toxic Spikes
+|
+|-heal|p1a: Weezing|64/100|[from] item: Black Sludge
+|-damage|p2a: Vaporeon|12/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Vaporeon|Scald|p1a: Weezing
+|-damage|p1a: Weezing|24/100
+|move|p1a: Weezing|Toxic Spikes|p2a: Vaporeon
+|-sidestart|p2: Old_Man_Waffles|move: Toxic Spikes
+|
+|-heal|p1a: Weezing|30/100|[from] item: Black Sludge
+|-damage|p2a: Vaporeon|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Vaporeon
+
+|
+|switch|p2a: Rotom|Rotom-Wash, L75|85/100
+|turn|14
+
+|
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Weezing
+|-activate|p1a: Weezing|move: Protect
+|
+|-heal|p1a: Weezing|36/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Rotom|Volt Switch|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|-damage|p2a: Rotom|75/100|[from] item: Life Orb
+|faint|p1a: Weezing
+
+|
+|switch|p2a: Chesnaught|Chesnaught, L79, M|100/100
+|-status|p2a: Chesnaught|tox
+|
+|-damage|p2a: Chesnaught|95/100 tox|[from] psn
+|upkeep
+
+|inactive|tonatiuh10 has 135 seconds left.
+
+|
+|switch|p1a: Zebstrika|Zebstrika, L83, F|100/100
+|turn|16
+
+|
+|switch|p2a: Rotom|Rotom-Wash, L75|75/100
+|move|p1a: Zebstrika|Overheat|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|50/100
+|-unboost|p1a: Zebstrika|spa|2
+|
+|upkeep
+|turn|17
+
+|inactive|tonatiuh10 has 135 seconds left.
+
+|
+|switch|p1a: Alomomola|Alomomola, L77, M|80/100 brn
+|move|p2a: Rotom|Hydro Pump|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|49/100 brn
+|-damage|p2a: Rotom|40/100|[from] item: Life Orb
+|
+|-heal|p1a: Alomomola|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|49/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Rotom|Volt Switch|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-damage|p2a: Rotom|31/100|[from] item: Life Orb
+|faint|p1a: Alomomola
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Shiinotic|Shiinotic, L83, F|100/100
+|-status|p2a: Shiinotic|tox
+|
+|-damage|p2a: Shiinotic|95/100 tox|[from] psn
+|upkeep
+
+|inactive|tonatiuh10 has 135 seconds left.
+
+|
+|switch|p1a: Persian|Persian, L83, M|100/100
+|turn|19
+
+|
+|move|p1a: Persian|Fake Out|p2a: Shiinotic
+|-damage|p2a: Shiinotic|66/100 tox
+|-damage|p1a: Persian|91/100|[from] item: Life Orb
+|cant|p2a: Shiinotic|flinch
+|
+|-heal|p2a: Shiinotic|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Shiinotic|60/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|inactive|tonatiuh10 has 135 seconds left.
+
+|
+|move|p1a: Persian|Return|p2a: Shiinotic
+|-damage|p2a: Shiinotic|7/100 tox
+|-damage|p1a: Persian|81/100|[from] item: Life Orb
+|move|p2a: Shiinotic|Strength Sap|p1a: Persian
+|-unboost|p1a: Persian|atk|1
+|-heal|p2a: Shiinotic|77/100 tox
+|
+|-heal|p2a: Shiinotic|83/100 tox|[from] item: Leftovers
+|-damage|p2a: Shiinotic|65/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Persian|U-turn|p2a: Shiinotic
+|-damage|p2a: Shiinotic|48/100 tox
+|-damage|p1a: Persian|71/100|[from] item: Life Orb
+
+|
+|switch|p1a: Zebstrika|Zebstrika, L83, F|100/100
+|move|p2a: Shiinotic|Leech Seed|p1a: Zebstrika
+|-ability|p1a: Zebstrika|Sap Sipper|boost
+|-boost|p1a: Zebstrika|atk|1
+|
+|-heal|p2a: Shiinotic|54/100 tox|[from] item: Leftovers
+|-damage|p2a: Shiinotic|30/100 tox|[from] psn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Zebstrika|Thunderbolt|p2a: Shiinotic
+|-resisted|p2a: Shiinotic
+|-damage|p2a: Shiinotic|7/100 tox
+|move|p2a: Shiinotic|Moonblast|p1a: Zebstrika
+|-damage|p1a: Zebstrika|54/100
+|
+|-heal|p2a: Shiinotic|13/100 tox|[from] item: Leftovers
+|-damage|p2a: Shiinotic|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Shiinotic
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Marshadow|Marshadow, L73|100/100
+|-status|p2a: Marshadow|tox
+|turn|23
+
+|inactive|tonatiuh10 has 135 seconds left.
+
+|
+|move|p1a: Zebstrika|Thunderbolt|p2a: Marshadow
+|-damage|p2a: Marshadow|48/100 tox
+|move|p2a: Marshadow|Bulk Up|p2a: Marshadow
+|-boost|p2a: Marshadow|atk|1
+|-boost|p2a: Marshadow|def|1
+|
+|-damage|p2a: Marshadow|42/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Zebstrika|Thunderbolt|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|upkeep
+
+|
+|switch|p2a: Chesnaught|Chesnaught, L79, M|95/100 tox
+|turn|25
+
+|
+|switch|p1a: Rotom|Rotom-Mow, L79|81/100
+|move|p2a: Chesnaught|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|45/100
+|-heal|p2a: Chesnaught|100/100 tox|[from] drain|[of] p1a: Rotom
+|
+|-damage|p2a: Chesnaught|95/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Chesnaught
+|-fail|p2a: Chesnaught
+|move|p2a: Chesnaught|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|12/100
+|-heal|p2a: Chesnaught|100/100 tox|[from] drain|[of] p1a: Rotom
+|
+|-damage|p2a: Chesnaught|89/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p1a: Rotom|Hidden Power|p2a: Chesnaught
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|38/100 tox
+|-damage|p1a: Rotom|2/100|[from] item: Life Orb
+|move|p2a: Chesnaught|Drain Punch|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-heal|p2a: Chesnaught|39/100 tox|[from] drain|[of] p1a: Rotom
+|faint|p1a: Rotom
+|
+|-heal|p2a: Chesnaught|45/100 tox|[from] item: Leftovers
+|-damage|p2a: Chesnaught|27/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p1a: Persian|Persian, L83, M|71/100
+|turn|28
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Persian|Fake Out|p2a: Chesnaught
+|-damage|p2a: Chesnaught|6/100 tox
+|-damage|p1a: Persian|61/100|[from] item: Life Orb
+|cant|p2a: Chesnaught|flinch
+|
+|-heal|p2a: Chesnaught|12/100 tox|[from] item: Leftovers
+|-damage|p2a: Chesnaught|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Chesnaught
+
+|
+|switch|p2a: Rotom|Rotom-Wash, L75|31/100
+|turn|29
+
+|
+|move|p1a: Persian|Return|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-damage|p1a: Persian|51/100|[from] item: Life Orb
+|faint|p2a: Rotom
+|
+|win|tonatiuh10

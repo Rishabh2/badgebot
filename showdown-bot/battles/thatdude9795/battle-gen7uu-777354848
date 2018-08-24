@@ -1,0 +1,274 @@
+|init|battle
+|title|thatdude9795 vs. SnowinGhosts
+|j|☆thatdude9795
+|j|☆SnowinGhosts
+|player|p1|thatdude9795|196
+|player|p2|SnowinGhosts|80
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lycanroc, F|item
+|poke|p1|Crawdaunt, F|item
+|poke|p1|Roserade, M|item
+|poke|p1|Machoke, F|item
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Gligar, F|item
+|poke|p2|Altaria, F|item
+|poke|p2|Infernape, M|item
+|poke|p2|Gengar, F|item
+|poke|p2|Blissey, F|item
+|poke|p2|Latias, F|item
+|poke|p2|Stakataka|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SnowinGhosts)
+|inactive|thatdude9795 has 135 seconds left.
+|
+|start
+|switch|p1a: Gligar|Gligar, F, shiny|100/100
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|1
+|
+|move|p2a: Infernape|Stealth Rock|p1a: Gligar
+|-sidestart|p1: thatdude9795|move: Stealth Rock
+|move|p1a: Gligar|Stealth Rock|p2a: Infernape
+|-sidestart|p2: SnowinGhosts|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Infernape|U-turn|p1a: Gligar
+|-resisted|p1a: Gligar
+|-damage|p1a: Gligar|92/100
+|-damage|p2a: Infernape|91/100|[from] item: Life Orb
+|
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|move|p1a: Gligar|Swords Dance|p1a: Gligar
+|-boost|p1a: Gligar|atk|2
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p1a: Gligar|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|29/100
+|move|p2a: Blissey|Ice Beam|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|25/100
+|-status|p1a: Gligar|frz
+|
+|-heal|p2a: Blissey|35/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆thatdude9795|HAX
+|c|☆thatdude9795|;)
+|inactive|thatdude9795 has 135 seconds left.
+|
+|cant|p1a: Gligar|frz
+|move|p2a: Blissey|Wish|p2a: Blissey
+|
+|-heal|p2a: Blissey|41/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|c|☆SnowinGhosts|lol
+|
+|-curestatus|p1a: Gligar|frz|[msg]
+|move|p1a: Gligar|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|c|☆SnowinGhosts|hax
+|c|☆thatdude9795|lol
+|
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|6
+|
+|move|p2a: Latias|Ice Beam|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|faint|p1a: Gligar
+|
+|upkeep
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|7
+
+|inactive|SnowinGhosts has 135 seconds left.
+
+|
+|switch|p2a: Gengar|Gengar, F|100/100
+|-damage|p2a: Gengar|88/100|[from] Stealth Rock
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+
+|
+|switch|p1a: Roserade|Roserade, M, shiny|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|turn|9
+
+|inactive|SnowinGhosts has 135 seconds left.
+
+|
+|switch|p2a: Stakataka|Stakataka|100/100
+|-damage|p2a: Stakataka|94/100|[from] Stealth Rock
+|move|p1a: Roserade|Dazzling Gleam|p2a: Stakataka
+|-resisted|p2a: Stakataka
+|-damage|p2a: Stakataka|79/100
+|
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Machoke|Machoke, F|100/100
+|-damage|p1a: Machoke|94/100|[from] Stealth Rock
+|move|p2a: Stakataka|Iron Head|p1a: Machoke
+|-damage|p1a: Machoke|63/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Machoke|Bulk Up|p1a: Machoke
+|-boost|p1a: Machoke|atk|1
+|-boost|p1a: Machoke|def|1
+|move|p2a: Stakataka|Iron Head|p1a: Machoke
+|-damage|p1a: Machoke|41/100
+|
+|upkeep
+|turn|12
+
+|inactive|SnowinGhosts has 135 seconds left.
+
+|inactive|SnowinGhosts has 120 seconds left.
+
+|
+|switch|p2a: Infernape|Infernape, M|91/100
+|-damage|p2a: Infernape|78/100|[from] Stealth Rock
+|move|p1a: Machoke|Cross Chop|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+
+|inactive|SnowinGhosts has 135 seconds left.
+
+|
+|switch|p2a: Gengar|Gengar, F|88/100
+|-damage|p2a: Gengar|76/100|[from] Stealth Rock
+|turn|13
+
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Machoke
+|-damage|p1a: Machoke|13/100
+|-status|p1a: Machoke|par
+|move|p1a: Machoke|Knock Off|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-enditem|p2a: Gengar|Choice Scarf|[from] move: Knock Off|[of] p1a: Machoke
+|faint|p2a: Gengar
+|
+|upkeep
+
+|
+|switch|p2a: Altaria|Altaria, F|100/100
+|-damage|p2a: Altaria|76/100|[from] Stealth Rock
+|turn|14
+
+|
+|detailschange|p2a: Altaria|Altaria-Mega, F
+|-mega|p2a: Altaria|Altaria|Altarianite
+|move|p2a: Altaria|Play Rough|p1a: Machoke
+|-supereffective|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|upkeep
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl, M, shiny|100/100
+|-damage|p1a: Aerodactyl|76/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p1a: Aerodactyl|Ice Fang|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|35/100
+|move|p2a: Altaria|Outrage|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|upkeep
+
+|
+|switch|p1a: Roserade|Roserade, M, shiny|88/100
+|-damage|p1a: Roserade|76/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p1a: Roserade|Hidden Power|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|upkeep
+
+|
+|switch|p2a: Latias|Latias, F|88/100
+|-damage|p2a: Latias|76/100|[from] Stealth Rock
+|turn|17
+
+|inactive|SnowinGhosts has 135 seconds left.
+
+|inactive|SnowinGhosts has 120 seconds left.
+
+|
+|move|p1a: Roserade|Hidden Power|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|44/100
+|move|p2a: Latias|Psyshock|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+
+|
+|switch|p1a: Lycanroc|Lycanroc, F, shiny|100/100
+|-damage|p1a: Lycanroc|88/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Lycanroc|Swords Dance|p1a: Lycanroc
+|-boost|p1a: Lycanroc|atk|2
+|move|p2a: Latias|Draco Meteor|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|-unboost|p2a: Latias|spa|2
+|faint|p1a: Lycanroc
+|
+|win|SnowinGhosts

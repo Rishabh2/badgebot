@@ -1,0 +1,293 @@
+|init|battle
+|title|dshmucker vs. H2owsome
+|j|☆dshmucker
+|j|☆H2owsome
+|player|p1|dshmucker|265
+|player|p2|H2owsome|120
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Kommo-o, F|item
+|poke|p1|Florges, F|item
+|poke|p1|Golisopod, F|item
+|poke|p1|Honchkrow, M|item
+|poke|p1|Empoleon, F|item
+|poke|p1|Rotom-Heat|item
+|poke|p2|Mismagius, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Haxorus, F|item
+|poke|p2|Incineroar, M|item
+|poke|p2|Nihilego|item
+|poke|p2|Ampharos, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+
+|
+|start
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|switch|p2a: Ampharos|Ampharos, F|100/100
+|turn|1
+
+|c|☆H2owsome|sorry for the delay, had to plug in laptop
+
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|detailschange|p2a: Ampharos|Ampharos-Mega, F
+|-mega|p2a: Ampharos|Ampharos|Ampharosite
+|-ability|p2a: Ampharos|Mold Breaker
+|move|p2a: Ampharos|Thunderbolt|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|41/100
+|
+|upkeep
+|turn|2
+
+|c|☆dshmucker|thats okay
+
+|
+|move|p1a: Rotom|Volt Switch|p2a: Ampharos
+|-resisted|p2a: Ampharos
+|-damage|p2a: Ampharos|93/100
+
+|
+|switch|p1a: Florges|Florges, F|100/100
+|move|p2a: Ampharos|Agility|p2a: Ampharos
+|-boost|p2a: Ampharos|spe|2
+|
+|upkeep
+|turn|3
+
+|
+|switch|p2a: Nihilego|Nihilego|100/100
+|move|p1a: Florges|Moonblast|p2a: Nihilego
+|-resisted|p2a: Nihilego
+|-damage|p2a: Nihilego|89/100
+|-unboost|p2a: Nihilego|spa|1
+|
+|-heal|p2a: Nihilego|95/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Nihilego|Stealth Rock|p1a: Kommo-o
+|-sidestart|p1: dshmucker|move: Stealth Rock
+|
+|-heal|p2a: Nihilego|100/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|move|p2a: Nihilego|Toxic Spikes|p1a: Kommo-o
+|-sidestart|p1: dshmucker|move: Toxic Spikes
+|move|p1a: Kommo-o|Dragon Dance|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|spe|1
+|
+|upkeep
+|turn|6
+
+|
+|move|p1a: Kommo-o|Outrage|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|faint|p2a: Nihilego
+|
+|upkeep
+
+|
+|switch|p2a: Mismagius|Mismagius, M|100/100
+|turn|7
+
+|
+|move|p1a: Kommo-o|Outrage|p2a: Mismagius|[from]lockedmove
+|-enditem|p2a: Mismagius|Focus Sash
+|-damage|p2a: Mismagius|1/100
+|-start|p1a: Kommo-o|confusion|[fatigue]
+|move|p2a: Mismagius|Dazzling Gleam|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+
+|
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|-status|p1a: Golisopod|psn
+|-damage|p1a: Golisopod|76/100 psn|[from] Stealth Rock
+|turn|8
+
+|
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Golisopod|atk|1
+|move|p1a: Golisopod|First Impression|p2a: Incineroar
+|-damage|p2a: Incineroar|50/100
+|
+|-damage|p1a: Golisopod|63/100 psn|[from] psn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Rotom|Rotom-Heat|41/100
+|-damage|p1a: Rotom|16/100|[from] Stealth Rock
+|-enditem|p1a: Rotom|Iapapa Berry|[eat]
+|-heal|p1a: Rotom|66/100|[from] item: Iapapa Berry
+|move|p2a: Incineroar|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|19/100
+|
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Swampert
+|-immune|p2a: Swampert|[msg]
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Swampert
+|-status|p2a: Swampert|brn
+|move|p2a: Swampert|Scald|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Swampert|94/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Empoleon|Empoleon, F|100/100
+|-damage|p1a: Empoleon|94/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Swampert|Earth Power|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|43/100
+|move|p1a: Empoleon|Scald|p2a: Swampert
+|-damage|p2a: Swampert|65/100 brn
+|
+|-heal|p1a: Empoleon|49/100|[from] item: Leftovers
+|-heal|p2a: Swampert|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|65/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p2a: Swampert|Earth Power|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|-heal|p2a: Swampert|71/100 brn|[from] item: Leftovers
+|-damage|p2a: Swampert|65/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|-damage|p1a: Honchkrow|76/100|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Honchkrow|Brave Bird|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|-damage|p1a: Honchkrow|50/100|[from] Recoil
+|-damage|p1a: Honchkrow|40/100|[from] item: Life Orb
+|faint|p2a: Swampert
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Incineroar|Incineroar, M|50/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Honchkrow|atk|1
+|turn|15
+
+|
+|move|p1a: Honchkrow|Sucker Punch|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|26/100
+|-damage|p1a: Honchkrow|30/100|[from] item: Life Orb
+|move|p2a: Incineroar|U-turn|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+
+|
+|switch|p2a: Haxorus|Haxorus, F|100/100
+|-ability|p2a: Haxorus|Unnerve|p1: dshmucker
+|
+|upkeep
+
+|
+|switch|p1a: Golisopod|Golisopod, F|63/100 psn
+|-damage|p1a: Golisopod|38/100 psn|[from] Stealth Rock
+|-activate|p1a: Golisopod|ability: Emergency Exit
+
+|
+|switch|p1a: Florges|Florges, F|100/100
+|-status|p1a: Florges|psn
+|-damage|p1a: Florges|88/100 psn|[from] Stealth Rock
+|turn|16
+
+|
+|move|p2a: Haxorus|Dragon Dance|p2a: Haxorus
+|-boost|p2a: Haxorus|atk|1
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: Florges|Moonblast|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|1/100
+|
+|-heal|p1a: Florges|94/100 psn|[from] item: Leftovers
+|-damage|p1a: Florges|82/100 psn|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Haxorus|Poison Jab|p1a: Florges
+|-supereffective|p1a: Florges
+|-damage|p1a: Florges|0 fnt
+|faint|p1a: Florges
+|
+|upkeep
+
+|
+|switch|p1a: Golisopod|Golisopod, F|38/100 psn
+|-damage|p1a: Golisopod|13/100 psn|[from] Stealth Rock
+|turn|18
+
+|
+|move|p1a: Golisopod|Aqua Jet|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|-damage|p1a: Golisopod|1/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p2a: Incineroar|Incineroar, M|26/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Golisopod|atk|1
+|turn|19
+
+|
+|switch|p2a: Ampharos|Ampharos-Mega, F|93/100
+|-ability|p2a: Ampharos|Mold Breaker
+|move|p1a: Golisopod|Aqua Jet|p2a: Ampharos
+|-resisted|p2a: Ampharos
+|-damage|p2a: Ampharos|83/100
+|
+|-damage|p1a: Golisopod|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Golisopod
+|
+|win|H2owsome

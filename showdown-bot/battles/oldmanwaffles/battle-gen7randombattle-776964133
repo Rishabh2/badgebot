@@ -1,0 +1,213 @@
+|init|battle
+|title|CriticoNegativo vs. Old_Man_Waffles
+|j|☆CriticoNegativo
+|j|☆Old_Man_Waffles
+|player|p1|CriticoNegativo|102
+|player|p2|Old_Man_Waffles|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lapras|Lapras, L83, F|100/100
+|switch|p2a: Rapidash|Rapidash, L83, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CriticoNegativo)
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|move|p2a: Rapidash|Wild Charge|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|50/100
+|-damage|p2a: Rapidash|82/100|[from] Recoil
+|-damage|p2a: Rapidash|73/100|[from] item: Life Orb
+|move|p1a: Lapras|Hydro Pump|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|
+|-heal|p1a: Lapras|56/100|[from] item: Leftovers
+|upkeep
+|inactive|Old_Man_Waffles has 135 seconds left.
+|inactive|Old_Man_Waffles has 120 seconds left.
+|
+|switch|p2a: Shaymin|Shaymin-Sky, L73|100/100
+|turn|2
+|
+|move|p2a: Shaymin|Leech Seed|p1a: Lapras
+|-start|p1a: Lapras|move: Leech Seed
+|move|p1a: Lapras|Ice Beam|p2a: Shaymin
+|-supereffective|p2a: Shaymin
+|-damage|p2a: Shaymin|0 fnt
+|faint|p2a: Shaymin
+|
+|-heal|p1a: Lapras|62/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Feraligatr|Feraligatr, L79, M|100/100
+|turn|3
+
+|
+|switch|p1a: Decidueye|Decidueye, L81, F|100/100
+|move|p2a: Feraligatr|Swords Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|2
+|
+|upkeep
+|turn|4
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Feraligatr|Liquidation|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|39/100
+|move|p1a: Decidueye|Leaf Blade|p2a: Feraligatr
+|-supereffective|p2a: Feraligatr
+|-damage|p2a: Feraligatr|29/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Lapras|Lapras, L83, F|62/100
+|move|p2a: Feraligatr|Aqua Jet|p1a: Lapras
+|-heal|p1a: Lapras|87/100|[from] ability: Water Absorb|[of] p2a: Feraligatr
+|
+|-heal|p1a: Lapras|93/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Feraligatr|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|36/100
+|-damage|p2a: Feraligatr|19/100|[from] item: Life Orb
+|move|p1a: Lapras|Thunderbolt|p2a: Feraligatr
+|-supereffective|p2a: Feraligatr
+|-damage|p2a: Feraligatr|0 fnt
+|faint|p2a: Feraligatr
+|
+|-heal|p1a: Lapras|42/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Gourgeist|Gourgeist, L83, M|100/100
+|-item|p1a: Lapras|Leftovers|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|7
+
+|
+|switch|p1a: Simisear|Simisear, L83, M|100/100
+|move|p2a: Gourgeist|Seed Bomb|p1a: Simisear
+|-resisted|p1a: Simisear
+|-damage|p1a: Simisear|81/100
+|
+|-heal|p1a: Simisear|87/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Hoopa|Hoopa, L81|100/100
+|move|p1a: Simisear|Substitute|p1a: Simisear
+|-start|p1a: Simisear|Substitute
+|-damage|p1a: Simisear|62/100
+|
+|-heal|p1a: Simisear|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Hoopa|Shadow Ball|p1a: Simisear
+|-end|p1a: Simisear|Substitute
+|move|p1a: Simisear|Fire Blast|p2a: Hoopa
+|-damage|p2a: Hoopa|65/100
+|-status|p2a: Hoopa|brn
+|
+|-heal|p1a: Simisear|75/100|[from] item: Leftovers
+|-damage|p2a: Hoopa|59/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: Hoopa|Shadow Ball|p1a: Simisear
+|-damage|p1a: Simisear|23/100
+|move|p1a: Simisear|Fire Blast|p2a: Hoopa|[miss]
+|-miss|p1a: Simisear|p2a: Hoopa
+|
+|-heal|p1a: Simisear|29/100|[from] item: Leftovers
+|-damage|p2a: Hoopa|53/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p2a: Hoopa|Shadow Ball|p1a: Simisear
+|-crit|p1a: Simisear
+|-damage|p1a: Simisear|0 fnt
+|faint|p1a: Simisear
+|
+|-damage|p2a: Hoopa|47/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Charizard|Charizard, L75, F|100/100
+|turn|12
+
+|
+|detailschange|p1a: Charizard|Charizard-Mega-X, L75, F
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p2a: Hoopa|Shadow Ball|p1a: Charizard
+|-damage|p1a: Charizard|43/100
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|
+|-damage|p2a: Hoopa|41/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+
+|
+|switch|p2a: Gourgeist|Gourgeist, L83, M|100/100
+|-item|p1a: Charizard|Charizardite X|[from] ability: Frisk|[of] p2a: Gourgeist|[identify]
+|turn|14
+
+|
+|move|p1a: Charizard|Flare Blitz|p2a: Gourgeist
+|-supereffective|p2a: Gourgeist
+|-damage|p2a: Gourgeist|0 fnt
+|-damage|p1a: Charizard|10/100|[from] Recoil
+|faint|p2a: Gourgeist
+|
+|upkeep
+
+|
+|switch|p2a: Infernape|Infernape, L77, M|100/100
+|turn|15
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Infernape
+|-damage|p2a: Infernape|10/100
+|move|p2a: Infernape|Hidden Power|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-damage|p2a: Infernape|0 fnt|[from] item: Life Orb
+|faint|p1a: Charizard
+|faint|p2a: Infernape
+|
+|win|CriticoNegativo

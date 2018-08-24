@@ -1,0 +1,679 @@
+|init|battle
+|title|Ken16303 vs. The Yeet King
+|j|☆Ken16303
+|j|☆The Yeet King
+|player|p1|Ken16303|293
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Thundurus-Therian, M|item
+|poke|p1|Flygon, F|item
+|poke|p1|Incineroar, M|item
+|poke|p1|Gallade, M|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Durant, F|item
+|poke|p2|Diancie|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Muk-Alola, M|item
+|poke|p2|Celesteela|item
+|poke|p2|Jolteon, F|item
+|teampreview
+|c|☆The Yeet King|alright
+|c|☆Ken16303|one sec
+|c|☆The Yeet King|good luck bro
+|c|☆The Yeet King|I wouldve run mega gyara
+
+|j| Aqua Admin Doggo
+
+|c|☆Ken16303|Good Luck!
+
+|
+|start
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|switch|p2a: hard on|Celesteela|100/100
+|turn|1
+
+|c| Aqua Admin Doggo|Hello
+
+|c|☆The Yeet King|hello
+
+|c|☆Ken16303|hi
+
+|c|☆The Yeet King|why share it in the league?
+
+|
+|move|p1a: Skarmory|Spikes|p2a: hard on
+|-sidestart|p2: The Yeet King|Spikes
+|move|p2a: hard on|Leech Seed|p1a: Skarmory
+|-start|p1a: Skarmory|move: Leech Seed
+|
+|-damage|p1a: Skarmory|88/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|2
+
+|c| Aqua Admin Doggo|Why not?
+
+|c|☆Ken16303|people in the server love a good battle watchin'
+
+|c|☆The Yeet King|this is a mock battle from another league so I figured no one would care
+
+|c|☆The Yeet King|but its alright if you join
+
+|
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: hard on|Substitute|p2a: hard on
+|-start|p2a: hard on|Substitute
+|-damage|p2a: hard on|76/100
+|
+|-heal|p2a: hard on|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: hard on|Leech Seed|p1a: Thundurus
+|-start|p1a: Thundurus|move: Leech Seed
+|
+|-heal|p2a: hard on|88/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|88/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|97/100|[silent]
+|upkeep
+|turn|4
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|move|p1a: Thundurus|Thunderbolt|p2a: hard on
+|-activate|p2a: hard on|move: Protect
+|
+|-heal|p2a: hard on|100/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|76/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|5
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: hard on
+|-supereffective|p2a: hard on
+|-end|p2a: hard on|Substitute
+|move|p2a: hard on|Substitute|p2a: hard on
+|-start|p2a: hard on|Substitute
+|-damage|p2a: hard on|76/100
+|
+|-heal|p2a: hard on|82/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|63/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|91/100|[silent]
+|upkeep
+|turn|6
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|move|p1a: Thundurus|Thunderbolt|p2a: hard on
+|-activate|p2a: hard on|move: Protect
+|
+|-heal|p2a: hard on|97/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|51/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|100/100|[silent]
+|upkeep
+|turn|7
+
+|c|☆The Yeet King|gee
+
+|c|☆Ken16303|hmm
+
+|l| Aqua Admin Doggo
+
+|c|☆Ken16303|doggo didnt like that lmaoo
+
+|
+|move|p1a: Thundurus|Nasty Plot|p1a: Thundurus
+|-boost|p1a: Thundurus|spa|2
+|move|p2a: hard on|Leech Seed|p1a: Thundurus
+|-fail|p2a: hard on
+|
+|-damage|p1a: Thundurus|39/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|8
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|move|p1a: Thundurus|Thunderbolt|p2a: hard on
+|-activate|p2a: hard on|move: Protect
+|
+|-damage|p1a: Thundurus|26/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|9
+
+|c|☆The Yeet King|whyd you do that
+
+|j| Aqua Admin Doggo
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: hard on
+|-supereffective|p2a: hard on
+|-end|p2a: hard on|Substitute
+|move|p2a: hard on|Substitute|p2a: hard on
+|-start|p2a: hard on|Substitute
+|-damage|p2a: hard on|76/100
+|
+|-heal|p2a: hard on|82/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|14/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|91/100|[silent]
+|upkeep
+|turn|10
+
+|c|☆Ken16303|//shrug
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|move|p1a: Thundurus|Thunderbolt|p2a: hard on
+|-activate|p2a: hard on|move: Protect
+|
+|-heal|p2a: hard on|97/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|2/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|100/100|[silent]
+|upkeep
+|turn|11
+
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: hard on
+|-supereffective|p2a: hard on
+|-end|p2a: hard on|Substitute
+|move|p2a: hard on|Substitute|p2a: hard on
+|-start|p2a: hard on|Substitute
+|-damage|p2a: hard on|76/100
+|
+|-heal|p2a: hard on|82/100|[from] item: Leftovers
+|-damage|p1a: Thundurus|0 fnt|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|82/100|[silent]
+|upkeep
+|faint|p1a: Thundurus
+
+|c|☆The Yeet King|bro
+
+|
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-immune|p2a: hard on|[msg]
+|turn|12
+
+|c|☆The Yeet King|you couldve switched out
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|move|p1a: Incineroar|Knock Off|p2a: hard on
+|-activate|p2a: hard on|move: Protect
+|
+|-heal|p2a: hard on|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|c|☆The Yeet King|didnt have to sacc thundy
+
+|c|☆Ken16303|i mean
+
+|c|☆Ken16303|yeah lol
+
+|
+|move|p2a: hard on|Leech Seed|p1a: Incineroar
+|-start|p1a: Incineroar|move: Leech Seed
+|move|p1a: Incineroar|Knock Off|p2a: hard on
+|-end|p2a: hard on|Substitute
+|
+|-heal|p2a: hard on|94/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|88/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|100/100|[silent]
+|upkeep
+|turn|14
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|move|p1a: Incineroar|Knock Off|p2a: hard on
+|-activate|p2a: hard on|move: Protect
+|
+|-damage|p1a: Incineroar|76/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|15
+
+|
+|move|p2a: hard on|Substitute|p2a: hard on
+|-start|p2a: hard on|Substitute
+|-damage|p2a: hard on|76/100
+|move|p1a: Incineroar|Knock Off|p2a: hard on
+|-end|p2a: hard on|Substitute
+|
+|-heal|p2a: hard on|82/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|63/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|94/100|[silent]
+|upkeep
+|turn|16
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|move|p1a: Incineroar|Knock Off|p2a: hard on
+|-activate|p2a: hard on|move: Protect
+|
+|-heal|p2a: hard on|99/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|51/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|100/100|[silent]
+|upkeep
+|turn|17
+
+|
+|move|p2a: hard on|Substitute|p2a: hard on
+|-start|p2a: hard on|Substitute
+|-damage|p2a: hard on|76/100
+|move|p1a: Incineroar|Flare Blitz|p2a: hard on
+|-supereffective|p2a: hard on
+|-end|p2a: hard on|Substitute
+|-damage|p1a: Incineroar|42/100|[from] Recoil|[of] p2a: hard on
+|
+|-heal|p2a: hard on|82/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|30/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|94/100|[silent]
+|upkeep
+|turn|18
+
+|
+|move|p2a: hard on|Substitute|p2a: hard on
+|-start|p2a: hard on|Substitute
+|-damage|p2a: hard on|69/100
+|move|p1a: Incineroar|Flare Blitz|p2a: hard on
+|-supereffective|p2a: hard on
+|-end|p2a: hard on|Substitute
+|-damage|p1a: Incineroar|22/100|[from] Recoil|[of] p2a: hard on
+|
+|-heal|p2a: hard on|75/100|[from] item: Leftovers
+|-damage|p1a: Incineroar|9/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|87/100|[silent]
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Durant|Durant, F|100/100
+|move|p2a: hard on|Protect|p2a: hard on
+|-fail|p2a: hard on
+|
+|-heal|p2a: hard on|93/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|c|☆The Yeet King|bro wtf
+
+|c|☆The Yeet King|WP
+
+|
+|move|p1a: Durant|Thunder Wave|p2a: hard on
+|-status|p2a: hard on|par
+|move|p2a: hard on|Leech Seed|p1a: Durant
+|-start|p1a: Durant|move: Leech Seed
+|
+|-heal|p2a: hard on|99/100 par|[from] item: Leftovers
+|-damage|p1a: Durant|88/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|100/100 par|[silent]
+|upkeep
+|turn|21
+
+|
+|cant|p1a: Durant|ability: Truant
+|move|p2a: hard on|Substitute|p2a: hard on
+|-start|p2a: hard on|Substitute
+|-damage|p2a: hard on|76/100 par
+|
+|-heal|p2a: hard on|82/100 par|[from] item: Leftovers
+|-damage|p1a: Durant|76/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|90/100 par|[silent]
+|upkeep
+|turn|22
+
+|
+|move|p1a: Durant|Thunder Wave|p2a: hard on
+|-fail|p2a: hard on
+|move|p2a: hard on|Heavy Slam|p1a: Durant
+|-resisted|p1a: Durant
+|-damage|p1a: Durant|53/100
+|
+|-heal|p2a: hard on|96/100 par|[from] item: Leftovers
+|-damage|p1a: Durant|40/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|100/100 par|[silent]
+|upkeep
+|turn|23
+
+|c| Aqua Admin Doggo|This is the kinda stuff I want
+
+|c|☆The Yeet King|why
+
+|c|☆The Yeet King|why would you thunder wave a subbed mon
+
+|c|☆Ken16303|;-;
+
+|c|☆Ken16303|i'm trying my best
+
+|
+|cant|p1a: Durant|ability: Truant
+|cant|p2a: hard on|par
+|
+|-damage|p1a: Durant|28/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|24
+
+|c|☆The Yeet King|oof
+
+|
+|move|p1a: Durant|Entrainment|p2a: hard on
+|-fail|p2a: hard on
+|cant|p2a: hard on|par
+|
+|-damage|p1a: Durant|16/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|25
+
+|c|☆Ken16303|just
+
+|c|☆Ken16303|just
+
+|c|☆Ken16303|click x
+
+|
+|cant|p1a: Durant|ability: Truant
+|cant|p2a: hard on|par
+|
+|-damage|p1a: Durant|3/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|26
+
+|
+|move|p1a: Durant|Iron Head|p2a: hard on
+|-resisted|p2a: hard on
+|-activate|p2a: hard on|move: Substitute|[damage]
+|move|p2a: hard on|Heavy Slam|p1a: Durant
+|-resisted|p1a: Durant
+|-damage|p1a: Durant|0 fnt
+|faint|p1a: Durant
+|-ability|p2a: hard on|Beast Boost|boost
+|-boost|p2a: hard on|def|1
+|
+|upkeep
+
+|c|☆The Yeet King|dang
+
+|
+|switch|p1a: Flygon|Flygon, F|100/100
+|turn|27
+
+|
+|move|p1a: Flygon|Dragon Dance|p1a: Flygon
+|-boost|p1a: Flygon|atk|1
+|-boost|p1a: Flygon|spe|1
+|cant|p2a: hard on|par
+|
+|upkeep
+|turn|28
+
+|
+|move|p1a: Flygon|Dragon Dance|p1a: Flygon
+|-boost|p1a: Flygon|atk|1
+|-boost|p1a: Flygon|spe|1
+|cant|p2a: hard on|par
+|
+|upkeep
+|turn|29
+
+|c|☆The Yeet King|inb4 this fella sweeps me
+
+|
+|move|p1a: Flygon|Dragon Dance|p1a: Flygon
+|-boost|p1a: Flygon|atk|1
+|-boost|p1a: Flygon|spe|1
+|move|p2a: hard on|Leech Seed|p1a: Flygon
+|-start|p1a: Flygon|move: Leech Seed
+|
+|-damage|p1a: Flygon|88/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|30
+
+|
+|cant|p2a: hard on|par
+|move|p1a: Flygon|Outrage|p2a: hard on
+|-resisted|p2a: hard on
+|-end|p2a: hard on|Substitute
+|
+|-damage|p1a: Flygon|76/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|31
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|move|p1a: Flygon|Outrage|p2a: hard on|[from]lockedmove
+|-activate|p2a: hard on|move: Protect
+|
+|-damage|p1a: Flygon|64/100|[from] Leech Seed|[of] p2a: hard on
+|upkeep
+|turn|32
+
+|
+|move|p1a: Flygon|Outrage|p2a: hard on
+|-resisted|p2a: hard on
+|-damage|p2a: hard on|73/100 par
+|cant|p2a: hard on|par
+|
+|-heal|p2a: hard on|79/100 par|[from] item: Leftovers
+|-damage|p1a: Flygon|51/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|88/100 par|[silent]
+|upkeep
+|turn|33
+
+|
+|move|p1a: Flygon|Outrage|p2a: hard on|[from]lockedmove
+|-resisted|p2a: hard on
+|-crit|p2a: hard on
+|-damage|p2a: hard on|24/100 par
+|move|p2a: hard on|Substitute|p2a: hard on
+|-fail|p2a: hard on|move: Substitute|[weak]
+|
+|-heal|p2a: hard on|30/100 par|[from] item: Leftovers
+|-damage|p1a: Flygon|39/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|39/100 par|[silent]
+|upkeep
+|turn|34
+
+|c|☆Ken16303|DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|move|p1a: Flygon|Outrage|p2a: hard on|[from]lockedmove
+|-activate|p2a: hard on|move: Protect
+|-start|p1a: Flygon|confusion|[fatigue]
+|
+|-heal|p2a: hard on|45/100 par|[from] item: Leftovers
+|-damage|p1a: Flygon|27/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|55/100 par|[silent]
+|upkeep
+|turn|35
+
+|c|☆The Yeet King|damn
+
+|c|☆The Yeet King|almost KO'd me
+
+|
+|-activate|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: hard on
+|-resisted|p2a: hard on
+|-damage|p2a: hard on|27/100 par
+|move|p2a: hard on|Substitute|p2a: hard on
+|-start|p2a: hard on|Substitute
+|-damage|p2a: hard on|3/100 par
+|
+|-heal|p2a: hard on|9/100 par|[from] item: Leftovers
+|-damage|p1a: Flygon|14/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|18/100 par|[silent]
+|upkeep
+|turn|36
+
+|
+|cant|p2a: hard on|par
+|-activate|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: hard on|[from]lockedmove
+|-resisted|p2a: hard on
+|-end|p2a: hard on|Substitute
+|
+|-heal|p2a: hard on|24/100 par|[from] item: Leftovers
+|-damage|p1a: Flygon|2/100|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|33/100 par|[silent]
+|upkeep
+|turn|37
+
+|c| Aqua Admin Doggo|The moment you realised what he was doing Sugi you should’ve gone Durant
+
+|
+|move|p2a: hard on|Protect|p2a: hard on
+|-singleturn|p2a: hard on|Protect
+|-activate|p1a: Flygon|confusion
+|move|p1a: Flygon|Outrage|p2a: hard on
+|-activate|p2a: hard on|move: Protect
+|
+|-heal|p2a: hard on|39/100 par|[from] item: Leftovers
+|-damage|p1a: Flygon|0 fnt|[from] Leech Seed|[of] p2a: hard on
+|-heal|p2a: hard on|40/100 par|[silent]
+|upkeep
+|faint|p1a: Flygon
+
+|
+|switch|p1a: Gallade|Gallade, M|100/100
+|turn|38
+
+|c| Aqua Admin Doggo|Get that Entrainement Truant on him
+
+|
+|switch|p2a: Cancerous-T|Landorus-Therian, M|100/100
+|-ability|p2a: Cancerous-T|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|detailschange|p1a: Gallade|Gallade-Mega, M
+|-mega|p1a: Gallade|Gallade|Galladite
+|move|p1a: Gallade|Swords Dance|p1a: Gallade
+|-boost|p1a: Gallade|atk|2
+|
+|upkeep
+|turn|39
+
+|c| Aqua Admin Doggo|Force the swap
+
+|c|☆The Yeet King|PLEASE WORK
+
+|c|☆Ken16303|IT DIED
+
+|c|☆The Yeet King|if this doesnt work im shooting myself in the foot
+
+|
+|move|p1a: Gallade|Knock Off|p2a: Cancerous-T
+|-damage|p2a: Cancerous-T|62/100
+|-zpower|p2a: Cancerous-T
+|move|p2a: Cancerous-T|Supersonic Skystrike|p1a: Gallade|[zeffect]
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|upkeep
+
+|
+|switch|p1a: Skarmory|Skarmory, M|88/100
+|turn|40
+
+|c|☆The Yeet King|YEAH
+
+|c| Aqua Admin Doggo|Okf
+
+|
+|move|p2a: Cancerous-T|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Ken16303|move: Stealth Rock
+|move|p1a: Skarmory|Toxic|p2a: Cancerous-T
+|-status|p2a: Cancerous-T|tox
+|
+|-heal|p1a: Skarmory|94/100|[from] item: Leftovers
+|-damage|p2a: Cancerous-T|56/100 tox|[from] psn
+|upkeep
+|turn|41
+
+|c|☆Ken16303|oof
+
+|c| Aqua Admin Doggo|Thought as much
+
+|
+|move|p2a: Cancerous-T|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|90/100
+
+|
+|switch|p2a: bitch cat|Jolteon, F|100/100
+|-damage|p2a: bitch cat|88/100|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: bitch cat
+|drag|p2a: hard on|Celesteela|40/100 par
+|
+|-heal|p1a: Skarmory|96/100|[from] item: Leftovers
+|-heal|p2a: hard on|46/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+
+|c|☆The Yeet King|hey bro heres a tip
+
+|c|☆Ken16303|b i t c h c a t
+
+|
+|cant|p2a: hard on|par
+|move|p1a: Skarmory|Whirlwind|p2a: hard on
+|drag|p2a: bitch cat|Jolteon, F|88/100
+|-damage|p2a: bitch cat|76/100|[from] Spikes
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+
+|
+|switch|p1a: Incineroar|Incineroar, M|9/100
+|-damage|p1a: Incineroar|0 fnt|[from] Stealth Rock
+|faint|p1a: Incineroar
+|move|p2a: bitch cat|Thunderbolt|p1: Incineroar|[notarget]
+|-notarget
+|
+|upkeep
+
+|
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|turn|44
+
+|c|☆The Yeet King|if youre getting leech seed stalled by whatever mon
+
+|c|☆Ken16303|switch out? yeah i got that lol
+
+|l| Aqua Admin Doggo
+
+|
+|move|p2a: bitch cat|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: bitch cat|66/100|[from] item: Life Orb
+|faint|p1a: Skarmory
+|
+|win|The Yeet King

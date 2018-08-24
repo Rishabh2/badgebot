@@ -1,0 +1,266 @@
+|init|battle
+|title|Nuzboa vs. The Yeet King
+|j|☆Nuzboa
+|j|☆The Yeet King
+|player|p1|Nuzboa|30
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Kyurem-White|item
+|poke|p1|Venusaur, F|item
+|poke|p1|Mismagius, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Victini|item
+|poke|p1|Clefable, F|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Charizard, F|item
+|poke|p2|Xurkitree|item
+|poke|p2|Crobat, F|item
+|poke|p2|Galvantula, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Victini|Victini|100/100
+|switch|p2a: Deoxys|Deoxys-Attack|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|c|☆The Yeet King|yo this lil dude walls me
+|c|☆The Yeet King|wtf
+|
+|switch|p2a: Tapu Fini|Tapu Fini|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Tapu Fini
+|move|p1a: Victini|U-turn|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|94/100
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|
+|-heal|p2a: Tapu Fini|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Tapu Fini|Scald|p1a: Clefable
+|-damage|p1a: Clefable|77/100
+|move|p1a: Clefable|Stealth Rock|p2a: Tapu Fini
+|-sidestart|p2: The Yeet King|move: Stealth Rock
+|
+|-heal|p2a: Tapu Fini|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Tapu Fini|Defog|p1a: Rotom
+|-unboost|p1a: Rotom|evasion|1
+|-sideend|p2: The Yeet King|Stealth Rock|[from] move: Defog|[of] p2a: Tapu Fini
+|
+|upkeep
+|turn|4
+
+|c|☆Nuzboa|i might give clefable t bolt
+
+|c|☆The Yeet King|ehh not really
+
+|c|☆The Yeet King|hes a glue
+
+|
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|78/100
+
+|c|☆Nuzboa|wdym
+
+|
+|switch|p1a: Victini|Victini|100/100
+|
+|upkeep
+|turn|5
+
+|j| Blur the beetle
+
+|l| Blur the beetle
+
+|c|☆The Yeet King|not meant to  hit hard
+
+|
+|move|p1a: Victini|Bolt Strike|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|42/100
+|move|p2a: Galvantula|Sticky Web|p1a: Victini
+|-sidestart|p1: Nuzboa|move: Sticky Web
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+
+|c|☆Nuzboa|true
+
+|
+|move|p1a: Victini|Bolt Strike|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|6/100
+|move|p2a: Galvantula|Thunder|p1a: Victini
+|-damage|p1a: Victini|56/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Victini|Bolt Strike|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+
+|
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|8
+
+|
+|detailschange|p2a: Charizard|Charizard-Mega-X, F
+|-mega|p2a: Charizard|Charizard|Charizardite X
+|move|p1a: Victini|Bolt Strike|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|80/100
+|move|p2a: Charizard|Dragon Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|1
+|-boost|p2a: Charizard|spe|1
+|
+|upkeep
+|turn|9
+
+|c|☆The Yeet King|shouldve gone clef
+
+|
+|switch|p1a: Clefable|Clefable, F|77/100
+|-activate|p1a: Clefable|move: Sticky Web
+|-unboost|p1a: Clefable|spe|1
+|move|p2a: Charizard|Iron Tail|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|6/100
+|
+|upkeep
+|turn|10
+
+|c|☆The Yeet King|now i catch u with the iron tail on the switchin
+
+|
+|move|p2a: Charizard|Flare Blitz|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Charizard|78/100|[from] Recoil
+|faint|p1a: Clefable
+|
+|upkeep
+
+|
+|switch|p1a: Mismagius|Mismagius, M|100/100
+|turn|11
+
+|c|☆The Yeet King|i outspeed everyhting now
+
+|c|☆The Yeet King|even if KW is scarfed
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Mismagius
+|-enditem|p1a: Mismagius|Focus Sash
+|-damage|p1a: Mismagius|1/100
+|move|p1a: Mismagius|Dazzling Gleam|p2a: Charizard
+|-damage|p2a: Charizard|45/100
+|
+|upkeep
+|turn|12
+
+|c|☆The Yeet King|bro u need to OHKO me
+
+|c|☆Nuzboa|that was not as good as i thought
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|upkeep
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|13
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Rotom
+|-damage|p1a: Rotom|35/100
+|move|p1a: Rotom|Hydro Pump|p2a: Charizard|[miss]
+|-miss|p1a: Rotom|p2a: Charizard
+|
+|upkeep
+|turn|14
+
+|c|☆Nuzboa|ohhhh my
+
+|c|☆Nuzboa|goshhhh
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+
+|
+|switch|p1a: Victini|Victini|56/100
+|-activate|p1a: Victini|move: Sticky Web
+|-unboost|p1a: Victini|spe|1
+|turn|15
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|
+|upkeep
+
+|
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|-activate|p1a: Venusaur|move: Sticky Web
+|-unboost|p1a: Venusaur|spe|1
+|turn|16
+
+|
+|move|p2a: Charizard|Flare Blitz|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p2a: Charizard|5/100|[from] Recoil
+|faint|p1a: Venusaur
+|
+|upkeep
+
+|c|☆Nuzboa|!weakness charizard
+|html|<div class="infobox">Charizard (ignoring abilities):<br /><span class="message-effect-weak">Weaknesses</span>: Electric, <b>Rock</b>, Water<br /><span class="message-effect-resist">Resistances</span>: <b>Bug</b>, Fairy, Fighting, Fire, <b>Grass</b>, Steel<br /><span class="message-effect-immune">Immunities</span>: Ground</div>
+
+|c|☆Nuzboa|!weakness charizard mega
+|html|<div class="infobox">charizard mega isn't a recognized type or pokemon.</div>
+
+|c|☆Nuzboa|wtf
+
+|
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|-activate|p1a: Kyurem|move: Sticky Web
+|-unboost|p1a: Kyurem|spe|1
+|-ability|p1a: Kyurem|Turboblaze
+|turn|17
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|The Yeet King

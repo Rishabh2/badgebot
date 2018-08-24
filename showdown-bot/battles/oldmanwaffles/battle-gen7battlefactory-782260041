@@ -1,0 +1,132 @@
+|init|battle
+|title|Ross was robbed vs. Old_Man_Waffles
+|j|☆Ross was robbed
+|j|☆Old_Man_Waffles
+|player|p1|Ross was robbed|169
+|player|p2|Old_Man_Waffles|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Ninetales, F|item
+|poke|p1|Charizard, M|item
+|poke|p1|Blastoise, F|item
+|poke|p1|Golisopod, F|item
+|poke|p1|Rhyperior, M|item
+|poke|p1|Espeon, F|item
+|poke|p2|Snorlax, M|item
+|poke|p2|Yanmega, F|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Galvantula, F|item
+|poke|p2|Quagsire, M|item
+|poke|p2|Venusaur, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ross was robbed)
+|
+|start
+|switch|p1a: Golisopod|Golisopod, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|1
+|inactive|Ross was robbed has 135 seconds left.
+|inactive|Old_Man_Waffles has 135 seconds left.
+|inactive|Ross was robbed has 120 seconds left.
+|inactive|Ross was robbed has 105 seconds left.
+
+|inactive|Ross was robbed has 90 seconds left.
+
+|
+|move|p1a: Golisopod|First Impression|p2a: Whimsicott
+|-damage|p2a: Whimsicott|47/100
+|move|p2a: Whimsicott|Encore|p1a: Golisopod
+|-start|p1a: Golisopod|Encore
+|
+|-heal|p2a: Whimsicott|53/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Espeon|Espeon, F|100/100
+|move|p2a: Whimsicott|Leech Seed|p1a: Espeon
+|move|p1a: Espeon|Leech Seed|p2a: Whimsicott|[from]Magic Bounce
+|-immune|p2a: Whimsicott|[msg]
+|
+|-heal|p2a: Whimsicott|59/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Espeon|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|64/100
+|
+|-heal|p2a: Snorlax|70/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Espeon|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|38/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Return|p1a: Ninetales|[from]Sleep Talk
+|-damage|p1a: Ninetales|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+
+|
+|-zpower|p1a: Ninetales
+|move|p1a: Ninetales|Inferno Overdrive|p2a: Snorlax|[zeffect]
+|-damage|p2a: Snorlax|74/100 slp
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Rest|p2a: Snorlax|[from]Sleep Talk
+|-fail|p2a: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Snorlax|80/100 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|inactive|Ross was robbed has 135 seconds left.
+
+|
+|move|p1a: Ninetales|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|64/100 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|-fail|p2a: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Snorlax|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|-message|Ross was robbed forfeited.
+
+|
+|win|Old_Man_Waffles

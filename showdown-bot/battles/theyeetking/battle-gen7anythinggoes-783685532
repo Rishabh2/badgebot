@@ -1,0 +1,212 @@
+|init|battle
+|title|The Yeet King vs. Nuzboa
+|j|☆The Yeet King
+|j|☆Nuzboa
+|player|p1|The Yeet King|156
+|player|p2|Nuzboa|30
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Deoxys-Attack|item
+|poke|p1|Tapu Fini|item
+|poke|p1|Charizard, F|item
+|poke|p1|Xurkitree|item
+|poke|p1|Crobat, M|item
+|poke|p1|Galvantula, M|item
+|poke|p2|Kyurem-White|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Mismagius, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Victini|item
+|poke|p2|Clefable, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|1
+|c|☆The Yeet King|hey
+|c|☆The Yeet King|good luck bromigo
+|
+|move|p1a: Galvantula|Sticky Web|p2a: Clefable
+|-sidestart|p2: Nuzboa|move: Sticky Web
+|move|p2a: Clefable|Stealth Rock|p1a: Galvantula
+|-sidestart|p1: The Yeet King|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|c|☆Nuzboa|gl
+|
+|move|p1a: Galvantula|Thunder|p2a: Clefable
+|-damage|p2a: Clefable|55/100
+|move|p2a: Clefable|Moonblast|p1a: Galvantula
+|-damage|p1a: Galvantula|46/100
+|
+|-heal|p2a: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Tapu Fini|Tapu Fini|100/100
+|-damage|p1a: Tapu Fini|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Tapu Fini
+|move|p2a: Clefable|Moonblast|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|62/100
+|
+|-heal|p1a: Tapu Fini|68/100|[from] item: Leftovers
+|-heal|p2a: Clefable|67/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Tapu Fini|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p2: Nuzboa|Sticky Web|[from] move: Defog|[of] p2a: Rotom
+|-sideend|p1: The Yeet King|Stealth Rock|[from] move: Defog|[of] p1a: Tapu Fini
+|
+|-heal|p1a: Tapu Fini|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Galvantula|Galvantula, M|46/100
+|move|p2a: Rotom|Volt Switch|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|23/100
+|
+|switch|p2a: Clefable|Clefable, F|67/100
+|
+|-heal|p2a: Clefable|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Charizard|Charizard, F|100/100
+|move|p2a: Clefable|Moonblast|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|81/100
+|
+|-heal|p2a: Clefable|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|85/100|[from] item: Leftovers
+|-fieldend|Misty Terrain
+|upkeep
+|turn|8
+|
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|
+|upkeep
+|turn|9
+
+|
+|detailschange|p1a: Charizard|Charizard-Mega-X, F
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Rotom|Hydro Pump|p1a: Charizard|[miss]
+|-miss|p2a: Rotom|p1a: Charizard
+|
+|upkeep
+|turn|10
+
+|c|☆The Yeet King|its gg now
+
+|c|☆Nuzboa|omg
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+
+|c|☆The Yeet King|is clefable unaware?
+
+|c|☆Nuzboa|magic gaurd
+
+|
+|switch|p2a: Clefable|Clefable, F|85/100
+|turn|11
+
+|
+|move|p1a: Charizard|Iron Tail|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+
+|c|☆The Yeet King|i shouldve gone for the flare blitz
+
+|
+|switch|p2a: Mismagius|Mismagius, F|100/100
+|turn|12
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Mismagius
+|-damage|p2a: Mismagius|0 fnt
+|faint|p2a: Mismagius
+|
+|upkeep
+
+|
+|switch|p2a: Kyurem|Kyurem-White|100/100
+|-ability|p2a: Kyurem|Turboblaze
+|turn|13
+
+|c|☆The Yeet King|run a sash mon
+
+|c|☆The Yeet King|its pretty much your only chance against deo
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+
+|c|☆Nuzboa|who should i sash?
+
+|
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|14
+
+|c|☆The Yeet King|against deoxys
+
+|
+|detailschange|p2a: Venusaur|Venusaur-Mega, M
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Charizard|Flare Blitz|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|-damage|p1a: Charizard|41/100|[from] Recoil
+|faint|p2a: Venusaur
+|
+|upkeep
+
+|c|☆Nuzboa|mismagius?
+
+|
+|switch|p2a: Victini|Victini|100/100
+|turn|15
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Victini
+|-damage|p2a: Victini|0 fnt
+|faint|p2a: Victini
+|
+|win|The Yeet King

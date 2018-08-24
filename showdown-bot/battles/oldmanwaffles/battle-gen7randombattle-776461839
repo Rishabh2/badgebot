@@ -1,0 +1,308 @@
+|init|battle
+|title|Old_Man_Waffles vs. noob44c
+|j|☆Old_Man_Waffles
+|j|☆noob44c
+|player|p1|Old_Man_Waffles|265
+|player|p2|noob44c|121
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magmortar|Magmortar, L82, F|100/100
+|switch|p2a: Spiritomb|Spiritomb, L83, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by noob44c)
+|inactive|noob44c has 135 seconds left.
+|
+|move|p1a: Magmortar|Fire Blast|p2a: Spiritomb
+|-damage|p2a: Spiritomb|50/100
+|move|p2a: Spiritomb|Dark Pulse|p1a: Magmortar
+|-damage|p1a: Magmortar|80/100
+|
+|-heal|p2a: Spiritomb|56/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Magmortar|Fire Blast|p2a: Spiritomb
+|-damage|p2a: Spiritomb|6/100
+|move|p2a: Spiritomb|Rest|p2a: Spiritomb
+|-status|p2a: Spiritomb|slp
+|-heal|p2a: Spiritomb|100/100 slp|[silent]
+|-status|p2a: Spiritomb|slp|[from] move: Rest
+|
+|upkeep
+|turn|3
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Raticate|Raticate-Alola, L83, F|100/100
+|switch|p2a: Salazzle|Salazzle, L79, F|100/100
+|-item|p2a: Salazzle|Air Balloon
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Salazzle|Sludge Wave|p1a: Raticate
+|-damage|p1a: Raticate|60/100
+|move|p1a: Raticate|Swords Dance|p1a: Raticate
+|-boost|p1a: Raticate|atk|2
+|
+|upkeep
+|turn|5
+
+|
+|move|p1a: Raticate|Sucker Punch|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|-enditem|p2a: Salazzle|Air Balloon
+|-damage|p1a: Raticate|50/100|[from] item: Life Orb
+|faint|p2a: Salazzle
+|
+|upkeep
+
+|inactive|noob44c has 135 seconds left.
+
+|inactive|noob44c has 120 seconds left.
+
+|
+|switch|p2a: Mimikyu|Mimikyu, L75, M|100/100
+|turn|6
+
+|
+|move|p2a: Mimikyu|Play Rough|p1a: Raticate|[miss]
+|-miss|p2a: Mimikyu|p1a: Raticate
+|move|p1a: Raticate|Knock Off|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-enditem|p2a: Mimikyu|Leftovers|[from] move: Knock Off|[of] p1a: Raticate
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, L75, M
+|-damage|p1a: Raticate|40/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Raticate|Sucker Punch|p2a: Mimikyu|[miss]
+|-miss|p1a: Raticate|p2a: Mimikyu
+|move|p2a: Mimikyu|Play Rough|p1a: Raticate|[miss]
+|-miss|p2a: Mimikyu|p1a: Raticate
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Raticate|Sucker Punch|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|-damage|p1a: Raticate|30/100|[from] item: Life Orb
+|faint|p2a: Mimikyu
+|
+|upkeep
+
+|c|☆noob44c|wtf?
+
+|
+|switch|p2a: Silvally|Silvally-Dragon, L83|100/100
+|turn|9
+
+|
+|move|p1a: Raticate|Sucker Punch|p2a: Silvally
+|-damage|p2a: Silvally|31/100
+|-damage|p1a: Raticate|20/100|[from] item: Life Orb
+|move|p2a: Silvally|Multi-Attack|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|switch|p1a: Starmie|Starmie, L77|100/100
+|turn|10
+
+|
+|switch|p2a: Rotom|Rotom-Mow, L79|100/100
+|move|p1a: Starmie|Ice Beam|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Magmortar|Magmortar, L82, F|80/100
+|move|p2a: Rotom|Thunderbolt|p1a: Magmortar
+|-damage|p1a: Magmortar|48/100
+|-damage|p2a: Rotom|42/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: Silvally|Silvally-Dragon, L83|31/100
+|move|p1a: Magmortar|Fire Blast|p2a: Silvally|[miss]
+|-miss|p1a: Magmortar|p2a: Silvally
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Silvally|Draco Meteor|p1a: Magmortar
+|-damage|p1a: Magmortar|13/100
+|-unboost|p2a: Silvally|spa|2
+|move|p1a: Magmortar|Earthquake|p2a: Silvally
+|-damage|p2a: Silvally|8/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Silvally|Draco Meteor|p1a: Magmortar
+|-damage|p1a: Magmortar|0 fnt
+|-unboost|p2a: Silvally|spa|2
+|faint|p1a: Magmortar
+|
+|upkeep
+
+|
+|switch|p1a: Lycanroc|Lycanroc, L83, M|100/100
+|turn|15
+
+|
+|move|p1a: Lycanroc|Swords Dance|p1a: Lycanroc
+|-boost|p1a: Lycanroc|atk|2
+|move|p2a: Silvally|Iron Head|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|47/100
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Lycanroc|Accelerock|p2a: Silvally
+|-damage|p2a: Silvally|0 fnt
+|-damage|p1a: Lycanroc|37/100|[from] item: Life Orb
+|faint|p2a: Silvally
+|
+|upkeep
+
+|
+|switch|p2a: Spiritomb|Spiritomb, L83, F|100/100 slp
+|turn|17
+
+|
+|move|p1a: Lycanroc|Accelerock|p2a: Spiritomb
+|-damage|p2a: Spiritomb|52/100 slp
+|-damage|p1a: Lycanroc|27/100|[from] item: Life Orb
+|cant|p2a: Spiritomb|slp
+|move|p2a: Spiritomb|Sleep Talk|p2a: Spiritomb
+|move|p2a: Spiritomb|Calm Mind|p2a: Spiritomb|[from]Sleep Talk
+|-boost|p2a: Spiritomb|spa|1
+|-boost|p2a: Spiritomb|spd|1
+|
+|-heal|p2a: Spiritomb|58/100 slp|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Lycanroc|Swords Dance|p1a: Lycanroc
+|-boost|p1a: Lycanroc|atk|2
+|cant|p2a: Spiritomb|slp
+|move|p2a: Spiritomb|Sleep Talk|p2a: Spiritomb
+|move|p2a: Spiritomb|Dark Pulse|p1a: Lycanroc|[from]Sleep Talk
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|-heal|p2a: Spiritomb|64/100 slp|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Yveltal|Yveltal, L73|100/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|19
+
+|
+|move|p1a: Yveltal|Hurricane|p2a: Spiritomb
+|-damage|p2a: Spiritomb|33/100 slp
+|-curestatus|p2a: Spiritomb|slp|[msg]
+|move|p2a: Spiritomb|Dark Pulse|p1a: Yveltal
+|-resisted|p1a: Yveltal
+|-damage|p1a: Yveltal|83/100
+|
+|-heal|p2a: Spiritomb|39/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Yveltal|Foul Play|p2a: Spiritomb
+|-damage|p2a: Spiritomb|5/100
+|move|p2a: Spiritomb|Rest|p2a: Spiritomb
+|-status|p2a: Spiritomb|slp
+|-heal|p2a: Spiritomb|100/100 slp|[silent]
+|-status|p2a: Spiritomb|slp|[from] move: Rest
+|
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Necrozma|Necrozma-Dawn-Wings, L73|100/100
+|cant|p2a: Spiritomb|slp
+|move|p2a: Spiritomb|Sleep Talk|p2a: Spiritomb
+|move|p2a: Spiritomb|Rest|p2a: Spiritomb|[from]Sleep Talk
+|-fail|p2a: Spiritomb
+|
+|upkeep
+|turn|22
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|detailschange|p1a: Necrozma|Necrozma-Ultra, L73
+|-burst|p1a: Necrozma|Necrozma|Ultranecrozium Z
+|move|p1a: Necrozma|Moongeist Beam|p2a: Spiritomb
+|-damage|p2a: Spiritomb|79/100 slp
+|cant|p2a: Spiritomb|slp
+|move|p2a: Spiritomb|Sleep Talk|p2a: Spiritomb
+|move|p2a: Spiritomb|Dark Pulse|p1a: Necrozma|[from]Sleep Talk
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|1/100
+|
+|-heal|p2a: Spiritomb|85/100 slp|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Necrozma|Power Gem|p2a: Spiritomb
+|-damage|p2a: Spiritomb|65/100 slp
+|-curestatus|p2a: Spiritomb|slp|[msg]
+|move|p2a: Spiritomb|Dark Pulse|p1a: Necrozma
+|-supereffective|p1a: Necrozma
+|-damage|p1a: Necrozma|0 fnt
+|faint|p1a: Necrozma
+|
+|-heal|p2a: Spiritomb|71/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Yveltal|Yveltal, L73|83/100
+|-ability|p1a: Yveltal|Dark Aura
+|turn|24
+
+|-message|Old_Man_Waffles forfeited.
+
+|
+|win|noob44c

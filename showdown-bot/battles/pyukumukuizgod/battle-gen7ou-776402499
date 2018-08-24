@@ -1,0 +1,632 @@
+|init|battle
+|title|PYUKUMUKU IZ GOD vs. felin20xx
+|j|☆PYUKUMUKU IZ GOD
+|j|☆felin20xx
+|player|p1|PYUKUMUKU IZ GOD|266
+|player|p2|felin20xx|264
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pyukumuku, F|item
+|poke|p1|Chansey, F|item
+|poke|p1|Sableye, F|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Clefable, M|item
+|poke|p1|Toxapex, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Manectric, M|item
+|poke|p2|Greninja, F|item
+|poke|p2|Mimikyu, M|item
+|poke|p2|Salamence, M|item
+|poke|p2|Espeon, F|item
+|teampreview
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by felin20xx)
+
+|
+|start
+|switch|p1a: Reverse|Sableye, F|100/100
+|switch|p2a: Over 9000|Salamence, M|100/100
+|turn|1
+
+|
+|switch|p2a: Bounce Baby|Espeon, F|100/100
+|detailschange|p1a: Reverse|Sableye-Mega, F
+|-mega|p1a: Reverse|Sableye|Sablenite
+|move|p1a: Reverse|Will-O-Wisp|p2a: Bounce Baby
+|move|p2a: Bounce Baby|Will-O-Wisp|p1a: Reverse|[from]Magic Bounce
+|-status|p1a: Reverse|brn
+|
+|-damage|p1a: Reverse|95/100 brn|[from] brn
+|upkeep
+|turn|2
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|inactive|felin20xx has 135 seconds left.
+
+|
+|switch|p2a: I´m a cosplayer|Mimikyu, M, shiny|100/100
+|move|p1a: Reverse|Dark Pulse|p2a: I´m a cosplayer
+|-activate|p2a: I´m a cosplayer|ability: Disguise
+|-damage|p2a: I´m a cosplayer|100/100
+|detailschange|p2a: I´m a cosplayer|Mimikyu-Busted, M, shiny
+|
+|-damage|p1a: Reverse|89/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|move|p2a: I´m a cosplayer|Play Rough|p1a: Reverse
+|-supereffective|p1a: Reverse
+|-damage|p1a: Reverse|15/100 brn
+|move|p1a: Reverse|Will-O-Wisp|p2a: I´m a cosplayer
+|-status|p2a: I´m a cosplayer|brn
+|
+|-damage|p2a: I´m a cosplayer|95/100 brn|[from] brn
+|-damage|p1a: Reverse|9/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|-zpower|p2a: I´m a cosplayer
+|move|p2a: I´m a cosplayer|Z-Splash|p2a: I´m a cosplayer|[anim]Splash
+|-boost|p2a: I´m a cosplayer|atk|3|[zeffect]
+|-nothing
+|move|p1a: Reverse|Recover|p1a: Reverse
+|-heal|p1a: Reverse|60/100 brn
+|
+|-damage|p2a: I´m a cosplayer|89/100 brn|[from] brn
+|-damage|p1a: Reverse|54/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Nightmare|Pyukumuku, F|100/100
+|move|p2a: I´m a cosplayer|Play Rough|p1a: Nightmare
+|-damage|p1a: Nightmare|82/100
+|-unboost|p1a: Nightmare|atk|1
+|
+|-heal|p1a: Nightmare|88/100|[from] item: Leftovers
+|-damage|p2a: I´m a cosplayer|83/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: I´m a cosplayer|Wood Hammer|p1a: Nightmare
+|-supereffective|p1a: Nightmare
+|-damage|p1a: Nightmare|58/100
+|-damage|p2a: I´m a cosplayer|70/100 brn|[from] Recoil
+|move|p1a: Nightmare|Soak|p2a: I´m a cosplayer
+|-start|p2a: I´m a cosplayer|typechange|Water
+|
+|-heal|p1a: Nightmare|65/100|[from] item: Leftovers
+|-damage|p2a: I´m a cosplayer|64/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|inactive|felin20xx has 135 seconds left.
+
+|
+|move|p2a: I´m a cosplayer|Play Rough|p1a: Nightmare
+|-damage|p1a: Nightmare|54/100
+|-unboost|p1a: Nightmare|atk|1
+|move|p1a: Nightmare|Block|p2a: I´m a cosplayer
+|-activate|p2a: I´m a cosplayer|trapped
+|
+|-heal|p1a: Nightmare|60/100|[from] item: Leftovers
+|-damage|p2a: I´m a cosplayer|58/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|move|p2a: I´m a cosplayer|Wood Hammer|p1a: Nightmare
+|-supereffective|p1a: Nightmare
+|-damage|p1a: Nightmare|30/100
+|-damage|p2a: I´m a cosplayer|46/100 brn|[from] Recoil
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|80/100
+|
+|-heal|p1a: Nightmare|86/100|[from] item: Leftovers
+|-damage|p2a: I´m a cosplayer|40/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|move|p2a: I´m a cosplayer|Wood Hammer|p1a: Nightmare
+|-supereffective|p1a: Nightmare
+|-damage|p1a: Nightmare|54/100
+|-damage|p2a: I´m a cosplayer|27/100 brn|[from] Recoil
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|100/100
+|
+|-damage|p2a: I´m a cosplayer|21/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|move|p2a: I´m a cosplayer|Wood Hammer|p1a: Nightmare
+|-supereffective|p1a: Nightmare
+|-damage|p1a: Nightmare|69/100
+|-damage|p2a: I´m a cosplayer|8/100 brn|[from] Recoil
+|move|p1a: Nightmare|Recover|p1a: Nightmare
+|-heal|p1a: Nightmare|100/100
+|
+|-damage|p2a: I´m a cosplayer|2/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|switch|p1a: birdo|Skarmory, F|100/100
+|move|p2a: I´m a cosplayer|Wood Hammer|p1a: birdo
+|-resisted|p1a: birdo
+|-damage|p1a: birdo|94/100
+|-damage|p2a: I´m a cosplayer|0 fnt|[from] Recoil
+|faint|p2a: I´m a cosplayer
+|
+|-heal|p1a: birdo|99/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gotcha|Manectric, M, shiny|100/100
+|turn|12
+
+|
+|switch|p1a: Thiq|Chansey, F|100/100
+|detailschange|p2a: Gotcha|Manectric-Mega, M, shiny
+|-mega|p2a: Gotcha|Manectric|Manectite
+|-ability|p2a: Gotcha|Intimidate|boost
+|-unboost|p1a: Thiq|atk|1
+|move|p2a: Gotcha|Thunderbolt|p1a: Thiq
+|-damage|p1a: Thiq|87/100
+|
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Bounce Baby|Espeon, F|100/100
+|move|p1a: Thiq|Seismic Toss|p2a: Bounce Baby
+|-damage|p2a: Bounce Baby|64/100
+|
+|-heal|p2a: Bounce Baby|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Over 9000|Salamence, M|100/100
+|move|p1a: Thiq|Seismic Toss|p2a: Over 9000
+|-damage|p2a: Over 9000|70/100
+|
+|upkeep
+|turn|15
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|
+|switch|p1a: u thot|Clefable, M|100/100
+|move|p2a: Over 9000|Dragon Dance|p2a: Over 9000
+|-boost|p2a: Over 9000|atk|1
+|-boost|p2a: Over 9000|spe|1
+|
+|upkeep
+|turn|16
+
+|
+|move|p2a: Over 9000|Earthquake|p1a: u thot
+|-damage|p1a: u thot|47/100
+|-damage|p2a: Over 9000|60/100|[from] item: Life Orb
+|move|p1a: u thot|Moonblast|p2a: Over 9000
+|-supereffective|p2a: Over 9000
+|-damage|p2a: Over 9000|0 fnt
+|faint|p2a: Over 9000
+|
+|-heal|p1a: u thot|53/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Gotcha|Manectric-Mega, M, shiny|100/100
+|-ability|p2a: Gotcha|Intimidate|boost
+|-unboost|p1a: u thot|atk|1
+|turn|17
+
+|
+|move|p2a: Gotcha|Thunderbolt|p1a: u thot
+|-damage|p1a: u thot|4/100
+|move|p1a: u thot|Soft-Boiled|p1a: u thot
+|-heal|p1a: u thot|54/100
+|
+|-heal|p1a: u thot|60/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Thiq|Chansey, F|87/100
+|move|p2a: Gotcha|Thunder Wave|p1a: Thiq
+|-status|p1a: Thiq|par
+|
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Arceus WHO?|Skarmory, M|100/100
+|move|p1a: Thiq|Seismic Toss|p2a: Arceus WHO?
+|-damage|p2a: Arceus WHO?|70/100
+|
+|-heal|p2a: Arceus WHO?|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|switch|p1a: Reverse|Sableye-Mega, F|54/100 brn
+|move|p2a: Arceus WHO?|Whirlwind|p1a: Reverse
+|move|p1a: Reverse|Whirlwind|p2a: Arceus WHO?|[from]Magic Bounce
+|drag|p2a: Better Nerf Me|Greninja, F, shiny|100/100
+|
+|-damage|p1a: Reverse|48/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Thiq|Chansey, F|87/100
+|move|p2a: Better Nerf Me|Hydro Pump|p1a: Thiq|[miss]
+|-start|p2a: Better Nerf Me|typechange|Water|[from] Protean
+|-miss|p2a: Better Nerf Me|p1a: Thiq
+|
+|upkeep
+|turn|22
+
+|
+|switch|p2a: Arceus WHO?|Skarmory, M|76/100
+|move|p1a: Thiq|Stealth Rock|p2a: Arceus WHO?
+|-sidestart|p2: felin20xx|move: Stealth Rock
+|
+|-heal|p2a: Arceus WHO?|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p2a: Arceus WHO?|Roost|p2a: Arceus WHO?
+|-heal|p2a: Arceus WHO?|100/100
+|move|p1a: Thiq|Seismic Toss|p2a: Arceus WHO?
+|-damage|p2a: Arceus WHO?|70/100
+|
+|-heal|p2a: Arceus WHO?|76/100|[from] item: Leftovers
+|upkeep
+|turn|24
+
+|
+|move|p2a: Arceus WHO?|Stealth Rock|p1a: Thiq
+|-sidestart|p1: PYUKUMUKU IZ GOD|move: Stealth Rock
+|move|p1a: Thiq|Heal Bell|p1a: Thiq
+|-activate|p1a: Thiq|move: Heal Bell
+|-curestatus|p1: Reverse|brn|[msg]
+|
+|-heal|p2a: Arceus WHO?|82/100|[from] item: Leftovers
+|upkeep
+|turn|25
+
+|
+|move|p1a: Thiq|Seismic Toss|p2a: Arceus WHO?
+|-damage|p2a: Arceus WHO?|52/100
+|move|p2a: Arceus WHO?|Whirlwind|p1a: Thiq
+|drag|p1a: u thot|Clefable, M|60/100
+|
+|-heal|p2a: Arceus WHO?|58/100|[from] item: Leftovers
+|-heal|p1a: u thot|66/100|[from] item: Leftovers
+|upkeep
+|turn|26
+
+|
+|move|p2a: Arceus WHO?|Roost|p2a: Arceus WHO?
+|-heal|p2a: Arceus WHO?|100/100
+|move|p1a: u thot|Fire Blast|p2a: Arceus WHO?
+|-supereffective|p2a: Arceus WHO?
+|-damage|p2a: Arceus WHO?|34/100
+|
+|-heal|p2a: Arceus WHO?|40/100|[from] item: Leftovers
+|-heal|p1a: u thot|72/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p2a: Arceus WHO?|Spikes|p1a: u thot
+|-sidestart|p1: PYUKUMUKU IZ GOD|Spikes
+|move|p1a: u thot|Moonblast|p2a: Arceus WHO?
+|-resisted|p2a: Arceus WHO?
+|-damage|p2a: Arceus WHO?|19/100
+|-unboost|p2a: Arceus WHO?|spa|1
+|
+|-heal|p2a: Arceus WHO?|25/100|[from] item: Leftovers
+|-heal|p1a: u thot|78/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|switch|p2a: Better Nerf Me|Greninja, F, shiny|100/100
+|-damage|p2a: Better Nerf Me|88/100|[from] Stealth Rock
+|move|p1a: u thot|Fire Blast|p2a: Better Nerf Me|[miss]
+|-miss|p1a: u thot|p2a: Better Nerf Me
+|
+|-heal|p1a: u thot|85/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p2a: Better Nerf Me|Hydro Pump|p1a: u thot
+|-start|p2a: Better Nerf Me|typechange|Water|[from] Protean
+|-damage|p1a: u thot|22/100
+|-damage|p2a: Better Nerf Me|78/100|[from] item: Life Orb
+|move|p1a: u thot|Moonblast|p2a: Better Nerf Me
+|-damage|p2a: Better Nerf Me|28/100
+|
+|-heal|p1a: u thot|28/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|switch|p1a: Thiq|Chansey, F|87/100
+|-damage|p1a: Thiq|74/100|[from] Stealth Rock
+|-damage|p1a: Thiq|62/100|[from] Spikes
+|move|p2a: Better Nerf Me|Hydro Pump|p1a: Thiq
+|-damage|p1a: Thiq|39/100
+|-damage|p2a: Better Nerf Me|18/100|[from] item: Life Orb
+|
+|upkeep
+|turn|31
+
+|
+|switch|p2a: Arceus WHO?|Skarmory, M|25/100
+|-damage|p2a: Arceus WHO?|13/100|[from] Stealth Rock
+|move|p1a: Thiq|Soft-Boiled|p1a: Thiq
+|-heal|p1a: Thiq|89/100
+|
+|-heal|p2a: Arceus WHO?|19/100|[from] item: Leftovers
+|upkeep
+|turn|32
+
+|
+|switch|p1a: u thot|Clefable, M|28/100
+|move|p2a: Arceus WHO?|Roost|p2a: Arceus WHO?
+|-heal|p2a: Arceus WHO?|69/100
+|
+|-heal|p2a: Arceus WHO?|75/100|[from] item: Leftovers
+|-heal|p1a: u thot|34/100|[from] item: Leftovers
+|upkeep
+|turn|33
+
+|
+|move|p2a: Arceus WHO?|Spikes|p1a: u thot
+|-sidestart|p1: PYUKUMUKU IZ GOD|Spikes
+|move|p1a: u thot|Soft-Boiled|p1a: u thot
+|-heal|p1a: u thot|84/100
+|
+|-heal|p2a: Arceus WHO?|81/100|[from] item: Leftovers
+|-heal|p1a: u thot|90/100|[from] item: Leftovers
+|upkeep
+|turn|34
+
+|
+|move|p1a: u thot|Calm Mind|p1a: u thot
+|-boost|p1a: u thot|spa|1
+|-boost|p1a: u thot|spd|1
+|move|p2a: Arceus WHO?|Whirlwind|p1a: u thot
+|drag|p1a: Thiq|Chansey, F|89/100
+|-damage|p1a: Thiq|76/100|[from] Stealth Rock
+|-damage|p1a: Thiq|60/100|[from] Spikes
+|
+|-heal|p2a: Arceus WHO?|87/100|[from] item: Leftovers
+|upkeep
+|turn|35
+
+|
+|move|p1a: Thiq|Soft-Boiled|p1a: Thiq
+|-heal|p1a: Thiq|100/100
+|move|p2a: Arceus WHO?|Whirlwind|p1a: Thiq
+|drag|p1a: sexy pexy|Toxapex, M|100/100
+|-damage|p1a: sexy pexy|88/100|[from] Stealth Rock
+|-damage|p1a: sexy pexy|72/100|[from] Spikes
+|
+|-heal|p2a: Arceus WHO?|93/100|[from] item: Leftovers
+|-heal|p1a: sexy pexy|78/100|[from] item: Black Sludge
+|upkeep
+|turn|36
+
+|
+|move|p1a: sexy pexy|Toxic Spikes|p2a: Arceus WHO?
+|-sidestart|p2: felin20xx|move: Toxic Spikes
+|move|p2a: Arceus WHO?|Whirlwind|p1a: sexy pexy
+|drag|p1a: u thot|Clefable, M|90/100
+|
+|-heal|p2a: Arceus WHO?|99/100|[from] item: Leftovers
+|-heal|p1a: u thot|96/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|move|p1a: u thot|Fire Blast|p2a: Arceus WHO?|[miss]
+|-miss|p1a: u thot|p2a: Arceus WHO?
+|move|p2a: Arceus WHO?|Whirlwind|p1a: u thot
+|drag|p1a: sexy pexy|Toxapex, M|100/100
+|-damage|p1a: sexy pexy|84/100|[from] Spikes
+|-damage|p1a: sexy pexy|72/100|[from] Stealth Rock
+|
+|-heal|p2a: Arceus WHO?|100/100|[from] item: Leftovers
+|-heal|p1a: sexy pexy|78/100|[from] item: Black Sludge
+|upkeep
+|turn|38
+
+|
+|switch|p2a: Bounce Baby|Espeon, F|70/100
+|-status|p2a: Bounce Baby|psn
+|-damage|p2a: Bounce Baby|57/100 psn|[from] Stealth Rock
+|move|p1a: sexy pexy|Toxic Spikes|p2a: Bounce Baby
+|move|p2a: Bounce Baby|Toxic Spikes|p1a: sexy pexy|[from]Magic Bounce
+|-sidestart|p1: PYUKUMUKU IZ GOD|move: Toxic Spikes
+|
+|-heal|p2a: Bounce Baby|63/100 psn|[from] item: Leftovers
+|-heal|p1a: sexy pexy|84/100|[from] item: Black Sludge
+|-damage|p2a: Bounce Baby|51/100 psn|[from] psn
+|upkeep
+|turn|39
+
+|
+|switch|p1a: u thot|Clefable, M|96/100
+|-status|p1a: u thot|psn
+|move|p2a: Bounce Baby|Psychic|p1a: u thot
+|-damage|p1a: u thot|54/100 psn
+|
+|-heal|p2a: Bounce Baby|57/100 psn|[from] item: Leftovers
+|-heal|p1a: u thot|60/100 psn|[from] item: Leftovers
+|-damage|p2a: Bounce Baby|45/100 psn|[from] psn
+|upkeep
+|turn|40
+
+|
+|move|p2a: Bounce Baby|Psychic|p1a: u thot
+|-damage|p1a: u thot|12/100 psn
+|move|p1a: u thot|Moonblast|p2a: Bounce Baby
+|-damage|p2a: Bounce Baby|1/100 psn
+|
+|-heal|p2a: Bounce Baby|7/100 psn|[from] item: Leftovers
+|-heal|p1a: u thot|18/100 psn|[from] item: Leftovers
+|-damage|p2a: Bounce Baby|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Bounce Baby
+
+|
+|switch|p2a: Better Nerf Me|Greninja, F, shiny|18/100
+|-status|p2a: Better Nerf Me|psn
+|-damage|p2a: Better Nerf Me|6/100 psn|[from] Stealth Rock
+|turn|41
+
+|
+|switch|p1a: sexy pexy|Toxapex, M|100/100
+|-damage|p1a: sexy pexy|88/100|[from] Stealth Rock
+|-sideend|p1: PYUKUMUKU IZ GOD|move: Toxic Spikes|[of] p1a: sexy pexy
+|-damage|p1a: sexy pexy|72/100|[from] Spikes
+|move|p2a: Better Nerf Me|Extrasensory|p1a: sexy pexy
+|-start|p2a: Better Nerf Me|typechange|Psychic|[from] Protean
+|-supereffective|p1a: sexy pexy
+|-damage|p1a: sexy pexy|0 fnt
+|-damage|p2a: Better Nerf Me|0 fnt|[from] item: Life Orb
+|faint|p1a: sexy pexy
+|faint|p2a: Better Nerf Me
+|
+|upkeep
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|
+|switch|p2a: Arceus WHO?|Skarmory, M|100/100
+|switch|p1a: u thot|Clefable, M|18/100 psn
+|-damage|p2a: Arceus WHO?|88/100|[from] Stealth Rock
+|turn|42
+
+|
+|move|p1a: u thot|Soft-Boiled|p1a: u thot
+|-heal|p1a: u thot|68/100 psn
+|move|p2a: Arceus WHO?|Whirlwind|p1a: u thot
+|drag|p1a: Thiq|Chansey, F|100/100
+|-damage|p1a: Thiq|84/100|[from] Spikes
+|-damage|p1a: Thiq|71/100|[from] Stealth Rock
+|
+|-heal|p2a: Arceus WHO?|94/100|[from] item: Leftovers
+|upkeep
+|turn|43
+
+|
+|move|p2a: Arceus WHO?|Spikes|p1a: Thiq
+|-sidestart|p1: PYUKUMUKU IZ GOD|Spikes
+|move|p1a: Thiq|Soft-Boiled|p1a: Thiq
+|-heal|p1a: Thiq|100/100
+|
+|-heal|p2a: Arceus WHO?|99/100|[from] item: Leftovers
+|upkeep
+|turn|44
+
+|
+|switch|p1a: birdo|Skarmory, F|99/100
+|-damage|p1a: birdo|87/100|[from] Stealth Rock
+|move|p2a: Arceus WHO?|Whirlwind|p1a: birdo
+|drag|p1a: Nightmare|Pyukumuku, F|100/100
+|-damage|p1a: Nightmare|76/100|[from] Spikes
+|-damage|p1a: Nightmare|63/100|[from] Stealth Rock
+|
+|-heal|p2a: Arceus WHO?|100/100|[from] item: Leftovers
+|-heal|p1a: Nightmare|69/100|[from] item: Leftovers
+|upkeep
+|turn|45
+
+|inactive|felin20xx has 135 seconds left.
+
+|
+|move|p1a: Nightmare|Soak|p2a: Arceus WHO?
+|-start|p2a: Arceus WHO?|typechange|Water
+|move|p2a: Arceus WHO?|Whirlwind|p1a: Nightmare
+|drag|p1a: u thot|Clefable, M|68/100 psn
+|
+|-heal|p1a: u thot|74/100 psn|[from] item: Leftovers
+|upkeep
+|turn|46
+
+|
+|move|p1a: u thot|Moonblast|p2a: Arceus WHO?
+|-damage|p2a: Arceus WHO?|59/100
+|move|p2a: Arceus WHO?|Whirlwind|p1a: u thot
+|drag|p1a: Reverse|Sableye-Mega, F|48/100
+|-damage|p1a: Reverse|23/100|[from] Spikes
+|-damage|p1a: Reverse|11/100|[from] Stealth Rock
+|
+|-heal|p2a: Arceus WHO?|65/100|[from] item: Leftovers
+|upkeep
+|turn|47
+
+|
+|switch|p2a: Gotcha|Manectric-Mega, M, shiny|100/100
+|-damage|p2a: Gotcha|88/100|[from] Stealth Rock
+|-status|p2a: Gotcha|psn
+|-ability|p2a: Gotcha|Intimidate|boost
+|-unboost|p1a: Reverse|atk|1
+|move|p1a: Reverse|Recover|p1a: Reverse
+|-heal|p1a: Reverse|61/100
+|
+|-damage|p2a: Gotcha|76/100 psn|[from] psn
+|upkeep
+|turn|48
+
+|
+|switch|p1a: Thiq|Chansey, F|100/100
+|-damage|p1a: Thiq|76/100|[from] Spikes
+|-damage|p1a: Thiq|63/100|[from] Stealth Rock
+|move|p2a: Gotcha|Thunderbolt|p1a: Thiq
+|-damage|p1a: Thiq|47/100
+|
+|-damage|p2a: Gotcha|63/100 psn|[from] psn
+|upkeep
+|turn|49
+
+|
+|move|p2a: Gotcha|Thunderbolt|p1a: Thiq
+|-damage|p1a: Thiq|31/100
+|move|p1a: Thiq|Soft-Boiled|p1a: Thiq
+|-heal|p1a: Thiq|81/100
+|
+|-damage|p2a: Gotcha|51/100 psn|[from] psn
+|upkeep
+|turn|50
+
+|-message|felin20xx forfeited.
+
+|
+|win|PYUKUMUKU IZ GOD

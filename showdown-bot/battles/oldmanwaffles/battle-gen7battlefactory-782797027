@@ -1,0 +1,220 @@
+|init|battle
+|title|Old_Man_Waffles vs. dadabrasil
+|j|☆Old_Man_Waffles
+|j|☆dadabrasil
+|player|p1|Old_Man_Waffles|102
+|player|p2|dadabrasil|188
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Trapinch, L5, F|item
+|poke|p1|Pancham, L5, M|item
+|poke|p1|Ponyta, L5, M|item
+|poke|p1|Meowth, L5, F|item
+|poke|p1|Pikipek, L5, F|item
+|poke|p1|Trubbish, L5, M|item
+|poke|p2|Snivy, L5, M|item
+|poke|p2|Remoraid, L5, F|item
+|poke|p2|Tyrunt, L5, F|item
+|poke|p2|Chinchou, L5, F|item
+|poke|p2|Lickitung, L5, F|item
+|poke|p2|Mudbray, L5, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dadabrasil)
+|
+|start
+|switch|p1a: Pikipek|Pikipek, L5, F|100/100
+|switch|p2a: Lickitung|Lickitung, L5, F|100/100
+|turn|1
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|move|p1a: Pikipek|Brick Break|p2a: Lickitung
+|-supereffective|p2a: Lickitung
+|-damage|p2a: Lickitung|25/100
+|-enditem|p2a: Lickitung|Berry Juice
+|-heal|p2a: Lickitung|97/100|[from] item: Berry Juice
+|-damage|p1a: Pikipek|95/100|[from] item: Life Orb
+|move|p2a: Lickitung|Swords Dance|p2a: Lickitung
+|-boost|p2a: Lickitung|atk|2
+|
+|upkeep
+|turn|2
+|inactive|Old_Man_Waffles has 135 seconds left.
+|inactive|dadabrasil has 135 seconds left.
+|
+|switch|p1a: Trapinch|Trapinch, L5, F|100/100
+|move|p2a: Lickitung|Return|p1a: Trapinch
+|-damage|p1a: Trapinch|9/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Trapinch|Feint|p2a: Lickitung
+|-damage|p2a: Lickitung|83/100
+|move|p2a: Lickitung|Knock Off|p1a: Trapinch
+|-damage|p1a: Trapinch|0 fnt
+|-enditem|p1a: Trapinch|Eviolite|[from] move: Knock Off|[of] p2a: Lickitung
+|faint|p1a: Trapinch
+|
+|upkeep
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|switch|p1a: Meowth|Meowth, L5, F|100/100
+|turn|4
+
+|
+|move|p1a: Meowth|Fake Out|p2a: Lickitung
+|-damage|p2a: Lickitung|40/100
+|-damage|p1a: Meowth|95/100|[from] item: Life Orb
+|cant|p2a: Lickitung|flinch
+|
+|upkeep
+|turn|5
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Meowth|Feint|p2a: Lickitung
+|-damage|p2a: Lickitung|8/100
+|-damage|p1a: Meowth|90/100|[from] item: Life Orb
+|move|p2a: Lickitung|Earthquake|p1a: Meowth
+|-damage|p1a: Meowth|0 fnt
+|faint|p1a: Meowth
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Trubbish|Trubbish, L5, M|100/100
+|turn|6
+
+|
+|move|p1a: Trubbish|Drain Punch|p2a: Lickitung
+|-supereffective|p2a: Lickitung
+|-damage|p2a: Lickitung|0 fnt
+|faint|p2a: Lickitung
+|
+|upkeep
+
+|inactive|dadabrasil has 135 seconds left.
+
+|
+|switch|p2a: Mudbray|Mudbray, L5, F|100/100
+|turn|7
+
+|
+|switch|p1a: Pikipek|Pikipek, L5, F|95/100
+|move|p2a: Mudbray|Stealth Rock|p1a: Pikipek
+|-sidestart|p1: Old_Man_Waffles|move: Stealth Rock
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Pikipek|Bullet Seed|p2a: Mudbray
+|-supereffective|p2a: Mudbray
+|-damage|p2a: Mudbray|68/100
+|-ability|p2a: Mudbray|Stamina|boost
+|-boost|p2a: Mudbray|def|1
+|-supereffective|p2a: Mudbray
+|-damage|p2a: Mudbray|36/100
+|-ability|p2a: Mudbray|Stamina|boost
+|-boost|p2a: Mudbray|def|1
+|-enditem|p2a: Mudbray|Berry Juice
+|-heal|p2a: Mudbray|100/100|[from] item: Berry Juice
+|-supereffective|p2a: Mudbray
+|-damage|p2a: Mudbray|80/100
+|-ability|p2a: Mudbray|Stamina|boost
+|-boost|p2a: Mudbray|def|1
+|-supereffective|p2a: Mudbray
+|-damage|p2a: Mudbray|68/100
+|-ability|p2a: Mudbray|Stamina|boost
+|-boost|p2a: Mudbray|def|1
+|-supereffective|p2a: Mudbray
+|-damage|p2a: Mudbray|57/100
+|-ability|p2a: Mudbray|Stamina|boost
+|-boost|p2a: Mudbray|def|1
+|-hitcount|p2a: Mudbray|5
+|-damage|p1a: Pikipek|90/100|[from] item: Life Orb
+|move|p2a: Mudbray|Rock Tomb|p1a: Pikipek
+|-supereffective|p1a: Pikipek
+|-damage|p1a: Pikipek|0 fnt
+|faint|p1a: Pikipek
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|switch|p1a: Pancham|Pancham, L5, M|100/100
+|-damage|p1a: Pancham|96/100|[from] Stealth Rock
+|turn|9
+
+|
+|move|p2a: Mudbray|Earthquake|p1a: Pancham
+|-damage|p1a: Pancham|44/100
+|move|p1a: Pancham|Parting Shot|p2a: Mudbray
+|-unboost|p2a: Mudbray|atk|1
+|-unboost|p2a: Mudbray|spa|1
+
+|
+|switch|p1a: Ponyta|Ponyta, L5, M|100/100
+|-damage|p1a: Ponyta|77/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|-zpower|p1a: Ponyta
+|move|p1a: Ponyta|Inferno Overdrive|p2a: Mudbray|[zeffect]
+|-damage|p2a: Mudbray|20/100
+|-ability|p2a: Mudbray|Stamina|boost
+|-boost|p2a: Mudbray|def|1
+|move|p2a: Mudbray|Earthquake|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|0 fnt
+|faint|p1a: Ponyta
+|
+|upkeep
+
+|
+|switch|p1a: Pancham|Pancham, L5, M|44/100
+|-damage|p1a: Pancham|40/100|[from] Stealth Rock
+|turn|11
+
+|inactive|dadabrasil has 135 seconds left.
+
+|
+|move|p2a: Mudbray|Earthquake|p1a: Pancham
+|-damage|p1a: Pancham|0 fnt
+|faint|p1a: Pancham
+|
+|upkeep
+
+|
+|switch|p1a: Trubbish|Trubbish, L5, M|100/100
+|-damage|p1a: Trubbish|92/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p1a: Trubbish|Drain Punch|p2a: Mudbray
+|-damage|p2a: Mudbray|12/100
+|-heal|p1a: Trubbish|96/100|[from] drain|[of] p2a: Mudbray
+|move|p2a: Mudbray|Earthquake|p1a: Trubbish
+|-supereffective|p1a: Trubbish
+|-damage|p1a: Trubbish|0 fnt
+|faint|p1a: Trubbish
+|
+|win|dadabrasil

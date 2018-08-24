@@ -1,0 +1,293 @@
+|init|battle
+|title|Snuggle Kitten vs. thatdude9795
+|j|☆Snuggle Kitten
+|j|☆thatdude9795
+|player|p1|Snuggle Kitten|170
+|player|p2|thatdude9795|196
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zoroark, F|item
+|poke|p1|Seismitoad, F|item
+|poke|p1|Pidgeot, M|item
+|poke|p1|Rotom-Mow|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Toxicroak, M|
+|poke|p2|Torkoal, M|item
+|poke|p2|Drampa, F|item
+|poke|p2|Roserade, M|item
+|poke|p2|Lycanroc, M|item
+|poke|p2|Crawdaunt, F|item
+|poke|p2|Sylveon, M|item
+|teampreview
+|
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Shell|Torkoal, M, shiny|100/100
+|turn|1
+|
+|move|p1a: Rotom|Volt Switch|p2a: Shell
+|-damage|p2a: Shell|63/100
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|move|p2a: Shell|Stealth Rock|p1a: Tentacruel
+|-sidestart|p1: Snuggle Kitten|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Tentacruel|Knock Off|p2a: Shell
+|-damage|p2a: Shell|49/100
+|-enditem|p2a: Shell|White Herb|[from] move: Knock Off|[of] p1a: Tentacruel
+|move|p2a: Shell|Shell Smash|p2a: Shell
+|-unboost|p2a: Shell|def|1
+|-unboost|p2a: Shell|spd|1
+|-boost|p2a: Shell|atk|2
+|-boost|p2a: Shell|spa|2
+|-boost|p2a: Shell|spe|2
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Shell|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|17/100
+|move|p1a: Tentacruel|Scald|p2a: Shell
+|-supereffective|p2a: Shell
+|-damage|p2a: Shell|0 fnt
+|faint|p2a: Shell
+|
+|-heal|p1a: Tentacruel|23/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Star|Crawdaunt, F|100/100
+|turn|4
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Star
+|-damage|p2a: Star|95/100
+|-sideend|p1: Snuggle Kitten|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Star|Dragon Dance|p2a: Star
+|-boost|p2a: Star|atk|1
+|-boost|p2a: Star|spe|1
+|
+|-heal|p1a: Tentacruel|29/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+
+|
+|move|p2a: Star|Knock Off|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-enditem|p1a: Tentacruel|Black Sludge|[from] move: Knock Off|[of] p2a: Star
+|-damage|p2a: Star|86/100|[from] item: Life Orb
+|faint|p1a: Tentacruel
+|
+|upkeep
+
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|turn|6
+
+|
+|move|p2a: Star|Aqua Jet|p1a: Toxicroak
+|-damage|p1a: Toxicroak|19/100
+|-damage|p2a: Star|76/100|[from] item: Life Orb
+|move|p1a: Toxicroak|Drain Punch|p2a: Star
+|-supereffective|p2a: Star
+|-damage|p2a: Star|0 fnt
+|-heal|p1a: Toxicroak|52/100|[from] drain|[of] p2a: Star
+|faint|p2a: Star
+|
+|upkeep
+
+|
+|switch|p2a: Spike|Lycanroc, M, shiny|100/100
+|turn|7
+
+|
+|move|p2a: Spike|Accelerock|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|36/100
+|move|p1a: Toxicroak|Drain Punch|p2a: Spike
+|-supereffective|p2a: Spike
+|-enditem|p2a: Spike|Focus Sash
+|-damage|p2a: Spike|1/100
+|-heal|p1a: Toxicroak|83/100|[from] drain|[of] p2a: Spike
+|
+|upkeep
+|turn|8
+
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Spike
+|-damage|p2a: Spike|0 fnt
+|faint|p2a: Spike
+|
+|upkeep
+
+|
+|switch|p2a: Moustache|Drampa, F, shiny|100/100
+|turn|9
+
+|
+|move|p1a: Toxicroak|Drain Punch|p2a: Moustache
+|-supereffective|p2a: Moustache
+|-damage|p2a: Moustache|4/100
+|-heal|p1a: Toxicroak|100/100|[from] drain|[of] p2a: Moustache
+|-ability|p2a: Moustache|Berserk|boost
+|-boost|p2a: Moustache|spa|1
+|move|p2a: Moustache|Substitute|p2a: Moustache
+|-fail|p2a: Moustache|move: Substitute|[weak]
+|
+|-heal|p2a: Moustache|10/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Moustache
+|-damage|p2a: Moustache|0 fnt
+|faint|p2a: Moustache
+|
+|upkeep
+
+|
+|switch|p2a: Rose|Roserade, M, shiny|100/100
+|turn|11
+
+|
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|move|p2a: Rose|Dazzling Gleam|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Rose|Dazzling Gleam|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|11/100
+|move|p1a: Rotom|Rain Dance|p1a: Rotom
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+
+|
+|switch|p2a: Ribbon|Sylveon, M, shiny|100/100
+|move|p1a: Rotom|Thunder|p2a: Ribbon
+|-damage|p2a: Ribbon|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ribbon|78/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Seismitoad|Seismitoad, F|100/100
+|move|p2a: Ribbon|Wish|p2a: Ribbon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ribbon|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: Seismitoad|Stealth Rock|p2a: Ribbon
+|-sidestart|p2: thatdude9795|move: Stealth Rock
+|move|p2a: Ribbon|Hyper Voice|p1a: Seismitoad
+|-damage|p1a: Seismitoad|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ribbon|100/100|[from] move: Wish|[wisher] Ribbon
+|upkeep
+|turn|16
+
+|
+|move|p1a: Seismitoad|Hydro Pump|p2a: Ribbon
+|-damage|p2a: Ribbon|71/100
+|move|p2a: Ribbon|Hyper Voice|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ribbon|77/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Toxicroak|Toxicroak, M|100/100
+|-ability|p1a: Toxicroak|Anticipation
+|turn|17
+
+|
+|move|p1a: Toxicroak|Poison Jab|p2a: Ribbon
+|-supereffective|p2a: Ribbon
+|-damage|p2a: Ribbon|0 fnt
+|faint|p2a: Ribbon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Rose|Roserade, M, shiny|100/100
+|-damage|p2a: Rose|88/100|[from] Stealth Rock
+|turn|18
+
+|
+|move|p2a: Rose|Energy Ball|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|65/100
+|move|p1a: Toxicroak|Drain Punch|p2a: Rose
+|-resisted|p2a: Rose
+|-damage|p2a: Rose|57/100
+|-heal|p1a: Toxicroak|78/100|[from] drain|[of] p2a: Rose
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+
+|
+|move|p1a: Toxicroak|Sucker Punch|p2a: Rose
+|-damage|p2a: Rose|14/100
+|move|p2a: Rose|Energy Ball|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|43/100
+|-unboost|p1a: Toxicroak|spd|1
+|
+|-weather|none
+|upkeep
+|turn|20
+
+|
+|move|p2a: Rose|Energy Ball|p1a: Toxicroak
+|-resisted|p1a: Toxicroak
+|-damage|p1a: Toxicroak|0 fnt
+|faint|p1a: Toxicroak
+|
+|upkeep
+
+|
+|switch|p1a: Pidgeot|Pidgeot, M|100/100
+|turn|21
+
+|
+|detailschange|p1a: Pidgeot|Pidgeot-Mega, M
+|-mega|p1a: Pidgeot|Pidgeot|Pidgeotite
+|move|p2a: Rose|Energy Ball|p1a: Pidgeot
+|-resisted|p1a: Pidgeot
+|-damage|p1a: Pidgeot|72/100
+|move|p1a: Pidgeot|Heat Wave|p2a: Rose
+|-supereffective|p2a: Rose
+|-damage|p2a: Rose|0 fnt
+|faint|p2a: Rose
+|
+|win|Snuggle Kitten

@@ -1,0 +1,4605 @@
+|init|battle
+|title|fuckyoo im asian vs. TreeHugger829
+|j|☆fuckyoo im asian
+|j|☆TreeHugger829
+|player|p1|fuckyoo im asian|1
+|player|p2|TreeHugger829|34
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Bisharp, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Venusaur, F|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Heatran, F|item
+|poke|p1|Chansey, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Chansey, F|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Toxapex, F|item
+|poke|p2|Volcarona, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TreeHugger829)
+|
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: TreeHugger829|move: Stealth Rock
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Gliscor|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|89/100
+|-damage|p2a: Gliscor|84/100 tox|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-enditem|p1a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|move|p2a: Gliscor|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p2: TreeHugger829|Stealth Rock|[from] move: Defog|[of] p2a: Gliscor
+|move|p1a: Skarmory|Spikes|p2a: Gliscor
+|-sidestart|p2: TreeHugger829|Spikes
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|switch|p2a: Volcarona|Volcarona, F|100/100
+|-damage|p2a: Volcarona|88/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Volcarona
+|-sidestart|p2: TreeHugger829|Spikes
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Heatran|Toxic|p2a: Gliscor|[miss]
+|-miss|p1a: Heatran|p2a: Gliscor
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Skarmory|Skarmory, F|89/100
+|move|p2a: Gliscor|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p2: TreeHugger829|Spikes|[from] move: Defog|[of] p2a: Gliscor
+|
+|upkeep
+|turn|8
+|inactive|TreeHugger829 has 135 seconds left.
+|inactive|TreeHugger829 has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Skarmory|Spikes|p2a: Toxapex
+|-sidestart|p2: TreeHugger829|Spikes
+|
+|upkeep
+|turn|9
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|move|p2a: Toxapex|Scald|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|92/100
+|-status|p1a: Venusaur|brn
+|
+|-damage|p1a: Venusaur|86/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|TreeHugger829 has 135 seconds left.
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|TreeHugger829 has 120 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|detailschange|p1a: Venusaur|Venusaur-Mega, F
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Venusaur|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-damage|p2a: Gliscor|88/100 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|98/100 brn|[silent]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Venusaur|92/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|switch|p1a: Skarmory|Skarmory, F|89/100
+|move|p2a: Gliscor|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p2: TreeHugger829|Spikes|[from] move: Defog|[of] p2a: Gliscor
+|
+|-damage|p2a: Gliscor|88/100 tox|[from] Leech Seed|[of] p1a: Skarmory
+|-heal|p1a: Skarmory|100/100|[silent]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Skarmory|Spikes|p2a: Chansey
+|-sidestart|p2: TreeHugger829|Spikes
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Chansey
+|-sidestart|p1: fuckyoo im asian|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|move|p2a: Chansey|Toxic|p1a: Chansey
+|-status|p1a: Chansey|tox
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|86/100
+|
+|-damage|p1a: Chansey|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Chansey|Heal Bell|p1a: Chansey
+|-activate|p1a: Chansey|move: Heal Bell
+|-curestatus|p1a: Chansey|tox|[msg]
+|-curestatus|p1: Venusaur|brn|[msg]
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Skarmory|Spikes|p1a: Heatran
+|-sidestart|p1: fuckyoo im asian|Spikes
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Heatran|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: TreeHugger829|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|92/100
+|-damage|p1a: Venusaur|80/100|[from] Spikes
+|-damage|p1a: Venusaur|67/100|[from] Stealth Rock
+|move|p2a: Gliscor|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|59/100
+|
+|upkeep
+|turn|19
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|move|p2a: Gliscor|Defog|p1a: Venusaur
+|-unboost|p1a: Venusaur|evasion|1
+|-sideend|p1: fuckyoo im asian|Spikes|[from] move: Defog|[of] p1a: Venusaur
+|-sideend|p1: fuckyoo im asian|Stealth Rock|[from] move: Defog|[of] p1a: Venusaur
+|-sideend|p2: TreeHugger829|Spikes|[from] move: Defog|[of] p2a: Gliscor
+|-sideend|p2: TreeHugger829|Stealth Rock|[from] move: Defog|[of] p2a: Gliscor
+|move|p1a: Venusaur|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-damage|p2a: Gliscor|88/100 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|71/100|[silent]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|86/100
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|
+|-damage|p2a: Chansey|74/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|95/100|[silent]
+|upkeep
+|turn|21
+|
+|switch|p1a: Heatran|Heatran, F|88/100
+|-item|p1a: Heatran|Air Balloon
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|95/100
+|move|p2a: Gliscor|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|76/100
+|
+|upkeep
+|turn|23
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|74/100
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey|[miss]
+|-miss|p1a: Venusaur|p2a: Chansey
+|
+|upkeep
+|turn|24
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|move|p1a: Skarmory|Spikes|p2a: Chansey
+|-sidestart|p2: TreeHugger829|Spikes
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Skarmory|Whirlwind|p2a: Skarmory
+|drag|p2a: Tapu Lele|Tapu Lele|100/100
+|-damage|p2a: Tapu Lele|88/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Tapu Lele|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|13/100
+|move|p1a: Skarmory|Spikes|p2a: Tapu Lele
+|-sidestart|p2: TreeHugger829|Spikes
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Heatran|Heatran, F|88/100
+|-damage|p1a: Heatran|76/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Tapu Lele|Hidden Power|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Heatran|Lava Plume|p2a: Gliscor
+|-damage|p2a: Gliscor|47/100 tox
+|
+|-heal|p2a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|move|p2a: Gliscor|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|59/100
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Lava Plume|p2a: Gliscor
+|-damage|p2a: Gliscor|9/100 tox
+|
+|-heal|p2a: Gliscor|22/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|31
+|
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Venusaur|Venusaur-Mega, F|76/100
+|-damage|p1a: Venusaur|64/100|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|43/100
+|
+|-heal|p2a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|84/100 tox
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|92/100
+|
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|
+|move|p2a: Gliscor|Defog|p1a: Venusaur
+|-unboost|p1a: Venusaur|evasion|1
+|-sideend|p1: fuckyoo im asian|Stealth Rock|[from] move: Defog|[of] p1a: Venusaur
+|-sideend|p2: TreeHugger829|Spikes|[from] move: Defog|[of] p2a: Gliscor
+|move|p1a: Venusaur|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-damage|p2a: Gliscor|84/100 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|100/100|[silent]
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|
+|-damage|p2a: Chansey|88/100|[from] Leech Seed|[of] p1a: Venusaur
+|upkeep
+|turn|35
+|
+|switch|p1a: Heatran|Heatran, F|59/100
+|move|p2a: Chansey|Stealth Rock|p1a: Heatran
+|-sidestart|p1: fuckyoo im asian|move: Stealth Rock
+|
+|-damage|p2a: Chansey|76/100|[from] Leech Seed|[of] p1a: Heatran
+|-heal|p1a: Heatran|81/100|[silent]
+|upkeep
+|turn|36
+|
+|switch|p2a: Gliscor|Gliscor, M|97/100 tox
+|move|p1a: Heatran|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: TreeHugger829|move: Stealth Rock
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|80/100
+|
+|upkeep
+|turn|38
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|move|p2a: Gliscor|Defog|p1a: Venusaur
+|-unboost|p1a: Venusaur|evasion|1
+|-sideend|p1: fuckyoo im asian|Stealth Rock|[from] move: Defog|[of] p1a: Venusaur
+|-sideend|p2: TreeHugger829|Stealth Rock|[from] move: Defog|[of] p2a: Gliscor
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|69/100 tox
+|-heal|p1a: Venusaur|95/100|[from] drain|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|39
+|
+|switch|p2a: Chansey|Chansey, F|76/100
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|
+|-damage|p2a: Chansey|63/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|100/100|[silent]
+|upkeep
+|turn|40
+|
+|switch|p1a: Heatran|Heatran, F|81/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-damage|p2a: Chansey|88/100|[from] Leech Seed|[of] p1a: Heatran
+|-heal|p1a: Heatran|100/100|[silent]
+|upkeep
+|turn|41
+|
+|switch|p2a: Gliscor|Gliscor, M|81/100 tox
+|move|p1a: Heatran|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: TreeHugger829|move: Stealth Rock
+|
+|-heal|p2a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|42
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|100/100
+|move|p2a: Gliscor|Defog|p1a: Venusaur
+|-unboost|p1a: Venusaur|evasion|1
+|-sideend|p2: TreeHugger829|Stealth Rock|[from] move: Defog|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|43
+|
+|switch|p2a: Chansey|Chansey, F|88/100
+|move|p1a: Venusaur|Giga Drain|p2a: Chansey
+|-damage|p2a: Chansey|78/100
+|
+|upkeep
+|turn|44
+|
+|switch|p1a: Heatran|Heatran, F|100/100
+|move|p2a: Chansey|Stealth Rock|p1a: Heatran
+|-sidestart|p1: fuckyoo im asian|move: Stealth Rock
+|
+|upkeep
+|turn|45
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Heatran|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: TreeHugger829|move: Stealth Rock
+|
+|upkeep
+|turn|46
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Venusaur
+|-damage|p1a: Venusaur|70/100
+|
+|upkeep
+|turn|47
+|
+|switch|p2a: Chansey|Chansey, F|78/100
+|-damage|p2a: Chansey|66/100|[from] Stealth Rock
+|move|p1a: Venusaur|Giga Drain|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|52/100
+|-heal|p1a: Venusaur|84/100|[from] drain|[of] p2a: Chansey
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Chansey
+|-start|p2a: Chansey|move: Leech Seed
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-damage|p2a: Chansey|88/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|100/100|[silent]
+|upkeep
+|turn|49
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|50
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|76/100
+|
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|upkeep
+|turn|51
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|move|p2a: Toxapex|Scald|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|81/100
+|-status|p1a: Venusaur|brn
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|-damage|p1a: Venusaur|75/100 brn|[from] brn
+|upkeep
+|turn|52
+|inactive|TreeHugger829 has 135 seconds left.
+|inactive|TreeHugger829 has 120 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|88/100
+|-damage|p2a: Chansey|76/100|[from] Stealth Rock
+|move|p1a: Venusaur|Giga Drain|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|60/100
+|-heal|p1a: Venusaur|90/100 brn|[from] drain|[of] p2a: Chansey
+|
+|-damage|p1a: Venusaur|84/100 brn|[from] brn
+|upkeep
+|turn|53
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, F|13/100
+|-damage|p1a: Skarmory|1/100|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|51/100
+|move|p2a: Chansey|Seismic Toss|p1a: Skarmory
+|-damage|p1a: Skarmory|21/100
+|
+|upkeep
+|turn|55
+|
+|switch|p2a: Tapu Lele|Tapu Lele|88/100
+|-damage|p2a: Tapu Lele|76/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|71/100
+|
+|upkeep
+|turn|56
+|
+|switch|p1a: Chansey|Chansey, F|94/100
+|-damage|p1a: Chansey|82/100|[from] Stealth Rock
+|move|p2a: Tapu Lele|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|51/100
+|
+|upkeep
+|turn|57
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|
+|upkeep
+|turn|58
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, F|71/100
+|-damage|p1a: Skarmory|59/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|Spikes
+|
+|upkeep
+|turn|59
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|Spikes
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|60
+|
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: TreeHugger829|Spikes
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|Spikes
+|
+|upkeep
+|turn|61
+|
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: TreeHugger829|Spikes
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|
+|upkeep
+|turn|62
+|
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: TreeHugger829|Spikes
+|move|p2a: Skarmory|Whirlwind|p1a: Skarmory
+|drag|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|76/100|[from] Spikes
+|-damage|p1a: Heatran|63/100|[from] Stealth Rock
+|
+|upkeep
+|turn|63
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Heatran|Lava Plume|p2a: Gliscor
+|-damage|p2a: Gliscor|49/100 tox
+|
+|-heal|p2a: Gliscor|62/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|64
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory|[msg]
+|
+|-heal|p2a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|65
+|
+|move|p2a: Gliscor|Roost|p2a: Gliscor
+|-heal|p2a: Gliscor|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|upkeep
+|turn|66
+|
+|move|p2a: Gliscor|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p1: fuckyoo im asian|Spikes|[from] move: Defog|[of] p1a: Skarmory
+|-sideend|p1: fuckyoo im asian|Stealth Rock|[from] move: Defog|[of] p1a: Skarmory
+|-sideend|p2: TreeHugger829|Spikes|[from] move: Defog|[of] p2a: Gliscor
+|-sideend|p2: TreeHugger829|Stealth Rock|[from] move: Defog|[of] p2a: Gliscor
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Chansey|Chansey, F|100/100
+|
+|upkeep
+|turn|67
+|
+|move|p1a: Skarmory|Spikes|p2a: Chansey
+|-sidestart|p2: TreeHugger829|Spikes
+|move|p2a: Chansey|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|move: Stealth Rock
+|
+|upkeep
+|turn|68
+|
+|switch|p2a: Tapu Lele|Tapu Lele|76/100
+|-damage|p2a: Tapu Lele|63/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Skarmory|Spikes|p2a: Tapu Lele
+|-sidestart|p2: TreeHugger829|Spikes
+|
+|upkeep
+|turn|69
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|move|p2a: Tapu Lele|Psyshock|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|62/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|
+|upkeep
+|turn|70
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Volcarona|Volcarona, F|88/100
+|-damage|p2a: Volcarona|72/100|[from] Spikes
+|
+|upkeep
+|turn|71
+|
+|switch|p1a: Chansey|Chansey, F|100/100
+|-damage|p1a: Chansey|88/100|[from] Stealth Rock
+|move|p2a: Volcarona|Hidden Power|p1a: Chansey
+|-damage|p1a: Chansey|82/100
+|
+|upkeep
+|turn|72
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Chansey|Seismic Toss|p2a: Gliscor
+|-damage|p2a: Gliscor|72/100 tox
+|
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|73
+|
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p1: fuckyoo im asian|Stealth Rock|[from] move: Defog|[of] p1a: Skarmory
+|-sideend|p2: TreeHugger829|Spikes|[from] move: Defog|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|74
+|
+|switch|p2a: Volcarona|Volcarona, F|72/100
+|move|p1a: Skarmory|Spikes|p2a: Volcarona
+|-sidestart|p2: TreeHugger829|Spikes
+|
+|upkeep
+|turn|75
+|
+|switch|p1a: Chansey|Chansey, F|82/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|upkeep
+|turn|76
+|
+|-zpower|p2a: Volcarona
+|move|p2a: Volcarona|Inferno Overdrive|p1a: Chansey|[zeffect]
+|-damage|p1a: Chansey|43/100
+|move|p1a: Chansey|Thunder Wave|p2a: Volcarona
+|-status|p2a: Volcarona|par
+|
+|upkeep
+|turn|77
+|
+|cant|p2a: Volcarona|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|93/100
+|
+|upkeep
+|turn|78
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|45/100 par
+|
+|upkeep
+|turn|79
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|95/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|68/100 par
+|
+|upkeep
+|turn|80
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|41/100 par
+|-status|p1a: Chansey|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-damage|p1a: Chansey|87/100 brn|[from] brn
+|upkeep
+|turn|81
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|91/100 par
+|move|p1a: Chansey|Heal Bell|p1a: Chansey
+|-activate|p1a: Chansey|move: Heal Bell
+|-curestatus|p1a: Chansey|brn|[msg]
+|-curestatus|p1: Venusaur|brn|[msg]
+|
+|upkeep
+|turn|82
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|65/100 par
+|-status|p1a: Chansey|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-damage|p1a: Chansey|81/100 brn|[from] brn
+|upkeep
+|turn|83
+|
+|cant|p2a: Volcarona|par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|38/100 par
+|
+|-damage|p1a: Chansey|75/100 brn|[from] brn
+|upkeep
+|turn|84
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|88/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|61/100 par
+|
+|-damage|p1a: Chansey|68/100 brn|[from] brn
+|upkeep
+|turn|85
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Chansey|Heal Bell|p1a: Chansey
+|-activate|p1a: Chansey|move: Heal Bell
+|-curestatus|p1a: Chansey|brn|[msg]
+|
+|upkeep
+|turn|86
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100
+|
+|upkeep
+|turn|87
+|
+|cant|p2a: Volcarona|par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|74/100 par
+|
+|upkeep
+|turn|88
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|47/100 par
+|
+|upkeep
+|turn|89
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|97/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|70/100 par
+|-status|p1a: Chansey|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|-damage|p1a: Chansey|94/100 brn|[from] brn
+|upkeep
+|turn|90
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|74/100 par
+|
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|91
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|74/100 par
+|
+|-damage|p1a: Chansey|82/100 brn|[from] brn
+|upkeep
+|turn|92
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|74/100 par
+|
+|-damage|p1a: Chansey|76/100 brn|[from] brn
+|upkeep
+|turn|93
+|
+|move|p2a: Volcarona|Fire Blast|p1a: Chansey|[miss]
+|-miss|p2a: Volcarona|p1a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|47/100 par
+|
+|-damage|p1a: Chansey|70/100 brn|[from] brn
+|upkeep
+|turn|94
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|97/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|70/100 par
+|
+|-damage|p1a: Chansey|63/100 brn|[from] brn
+|upkeep
+|turn|95
+|
+|cant|p2a: Volcarona|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100/100 brn
+|
+|-damage|p1a: Chansey|94/100 brn|[from] brn
+|upkeep
+|turn|96
+|
+|cant|p2a: Volcarona|par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|43/100 par
+|
+|-damage|p1a: Chansey|88/100 brn|[from] brn
+|upkeep
+|turn|97
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|94/100 par
+|move|p1a: Chansey|Seismic Toss|p2a: Volcarona
+|-damage|p2a: Volcarona|67/100 par
+|
+|-damage|p1a: Chansey|82/100 brn|[from] brn
+|upkeep
+|turn|98
+|
+|move|p2a: Volcarona|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|21/100 brn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|72/100 brn
+|
+|-damage|p1a: Chansey|65/100 brn|[from] brn
+|upkeep
+|turn|99
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p1a: Heatran|Heatran, F|63/100
+|move|p2a: Volcarona|Fire Blast|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|100
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|move|p2a: Volcarona|Hidden Power|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|switch|p1a: Skarmory|Skarmory, F|88/100
+|turn|101
+|
+|cant|p2a: Volcarona|par
+|move|p1a: Skarmory|Whirlwind|p2a: Volcarona
+|drag|p2a: Skarmory|Skarmory, F|100/100
+|
+|upkeep
+|turn|102
+|inactive|TreeHugger829 has 135 seconds left.
+|inactive|TreeHugger829 has 120 seconds left.
+|inactive|TreeHugger829 has 105 seconds left.
+|
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: TreeHugger829|Spikes
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|Spikes
+|
+|upkeep
+|turn|103
+|
+|move|p1a: Skarmory|Spikes|p2a: Skarmory
+|-sidestart|p2: TreeHugger829|Spikes
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|Spikes
+|
+|upkeep
+|turn|104
+|
+|move|p2a: Skarmory|Spikes|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Skarmory
+|drag|p2a: Tapu Lele|Tapu Lele|63/100
+|-damage|p2a: Tapu Lele|38/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|
+|upkeep
+|turn|105
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p1a: Chansey|Chansey, F|65/100
+|-damage|p1a: Chansey|40/100|[from] Spikes
+|move|p2a: Tapu Lele|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|10/100
+|
+|upkeep
+|turn|106
+|
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|-damage|p1a: Bisharp|76/100|[from] Spikes
+|move|p2a: Tapu Lele|Psychic|p1a: Bisharp
+|-immune|p1a: Bisharp|[msg]
+|
+|-heal|p1a: Bisharp|82/100|[from] item: Leftovers
+|upkeep
+|turn|107
+|
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-heal|p1a: Bisharp|88/100|[from] item: Leftovers
+|upkeep
+|turn|108
+|
+|move|p1a: Bisharp|Knock Off|p2a: Skarmory
+|-damage|p2a: Skarmory|36/100
+|-damage|p1a: Bisharp|71/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-enditem|p2a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p1a: Bisharp
+|move|p2a: Skarmory|Counter|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|76/100|[from] Spikes
+|turn|109
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|76/100|[from] Spikes
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|-heal|p1a: Keldeo|82/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|upkeep
+|turn|110
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|57/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|63/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|upkeep
+|turn|111
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|69/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|112
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|75/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|75/100|[from] item: Black Sludge
+|upkeep
+|turn|113
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-activate|p1a: Keldeo|move: Substitute|[damage]
+|
+|-heal|p1a: Keldeo|81/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|68/100|[from] item: Black Sludge
+|upkeep
+|turn|114
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|54/100
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-activate|p1a: Keldeo|move: Substitute|[damage]
+|
+|-heal|p1a: Keldeo|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|60/100|[from] item: Black Sludge
+|upkeep
+|turn|115
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|
+|-heal|p1a: Keldeo|94/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|52/100|[from] item: Black Sludge
+|upkeep
+|turn|116
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|69/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Keldeo|75/100|[from] item: Leftovers
+|upkeep
+|turn|117
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|88/100
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-activate|p1a: Keldeo|move: Substitute|[damage]
+|
+|-heal|p1a: Keldeo|81/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|118
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-activate|p1a: Keldeo|move: Substitute|[damage]
+|
+|-heal|p1a: Keldeo|87/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|87/100|[from] item: Black Sludge
+|upkeep
+|turn|119
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|
+|-heal|p1a: Keldeo|93/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|upkeep
+|turn|120
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|100/100
+|-damage|p2a: Chansey|76/100|[from] Spikes
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|69/100
+|
+|-heal|p1a: Keldeo|75/100|[from] item: Leftovers
+|upkeep
+|turn|121
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Chansey|Seismic Toss|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|
+|-heal|p1a: Keldeo|81/100|[from] item: Leftovers
+|upkeep
+|turn|122
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-heal|p1a: Keldeo|87/100|[from] item: Leftovers
+|upkeep
+|inactive|TreeHugger829 has 135 seconds left.
+|inactive|TreeHugger829 has 120 seconds left.
+|inactive|TreeHugger829 has 105 seconds left.
+|
+|switch|p2a: Tapu Lele|Tapu Lele|38/100
+|-damage|p2a: Tapu Lele|13/100|[from] Spikes
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|123
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|inactive|fuckyoo im asian has 105 seconds left.
+|
+|move|p1a: Keldeo|Scald|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|-heal|p1a: Keldeo|93/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|76/100|[from] Spikes
+|turn|124
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|inactive|fuckyoo im asian has 105 seconds left.
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100
+|-status|p2a: Toxapex|brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|99/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|56/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|50/100 brn|[from] brn
+|upkeep
+|turn|125
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|74/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100 brn
+|
+|-heal|p1a: Keldeo|81/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|126
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-activate|p1a: Keldeo|move: Substitute|[damage]
+|
+|-heal|p1a: Keldeo|87/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|127
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|70/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|93/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|76/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|70/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|128
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-activate|p1a: Keldeo|move: Substitute|[damage]
+|
+|-heal|p1a: Keldeo|99/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|76/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|70/100 brn|[from] brn
+|upkeep
+|turn|129
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|130
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|96/100 brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|131
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|75/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|69/100 brn|[from] brn
+|upkeep
+|turn|132
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-activate|p1a: Keldeo|move: Substitute|[damage]
+|
+|-heal|p2a: Toxapex|75/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|69/100 brn|[from] brn
+|upkeep
+|turn|133
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|43/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|49/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|43/100 brn|[from] brn
+|upkeep
+|turn|134
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|93/100 brn
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|135
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-end|p1a: Keldeo|Substitute
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|136
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|76/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|82/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|137
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Keldeo|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|138
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|inactive|fuckyoo im asian has 105 seconds left.
+|inactive|fuckyoo im asian has 90 seconds left.
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|94/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|139
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Keldeo|99/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|140
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|100/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|141
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|142
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|143
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|144
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|145
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|99/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|93/100 brn|[from] brn
+|upkeep
+|turn|146
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|59/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|65/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|59/100 brn|[from] brn
+|upkeep
+|turn|147
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|148
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|71/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|77/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|71/100 brn|[from] brn
+|upkeep
+|turn|149
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|77/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|71/100 brn|[from] brn
+|upkeep
+|turn|150
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|77/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|71/100 brn|[from] brn
+|upkeep
+|turn|151
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|77/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|71/100 brn|[from] brn
+|upkeep
+|turn|152
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|153
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|84/100
+|-sideend|p1: fuckyoo im asian|move: Toxic Spikes|[of] p1a: Venusaur
+|-damage|p1a: Venusaur|59/100|[from] Spikes
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|96/100 brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|154
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|97/100 tox
+|move|p1a: Venusaur|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-damage|p2a: Gliscor|85/100 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|71/100|[silent]
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|155
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Skarmory|Skarmory, F|36/100
+|move|p1a: Venusaur|Giga Drain|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|26/100
+|-heal|p1a: Venusaur|76/100|[from] drain|[of] p2a: Skarmory
+|
+|upkeep
+|turn|156
+|
+|move|p1a: Venusaur|Hidden Power|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Volcarona|Volcarona, F|67/100 par
+|-damage|p2a: Volcarona|42/100 par|[from] Spikes
+|turn|157
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Volcarona
+|-start|p2a: Volcarona|move: Leech Seed
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|92/100 par
+|
+|-damage|p2a: Volcarona|80/100 par|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|89/100|[silent]
+|upkeep
+|turn|158
+|
+|switch|p1a: Keldeo|Keldeo|100/100
+|-damage|p1a: Keldeo|76/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|97/100 tox
+|
+|-heal|p1a: Keldeo|82/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|159
+|
+|switch|p1a: Skarmory|Skarmory, F|88/100
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|160
+|inactive|TreeHugger829 has 135 seconds left.
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|161
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|162
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|move|p1a: Skarmory|Spikes|p2a: Toxapex
+|-fail|p1a: Skarmory
+|move|p2a: Toxapex|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|65/100
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|163
+|
+|move|p1a: Skarmory|Spikes|p2a: Toxapex
+|-fail|p1a: Skarmory
+|move|p2a: Toxapex|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|42/100
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|164
+|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|92/100
+|move|p2a: Toxapex|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|70/100
+|-status|p1a: Skarmory|brn
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|64/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|165
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Skarmory|58/100 brn|[from] brn
+|upkeep
+|turn|166
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|95/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|167
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Volcarona|Volcarona, F|80/100 par
+|-damage|p2a: Volcarona|55/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|89/100 brn|[from] brn
+|upkeep
+|turn|168
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|89/100
+|-damage|p1a: Venusaur|64/100|[from] Spikes
+|-sideend|p1: fuckyoo im asian|move: Toxic Spikes|[of] p1a: Venusaur
+|move|p2a: Volcarona|Fire Blast|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|21/100
+|
+|upkeep
+|turn|169
+|inactive|TreeHugger829 has 135 seconds left.
+|inactive|TreeHugger829 has 120 seconds left.
+|
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|71/100
+|cant|p2a: Volcarona|par
+|
+|upkeep
+|turn|170
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|move|p1a: Venusaur|Leech Seed|p2a: Volcarona
+|-start|p2a: Volcarona|move: Leech Seed
+|cant|p2a: Volcarona|par
+|
+|-damage|p2a: Volcarona|42/100 par|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|83/100|[silent]
+|upkeep
+|turn|171
+|
+|switch|p1a: Keldeo|Keldeo|82/100
+|-damage|p1a: Keldeo|57/100|[from] Spikes
+|cant|p2a: Volcarona|par
+|
+|-heal|p1a: Keldeo|63/100|[from] item: Leftovers
+|-damage|p2a: Volcarona|30/100 par|[from] Leech Seed|[of] p1a: Keldeo
+|-heal|p1a: Keldeo|76/100|[silent]
+|upkeep
+|turn|172
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|-heal|p1a: Keldeo|83/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|173
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|89/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|57/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|51/100 brn|[from] brn
+|upkeep
+|turn|174
+|
+|switch|p1a: Skarmory|Skarmory, F|89/100 brn
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-damage|p1a: Skarmory|83/100 brn|[from] brn
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|175
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|77/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|176
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|move|p2a: Toxapex|Toxic Spikes|p1a: Skarmory
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|71/100 brn|[from] brn
+|upkeep
+|turn|177
+|inactive|TreeHugger829 has 135 seconds left.
+|inactive|TreeHugger829 has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|65/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|178
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Volcarona|Volcarona, F|30/100 par
+|-damage|p2a: Volcarona|5/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|59/100 brn|[from] brn
+|upkeep
+|turn|179
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|55/100 par
+|move|p1a: Skarmory|Whirlwind|p2a: Volcarona
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|53/100 brn|[from] brn
+|upkeep
+|turn|180
+|inactive|TreeHugger829 has 135 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100 brn
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|95/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|181
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|inactive|fuckyoo im asian has 105 seconds left.
+|inactive|fuckyoo im asian has 90 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|89/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|182
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Volcarona|Volcarona, F|55/100 par
+|-damage|p2a: Volcarona|30/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|83/100 brn|[from] brn
+|upkeep
+|turn|183
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|83/100
+|-sideend|p1: fuckyoo im asian|move: Toxic Spikes|[of] p1a: Venusaur
+|-damage|p1a: Venusaur|58/100|[from] Spikes
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|80/100 par
+|
+|upkeep
+|turn|184
+|inactive|TreeHugger829 has 135 seconds left.
+|inactive|TreeHugger829 has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|100/100
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|185
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, F|83/100 brn
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|77/100 brn|[from] brn
+|upkeep
+|turn|186
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|71/100 brn|[from] brn
+|upkeep
+|turn|187
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Volcarona|Volcarona, F|80/100 par
+|-damage|p2a: Volcarona|55/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|65/100 brn|[from] brn
+|upkeep
+|turn|188
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|100/100
+|-damage|p1a: Venusaur|76/100|[from] Spikes
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|
+|upkeep
+|turn|189
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-damage|p2a: Gliscor|88/100 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|88/100|[silent]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|190
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, F|65/100 brn
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|59/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|191
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|53/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|192
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|47/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|193
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|97/100 brn
+|
+|-damage|p1a: Skarmory|91/100 brn|[from] brn
+|upkeep
+|turn|194
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|85/100 brn|[from] brn
+|upkeep
+|turn|195
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|79/100 brn|[from] brn
+|upkeep
+|turn|196
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|73/100 brn|[from] brn
+|upkeep
+|turn|197
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|67/100 brn|[from] brn
+|upkeep
+|turn|198
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|61/100 brn|[from] brn
+|upkeep
+|turn|199
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Volcarona|Volcarona, F|100/100 par
+|-damage|p2a: Volcarona|76/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|55/100 brn|[from] brn
+|upkeep
+|turn|200
+|inactive|fuckyoo im asian has 135 seconds left.
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|88/100
+|-damage|p1a: Venusaur|63/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|upkeep
+|turn|201
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Venusaur|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|57/100 brn
+|-heal|p1a: Venusaur|71/100|[from] drain|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|63/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|202
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|70/100 tox
+|-heal|p1a: Venusaur|86/100|[from] drain|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|203
+|
+|switch|p2a: Toxapex|Toxapex, F|90/100 brn
+|-damage|p2a: Toxapex|66/100 brn|[from] Spikes
+|move|p1a: Venusaur|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100 brn
+|-heal|p1a: Venusaur|94/100|[from] drain|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|204
+|
+|switch|p1a: Skarmory|Skarmory, F|55/100 brn
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|96/100 brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|49/100 brn|[from] brn
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|205
+|
+|switch|p2a: Gliscor|Gliscor, M|82/100 tox
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|99/100 brn
+|
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|93/100 brn|[from] brn
+|upkeep
+|turn|206
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|95/100 tox
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|87/100 brn|[from] brn
+|upkeep
+|turn|207
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|81/100 brn|[from] brn
+|upkeep
+|turn|208
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Volcarona|Volcarona, F|76/100 par
+|-damage|p2a: Volcarona|51/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|75/100 brn|[from] brn
+|upkeep
+|turn|209
+|inactive|fuckyoo im asian has 135 seconds left.
+|inactive|fuckyoo im asian has 120 seconds left.
+|j| Flaress
+|j| The Yeet King
+|inactive|fuckyoo im asian has 105 seconds left.
+|c| The Yeet King|GO TreeHugger829
+|c| The Yeet King|YOU BETTER WIN NERD
+|inactive|fuckyoo im asian has 90 seconds left.
+|c|☆TreeHugger829|idk
+|c|☆TreeHugger829|could go either way
+
+|c| Flaress|no
+
+|inactive|fuckyoo im asian has 75 seconds left.
+
+|c| Flaress|I'm pretty sure
+
+|c| Flaress|asian dude wins
+
+|c|☆fuckyoo im asian|how so?'
+
+|c|☆TreeHugger829|how is that
+
+|c| Flaress|it's not counter skarmory
+
+|c| Flaress|wtf
+
+|inactive|fuckyoo im asian has 60 seconds left.
+
+|c|☆TreeHugger829|it is
+
+|c| Flaress|it's bb
+
+|c|☆TreeHugger829|counter skarmory
+
+|c|☆fuckyoo im asian|no
+
+|c|☆fuckyoo im asian|it's counter
+
+|c| Flaress|it should be
+
+|c| Flaress|brave bird
+
+|c|☆fuckyoo im asian|i've used counter this game
+
+|c|☆TreeHugger829|if he had toxic
+
+|inactive|fuckyoo im asian has 45 seconds left.
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|94/100
+|-damage|p1a: Venusaur|69/100|[from] Spikes
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|
+|upkeep
+|turn|210
+
+|j| Share the Worms
+
+|c|☆TreeHugger829|then he would win
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-damage|p2a: Gliscor|88/100 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|82/100|[silent]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|211
+
+|c|☆fuckyoo im asian|toxic on who?
+
+|c| Flaress|no
+
+|c| Flaress|I'm pretty sure
+
+|c| Flaress|venu and keldeo win
+
+|c|☆TreeHugger829|oh yea you're right
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|j| NuttyRabbit
+
+|c|☆TreeHugger829|I'm just switching back and forth
+
+|c|☆fuckyoo im asian|keldeo doesn't break through toxapex
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Venusaur|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100 brn
+|-heal|p1a: Venusaur|90/100|[from] drain|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|62/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|56/100 brn|[from] brn
+|upkeep
+|turn|212
+
+|c| Flaress|u literally out stall it
+
+|c|☆TreeHugger829|because toxapex regenerates after spiked
+
+|j| lancie182
+
+|c| Flaress|is it not sub
+
+|c| Flaress|keldeo
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|TreeHugger829 has 135 seconds left.
+
+|c| Flaress|wtf
+
+|c|☆TreeHugger829|and Gliscor takes no damage from it
+
+|c| Flaress|import the team
+
+|c|☆fuckyoo im asian|flaress, do you know this team?
+
+|c| Flaress|properly
+
+|c| Flaress|yes
+
+|c| Flaress|lol.
+
+|c|☆fuckyoo im asian|where is the import
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|c| Flaress|I don't have the import but
+
+|
+|switch|p1a: Skarmory|Skarmory, F|75/100 brn
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|69/100 brn|[from] brn
+|upkeep
+|turn|213
+
+|c| Flaress|it's suppose to sub keldeo
+
+|c| Flaress|brave bird skarmory
+
+|c|☆fuckyoo im asian|it is sub keldeo
+
+|c|☆TreeHugger829|my team?
+
+|c| Flaress|no
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c| Flaress|does your team have
+
+|c| Flaress|keldeo
+
+|
+|switch|p2a: Toxapex|Toxapex, F|89/100 brn
+|-damage|p2a: Toxapex|64/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|70/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|63/100 brn|[from] brn
+|-damage|p2a: Toxapex|64/100 brn|[from] brn
+|upkeep
+|turn|214
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Skarmory|57/100 brn|[from] brn
+|upkeep
+|turn|215
+
+|
+|switch|p2a: Toxapex|Toxapex, F|98/100 brn
+|-damage|p2a: Toxapex|73/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|79/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|51/100 brn|[from] brn
+|-damage|p2a: Toxapex|73/100 brn|[from] brn
+|upkeep
+|turn|216
+
+|inactive|TreeHugger829 has 135 seconds left.
+
+|c|☆TreeHugger829|use all your whirlwinds before you start wasting counters
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Skarmory|45/100 brn|[from] brn
+|upkeep
+|turn|217
+
+|c| Flaress|it's also
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|95/100 brn
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|89/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|218
+
+|c| Flaress|rocky helmet
+
+|c| Flaress|skarmory
+
+|c|☆fuckyoo im asian|it is rocky helmet
+
+|j| Thezekken
+
+|c|☆fuckyoo im asian|it got knocked off
+
+|c| The Yeet King|this is so dumb
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c| Flaress|cool cool
+
+|c|☆fuckyoo im asian|how do you know this team comp?
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|83/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|219
+
+|c| The Yeet King|hustle up already
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|77/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|220
+
+|c| The Yeet King|i wanna see blood
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Volcarona|Volcarona, F|100/100 par
+|-damage|p2a: Volcarona|76/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|71/100 brn|[from] brn
+|upkeep
+|turn|221
+
+|c| The Yeet King|win or something nerd
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|90/100
+|-damage|p1a: Venusaur|65/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|upkeep
+|turn|222
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Venusaur|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100 brn
+|-heal|p1a: Venusaur|74/100|[from] drain|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|62/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|56/100 brn|[from] brn
+|upkeep
+|turn|223
+
+|c| Flaress|how many scalds
+
+|c| Flaress|does
+
+|c| Flaress|keldeo have
+
+|c|☆fuckyoo im asian|13
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|69/100 tox
+|-heal|p1a: Venusaur|89/100|[from] drain|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|224
+
+|c| Flaress|dope dope
+
+|c|☆fuckyoo im asian|is that enough to win?
+
+|inactive|TreeHugger829 has 135 seconds left.
+
+|c| Flaress|no
+
+|c| Flaress|actually
+
+|c| Flaress|maybe
+
+|
+|switch|p2a: Toxapex|Toxapex, F|89/100 brn
+|-damage|p2a: Toxapex|65/100 brn|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, F|71/100 brn
+|
+|-heal|p2a: Toxapex|70/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|65/100 brn|[from] brn
+|-damage|p2a: Toxapex|65/100 brn|[from] brn
+|upkeep
+|turn|225
+
+|c|☆fuckyoo im asian|lol
+
+|c| The Yeet King|take a guess nerd
+
+|c| The Yeet King|you cant win
+
+|
+|switch|p2a: Gliscor|Gliscor, M|81/100 tox
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Volcarona|Volcarona, F|76/100 par
+|-damage|p2a: Volcarona|51/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|59/100 brn|[from] brn
+|upkeep
+|turn|226
+
+|c| The Yeet King|fuckyoo im asian youre a loser
+
+|
+|move|p2a: Volcarona|Roost|p2a: Volcarona
+|-heal|p2a: Volcarona|100/100 par
+|move|p1a: Skarmory|Whirlwind|p2a: Volcarona
+|drag|p2a: Gliscor|Gliscor, M|81/100 tox
+|
+|-heal|p2a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|53/100 brn|[from] brn
+|upkeep
+|turn|227
+
+|c|☆fuckyoo im asian|why?
+
+|c| Flaress|bro
+
+|c|☆TreeHugger829|He can win
+
+|c| Flaress|you're in thp
+
+|c| lancie182|this is why I hate going up against stall
+
+|l| Thezekken
+
+|c| The Yeet King|youre losing
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|TreeHugger829 has 135 seconds left.
+
+|c| lancie182|even if u win
+
+|c| Flaress|you're probably more of the loser
+
+|c| lancie182|u will have wasted a lot of time
+
+|c| Flaress|there even right now
+
+|
+|switch|p2a: Toxapex|Toxapex, F|98/100 brn
+|-damage|p2a: Toxapex|73/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Volcarona|Volcarona, F|100/100 par
+|-damage|p2a: Volcarona|76/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|47/100 brn|[from] brn
+|upkeep
+|turn|228
+
+|c| The Yeet King|anything wrong with thp?
+
+|c| Flaress|uh yeah
+
+|c| Flaress|kek
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|89/100
+|-damage|p1a: Venusaur|64/100|[from] Spikes
+|cant|p2a: Volcarona|par
+|
+|upkeep
+|turn|229
+
+|c| The Yeet King|whats wrong with it?
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Venusaur|Leech Seed|p2a: Toxapex
+|-start|p2a: Toxapex|move: Leech Seed
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|69/100 brn|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|74/100|[silent]
+|-damage|p2a: Toxapex|64/100 brn|[from] brn
+|upkeep
+|turn|230
+
+|c| Flaress|you're in it
+
+|
+|switch|p2a: Gliscor|Gliscor, M|94/100 tox
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|61/100 tox
+|-heal|p1a: Venusaur|91/100|[from] drain|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|231
+
+|c| Flaress|makes it shit
+
+|
+|switch|p2a: Toxapex|Toxapex, F|97/100 brn
+|-damage|p2a: Toxapex|72/100 brn|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, F|47/100 brn
+|
+|-heal|p2a: Toxapex|78/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|41/100 brn|[from] brn
+|-damage|p2a: Toxapex|72/100 brn|[from] brn
+|upkeep
+|turn|232
+
+|
+|switch|p2a: Gliscor|Gliscor, M|74/100 tox
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|91/100 brn
+|
+|-heal|p2a: Gliscor|86/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|85/100 brn|[from] brn
+|upkeep
+|turn|233
+
+|c| The Yeet King|who hurt you?
+
+|c| lancie182|long dragging battles aren't for everyone
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Whirlwind|p2a: Toxapex
+|drag|p2a: Volcarona|Volcarona, F|76/100 par
+|-damage|p2a: Volcarona|51/100 par|[from] Spikes
+|
+|-damage|p1a: Skarmory|79/100 brn|[from] brn
+|upkeep
+|turn|234
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p1a: Keldeo|Keldeo|89/100
+|-damage|p1a: Keldeo|64/100|[from] Spikes
+|cant|p2a: Volcarona|par
+|
+|-heal|p1a: Keldeo|70/100|[from] item: Leftovers
+|upkeep
+|turn|235
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|-heal|p1a: Keldeo|76/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|236
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|52/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|82/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|58/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|52/100 brn|[from] brn
+|upkeep
+|turn|237
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|57/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-heal|p1a: Keldeo|64/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|238
+
+|c| The Yeet King|come on asian boy
+
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|70/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|239
+
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|72/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|76/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|78/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|72/100 brn|[from] brn
+|upkeep
+|turn|240
+
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|82/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|78/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|72/100 brn|[from] brn
+|upkeep
+|turn|241
+
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|48/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|54/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|48/100 brn|[from] brn
+|upkeep
+|turn|242
+
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100 brn
+|
+|-heal|p1a: Keldeo|94/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|243
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|91/100
+|-damage|p1a: Venusaur|66/100|[from] Spikes
+|-sideend|p1: fuckyoo im asian|move: Toxic Spikes|[of] p1a: Venusaur
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|244
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|i think im gonna lose
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|switch|p1a: Keldeo|Keldeo|94/100
+|-damage|p1a: Keldeo|69/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|86/100 tox
+|
+|-heal|p1a: Keldeo|76/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|245
+
+|c|☆TreeHugger829|I made a lot of mistakes
+
+|c|☆fuckyoo im asian|what mistakes?
+
+|c|☆fuckyoo im asian|i didn't see any
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|TreeHugger829 has 135 seconds left.
+
+|c|☆TreeHugger829|like giving up Tapu lele for no reason, your keldeo was faster and I just sent it in to die
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|inactive|TreeHugger829 has 120 seconds left.
+
+|c|☆fuckyoo im asian|oh right
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|-heal|p1a: Keldeo|82/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|246
+
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|56/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|50/100 brn|[from] brn
+|upkeep
+|turn|247
+
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|99/100 brn
+|
+|-heal|p1a: Keldeo|94/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|248
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|69/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|75/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|249
+
+|l| Share the Worms
+
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|81/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|250
+
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|72/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|88/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|78/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|72/100 brn|[from] brn
+|upkeep
+|turn|251
+
+|
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|94/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|78/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|72/100 brn|[from] brn
+|upkeep
+|turn|252
+
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|99/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|53/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|47/100 brn|[from] brn
+|upkeep
+|turn|253
+
+|c| Flaress|how about
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|66/100
+|-sideend|p1: fuckyoo im asian|move: Toxic Spikes|[of] p1a: Venusaur
+|-damage|p1a: Venusaur|41/100|[from] Spikes
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|97/100 brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|254
+
+|c| Flaress|you guys
+
+|c| Flaress|make it a tie
+
+|c| Flaress|and both of you
+
+|c|☆fuckyoo im asian|how
+
+|c| Flaress|don't lose points
+
+|c| Flaress|lol
+
+|inactive|TreeHugger829 has 135 seconds left.
+
+|
+|switch|p2a: Gliscor|Gliscor, M|99/100 tox
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|91/100
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|255
+
+|c| Flaress|it depends
+
+|c| Flaress|does treehugger
+
+|c| Flaress|agree
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆fuckyoo im asian|i mean
+
+|c|☆TreeHugger829|thats impossible anyway, you'd have to ask a mod
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|c| Flaress|no it's not
+
+|c| Flaress|lol
+
+|c|☆TreeHugger829|but no lets finish this it's been 255 turns
+
+|j| Share the Worms
+
+|c|☆fuckyoo im asian|lol
+
+|c|☆fuckyoo im asian|you sure?
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|c|☆fuckyoo im asian|i'm down to tie if you are
+
+|c|☆fuckyoo im asian|neither of us deserve to win
+
+|c|☆fuckyoo im asian|LOL
+
+|c|☆TreeHugger829|would be a waste to end in a tie after 255 turns
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|c| Flaress|just pla
+
+|inactive|fuckyoo im asian has 75 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Venusaur|Hidden Power|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|71/100 brn
+|
+|-heal|p2a: Toxapex|77/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|71/100 brn|[from] brn
+|upkeep
+|turn|256
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|TreeHugger829 has 135 seconds left.
+
+|c| lancie182|keep going bois
+
+|c| lancie182|some1's bound to run out of peepee
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Hidden Power|p2a: Gliscor
+|-damage|p2a: Gliscor|84/100 tox
+|
+|-heal|p2a: Gliscor|96/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|257
+
+|l| Share the Worms
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Venusaur|Giga Drain|p2a: Toxapex
+|-damage|p2a: Toxapex|57/100 brn
+|-heal|p1a: Venusaur|99/100|[from] drain|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|63/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|57/100 brn|[from] brn
+|upkeep
+|turn|258
+
+|c|☆TreeHugger829|yea I can keep switching because of regenerator and Gliscor's immunity to spikes but he has to use PP or die to spikes
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p2a: Gliscor|Gliscor, M|96/100 tox
+|move|p1a: Venusaur|Hidden Power|p2a: Gliscor
+|-damage|p2a: Gliscor|79/100 tox
+|
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|259
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|90/100 brn
+|-damage|p2a: Toxapex|66/100 brn|[from] Spikes
+|move|p1a: Venusaur|Hidden Power|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|61/100 brn
+|
+|-heal|p2a: Toxapex|67/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|61/100 brn|[from] brn
+|upkeep
+|turn|260
+
+|
+|switch|p1a: Keldeo|Keldeo|99/100
+|-damage|p1a: Keldeo|75/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|91/100 tox
+|
+|-heal|p1a: Keldeo|81/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|261
+
+|
+|switch|p2a: Toxapex|Toxapex, F|94/100 brn
+|-damage|p2a: Toxapex|69/100 brn|[from] Spikes
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|-heal|p1a: Keldeo|87/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|75/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|69/100 brn|[from] brn
+|upkeep
+|turn|262
+
+|
+|move|p1a: Keldeo|Secret Sword|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|45/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|93/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|51/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|45/100 brn|[from] brn
+|upkeep
+|turn|263
+
+|c| lancie182|wew ld
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|99/100
+|-damage|p1a: Venusaur|74/100|[from] Spikes
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|95/100 brn
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|264
+
+|
+|switch|p1a: Keldeo|Keldeo|93/100
+|-damage|p1a: Keldeo|69/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-heal|p1a: Keldeo|75/100|[from] item: Leftovers
+|upkeep
+|turn|265
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100 brn
+|
+|-heal|p1a: Keldeo|81/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|68/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|62/100 brn|[from] brn
+|upkeep
+|turn|266
+
+|l|☆TreeHugger829
+
+|inactive|TreeHugger829 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|c| lancie182|oh shit
+
+|j|☆TreeHugger829
+
+|inactive|TreeHugger829 reconnected and has 125 seconds left.
+
+|player|p2|TreeHugger829|34
+|inactive|TreeHugger829 has 120 seconds left.
+
+|c| lancie182|got damn
+
+|l|☆TreeHugger829
+
+|inactive|TreeHugger829 disconnected and has a minute to reconnect!
+
+|player|p2|
+
+|j|☆TreeHugger829
+
+|inactive|TreeHugger829 reconnected and has 100 seconds left.
+
+|player|p2|TreeHugger829|34
+|inactive|TreeHugger829 has 90 seconds left.
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|56/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100 brn
+|
+|-heal|p1a: Keldeo|62/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|267
+
+|c|☆TreeHugger829|my internet is really bad
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|TreeHugger829 has 135 seconds left.
+
+|c|☆TreeHugger829|I could disconnect at any time
+
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100 brn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|68/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|88/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|82/100 brn|[from] brn
+|upkeep
+|turn|268
+
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100 brn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|74/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|74/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|68/100 brn|[from] brn
+|upkeep
+|turn|269
+
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|55/100 brn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Keldeo|81/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|61/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|55/100 brn|[from] brn
+|upkeep
+|turn|270
+
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|42/100 brn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Keldeo|87/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|48/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|42/100 brn|[from] brn
+|upkeep
+|turn|271
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|74/100
+|-damage|p1a: Venusaur|49/100|[from] Spikes
+|-sideend|p1: fuckyoo im asian|move: Toxic Spikes|[of] p1a: Venusaur
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|92/100 brn
+|
+|-heal|p2a: Toxapex|98/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|92/100 brn|[from] brn
+|upkeep
+|turn|272
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|99/100
+|
+|upkeep
+|turn|273
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|i
+
+|c|☆TreeHugger829|should
+
+|c|☆TreeHugger829|keep
+
+|c|☆TreeHugger829|typing
+
+|c|☆TreeHugger829|in
+
+|c|☆TreeHugger829|chat
+
+|c|☆fuckyoo im asian|why?
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|c|☆TreeHugger829|to make
+
+|c|☆TreeHugger829|sure
+
+|c|☆TreeHugger829|im not
+
+|c|☆TreeHugger829|disconnected
+
+|c|☆TreeHugger829|bla
+
+|c|☆TreeHugger829|as
+
+|c|☆TreeHugger829|ds
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|c|☆TreeHugger829|ws
+
+|c|☆TreeHugger829|rd
+
+|c|☆TreeHugger829|fv
+
+|c|☆TreeHugger829|sa
+
+|c|☆TreeHugger829|zx
+
+|c| Flaress|ok
+
+|c|☆TreeHugger829|cd
+
+|c| Flaress|you're good
+
+|c|☆TreeHugger829|er
+
+|c| Flaress|you aren't
+
+|c| Flaress|dcing
+
+|c| Flaress|jsut paly
+
+|c| Flaress|now
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|c|☆TreeHugger829|i've made my move
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Venusaur|Hidden Power|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|70/100 brn
+|
+|-heal|p2a: Toxapex|76/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|70/100 brn|[from] brn
+|upkeep
+|turn|274
+
+|
+|switch|p1a: Keldeo|Keldeo|87/100
+|-damage|p1a: Keldeo|62/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-heal|p1a: Keldeo|68/100|[from] item: Leftovers
+|upkeep
+|turn|275
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|-heal|p1a: Keldeo|74/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|276
+
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|58/100 brn
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|80/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|64/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|58/100 brn|[from] brn
+|upkeep
+|turn|277
+
+|c|☆TreeHugger829|hello
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|no dc
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|55/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|61/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|64/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|58/100 brn|[from] brn
+|upkeep
+|turn|278
+
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100 brn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|68/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|279
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|yellow
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|c|☆TreeHugger829|whenever a move takes a while I have to type to make sure im connected
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|c| lancie182|who's downloading porn at your place
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|c|☆TreeHugger829|its been really weak
+
+|c|☆TreeHugger829|for a while now
+
+|c|☆TreeHugger829|Right now its 2 bars
+
+|inactive|fuckyoo im asian has 75 seconds left.
+
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|34/100 brn
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|84/100 brn
+|
+|-heal|p1a: Keldeo|74/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|90/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|84/100 brn|[from] brn
+|upkeep
+|turn|280
+
+|c| lancie182|wew lad
+
+|c| lancie182|use a lan cable
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|lan cable?
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-fail|p1a: Keldeo|move: Substitute
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Keldeo|80/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|90/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|84/100 brn|[from] brn
+|upkeep
+|turn|281
+
+|c| lancie182|or direct cable
+
+|c| lancie182|from your router
+
+|c| lancie182|to laptop
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-fail|p1a: Keldeo|move: Substitute
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Keldeo|86/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|90/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|84/100 brn|[from] brn
+|upkeep
+|turn|282
+
+|c| lancie182|unless if u're on mobile
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-fail|p1a: Keldeo|move: Substitute
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Keldeo|92/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|90/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|84/100 brn|[from] brn
+|upkeep
+|turn|283
+
+|c|☆TreeHugger829|i might do that later
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|99/100
+|-damage|p1a: Venusaur|74/100|[from] Spikes
+|-sideend|p1: fuckyoo im asian|move: Toxic Spikes|[of] p1a: Venusaur
+|move|p2a: Toxapex|Toxic Spikes|p1a: Venusaur
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|90/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|84/100 brn|[from] brn
+|upkeep
+|turn|284
+
+|c| lancie182|jNOOOOOOOO
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|jno?
+
+|
+|switch|p1a: Skarmory|Skarmory, F|79/100 brn
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|73/100 brn|[from] brn
+|upkeep
+|turn|285
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|switch|p1a: Venusaur|Venusaur-Mega, F|74/100
+|-damage|p1a: Venusaur|49/100|[from] Spikes
+|-sideend|p1: fuckyoo im asian|move: Toxic Spikes|[of] p1a: Venusaur
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|286
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|99/100
+|
+|upkeep
+|turn|287
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, F|73/100 brn
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|67/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|288
+
+|c| Flaress|just tie
+
+|c| Flaress|kek
+
+|
+|switch|p1a: Keldeo|Keldeo|92/100
+|-damage|p1a: Keldeo|67/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-heal|p1a: Keldeo|74/100|[from] item: Leftovers
+|upkeep
+|turn|289
+
+|c| lancie182|actually
+
+|c| Flaress|you both
+
+|c| Flaress|literally
+
+|c| Flaress|don't click a move
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c| Flaress|and it will tie
+
+|c|☆fuckyoo im asian|ok
+
+|c|☆TreeHugger829|he clicks moves
+
+|c|☆fuckyoo im asian|let's call for a tie
+
+|c| lancie182|treehugger has more of a chance
+
+|c|☆TreeHugger829|no
+
+|c|☆TreeHugger829|no ties
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|c|☆fuckyoo im asian|why not?
+
+|c|☆TreeHugger829|there's spikes on both sides
+
+|c| lancie182|asian's pp will run out eventually
+
+|c|☆TreeHugger829|someone will lose
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|c| lancie182|asian's the only one time stalling
+
+|inactive|fuckyoo im asian has 75 seconds left.
+
+|inactive|fuckyoo im asian has 60 seconds left.
+
+|c|☆TreeHugger829|Asian made some mistakes too I think he could have won
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100 brn
+|
+|-heal|p1a: Keldeo|80/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|69/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|63/100 brn|[from] brn
+|upkeep
+|turn|290
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-start|p1a: Keldeo|Substitute
+|-damage|p1a: Keldeo|55/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|61/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|69/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|63/100 brn|[from] brn
+|upkeep
+|turn|291
+
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|50/100 brn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: fuckyoo im asian|move: Toxic Spikes
+|
+|-heal|p1a: Keldeo|67/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|56/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|50/100 brn|[from] brn
+|upkeep
+|turn|292
+
+|c| lancie182|if keldeo's pp wasn't so worn out
+
+|c| lancie182|he could've won
+
+|
+|switch|p2a: Volcarona|Volcarona, F|51/100 par
+|-damage|p2a: Volcarona|26/100 par|[from] Spikes
+|move|p1a: Keldeo|Scald|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-heal|p1a: Keldeo|73/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Toxapex|Toxapex, F|83/100 brn
+|-damage|p2a: Toxapex|59/100 brn|[from] Spikes
+|turn|293
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-fail|p1a: Keldeo|move: Substitute
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Keldeo|79/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|65/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|59/100 brn|[from] brn
+|upkeep
+|turn|294
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|c|☆TreeHugger829|he might still win
+
+|c|☆TreeHugger829|toxapex
+
+|c|☆TreeHugger829|will be on low on hp
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|c|☆TreeHugger829|after 2 more scalds
+
+|c|☆TreeHugger829|then Venusaur
+
+|
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100 brn
+|move|p2a: Toxapex|Toxic Spikes|p1a: Keldeo
+|-fail|p2a: Toxapex
+|
+|-heal|p1a: Keldeo|86/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|295
+
+|c|☆TreeHugger829|might be able to kill it
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|move|p1a: Keldeo|Substitute|p1a: Keldeo
+|-fail|p1a: Keldeo|move: Substitute
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Keldeo|92/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|296
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|99/100
+|-sideend|p1: fuckyoo im asian|move: Toxic Spikes|[of] p1a: Venusaur
+|-damage|p1a: Venusaur|74/100|[from] Spikes
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|297
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|switch|p1a: Keldeo|Keldeo|92/100
+|-damage|p1a: Keldeo|67/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-heal|p1a: Keldeo|73/100|[from] item: Leftovers
+|upkeep
+|turn|298
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|74/100
+|-damage|p1a: Venusaur|49/100|[from] Spikes
+|switch|p2a: Toxapex|Toxapex, F|79/100 brn
+|-damage|p2a: Toxapex|55/100 brn|[from] Spikes
+|
+|-heal|p2a: Toxapex|61/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|55/100 brn|[from] brn
+|upkeep
+|turn|299
+
+|c|☆TreeHugger829|blue
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Hidden Power|p2a: Gliscor
+|-damage|p2a: Gliscor|84/100 tox
+|
+|-heal|p2a: Gliscor|96/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|300
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|TreeHugger829 has 135 seconds left.
+
+|
+|move|p2a: Gliscor|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|40/100
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|64/100 tox
+|-heal|p1a: Venusaur|55/100|[from] drain|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|301
+
+|
+|move|p2a: Gliscor|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|47/100
+|move|p1a: Venusaur|Hidden Power|p2a: Gliscor
+|-damage|p2a: Gliscor|60/100 tox
+|
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|302
+
+|
+|move|p2a: Gliscor|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|38/100
+|move|p1a: Venusaur|Hidden Power|p2a: Gliscor
+|-damage|p2a: Gliscor|55/100 tox
+|
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|303
+
+|
+|move|p2a: Gliscor|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|30/100
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|80/100
+|
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|304
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p1a: Skarmory|Skarmory, F|67/100 brn
+|move|p2a: Gliscor|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|59/100 brn
+|
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|53/100 brn|[from] brn
+|upkeep
+|turn|305
+
+|
+|switch|p2a: Toxapex|Toxapex, F|88/100 brn
+|-damage|p2a: Toxapex|63/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|69/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|47/100 brn|[from] brn
+|-damage|p2a: Toxapex|63/100 brn|[from] brn
+|upkeep
+|turn|306
+
+|
+|switch|p2a: Gliscor|Gliscor, M|93/100 tox
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|97/100 brn
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|91/100 brn|[from] brn
+|upkeep
+|turn|307
+
+|
+|switch|p2a: Toxapex|Toxapex, F|97/100 brn
+|-damage|p2a: Toxapex|72/100 brn|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Toxapex
+|-fail|p1a: Skarmory
+|
+|-heal|p2a: Toxapex|78/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|85/100 brn|[from] brn
+|-damage|p2a: Toxapex|72/100 brn|[from] brn
+|upkeep
+|turn|308
+
+|
+|switch|p1a: Keldeo|Keldeo|73/100
+|-damage|p1a: Keldeo|48/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-heal|p1a: Keldeo|54/100|[from] item: Leftovers
+|upkeep
+|turn|309
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Keldeo|Scald|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|64/100 brn
+|
+|-heal|p1a: Keldeo|60/100|[from] item: Leftovers
+|-heal|p2a: Toxapex|70/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|64/100 brn|[from] brn
+|upkeep
+|turn|310
+
+|
+|switch|p1a: Skarmory|Skarmory, F|85/100 brn
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|79/100 brn|[from] brn
+|upkeep
+|turn|311
+
+|c|☆TreeHugger829|gold and silver
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|c|☆TreeHugger829|This is my longest match ever
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|98/100 brn
+|-damage|p2a: Toxapex|73/100 brn|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Toxapex
+|-fail|p1a: Skarmory
+|
+|-heal|p2a: Toxapex|79/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|73/100 brn|[from] brn
+|-damage|p2a: Toxapex|73/100 brn|[from] brn
+|upkeep
+|turn|312
+
+|c|☆TreeHugger829|If I accidentally click defog then I lose, or at least my win is not guaranteed
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Spikes|p2a: Gliscor
+|-fail|p1a: Skarmory
+|
+|-damage|p1a: Skarmory|67/100 brn|[from] brn
+|upkeep
+|turn|313
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|61/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|314
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Spikes|p2a: Gliscor
+|-fail|p1a: Skarmory
+|
+|-damage|p1a: Skarmory|55/100 brn|[from] brn
+|upkeep
+|turn|315
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Toxapex
+|-fail|p1a: Skarmory
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|49/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|316
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|if we both had regenerator the match would go on forever
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|99/100 brn
+|
+|-damage|p1a: Skarmory|93/100 brn|[from] brn
+|upkeep
+|turn|317
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|switch|p1a: Venusaur|Venusaur-Mega, F|80/100
+|-damage|p1a: Venusaur|55/100|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|318
+
+|
+|switch|p1a: Skarmory|Skarmory, F|93/100 brn
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|-damage|p1a: Skarmory|87/100 brn|[from] brn
+|upkeep
+|turn|319
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|81/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|320
+
+|c| lancie182|it's a matter now of who wants to stick around long enough to win
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|whose all still here
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|c|☆TreeHugger829|if I stick around long enough I think i'll win
+
+|c|☆TreeHugger829|keldeos out of pp
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|c|☆TreeHugger829|skarmory will die to burn
+
+|c| lancie182|yeah that's a given
+
+|c|☆TreeHugger829|chansey dies when it comes in
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|c| lancie182|u'll obviously win
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Skarmory|75/100 brn|[from] brn
+|upkeep
+|turn|321
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|69/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|322
+
+|c| lancie182|question is when
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Skarmory|63/100 brn|[from] brn
+|upkeep
+|turn|323
+
+|c|☆TreeHugger829|lots of pp left to be used up
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|57/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|324
+
+|c| lancie182|this asian guy just wont give up
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|c|☆TreeHugger829|I think he had a chance earlier but he made some mistakes. Wasted a lot of PP
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Skarmory|51/100 brn|[from] brn
+|upkeep
+|turn|325
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|45/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|326
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|95/100 brn
+|
+|-damage|p1a: Skarmory|89/100 brn|[from] brn
+|upkeep
+|turn|327
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|I think this might go over 400 turns
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|l| Flaress
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|switch|p1a: Venusaur|Venusaur-Mega, F|55/100
+|-damage|p1a: Venusaur|30/100|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|328
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|80/100
+|
+|upkeep
+|turn|329
+
+|
+|move|p2a: Gliscor|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|71/100
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|70/100 tox
+|-heal|p1a: Venusaur|86/100|[from] drain|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|330
+
+|
+|switch|p1a: Skarmory|Skarmory, F|89/100 brn
+|move|p2a: Gliscor|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|80/100 brn
+|
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|74/100 brn|[from] brn
+|upkeep
+|turn|331
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|68/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|332
+
+|
+|switch|p2a: Gliscor|Gliscor, M|95/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|62/100 brn|[from] brn
+|upkeep
+|turn|333
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|switch|p1a: Venusaur|Venusaur-Mega, F|86/100
+|-damage|p1a: Venusaur|61/100|[from] Spikes
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|334
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Venusaur|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-damage|p2a: Gliscor|88/100 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|73/100|[silent]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|335
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|switch|p1a: Skarmory|Skarmory, F|62/100 brn
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|56/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|336
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Skarmory|50/100 brn|[from] brn
+|upkeep
+|turn|337
+
+|c|☆TreeHugger829|who is all still here
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|99/100 brn
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|94/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|338
+
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|73/100
+|-damage|p1a: Venusaur|48/100|[from] Spikes
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|upkeep
+|turn|339
+
+|c|☆TreeHugger829|no one?
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|
+|move|p2a: Gliscor|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|39/100
+|move|p1a: Venusaur|Giga Drain|p2a: Gliscor
+|-damage|p2a: Gliscor|70/100 tox
+|-heal|p1a: Venusaur|54/100|[from] drain|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|83/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|340
+
+|
+|move|p2a: Gliscor|Knock Off|p1a: Venusaur
+|-damage|p1a: Venusaur|45/100
+|move|p1a: Venusaur|Leech Seed|p2a: Gliscor
+|-start|p2a: Gliscor|move: Leech Seed
+|
+|-damage|p2a: Gliscor|70/100 tox|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|58/100|[silent]
+|-heal|p2a: Gliscor|83/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|341
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|idk
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Venusaur|Hidden Power|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|70/100 brn
+|
+|-heal|p2a: Toxapex|76/100 brn|[from] item: Black Sludge
+|-damage|p2a: Toxapex|70/100 brn|[from] brn
+|upkeep
+|turn|342
+
+|
+|switch|p1a: Skarmory|Skarmory, F|94/100 brn
+|switch|p2a: Gliscor|Gliscor, M|83/100 tox
+|
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|88/100 brn|[from] brn
+|upkeep
+|turn|343
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|j| stay finesse
+
+|j| Captain Floatzel
+
+|j| eeveena
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|c| Captain Floatzel|wow this team
+
+|c| eeveena|Don’t lose
+
+|l| Captain Floatzel
+
+|c| eeveena|to a 2014 team
+
+|inactive|fuckyoo im asian has 75 seconds left.
+
+|c|☆TreeHugger829|idk
+
+|inactive|fuckyoo im asian has 60 seconds left.
+
+|l| stay finesse
+
+|c|☆TreeHugger829|he might lose to timer now
+
+|inactive|fuckyoo im asian has 45 seconds left.
+
+|inactive|fuckyoo im asian has 30 seconds left.
+
+|c| eeveena|How much pp
+
+|c| eeveena|does venu have
+
+|c|☆TreeHugger829|he's running out of pp
+
+|inactive|fuckyoo im asian has 20 seconds left.
+
+|c|☆TreeHugger829|he basically out
+
+|inactive|fuckyoo im asian has 15 seconds left.
+
+|c|☆TreeHugger829|I kept all mine
+
+|c|☆TreeHugger829|by switching
+
+|inactive|fuckyoo im asian has 10 seconds left.
+
+|c|☆TreeHugger829|Since Regenerator
+
+|inactive|fuckyoo im asian has 5 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|82/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|344
+
+|c|☆TreeHugger829|and Gliscor immunity to spikes
+
+|
+|switch|p2a: Gliscor|Gliscor, M|95/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Skarmory|76/100 brn|[from] brn
+|upkeep
+|turn|345
+
+|l| NuttyRabbit
+
+|c| eeveena|Is his venu out of pp too?
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|I think he has like 10 hidden power fires
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|70/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|346
+
+|c|☆TreeHugger829|but its too weak
+
+|c|☆TreeHugger829|to take on gliscors healing
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Skarmory|64/100 brn|[from] brn
+|upkeep
+|turn|347
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c|☆TreeHugger829|whats the longest match you've been in
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|58/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|348
+
+|c| eeveena|As in played?
+
+|c|☆TreeHugger829|yes
+
+|c| eeveena|946
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Counter|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Skarmory|52/100 brn|[from] brn
+|upkeep
+|turn|349
+
+|c|☆TreeHugger829|was it on purpose
+
+|c| eeveena|No
+
+|c| eeveena|double regen stall
+
+|inactive|fuckyoo im asian has 135 seconds left.
+
+|c| eeveena|vs double regen stall
+
+|c|☆TreeHugger829|did it come to an end or did one of you quit
+
+|inactive|fuckyoo im asian has 120 seconds left.
+
+|c| eeveena|We drawer
+
+|c| eeveena|drawed*
+
+|inactive|fuckyoo im asian has 105 seconds left.
+
+|c|☆TreeHugger829|Thats why there should be a 40 time switch limit. Gamefreak needs to add that.
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|c| eeveena|I have never won a single game using stall
+
+|inactive|fuckyoo im asian has 75 seconds left.
+
+|c|☆TreeHugger829|I don't like stall
+
+|c|☆TreeHugger829|I don't think my team is stall
+
+|c|☆TreeHugger829|Someone told me it's semi stall
+
+|inactive|fuckyoo im asian has 60 seconds left.
+
+|
+|switch|p2a: Toxapex|Toxapex, F|100/100 brn
+|-damage|p2a: Toxapex|76/100 brn|[from] Spikes
+|move|p1a: Skarmory|Counter|p2a: Toxapex
+|-fail|p2a: Toxapex
+|
+|-heal|p2a: Toxapex|82/100 brn|[from] item: Black Sludge
+|-damage|p1a: Skarmory|46/100 brn|[from] brn
+|-damage|p2a: Toxapex|76/100 brn|[from] brn
+|upkeep
+|turn|350
+
+|c|☆TreeHugger829|I copied it off Yugi Low
+
+|c| eeveena|It’s semi stall
+
+|
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|96/100 brn
+|
+|-damage|p1a: Skarmory|90/100 brn|[from] brn
+|upkeep
+|turn|351
+
+|inactive|fuckyoo im asian has 90 seconds left.
+
+|c|☆TreeHugger829|Yugi Low is the guy with the top gxe on the ladder
+
+|inactive|fuckyoo im asian has 75 seconds left.
+
+|c| eeveena|If he has no way to win he is just timer stalling u should report it to <<help>>
+
+|inactive|fuckyoo im asian has 60 seconds left.
+
+|c| lancie182|wew lad
+
+|c|☆TreeHugger829|I figured
+
+|c|☆TreeHugger829|but I really want this match
+
+|inactive|fuckyoo im asian has 45 seconds left.
+
+|c|☆TreeHugger829|to come to an end
+
+|c| lancie182|he's been timer stalling for quite a while now
+
+|c|☆TreeHugger829|yea I know
+
+|inactive|fuckyoo im asian has 30 seconds left.
+
+|inactive|fuckyoo im asian has 20 seconds left.
+
+|c| lancie182|no offense
+
+|inactive|fuckyoo im asian has 15 seconds left.
+
+|c|☆TreeHugger829|I want it to reach it's end
+
+|inactive|fuckyoo im asian has 10 seconds left.
+
+|c| lancie182|but he's pretty much a sore loser
+
+|c|☆TreeHugger829|and then upload it
+
+|inactive|fuckyoo im asian has 5 seconds left.
+
+|-message|fuckyoo im asian lost due to inactivity.
+|
+|win|TreeHugger829

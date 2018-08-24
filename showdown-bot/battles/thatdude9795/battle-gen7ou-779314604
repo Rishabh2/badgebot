@@ -1,0 +1,127 @@
+|init|battle
+|title|thatdude9795 vs. CQJloveRT
+|j|☆thatdude9795
+|j|☆CQJloveRT
+|player|p1|thatdude9795|196
+|player|p2|CQJloveRT|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Torkoal, M|item
+|poke|p1|Drampa, M|item
+|poke|p1|Roserade, F|item
+|poke|p1|Lycanroc, F|item
+|poke|p1|Crawdaunt, M|item
+|poke|p1|Sylveon, M|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Weezing, M|item
+|poke|p2|Magneton|item
+|poke|p2|Tauros, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Marowak, M|item
+|teampreview
+|
+|start
+|switch|p1a: Shell|Torkoal, M, shiny|100/100
+|switch|p2a: Tauros|Tauros, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-fail|p1a: Shell|unboost|[from] ability: White Smoke|[of] p1a: Shell
+|turn|1
+|
+|move|p2a: Tauros|Thrash|p1a: Shell
+|-damage|p1a: Shell|26/100
+|move|p1a: Shell|Stealth Rock|p2a: Tauros
+|-sidestart|p2: CQJloveRT|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Tauros|Thrash|p1a: Shell|[from]lockedmove
+|-damage|p1a: Shell|0 fnt
+|-start|p2a: Tauros|confusion|[fatigue]
+|faint|p1a: Shell
+|
+|upkeep
+
+|
+|switch|p1a: Star|Crawdaunt, M|100/100
+|turn|3
+
+|
+|switch|p2a: Cloyster|Cloyster, M|100/100
+|-damage|p2a: Cloyster|75/100|[from] Stealth Rock
+|move|p1a: Star|Dragon Dance|p1a: Star
+|-boost|p1a: Star|atk|1
+|-boost|p1a: Star|spe|1
+|
+|-heal|p2a: Cloyster|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Star|Knock Off|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|-enditem|p2a: Cloyster|Leftovers|[from] move: Knock Off|[of] p1a: Star
+|-damage|p1a: Star|91/100|[from] item: Life Orb
+|faint|p2a: Cloyster
+|
+|upkeep
+
+|
+|switch|p2a: Weezing|Weezing, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p1a: Star|Liquidation|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Star|81/100|[from] item: Life Orb
+|faint|p2a: Weezing
+|
+|upkeep
+
+|
+|switch|p2a: Magneton|Magneton|100/100
+|-damage|p2a: Magneton|94/100|[from] Stealth Rock
+|turn|6
+
+|
+|move|p1a: Star|Knock Off|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|-enditem|p2a: Magneton|Eviolite|[from] move: Knock Off|[of] p1a: Star
+|-damage|p1a: Star|71/100|[from] item: Life Orb
+|faint|p2a: Magneton
+|
+|upkeep
+
+|
+|switch|p2a: Tauros|Tauros, M|100/100
+|-damage|p2a: Tauros|88/100|[from] Stealth Rock
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Star|atk|1
+|turn|7
+
+|
+|move|p1a: Star|Knock Off|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-enditem|p2a: Tauros|Choice Band|[from] move: Knock Off|[of] p1a: Star
+|-damage|p1a: Star|62/100|[from] item: Life Orb
+|faint|p2a: Tauros
+|
+|upkeep
+
+|-message|CQJloveRT forfeited.
+
+|
+|win|thatdude9795

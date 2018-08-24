@@ -1,0 +1,513 @@
+|init|battle
+|title|The Yeet King vs. ChrisThreeTwoOne
+|j|☆The Yeet King
+|j|☆ChrisThreeTwoOne
+|player|p1|The Yeet King|156
+|player|p2|ChrisThreeTwoOne|282
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Diancie|item
+|poke|p1|Celesteela|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Muk-Alola, F|item
+|poke|p1|Hydreigon, M|item
+|poke|p1|Golisopod, M|item
+|poke|p2|Tapu Lele|item
+|poke|p2|Krookodile, F|item
+|poke|p2|Accelgor, M|item
+|poke|p2|Nihilego|item
+|poke|p2|Politoed, M|item
+|poke|p2|Swampert, F|item
+|teampreview
+|c|☆ChrisThreeTwoOne|glhf
+|c|☆The Yeet King|oh hey
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ChrisThreeTwoOne)
+|inactiveoff|Battle timer is now OFF.
+|c|☆The Yeet King|damn that accelgor is scary
+|j| Mystic Mudsdale
+|c|☆ChrisThreeTwoOne|yeah last game it had 3 kills
+|
+|start
+|switch|p1a: Cancerous-T|Landorus-Therian, M|100/100
+|switch|p2a: Accelgor|Accelgor, M|100/100
+|-ability|p1a: Cancerous-T|Intimidate|boost
+|-unboost|p2a: Accelgor|atk|1
+|turn|1
+|c|☆The Yeet King|DONT FINAL GAMBET ME
+|c|☆ChrisThreeTwoOne|ok
+
+|c|☆The Yeet King|otherwise ill yeet on ya
+
+|
+|move|p2a: Accelgor|Substitute|p2a: Accelgor
+|-start|p2a: Accelgor|Substitute
+|-damage|p2a: Accelgor|75/100
+|move|p1a: Cancerous-T|Stealth Rock|p2a: Accelgor
+|-sidestart|p2: ChrisThreeTwoOne|move: Stealth Rock
+|
+|-heal|p2a: Accelgor|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|
+|move|p2a: Accelgor|Encore|p1a: Cancerous-T
+|-start|p1a: Cancerous-T|Encore
+|move|p1a: Cancerous-T|Stealth Rock|p2a: Accelgor
+|-fail|p1a: Cancerous-T
+|
+|-heal|p2a: Accelgor|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|c| Mystic Mudsdale|oh snap
+
+|
+|switch|p1a: B O N E L E S S|Diancie|100/100
+|move|p2a: Accelgor|Spikes|p1a: B O N E L E S S
+|-sidestart|p1: The Yeet King|Spikes
+|
+|-heal|p2a: Accelgor|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|c|☆The Yeet King|go mega **B**ONELESS
+
+|
+|detailschange|p1a: B O N E L E S S|Diancie-Mega
+|-mega|p1a: B O N E L E S S|Diancie|Diancite
+|move|p2a: Accelgor|Encore|p1a: B O N E L E S S
+|move|p1a: B O N E L E S S|Encore|p2a: Accelgor|[from]Magic Bounce
+|-fail|p1a: B O N E L E S S
+|move|p1a: B O N E L E S S|Moonblast|p2a: Accelgor
+|-end|p2a: Accelgor|Substitute
+|
+|-heal|p2a: Accelgor|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|c|☆The Yeet King|bro why would u do that
+
+|c|☆The Yeet King|mis click?
+
+|c| Mystic Mudsdale|oof
+
+|
+|move|p2a: Accelgor|Substitute|p2a: Accelgor
+|-start|p2a: Accelgor|Substitute
+|-damage|p2a: Accelgor|75/100
+|move|p1a: B O N E L E S S|Moonblast|p2a: Accelgor
+|-end|p2a: Accelgor|Substitute
+|
+|-heal|p2a: Accelgor|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|c| Mystic Mudsdale|misclick or misplay it doesnt matter now
+
+|
+|move|p2a: Accelgor|Final Gambit|p1a: B O N E L E S S
+|-damage|p1a: B O N E L E S S|0 fnt
+|faint|p2a: Accelgor
+|faint|p1a: B O N E L E S S
+|
+|upkeep
+
+|c| Mystic Mudsdale|rip
+
+|c|☆The Yeet King|sub + final gambit
+
+|c|☆The Yeet King|somethings not adding up
+
+|c| Mystic Mudsdale|i thought that was wierd too
+
+|
+|switch|p2a: Krookodile|Krookodile, F|100/100
+|switch|p1a: Iron Bugaroo|Golisopod, M, shiny|100/100
+|-damage|p2a: Krookodile|94/100|[from] Stealth Rock
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Iron Bugaroo|atk|1
+|-damage|p1a: Iron Bugaroo|88/100|[from] Spikes
+|turn|7
+
+|c|☆The Yeet King|watch me yeet on krook
+
+|c| Mystic Mudsdale|sub spikes encore final gambit full accelgor set
+
+|
+|move|p1a: Iron Bugaroo|First Impression|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|1/100
+|-damage|p1a: Iron Bugaroo|78/100|[from] item: Life Orb
+|move|p2a: Krookodile|Knock Off|p1a: Iron Bugaroo
+|-damage|p1a: Iron Bugaroo|29/100
+|-enditem|p1a: Iron Bugaroo|Life Orb|[from] move: Knock Off|[of] p2a: Krookodile
+|-activate|p1a: Iron Bugaroo|ability: Emergency Exit
+|-damage|p2a: Krookodile|0 fnt|[from] item: Life Orb
+|faint|p2a: Krookodile
+
+|c|☆The Yeet King|TF that nibba lived
+
+|c|☆ChrisThreeTwoOne|max hp
+
+|
+|switch|p1a: uber in disguise|Celesteela|100/100
+|
+|upkeep
+
+|c|☆The Yeet King|I see
+
+|
+|switch|p2a: Nihilego|Nihilego|100/100
+|-damage|p2a: Nihilego|88/100|[from] Stealth Rock
+|turn|8
+
+|
+|switch|p1a: kum backwards|Muk-Alola, F|100/100
+|-damage|p1a: kum backwards|88/100|[from] Spikes
+|move|p2a: Nihilego|Hidden Power|p1a: kum backwards
+|-damage|p1a: kum backwards|80/100
+|
+|upkeep
+|turn|9
+
+|c|☆The Yeet King|lemme guess HP ice predicted lando?
+
+|c|☆The Yeet King|youre carrying zthunder?
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|100/100
+|-damage|p2a: Tapu Lele|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: kum backwards|Knock Off|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|56/100
+|
+|upkeep
+|turn|10
+
+|c|☆The Yeet King|nvm THIS fellas actually running z fairyum
+
+|c| Mystic Mudsdale|mighta just been hp fire for celesteela
+
+|c|☆The Yeet King|nah nihiliegos got thunder which OHKOs celes i think
+
+|c|☆The Yeet King|it definitely kills if its zthunder
+
+|
+|switch|p2a: Politoed|Politoed, M|100/100
+|-damage|p2a: Politoed|88/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: kum backwards|Poison Jab|p2a: Politoed
+|-damage|p2a: Politoed|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+
+|
+|move|p2a: Politoed|Endure|p2a: Politoed
+|-singleturn|p2a: Politoed|move: Endure
+|move|p1a: kum backwards|Knock Off|p2a: Politoed
+|-activate|p2a: Politoed|move: Endure
+|-damage|p2a: Politoed|1/100
+|-enditem|p2a: Politoed|Salac Berry|[from] move: Knock Off|[of] p1a: kum backwards
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+
+|c| Mystic Mudsdale|rains in too early imo
+
+|c|☆The Yeet King|given hes not carrying zapbro hes defo got that set
+
+|c|☆The Yeet King|yeah idk why would u do that
+
+|
+|switch|p1a: uber in disguise|Celesteela|100/100
+|move|p2a: Politoed|Endeavor|p1a: uber in disguise
+|-damage|p1a: uber in disguise|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: uber in disguise|7/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|c|☆The Yeet King|FUCK me
+
+|c| Mystic Mudsdale|lmao
+
+|j| James155
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|56/100
+|-damage|p2a: Tapu Lele|44/100|[from] Stealth Rock
+|switch|p1a: Iron Bugaroo|Golisopod, M, shiny|29/100
+|-damage|p1a: Iron Bugaroo|16/100|[from] Spikes
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|14
+
+|c| James155|Hmm
+
+|
+|switch|p2a: Nihilego|Nihilego|88/100
+|-damage|p2a: Nihilego|76/100|[from] Stealth Rock
+|move|p1a: Iron Bugaroo|First Impression|p2a: Nihilego
+|-resisted|p2a: Nihilego
+|-damage|p2a: Nihilego|34/100
+|
+|-weather|none
+|upkeep
+|turn|15
+
+|c|☆The Yeet King|just in time for getting rid of that annoying ass terrain
+
+|c| Mystic Mudsdale|does abilty activate b4 rocks?
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|44/100
+|-damage|p2a: Tapu Lele|31/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|move|p1a: Iron Bugaroo|Aqua Jet|p2a: Tapu Lele
+|-activate|p2a: Tapu Lele|move: Psychic Terrain
+|
+|upkeep
+|turn|16
+
+|
+|switch|p1a: kum backwards|Muk-Alola, F|80/100
+|-damage|p1a: kum backwards|68/100|[from] Spikes
+|move|p2a: Tapu Lele|Psychic|p1a: kum backwards
+|-immune|p1a: kum backwards|[msg]
+|
+|upkeep
+|turn|17
+
+|c|☆The Yeet King|back at it again I see
+
+|c|☆The Yeet King|u got none on kum bro tho
+
+|c| James155|Chris
+
+|c| James155|moon blast killed golisopod
+
+|c| James155|and hits muk
+
+|
+|switch|p2a: Nihilego|Nihilego|34/100
+|-damage|p2a: Nihilego|22/100|[from] Stealth Rock
+|move|p1a: kum backwards|Knock Off|p2a: Nihilego
+|-damage|p2a: Nihilego|0 fnt
+|-enditem|p2a: Nihilego|Focus Sash|[from] move: Knock Off|[of] p1a: kum backwards
+|faint|p2a: Nihilego
+|
+|upkeep
+
+|
+|switch|p2a: Politoed|Politoed, M|1/100
+|-damage|p2a: Politoed|0 fnt|[from] Stealth Rock
+|faint|p2a: Politoed
+
+|
+|switch|p2a: Swampert|Swampert, F|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|turn|18
+
+|c|☆The Yeet King|bro why didnt u carry a defogger
+
+|c| Mystic Mudsdale|gg
+
+|c|☆The Yeet King|where my rain dawg
+
+|c| James155|Chris
+
+|c| James155|aww
+
+|c| James155|dang
+
+|c|☆The Yeet King|i wouldve carried zapdos for  a defogger bro
+
+|c| Mystic Mudsdale|unless this thing is rain dance
+
+|
+|switch|p1a: uber in disguise|Celesteela|7/100
+|detailschange|p2a: Swampert|Swampert-Mega, F
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Power-Up Punch|p1a: uber in disguise
+|-damage|p1a: uber in disguise|0 fnt
+|-boost|p2a: Swampert|atk|1
+|faint|p1a: uber in disguise
+|
+|upkeep
+
+|
+|switch|p1a: triple benis|Hydreigon, M|100/100
+|turn|19
+
+|
+|switch|p2a: Tapu Lele|Tapu Lele|31/100
+|-damage|p2a: Tapu Lele|19/100|[from] Stealth Rock
+|-zpower|p1a: triple benis
+|move|p1a: triple benis|Devastating Drake|p2a: Tapu Lele|[zeffect]
+|-immune|p2a: Tapu Lele|[msg]
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|20
+
+|c|☆The Yeet King|GEE
+
+|c| Mystic Mudsdale|oof
+
+|c|☆The Yeet King|show me that electric terrain dawg
+
+|c| Mystic Mudsdale|electric?
+
+|c| James155|u gotta stop saying dawg and bro lel
+
+|c|☆The Yeet King|yeah psychic
+
+|c|☆The Yeet King|whatever
+
+|c| Mystic Mudsdale|y is there no psychic terrain?
+
+|c|☆The Yeet King|it wore out
+
+|c| Mystic Mudsdale|ohhhhh
+
+|c| Mystic Mudsdale|after lele came in
+
+|c| Mystic Mudsdale|i just had a brain fart lol
+
+|c| James155|Wait
+
+|c| James155|chris can still
+
+|c| James155|win
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ChrisThreeTwoOne)
+
+|inactiveoff|Battle timer is now OFF.
+
+|
+|switch|p1a: Cancerous-T|Landorus-Therian, M|100/100
+|-ability|p1a: Cancerous-T|Intimidate|boost
+|-unboost|p2a: Tapu Lele|atk|1
+|move|p2a: Tapu Lele|Moonblast|p1a: Cancerous-T
+|-damage|p1a: Cancerous-T|37/100
+|
+|-heal|p1a: Cancerous-T|43/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|c|☆The Yeet King|can he though
+
+|c| Mystic Mudsdale|its possible
+
+|c|☆The Yeet King|as long as bugaroo is alive all I gotta do is sac mons away
+
+|
+|move|p2a: Tapu Lele|Moonblast|p1a: Cancerous-T
+|-damage|p1a: Cancerous-T|0 fnt
+|faint|p1a: Cancerous-T
+|
+|upkeep
+
+|
+|switch|p1a: Iron Bugaroo|Golisopod, M, shiny|16/100
+|-damage|p1a: Iron Bugaroo|4/100|[from] Spikes
+|turn|22
+
+|c|☆The Yeet King|this is what im talking about
+
+|c| James155|Just wait my guy
+
+|c| Mystic Mudsdale|if lele has bright powder tho
+
+|c| Mystic Mudsdale|its possible
+
+|
+|move|p1a: Iron Bugaroo|First Impression|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|upkeep
+
+|
+|switch|p2a: Swampert|Swampert-Mega, F|94/100
+|-damage|p2a: Swampert|88/100|[from] Stealth Rock
+|turn|23
+
+|c|☆The Yeet King|hes got psychic z
+
+|
+|move|p1a: Iron Bugaroo|Sucker Punch|p2a: Swampert
+|-damage|p2a: Swampert|63/100
+|move|p2a: Swampert|Power-Up Punch|p1a: Iron Bugaroo
+|-resisted|p1a: Iron Bugaroo
+|-damage|p1a: Iron Bugaroo|0 fnt
+|-boost|p2a: Swampert|atk|1
+|faint|p1a: Iron Bugaroo
+|
+|upkeep
+
+|
+|switch|p1a: triple benis|Hydreigon, M|100/100
+|turn|24
+
+|c| Mystic Mudsdale|most likely yeah lol
+
+|c| James155|Draco miss
+
+|c|☆The Yeet King|triple benis go get em tiger
+
+|c| James155|watcho
+
+|c|☆ChrisThreeTwoOne|its all up to this roll
+
+|c| Mystic Mudsdale|whats ice punch doing at this range?
+
+|c|☆ChrisThreeTwoOne|are you modest?
+
+|
+|move|p1a: triple benis|Draco Meteor|p2a: Swampert
+|-damage|p2a: Swampert|3/100
+|-unboost|p1a: triple benis|spa|2
+|move|p2a: Swampert|Ice Punch|p1a: triple benis
+|-supereffective|p1a: triple benis
+|-damage|p1a: triple benis|0 fnt
+|faint|p1a: triple benis
+|
+|upkeep
+
+|c|☆The Yeet King|TAKE A LOOK AT THAT
+
+|c| Mystic Mudsdale|holy shit
+
+|
+|switch|p1a: kum backwards|Muk-Alola, F|68/100
+|-damage|p1a: kum backwards|56/100|[from] Spikes
+|turn|25
+
+|c|☆ChrisThreeTwoOne|does muk have sucker punch
+
+|c|☆The Yeet King|LETS GO KUM BRO
+
+|
+|move|p1a: kum backwards|Shadow Sneak|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|win|The Yeet King

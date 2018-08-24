@@ -1,0 +1,152 @@
+|init|battle
+|title|Old_Man_Waffles vs. Jallay98
+|j|☆Old_Man_Waffles
+|j|☆Jallay98
+|player|p1|Old_Man_Waffles|265
+|player|p2|Jallay98|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Cherrim|Cherrim, L83, M|100/100
+|switch|p2a: Deoxys|Deoxys-Speed, L73|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jallay98)
+|
+|move|p2a: Deoxys|Knock Off|p1a: Cherrim
+|-damage|p1a: Cherrim|75/100
+|-enditem|p1a: Cherrim|Focus Sash|[from] move: Knock Off|[of] p2a: Deoxys
+|move|p1a: Cherrim|Energy Ball|p2a: Deoxys
+|-damage|p2a: Deoxys|49/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Lilligant|Lilligant, L83, F|100/100
+|move|p1a: Cherrim|Energy Ball|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|83/100
+|-unboost|p2a: Lilligant|spd|1
+|
+|-heal|p2a: Lilligant|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Old_Man_Waffles has 135 seconds left.
+|inactive|Old_Man_Waffles has 120 seconds left.
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Cherrim|Dazzling Gleam|p2a: Lilligant
+|-damage|p2a: Lilligant|63/100
+|
+|-heal|p2a: Lilligant|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Cherrim|Dazzling Gleam|p2a: Lilligant
+|-damage|p2a: Lilligant|54/100
+|
+|-heal|p2a: Lilligant|60/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Cherrim|Dazzling Gleam|p2a: Lilligant
+|-damage|p2a: Lilligant|49/100
+|
+|-heal|p2a: Lilligant|55/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Cherrim|Dazzling Gleam|p2a: Lilligant
+|-damage|p2a: Lilligant|45/100
+|
+|-heal|p2a: Lilligant|51/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|move|p2a: Lilligant|Quiver Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|spa|1
+|-boost|p2a: Lilligant|spd|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Cherrim|Dazzling Gleam|p2a: Lilligant
+|-damage|p2a: Lilligant|44/100
+|
+|-heal|p2a: Lilligant|50/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Lilligant|Hidden Power|p1a: Cherrim
+|-supereffective|p1a: Cherrim
+|-damage|p1a: Cherrim|0 fnt
+|faint|p1a: Cherrim
+|
+|-heal|p2a: Lilligant|56/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Bibarel|Bibarel, L83, M|100/100
+|turn|9
+
+|
+|move|p1a: Bibarel|Quick Attack|p2a: Lilligant
+|-damage|p2a: Lilligant|35/100
+|-damage|p1a: Bibarel|91/100|[from] item: Life Orb
+|move|p2a: Lilligant|Petal Dance|p1a: Bibarel
+|-supereffective|p1a: Bibarel
+|-damage|p1a: Bibarel|0 fnt
+|faint|p1a: Bibarel
+|
+|-heal|p2a: Lilligant|41/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Magnezone|Magnezone, L75|100/100
+|-item|p1a: Magnezone|Air Balloon
+|turn|10
+
+|
+|move|p2a: Lilligant|Petal Dance|p1a: Magnezone|[from]lockedmove
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-enditem|p1a: Magnezone|Air Balloon
+|faint|p1a: Magnezone
+|
+|-heal|p2a: Lilligant|47/100|[from] item: Leftovers
+|upkeep
+
+|-message|Old_Man_Waffles forfeited.
+
+|
+|win|Jallay98

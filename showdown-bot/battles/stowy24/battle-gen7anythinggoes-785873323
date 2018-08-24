@@ -1,0 +1,238 @@
+|init|battle
+|title|ToaEmpoleon vs. stowy24
+|j|☆ToaEmpoleon
+|j|☆stowy24
+|player|p1|ToaEmpoleon|43
+|player|p2|stowy24|190
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Gengar, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Cryogonal|item
+|poke|p1|Swellow, M|item
+|poke|p1|Steelix, M|item
+|poke|p1|Krookodile, M|item
+|poke|p2|Necrozma|item
+|poke|p2|Bronzong|item
+|poke|p2|Togekiss, F|item
+|poke|p2|Houndoom, F|item
+|poke|p2|Gourgeist-*, F|item
+|poke|p2|Kingdra, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|☆stowy24|ok what is that gardevoir doing
+
+|c|☆stowy24|looks like its dabbing
+
+|c|☆ToaEmpoleon|fighting pose
+
+|c|☆stowy24|o
+
+|c|☆ToaEmpoleon|learned it from Mis
+
+|j| Gryphon11114
+
+|c|☆stowy24|I'm glad you didn't bring gatr ;)
+
+|j| KvnLiao
+
+|
+|start
+|switch|p1a: Z-Hypnosis|Gengar, M|100/100
+|switch|p2a: DING DONG|Bronzong|100/100
+|turn|1
+
+|c|☆ToaEmpoleon|guess what I'm doing?
+
+|c|☆ToaEmpoleon|:P
+
+|
+|move|p2a: DING DONG|Protect|p2a: DING DONG
+|-singleturn|p2a: DING DONG|Protect
+|move|p1a: Z-Hypnosis|Taunt|p2a: DING DONG
+|-activate|p2a: DING DONG|move: Protect
+|
+|upkeep
+|turn|2
+
+|c|☆stowy24|taunting apparently
+
+|c|☆stowy24|;)
+
+|
+|move|p1a: Z-Hypnosis|Shadow Ball|p2a: DING DONG
+|-supereffective|p2a: DING DONG
+|-damage|p2a: DING DONG|45/100
+|move|p2a: DING DONG|Gyro Ball|p1a: Z-Hypnosis
+|-damage|p1a: Z-Hypnosis|22/100
+|
+|-heal|p2a: DING DONG|51/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|c|☆stowy24|I'm gonna be real disappointed now if you z-hypnosis
+
+|c|☆stowy24|lol
+
+|
+|move|p2a: DING DONG|Protect|p2a: DING DONG
+|-singleturn|p2a: DING DONG|Protect
+|move|p1a: Z-Hypnosis|Shadow Ball|p2a: DING DONG
+|-activate|p2a: DING DONG|move: Protect
+|
+|-heal|p2a: DING DONG|57/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|switch|p1a: Krookedile|Krookodile, M|100/100
+|-ability|p1a: Krookedile|Intimidate|boost
+|-unboost|p2a: DING DONG|atk|1
+|move|p2a: DING DONG|Earthquake|p1a: Krookedile
+|-damage|p1a: Krookedile|82/100
+|
+|-heal|p2a: DING DONG|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: DING DONG|Protect|p2a: DING DONG
+|-singleturn|p2a: DING DONG|Protect
+|move|p1a: Krookedile|Pursuit|p2a: DING DONG
+|-activate|p2a: DING DONG|move: Protect
+|
+|-heal|p2a: DING DONG|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|move|p1a: Krookedile|Knock Off|p2a: DING DONG
+|-supereffective|p2a: DING DONG
+|-crit|p2a: DING DONG
+|-damage|p2a: DING DONG|0
+|-enditem|p2a: DING DONG|Leftovers|[from] move: Knock Off|[of] p1a: Krookedile
+|faint|p2a: DING DONG
+|
+|upkeep
+
+|
+|switch|p2a: (╯°□°）╯︵ ┻━┻|Kingdra, F|100/100
+|turn|7
+
+|
+|switch|p1a: Anime|Cryogonal, shiny|100/100
+|move|p2a: (╯°□°）╯︵ ┻━┻|Dragon Dance|p2a: (╯°□°）╯︵ ┻━┻
+|-boost|p2a: (╯°□°）╯︵ ┻━┻|atk|1
+|-boost|p2a: (╯°□°）╯︵ ┻━┻|spe|1
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: (╯°□°）╯︵ ┻━┻|Iron Head|p1a: Anime
+|-supereffective|p1a: Anime
+|-crit|p1a: Anime
+|-damage|p1a: Anime|0
+|-damage|p2a: (╯°□°）╯︵ ┻━┻|91/100|[from] item: Life Orb
+|faint|p1a: Anime
+|
+|upkeep
+
+|
+|switch|p1a: Green|Gardevoir, F|100/100
+|-ability|p1a: Green|Sniper|[from] ability: Trace|[of] p2a: (╯°□°）╯︵ ┻━┻
+|turn|9
+
+|
+|move|p2a: (╯°□°）╯︵ ┻━┻|Iron Head|p1a: Green
+|-supereffective|p1a: Green
+|-damage|p1a: Green|0
+|-damage|p2a: (╯°□°）╯︵ ┻━┻|81/100|[from] item: Life Orb
+|faint|p1a: Green
+|
+|upkeep
+
+|
+|switch|p1a: SteeliXXX|Steelix, M|100/100
+|turn|10
+
+|
+|detailschange|p1a: SteeliXXX|Steelix-Mega, M
+|-mega|p1a: SteeliXXX|Steelix|Steelixite
+|move|p2a: (╯°□°）╯︵ ┻━┻|Waterfall|p1a: SteeliXXX
+|-supereffective|p1a: SteeliXXX
+|-damage|p1a: SteeliXXX|47/100
+|-damage|p2a: (╯°□°）╯︵ ┻━┻|71/100|[from] item: Life Orb
+|move|p1a: SteeliXXX|Earthquake|p2a: (╯°□°）╯︵ ┻━┻
+|-damage|p2a: (╯°□°）╯︵ ┻━┻|20/100
+|
+|upkeep
+|turn|11
+
+|c|☆ToaEmpoleon|gg
+
+|
+|move|p2a: (╯°□°）╯︵ ┻━┻|Waterfall|p1a: SteeliXXX
+|-supereffective|p1a: SteeliXXX
+|-damage|p1a: SteeliXXX|0
+|-damage|p2a: (╯°□°）╯︵ ┻━┻|10/100|[from] item: Life Orb
+|faint|p1a: SteeliXXX
+|
+|upkeep
+
+|c|☆stowy24|I believe in you
+
+|c|☆stowy24|you can at the very least bring the differential down
+
+|
+|switch|p1a: Z-Hypnosis|Gengar, M|22/100
+|turn|12
+
+|
+|switch|p1a: Krookedile|Krookodile, M|82/100
+|-ability|p1a: Krookedile|Intimidate|boost
+|-unboost|p2a: (╯°□°）╯︵ ┻━┻|atk|1
+|move|p2a: (╯°□°）╯︵ ┻━┻|Waterfall|p1a: Krookedile
+|-supereffective|p1a: Krookedile
+|-damage|p1a: Krookedile|0
+|-damage|p2a: (╯°□°）╯︵ ┻━┻|0|[from] item: Life Orb
+|faint|p1a: Krookedile
+|faint|p2a: (╯°□°）╯︵ ┻━┻
+|
+|upkeep
+
+|
+|switch|p1a: Z-Hypnosis|Gengar, M|22/100
+|switch|p2a: Mufasa it tingles|Houndoom, F|100/100
+|turn|13
+
+|
+|detailschange|p2a: Mufasa it tingles|Houndoom-Mega, F
+|-mega|p2a: Mufasa it tingles|Houndoom|Houndoominite
+|move|p2a: Mufasa it tingles|Dark Pulse|p1a: Z-Hypnosis
+|-supereffective|p1a: Z-Hypnosis
+|-damage|p1a: Z-Hypnosis|0
+|-start|p2a: Mufasa it tingles|Disable|Dark Pulse|[from] ability: Cursed Body|[of] p1a: Z-Hypnosis
+|faint|p1a: Z-Hypnosis
+|
+|upkeep
+
+|
+|switch|p1a: Bird|Swellow, M|100/100
+|turn|14
+
+|c| KvnLiao|wait wait wait
+
+|c| KvnLiao|wtf
+
+|
+|move|p2a: Mufasa it tingles|Flamethrower|p1a: Bird
+|-damage|p1a: Bird|0
+|faint|p1a: Bird
+|
+|win|stowy24

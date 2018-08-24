@@ -1,0 +1,253 @@
+|init|battle
+|title|balmainXblastoise vs. Thatdude9795
+|j|☆balmainXblastoise
+|j|☆Thatdude9795
+|player|p1|balmainXblastoise|154
+|player|p2|Thatdude9795|196
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-green"><strong>UU is currently suspecting Mega Venusaur! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3639617/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, M|item
+|poke|p1|Haxorus, M|item
+|poke|p1|Escavalier, F|item
+|poke|p1|Aggron, M|item
+|poke|p1|Seismitoad, M|item
+|poke|p1|Cresselia, F|item
+|poke|p2|Torkoal, F|item
+|poke|p2|Drampa, F|item
+|poke|p2|Roserade, F|item
+|poke|p2|Lycanroc, M|item
+|poke|p2|Crawdaunt, M|item
+|poke|p2|Sylveon, M|item
+|teampreview
+|
+|start
+|switch|p1a: Escavalier|Escavalier, F|100/100
+|switch|p2a: Moustache|Drampa, F, shiny|100/100
+|turn|1
+
+|
+|move|p2a: Moustache|Calm Mind|p2a: Moustache
+|-boost|p2a: Moustache|spa|1
+|-boost|p2a: Moustache|spd|1
+|move|p1a: Escavalier|Swords Dance|p1a: Escavalier
+|-boost|p1a: Escavalier|atk|2
+|
+|upkeep
+|turn|2
+
+|
+|move|p2a: Moustache|Dragon Pulse|p1a: Escavalier
+|-resisted|p1a: Escavalier
+|-damage|p1a: Escavalier|70/100
+|move|p1a: Escavalier|Iron Head|p2a: Moustache
+|-damage|p2a: Moustache|0 fnt
+|faint|p2a: Moustache
+|
+|upkeep
+
+|
+|switch|p2a: Lycanroc|Lycanroc, M, shiny|100/100
+|turn|3
+
+|
+|move|p2a: Lycanroc|Swords Dance|p2a: Lycanroc
+|-boost|p2a: Lycanroc|atk|2
+|move|p1a: Escavalier|Iron Head|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-enditem|p2a: Lycanroc|Focus Sash
+|-damage|p2a: Lycanroc|1/100
+|
+|upkeep
+|turn|4
+
+|
+|move|p2a: Lycanroc|Drill Run|p1a: Escavalier
+|-damage|p1a: Escavalier|29/100
+|move|p1a: Escavalier|Iron Head|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|upkeep
+
+|
+|switch|p2a: Shell|Torkoal, F, shiny|100/100
+|turn|5
+
+|
+|move|p2a: Shell|Heat Wave|p1a: Escavalier
+|-supereffective|p1a: Escavalier
+|-damage|p1a: Escavalier|0 fnt
+|faint|p1a: Escavalier
+|
+|upkeep
+
+|
+|switch|p1a: Seismitoad|Seismitoad, M|100/100
+|turn|6
+
+|
+|switch|p2a: Rose|Roserade, F, shiny|100/100
+|move|p1a: Seismitoad|Earthquake|p2a: Rose
+|-damage|p2a: Rose|12/100
+|-damage|p1a: Seismitoad|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Haxorus|Haxorus, M|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Rose|Hidden Power|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|6/100
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Rose|Hidden Power|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|faint|p1a: Haxorus
+|
+|upkeep
+
+|
+|switch|p1a: Aggron|Aggron, M|100/100
+|turn|9
+
+|
+|switch|p2a: Shell|Torkoal, F, shiny|100/100
+|detailschange|p1a: Aggron|Aggron-Mega, M
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p1a: Aggron|Curse|p1a: Aggron
+|-unboost|p1a: Aggron|spe|1
+|-boost|p1a: Aggron|atk|1
+|-boost|p1a: Aggron|def|1
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Shell|Shell Smash|p2a: Shell
+|-unboost|p2a: Shell|def|1
+|-unboost|p2a: Shell|spd|1
+|-boost|p2a: Shell|atk|2
+|-boost|p2a: Shell|spa|2
+|-boost|p2a: Shell|spe|2
+|-enditem|p2a: Shell|White Herb
+|-clearnegativeboost|p2a: Shell|[silent]
+|move|p1a: Aggron|Earthquake|p2a: Shell
+|-supereffective|p2a: Shell
+|-damage|p2a: Shell|0 fnt
+|faint|p2a: Shell
+|
+|upkeep
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by balmainXblastoise)
+
+|
+|switch|p2a: Star|Crawdaunt, M|100/100
+|turn|11
+
+|
+|move|p2a: Star|Knock Off|p1a: Aggron
+|-damage|p1a: Aggron|80/100
+|-damage|p2a: Star|91/100|[from] item: Life Orb
+|move|p1a: Aggron|Iron Head|p2a: Star
+|-resisted|p2a: Star
+|-damage|p2a: Star|40/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Star|Knock Off|p1a: Aggron
+|-damage|p1a: Aggron|59/100
+|-damage|p2a: Star|30/100|[from] item: Life Orb
+|move|p1a: Aggron|Iron Head|p2a: Star
+|-resisted|p2a: Star
+|-damage|p2a: Star|0 fnt
+|faint|p2a: Star
+|
+|upkeep
+
+|
+|switch|p2a: Rose|Roserade, F, shiny|12/100
+|turn|13
+
+|
+|move|p2a: Rose|Hidden Power|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|40/100
+|move|p1a: Aggron|Curse|p1a: Aggron
+|-unboost|p1a: Aggron|spe|1
+|-boost|p1a: Aggron|atk|1
+|-boost|p1a: Aggron|def|1
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Rose|Hidden Power|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|22/100
+|move|p1a: Aggron|Earthquake|p2a: Rose
+|-damage|p2a: Rose|0 fnt
+|faint|p2a: Rose
+|
+|upkeep
+
+|
+|switch|p2a: Ribbon|Sylveon, M, shiny|100/100
+|turn|15
+
+|
+|move|p2a: Ribbon|Hidden Power|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+
+|
+|switch|p1a: Seismitoad|Seismitoad, M|91/100
+|turn|16
+
+|
+|move|p1a: Seismitoad|Earthquake|p2a: Ribbon
+|-damage|p2a: Ribbon|42/100
+|-damage|p1a: Seismitoad|81/100|[from] item: Life Orb
+|move|p2a: Ribbon|Hyper Voice|p1a: Seismitoad
+|-crit|p1a: Seismitoad
+|-damage|p1a: Seismitoad|0 fnt
+|faint|p1a: Seismitoad
+|
+|-heal|p2a: Ribbon|48/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|17
+
+|
+|move|p1a: Gengar|Sludge Wave|p2a: Ribbon
+|-supereffective|p2a: Ribbon
+|-damage|p2a: Ribbon|0 fnt
+|faint|p2a: Ribbon
+|
+|win|balmainXblastoise

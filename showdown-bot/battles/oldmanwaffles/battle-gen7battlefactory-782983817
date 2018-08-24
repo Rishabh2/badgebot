@@ -1,0 +1,272 @@
+|init|battle
+|title|Ahnlow vs. Old_Man_Waffles
+|j|☆Ahnlow
+|j|☆Old_Man_Waffles
+|player|p1|Ahnlow|144
+|player|p2|Old_Man_Waffles|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Noivern, F|item
+|poke|p1|Linoone, F|item
+|poke|p1|Rotom-Heat|item
+|poke|p1|Escavalier, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Slurpuff, M|item
+|poke|p2|Persian-Alola, F|item
+|poke|p2|Gigalith, M|item
+|poke|p2|Gligar, F|item
+|poke|p2|Porygon2|item
+|poke|p2|Camerupt, M|item
+|poke|p2|Dhelmise|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+
+|
+|start
+|switch|p1a: Bronzong|Bronzong|100/100
+|switch|p2a: Persian|Persian-Alola, F|100/100
+|turn|1
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ahnlow)
+
+|
+|move|p2a: Persian|Taunt|p1a: Bronzong
+|-start|p1a: Bronzong|move: Taunt
+|cant|p1a: Bronzong|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Linoone|Linoone, F|100/100
+|move|p2a: Persian|Parting Shot|p1a: Linoone
+|-unboost|p1a: Linoone|atk|1
+|-unboost|p1a: Linoone|spa|1
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Gigalith|Gigalith, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Linoone|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+
+|inactive|Ahnlow has 135 seconds left.
+
+|
+|move|p1a: Linoone|Seed Bomb|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|81/100
+|move|p2a: Gigalith|Stealth Rock|p1a: Linoone
+|-sidestart|p1: Ahnlow|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Linoone|89/100|[from] Sandstorm
+|-heal|p2a: Gigalith|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p1a: Linoone|Belly Drum|p1a: Linoone
+|-damage|p1a: Linoone|39/100
+|-setboost|p1a: Linoone|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Linoone|Figy Berry|[eat]
+|-heal|p1a: Linoone|89/100|[from] item: Figy Berry
+|move|p2a: Gigalith|Toxic|p1a: Linoone
+|-status|p1a: Linoone|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Linoone|83/100 tox|[from] Sandstorm
+|-heal|p2a: Gigalith|94/100|[from] item: Leftovers
+|-damage|p1a: Linoone|77/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|move|p1a: Linoone|Throat Chop|p2a: Gigalith
+|-damage|p2a: Gigalith|39/100
+|-start|p2a: Gigalith|Throat Chop|[silent]
+|move|p2a: Gigalith|Rock Blast|p1a: Linoone
+|-damage|p1a: Linoone|58/100 tox
+|-damage|p1a: Linoone|43/100 tox
+|-hitcount|p1a: Linoone|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Linoone|37/100 tox|[from] Sandstorm
+|-heal|p2a: Gigalith|45/100|[from] item: Leftovers
+|-damage|p1a: Linoone|25/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|inactive|Ahnlow has 135 seconds left.
+
+|
+|move|p1a: Linoone|Extreme Speed|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|2/100
+|move|p2a: Gigalith|Earthquake|p1a: Linoone
+|-damage|p1a: Linoone|0 fnt
+|faint|p1a: Linoone
+|
+|-weather|none
+|-heal|p2a: Gigalith|9/100|[from] item: Leftovers
+|-end|p2a: Gigalith|Throat Chop|[silent]
+|upkeep
+
+|inactive|Ahnlow has 135 seconds left.
+
+|
+|switch|p1a: Noivern|Noivern, F|100/100
+|-damage|p1a: Noivern|76/100|[from] Stealth Rock
+|turn|7
+
+|
+|move|p1a: Noivern|Flamethrower|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|-damage|p1a: Noivern|66/100|[from] item: Life Orb
+|faint|p2a: Gigalith
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Gligar|Gligar, F|100/100
+|turn|8
+
+|inactive|Ahnlow has 135 seconds left.
+
+|
+|move|p1a: Noivern|Roost|p1a: Noivern
+|-heal|p1a: Noivern|100/100
+|move|p2a: Gligar|Toxic|p1a: Noivern
+|-status|p1a: Noivern|tox
+|
+|-damage|p1a: Noivern|94/100 tox|[from] psn
+|upkeep
+|turn|9
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|move|p1a: Noivern|Hurricane|p2a: Porygon2
+|-damage|p2a: Porygon2|61/100
+|-start|p2a: Porygon2|confusion
+|-damage|p1a: Noivern|84/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Noivern|72/100 tox|[from] psn
+|upkeep
+|turn|10
+
+|
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|-damage|p1a: Rotom|76/100|[from] Stealth Rock
+|-activate|p2a: Porygon2|confusion
+|-damage|p2a: Porygon2|53/100|[from] confusion
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Rotom|Defog|p2a: Porygon2
+|-unboost|p2a: Porygon2|evasion|1
+|-sideend|p1: Ahnlow|Stealth Rock|[from] move: Defog|[of] p1a: Rotom
+|-activate|p2a: Porygon2|confusion
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|upkeep
+|turn|12
+
+|inactive|Ahnlow has 135 seconds left.
+
+|inactive|Ahnlow has 120 seconds left.
+
+|inactive|Ahnlow has 105 seconds left.
+
+|
+|switch|p2a: Camerupt|Camerupt, M|100/100
+|-zpower|p1a: Rotom
+|move|p1a: Rotom|Inferno Overdrive|p2a: Camerupt|[zeffect]
+|-resisted|p2a: Camerupt
+|-damage|p2a: Camerupt|60/100
+|
+|upkeep
+|turn|13
+
+|
+|detailschange|p2a: Camerupt|Camerupt-Mega, M
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p1a: Rotom|Volt Switch|p2a: Camerupt
+|-immune|p2a: Camerupt|[msg]
+|move|p2a: Camerupt|Stealth Rock|p1a: Rotom
+|-sidestart|p1: Ahnlow|move: Stealth Rock
+|
+|upkeep
+|turn|14
+
+|
+|switch|p1a: Slurpuff|Slurpuff, M|100/100
+|-damage|p1a: Slurpuff|88/100|[from] Stealth Rock
+|move|p2a: Camerupt|Toxic|p1a: Slurpuff
+|-status|p1a: Slurpuff|tox
+|
+|-damage|p1a: Slurpuff|82/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|inactive|Ahnlow has 135 seconds left.
+
+|
+|move|p1a: Slurpuff|Belly Drum|p1a: Slurpuff
+|-damage|p1a: Slurpuff|32/100 tox
+|-setboost|p1a: Slurpuff|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Slurpuff|Sitrus Berry|[eat]
+|-heal|p1a: Slurpuff|57/100 tox|[from] item: Sitrus Berry
+|move|p2a: Camerupt|Fire Blast|p1a: Slurpuff
+|-damage|p1a: Slurpuff|0 fnt
+|faint|p1a: Slurpuff
+|
+|upkeep
+
+|inactive|Ahnlow has 135 seconds left.
+
+|
+|switch|p1a: Noivern|Noivern, F|72/100 tox
+|-damage|p1a: Noivern|47/100 tox|[from] Stealth Rock
+|turn|16
+
+|
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|move|p1a: Noivern|Hurricane|p2a: Porygon2
+|-damage|p2a: Porygon2|61/100
+|-damage|p1a: Noivern|37/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Noivern|31/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|-message|Ahnlow forfeited.
+
+|
+|win|Old_Man_Waffles

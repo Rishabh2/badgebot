@@ -1,0 +1,306 @@
+|init|battle
+|title|logan505 vs. Old_Man_Waffles
+|j|☆logan505
+|j|☆Old_Man_Waffles
+|player|p1|logan505|146
+|player|p2|Old_Man_Waffles|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Tapu Koko|item
+|poke|p1|Greninja, M|item
+|poke|p1|Clefable, F|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Hydreigon, M|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Musharna, F|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Honchkrow, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by logan505)
+|
+|start
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|1
+|
+|move|p1a: Tapu Koko|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|90/100
+|
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Hydreigon
+|-status|p1a: Hydreigon|brn
+|
+|-heal|p2a: Rotom|96/100|[from] item: Leftovers
+|-damage|p1a: Hydreigon|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|switch|p2a: Honchkrow|Honchkrow, F|100/100
+|move|p1a: Hydreigon|U-turn|p2a: Honchkrow
+|-damage|p2a: Honchkrow|91/100
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|
+|-heal|p2a: Honchkrow|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|logan505 has 135 seconds left.
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|switch|p2a: Rotom|Rotom-Heat|96/100
+|move|p1a: Tapu Koko|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|
+|switch|p1a: Greninja|Greninja, M|100/100
+|
+|-heal|p2a: Rotom|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|logan505 has 135 seconds left.
+
+|
+|move|p1a: Greninja|Dark Pulse|p2a: Rotom
+|-damage|p2a: Rotom|52/100
+|cant|p2a: Rotom|flinch
+|
+|-heal|p2a: Rotom|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|-zpower|p1a: Greninja
+|move|p1a: Greninja|Hydro Vortex|p2a: Rotom|[zeffect]
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-activate|p1a: Greninja|ability: Battle Bond
+|detailschange|p1a: Greninja|Greninja-Ash, M
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|6
+
+|l|☆logan505
+
+|inactive|logan505 disconnected and has a minute to reconnect!
+
+|player|p1|
+|inactive|logan505 has 20 seconds to reconnect!
+
+|inactive|logan505 has 15 seconds to reconnect!
+
+|j|☆logan505
+
+|inactive|logan505 reconnected and has 90 seconds left.
+
+|player|p1|logan505|146
+
+|
+|move|p1a: Greninja|U-turn|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|91/100
+
+|
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Kommo-o|Dragon Dance|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Kommo-o|Poison Jab|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|56/100
+|move|p1a: Clefable|Moonblast|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-heal|p1a: Clefable|63/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Musharna|Musharna, F|100/100
+|turn|8
+
+|inactive|logan505 has 135 seconds left.
+
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Musharna
+|-sidestart|p2: Old_Man_Waffles|move: Stealth Rock
+|move|p2a: Musharna|Yawn|p1a: Clefable
+|-start|p1a: Clefable|move: Yawn|[of] p2a: Musharna
+|
+|-heal|p1a: Clefable|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|logan505 has 135 seconds left.
+
+|
+|switch|p1a: Hydreigon|Hydreigon, M|94/100 brn
+|move|p2a: Musharna|Trick Room|p2a: Musharna
+|-fieldstart|move: Trick Room|[of] p2a: Musharna
+|
+|-damage|p1a: Hydreigon|88/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|inactive|logan505 has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Hydreigon|U-turn|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|60/100
+
+|inactive|logan505 has 135 seconds left.
+
+|inactive|logan505 has 120 seconds left.
+
+|
+|switch|p1a: Charizard|Charizard, F, shiny|100/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Hail
+|upkeep
+|turn|11
+
+|
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, M
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p2a: Abomasnow|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard|[msg]
+|move|p1a: Charizard|Fire Punch|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] Hail
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|turn|12
+
+|
+|switch|p1a: Hydreigon|Hydreigon, M|88/100 brn
+|move|p2a: Empoleon|Hydro Pump|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|58/100 brn
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Empoleon|88/100|[from] Hail
+|-damage|p1a: Hydreigon|52/100 brn|[from] Hail
+|-damage|p1a: Hydreigon|45/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|inactive|logan505 has 135 seconds left.
+
+|
+|move|p2a: Empoleon|Agility|p2a: Empoleon
+|-boost|p2a: Empoleon|spe|2
+|move|p1a: Hydreigon|U-turn|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|84/100
+
+|inactive|logan505 has 135 seconds left.
+
+|
+|switch|p1a: Tapu Koko|Tapu Koko|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Tapu Koko|94/100|[from] Hail
+|-damage|p2a: Empoleon|78/100|[from] Hail
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+
+|
+|move|p2a: Empoleon|Hydro Pump|p1a: Tapu Koko|[miss]
+|-miss|p2a: Empoleon|p1a: Tapu Koko
+|move|p1a: Tapu Koko|Thunder Punch|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Musharna|Musharna, F|100/100
+|-damage|p2a: Musharna|88/100|[from] Stealth Rock
+|turn|15
+
+|inactive|logan505 has 135 seconds left.
+
+|
+|move|p1a: Tapu Koko|Thunder Punch|p2a: Musharna
+|-damage|p2a: Musharna|27/100
+|move|p2a: Musharna|Psyshock|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|52/100
+|
+|-heal|p2a: Musharna|34/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p1a: Tapu Koko|Thunder Punch|p2a: Musharna
+|-damage|p2a: Musharna|0 fnt
+|faint|p2a: Musharna
+|
+|upkeep
+
+|
+|switch|p2a: Honchkrow|Honchkrow, F|97/100
+|-damage|p2a: Honchkrow|72/100|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Honchkrow|Sucker Punch|p1a: Tapu Koko
+|-resisted|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|32/100
+|move|p1a: Tapu Koko|Thunder Punch|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|faint|p2a: Honchkrow
+|
+|win|logan505

@@ -1,0 +1,411 @@
+|init|battle
+|title|The Yeet King vs. jzamudio
+|j|☆The Yeet King
+|j|☆jzamudio
+|player|p1|The Yeet King|156
+|player|p2|jzamudio|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Ubers
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Marshadow|item
+|poke|p1|Necrozma-Dusk-Mane|item
+|poke|p1|Arceus-*|item
+|poke|p1|Salamence, F|item
+|poke|p1|Groudon|item
+|poke|p1|Darkrai|item
+|poke|p2|Mew|item
+|poke|p2|Deoxys-Defense|item
+|poke|p2|Swampert, M|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Sableye, M|item
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+
+|
+|start
+|switch|p1a: Mega Silvally|Arceus-Water|100/100
+|switch|p2a: Mew|Mew|100/100
+|turn|1
+
+|
+|move|p1a: Mega Silvally|Toxic|p2a: Mew
+|-status|p2a: Mew|tox
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Mega Silvally|tox
+|move|p2a: Mew|Thunder|p1a: Mega Silvally
+|-supereffective|p1a: Mega Silvally
+|-damage|p1a: Mega Silvally|69/100 tox
+|
+|-damage|p1a: Mega Silvally|63/100 tox|[from] psn
+|-damage|p2a: Mew|94/100 tox|[from] psn
+|upkeep
+|turn|2
+
+|
+|move|p1a: Mega Silvally|Stealth Rock|p2a: Mew
+|-sidestart|p2: jzamudio|move: Stealth Rock
+|move|p2a: Mew|Thunder|p1a: Mega Silvally
+|-supereffective|p1a: Mega Silvally
+|-damage|p1a: Mega Silvally|33/100 tox
+|
+|-heal|p2a: Mew|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Mega Silvally|21/100 tox|[from] psn
+|-damage|p2a: Mew|88/100 tox|[from] psn
+|upkeep
+|turn|3
+
+|
+|switch|p1a: pee-don|Groudon|100/100
+|detailschange|p1a: pee-don|Groudon-Primal
+|-primal|p1a: pee-don
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: pee-don
+|move|p2a: Mew|Thunder|p1a: pee-don
+|-immune|p1a: pee-don|[msg]
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Mew|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|76/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-damage|p2a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: pee-don|Solar Beam|p2a: Deoxys|[still]
+|-prepare|p1a: pee-don|Solar Beam|p2a: Deoxys
+|-anim|p1a: pee-don|Solar Beam|p2a: Deoxys
+|-damage|p2a: Deoxys|55/100
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Deoxys|61/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|-weather|none
+|switch|p1a: Mega Silvally|Arceus-Water|21/100 tox
+|move|p2a: Deoxys|Stealth Rock|p1a: Mega Silvally
+|-sidestart|p1: The Yeet King|move: Stealth Rock
+|
+|-heal|p2a: Deoxys|67/100|[from] item: Leftovers
+|-damage|p1a: Mega Silvally|14/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Deoxys|Protect|p2a: Deoxys
+|-singleturn|p2a: Deoxys|Protect
+|move|p1a: Mega Silvally|Defog|p2a: Deoxys
+|-activate|p2a: Deoxys|move: Protect
+|
+|-heal|p2a: Deoxys|74/100|[from] item: Leftovers
+|-damage|p1a: Mega Silvally|2/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Mega Silvally|Defog|p2a: Deoxys
+|-unboost|p2a: Deoxys|evasion|1
+|-sideend|p2: jzamudio|Stealth Rock|[from] move: Defog|[of] p2a: Deoxys
+|-sideend|p1: The Yeet King|Stealth Rock|[from] move: Defog|[of] p1a: Mega Silvally
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|100/100
+|
+|-damage|p1a: Mega Silvally|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Mega Silvally
+
+|
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|8
+
+|
+|move|p2a: Deoxys|Protect|p2a: Deoxys
+|-singleturn|p2a: Deoxys|Protect
+|-zpower|p1a: Darkrai
+|move|p1a: Darkrai|Z-Hypnosis|p2a: Deoxys|[anim]Hypnosis
+|-boost|p1a: Darkrai|spe|1|[zeffect]
+|-activate|p2a: Deoxys|move: Protect
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Deoxys|Magic Coat|p2a: Deoxys
+|-singleturn|p2a: Deoxys|move: Magic Coat
+|move|p1a: Darkrai|Hypnosis|p2a: Deoxys
+|move|p2a: Deoxys|Hypnosis|p1a: Darkrai|[from]Magic Coat|[miss]
+|-miss|p2a: Deoxys|p1a: Darkrai
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Darkrai|Calm Mind|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|1
+|-boost|p1a: Darkrai|spd|1
+|move|p2a: Deoxys|Stealth Rock|p1a: Darkrai
+|-sidestart|p1: The Yeet King|move: Stealth Rock
+|
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Darkrai|Calm Mind|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|1
+|-boost|p1a: Darkrai|spd|1
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+
+|
+|move|p1a: Darkrai|Dark Pulse|p2a: Gliscor
+|-damage|p2a: Gliscor|5/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Darkrai
+|-status|p1a: Darkrai|tox
+|
+|-damage|p1a: Darkrai|94/100 tox|[from] psn
+|-heal|p2a: Gliscor|17/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Darkrai|Dark Pulse|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Darkrai|82/100 tox|[from] psn
+|-heal|p2a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+
+|
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-fail|p2a: Gliscor
+|move|p1a: Darkrai|Dark Pulse|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-damage|p1a: Darkrai|64/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100/100
+|turn|15
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Darkrai|Dark Pulse|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-damage|p1a: Darkrai|40/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Darkrai|Dark Pulse|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|29/100
+|cant|p2a: Ferrothorn|flinch
+|
+|-heal|p2a: Ferrothorn|35/100|[from] item: Leftovers
+|-damage|p1a: Darkrai|10/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: Darkrai|Dark Pulse|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-heal|p2a: Ferrothorn|41/100|[from] item: Leftovers
+|-damage|p1a: Darkrai|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Darkrai
+
+|
+|switch|p1a: pee-don|Groudon-Primal|100/100
+|-damage|p1a: pee-don|88/100|[from] Stealth Rock
+|-weather|DesolateLand|[from] ability: Desolate Land|[of] p1a: pee-don
+|turn|18
+
+|
+|switch|p2a: Deoxys|Deoxys-Defense|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: pee-don|Fire Punch|p2a: Deoxys
+|-damage|p2a: Deoxys|37/100
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Deoxys|43/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|93/100
+|move|p1a: pee-don|Fire Punch|p2a: Deoxys
+|-damage|p2a: Deoxys|24/100
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Deoxys|30/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p2a: Deoxys|Recover|p2a: Deoxys
+|-heal|p2a: Deoxys|80/100
+|move|p1a: pee-don|Fire Punch|p2a: Deoxys
+|-damage|p2a: Deoxys|11/100
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Deoxys|18/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: pee-don|Fire Punch|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|58/100
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+|turn|22
+
+|
+|detailschange|p2a: Swampert|Swampert-Mega, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p1a: pee-don|Solar Beam|p2a: Swampert|[still]
+|-prepare|p1a: pee-don|Solar Beam|p2a: Swampert
+|-anim|p1a: pee-don|Solar Beam|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-weather|DesolateLand|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Sableye|Sableye, M|100/100
+|turn|23
+
+|
+|move|p2a: Sableye|Toxic|p1a: pee-don
+|-status|p1a: pee-don|tox
+|move|p1a: pee-don|Precipice Blades|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: pee-don|82/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|41/100
+|turn|24
+
+|
+|move|p2a: Ferrothorn|Protect|p2a: Ferrothorn
+|-singleturn|p2a: Ferrothorn|Protect
+|move|p1a: pee-don|Fire Punch|p2a: Ferrothorn
+|-activate|p2a: Ferrothorn|move: Protect
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Ferrothorn|48/100|[from] item: Leftovers
+|-damage|p1a: pee-don|70/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|
+|move|p1a: pee-don|Fire Punch|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: pee-don|57/100 tox|[from] ability: Iron Barbs|[of] p2a: Ferrothorn
+|faint|p2a: Ferrothorn
+|
+|-weather|DesolateLand|[upkeep]
+|-damage|p1a: pee-don|39/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Mew|Mew|76/100 tox
+|turn|26
+
+|
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|100/100 tox
+|move|p1a: pee-don|Fire Punch|p2a: Mew
+|-damage|p2a: Mew|29/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Mew|35/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|29/100 tox|[from] psn
+|-damage|p1a: pee-don|14/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|79/100 tox
+|move|p1a: pee-don|Fire Punch|p2a: Mew
+|-damage|p2a: Mew|19/100 tox
+|
+|-weather|DesolateLand|[upkeep]
+|-heal|p2a: Mew|25/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|13/100 tox|[from] psn
+|-damage|p1a: pee-don|0 fnt|[from] psn
+|upkeep
+|faint|p1a: pee-don
+|-weather|none
+
+|
+|switch|p1a: Negrosma|Necrozma-Dusk-Mane|100/100
+|-damage|p1a: Negrosma|95/100|[from] Stealth Rock
+|turn|28
+
+|
+|move|p1a: Negrosma|Rock Polish|p1a: Negrosma
+|-boost|p1a: Negrosma|spe|2
+|move|p2a: Mew|Toxic|p1a: Negrosma
+|-immune|p1a: Negrosma|[msg]
+|
+|-heal|p2a: Mew|19/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|1/100 tox|[from] psn
+|upkeep
+|turn|29
+
+|
+|move|p1a: Negrosma|Sunsteel Strike|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+
+|
+|switch|p2a: Deoxys|Deoxys-Defense|18/100
+|-ability|p2a: Deoxys|Pressure
+|turn|30
+
+|
+|move|p1a: Negrosma|Sunsteel Strike|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|win|The Yeet King

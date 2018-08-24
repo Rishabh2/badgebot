@@ -1,0 +1,272 @@
+|init|battle
+|title|thatdude9795 vs. Aczino Feick
+|j|☆thatdude9795
+|j|☆Aczino Feick
+|player|p1|thatdude9795|196
+|player|p2|Aczino Feick|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lycanroc, M|item
+|poke|p1|Crawdaunt, F|item
+|poke|p1|Roserade, F|item
+|poke|p1|Machoke, M|item
+|poke|p1|Aerodactyl, F|item
+|poke|p1|Gligar, F|item
+|poke|p2|Aerodactyl, M|item
+|poke|p2|Darmanitan, F|item
+|poke|p2|Araquanid, M|item
+|poke|p2|Jolteon, M|item
+|poke|p2|Blissey, F|item
+|poke|p2|Leafeon, F|item
+|teampreview
+|l|☆Aczino Feick
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thatdude9795)
+|j|☆Aczino Feick
+|inactive|Aczino Feick reconnected and has 130 seconds left.
+|player|p2|Aczino Feick|1
+|inactive|Aczino Feick has 120 seconds left.
+|
+|start
+|switch|p1a: Gligar|Gligar, F, shiny|100/100
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|turn|1
+|inactive|Aczino Feick has 135 seconds left.
+|
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Gligar|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: Aczino Feick|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|move|p1a: Gligar|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|82/100
+
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|move|p2a: Araquanid|Sticky Web|p1a: Crawdaunt
+|-sidestart|p1: thatdude9795|move: Sticky Web
+|
+|-heal|p2a: Araquanid|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|move|p2a: Araquanid|Leech Life|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|44/100
+|-heal|p2a: Araquanid|100/100|[from] drain|[of] p1a: Crawdaunt
+|
+|upkeep
+|turn|4
+
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-enditem|p2a: Araquanid|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|34/100|[from] item: Life Orb
+|faint|p2a: Araquanid
+|
+|upkeep
+
+|
+|switch|p2a: Jolteon|Jolteon, M|100/100
+|-damage|p2a: Jolteon|88/100|[from] Stealth Rock
+|turn|5
+
+|
+|move|p2a: Jolteon|Discharge|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+
+|
+|switch|p1a: Aerodactyl|Aerodactyl, F, shiny|100/100
+|turn|6
+
+|inactive|Aczino Feick has 135 seconds left.
+
+|inactive|Aczino Feick has 120 seconds left.
+
+|inactive|Aczino Feick has 105 seconds left.
+
+|l|☆Aczino Feick
+
+|inactive|Aczino Feick disconnected and has a minute to reconnect!
+
+|player|p2|
+|j|☆Aczino Feick
+
+|inactive|Aczino Feick reconnected and has 95 seconds left.
+
+|player|p2|Aczino Feick|1
+|inactive|Aczino Feick has 90 seconds left.
+
+|
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, F, shiny
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Dragon Claw|p2a: Jolteon
+|-damage|p2a: Jolteon|20/100
+|move|p2a: Jolteon|Discharge|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|upkeep
+
+|inactive|thatdude9795 has 135 seconds left.
+
+|
+|switch|p1a: Gligar|Gligar, F, shiny|100/100
+|turn|7
+
+|
+|switch|p2a: Aerodactyl|Aerodactyl, M|100/100
+|-damage|p2a: Aerodactyl|76/100|[from] Stealth Rock
+|move|p1a: Gligar|Swords Dance|p1a: Gligar
+|-boost|p1a: Gligar|atk|2
+|
+|upkeep
+|turn|8
+
+|
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, M
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Aqua Tail|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|37/100
+|move|p1a: Gligar|U-turn|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|50/100
+
+|
+|switch|p1a: Roserade|Roserade, F, shiny|100/100
+|-activate|p1a: Roserade|move: Sticky Web
+|-unboost|p1a: Roserade|spe|1
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Aerodactyl|Aerial Ace|p1a: Roserade
+|-supereffective|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|upkeep
+
+|
+|switch|p1a: Lycanroc|Lycanroc, M, shiny|100/100
+|-activate|p1a: Lycanroc|move: Sticky Web
+|-unboost|p1a: Lycanroc|spe|1
+|turn|10
+
+|
+|move|p1a: Lycanroc|Accelerock|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|3/100
+|move|p2a: Aerodactyl|Aqua Tail|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-enditem|p1a: Lycanroc|Focus Sash
+|-damage|p1a: Lycanroc|1/100
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Lycanroc|Accelerock|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+
+|inactive|Aczino Feick has 135 seconds left.
+
+|
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|-damage|p2a: Leafeon|88/100|[from] Stealth Rock
+|turn|12
+
+|
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|move|p1a: Lycanroc|Stone Edge|p2a: Leafeon
+|-damage|p2a: Leafeon|42/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p1a: Lycanroc|Accelerock|p2a: Leafeon
+|-damage|p2a: Leafeon|24/100
+|-damage|p1a: Lycanroc|0 fnt|[from] item: Rocky Helmet|[of] p2a: Leafeon
+|faint|p1a: Lycanroc
+|move|p2a: Leafeon|Knock Off|p1: Lycanroc|[notarget]
+|-notarget
+|
+|upkeep
+
+|
+|switch|p1a: Machoke|Machoke, M|100/100
+|-activate|p1a: Machoke|move: Sticky Web
+|-unboost|p1a: Machoke|spe|1
+|turn|14
+
+|
+|move|p2a: Leafeon|Leaf Blade|p1a: Machoke
+|-damage|p1a: Machoke|27/100
+|move|p1a: Machoke|Bulk Up|p1a: Machoke
+|-boost|p1a: Machoke|atk|1
+|-boost|p1a: Machoke|def|1
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Leafeon|Leaf Blade|p1a: Machoke
+|-damage|p1a: Machoke|0 fnt
+|faint|p1a: Machoke
+|
+|upkeep
+
+|
+|switch|p1a: Gligar|Gligar, F, shiny|37/100
+|turn|16
+
+|
+|move|p2a: Leafeon|Quick Attack|p1a: Gligar
+|-damage|p1a: Gligar|20/100
+|move|p1a: Gligar|Earthquake|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|6/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p2a: Leafeon|Knock Off|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|-enditem|p1a: Gligar|Eviolite|[from] move: Knock Off|[of] p2a: Leafeon
+|faint|p1a: Gligar
+|
+|win|Aczino Feick

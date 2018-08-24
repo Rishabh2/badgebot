@@ -1,0 +1,284 @@
+|init|battle
+|title|LT51npRuspa vs. Torterrible18
+|j|☆LT51npRuspa
+|j|☆Torterrible18
+|player|p1|LT51npRuspa|191
+|player|p2|Torterrible18|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Mawile, M|item
+|poke|p1|Heatran, M|item
+|poke|p1|Tapu Bulu|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Gastrodon, M|item
+|poke|p2|Pyukumuku, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Sableye, M|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Clefable, F|item
+|poke|p2|Toxapex, F|item
+|teampreview
+|j| Killua kun
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Torterrible18)
+|
+|start
+|switch|p1a: ghevin vorace|Mawile, M|100/100
+|switch|p2a: birdo|Skarmory, M|100/100
+|turn|1
+|c|☆Torterrible18|gl hf
+|inactive|Torterrible18 has 135 seconds left.
+|
+|switch|p1a: ghevin vesuvio|Heatran, M|100/100
+|move|p2a: birdo|Whirlwind|p1a: ghevin vesuvio
+|drag|p1a: ghevin fa la siest|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: ghevin fa la siest
+|
+|upkeep
+|turn|2
+|c|☆LT51npRuspa|hf with stall is a bit hard
+|inactive|Torterrible18 has 135 seconds left.
+|c|☆Torterrible18|ikr
+|
+|switch|p1a: ghevin vesuvio|Heatran, M|100/100
+|move|p2a: birdo|Stealth Rock|p1a: ghevin vesuvio
+|-sidestart|p1: LT51npRuspa|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|j| La Minaccia
+|
+|switch|p2a: Thiq|Chansey, F|100/100
+|move|p1a: ghevin vesuvio|Stealth Rock|p2a: Thiq
+|-sidestart|p2: Torterrible18|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|inactive|LT51npRuspa has 135 seconds left.
+|
+|switch|p1a: ghevin fa la siest|Tapu Bulu|100/100
+|-damage|p1a: ghevin fa la siest|88/100|[from] Stealth Rock
+|move|p2a: Thiq|Seismic Toss|p1a: ghevin fa la siest
+|-damage|p1a: ghevin fa la siest|59/100
+|
+|-heal|p1a: ghevin fa la siest|65/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+
+|
+|switch|p2a: birdo|Skarmory, M|100/100
+|-damage|p2a: birdo|88/100|[from] Stealth Rock
+|move|p1a: ghevin fa la siest|Nature's Madness|p2a: birdo|[miss]
+|-miss|p1a: ghevin fa la siest|p2a: birdo
+|
+|-heal|p1a: ghevin fa la siest|71/100|[from] Grassy Terrain
+|-heal|p2a: birdo|94/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+
+|
+|switch|p1a: ghevin vesuvio|Heatran, M|100/100
+|-damage|p1a: ghevin vesuvio|88/100|[from] Stealth Rock
+|move|p2a: birdo|Spikes|p1a: ghevin vesuvio
+|-sidestart|p1: LT51npRuspa|Spikes
+|
+|-heal|p1a: ghevin vesuvio|94/100|[from] item: Leftovers
+|-heal|p2a: birdo|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p2a: Nightmare|Pyukumuku, M|100/100
+|-damage|p2a: Nightmare|88/100|[from] Stealth Rock
+|move|p1a: ghevin vesuvio|Magma Storm|p2a: Nightmare
+|-resisted|p2a: Nightmare
+|-damage|p2a: Nightmare|75/100
+|-activate|p2a: Nightmare|move: Magma Storm|[of] p1a: ghevin vesuvio
+|
+|-heal|p1a: ghevin vesuvio|100/100|[from] item: Leftovers
+|-heal|p2a: Nightmare|81/100|[from] item: Leftovers
+|-damage|p2a: Nightmare|69/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|8
+
+|
+|move|p1a: ghevin vesuvio|Taunt|p2a: Nightmare
+|-start|p2a: Nightmare|move: Taunt
+|cant|p2a: Nightmare|move: Taunt|Block
+|
+|-heal|p2a: Nightmare|75/100|[from] item: Leftovers
+|-damage|p2a: Nightmare|62/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+
+|
+|move|p1a: ghevin vesuvio|Earth Power|p2a: Nightmare
+|-damage|p2a: Nightmare|46/100
+|-activate|p2a: Nightmare|move: Struggle
+|move|p2a: Nightmare|Struggle|p1a: ghevin vesuvio
+|-damage|p1a: ghevin vesuvio|96/100
+|-damage|p2a: Nightmare|21/100|[from] recoil
+|
+|-heal|p1a: ghevin vesuvio|100/100|[from] item: Leftovers
+|-heal|p2a: Nightmare|27/100|[from] item: Leftovers
+|-damage|p2a: Nightmare|15/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+
+|c|☆Torterrible18|this mon counters my whole team
+
+|
+|move|p1a: ghevin vesuvio|Earth Power|p2a: Nightmare
+|-damage|p2a: Nightmare|0 fnt
+|faint|p2a: Nightmare
+|
+|upkeep
+
+|
+|switch|p2a: Reverse|Sableye, M|100/100
+|-damage|p2a: Reverse|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p1a: ghevin vorace|Mawile, M|100/100
+|-damage|p1a: ghevin vorace|88/100|[from] Spikes
+|-damage|p1a: ghevin vorace|82/100|[from] Stealth Rock
+|detailschange|p2a: Reverse|Sableye-Mega, M
+|-mega|p2a: Reverse|Sableye|Sablenite
+|move|p2a: Reverse|Calm Mind|p2a: Reverse
+|-boost|p2a: Reverse|spa|1
+|-boost|p2a: Reverse|spd|1
+|
+|upkeep
+|turn|12
+
+|
+|switch|p2a: birdo|Skarmory, M|99/100
+|-damage|p2a: birdo|88/100|[from] Stealth Rock
+|detailschange|p1a: ghevin vorace|Mawile-Mega, M
+|-mega|p1a: ghevin vorace|Mawile|Mawilite
+|move|p1a: ghevin vorace|Thunder Punch|p2a: birdo
+|-supereffective|p2a: birdo
+|-damage|p2a: birdo|30/100
+|
+|-heal|p2a: birdo|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: birdo|Roost|p2a: birdo
+|-heal|p2a: birdo|86/100
+|move|p1a: ghevin vorace|Thunder Punch|p2a: birdo
+|-damage|p2a: birdo|59/100
+|-status|p2a: birdo|par
+|
+|-heal|p2a: birdo|65/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|inactive|Torterrible18 has 135 seconds left.
+
+|inactive|Torterrible18 has 120 seconds left.
+
+|inactive|Torterrible18 has 105 seconds left.
+
+|
+|move|p1a: ghevin vorace|Thunder Punch|p2a: birdo
+|-supereffective|p2a: birdo
+|-damage|p2a: birdo|4/100 par
+|move|p2a: birdo|Whirlwind|p1a: ghevin vorace
+|drag|p1a: ghevin fa la siest|Tapu Bulu|71/100
+|-damage|p1a: ghevin fa la siest|59/100|[from] Spikes
+|-damage|p1a: ghevin fa la siest|47/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: ghevin fa la siest
+|
+|-heal|p1a: ghevin fa la siest|53/100|[from] Grassy Terrain
+|-heal|p2a: birdo|10/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|move|p1a: ghevin fa la siest|Wood Hammer|p2a: birdo
+|-resisted|p2a: birdo
+|-damage|p2a: birdo|0 fnt
+|-damage|p1a: ghevin fa la siest|50/100|[from] Recoil
+|faint|p2a: birdo
+|
+|-heal|p1a: ghevin fa la siest|56/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: Reverse|Sableye-Mega, M|88/100
+|-damage|p2a: Reverse|76/100|[from] Stealth Rock
+|turn|16
+
+|
+|move|p1a: ghevin fa la siest|Wood Hammer|p2a: Reverse
+|-damage|p2a: Reverse|3/100
+|-damage|p1a: ghevin fa la siest|35/100|[from] Recoil
+|move|p2a: Reverse|Will-O-Wisp|p1a: ghevin fa la siest|[miss]
+|-miss|p2a: Reverse|p1a: ghevin fa la siest
+|
+|-heal|p1a: ghevin fa la siest|41/100|[from] Grassy Terrain
+|-heal|p2a: Reverse|9/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+
+|
+|move|p1a: ghevin fa la siest|Horn Leech|p2a: Reverse
+|-damage|p2a: Reverse|0 fnt
+|-heal|p1a: ghevin fa la siest|44/100|[from] drain|[of] p2a: Reverse
+|faint|p2a: Reverse
+|
+|-heal|p1a: ghevin fa la siest|51/100|[from] Grassy Terrain
+|upkeep
+
+|
+|switch|p2a: u thot|Clefable, F|100/100
+|turn|18
+
+|
+|move|p1a: ghevin fa la siest|Horn Leech|p2a: u thot
+|-damage|p2a: u thot|64/100
+|-heal|p1a: ghevin fa la siest|72/100|[from] drain|[of] p2a: u thot
+|move|p2a: u thot|Fire Blast|p1a: ghevin fa la siest
+|-supereffective|p1a: ghevin fa la siest
+|-damage|p1a: ghevin fa la siest|47/100
+|
+|-heal|p1a: ghevin fa la siest|53/100|[from] Grassy Terrain
+|-heal|p2a: u thot|70/100|[from] item: Leftovers
+|-heal|p2a: u thot|76/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+
+|
+|switch|p1a: ghevin vesuvio|Heatran, M|100/100
+|-damage|p1a: ghevin vesuvio|88/100|[from] Spikes
+|-damage|p1a: ghevin vesuvio|76/100|[from] Stealth Rock
+|move|p2a: u thot|Calm Mind|p2a: u thot
+|-boost|p2a: u thot|spa|1
+|-boost|p2a: u thot|spd|1
+|
+|-heal|p1a: ghevin vesuvio|82/100|[from] item: Leftovers
+|-heal|p2a: u thot|82/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|-message|Torterrible18 forfeited.
+
+|
+|win|LT51npRuspa

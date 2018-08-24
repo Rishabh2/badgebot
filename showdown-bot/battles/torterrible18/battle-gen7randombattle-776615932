@@ -1,0 +1,291 @@
+|init|battle
+|title|TheRealFredDurst vs. torterrible18
+|j|☆TheRealFredDurst
+|j|☆torterrible18
+|player|p1|TheRealFredDurst|1
+|player|p2|torterrible18|265
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Froslass|Froslass, L83, F|100/100
+|switch|p2a: Latios|Latios, L75, M|100/100
+|turn|1
+|
+|switch|p2a: Mantine|Mantine, L77, F|100/100
+|move|p1a: Froslass|Ice Beam|p2a: Mantine
+|-damage|p2a: Mantine|76/100
+|-status|p2a: Mantine|frz
+|
+|-heal|p2a: Mantine|82/100 frz|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Deoxys|Deoxys-Defense, L73|100/100
+|-ability|p1a: Deoxys|Pressure
+|-curestatus|p2a: Mantine|frz|[from] move: Scald
+|move|p2a: Mantine|Scald|p1a: Deoxys
+|-damage|p1a: Deoxys|79/100
+|-status|p1a: Deoxys|brn
+|
+|-heal|p1a: Deoxys|85/100 brn|[from] item: Leftovers
+|-heal|p2a: Mantine|88/100|[from] item: Leftovers
+|-damage|p1a: Deoxys|79/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Deoxys|Toxic|p2a: Mantine
+|-status|p2a: Mantine|tox
+|move|p2a: Mantine|Air Slash|p1a: Deoxys
+|-damage|p1a: Deoxys|59/100 brn
+|
+|-heal|p1a: Deoxys|65/100 brn|[from] item: Leftovers
+|-heal|p2a: Mantine|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Deoxys|59/100 brn|[from] brn
+|-damage|p2a: Mantine|88/100 tox|[from] psn
+|upkeep
+|turn|4
+
+|
+|move|p1a: Deoxys|Spikes|p2a: Mantine
+|-sidestart|p2: torterrible18|Spikes
+|move|p2a: Mantine|Air Slash|p1a: Deoxys
+|-damage|p1a: Deoxys|37/100 brn
+|
+|-heal|p1a: Deoxys|43/100 brn|[from] item: Leftovers
+|-heal|p2a: Mantine|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Deoxys|37/100 brn|[from] brn
+|-damage|p2a: Mantine|82/100 tox|[from] psn
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Sableye|Sableye, L83, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Spikes
+|move|p1a: Deoxys|Recover|p1a: Deoxys
+|-heal|p1a: Deoxys|87/100 brn
+|
+|-heal|p1a: Deoxys|93/100 brn|[from] item: Leftovers
+|-heal|p2a: Sableye|94/100|[from] item: Leftovers
+|-damage|p1a: Deoxys|87/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Sableye|Taunt|p1a: Deoxys
+|-start|p1a: Deoxys|move: Taunt
+|move|p1a: Deoxys|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|83/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Deoxys
+|
+|-heal|p1a: Deoxys|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Deoxys|87/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Gliscor|Gliscor, L75, F|100/100
+|move|p2a: Sableye|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|70/100
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Sableye
+|
+|upkeep
+|turn|8
+
+|
+|move|p2a: Sableye|Will-O-Wisp|p1a: Gliscor
+|-status|p1a: Gliscor|brn
+|move|p1a: Gliscor|Earthquake|p2a: Sableye
+|-damage|p2a: Sableye|61/100
+|
+|-damage|p1a: Gliscor|64/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Deoxys|Deoxys-Defense, L73|87/100 brn
+|-ability|p1a: Deoxys|Pressure
+|switch|p2a: Landorus|Landorus-Therian, L75, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Deoxys|atk|1
+|
+|-heal|p1a: Deoxys|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Deoxys|87/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Magnezone|Magnezone, L75|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Deoxys|Toxic|p2a: Magnezone
+|-immune|p2a: Magnezone|[msg]
+|
+|-heal|p1a: Deoxys|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Deoxys|87/100 brn|[from] brn
+|upkeep
+|turn|11
+
+|
+|move|p1a: Deoxys|Spikes|p2a: Magnezone
+|-sidestart|p2: torterrible18|Spikes
+|move|p2a: Magnezone|Substitute|p2a: Magnezone
+|-start|p2a: Magnezone|Substitute
+|-damage|p2a: Magnezone|76/100
+|
+|-heal|p1a: Deoxys|93/100 brn|[from] item: Leftovers
+|-damage|p1a: Deoxys|87/100 brn|[from] brn
+|upkeep
+|turn|12
+
+|
+|move|p1a: Deoxys|Spikes|p2a: Magnezone
+|-sidestart|p2: torterrible18|Spikes
+|move|p2a: Magnezone|Flash Cannon|p1a: Deoxys
+|-damage|p1a: Deoxys|55/100 brn
+|
+|-heal|p1a: Deoxys|62/100 brn|[from] item: Leftovers
+|-damage|p1a: Deoxys|55/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|
+|switch|p1a: Froslass|Froslass, L83, F|100/100
+|move|p2a: Magnezone|Flash Cannon|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|22/100
+|-start|p2a: Magnezone|Disable|Flash Cannon|[from] ability: Cursed Body|[of] p1a: Froslass
+|
+|upkeep
+|turn|14
+
+|
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|move|p2a: Magnezone|Thunderbolt|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|-activate|p1a: Froslass|move: Destiny Bond
+|faint|p2a: Magnezone
+|
+|upkeep
+
+|
+|switch|p1a: Deoxys|Deoxys-Defense, L73|55/100 brn
+|switch|p2a: Latios|Latios, L75, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|15
+
+|
+|detailschange|p2a: Latios|Latios-Mega, L75, M
+|-mega|p2a: Latios|Latios|Latiosite
+|move|p2a: Latios|Draco Meteor|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Deoxys
+|
+|upkeep
+
+|
+|switch|p1a: Dusknoir|Dusknoir, L83, M|100/100
+|-ability|p1a: Dusknoir|Pressure
+|turn|16
+
+|
+|switch|p2a: Mantine|Mantine, L77, F|82/100 tox
+|move|p1a: Dusknoir|Ice Punch|p2a: Mantine
+|-damage|p2a: Mantine|56/100 tox
+|
+|-heal|p2a: Mantine|62/100 tox|[from] item: Leftovers
+|-damage|p2a: Mantine|56/100 tox|[from] psn
+|upkeep
+|turn|17
+
+|
+|move|p2a: Mantine|Toxic|p1a: Dusknoir
+|-status|p1a: Dusknoir|tox
+|move|p1a: Dusknoir|Substitute|p1a: Dusknoir
+|-start|p1a: Dusknoir|Substitute
+|-damage|p1a: Dusknoir|76/100 tox
+|
+|-heal|p2a: Mantine|62/100 tox|[from] item: Leftovers
+|-heal|p1a: Dusknoir|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Mantine|50/100 tox|[from] psn
+|-damage|p1a: Dusknoir|76/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Mantine|Scald|p1a: Dusknoir
+|-activate|p1a: Dusknoir|move: Substitute|[damage]
+|move|p1a: Dusknoir|Ice Punch|p2a: Mantine
+|-damage|p2a: Mantine|23/100 tox
+|
+|-heal|p2a: Mantine|29/100 tox|[from] item: Leftovers
+|-heal|p1a: Dusknoir|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Mantine|11/100 tox|[from] psn
+|-damage|p1a: Dusknoir|70/100 tox|[from] psn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Mantine|Scald|p1a: Dusknoir
+|-end|p1a: Dusknoir|Substitute
+|move|p1a: Dusknoir|Ice Punch|p2a: Mantine
+|-damage|p2a: Mantine|0 fnt
+|faint|p2a: Mantine
+|
+|-heal|p1a: Dusknoir|76/100 tox|[from] item: Leftovers
+|-damage|p1a: Dusknoir|57/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Kyogre|Kyogre, L73|100/100
+|-damage|p2a: Kyogre|76/100|[from] Spikes
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|20
+
+|
+|move|p2a: Kyogre|Origin Pulse|p1a: Dusknoir
+|-damage|p1a: Dusknoir|0 fnt
+|faint|p1a: Dusknoir
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Heliolisk|Heliolisk, L81, F|100/100
+|turn|21
+
+|
+|switch|p2a: Landorus|Landorus-Therian, L75, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heliolisk|atk|1
+|move|p1a: Heliolisk|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+
+|l|☆TheRealFredDurst
+
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by torterrible18)
+
+|inactive|TheRealFredDurst has 20 seconds to reconnect!
+
+|inactive|TheRealFredDurst has 15 seconds to reconnect!
+
+|inactive|TheRealFredDurst has 10 seconds to reconnect!
+
+|inactive|TheRealFredDurst has 5 seconds to reconnect!
+
+|-message|TheRealFredDurst lost due to inactivity.
+|
+|win|torterrible18

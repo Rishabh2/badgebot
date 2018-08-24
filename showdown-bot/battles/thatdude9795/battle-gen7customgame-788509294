@@ -1,0 +1,312 @@
+|init|battle
+|title|ToaEmpoleon vs. thatdude9795
+|j|☆ToaEmpoleon
+|j|☆thatdude9795
+|player|p1|ToaEmpoleon|43
+|player|p2|thatdude9795|196
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Custom Game
+|seed|21233,52534,62113,51243
+|clearpoke
+|poke|p1|Gengar, F|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Steelix, F|item
+|poke|p1|Krookodile, F|item
+|poke|p1|Virizion|item
+|poke|p1|Feraligatr, F|item
+|poke|p2|Lycanroc, M|item
+|poke|p2|Crawdaunt, M|item
+|poke|p2|Aerodactyl, F|item
+|poke|p2|Torkoal, F|item
+|poke|p2|Drampa, F|item
+|poke|p2|Sylveon, F|item
+|teampreview|24
+|c|☆thatdude9795|Okay everything is good again
+|c|☆ToaEmpoleon|good thing we caught it
+|j| H2owsome
+|c|☆ToaEmpoleon|i hope i give you a good match!
+|c| H2owsome|"we"
+|c| H2owsome|*cough*
+|c|☆ToaEmpoleon|i was still typing shit
+
+|c|☆ToaEmpoleon|i saw it but hadn't said anything yet
+
+|c|☆thatdude9795|cant wait to lose ;)
+
+|c|☆ToaEmpoleon|behold my greatest creation!
+
+|c| H2owsome|why is gardevior facing left
+
+|c|☆ToaEmpoleon|this is my "Green Team"
+
+|c|☆ToaEmpoleon|left is sexier
+
+|c| H2owsome|>2 green mons
+
+|c|☆thatdude9795|do we wanna wait for Miso to get back in?
+
+|c| H2owsome|>green team
+
+|debug|ModifySpe handler suppressed by Embargo, Klutz or Magic Room
+|
+|start
+|switch|p1a: Minecraft|Krookodile, F|332/332
+|switch|p2a: Shell|Torkoal, F, shiny|281/281
+|-ability|p1a: Minecraft|Intimidate|boost
+|-unboost|p2a: Shell|atk|1
+|-enditem|p2a: Shell|White Herb
+|-clearnegativeboost|p2a: Shell|[silent]
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Shell
+|turn|1
+
+|c|☆thatdude9795|Fuck
+
+|c| H2owsome|nice herb burn
+
+|
+|move|p1a: Minecraft|Earthquake|p2a: Shell
+|-supereffective|p2a: Shell
+|-damage|p2a: Shell|39/281
+|move|p2a: Shell|Stealth Rock|p1a: Minecraft
+|-sidestart|p1: ToaEmpoleon|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+
+|
+|move|p1a: Minecraft|Earthquake|p2a: Shell
+|-supereffective|p2a: Shell
+|-crit|p2a: Shell
+|-damage|p2a: Shell|0
+|faint|p2a: Shell
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Draco|Aerodactyl, F|301/301
+|turn|3
+
+|
+|detailschange|p2a: Draco|Aerodactyl-Mega, F
+|-mega|p2a: Draco|Aerodactyl|Aerodactylite
+|move|p2a: Draco|Aqua Tail|p1a: Minecraft
+|debug|Sunny Day water suppress
+|-supereffective|p1a: Minecraft
+|-damage|p1a: Minecraft|160/332
+|-zpower|p1a: Minecraft
+|move|p1a: Minecraft|Continental Crush|p2a: Draco|[zeffect]
+|-supereffective|p2a: Draco
+|-damage|p2a: Draco|0
+|faint|p2a: Draco
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+
+|
+|switch|p2a: Little Red|Crawdaunt, M|267/267
+|turn|4
+
+|c| H2owsome|>sun setter + water attacks
+
+|c|☆thatdude9795|;)
+
+|
+|switch|p1a: Green Man|Virizion|323/323
+|-damage|p1a: Green Man|303/323|[from] Stealth Rock
+|move|p2a: Little Red|Dragon Dance|p2a: Little Red
+|-boost|p2a: Little Red|atk|1
+|-boost|p2a: Little Red|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+
+|c|☆thatdude9795|Im dumb
+
+|j| Misora31
+
+|j| KvnLiao
+
+|c|☆ToaEmpoleon|at least you didn't knock off
+
+|c| H2owsome|reveal solarbeam
+
+|c|☆ToaEmpoleon|maybe
+
+|
+|switch|p2a: Ribbon|Sylveon, F, shiny|394/394
+|move|p1a: Green Man|Close Combat|p2a: Ribbon
+|-resisted|p2a: Ribbon
+|-damage|p2a: Ribbon|280/394
+|-unboost|p1a: Green Man|def|1
+|-unboost|p1a: Green Man|spd|1
+|
+|-weather|none
+|-heal|p2a: Ribbon|304/394|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|l| Misora31
+
+|
+|switch|p1a: EEvvEE|Steelix, F|354/354
+|-damage|p1a: EEvvEE|343/354|[from] Stealth Rock
+|move|p2a: Ribbon|Substitute|p2a: Ribbon
+|-start|p2a: Ribbon|Substitute
+|-damage|p2a: Ribbon|206/394
+|
+|-heal|p2a: Ribbon|230/394|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|detailschange|p1a: EEvvEE|Steelix-Mega, F
+|-mega|p1a: EEvvEE|Steelix|Steelixite
+|move|p2a: Ribbon|Calm Mind|p2a: Ribbon
+|-boost|p2a: Ribbon|spa|1
+|-boost|p2a: Ribbon|spd|1
+|move|p1a: EEvvEE|Heavy Slam|p2a: Ribbon
+|-supereffective|p2a: Ribbon
+|-end|p2a: Ribbon|Substitute
+|
+|-heal|p2a: Ribbon|254/394|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|c|☆thatdude9795|Fingers crossed on this one
+
+|
+|move|p2a: Ribbon|Hidden Power|p1a: EEvvEE
+|-supereffective|p1a: EEvvEE
+|-damage|p1a: EEvvEE|175/354
+|move|p1a: EEvvEE|Heavy Slam|p2a: Ribbon
+|-supereffective|p2a: Ribbon
+|-damage|p2a: Ribbon|0
+|faint|p2a: Ribbon
+|
+|upkeep
+
+|
+|switch|p2a: Big Bad|Lycanroc, M, shiny|291/291
+|turn|9
+
+|c|☆ToaEmpoleon|my eevee is the greatest
+
+|l| KvnLiao
+
+|
+|move|p2a: Big Bad|Swords Dance|p2a: Big Bad
+|-boost|p2a: Big Bad|atk|2
+|move|p1a: EEvvEE|Earthquake|p2a: Big Bad
+|-supereffective|p2a: Big Bad
+|-enditem|p2a: Big Bad|Focus Sash
+|-damage|p2a: Big Bad|1/291
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Big Bad|Drill Run|p1a: EEvvEE
+|-supereffective|p1a: EEvvEE
+|-damage|p1a: EEvvEE|25/354
+|move|p1a: EEvvEE|Heavy Slam|p2a: Big Bad
+|-supereffective|p2a: Big Bad
+|-damage|p2a: Big Bad|0
+|faint|p2a: Big Bad
+|
+|upkeep
+
+|c|☆thatdude9795|Damn it
+
+|c| H2owsome|oof
+
+|
+|switch|p2a: Granny|Drampa, F, shiny|360/360
+|turn|11
+
+|
+|move|p2a: Granny|Calm Mind|p2a: Granny
+|-boost|p2a: Granny|spa|1
+|-boost|p2a: Granny|spd|1
+|move|p1a: EEvvEE|Heavy Slam|p2a: Granny
+|-damage|p2a: Granny|272/360
+|
+|-heal|p2a: Granny|294/360|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|c|☆ToaEmpoleon|was not expecting that
+
+|c| H2owsome|why did that do nothing
+
+|
+|move|p2a: Granny|Dragon Pulse|p1a: EEvvEE
+|-resisted|p1a: EEvvEE
+|-damage|p1a: EEvvEE|0
+|faint|p1a: EEvvEE
+|
+|-heal|p2a: Granny|316/360|[from] item: Leftovers
+|upkeep
+
+|c|☆thatdude9795|I don't know what you were expecting
+
+|c|☆ToaEmpoleon|that should have done a lot
+
+|c| H2owsome|doesnt close combat just win form ehre
+
+|c|☆thatdude9795|Shhhh
+
+|
+|switch|p1a: Green Man|Virizion|303/323
+|-damage|p1a: Green Man|283/323|[from] Stealth Rock
+|turn|13
+
+|
+|move|p1a: Green Man|Close Combat|p2a: Granny
+|-supereffective|p2a: Granny
+|-damage|p2a: Granny|58/360
+|-unboost|p1a: Green Man|def|1
+|-unboost|p1a: Green Man|spd|1
+|-ability|p2a: Granny|Berserk|boost
+|-boost|p2a: Granny|spa|1
+|move|p2a: Granny|Dragon Pulse|p1a: Green Man
+|-damage|p1a: Green Man|0
+|faint|p1a: Green Man
+|
+|debug|ModifySpe handler suppressed by Embargo, Klutz or Magic Room
+|-heal|p2a: Granny|80/360|[from] item: Leftovers
+|upkeep
+
+|c|☆thatdude9795|Idk Does it
+
+|debug|ModifySpe handler suppressed by Embargo, Klutz or Magic Room
+|debug|ModifySpe handler suppressed by Embargo, Klutz or Magic Room
+|
+|switch|p1a: Rocky|Gengar, F|261/261
+|-damage|p1a: Rocky|229/261|[from] Stealth Rock
+|turn|14
+
+|
+|move|p1a: Rocky|Sludge Wave|p2a: Granny
+|-damage|p2a: Granny|0
+|faint|p2a: Granny
+|
+|upkeep
+
+|c| H2owsome|apparently ntot
+
+|
+|switch|p2a: Little Red|Crawdaunt, M|267/267
+|turn|15
+
+|
+|move|p1a: Rocky|Sludge Wave|p2a: Little Red
+|-damage|p2a: Little Red|0
+|faint|p2a: Little Red
+|
+|win|ToaEmpoleon

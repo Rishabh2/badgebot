@@ -1,6 +1,0 @@
-requests==2.9.1
-profanityfilter==2.0.3
-discord.py==0.16.12
-praw==5.4.0
-websockets==5.0.1
-discord==0.0.2

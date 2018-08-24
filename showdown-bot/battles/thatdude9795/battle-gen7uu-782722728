@@ -1,0 +1,320 @@
+|init|battle
+|title|Thatdude9795 vs. Kakikuchen
+|j|☆Thatdude9795
+|j|☆Kakikuchen
+|player|p1|Thatdude9795|196
+|player|p2|Kakikuchen|188
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|html|<div class="broadcast-green"><strong>UU is currently suspecting Mega Venusaur! For information on how to participate check out the <a href="https://www.smogon.com/forums/threads/3639617/">suspect thread</a>.</strong></div>
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Togedemaru, M|item
+|poke|p1|Dunsparce, M|item
+|poke|p1|Torkoal, M|item
+|poke|p1|Drampa, M|item
+|poke|p1|Lycanroc, M|item
+|poke|p1|Crawdaunt, M|item
+|poke|p2|Chandelure, F|item
+|poke|p2|Virizion|item
+|poke|p2|Klefki, F|item
+|poke|p2|Honchkrow, M|item
+|poke|p2|Absol, M|item
+|poke|p2|Suicune|item
+|teampreview
+
+|
+|start
+|switch|p1a: Shell|Torkoal, M, shiny|100/100
+|switch|p2a: Suicune|Suicune, shiny|100/100
+|-ability|p2a: Suicune|Pressure
+|turn|1
+
+|
+|switch|p1a: Zip|Togedemaru, M|100/100
+|move|p2a: Suicune|Scald|p1a: Zip
+|-damage|p1a: Zip|50/100
+|-status|p1a: Zip|brn
+|
+|-damage|p1a: Zip|44/100 brn|[from] brn
+|upkeep
+|turn|2
+
+|
+|move|p1a: Zip|Fake Out|p2a: Suicune
+|-damage|p2a: Suicune|96/100
+|cant|p2a: Suicune|flinch
+|
+|-damage|p1a: Zip|39/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|
+|move|p1a: Zip|Volt Switch|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|85/100
+
+|
+|switch|p1a: Moustache|Drampa, M, shiny|100/100
+|move|p2a: Suicune|Scald|p1a: Moustache
+|-resisted|p1a: Moustache
+|-damage|p1a: Moustache|84/100
+|
+|-heal|p1a: Moustache|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|
+|move|p2a: Suicune|Ice Beam|p1a: Moustache
+|-supereffective|p1a: Moustache
+|-damage|p1a: Moustache|43/100
+|-ability|p1a: Moustache|Berserk|boost
+|-boost|p1a: Moustache|spa|1
+|move|p1a: Moustache|Calm Mind|p1a: Moustache
+|-boost|p1a: Moustache|spa|1
+|-boost|p1a: Moustache|spd|1
+|
+|-heal|p1a: Moustache|49/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|move|p2a: Suicune|Ice Beam|p1a: Moustache
+|-supereffective|p1a: Moustache
+|-damage|p1a: Moustache|13/100
+|move|p1a: Moustache|Roost|p1a: Moustache
+|-heal|p1a: Moustache|63/100
+|
+|-heal|p1a: Moustache|69/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Klefki|Klefki, F, shiny|100/100
+|move|p1a: Moustache|Roost|p1a: Moustache
+|-heal|p1a: Moustache|100/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Klefki|Thunder Wave|p1a: Moustache
+|-status|p1a: Moustache|par
+|move|p1a: Moustache|Hyper Voice|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|51/100
+|
+|-heal|p2a: Klefki|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p2a: Klefki|Spikes|p1a: Moustache
+|-sidestart|p1: Thatdude9795|Spikes
+|move|p1a: Moustache|Hyper Voice|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|8/100
+|
+|-heal|p2a: Klefki|14/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|move|p2a: Klefki|Spikes|p1a: Moustache
+|-sidestart|p1: Thatdude9795|Spikes
+|move|p1a: Moustache|Hyper Voice|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|upkeep
+
+|
+|switch|p2a: Virizion|Virizion|100/100
+|turn|10
+
+|
+|move|p2a: Virizion|Sacred Sword|p1a: Moustache
+|-supereffective|p1a: Moustache
+|-damage|p1a: Moustache|37/100 par
+|-ability|p1a: Moustache|Berserk|boost
+|-boost|p1a: Moustache|spa|1
+|cant|p1a: Moustache|par
+|
+|-heal|p1a: Moustache|43/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p2a: Virizion|Sacred Sword|p1a: Moustache
+|-supereffective|p1a: Moustache
+|-damage|p1a: Moustache|0 fnt
+|faint|p1a: Moustache
+|
+|upkeep
+
+|
+|switch|p1a: Shell|Torkoal, M, shiny|100/100
+|-damage|p1a: Shell|84/100|[from] Spikes
+|turn|12
+
+|
+|switch|p2a: Chandelure|Chandelure, F, shiny|100/100
+|move|p1a: Shell|Shell Smash|p1a: Shell
+|-unboost|p1a: Shell|def|1
+|-unboost|p1a: Shell|spd|1
+|-boost|p1a: Shell|atk|2
+|-boost|p1a: Shell|spa|2
+|-boost|p1a: Shell|spe|2
+|-enditem|p1a: Shell|White Herb
+|-clearnegativeboost|p1a: Shell|[silent]
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Shell
+|-damage|p1a: Shell|13/100
+|move|p1a: Shell|Earth Power|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+
+|
+|switch|p2a: Absol|Absol, M, shiny|100/100
+|-ability|p2a: Absol|Pressure
+|turn|14
+
+|
+|detailschange|p2a: Absol|Absol-Mega, M, shiny
+|-mega|p2a: Absol|Absol|Absolite
+|move|p2a: Absol|Knock Off|p1a: Shell
+|-damage|p1a: Shell|0 fnt
+|faint|p1a: Shell
+|
+|upkeep
+
+|
+|switch|p1a: Pinky|Dunsparce, M, shiny|100/100
+|-damage|p1a: Pinky|84/100|[from] Spikes
+|turn|15
+
+|
+|move|p2a: Absol|Knock Off|p1a: Pinky
+|-damage|p1a: Pinky|12/100
+|-enditem|p1a: Pinky|Choice Scarf|[from] move: Knock Off|[of] p2a: Absol
+|move|p1a: Pinky|Poison Jab|p2a: Absol
+|-damage|p2a: Absol|63/100
+|-status|p2a: Absol|psn
+|
+|-damage|p2a: Absol|51/100 psn|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Absol|Sucker Punch|p1a: Pinky
+|-damage|p1a: Pinky|0 fnt
+|faint|p1a: Pinky
+|
+|-damage|p2a: Absol|39/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Lycanroc|Lycanroc, M, shiny|100/100
+|-damage|p1a: Lycanroc|84/100|[from] Spikes
+|turn|17
+
+|
+|move|p2a: Absol|Knock Off|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|-enditem|p1a: Lycanroc|Focus Sash|[from] move: Knock Off|[of] p2a: Absol
+|faint|p1a: Lycanroc
+|
+|-damage|p2a: Absol|26/100 psn|[from] psn
+|upkeep
+
+|
+|switch|p1a: Zip|Togedemaru, M|39/100 brn
+|-damage|p1a: Zip|22/100 brn|[from] Spikes
+|turn|18
+
+|
+|move|p1a: Zip|Spiky Shield|p1a: Zip
+|-singleturn|p1a: Zip|move: Protect
+|move|p2a: Absol|Knock Off|p1a: Zip
+|-activate|p1a: Zip|move: Protect
+|-damage|p2a: Absol|14/100 psn|[from] Spiky Shield|[of] p1a: Zip
+|
+|-damage|p2a: Absol|2/100 psn|[from] psn
+|-damage|p1a: Zip|16/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Zip|Fake Out|p2a: Absol|[still]
+|-fail|p1a: Zip
+|-hint|Fake Out only works on your first turn out.
+|move|p2a: Absol|Knock Off|p1a: Zip
+|-damage|p1a: Zip|0 fnt
+|-damage|p2a: Absol|0 fnt|[from] ability: Iron Barbs|[of] p1a: Zip
+|faint|p1a: Zip
+|faint|p2a: Absol
+|
+|upkeep
+
+|c|☆Thatdude9795|Wrong order there
+
+|
+|switch|p2a: Honchkrow|Honchkrow, M, shiny|100/100
+|switch|p1a: Star|Crawdaunt, M|100/100
+|-damage|p1a: Star|84/100|[from] Spikes
+|turn|20
+
+|
+|move|p1a: Star|Dragon Dance|p1a: Star
+|-boost|p1a: Star|atk|1
+|-boost|p1a: Star|spe|1
+|move|p2a: Honchkrow|Taunt|p1a: Star
+|-start|p1a: Star|move: Taunt
+|
+|upkeep
+|turn|21
+
+|
+|move|p1a: Star|Liquidation|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|-damage|p1a: Star|74/100|[from] item: Life Orb
+|faint|p2a: Honchkrow
+|
+|upkeep
+
+|
+|switch|p2a: Virizion|Virizion|100/100
+|turn|22
+
+|
+|move|p1a: Star|Knock Off|p2a: Virizion
+|-resisted|p2a: Virizion
+|-damage|p2a: Virizion|18/100
+|-ability|p2a: Virizion|Justified|boost
+|-boost|p2a: Virizion|atk|1
+|-enditem|p2a: Virizion|Leftovers|[from] move: Knock Off|[of] p1a: Star
+|-damage|p1a: Star|65/100|[from] item: Life Orb
+|move|p2a: Virizion|Leaf Blade|p1a: Star
+|-supereffective|p1a: Star
+|-damage|p1a: Star|0 fnt
+|faint|p1a: Star
+|
+|win|Kakikuchen

@@ -1,0 +1,142 @@
+
+|
+|move|p1a: Blastoise|Water Pulse|p2a: Reverse
+|-damage|p2a: Reverse|0 fnt
+|faint|p2a: Reverse
+|
+|upkeep
+
+|
+|switch|p2a: Nightmare|Pyukumuku, F|74/100
+|turn|22
+
+|
+|move|p1a: Blastoise|Rapid Spin|p2a: Nightmare
+|-damage|p2a: Nightmare|71/100
+|-sideend|p1: Rotciv11|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Blastoise
+|-sideend|p1: Rotciv11|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|move|p2a: Nightmare|Block|p1a: Blastoise
+|-activate|p1a: Blastoise|trapped
+|
+|-heal|p2a: Nightmare|77/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|move|p1a: Blastoise|Water Pulse|p2a: Nightmare
+|-resisted|p2a: Nightmare
+|-damage|p2a: Nightmare|59/100
+|move|p2a: Nightmare|Toxic|p1a: Blastoise
+|-status|p1a: Blastoise|tox
+|
+|-heal|p2a: Nightmare|65/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|82/100 tox|[from] psn
+|upkeep
+|turn|24
+
+|
+|move|p1a: Blastoise|Aura Sphere|p2a: Nightmare
+|-damage|p2a: Nightmare|34/100
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|84/100
+|
+|-heal|p2a: Nightmare|90/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|69/100 tox|[from] psn
+|upkeep
+|turn|25
+
+|c|☆Rotciv11|wp
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|
+|move|p1a: Blastoise|Aura Sphere|p2a: Nightmare
+|-damage|p2a: Nightmare|58/100
+|move|p2a: Nightmare|Soak|p1a: Blastoise
+|-start|p1a: Blastoise|typechange|Water
+|
+|-heal|p2a: Nightmare|65/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|51/100 tox|[from] psn
+|upkeep
+|turn|26
+
+|
+|move|p1a: Blastoise|Aura Sphere|p2a: Nightmare
+|-damage|p2a: Nightmare|31/100
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|81/100
+|
+|-heal|p2a: Nightmare|87/100|[from] item: Leftovers
+|-damage|p1a: Blastoise|26/100 tox|[from] psn
+|upkeep
+|turn|27
+
+|
+|move|p1a: Blastoise|Aura Sphere|p2a: Nightmare
+|-damage|p2a: Nightmare|56/100
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|100/100
+|
+|-damage|p1a: Blastoise|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Blastoise
+
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F, shiny|82/100 brn
+|turn|28
+
+|
+|move|p2a: Nightmare|Soak|p1a: Ferrothorn
+|-start|p1a: Ferrothorn|typechange|Water
+|move|p1a: Ferrothorn|Leech Seed|p2a: Nightmare
+|-start|p2a: Nightmare|move: Leech Seed
+|
+|-damage|p2a: Nightmare|88/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|95/100 brn|[silent]
+|-damage|p1a: Ferrothorn|89/100 brn|[from] brn
+|upkeep
+|turn|29
+
+|inactive|Rotciv11 has 135 seconds left.
+
+|
+|switch|p2a: birdo|Skarmory, M|100/100
+|move|p1a: Ferrothorn|Knock Off|p2a: birdo
+|-damage|p2a: birdo|94/100
+|-enditem|p2a: birdo|Leftovers|[from] move: Knock Off|[of] p1a: Ferrothorn
+|
+|-damage|p1a: Ferrothorn|82/100 brn|[from] brn
+|upkeep
+|turn|30
+
+|inactive|Rotciv11 has 135 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 120 seconds left.
+
+|
+|move|p2a: birdo|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Rotciv11|move: Stealth Rock
+|move|p1a: Ferrothorn|Leech Seed|p2a: birdo
+|-start|p2a: birdo|move: Leech Seed
+|
+|-damage|p2a: birdo|82/100|[from] Leech Seed|[of] p1a: Ferrothorn
+|-heal|p1a: Ferrothorn|96/100 brn|[silent]
+|-damage|p1a: Ferrothorn|90/100 brn|[from] brn
+|upkeep
+|turn|31
+
+|
+|switch|p2a: sexy pexy|Toxapex, M|100/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: sexy pexy
+|-sidestart|p2: PYUKUMUKU IZ GOD|move: Stealth Rock
+|
+|-damage|p1a: Ferrothorn|83/100 brn|[from] brn
+|upkeep
+|turn|32
+
+|-message|PYUKUMUKU IZ GOD forfeited.
+
+|
+|win|Rotciv11

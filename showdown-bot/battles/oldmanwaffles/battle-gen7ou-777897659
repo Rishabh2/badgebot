@@ -1,0 +1,218 @@
+|init|battle
+|title|Sw33tR0llThief vs. Old_Man_Waffles
+|j|☆Sw33tR0llThief
+|j|☆Old_Man_Waffles
+|player|p1|Sw33tR0llThief|25
+|player|p2|Old_Man_Waffles|224
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Politoed, L50, M|item
+|poke|p1|Dhelmise, L50|item
+|poke|p1|Altaria, L50, M|item
+|poke|p1|Piloswine, L50, F|item
+|poke|p1|Muk-Alola, L50, M|item
+|poke|p1|Noivern, L50, M|item
+|poke|p2|Gastrodon, M|item
+|poke|p2|Rotom-Mow|item
+|poke|p2|Exeggutor-Alola, M|item
+|poke|p2|Uxie|item
+|poke|p2|Banette, M|item
+|poke|p2|Golem-Alola, M|item
+|teampreview
+
+|j| H2owsome
+
+|c| H2owsome|>ou
+
+|c| H2owsome|kek
+
+|c|☆Old_Man_Waffles|good luck!
+
+|c| H2owsome|oh shit waffles got that big squish
+
+|c| H2owsome|auto win
+
+|c|☆Old_Man_Waffles|oh it had to come
+
+|j| Misora31
+
+|c|☆Old_Man_Waffles|as did the double meme team Beard and Tree
+
+|c|☆Sw33tR0llThief|yeah had to do ou or it doesnt allow drizzle
+
+|c| H2owsome|really? drizzle is banned in uu?
+
+|c|☆Old_Man_Waffles|no worries gastrodon is considered ou as well
+
+|c| H2owsome|huh
+
+|c| H2owsome|oh tru
+
+|c| H2owsome|lol
+
+|c| Misora31|Yep
+
+|c|☆Old_Man_Waffles|so it had to be ou for me anyways
+
+|c| Misora31|it is banned in UU
+
+|c| H2owsome|waffles breaking the DL rules
+
+|c|☆Sw33tR0llThief|heh
+
+|c| Misora31|Waffles don't care
+
+|c| H2owsome|waffles is a honey badger
+
+|c|☆Old_Man_Waffles|not when sausage is involved
+
+|c|☆Old_Man_Waffles|gastro is love
+
+|c|☆Old_Man_Waffles|gastro is life
+
+|c| H2owsome|omg your gastro is named sausage?
+
+|c| H2owsome|i love it
+
+|c|☆Sw33tR0llThief|I can save the replay at the end right? never done that before
+
+|
+|start
+|switch|p1a: CantSee|Piloswine, L50, F|100/100
+|switch|p2a: Brahmsy|Banette, M, shiny|100/100
+|turn|1
+
+|c| H2owsome|yes
+
+|c| Misora31|Yep
+
+|c| H2owsome|at the end there will be a btton
+
+|
+|detailschange|p2a: Brahmsy|Banette-Mega, M, shiny
+|-mega|p2a: Brahmsy|Banette|Banettite
+|move|p2a: Brahmsy|Knock Off|p1a: CantSee
+|-damage|p1a: CantSee|23/100
+|-enditem|p1a: CantSee|Eviolite|[from] move: Knock Off|[of] p2a: Brahmsy
+|move|p1a: CantSee|Stealth Rock|p2a: Brahmsy
+|-sidestart|p2: Old_Man_Waffles|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|c| H2owsome|no ludicolo is interesting
+
+|c| H2owsome|considering it slaps up and claps up waffle's team
+
+|c|☆Old_Man_Waffles|yeah i was hard expecting that not conna lie
+
+|
+|switch|p1a: ImMelting|Muk-Alola, L50, M|100/100
+|move|p2a: Brahmsy|Trick Room|p2a: Brahmsy
+|-fieldstart|move: Trick Room|[of] p2a: Brahmsy
+|
+|upkeep
+|turn|3
+
+|c|☆Old_Man_Waffles|and the lucario
+
+|c|☆Old_Man_Waffles|honestly in general just a different team than i anticipated
+
+|c| H2owsome|TRICK ROOM
+
+|c| H2owsome|the madman
+
+|c|☆Old_Man_Waffles|*madmen
+
+|c|☆Old_Man_Waffles|this is me and my roommate tag teaming this team
+
+|c|☆Old_Man_Waffles|joint effort
+
+|
+|-activate|p2a: Brahmsy|move: Pursuit
+|move|p1a: ImMelting|Pursuit|p2a: Brahmsy|[from]Pursuit
+|-supereffective|p2a: Brahmsy
+|-damage|p2a: Brahmsy|73/100
+|switch|p2a: BEARD|Golem-Alola, M|100/100
+|-damage|p2a: BEARD|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+
+|c|☆Old_Man_Waffles|also Sweetroll love the nickname
+
+|c| H2owsome|WAIT
+
+|c| H2owsome|this muk is level 50
+
+|c|☆Sw33tR0llThief|isnt everything supposed to be 50?
+
+|c|☆Old_Man_Waffles|ummmmmmmm
+
+|c| Misora31|Nope
+
+|c| Misora31|it's level 100
+
+|c|☆Old_Man_Waffles|not on showdown
+
+|c|☆Sw33tR0llThief|oh shit
+
+|c| H2owsome|level 50 is to simulate cart
+
+|c| Misora31|restart the match
+
+|c| H2owsome|which does level 50 for some reason
+
+|c| H2owsome|restart, same moves
+
+|c| Misora31|^
+
+|c|☆Sw33tR0llThief|you cool with restart?
+
+|c| Misora31|just redo the start turns
+
+|c| Misora31|up to turn 4
+
+|c| H2owsome|unless you really think you would have played differently
+
+|c|☆Old_Man_Waffles|same plays turn by turn until something is different?
+
+|c| H2owsome|yea
+
+|c| H2owsome|we'll play it by ear
+
+|c|☆Sw33tR0llThief|aight
+
+|c|☆Old_Man_Waffles|aka if hax happen play fresh from there
+
+|c|☆Old_Man_Waffles|cool ill keep this tab open, just resend after you level them up to 100!
+
+|c|☆Old_Man_Waffles|keeping it open so we remember our moves
+
+|c|☆Old_Man_Waffles|my roommate totally questioned why that knock off did so much lol
+
+|c|☆Old_Man_Waffles|more observant than me
+
+|c| H2owsome|yea i was wondering why pursuit did so little
+
+|c| H2owsome|i know bannete is stupid strong
+
+|c| H2owsome|so knock off wasn't too much of a red flag
+
+|j| Torterrible18
+
+|-message|Old_Man_Waffles forfeited.
+
+|
+|win|Sw33tR0llThief

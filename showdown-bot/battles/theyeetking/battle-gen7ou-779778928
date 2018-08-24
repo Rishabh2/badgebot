@@ -1,0 +1,147 @@
+|init|battle
+|title|The Yeet King vs. Lorient Aiman
+|j|☆The Yeet King
+|j|☆Lorient Aiman
+|player|p1|The Yeet King|156
+|player|p2|Lorient Aiman|238
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zygarde|item
+|poke|p1|Hoopa-Unbound|item
+|poke|p1|Toxapex, M|item
+|poke|p1|Magearna|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Kartana|item
+|poke|p2|Dragonite, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Salamence, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Latios, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lorient Aiman)
+|inactive|The Yeet King has 135 seconds left.
+|inactive|The Yeet King has 120 seconds left.
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|turn|1
+|c|☆The Yeet King|this ni**BB**a fo real
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Landorus
+|-damage|p1a: Landorus|39/100
+|move|p1a: Landorus|Stealth Rock|p2a: Hydreigon
+|-sidestart|p2: Lorient Aiman|move: Stealth Rock
+|
+|-heal|p1a: Landorus|45/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Magearna|Magearna|100/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|89/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|75/100
+|move|p1a: Magearna|Fleur Cannon|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Magearna|spa|2
+|faint|p2a: Hydreigon
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|turn|4
+|inactive|The Yeet King has 135 seconds left.
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Latios|Defog|p1a: Toxapex
+|-unboost|p1a: Toxapex|evasion|1
+|-sideend|p2: Lorient Aiman|Stealth Rock|[from] move: Defog|[of] p2a: Latios
+|
+|upkeep
+|turn|5
+
+|
+|move|p2a: Latios|Psychic|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|19/100
+|move|p1a: Toxapex|Toxic|p2a: Latios
+|-status|p2a: Latios|tox
+|
+|-heal|p1a: Toxapex|25/100|[from] item: Black Sludge
+|-damage|p2a: Latios|82/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Latios|Psychic|p1a: Hoopa
+|-immune|p1a: Hoopa|[msg]
+|
+|-damage|p2a: Latios|70/100 tox|[from] psn
+|upkeep
+|turn|7
+
+|
+|move|p1a: Hoopa|Dark Pulse|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+
+|inactive|Lorient Aiman has 135 seconds left.
+
+|
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|8
+
+|
+|move|p1a: Hoopa|Dark Pulse|p2a: Dragonite
+|-damage|p2a: Dragonite|74/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|9
+
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Hoopa
+|-damage|p1a: Hoopa|27/100
+|-zpower|p1a: Hoopa
+|move|p1a: Hoopa|Black Hole Eclipse|p2a: Dragonite|[zeffect]
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+
+|-message|Lorient Aiman forfeited.
+
+|
+|win|The Yeet King

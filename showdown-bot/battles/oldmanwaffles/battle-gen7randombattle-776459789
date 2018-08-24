@@ -1,0 +1,438 @@
+|init|battle
+|title|Old_Man_Waffles vs. Bugknight97
+|j|☆Old_Man_Waffles
+|j|☆Bugknight97
+|player|p1|Old_Man_Waffles|265
+|player|p2|Bugknight97|92
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Random Battle
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Pelipper|Pelipper, L79, M|100/100
+|switch|p2a: Raticate|Raticate-Alola, L83, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bugknight97)
+|
+|switch|p2a: Miltank|Miltank, L81, F|100/100
+|move|p1a: Pelipper|Scald|p2a: Miltank
+|-damage|p2a: Miltank|49/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Miltank|55/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Miltank|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|move|p1a: Pelipper|Knock Off|p2a: Miltank
+|-damage|p2a: Miltank|43/100
+|-enditem|p2a: Miltank|Leftovers|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|95/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|move|p2a: Miltank|Stealth Rock|p1a: Pelipper
+|-sidestart|p1: Old_Man_Waffles|move: Stealth Rock
+|move|p1a: Pelipper|Scald|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|faint|p2a: Miltank
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|83/100 tox|[from] psn
+|upkeep
+|
+|switch|p2a: Cresselia|Cresselia, L79, F|100/100
+|turn|4
+|
+|move|p2a: Cresselia|Substitute|p2a: Cresselia
+|-start|p2a: Cresselia|Substitute
+|-damage|p2a: Cresselia|76/100
+|move|p1a: Pelipper|Knock Off|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-activate|p2a: Cresselia|move: Substitute|[damage]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Cresselia|82/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|66/100 tox|[from] psn
+|upkeep
+|turn|5
+|inactive|Bugknight97 has 135 seconds left.
+|
+|move|p2a: Cresselia|Psyshock|p1a: Pelipper
+|-damage|p1a: Pelipper|40/100 tox
+|move|p1a: Pelipper|Defog|p2a: Cresselia
+|-sideend|p1: Old_Man_Waffles|Stealth Rock|[from] move: Defog|[of] p1a: Pelipper
+|
+|-weather|none
+|-heal|p2a: Cresselia|88/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|16/100 tox|[from] psn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Cresselia|Psyshock|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-heal|p2a: Cresselia|94/100|[from] item: Leftovers
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Aggron|Aggron, L77, M|100/100
+|turn|7
+
+|
+|detailschange|p1a: Aggron|Aggron-Mega, L77, M
+|-mega|p1a: Aggron|Aggron|Aggronite
+|move|p2a: Cresselia|Ice Beam|p1a: Aggron
+|-resisted|p1a: Aggron
+|-damage|p1a: Aggron|89/100
+|move|p1a: Aggron|Heavy Slam|p2a: Cresselia
+|-end|p2a: Cresselia|Substitute
+|
+|-heal|p2a: Cresselia|99/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|inactive|Bugknight97 has 135 seconds left.
+
+|
+|switch|p2a: Quagsire|Quagsire, L83, F|100/100
+|move|p1a: Aggron|Heavy Slam|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|77/100
+|
+|-heal|p2a: Quagsire|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Tangrowth|Tangrowth, L75, F|100/100
+|move|p2a: Quagsire|Earthquake|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|87/100
+|
+|-heal|p2a: Quagsire|89/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|switch|p2a: Noivern|Noivern, L79, M|100/100
+|move|p1a: Tangrowth|Knock Off|p2a: Noivern
+|-damage|p2a: Noivern|66/100
+|-enditem|p2a: Noivern|Leftovers|[from] move: Knock Off|[of] p1a: Tangrowth
+|-damage|p1a: Tangrowth|77/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Aggron|Aggron-Mega, L77, M|89/100
+|move|p2a: Noivern|Flamethrower|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-crit|p1a: Aggron
+|-damage|p1a: Aggron|30/100
+|
+|upkeep
+|turn|12
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Noivern|Flamethrower|p1a: Aggron
+|-supereffective|p1a: Aggron
+|-damage|p1a: Aggron|0 fnt
+|faint|p1a: Aggron
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Granbull|Granbull, L83, F|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Noivern|atk|1
+|turn|13
+
+|
+|switch|p2a: Quagsire|Quagsire, L83, F|89/100
+|move|p1a: Granbull|Play Rough|p2a: Quagsire|[miss]
+|-miss|p1a: Granbull|p2a: Quagsire
+|
+|-heal|p2a: Quagsire|95/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Granbull|Play Rough|p2a: Quagsire
+|-damage|p2a: Quagsire|45/100
+|-damage|p1a: Granbull|91/100|[from] item: Life Orb
+|move|p2a: Quagsire|Scald|p1a: Granbull
+|-damage|p1a: Granbull|62/100
+|-status|p1a: Granbull|brn
+|
+|-heal|p2a: Quagsire|51/100|[from] item: Leftovers
+|-damage|p1a: Granbull|56/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Granbull|Play Rough|p2a: Quagsire
+|-damage|p2a: Quagsire|26/100
+|-damage|p1a: Granbull|46/100 brn|[from] item: Life Orb
+|move|p2a: Quagsire|Encore|p1a: Granbull
+|-start|p1a: Granbull|Encore
+|
+|-heal|p2a: Quagsire|32/100|[from] item: Leftovers
+|-damage|p1a: Granbull|40/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Tangrowth|Tangrowth, L75, F|100/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|82/100
+|
+|-heal|p2a: Quagsire|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Noivern|Noivern, L79, M|66/100
+|move|p1a: Tangrowth|Sleep Powder|p2a: Noivern
+|-status|p2a: Noivern|slp
+|
+|upkeep
+|turn|18
+
+|
+|cant|p2a: Noivern|slp
+|move|p1a: Tangrowth|Rock Slide|p2a: Noivern
+|-supereffective|p2a: Noivern
+|-crit|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|-damage|p1a: Tangrowth|91/100|[from] item: Life Orb
+|faint|p2a: Noivern
+|
+|upkeep
+
+|
+|switch|p2a: Cresselia|Cresselia, L79, F|99/100
+|turn|19
+
+|
+|move|p2a: Cresselia|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|move|p1a: Tangrowth|Knock Off|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-damage|p2a: Cresselia|62/100
+|-enditem|p2a: Cresselia|Leftovers|[from] move: Knock Off|[of] p1a: Tangrowth
+|-damage|p1a: Tangrowth|81/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Tangrowth|75/100 tox|[from] psn
+|upkeep
+|turn|20
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Cresselia|Ice Beam|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|23/100 tox
+|move|p1a: Tangrowth|Sleep Powder|p2a: Cresselia
+|-status|p2a: Cresselia|slp
+|
+|-damage|p1a: Tangrowth|11/100 tox|[from] psn
+|upkeep
+|turn|21
+
+|
+|cant|p2a: Cresselia|slp
+|move|p1a: Tangrowth|Leaf Storm|p2a: Cresselia
+|-damage|p2a: Cresselia|23/100 slp
+|-unboost|p1a: Tangrowth|spa|2
+|-damage|p1a: Tangrowth|1/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Tangrowth|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Tangrowth
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Scolipede|Scolipede, L76, M|100/100
+|turn|22
+
+|
+|move|p1a: Scolipede|Megahorn|p2a: Cresselia
+|-supereffective|p2a: Cresselia
+|-crit|p2a: Cresselia
+|-damage|p2a: Cresselia|0 fnt
+|faint|p2a: Cresselia
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p2a: Quagsire|Quagsire, L83, F|88/100
+|turn|23
+
+|
+|move|p1a: Scolipede|Megahorn|p2a: Quagsire|[miss]
+|-miss|p1a: Scolipede|p2a: Quagsire
+|move|p2a: Quagsire|Encore|p1a: Scolipede
+|-start|p1a: Scolipede|Encore
+|
+|-heal|p2a: Quagsire|94/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|24
+
+|
+|move|p1a: Scolipede|Megahorn|p2a: Quagsire
+|-damage|p2a: Quagsire|56/100
+|move|p2a: Quagsire|Earthquake|p1a: Scolipede
+|-damage|p1a: Scolipede|50/100
+|
+|-heal|p1a: Scolipede|56/100|[from] item: Black Sludge
+|-heal|p2a: Quagsire|62/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|25
+
+|
+|move|p1a: Scolipede|Megahorn|p2a: Quagsire
+|-damage|p2a: Quagsire|23/100
+|move|p2a: Quagsire|Earthquake|p1a: Scolipede
+|-damage|p1a: Scolipede|10/100
+|
+|-heal|p1a: Scolipede|16/100|[from] item: Black Sludge
+|-heal|p2a: Quagsire|30/100|[from] item: Leftovers
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|26
+
+|
+|move|p1a: Scolipede|Megahorn|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-heal|p1a: Scolipede|22/100|[from] item: Black Sludge
+|-end|p1a: Scolipede|Encore
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+
+|
+|switch|p2a: Raticate|Raticate-Alola, L83, F|100/100
+|turn|27
+
+|
+|move|p1a: Scolipede|Protect|p1a: Scolipede
+|-singleturn|p1a: Scolipede|Protect
+|move|p2a: Raticate|Sucker Punch|p1a: Scolipede|[still]
+|-fail|p2a: Raticate
+|
+|-heal|p1a: Scolipede|28/100|[from] item: Black Sludge
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|28
+
+|
+|switch|p1a: Granbull|Granbull, L83, F|40/100 brn
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Raticate|atk|1
+|move|p2a: Raticate|Sucker Punch|p1a: Granbull|[still]
+|-fail|p2a: Raticate
+|
+|-damage|p1a: Granbull|35/100 brn|[from] brn
+|upkeep
+|turn|29
+
+|
+|switch|p2a: Samurott|Samurott, L82, F|100/100
+|move|p1a: Granbull|Thunder Wave|p2a: Samurott
+|-status|p2a: Samurott|par
+|
+|-damage|p1a: Granbull|29/100 brn|[from] brn
+|upkeep
+|turn|30
+
+|
+|move|p1a: Granbull|Play Rough|p2a: Samurott
+|-damage|p2a: Samurott|75/100 par
+|-damage|p1a: Granbull|19/100 brn|[from] item: Life Orb
+|move|p2a: Samurott|Ice Beam|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|upkeep
+
+|
+|switch|p1a: Scolipede|Scolipede, L76, M|28/100
+|turn|31
+
+|
+|move|p1a: Scolipede|Megahorn|p2a: Samurott
+|-damage|p2a: Samurott|39/100 par
+|move|p2a: Samurott|Ice Beam|p1a: Scolipede
+|-damage|p1a: Scolipede|0 fnt
+|faint|p1a: Scolipede
+|
+|upkeep
+
+|
+|switch|p1a: Mienshao|Mienshao, L78, M|100/100
+|turn|32
+
+|
+|move|p1a: Mienshao|Fake Out|p2a: Samurott
+|-damage|p2a: Samurott|24/100 par
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|cant|p2a: Samurott|flinch
+|
+|upkeep
+|turn|33
+
+|
+|move|p1a: Mienshao|Poison Jab|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-damage|p1a: Mienshao|81/100|[from] item: Life Orb
+|faint|p2a: Samurott
+|
+|upkeep
+
+|
+|switch|p2a: Raticate|Raticate-Alola, L83, F|100/100
+|turn|34
+
+|
+|move|p1a: Mienshao|High Jump Kick|p2a: Raticate
+|-supereffective|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|-damage|p1a: Mienshao|72/100|[from] item: Life Orb
+|faint|p2a: Raticate
+|
+|win|Old_Man_Waffles

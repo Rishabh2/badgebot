@@ -1,0 +1,370 @@
+|init|battle
+|title|Bakrys vs. The Yeet King
+|j|☆Bakrys
+|j|☆The Yeet King
+|player|p1|Bakrys|265
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gengar, M|item
+|poke|p1|Krookodile, M|item
+|poke|p1|Steelix, M|item
+|poke|p1|Weezing, M|item
+|poke|p1|Feraligatr, M|item
+|poke|p1|Swellow, M|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Florges-Blue, F|item
+|poke|p2|Doublade, M|item
+|poke|p2|Honchkrow, F|item
+|poke|p2|Empoleon, M|item
+|poke|p2|Rotom-Heat|item
+|teampreview
+|c|☆The Yeet King|good luck bro
+|c|☆Bakrys|good luck
+|
+|start
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|switch|p2a: bitch penguin|Empoleon, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: bitch penguin|atk|1
+|-ability|p2a: bitch penguin|Defiant|boost
+|-boost|p2a: bitch penguin|atk|2
+|turn|1
+|c|☆Bakrys|I think you have a tough match up
+
+|c|☆The Yeet King|yeah
+
+|
+|-zpower|p1a: Krookodile
+|move|p1a: Krookodile|Tectonic Rage|p2a: bitch penguin|[zeffect]
+|-supereffective|p2a: bitch penguin
+|-damage|p2a: bitch penguin|0 fnt
+|faint|p2a: bitch penguin
+|
+|upkeep
+
+|c|☆The Yeet King|dang
+
+|
+|switch|p2a: literally my mixta|Rotom-Heat|100/100
+|turn|2
+
+|c|☆Bakrys|weird set
+
+|c|☆The Yeet King|I know
+
+|c|☆Bakrys|to bring defiant
+
+|
+|move|p1a: Krookodile|Taunt|p2a: literally my mixta
+|-start|p2a: literally my mixta|move: Taunt
+|cant|p2a: literally my mixta|move: Taunt|Will-O-Wisp
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Krookodile|Stealth Rock|p2a: literally my mixta
+|-sidestart|p2: The Yeet King|move: Stealth Rock
+|move|p2a: literally my mixta|Overheat|p1a: Krookodile|[miss]
+|-miss|p2a: literally my mixta|p1a: Krookodile
+|
+|upkeep
+|turn|4
+
+|c|☆The Yeet King|yeet
+
+|
+|move|p1a: Krookodile|Knock Off|p2a: literally my mixta
+|-damage|p2a: literally my mixta|53/100
+|-enditem|p2a: literally my mixta|Iapapa Berry|[from] move: Knock Off|[of] p1a: Krookodile
+|move|p2a: literally my mixta|Overheat|p1a: Krookodile
+|-damage|p1a: Krookodile|37/100
+|-unboost|p2a: literally my mixta|spa|2
+|
+|-end|p2a: literally my mixta|move: Taunt
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Weezing|Weezing, M|100/100
+|move|p2a: literally my mixta|Overheat|p1a: Weezing|[miss]
+|-miss|p2a: literally my mixta|p1a: Weezing
+|
+|upkeep
+|turn|6
+
+|c|☆Bakrys|lol
+
+|
+|move|p2a: literally my mixta|Volt Switch|p1a: Weezing
+|-damage|p1a: Weezing|83/100
+
+|
+|switch|p2a: king arther|Doublade, M, shiny|100/100
+|-damage|p2a: king arther|94/100|[from] Stealth Rock
+|move|p1a: Weezing|Toxic Spikes|p2a: king arther
+|-sidestart|p2: The Yeet King|move: Toxic Spikes
+|
+|-heal|p1a: Weezing|89/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+
+|c|☆The Yeet King|well im pretty sure I didnt prepare for a toxic spikes team
+
+|
+|move|p2a: king arther|Shadow Sneak|p1a: Weezing
+|-damage|p1a: Weezing|79/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: king arther
+|-status|p2a: king arther|brn
+|
+|-heal|p1a: Weezing|85/100|[from] item: Black Sludge
+|-damage|p2a: king arther|88/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Kommo-bro|Kommo-o, M|100/100
+|-status|p2a: Kommo-bro|psn
+|-damage|p2a: Kommo-bro|94/100 psn|[from] Stealth Rock
+|move|p1a: Weezing|Toxic Spikes|p2a: Kommo-bro
+|-sidestart|p2: The Yeet King|move: Toxic Spikes
+|
+|-heal|p1a: Weezing|91/100|[from] item: Black Sludge
+|-damage|p2a: Kommo-bro|82/100 psn|[from] psn
+|upkeep
+|turn|9
+
+|c|☆The Yeet King|im actually getting bodied
+
+|
+|switch|p1a: Gengar|Gengar, M|100/100
+|move|p2a: Kommo-bro|Dragon Dance|p2a: Kommo-bro
+|-boost|p2a: Kommo-bro|atk|1
+|-boost|p2a: Kommo-bro|spe|1
+|
+|-damage|p2a: Kommo-bro|70/100 psn|[from] psn
+|upkeep
+|turn|10
+
+|
+|move|p1a: Gengar|Dazzling Gleam|p2a: Kommo-bro
+|-supereffective|p2a: Kommo-bro
+|-damage|p2a: Kommo-bro|0 fnt
+|faint|p2a: Kommo-bro
+|
+|upkeep
+
+|c|☆The Yeet King|holy fuck
+
+|
+|switch|p2a: literally my mixta|Rotom-Heat|53/100
+|-damage|p2a: literally my mixta|28/100|[from] Stealth Rock
+|turn|11
+
+|c|☆Bakrys|I'll tell you after
+
+|c|☆The Yeet King|tell me what
+
+|
+|switch|p1a: Weezing|Weezing, M|91/100
+|move|p2a: literally my mixta|Volt Switch|p1a: Weezing
+|-damage|p1a: Weezing|58/100
+
+|c|☆Bakrys|what are the sets
+
+|
+|switch|p2a: Bird Corleone|Honchkrow, F|100/100
+|-damage|p2a: Bird Corleone|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Weezing|64/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+
+|c|☆Bakrys|and what you should be wary of
+
+|
+|move|p2a: Bird Corleone|Brave Bird|p1a: Weezing
+|-damage|p1a: Weezing|20/100
+|-damage|p2a: Bird Corleone|61/100|[from] Recoil
+|move|p1a: Weezing|Will-O-Wisp|p2a: Bird Corleone
+|-status|p2a: Bird Corleone|brn
+|
+|-heal|p1a: Weezing|26/100|[from] item: Black Sludge
+|-damage|p2a: Bird Corleone|55/100 brn|[from] brn
+|upkeep
+|turn|13
+
+|c|☆The Yeet King|right
+
+|
+|switch|p1a: Steelix|Steelix, M|100/100
+|move|p2a: Bird Corleone|Brave Bird|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|93/100
+|-damage|p2a: Bird Corleone|52/100 brn|[from] Recoil
+|
+|-damage|p2a: Bird Corleone|46/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: king arther|Doublade, M, shiny|88/100 brn
+|-damage|p2a: king arther|82/100 brn|[from] Stealth Rock
+|detailschange|p1a: Steelix|Steelix-Mega, M
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p1a: Steelix|Heavy Slam|p2a: king arther
+|-resisted|p2a: king arther
+|-damage|p2a: king arther|72/100 brn
+|
+|-damage|p2a: king arther|65/100 brn|[from] brn
+|upkeep
+|turn|15
+
+|
+|move|p1a: Steelix|Earthquake|p2a: king arther
+|-supereffective|p2a: king arther
+|-crit|p2a: king arther
+|-damage|p2a: king arther|8/100 brn
+|move|p2a: king arther|Sacred Sword|p1a: Steelix
+|-supereffective|p1a: Steelix
+|-damage|p1a: Steelix|82/100
+|
+|-damage|p2a: king arther|1/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Swellow|Swellow, M|100/100
+|move|p2a: king arther|Sacred Sword|p1a: Swellow
+|-damage|p1a: Swellow|79/100
+|
+|-damage|p2a: king arther|0 fnt|[from] brn
+|upkeep
+|faint|p2a: king arther
+
+|
+|switch|p2a: Flower Power|Florges-Blue, F, shiny|100/100
+|-damage|p2a: Flower Power|88/100|[from] Stealth Rock
+|-status|p2a: Flower Power|tox
+|turn|17
+
+|
+|move|p1a: Swellow|U-turn|p2a: Flower Power
+|-resisted|p2a: Flower Power
+|-damage|p2a: Flower Power|80/100 tox
+
+|
+|switch|p1a: Steelix|Steelix-Mega, M|82/100
+|move|p2a: Flower Power|Wish|p2a: Flower Power
+|
+|-heal|p2a: Flower Power|86/100 tox|[from] item: Leftovers
+|-damage|p2a: Flower Power|80/100 tox|[from] psn
+|upkeep
+|turn|18
+
+|c|☆The Yeet King|no jooke I actually forgot this fella had heal bell
+
+|
+|move|p2a: Flower Power|Heal Bell|p2a: Flower Power
+|-activate|p2a: Flower Power|move: Heal Bell
+|-curestatus|p2a: Flower Power|tox|[msg]
+|-curestatus|p2: Bird Corleone|brn|[msg]
+|move|p1a: Steelix|Stone Edge|p2a: Flower Power
+|-damage|p2a: Flower Power|37/100
+|
+|-heal|p2a: Flower Power|87/100|[from] move: Wish|[wisher] Flower Power
+|-heal|p2a: Flower Power|93/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|c|☆The Yeet King|my defoggers dead anyways so I guess its gg anyways
+
+|
+|move|p2a: Flower Power|Moonblast|p1a: Steelix
+|-resisted|p1a: Steelix
+|-damage|p1a: Steelix|69/100
+|move|p1a: Steelix|Heavy Slam|p2a: Flower Power
+|-supereffective|p2a: Flower Power
+|-damage|p2a: Flower Power|0 fnt
+|faint|p2a: Flower Power
+|
+|upkeep
+
+|
+|switch|p2a: literally my mixta|Rotom-Heat|28/100
+|-damage|p2a: literally my mixta|3/100|[from] Stealth Rock
+|turn|20
+
+|
+|switch|p1a: Feraligatr|Feraligatr, M|100/100
+|move|p2a: literally my mixta|Will-O-Wisp|p1a: Feraligatr
+|-status|p1a: Feraligatr|brn
+|
+|-damage|p1a: Feraligatr|94/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: literally my mixta|Thunderbolt|p1a: Feraligatr
+|-supereffective|p1a: Feraligatr
+|-damage|p1a: Feraligatr|17/100 brn
+|
+|-damage|p1a: Feraligatr|10/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p1a: Feraligatr|Ice Punch|p2a: literally my mixta
+|-resisted|p2a: literally my mixta
+|-damage|p2a: literally my mixta|0 fnt
+|faint|p2a: literally my mixta
+|
+|-damage|p1a: Feraligatr|4/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Bird Corleone|Honchkrow, F|46/100
+|-damage|p2a: Bird Corleone|21/100|[from] Stealth Rock
+|turn|23
+
+|
+|switch|p1a: Steelix|Steelix-Mega, M|69/100
+|move|p2a: Bird Corleone|Night Slash|p1a: Steelix
+|-damage|p1a: Steelix|52/100
+|
+|upkeep
+|turn|24
+
+|
+|move|p2a: Bird Corleone|Night Slash|p1a: Steelix
+|-damage|p1a: Steelix|36/100
+|move|p1a: Steelix|Stone Edge|p2a: Bird Corleone|[miss]
+|-miss|p1a: Steelix|p2a: Bird Corleone
+|
+|upkeep
+|turn|25
+
+|
+|move|p2a: Bird Corleone|Night Slash|p1a: Steelix
+|-damage|p1a: Steelix|19/100
+|move|p1a: Steelix|Stone Edge|p2a: Bird Corleone
+|-supereffective|p2a: Bird Corleone
+|-damage|p2a: Bird Corleone|0 fnt
+|faint|p2a: Bird Corleone
+|
+|win|Bakrys

@@ -1,0 +1,2 @@
+root      9578  9551  0 19:58 pts/0    00:00:00 grep --color=auto banana
+root     18553 18546  0 Feb11 ?        00:00:20 python3 /root/verse-bot/bananahammerbot.py

@@ -1,0 +1,370 @@
+|init|battle
+|title|bw99 vs. PYUKUMUKU IZ GOD
+|j|☆bw99
+|j|☆PYUKUMUKU IZ GOD
+|player|p1|bw99|102
+|player|p2|PYUKUMUKU IZ GOD|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Medicham, F|item
+|poke|p1|Zygarde|item
+|poke|p1|Blacephalon|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Toxapex, F|item
+|poke|p1|Tangrowth, F|item
+|poke|p2|Zeraora|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Bisharp, F|item
+|poke|p2|Tapu Bulu|item
+|poke|p2|Latios, M|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bw99)
+|inactive|bw99 has 135 seconds left.
+|
+|start
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|turn|1
+|
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Tentacruel|Knock Off|p1a: Tangrowth
+|-damage|p1a: Tangrowth|89/100
+|-enditem|p1a: Tangrowth|Assault Vest|[from] move: Knock Off|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|2
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+|
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Tangrowth
+|-sidestart|p1: bw99|move: Toxic Spikes
+|move|p1a: Tangrowth|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|59/100
+|
+|-heal|p2a: Tentacruel|65/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|move|p1a: Gliscor|Stealth Rock|p2a: Tapu Bulu
+|-sidestart|p2: PYUKUMUKU IZ GOD|move: Stealth Rock
+|move|p2a: Tapu Bulu|Substitute|p2a: Tapu Bulu
+|-start|p2a: Tapu Bulu|Substitute
+|-damage|p2a: Tapu Bulu|76/100
+|
+|-heal|p2a: Tapu Bulu|82/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|88/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-sideend|p1: bw99|move: Toxic Spikes|[of] p1a: Toxapex
+|move|p2a: Tapu Bulu|Bulk Up|p2a: Tapu Bulu
+|-boost|p2a: Tapu Bulu|atk|1
+|-boost|p2a: Tapu Bulu|def|1
+|
+|-heal|p2a: Tapu Bulu|94/100|[from] item: Leftovers
+|-heal|p2a: Tapu Bulu|99/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|69/100
+|-heal|p2a: Tapu Bulu|100/100|[from] drain|[of] p1a: Tangrowth
+|
+|-heal|p1a: Tangrowth|75/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|move|p2a: Tapu Bulu|Bulk Up|p2a: Tapu Bulu
+|-boost|p2a: Tapu Bulu|atk|1
+|-boost|p2a: Tapu Bulu|def|1
+|move|p1a: Tangrowth|Hidden Power|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-end|p2a: Tapu Bulu|Substitute
+|
+|-heal|p1a: Tangrowth|81/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|move|p2a: Tapu Bulu|Bulk Up|p2a: Tapu Bulu
+|-boost|p2a: Tapu Bulu|atk|1
+|-boost|p2a: Tapu Bulu|def|1
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Tentacruel|Tentacruel, F|65/100
+|-damage|p2a: Tentacruel|53/100|[from] Stealth Rock
+|move|p1a: Blacephalon|Fire Blast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|13/100
+|
+|-heal|p2a: Tentacruel|19/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Blacephalon|Fire Blast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|-ability|p1a: Blacephalon|Beast Boost|boost
+|-boost|p1a: Blacephalon|spa|1
+|
+|upkeep
+|
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|-damage|p2a: Bisharp|95/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p1a: Zygarde|Zygarde|100/100
+|-ability|p1a: Zygarde|Aura Break
+|move|p2a: Bisharp|Rock Polish|p2a: Bisharp
+|-boost|p2a: Bisharp|spe|2
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Bisharp|Iron Head|p1a: Zygarde
+|-damage|p1a: Zygarde|71/100
+|move|p1a: Zygarde|Thousand Arrows|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|8/100
+|
+|-heal|p1a: Zygarde|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: Bisharp|Sucker Punch|p1a: Zygarde
+|-damage|p1a: Zygarde|43/100
+|move|p1a: Zygarde|Thousand Arrows|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Zygarde|49/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Zeraora|Zeraora|100/100
+|-damage|p2a: Zeraora|88/100|[from] Stealth Rock
+|turn|14
+
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Zeraora|Hidden Power|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100
+|-damage|p2a: Zeraora|78/100|[from] item: Life Orb
+|
+|-heal|p1a: Toxapex|96/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Blacephalon
+|-sidestart|p1: bw99|move: Stealth Rock
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|
+|switch|p2a: Latios|Latios, M|100/100
+|-damage|p2a: Latios|88/100|[from] Stealth Rock
+|move|p1a: Blacephalon|Shadow Ball|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|10/100
+|
+|upkeep
+|turn|18
+
+|
+|switch|p1a: Tangrowth|Tangrowth, F|100/100
+|-damage|p1a: Tangrowth|88/100|[from] Stealth Rock
+|detailschange|p2a: Latios|Latios-Mega, M
+|-mega|p2a: Latios|Latios|Latiosite
+|move|p2a: Latios|Draco Meteor|p1a: Tangrowth
+|-damage|p1a: Tangrowth|21/100
+|-unboost|p2a: Latios|spa|2
+|
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Latios|Roost|p2a: Latios
+|-heal|p2a: Latios|60/100
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+
+|
+|switch|p2a: Skarmory|Skarmory, M|99/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|move|p1a: Toxapex|Toxic Spikes|p2a: Skarmory
+|-sidestart|p2: PYUKUMUKU IZ GOD|move: Toxic Spikes
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|99/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Blacephalon|Blacephalon|100/100
+|-damage|p1a: Blacephalon|76/100|[from] Stealth Rock
+|move|p2a: Skarmory|Spikes|p1a: Blacephalon
+|-sidestart|p1: bw99|Spikes
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|upkeep
+|turn|22
+
+|
+|move|p1a: Blacephalon|Shadow Ball|p2a: Skarmory
+|-damage|p2a: Skarmory|35/100
+|move|p2a: Skarmory|Whirlwind|p1a: Blacephalon
+|drag|p1a: Medicham|Medicham, F|100/100
+|-damage|p1a: Medicham|94/100|[from] Stealth Rock
+|-damage|p1a: Medicham|82/100|[from] Spikes
+|
+|-heal|p2a: Skarmory|41/100|[from] item: Leftovers
+|upkeep
+|turn|23
+
+|
+|detailschange|p1a: Medicham|Medicham-Mega, F
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|High Jump Kick|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+
+|
+|switch|p2a: Latios|Latios-Mega, M|60/100
+|-damage|p2a: Latios|48/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p1a: Medicham|Bullet Punch|p2a: Latios
+|-damage|p2a: Latios|33/100
+|move|p2a: Latios|Roost|p2a: Latios
+|-heal|p2a: Latios|83/100
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Medicham|Ice Punch|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+
+|
+|switch|p2a: Zeraora|Zeraora|78/100
+|-status|p2a: Zeraora|psn
+|-damage|p2a: Zeraora|66/100 psn|[from] Stealth Rock
+|turn|26
+
+|c|☆bw99|why is it so slow
+
+|inactive|bw99 has 135 seconds left.
+
+|
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p2a: Zeraora|Thunderbolt|p1a: Gliscor
+|-immune|p1a: Gliscor|[msg]
+|
+|-damage|p2a: Zeraora|54/100 psn|[from] psn
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+
+|inactive|PYUKUMUKU IZ GOD has 135 seconds left.
+
+|inactive|PYUKUMUKU IZ GOD has 120 seconds left.
+
+|
+|move|p2a: Zeraora|Hidden Power|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|3/100 tox
+|-damage|p2a: Zeraora|44/100 psn|[from] item: Life Orb
+|move|p1a: Gliscor|Earthquake|p2a: Zeraora
+|-supereffective|p2a: Zeraora
+|-damage|p2a: Zeraora|0 fnt
+|faint|p2a: Zeraora
+|
+|-heal|p1a: Gliscor|16/100 tox|[from] ability: Poison Heal
+|upkeep
+
+|
+|switch|p2a: Tapu Bulu|Tapu Bulu|100/100
+|-damage|p2a: Tapu Bulu|88/100|[from] Stealth Rock
+|-status|p2a: Tapu Bulu|psn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|28
+
+|
+|move|p1a: Gliscor|Knock Off|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|80/100 psn
+|-enditem|p2a: Tapu Bulu|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Tapu Bulu|Horn Leech|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-heal|p2a: Tapu Bulu|87/100 psn|[from] drain|[of] p1a: Gliscor
+|faint|p1a: Gliscor
+|
+|-heal|p2a: Tapu Bulu|94/100 psn|[from] Grassy Terrain
+|-damage|p2a: Tapu Bulu|81/100 psn|[from] psn
+|upkeep
+
+|-message|PYUKUMUKU IZ GOD forfeited.
+
+|
+|win|bw99

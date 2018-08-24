@@ -1,0 +1,56 @@
+|init|battle
+|title|The Yeet King vs. JwPandas
+|j|‽The Yeet King
+|j|☆JwPandas
+|player|p1|The Yeet King|156
+|player|p2|JwPandas|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zygarde|item
+|poke|p1|Hoopa-Unbound|item
+|poke|p1|Toxapex, M|item
+|poke|p1|Magearna|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Kartana|item
+|poke|p2|Tapu Koko|item
+|poke|p2|Hawlucha, M|item
+|poke|p2|Lopunny, M|item
+|poke|p2|Greninja, M|item
+|poke|p2|Kartana|item
+|poke|p2|Muk-Alola, M|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Tapu Koko|Tapu Koko, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tapu Koko|atk|1
+|turn|1
+|
+|move|p2a: Tapu Koko|Thunder|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|move|p1a: Landorus|Knock Off|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|77/100
+|-enditem|p2a: Tapu Koko|Life Orb|[from] move: Knock Off|[of] p1a: Landorus
+|
+|upkeep
+|turn|2
+
+|-message|JwPandas forfeited.
+
+|
+|win|The Yeet King

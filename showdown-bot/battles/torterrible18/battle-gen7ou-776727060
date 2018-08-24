@@ -1,0 +1,515 @@
+|init|battle
+|title|Red de Kanto 01 vs. Torterrible18
+|j|☆Red de Kanto 01
+|j|☆Torterrible18
+|player|p1|Red de Kanto 01|162
+|player|p2|Torterrible18|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Snorlax, M|item
+|poke|p1|Pikachu, F|item
+|poke|p1|Lapras, M|item
+|poke|p1|Blastoise, M|item
+|poke|p1|Venusaur, M|item
+|poke|p2|Pyukumuku, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Sableye, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Toxapex, M|item
+|teampreview
+|c|☆Torterrible18|what is this gen 1
+|
+|start
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|switch|p2a: Reverse|Sableye, F|100/100
+|turn|1
+|
+|detailschange|p2a: Reverse|Sableye-Mega, F
+|-mega|p2a: Reverse|Sableye|Sablenite
+|move|p1a: Venusaur|Sunny Day|p1a: Venusaur
+|-weather|SunnyDay
+|move|p2a: Reverse|Calm Mind|p2a: Reverse
+|-boost|p2a: Reverse|spa|1
+|-boost|p2a: Reverse|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Venusaur|Sludge Bomb|p2a: Reverse
+|-resisted|p2a: Reverse
+|-damage|p2a: Reverse|88/100
+|-status|p2a: Reverse|psn
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Reverse|Calm Mind|p2a: Reverse
+|-boost|p2a: Reverse|spa|1
+|-boost|p2a: Reverse|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Reverse|75/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|move|p2a: Reverse|Calm Mind|p2a: Reverse
+|-boost|p2a: Reverse|spa|1
+|-boost|p2a: Reverse|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Reverse|63/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|move|p1a: Snorlax|Substitute|p1a: Snorlax
+|-start|p1a: Snorlax|Substitute
+|-damage|p1a: Snorlax|76/100
+|move|p2a: Reverse|Will-O-Wisp|p1a: Snorlax|[miss]
+|-miss|p2a: Reverse|p1a: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Snorlax|82/100|[from] item: Leftovers
+|-damage|p2a: Reverse|51/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|move|p1a: Snorlax|Earthquake|p2a: Reverse
+|-damage|p2a: Reverse|23/100 psn
+|move|p2a: Reverse|Recover|p2a: Reverse
+|-heal|p2a: Reverse|73/100 psn
+|
+|-weather|none
+|-heal|p1a: Snorlax|88/100|[from] item: Leftovers
+|-damage|p2a: Reverse|61/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|move|p1a: Snorlax|Earthquake|p2a: Reverse
+|-damage|p2a: Reverse|32/100 psn
+|move|p2a: Reverse|Dark Pulse|p1a: Snorlax
+|-end|p1a: Snorlax|Substitute
+|
+|-heal|p1a: Snorlax|94/100|[from] item: Leftovers
+|-damage|p2a: Reverse|20/100 psn|[from] psn
+|upkeep
+|turn|7
+
+|
+|switch|p2a: birdo|Skarmory, F|100/100
+|move|p1a: Snorlax|Substitute|p1a: Snorlax
+|-start|p1a: Snorlax|Substitute
+|-damage|p1a: Snorlax|69/100
+|
+|-heal|p1a: Snorlax|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Snorlax|Protect|p1a: Snorlax
+|-singleturn|p1a: Snorlax|Protect
+|move|p2a: birdo|Whirlwind|p1a: Snorlax
+|drag|p1a: Lapras|Lapras, M|100/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Thiq|Chansey, F|100/100
+|move|p1a: Lapras|Thunderbolt|p2a: Thiq
+|-damage|p2a: Thiq|92/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p1a: Lapras|Freeze-Dry|p2a: Thiq
+|-damage|p2a: Thiq|82/100
+|move|p2a: Thiq|Stealth Rock|p1a: Lapras
+|-sidestart|p1: Red de Kanto 01|move: Stealth Rock
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-damage|p1a: Blastoise|88/100|[from] Stealth Rock
+|move|p2a: Thiq|Seismic Toss|p1a: Blastoise
+|-damage|p1a: Blastoise|60/100
+|
+|-heal|p1a: Blastoise|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|
+|move|p1a: Blastoise|Rapid Spin|p2a: Thiq
+|-damage|p2a: Thiq|79/100
+|-sideend|p1: Red de Kanto 01|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|move|p2a: Thiq|Heal Bell|p2a: Thiq
+|-activate|p2a: Thiq|move: Heal Bell
+|-curestatus|p2: Reverse|psn|[msg]
+|
+|-heal|p1a: Blastoise|73/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Blastoise|Scald|p2a: Thiq
+|-damage|p2a: Thiq|68/100
+|-status|p2a: Thiq|brn
+|move|p2a: Thiq|Stealth Rock|p1a: Blastoise
+|-sidestart|p1: Red de Kanto 01|move: Stealth Rock
+|
+|-heal|p1a: Blastoise|79/100|[from] item: Leftovers
+|-damage|p2a: Thiq|62/100 brn|[from] brn
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Reverse|Sableye-Mega, F|20/100
+|move|p1a: Blastoise|Rapid Spin|p2a: Reverse
+|-immune|p2a: Reverse|[msg]
+|
+|-heal|p1a: Blastoise|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Nightmare|Pyukumuku, M|100/100
+|move|p1a: Blastoise|Scald|p2a: Nightmare
+|-resisted|p2a: Nightmare
+|-damage|p2a: Nightmare|89/100
+|-status|p2a: Nightmare|brn
+|
+|-heal|p1a: Blastoise|91/100|[from] item: Leftovers
+|-heal|p2a: Nightmare|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Nightmare|89/100 brn|[from] brn
+|upkeep
+|turn|16
+
+|
+|move|p1a: Blastoise|Rapid Spin|p2a: Nightmare
+|-damage|p2a: Nightmare|85/100 brn
+|-sideend|p1: Red de Kanto 01|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|move|p2a: Nightmare|Block|p1a: Blastoise
+|-activate|p1a: Blastoise|trapped
+|
+|-heal|p1a: Blastoise|97/100|[from] item: Leftovers
+|-heal|p2a: Nightmare|91/100 brn|[from] item: Leftovers
+|-damage|p2a: Nightmare|85/100 brn|[from] brn
+|upkeep
+|turn|17
+
+|
+|move|p1a: Blastoise|Scald|p2a: Nightmare
+|-resisted|p2a: Nightmare
+|-damage|p2a: Nightmare|73/100 brn
+|move|p2a: Nightmare|Toxic|p1a: Blastoise
+|-status|p1a: Blastoise|tox
+|
+|-heal|p1a: Blastoise|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Nightmare|79/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|94/100 tox|[from] psn
+|-damage|p2a: Nightmare|73/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p1a: Blastoise|Ice Beam|p2a: Nightmare
+|-resisted|p2a: Nightmare
+|-damage|p2a: Nightmare|65/100 brn
+|move|p2a: Nightmare|Soak|p1a: Blastoise
+|-start|p1a: Blastoise|typechange|Water
+|
+|-heal|p1a: Blastoise|100/100 tox|[from] item: Leftovers
+|-heal|p2a: Nightmare|71/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|88/100 tox|[from] psn
+|-damage|p2a: Nightmare|65/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p1a: Blastoise|Ice Beam|p2a: Nightmare
+|-resisted|p2a: Nightmare
+|-damage|p2a: Nightmare|57/100 brn
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|100/100 brn
+|
+|-heal|p1a: Blastoise|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Blastoise|76/100 tox|[from] psn
+|-damage|p2a: Nightmare|94/100 brn|[from] brn
+|upkeep
+|turn|20
+
+|
+|move|p1a: Blastoise|Rapid Spin|p2a: Nightmare
+|-damage|p2a: Nightmare|91/100 brn
+|move|p2a: Nightmare|Soak|p1a: Blastoise
+|-start|p1a: Blastoise|typechange|Water
+|
+|-heal|p1a: Blastoise|82/100 tox|[from] item: Leftovers
+|-heal|p2a: Nightmare|97/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|58/100 tox|[from] psn
+|-damage|p2a: Nightmare|91/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|c|☆Torterrible18|say goodbye to your spinny boi
+
+|
+|move|p1a: Blastoise|Ice Beam|p2a: Nightmare
+|-resisted|p2a: Nightmare
+|-damage|p2a: Nightmare|83/100 brn
+|move|p2a: Nightmare|Soak|p1a: Blastoise
+|-start|p1a: Blastoise|typechange|Water
+|
+|-heal|p1a: Blastoise|64/100 tox|[from] item: Leftovers
+|-heal|p2a: Nightmare|89/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|34/100 tox|[from] psn
+|-damage|p2a: Nightmare|83/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|100/100 brn
+|move|p1a: Blastoise|Avalanche|p2a: Nightmare
+|-resisted|p2a: Nightmare
+|-damage|p2a: Nightmare|95/100 brn
+|
+|-heal|p1a: Blastoise|40/100 tox|[from] item: Leftovers
+|-heal|p2a: Nightmare|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|3/100 tox|[from] psn
+|-damage|p2a: Nightmare|94/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|100/100 brn
+|move|p1a: Blastoise|Avalanche|p2a: Nightmare
+|-resisted|p2a: Nightmare
+|-damage|p2a: Nightmare|96/100 brn
+|
+|-heal|p1a: Blastoise|9/100 tox|[from] item: Leftovers
+|-heal|p2a: Nightmare|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Blastoise|0 fnt|[from] psn
+|-damage|p2a: Nightmare|94/100 brn|[from] brn
+|upkeep
+|faint|p1a: Blastoise
+
+|
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|24
+
+|
+|switch|p2a: Thiq|Chansey, F|62/100
+|detailschange|p1a: Charizard|Charizard-Mega-X, M
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|
+|upkeep
+|turn|25
+
+|
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Thiq|Heal Bell|p2a: Thiq
+|-activate|p2a: Thiq|move: Heal Bell
+|-curestatus|p2: Nightmare|brn|[msg]
+|
+|upkeep
+|turn|26
+
+|
+|switch|p2a: Reverse|Sableye-Mega, F|20/100
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|
+|upkeep
+|turn|27
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Reverse
+|-damage|p2a: Reverse|0 fnt
+|faint|p2a: Reverse
+|
+|upkeep
+
+|
+|switch|p2a: Nightmare|Pyukumuku, M|94/100
+|turn|28
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Nightmare
+|-damage|p2a: Nightmare|46/100
+|move|p2a: Nightmare|Soak|p1a: Charizard
+|-start|p1a: Charizard|typechange|Water
+|
+|-heal|p2a: Nightmare|52/100|[from] item: Leftovers
+|upkeep
+|turn|29
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Nightmare
+|-damage|p2a: Nightmare|22/100
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|72/100
+|
+|-heal|p2a: Nightmare|78/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Nightmare|Block|p1a: Charizard
+|-activate|p1a: Charizard|trapped
+|
+|-heal|p2a: Nightmare|84/100|[from] item: Leftovers
+|upkeep
+|turn|31
+
+|
+|move|p1a: Charizard|Earthquake|p2a: Nightmare
+|-damage|p2a: Nightmare|56/100
+|move|p2a: Nightmare|Toxic|p1a: Charizard
+|-status|p1a: Charizard|tox
+|
+|-heal|p2a: Nightmare|62/100|[from] item: Leftovers
+|-damage|p1a: Charizard|94/100 tox|[from] psn
+|upkeep
+|turn|32
+
+|c|☆Torterrible18|You are trapped in here with me I am not trapped in here with you
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Nightmare
+|-damage|p2a: Nightmare|32/100
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|82/100
+|
+|-heal|p2a: Nightmare|88/100|[from] item: Leftovers
+|-damage|p1a: Charizard|82/100 tox|[from] psn
+|upkeep
+|turn|33
+
+|
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Nightmare|Soak|p1a: Charizard
+|-start|p1a: Charizard|typechange|Water
+|
+|-heal|p2a: Nightmare|94/100|[from] item: Leftovers
+|-damage|p1a: Charizard|64/100 tox|[from] psn
+|upkeep
+|turn|34
+
+|c|☆Torterrible18|WHat is suffering like
+
+|
+|move|p1a: Charizard|Dragon Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|1
+|-boost|p1a: Charizard|spe|1
+|move|p2a: Nightmare|Soak|p1a: Charizard
+|-start|p1a: Charizard|typechange|Water
+|
+|-heal|p2a: Nightmare|99/100|[from] item: Leftovers
+|-damage|p1a: Charizard|40/100 tox|[from] psn
+|upkeep
+|turn|35
+
+|
+|move|p1a: Charizard|Dragon Claw|p2a: Nightmare
+|-damage|p2a: Nightmare|69/100
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|100/100
+|
+|-damage|p1a: Charizard|10/100 tox|[from] psn
+|upkeep
+|turn|36
+
+|c|☆Torterrible18|unaware bro
+
+|
+|move|p1a: Charizard|Earthquake|p2a: Nightmare
+|-damage|p2a: Nightmare|71/100
+|move|p2a: Nightmare|Recover|p2a: Nightmare
+|-heal|p2a: Nightmare|100/100
+|
+|-damage|p1a: Charizard|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Charizard
+
+|
+|switch|p1a: Venusaur|Venusaur, M|91/100
+|turn|37
+
+|
+|switch|p2a: Thiq|Chansey, F|62/100
+|move|p1a: Venusaur|Sunny Day|p1a: Venusaur
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|38
+
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Thiq
+|-damage|p2a: Thiq|48/100
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Thiq
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Thiq|Soft-Boiled|p2a: Thiq
+|-heal|p2a: Thiq|98/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|39
+
+|
+|switch|p2a: sexy pexy|Toxapex, M|100/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: sexy pexy
+|-resisted|p2a: sexy pexy
+|-damage|p2a: sexy pexy|79/100
+|-damage|p1a: Venusaur|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: sexy pexy|85/100|[from] item: Black Sludge
+|upkeep
+|turn|40
+
+|
+|move|p1a: Venusaur|Hidden Power|p2a: sexy pexy
+|-resisted|p2a: sexy pexy
+|-damage|p2a: sexy pexy|69/100
+|-damage|p1a: Venusaur|71/100|[from] item: Life Orb
+|move|p2a: sexy pexy|Toxic Spikes|p1a: Venusaur
+|-sidestart|p1: Red de Kanto 01|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: sexy pexy|75/100|[from] item: Black Sludge
+|upkeep
+|turn|41
+
+|-message|Red de Kanto 01 forfeited.
+
+|
+|win|Torterrible18

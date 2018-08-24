@@ -1,0 +1,376 @@
+|init|battle
+|title|Gulogu西 vs. Old_Man_Waffles
+|j|☆Gulogu西
+|j|☆Old_Man_Waffles
+|player|p1|Gulogu西|99
+|player|p2|Old_Man_Waffles|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Gorebyss, M|item
+|poke|p1|Raticate-Alola, F|item
+|poke|p1|Carracosta, M|item
+|poke|p1|Gourgeist-*, F|item
+|poke|p1|Gurdurr, F|item
+|poke|p1|Lurantis, M|item
+|poke|p2|Spiritomb, M|item
+|poke|p2|Aurorus, F|item
+|poke|p2|Regice|item
+|poke|p2|Torterra, F|item
+|poke|p2|Komala, F|item
+|poke|p2|Mesprit|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gulogu西)
+|inactive|Gulogu西 has 135 seconds left.
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|start
+|switch|p1a: Carracosta|Carracosta, M|100/100
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|turn|1
+
+|
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Carracosta
+|-status|p1a: Carracosta|brn
+|move|p1a: Carracosta|Stealth Rock|p2a: Spiritomb
+|-sidestart|p2: Old_Man_Waffles|move: Stealth Rock
+|
+|-damage|p1a: Carracosta|95/100 brn|[from] brn
+|upkeep
+|turn|2
+
+|
+|move|p2a: Spiritomb|Foul Play|p1a: Carracosta
+|-damage|p1a: Carracosta|74/100 brn
+|move|p1a: Carracosta|Knock Off|p2a: Spiritomb
+|-damage|p2a: Spiritomb|89/100
+|-enditem|p2a: Spiritomb|Mago Berry|[from] move: Knock Off|[of] p1a: Carracosta
+|
+|-heal|p1a: Carracosta|80/100 brn|[from] item: Leftovers
+|-damage|p1a: Carracosta|74/100 brn|[from] brn
+|upkeep
+|turn|3
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|move|p2a: Spiritomb|Pursuit|p1a: Carracosta
+|-damage|p1a: Carracosta|64/100 brn
+|move|p1a: Carracosta|Scald|p2a: Spiritomb
+|-damage|p2a: Spiritomb|64/100
+|-status|p2a: Spiritomb|brn
+|
+|-heal|p1a: Carracosta|70/100 brn|[from] item: Leftovers
+|-damage|p2a: Spiritomb|58/100 brn|[from] brn
+|-damage|p1a: Carracosta|64/100 brn|[from] brn
+|upkeep
+|turn|4
+
+|
+|move|p2a: Spiritomb|Foul Play|p1a: Carracosta
+|-damage|p1a: Carracosta|53/100 brn
+|move|p1a: Carracosta|Scald|p2a: Spiritomb
+|-damage|p2a: Spiritomb|34/100 brn
+|
+|-heal|p1a: Carracosta|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Spiritomb|28/100 brn|[from] brn
+|-damage|p1a: Carracosta|53/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|move|p2a: Spiritomb|Foul Play|p1a: Carracosta
+|-damage|p1a: Carracosta|44/100 brn
+|move|p1a: Carracosta|Scald|p2a: Spiritomb
+|-damage|p2a: Spiritomb|2/100 brn
+|
+|-heal|p1a: Carracosta|50/100 brn|[from] item: Leftovers
+|-damage|p2a: Spiritomb|0 fnt|[from] brn
+|-damage|p1a: Carracosta|44/100 brn|[from] brn
+|upkeep
+|faint|p2a: Spiritomb
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Komala|Komala, F|100/100
+|-damage|p2a: Komala|88/100|[from] Stealth Rock
+|-ability|p2a: Komala|Comatose
+|turn|6
+
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, F|100/100
+|-item|p2a: Komala|Assault Vest|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Komala|Earthquake|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|90/100
+|
+|upkeep
+|turn|7
+
+|
+|move|p2a: Komala|U-turn|p1a: Gourgeist
+|-damage|p1a: Gourgeist|77/100
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Regice|Regice|100/100
+|-damage|p2a: Regice|76/100|[from] Stealth Rock
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Regice
+|-status|p2a: Regice|brn
+|
+|-damage|p2a: Regice|70/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Carracosta|Carracosta, M|44/100 brn
+|move|p2a: Regice|Rock Polish|p2a: Regice
+|-boost|p2a: Regice|spe|2
+|
+|-heal|p1a: Carracosta|50/100 brn|[from] item: Leftovers
+|-damage|p2a: Regice|64/100 brn|[from] brn
+|-damage|p1a: Carracosta|44/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|-zpower|p2a: Regice
+|move|p2a: Regice|All-Out Pummeling|p1a: Carracosta|[zeffect]
+|-supereffective|p1a: Carracosta
+|-damage|p1a: Carracosta|0 fnt
+|faint|p1a: Carracosta
+|
+|-damage|p2a: Regice|58/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Gurdurr|Gurdurr, F|100/100
+|turn|10
+
+|
+|move|p2a: Regice|Ice Beam|p1a: Gurdurr
+|-damage|p1a: Gurdurr|57/100
+|move|p1a: Gurdurr|Drain Punch|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|-heal|p1a: Gurdurr|80/100|[from] drain|[of] p2a: Regice
+|faint|p2a: Regice
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Mesprit|Mesprit|100/100
+|-damage|p2a: Mesprit|88/100|[from] Stealth Rock
+|turn|11
+
+|
+|switch|p1a: Raticate|Raticate-Alola, F|100/100
+|move|p2a: Mesprit|Signal Beam|p1a: Raticate
+|-supereffective|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|upkeep
+
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, F|77/100
+|-item|p2a: Mesprit|Choice Specs|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|12
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Aurorus|Aurorus, F|100/100
+|-damage|p2a: Aurorus|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|move|p1a: Gourgeist|Leech Seed|p2a: Aurorus|[miss]
+|-miss|p1a: Gourgeist|p2a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gourgeist|71/100|[from] Hail
+|upkeep
+|turn|13
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Gurdurr|Gurdurr, F|80/100
+|move|p2a: Aurorus|Stealth Rock|p1a: Gurdurr
+|-sidestart|p1: Gulogu西|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gurdurr|74/100|[from] Hail
+|upkeep
+|turn|14
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Torterra|Torterra, F|100/100
+|-damage|p2a: Torterra|94/100|[from] Stealth Rock
+|move|p1a: Gurdurr|Knock Off|p2a: Torterra
+|-damage|p2a: Torterra|66/100
+|-enditem|p2a: Torterra|Lum Berry|[from] move: Knock Off|[of] p1a: Gurdurr
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Torterra|60/100|[from] Hail
+|-damage|p1a: Gurdurr|68/100|[from] Hail
+|upkeep
+|turn|15
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, F|71/100
+|-damage|p1a: Gourgeist|58/100|[from] Stealth Rock
+|move|p2a: Torterra|Wood Hammer|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|43/100
+|-damage|p2a: Torterra|55/100|[from] Recoil
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Torterra|49/100|[from] Hail
+|-damage|p1a: Gourgeist|36/100|[from] Hail
+|upkeep
+|turn|16
+
+|
+|move|p2a: Torterra|Stone Edge|p1a: Gourgeist
+|-damage|p1a: Gourgeist|19/100
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|44/100
+|
+|-weather|none
+|upkeep
+|turn|17
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|move|p2a: Torterra|Stone Edge|p1a: Gourgeist
+|-damage|p1a: Gourgeist|27/100
+|move|p1a: Gourgeist|Synthesis|p1a: Gourgeist
+|-heal|p1a: Gourgeist|77/100
+|
+|upkeep
+|turn|18
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|switch|p2a: Aurorus|Aurorus, F|76/100
+|-damage|p2a: Aurorus|51/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Aurorus
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Aurorus|[miss]
+|-miss|p1a: Gourgeist|p2a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gourgeist|71/100|[from] Hail
+|upkeep
+|turn|19
+
+|
+|switch|p1a: Lurantis|Lurantis, M|100/100
+|-damage|p1a: Lurantis|88/100|[from] Stealth Rock
+|move|p2a: Aurorus|Freeze-Dry|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|16/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Lurantis|10/100|[from] Hail
+|-heal|p1a: Lurantis|16/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|inactive|Old_Man_Waffles has 105 seconds left.
+
+|
+|move|p2a: Aurorus|Blizzard|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Gurdurr|Gurdurr, F|68/100
+|-damage|p1a: Gurdurr|61/100|[from] Stealth Rock
+|turn|21
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|move|p2a: Aurorus|Blizzard|p1a: Gurdurr
+|-damage|p1a: Gurdurr|15/100
+|move|p1a: Gurdurr|Drain Punch|p2a: Aurorus
+|-supereffective|p2a: Aurorus
+|-damage|p2a: Aurorus|0 fnt
+|-heal|p1a: Gurdurr|41/100|[from] drain|[of] p2a: Aurorus
+|faint|p2a: Aurorus
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Gurdurr|35/100|[from] Hail
+|upkeep
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|switch|p2a: Mesprit|Mesprit|88/100
+|-damage|p2a: Mesprit|76/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Gurdurr|Mach Punch|p2a: Mesprit
+|-resisted|p2a: Mesprit
+|-damage|p2a: Mesprit|67/100
+|move|p2a: Mesprit|Psychic|p1a: Gurdurr
+|-supereffective|p1a: Gurdurr
+|-damage|p1a: Gurdurr|0 fnt
+|faint|p1a: Gurdurr
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p1a: Gorebyss|Gorebyss, M|100/100
+|-damage|p1a: Gorebyss|88/100|[from] Stealth Rock
+|turn|23
+
+|
+|move|p2a: Mesprit|Psychic|p1a: Gorebyss
+|-damage|p1a: Gorebyss|0 fnt
+|faint|p1a: Gorebyss
+|
+|upkeep
+
+|
+|switch|p1a: Gourgeist|Gourgeist-Super, F|71/100
+|-damage|p1a: Gourgeist|59/100|[from] Stealth Rock
+|-item|p2a: Mesprit|Choice Specs|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|turn|24
+
+|
+|move|p2a: Mesprit|Psychic|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|win|Old_Man_Waffles

@@ -1,0 +1,246 @@
+|init|battle
+|title|thecolortechnic vs. Old_Man_Waffles
+|j|☆thecolortechnic
+|j|☆Old_Man_Waffles
+|player|p1|thecolortechnic|1
+|player|p2|Old_Man_Waffles|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Terrakion|item
+|poke|p1|Pidgeot, M|item
+|poke|p1|Azumarill, F|item
+|poke|p1|Darmanitan, M|item
+|poke|p1|Yanmega, M|item
+|poke|p1|Krookodile, F|item
+|poke|p2|Salazzle, F|item
+|poke|p2|Manectric, M|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Azelf|item
+|poke|p2|Toxicroak, F|item
+|poke|p2|Chesnaught, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Old_Man_Waffles)
+|
+|start
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|switch|p2a: Manectric|Manectric, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Manectric|atk|1
+|turn|1
+|inactive|Old_Man_Waffles has 135 seconds left.
+|inactive|Old_Man_Waffles has 120 seconds left.
+|inactive|Old_Man_Waffles has 105 seconds left.
+|
+|detailschange|p2a: Manectric|Manectric-Mega, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|move|p2a: Manectric|Hidden Power|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|38/100
+|move|p1a: Krookodile|Stealth Rock|p2a: Manectric
+|-sidestart|p2: Old_Man_Waffles|move: Stealth Rock
+|
+|upkeep
+|turn|2
+
+|
+|switch|p1a: Darmanitan|Darmanitan, M|100/100
+|move|p2a: Manectric|Hidden Power|p1a: Darmanitan
+|-resisted|p1a: Darmanitan
+|-damage|p1a: Darmanitan|83/100
+|
+|upkeep
+|turn|3
+
+|
+|move|p1a: Darmanitan|Flare Blitz|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|-damage|p1a: Darmanitan|57/100|[from] Recoil
+|faint|p2a: Manectric
+|
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|4
+
+|
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|move|p2a: Hydreigon|Roost|p2a: Hydreigon
+|-heal|p2a: Hydreigon|100/100
+|
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|-damage|p2a: Toxicroak|94/100|[from] Stealth Rock
+|move|p1a: Azumarill|Belly Drum|p1a: Azumarill
+|-damage|p1a: Azumarill|50/100
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Azumarill|Sitrus Berry|[eat]
+|-heal|p1a: Azumarill|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Toxicroak|Sludge Wave|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|-damage|p2a: Toxicroak|85/100|[from] item: Life Orb
+|faint|p1a: Azumarill
+|
+|upkeep
+
+|
+|switch|p1a: Yanmega|Yanmega, M|100/100
+|turn|7
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Toxicroak
+|-supereffective|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|upkeep
+
+|
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-damage|p2a: Salazzle|76/100|[from] Stealth Rock
+|turn|8
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Krookodile|Krookodile, F|38/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Salazzle|atk|1
+|move|p2a: Salazzle|Fire Blast|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|upkeep
+
+|
+|switch|p1a: Darmanitan|Darmanitan, M|57/100
+|turn|9
+
+|
+|move|p1a: Darmanitan|Rock Slide|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|upkeep
+
+|
+|switch|p2a: Chesnaught|Chesnaught, M|100/100
+|-damage|p2a: Chesnaught|94/100|[from] Stealth Rock
+|turn|10
+
+|
+|switch|p1a: Yanmega|Yanmega, M|100/100
+|move|p2a: Chesnaught|Spikes|p1a: Yanmega
+|-sidestart|p1: thecolortechnic|Spikes
+|
+|-heal|p2a: Chesnaught|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|move|p1a: Yanmega|Air Slash|p2a: Hydreigon
+|-damage|p2a: Hydreigon|26/100
+|
+|upkeep
+|turn|12
+
+|
+|move|p2a: Hydreigon|Defog|p1a: Yanmega
+|-unboost|p1a: Yanmega|evasion|1
+|-sideend|p1: thecolortechnic|Spikes|[from] move: Defog|[of] p1a: Yanmega
+|-sideend|p2: Old_Man_Waffles|Stealth Rock|[from] move: Defog|[of] p2a: Hydreigon
+|move|p1a: Yanmega|Air Slash|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+
+|
+|switch|p2a: Azelf|Azelf|100/100
+|turn|13
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Terrakion|Terrakion|100/100
+|move|p2a: Azelf|Knock Off|p1a: Terrakion
+|-resisted|p1a: Terrakion
+|-damage|p1a: Terrakion|83/100
+|-ability|p1a: Terrakion|Justified|boost
+|-boost|p1a: Terrakion|atk|1
+|-enditem|p1a: Terrakion|Life Orb|[from] move: Knock Off|[of] p2a: Azelf
+|
+|upkeep
+|turn|14
+
+|
+|switch|p2a: Chesnaught|Chesnaught, M|100/100
+|move|p1a: Terrakion|Swords Dance|p1a: Terrakion
+|-boost|p1a: Terrakion|atk|2
+|
+|upkeep
+|turn|15
+
+|
+|move|p1a: Terrakion|Close Combat|p2a: Chesnaught
+|-damage|p2a: Chesnaught|9/100
+|-unboost|p1a: Terrakion|def|1
+|-unboost|p1a: Terrakion|spd|1
+|move|p2a: Chesnaught|Drain Punch|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|-heal|p2a: Chesnaught|44/100|[from] drain|[of] p1a: Terrakion
+|faint|p1a: Terrakion
+|
+|-heal|p2a: Chesnaught|50/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Yanmega|Yanmega, M|100/100
+|turn|16
+
+|
+|move|p1a: Yanmega|Air Slash|p2a: Chesnaught
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|0 fnt
+|faint|p2a: Chesnaught
+|
+|upkeep
+
+|
+|switch|p2a: Azelf|Azelf|100/100
+|turn|17
+
+|
+|switch|p1a: Darmanitan|Darmanitan, M|57/100
+|move|p2a: Azelf|Explosion|p1a: Darmanitan
+|-damage|p1a: Darmanitan|0 fnt
+|faint|p2a: Azelf
+|faint|p1a: Darmanitan
+|
+|win|thecolortechnic

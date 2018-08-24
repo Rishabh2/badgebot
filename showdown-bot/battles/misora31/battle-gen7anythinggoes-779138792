@@ -1,0 +1,758 @@
+|init|battle
+|title|stowy24 vs. Misora31
+|j|☆stowy24
+|j|☆Misora31
+|player|p1|stowy24|66
+|player|p2|Misora31|96
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Necrozma|item
+|poke|p1|Houndoom, F|item
+|poke|p1|Donphan, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Glaceon, M|item
+|poke|p1|Eelektross, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Froslass, F|item
+|poke|p2|Registeel|item
+|poke|p2|Whimsicott, F|item
+|poke|p2|Milotic, M|item
+|poke|p2|Altaria, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|c|☆Misora31|Ohhh hey
+|c|☆stowy24|hi
+
+|j| The Yeet King
+
+|l| The Yeet King
+
+|c|☆Misora31|Definetely wasn't the team I expected
+
+|j| The Yeet King
+
+|j| Aqua Admin Doggo
+
+|c| The Yeet King|good luck to both of ya
+
+|c| The Yeet King|i spot a glaceon over there
+
+|c|☆Misora31|Yep
+
+|c|☆stowy24|I don't know what I was expecting from you tbh
+
+|j| MisterMan65
+
+|c|☆stowy24|I just built a team I liked
+
+|j| ToaEmpoleon
+
+|c| ToaEmpoleon|go underdog!
+
+|c| The Yeet King|whos the true underdog here?
+
+|c|☆Misora31|I think we're both pretty even here
+
+|c| Aqua Admin Doggo|May the odds be ever in your favour
+
+|c|☆Misora31|Stowy and I are about the same skill level
+
+|c|☆stowy24|I've never played Misoup tbh
+
+|c| ToaEmpoleon|i'll let them decide who the underdog is :P
+
+|c|☆stowy24|guess we'll find out
+
+|c| Aqua Admin Doggo|Doggo is
+
+|c|☆Misora31|Doggo bark
+
+|
+|start
+|switch|p1a: Chamillionaire|Donphan, M, shiny|100/100
+|switch|p2a: Yukki|Froslass, F, shiny|100/100
+|turn|1
+
+|c| Aqua Admin Doggo|Because I am a Doggo
+
+|
+|switch|p1a: DING DONG|Bronzong|100/100
+|move|p2a: Yukki|Taunt|p1a: DING DONG
+|-start|p1a: DING DONG|move: Taunt
+|
+|upkeep
+|turn|2
+
+|c| Aqua Admin Doggo|I saw that coming
+
+|
+|switch|p2a: The Great Wall Of|Registeel|100/100
+|switch|p1a: elec snek|Eelektross, F, shiny|100/100
+|
+|upkeep
+|turn|3
+
+|c| The Yeet King|the great wall of WHAT!?
+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Misora31)
+
+|inactive|stowy24 has 285 seconds left.
+
+|c|☆Misora31|China
+
+|j| Torterrible18
+
+|c|☆stowy24|oi
+
+|inactiveoff|Battle timer is now OFF.
+
+|c|☆Misora31|:3
+
+|c|☆stowy24|ty
+
+|c|☆Misora31|China is here
+
+|c|☆stowy24|I'm trying to not lose here thanks xD
+
+|
+|switch|p1a: DING DONG|Bronzong|100/100
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-damage|p1a: DING DONG|71/100
+|
+|-heal|p1a: DING DONG|77/100|[from] item: Leftovers
+|upkeep
+|turn|4
+
+|c| Aqua Admin Doggo|Tortellini
+
+|
+|move|p1a: DING DONG|Protect|p1a: DING DONG
+|-singleturn|p1a: DING DONG|Protect
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-activate|p1a: DING DONG|move: Protect
+|
+|-heal|p1a: DING DONG|83/100|[from] item: Leftovers
+|upkeep
+|turn|5
+
+|
+|switch|p2a: Bananahammer|Altaria, F, shiny|100/100
+|move|p1a: DING DONG|Trick Room|p1a: DING DONG
+|-fieldstart|move: Trick Room|[of] p1a: DING DONG
+|
+|-heal|p1a: DING DONG|90/100|[from] item: Leftovers
+|upkeep
+|turn|6
+
+|l| Torterrible18
+
+|j| Torterrible18
+
+|c| Aqua Admin Doggo|BANANAHAMMER
+
+|c| MisterMan65|BANAN
+
+|
+|move|p1a: DING DONG|Gyro Ball|p2a: Bananahammer
+|-damage|p2a: Bananahammer|76/100
+|move|p2a: Bananahammer|Flamethrower|p1a: DING DONG
+|-supereffective|p1a: DING DONG
+|-damage|p1a: DING DONG|62/100
+|
+|-heal|p1a: DING DONG|68/100|[from] item: Leftovers
+|-heal|p2a: Bananahammer|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|c| Aqua Admin Doggo|Heatproof I would say
+
+|
+|switch|p1a: Kevin|Glaceon, M, shiny|100/100
+|switch|p2a: The Great Wall Of|Registeel|100/100
+|
+|upkeep
+|turn|8
+
+|
+|switch|p1a: Chamillionaire|Donphan, M, shiny|100/100
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: Chamillionaire
+|-damage|p1a: Chamillionaire|74/100
+|-damage|p2a: The Great Wall Of|84/100|[from] item: Rocky Helmet|[of] p1a: Chamillionaire
+|
+|-heal|p2a: The Great Wall Of|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Houdini|Whimsicott, F, shiny|100/100
+|move|p1a: Chamillionaire|Stealth Rock|p2a: Houdini
+|-sidestart|p2: Misora31|move: Stealth Rock
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+
+|
+|switch|p1a: elec snek|Eelektross, F, shiny|100/100
+|move|p2a: Houdini|Energy Ball|p1a: elec snek
+|-damage|p1a: elec snek|63/100
+|
+|upkeep
+|turn|11
+
+|l| Aqua Admin Doggo
+
+|j| Aqua Admin Doggo
+
+|l| Aqua Admin Doggo
+
+|
+|switch|p2a: The Great Wall Of|Registeel|90/100
+|-damage|p2a: The Great Wall Of|84/100|[from] Stealth Rock
+|move|p1a: elec snek|Acid Spray|p2a: The Great Wall Of
+|-immune|p2a: The Great Wall Of|[msg]
+|
+|-heal|p2a: The Great Wall Of|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+
+|j| Aqua Admin Doggo
+
+|c| Aqua Admin Doggo|Lmao
+
+|c| Torterrible18|Why run acid spray when flamethrower does more damage?
+
+|c| The Yeet King|does acid OHKO whimsi tho?
+
+|c| Aqua Admin Doggo|Badgebot is on Serk’s case again
+
+|c| Torterrible18|Lol
+
+|c| Torterrible18|brb
+
+|
+|switch|p1a: DING DONG|Bronzong|68/100
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-damage|p1a: DING DONG|38/100
+|
+|-heal|p2a: The Great Wall Of|96/100|[from] item: Leftovers
+|-heal|p1a: DING DONG|45/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-damage|p1a: DING DONG|15/100
+|move|p1a: DING DONG|Trick Room|p1a: DING DONG
+|-fieldstart|move: Trick Room|[of] p1a: DING DONG
+|
+|-heal|p1a: DING DONG|21/100|[from] item: Leftovers
+|-heal|p2a: The Great Wall Of|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|l| Torterrible18
+
+|l| Aqua Admin Doggo
+
+|
+|switch|p2a: Bananahammer|Altaria, F, shiny|82/100
+|-damage|p2a: Bananahammer|57/100|[from] Stealth Rock
+|move|p1a: DING DONG|Protect|p1a: DING DONG
+|-fail|p1a: DING DONG
+|
+|-heal|p1a: DING DONG|27/100|[from] item: Leftovers
+|-heal|p2a: Bananahammer|63/100|[from] item: Leftovers
+|upkeep
+|turn|15
+
+|
+|switch|p1a: Kevin|Glaceon, M, shiny|100/100
+|move|p2a: Bananahammer|Defog|p1a: Kevin
+|-unboost|p1a: Kevin|evasion|1
+|-sideend|p2: Misora31|Stealth Rock|[from] move: Defog|[of] p2a: Bananahammer
+|
+|-heal|p2a: Bananahammer|69/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|switch|p2a: The Great Wall Of|Registeel|100/100
+|move|p1a: Kevin|Ice Beam|p2a: The Great Wall Of
+|-resisted|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|91/100
+|
+|-heal|p2a: The Great Wall Of|97/100|[from] item: Leftovers
+|upkeep
+|turn|17
+
+|j| Aqua Admin Doggo
+
+|
+|switch|p1a: Mr. Fister|Necrozma|100/100
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: Mr. Fister
+|-damage|p1a: Mr. Fister|75/100
+|
+|-heal|p2a: The Great Wall Of|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|18
+
+|j| Torterrible18
+
+|
+|move|p1a: Mr. Fister|Heat Wave|p2a: The Great Wall Of
+|-supereffective|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|57/100
+|-damage|p1a: Mr. Fister|66/100|[from] item: Life Orb
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: Mr. Fister
+|-damage|p1a: Mr. Fister|40/100
+|
+|-heal|p2a: The Great Wall Of|63/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|switch|p2a: Umiko|Milotic, M, shiny|100/100
+|move|p1a: Mr. Fister|Heat Wave|p2a: Umiko|[miss]
+|-miss|p1a: Mr. Fister|p2a: Umiko
+|
+|upkeep
+|turn|20
+
+|c|☆stowy24|I've just lost at this point
+
+|c|☆Misora31|Hey
+
+|c|☆Misora31|no getting down on yourself
+
+|c|☆Misora31|I played on a tilt for 40 turns once
+
+|c|☆Misora31|and still won
+
+|
+|move|p2a: Umiko|Scald|p1a: Mr. Fister
+|-damage|p1a: Mr. Fister|19/100
+|move|p1a: Mr. Fister|Trick Room|p1a: Mr. Fister
+|-fieldstart|move: Trick Room|[of] p1a: Mr. Fister
+|
+|upkeep
+|turn|21
+
+|c|☆stowy24|no I forgot to change my glaceon set
+
+|c|☆stowy24|and it basically means I can't do shit
+
+|c|☆Misora31|huh
+
+|c|☆Misora31|ok
+
+|c|☆Misora31|Still
+
+|c|☆Misora31|try dude
+
+|c|☆Misora31|differential
+
+|c|☆stowy24|I'm trying
+
+|c|☆Misora31|believe in yourself
+
+|c|☆Misora31|you can do it
+
+|
+|move|p1a: Mr. Fister|Calm Mind|p1a: Mr. Fister
+|-boost|p1a: Mr. Fister|spa|1
+|-boost|p1a: Mr. Fister|spd|1
+|move|p2a: Umiko|Scald|p1a: Mr. Fister
+|-damage|p1a: Mr. Fister|3/100
+|-status|p1a: Mr. Fister|brn
+|
+|-damage|p1a: Mr. Fister|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Mr. Fister
+
+|c|☆stowy24|oh
+
+|c|☆Misora31|oops
+
+|
+|switch|p1a: elec snek|Eelektross, F, shiny|63/100
+|turn|22
+
+|c| Aqua Admin Doggo|Rip
+
+|
+|switch|p2a: Bananahammer|Altaria, F, shiny|69/100
+|move|p1a: elec snek|Knock Off|p2a: Bananahammer
+|-damage|p2a: Bananahammer|41/100
+|-enditem|p2a: Bananahammer|Leftovers|[from] move: Knock Off|[of] p1a: elec snek
+|
+|upkeep
+|turn|23
+
+|
+|move|p1a: elec snek|Volt Switch|p2a: Bananahammer
+|-damage|p2a: Bananahammer|19/100
+
+|
+|switch|p1a: Kevin|Glaceon, M, shiny|100/100
+|move|p2a: Bananahammer|Roost|p2a: Bananahammer
+|-heal|p2a: Bananahammer|69/100
+|
+|upkeep
+|turn|24
+
+|
+|switch|p1a: Ed|Houndoom, F|100/100
+|switch|p2a: The Great Wall Of|Registeel|63/100
+|
+|-heal|p2a: The Great Wall Of|69/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|25
+
+|l| Aqua Admin Doggo
+
+|l| Torterrible18
+
+|
+|switch|p2a: Umiko|Milotic, M, shiny|100/100
+|detailschange|p1a: Ed|Houndoom-Mega, F
+|-mega|p1a: Ed|Houndoom|Houndoominite
+|move|p1a: Ed|Nasty Plot|p1a: Ed
+|-boost|p1a: Ed|spa|2
+|
+|upkeep
+|turn|26
+
+|j| Torterrible18
+
+|j| Aqua Admin Doggo
+
+|
+|move|p1a: Ed|Dark Pulse|p2a: Umiko
+|-damage|p2a: Umiko|33/100
+|move|p2a: Umiko|Scald|p1a: Ed
+|-supereffective|p1a: Ed
+|-damage|p1a: Ed|43/100
+|
+|-heal|p2a: Umiko|40/100|[from] item: Leftovers
+|upkeep
+|turn|27
+
+|
+|move|p1a: Ed|Dark Pulse|p2a: Umiko
+|-damage|p2a: Umiko|0 fnt
+|faint|p2a: Umiko
+|
+|upkeep
+
+|
+|switch|p2a: Houdini|Whimsicott, F, shiny|100/100
+|turn|28
+
+|
+|move|p2a: Houdini|Moonblast|p1a: Ed
+|-damage|p1a: Ed|0 fnt
+|faint|p1a: Ed
+|
+|upkeep
+
+|
+|switch|p1a: elec snek|Eelektross, F, shiny|63/100
+|turn|29
+
+|c|☆stowy24|WOOHOO I JUST REALISED SOMETHING
+
+|c|☆stowy24|I GOT A KILL
+
+|c|☆Misora31|yep
+
+|c|☆stowy24|damn thats like my first kill in a league match for a good few weeks now
+
+|c|☆stowy24|feels good
+
+|
+|switch|p2a: The Great Wall Of|Registeel|69/100
+|move|p1a: elec snek|Volt Switch|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|50/100
+
+|
+|switch|p1a: Chamillionaire|Donphan, M, shiny|74/100
+|
+|-heal|p2a: The Great Wall Of|56/100|[from] item: Leftovers
+|upkeep
+|turn|30
+
+|l| Torterrible18
+
+|l| Aqua Admin Doggo
+
+|
+|switch|p2a: Houdini|Whimsicott, F, shiny|100/100
+|move|p1a: Chamillionaire|Earthquake|p2a: Houdini
+|-resisted|p2a: Houdini
+|-damage|p2a: Houdini|60/100
+|
+|upkeep
+|turn|31
+
+|j| Aqua Admin Doggo
+
+|l| Aqua Admin Doggo
+
+|
+|move|p1a: Chamillionaire|Ice Shard|p2a: Houdini
+|-supereffective|p2a: Houdini
+|-damage|p2a: Houdini|20/100
+|move|p2a: Houdini|Energy Ball|p1a: Chamillionaire
+|-supereffective|p1a: Chamillionaire
+|-damage|p1a: Chamillionaire|0 fnt
+|faint|p1a: Chamillionaire
+|
+|upkeep
+
+|j| Torterrible18
+
+|
+|switch|p1a: elec snek|Eelektross, F, shiny|63/100
+|turn|32
+
+|
+|move|p2a: Houdini|Energy Ball|p1a: elec snek
+|-damage|p1a: elec snek|29/100
+|move|p1a: elec snek|Thunderbolt|p2a: Houdini
+|-resisted|p2a: Houdini
+|-damage|p2a: Houdini|0 fnt
+|faint|p2a: Houdini
+|
+|upkeep
+
+|j| Aqua Admin Doggo
+
+|
+|switch|p2a: The Great Wall Of|Registeel|56/100
+|turn|33
+
+|
+|move|p2a: The Great Wall Of|Amnesia|p2a: The Great Wall Of
+|-boost|p2a: The Great Wall Of|spd|2
+|move|p1a: elec snek|Knock Off|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|39/100
+|-enditem|p2a: The Great Wall Of|Leftovers|[from] move: Knock Off|[of] p1a: elec snek
+|
+|upkeep
+|turn|34
+
+|n| Aqua Admin Doggo|aquaadmindoggo
+
+|
+|move|p2a: The Great Wall Of|Rest|p2a: The Great Wall Of
+|-status|p2a: The Great Wall Of|slp
+|-heal|p2a: The Great Wall Of|100/100 slp|[silent]
+|-status|p2a: The Great Wall Of|slp|[from] move: Rest
+|move|p1a: elec snek|Thunderbolt|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|88/100 slp
+|
+|upkeep
+|turn|35
+
+|n| Aqua Admin Doggo|aquaadmindoggo
+
+|l| Aqua Admin Doggo
+
+|c|☆Misora31|MUAHAHAHAHA
+
+|c| The Yeet King|this nibba stronk AF
+
+|c|☆Misora31|MUAHAHAHAHAHA
+
+|c|☆Misora31|MUAHAHAHAHA
+
+|
+|switch|p1a: DING DONG|Bronzong|27/100
+|cant|p2a: The Great Wall Of|slp
+|move|p2a: The Great Wall Of|Sleep Talk|p2a: The Great Wall Of
+|move|p2a: The Great Wall Of|Rest|p2a: The Great Wall Of|[from]Sleep Talk
+|-fail|p2a: The Great Wall Of
+|
+|-heal|p1a: DING DONG|34/100|[from] item: Leftovers
+|upkeep
+|turn|36
+
+|c|☆stowy24|ok mate
+
+|l| Torterrible18
+
+|j| Aqua Admin Doggo
+
+|
+|cant|p2a: The Great Wall Of|slp
+|move|p2a: The Great Wall Of|Sleep Talk|p2a: The Great Wall Of
+|move|p2a: The Great Wall Of|Amnesia|p2a: The Great Wall Of|[from]Sleep Talk
+|-boost|p2a: The Great Wall Of|spd|2
+|move|p1a: DING DONG|Trick Room|p1a: DING DONG
+|-fieldstart|move: Trick Room|[of] p1a: DING DONG
+|
+|-heal|p1a: DING DONG|40/100|[from] item: Leftovers
+|upkeep
+|turn|37
+
+|
+|move|p1a: DING DONG|Gyro Ball|p2a: The Great Wall Of
+|-resisted|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|83/100 slp
+|-curestatus|p2a: The Great Wall Of|slp|[msg]
+|move|p2a: The Great Wall Of|Sleep Talk|p2a: The Great Wall Of
+|-fail|p2a: The Great Wall Of
+|
+|-heal|p1a: DING DONG|46/100|[from] item: Leftovers
+|upkeep
+|turn|38
+
+|j| Torterrible18
+
+|
+|move|p1a: DING DONG|Protect|p1a: DING DONG
+|-singleturn|p1a: DING DONG|Protect
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-activate|p1a: DING DONG|move: Protect
+|
+|-heal|p1a: DING DONG|52/100|[from] item: Leftovers
+|upkeep
+|turn|39
+
+|
+|switch|p1a: Kevin|Glaceon, M, shiny|100/100
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: Kevin
+|-damage|p1a: Kevin|71/100
+|
+|-heal|p1a: Kevin|77/100|[from] item: Leftovers
+|upkeep
+|turn|40
+
+|
+|move|p1a: Kevin|Ice Beam|p2a: The Great Wall Of
+|-resisted|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|79/100
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: Kevin
+|-damage|p1a: Kevin|47/100
+|
+|-heal|p1a: Kevin|53/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|41
+
+|
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: Kevin
+|-damage|p1a: Kevin|23/100
+|move|p1a: Kevin|Ice Beam|p2a: The Great Wall Of
+|-resisted|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|76/100
+|
+|-heal|p1a: Kevin|29/100|[from] item: Leftovers
+|upkeep
+|turn|42
+
+|c| The Yeet King|ban regi?
+
+|
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: Kevin
+|-damage|p1a: Kevin|0 fnt
+|faint|p1a: Kevin
+|
+|upkeep
+
+|
+|switch|p1a: elec snek|Eelektross, F, shiny|29/100
+|turn|43
+
+|
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: elec snek
+|-damage|p1a: elec snek|2/100
+|move|p1a: elec snek|Knock Off|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|65/100
+|
+|upkeep
+|turn|44
+
+|
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: elec snek
+|-damage|p1a: elec snek|0 fnt
+|faint|p1a: elec snek
+|
+|upkeep
+
+|c|☆stowy24|gg
+
+|
+|switch|p1a: DING DONG|Bronzong|52/100
+|turn|45
+
+|
+|move|p1a: DING DONG|Protect|p1a: DING DONG
+|-singleturn|p1a: DING DONG|Protect
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-activate|p1a: DING DONG|move: Protect
+|
+|-heal|p1a: DING DONG|58/100|[from] item: Leftovers
+|upkeep
+|turn|46
+
+|
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-damage|p1a: DING DONG|29/100
+|move|p1a: DING DONG|Trick Room|p1a: DING DONG
+|-fieldstart|move: Trick Room|[of] p1a: DING DONG
+|
+|-heal|p1a: DING DONG|35/100|[from] item: Leftovers
+|upkeep
+|turn|47
+
+|
+|move|p1a: DING DONG|Protect|p1a: DING DONG
+|-singleturn|p1a: DING DONG|Protect
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-activate|p1a: DING DONG|move: Protect
+|
+|-heal|p1a: DING DONG|41/100|[from] item: Leftovers
+|upkeep
+|turn|48
+
+|
+|move|p1a: DING DONG|Gyro Ball|p2a: The Great Wall Of
+|-resisted|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|60/100
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-damage|p1a: DING DONG|12/100
+|
+|-heal|p1a: DING DONG|18/100|[from] item: Leftovers
+|upkeep
+|turn|49
+
+|l| Aqua Admin Doggo
+
+|
+|move|p1a: DING DONG|Protect|p1a: DING DONG
+|-singleturn|p1a: DING DONG|Protect
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-activate|p1a: DING DONG|move: Protect
+|
+|-heal|p1a: DING DONG|24/100|[from] item: Leftovers
+|upkeep
+|turn|50
+
+|
+|move|p1a: DING DONG|Gyro Ball|p2a: The Great Wall Of
+|-resisted|p2a: The Great Wall Of
+|-damage|p2a: The Great Wall Of|54/100
+|move|p2a: The Great Wall Of|Seismic Toss|p1a: DING DONG
+|-damage|p1a: DING DONG|0 fnt
+|faint|p1a: DING DONG
+|
+|win|Misora31

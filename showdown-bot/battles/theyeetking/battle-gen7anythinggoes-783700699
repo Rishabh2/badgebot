@@ -1,0 +1,273 @@
+|init|battle
+|title|Nuzboa vs. The Yeet King
+|j|☆Nuzboa
+|j|☆The Yeet King
+|player|p1|Nuzboa|30
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Kyurem-White|item
+|poke|p1|Venusaur, F|item
+|poke|p1|Mismagius, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Victini|item
+|poke|p1|Clefable, M|item
+|poke|p2|Deoxys-Attack|item
+|poke|p2|Tapu Fini|item
+|poke|p2|Charizard, M|item
+|poke|p2|Xurkitree|item
+|poke|p2|Crobat, F|item
+|poke|p2|Galvantula, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Xurkitree|Xurkitree|100/100
+|turn|1
+|
+|-zpower|p2a: Xurkitree
+|move|p2a: Xurkitree|Z-Hypnosis|p1a: Clefable|[anim]Hypnosis
+|-boost|p2a: Xurkitree|spe|1|[zeffect]
+|-status|p1a: Clefable|slp
+|cant|p1a: Clefable|slp
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Victini|Victini|100/100
+|move|p2a: Xurkitree|Tail Glow|p2a: Xurkitree
+|-boost|p2a: Xurkitree|spa|3
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Victini|V-create|p2a: Xurkitree
+|-damage|p2a: Xurkitree|9/100
+|-unboost|p1a: Victini|spe|1
+|-unboost|p1a: Victini|def|1
+|-unboost|p1a: Victini|spd|1
+|move|p2a: Xurkitree|Thunderbolt|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|faint|p1a: Victini
+|-ability|p2a: Xurkitree|Beast Boost|boost
+|-boost|p2a: Xurkitree|spa|1
+|
+|upkeep
+
+|
+|switch|p1a: Mismagius|Mismagius, F|100/100
+|turn|4
+
+|
+|move|p1a: Mismagius|Shadow Ball|p2a: Xurkitree
+|-damage|p2a: Xurkitree|0 fnt
+|faint|p2a: Xurkitree
+|
+|upkeep
+
+|
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|5
+
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Mismagius
+|-sidestart|p1: Nuzboa|move: Sticky Web
+|move|p1a: Mismagius|Shadow Ball|p2a: Galvantula
+|-damage|p2a: Galvantula|38/100
+|
+|upkeep
+|turn|6
+
+|
+|move|p2a: Galvantula|Sticky Web|p1a: Mismagius
+|-fail|p2a: Galvantula
+|move|p1a: Mismagius|Shadow Ball|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+
+|
+|switch|p2a: Crobat|Crobat, F|100/100
+|turn|7
+
+|
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|-activate|p1a: Venusaur|move: Sticky Web
+|-unboost|p1a: Venusaur|spe|1
+|move|p2a: Crobat|Brave Bird|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-damage|p2a: Crobat|68/100|[from] Recoil
+|faint|p1a: Venusaur
+|
+|-heal|p2a: Crobat|75/100|[from] item: Black Sludge
+|upkeep
+
+|c|☆The Yeet King|why did u do that
+
+|c|☆Nuzboa|I expected a poison attack
+
+|c|☆The Yeet King|why
+
+|c|☆Nuzboa|i wouldnt have costed you the hp
+
+|c|☆The Yeet King|i got Brave bird
+
+|c|☆Nuzboa|but if your playing the long game with crobat i expected you to go for poison
+
+|
+|switch|p1a: Mismagius|Mismagius, F|100/100
+|turn|8
+
+|
+|move|p1a: Mismagius|Shadow Ball|p2a: Crobat
+|-damage|p2a: Crobat|38/100
+|move|p2a: Crobat|Brave Bird|p1a: Mismagius
+|-enditem|p1a: Mismagius|Focus Sash
+|-damage|p1a: Mismagius|1/100
+|-damage|p2a: Crobat|15/100|[from] Recoil
+|
+|-heal|p2a: Crobat|21/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+
+|
+|move|p1a: Mismagius|Shadow Ball|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|upkeep
+
+|
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|10
+
+|c|☆The Yeet King|setup fodder for zard
+
+|c|☆The Yeet King|NOW u pick clef
+
+|
+|switch|p1a: Clefable|Clefable, M|100/100 slp
+|-activate|p1a: Clefable|move: Sticky Web
+|-unboost|p1a: Clefable|spe|1
+|detailschange|p2a: Charizard|Charizard-Mega-X, M
+|-mega|p2a: Charizard|Charizard|Charizardite X
+|move|p2a: Charizard|Dragon Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|1
+|-boost|p2a: Charizard|spe|1
+|
+|upkeep
+|turn|11
+
+|c|☆The Yeet King|actually hes asleep
+
+|c|☆The Yeet King|clefable is VERY important for u
+
+|c|☆Nuzboa|i has toxic on mis
+
+|c|☆Nuzboa|i couldve given it destiny
+
+|c|☆The Yeet King|you better keep him healthy and awake
+
+|
+|move|p2a: Charizard|Iron Tail|p1a: Clefable|[miss]
+|-miss|p2a: Charizard|p1a: Clefable
+|cant|p1a: Clefable|slp
+|
+|upkeep
+|turn|12
+
+|c|☆The Yeet King|youre relying on iron tail missing
+
+|
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Charizard|Iron Tail|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|86/100
+|
+|upkeep
+|turn|13
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Rotom
+|-damage|p1a: Rotom|20/100
+|-enditem|p1a: Rotom|Iapapa Berry|[eat]
+|-heal|p1a: Rotom|69/100|[from] item: Iapapa Berry
+|move|p1a: Rotom|Hydro Pump|p2a: Charizard
+|-damage|p2a: Charizard|46/100
+|
+|upkeep
+|turn|14
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+
+|
+|switch|p1a: Mismagius|Mismagius, F|1/100
+|turn|15
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|faint|p1a: Mismagius
+|
+|upkeep
+
+|
+|switch|p1a: Clefable|Clefable, M|100/100 slp
+|-activate|p1a: Clefable|move: Sticky Web
+|-unboost|p1a: Clefable|spe|1
+|turn|16
+
+|
+|move|p2a: Charizard|Flare Blitz|p1a: Clefable
+|-damage|p1a: Clefable|28/100 slp
+|-damage|p2a: Charizard|14/100|[from] Recoil
+|cant|p1a: Clefable|slp
+|
+|upkeep
+|turn|17
+
+|
+|-curestatus|p1a: Clefable|slp|[msg]
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Charizard|Flare Blitz|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|upkeep
+|turn|18
+
+|
+|move|p2a: Charizard|Flare Blitz|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Charizard|2/100|[from] Recoil
+|faint|p1a: Clefable
+|
+|upkeep
+
+|
+|switch|p1a: Kyurem|Kyurem-White|100/100
+|-activate|p1a: Kyurem|move: Sticky Web
+|-unboost|p1a: Kyurem|spe|1
+|-ability|p1a: Kyurem|Turboblaze
+|turn|19
+
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|The Yeet King

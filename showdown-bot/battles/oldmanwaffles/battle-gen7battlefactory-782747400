@@ -1,0 +1,363 @@
+|init|battle
+|title|jmics002 vs. Old_Man_Waffles
+|j|☆jmics002
+|j|☆Old_Man_Waffles
+|player|p1|jmics002|266
+|player|p2|Old_Man_Waffles|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Battle Factory
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|clearpoke
+|poke|p1|Uxie|item
+|poke|p1|Malamar, F|item
+|poke|p1|Dugtrio, F|item
+|poke|p1|Absol, M|item
+|poke|p1|Vikavolt, F|item
+|poke|p1|Slowking, M|item
+|poke|p2|Hariyama, M|item
+|poke|p2|Jellicent, M|item
+|poke|p2|Audino, F|item
+|poke|p2|Diancie|item
+|poke|p2|Abomasnow, M|item
+|poke|p2|Vikavolt, M|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Mega Rayquaza Clause: You cannot mega evolve Rayquaza
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jmics002)
+|
+|start
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|switch|p2a: Hariyama|Hariyama, M|100/100
+|turn|1
+|
+|switch|p1a: Uxie|Uxie|100/100
+|move|p2a: Hariyama|Knock Off|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|50/100
+|-enditem|p1a: Uxie|Leftovers|[from] move: Knock Off|[of] p2a: Hariyama
+|
+|-status|p2a: Hariyama|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Old_Man_Waffles has 135 seconds left.
+|
+|switch|p2a: Jellicent|Jellicent, M|100/100
+|move|p1a: Uxie|Psychic|p2a: Jellicent
+|-damage|p2a: Jellicent|80/100
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Uxie|Stealth Rock|p2a: Jellicent
+|-sidestart|p2: Old_Man_Waffles|move: Stealth Rock
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Uxie
+|-status|p1a: Uxie|brn
+|
+|-damage|p1a: Uxie|43/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|move|p1a: Uxie|U-turn|p2a: Jellicent
+|-resisted|p2a: Jellicent
+|-damage|p2a: Jellicent|78/100
+|
+|switch|p1a: Absol|Absol, M|100/100
+|move|p2a: Jellicent|Hex|p1a: Absol
+|-resisted|p1a: Absol
+|-damage|p1a: Absol|83/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Absol|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-enditem|p2a: Jellicent|Colbur Berry|[eat]
+|-enditem|p2a: Jellicent|Colbur Berry|[weaken]
+|-damage|p2a: Jellicent|14/100
+|-damage|p1a: Absol|73/100|[from] item: Life Orb
+|move|p2a: Jellicent|Will-O-Wisp|p1a: Absol
+|-status|p1a: Absol|brn
+|
+|-damage|p1a: Absol|67/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Hariyama|Hariyama, M|100/100 brn
+|-damage|p2a: Hariyama|94/100 brn|[from] Stealth Rock
+|move|p1a: Absol|Swords Dance|p1a: Absol
+|-boost|p1a: Absol|atk|2
+|
+|-damage|p1a: Absol|61/100 brn|[from] brn
+|-damage|p2a: Hariyama|88/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p1a: Absol|Knock Off|p2a: Hariyama
+|-resisted|p2a: Hariyama
+|-damage|p2a: Hariyama|43/100 brn
+|-enditem|p2a: Hariyama|Flame Orb|[from] move: Knock Off|[of] p1a: Absol
+|-damage|p1a: Absol|51/100 brn|[from] item: Life Orb
+|move|p2a: Hariyama|Facade|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|-damage|p2a: Hariyama|37/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p1a: Uxie|Uxie|43/100 brn
+|turn|8
+
+|
+|move|p2a: Hariyama|Bullet Punch|p1a: Uxie
+|-damage|p1a: Uxie|29/100 brn
+|move|p1a: Uxie|Psychic|p2a: Hariyama
+|-supereffective|p2a: Hariyama
+|-damage|p2a: Hariyama|0 fnt
+|faint|p2a: Hariyama
+|
+|-damage|p1a: Uxie|23/100 brn|[from] brn
+|upkeep
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Audino|Audino, F|100/100
+|-damage|p2a: Audino|88/100|[from] Stealth Rock
+|turn|9
+
+|
+|detailschange|p2a: Audino|Audino-Mega, F
+|-mega|p2a: Audino|Audino|Audinite
+|move|p1a: Uxie|Psychic|p2a: Audino
+|-damage|p2a: Audino|76/100
+|move|p2a: Audino|Dazzling Gleam|p1a: Uxie
+|-damage|p1a: Uxie|4/100 brn
+|
+|-damage|p1a: Uxie|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Uxie
+
+|inactive|jmics002 has 135 seconds left.
+
+|inactive|jmics002 has 120 seconds left.
+
+|inactive|jmics002 has 105 seconds left.
+
+|
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|turn|10
+
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Audino
+|-damage|p2a: Audino|47/100
+|-damage|p1a: Dugtrio|91/100|[from] item: Life Orb
+|move|p2a: Audino|Wish|p2a: Audino
+|
+|upkeep
+|turn|11
+
+|
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Audino|Protect|p2a: Audino
+|-fail|p2a: Audino
+|
+|-heal|p2a: Audino|97/100|[from] move: Wish|[wisher] Audino
+|upkeep
+|turn|12
+
+|
+|move|p2a: Audino|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-enditem|p1a: Slowking|Colbur Berry|[eat]
+|-enditem|p1a: Slowking|Colbur Berry|[weaken]
+|-damage|p1a: Slowking|87/100
+|move|p1a: Slowking|Nasty Plot|p1a: Slowking
+|-boost|p1a: Slowking|spa|2
+|
+|upkeep
+|turn|13
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|move|p2a: Audino|Dazzling Gleam|p1a: Slowking
+|-damage|p1a: Slowking|68/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|upkeep
+|turn|14
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 120 seconds left.
+
+|
+|move|p1a: Slowking|Nasty Plot|p1a: Slowking
+|-boost|p1a: Slowking|spa|2
+|move|p2a: Audino|Dazzling Gleam|p1a: Slowking
+|-damage|p1a: Slowking|49/100
+|
+|upkeep
+|turn|15
+
+|
+|move|p2a: Audino|Protect|p2a: Audino
+|-singleturn|p2a: Audino|Protect
+|move|p1a: Slowking|Scald|p2a: Audino
+|-activate|p2a: Audino|move: Protect
+|
+|upkeep
+|turn|16
+
+|
+|move|p1a: Slowking|Psychic|p2a: Audino
+|-damage|p2a: Audino|29/100
+|move|p2a: Audino|Dazzling Gleam|p1a: Slowking
+|-damage|p1a: Slowking|28/100
+|
+|upkeep
+|turn|17
+
+|
+|move|p1a: Slowking|Psychic|p2a: Audino
+|-damage|p2a: Audino|0 fnt
+|faint|p2a: Audino
+|
+|-fieldend|move: Trick Room
+|upkeep
+
+|
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-damage|p2a: Abomasnow|76/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|18
+
+|
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|move|p2a: Abomasnow|Giga Drain|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|80/100
+|-heal|p2a: Abomasnow|87/100|[from] drain|[of] p1a: Vikavolt
+|-damage|p2a: Abomasnow|77/100|[from] item: Life Orb
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vikavolt|73/100|[from] Hail
+|-heal|p1a: Vikavolt|80/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p2a: Diancie|Diancie|100/100
+|-damage|p2a: Diancie|88/100|[from] Stealth Rock
+|move|p1a: Vikavolt|Bug Buzz|p2a: Diancie
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|71/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Vikavolt|73/100|[from] Hail
+|-damage|p2a: Diancie|65/100|[from] Hail
+|-heal|p1a: Vikavolt|80/100|[from] item: Leftovers
+|-heal|p2a: Diancie|71/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|inactive|jmics002 has 135 seconds left.
+
+|inactive|Old_Man_Waffles has 135 seconds left.
+
+|
+|switch|p1a: Dugtrio|Dugtrio, F|91/100
+|move|p2a: Diancie|Stealth Rock|p1a: Dugtrio
+|-sidestart|p1: jmics002|move: Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Dugtrio|84/100|[from] Hail
+|-damage|p2a: Diancie|65/100|[from] Hail
+|-heal|p2a: Diancie|71/100|[from] item: Leftovers
+|upkeep
+|turn|21
+
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|-damage|p1a: Dugtrio|74/100|[from] item: Life Orb
+|faint|p2a: Diancie
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Dugtrio|68/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|-damage|p2a: Vikavolt|76/100|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Dugtrio|Stone Edge|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-crit|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|-damage|p1a: Dugtrio|58/100|[from] item: Life Orb
+|faint|p2a: Vikavolt
+|
+|-weather|none
+|upkeep
+
+|
+|switch|p2a: Abomasnow|Abomasnow, M|77/100
+|-damage|p2a: Abomasnow|53/100|[from] Stealth Rock
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|23
+
+|
+|move|p2a: Abomasnow|Ice Shard|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|-damage|p2a: Abomasnow|43/100|[from] item: Life Orb
+|faint|p1a: Dugtrio
+|
+|-weather|Hail|[upkeep]
+|upkeep
+
+|
+|switch|p1a: Malamar|Malamar, F|100/100
+|-damage|p1a: Malamar|88/100|[from] Stealth Rock
+|turn|24
+
+|
+|move|p1a: Malamar|Superpower|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Malamar|82/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Jellicent|Jellicent, M|14/100
+|-damage|p2a: Jellicent|2/100|[from] Stealth Rock
+|turn|25
+
+|
+|move|p1a: Malamar|Knock Off|p2a: Jellicent
+|-supereffective|p2a: Jellicent
+|-damage|p2a: Jellicent|0 fnt
+|faint|p2a: Jellicent
+|
+|win|jmics002

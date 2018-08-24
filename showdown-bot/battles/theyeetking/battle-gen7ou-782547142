@@ -1,0 +1,416 @@
+|init|battle
+|title|The Yeet King vs. RalphLaLa
+|j|‽The Yeet King
+|j|☆RalphLaLa
+|player|p1|The Yeet King|156
+|player|p2|RalphLaLa|274
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Zygarde|item
+|poke|p1|Hoopa-Unbound|item
+|poke|p1|Toxapex, M|item
+|poke|p1|Magearna|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Kartana|item
+|poke|p2|Forretress, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Cloyster, M|item
+|poke|p2|Jolteon, M|item
+|poke|p2|Arcanine, M|item
+|teampreview
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: The Tank|Forretress, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: The Tank|atk|1
+|turn|1
+|
+|move|p1a: Landorus|Stealth Rock|p2a: The Tank
+|-sidestart|p2: RalphLaLa|move: Stealth Rock
+|move|p2a: The Tank|Stealth Rock|p1a: Landorus
+|-sidestart|p1: The Yeet King|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Landorus|Knock Off|p2a: The Tank
+|-damage|p2a: The Tank|84/100
+|-enditem|p2a: The Tank|Leftovers|[from] move: Knock Off|[of] p1a: Landorus
+|move|p2a: The Tank|Toxic Spikes|p1a: Landorus
+|-sidestart|p1: The Yeet King|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Magearna|Magearna|100/100
+|-damage|p1a: Magearna|95/100|[from] Stealth Rock
+|move|p2a: The Tank|Toxic Spikes|p1a: Magearna
+|-sidestart|p1: The Yeet King|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Magearna|Hidden Power|p2a: The Tank
+|-supereffective|p2a: The Tank
+|-damage|p2a: The Tank|0 fnt
+|faint|p2a: The Tank
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+|
+|switch|p2a: Mufasa|Arcanine, M, shiny|100/100
+|-damage|p2a: Mufasa|76/100|[from] Stealth Rock
+|-ability|p2a: Mufasa|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|turn|5
+
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|-sideend|p1: The Yeet King|move: Toxic Spikes|[of] p1a: Toxapex
+|move|p2a: Mufasa|Flare Blitz|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|69/100
+|-status|p1a: Toxapex|brn
+|-damage|p2a: Mufasa|70/100|[from] Recoil
+|
+|-heal|p1a: Toxapex|75/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|69/100 brn|[from] brn
+|upkeep
+|turn|6
+
+|
+|move|p2a: Mufasa|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100 brn
+|-unboost|p1a: Toxapex|def|1
+|move|p1a: Toxapex|Scald|p2a: Mufasa
+|-supereffective|p2a: Mufasa
+|-damage|p2a: Mufasa|30/100
+|
+|-heal|p1a: Toxapex|58/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|52/100 brn|[from] brn
+|upkeep
+|turn|7
+
+|
+|move|p2a: Mufasa|Morning Sun|p2a: Mufasa
+|-heal|p2a: Mufasa|80/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100 brn
+|
+|-damage|p1a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Devil|Gengar, M, shiny|100/100
+|-damage|p2a: Devil|88/100|[from] Stealth Rock
+|move|p1a: Toxapex|Toxic|p2a: Devil
+|-immune|p2a: Devil|[msg]
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|95/100 brn|[from] brn
+|upkeep
+|turn|9
+
+|
+|switch|p1a: Magearna|Magearna|95/100
+|-damage|p1a: Magearna|89/100|[from] Stealth Rock
+|move|p2a: Devil|Energy Ball|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|81/100
+|
+|upkeep
+|turn|10
+
+|
+|move|p2a: Devil|Shadow Ball|p1a: Magearna
+|-damage|p1a: Magearna|62/100
+|move|p1a: Magearna|Volt Switch|p2a: Devil
+|-damage|p2a: Devil|52/100
+
+|
+|switch|p1a: Kartana|Kartana|100/100
+|-damage|p1a: Kartana|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+
+|
+|move|p1a: Kartana|Smart Strike|p2a: Devil
+|-damage|p2a: Devil|0 fnt
+|-start|p1a: Kartana|Disable|Smart Strike|[from] ability: Cursed Body|[of] p2a: Devil
+|faint|p2a: Devil
+|-ability|p1a: Kartana|Beast Boost|boost
+|-boost|p1a: Kartana|atk|1
+|
+|upkeep
+
+|
+|switch|p2a: Dranzer|Garchomp, M, shiny|100/100
+|-damage|p2a: Dranzer|94/100|[from] Stealth Rock
+|turn|12
+
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dranzer|atk|1
+|move|p2a: Dranzer|Fire Fang|p1a: Landorus
+|-damage|p1a: Landorus|71/100
+|
+|-heal|p1a: Landorus|77/100|[from] item: Leftovers
+|upkeep
+|turn|13
+
+|
+|move|p1a: Landorus|Knock Off|p2a: Dranzer
+|-crit|p2a: Dranzer
+|-damage|p2a: Dranzer|46/100
+|-damage|p1a: Landorus|65/100|[from] ability: Rough Skin|[of] p2a: Dranzer
+|-damage|p1a: Landorus|48/100|[from] item: Rocky Helmet|[of] p2a: Dranzer
+|-enditem|p2a: Dranzer|Rocky Helmet|[from] move: Knock Off|[of] p1a: Landorus
+|move|p2a: Dranzer|Dragon Claw|p1a: Landorus
+|-damage|p1a: Landorus|20/100
+|
+|-heal|p1a: Landorus|26/100|[from] item: Leftovers
+|upkeep
+|turn|14
+
+|
+|move|p1a: Landorus|Hidden Power|p2a: Dranzer
+|-supereffective|p2a: Dranzer
+|-damage|p2a: Dranzer|0 fnt
+|faint|p2a: Dranzer
+|
+|-heal|p1a: Landorus|32/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Poseidon|Cloyster, M, shiny|100/100
+|-damage|p2a: Poseidon|76/100|[from] Stealth Rock
+|turn|15
+
+|
+|move|p1a: Landorus|Earthquake|p2a: Poseidon
+|-damage|p2a: Poseidon|33/100
+|move|p2a: Poseidon|Shell Smash|p2a: Poseidon
+|-unboost|p2a: Poseidon|def|1
+|-unboost|p2a: Poseidon|spd|1
+|-boost|p2a: Poseidon|atk|2
+|-boost|p2a: Poseidon|spa|2
+|-boost|p2a: Poseidon|spe|2
+|-enditem|p2a: Poseidon|White Herb
+|-clearnegativeboost|p2a: Poseidon|[silent]
+|
+|-heal|p1a: Landorus|38/100|[from] item: Leftovers
+|upkeep
+|turn|16
+
+|
+|move|p2a: Poseidon|Icicle Spear|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-hitcount|p1a: Landorus|1
+|faint|p1a: Landorus
+|
+|upkeep
+
+|
+|switch|p1a: Toxapex|Toxapex, M|100/100 brn
+|-damage|p1a: Toxapex|88/100 brn|[from] Stealth Rock
+|turn|17
+
+|
+|move|p2a: Poseidon|Rock Blast|p1a: Toxapex|[miss]
+|-miss|p2a: Poseidon|p1a: Toxapex
+|move|p1a: Toxapex|Toxic|p2a: Poseidon
+|-status|p2a: Poseidon|tox
+|
+|-heal|p1a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p2a: Poseidon|27/100 tox|[from] psn
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|18
+
+|
+|move|p2a: Poseidon|Rock Blast|p1a: Toxapex
+|-damage|p1a: Toxapex|79/100 brn
+|-damage|p1a: Toxapex|69/100 brn
+|-damage|p1a: Toxapex|60/100 brn
+|-damage|p1a: Toxapex|51/100 brn
+|-damage|p1a: Toxapex|42/100 brn
+|-hitcount|p1a: Toxapex|5
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|92/100 brn
+|
+|-heal|p1a: Toxapex|98/100 brn|[from] item: Black Sludge
+|-damage|p2a: Poseidon|15/100 tox|[from] psn
+|-damage|p1a: Toxapex|92/100 brn|[from] brn
+|upkeep
+|turn|19
+
+|
+|move|p2a: Poseidon|Icicle Spear|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|84/100 brn
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|77/100 brn
+|-resisted|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|67/100 brn
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100 brn
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|54/100 brn
+|-hitcount|p1a: Toxapex|5
+|move|p1a: Toxapex|Scald|p2a: Poseidon
+|-resisted|p2a: Poseidon
+|-damage|p2a: Poseidon|0 fnt
+|faint|p2a: Poseidon
+|
+|-heal|p1a: Toxapex|60/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|54/100 brn|[from] brn
+|upkeep
+
+|
+|switch|p2a: Bolt|Jolteon, M|100/100
+|-damage|p2a: Bolt|88/100|[from] Stealth Rock
+|-item|p2a: Bolt|Air Balloon
+|turn|20
+
+|
+|switch|p1a: Magearna|Magearna|62/100
+|-damage|p1a: Magearna|56/100|[from] Stealth Rock
+|move|p2a: Bolt|Volt Switch|p1a: Magearna
+|-damage|p1a: Magearna|43/100
+
+|
+|switch|p2a: Mufasa|Arcanine, M, shiny|80/100
+|-damage|p2a: Mufasa|55/100|[from] Stealth Rock
+|-ability|p2a: Mufasa|Intimidate|boost
+|-unboost|p1a: Magearna|atk|1
+|
+|upkeep
+|turn|21
+
+|
+|switch|p1a: Toxapex|Toxapex, M|87/100 brn
+|-damage|p1a: Toxapex|75/100 brn|[from] Stealth Rock
+|move|p2a: Mufasa|Extreme Speed|p1a: Toxapex
+|-damage|p1a: Toxapex|59/100 brn
+|
+|-heal|p1a: Toxapex|65/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|59/100 brn|[from] brn
+|upkeep
+|turn|22
+
+|
+|move|p2a: Mufasa|Morning Sun|p2a: Mufasa
+|-heal|p2a: Mufasa|100/100
+|move|p1a: Toxapex|Toxic|p2a: Mufasa
+|-status|p2a: Mufasa|tox
+|
+|-heal|p1a: Toxapex|65/100 brn|[from] item: Black Sludge
+|-damage|p2a: Mufasa|94/100 tox|[from] psn
+|-damage|p1a: Toxapex|59/100 brn|[from] brn
+|upkeep
+|turn|23
+
+|
+|move|p2a: Mufasa|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100 brn
+|move|p1a: Toxapex|Infestation|p2a: Mufasa
+|-resisted|p2a: Mufasa
+|-damage|p2a: Mufasa|92/100 tox
+|-activate|p2a: Mufasa|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|48/100 brn|[from] item: Black Sludge
+|-damage|p2a: Mufasa|80/100 tox|[from] psn
+|-damage|p1a: Toxapex|42/100 brn|[from] brn
+|-damage|p2a: Mufasa|68/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|24
+
+|
+|move|p2a: Mufasa|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|24/100 brn
+|-unboost|p1a: Toxapex|def|1
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|74/100 brn
+|
+|-heal|p1a: Toxapex|80/100 brn|[from] item: Black Sludge
+|-damage|p2a: Mufasa|49/100 tox|[from] psn
+|-damage|p1a: Toxapex|74/100 brn|[from] brn
+|-damage|p2a: Mufasa|37/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|25
+
+|
+|move|p2a: Mufasa|Crunch|p1a: Toxapex
+|-damage|p1a: Toxapex|50/100 brn
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|99/100 brn
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Mufasa|12/100 tox|[from] psn
+|-damage|p1a: Toxapex|95/100 brn|[from] brn
+|-damage|p2a: Mufasa|0 fnt|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|faint|p2a: Mufasa
+
+|
+|switch|p2a: Bolt|Jolteon, M|88/100
+|-damage|p2a: Bolt|75/100|[from] Stealth Rock
+|-item|p2a: Bolt|Air Balloon
+|turn|26
+
+|
+|move|p2a: Bolt|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|35/100 brn
+|move|p1a: Toxapex|Scald|p2a: Bolt
+|-damage|p2a: Bolt|52/100
+|-enditem|p2a: Bolt|Air Balloon
+|
+|-heal|p1a: Toxapex|41/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|35/100 brn|[from] brn
+|upkeep
+|turn|27
+
+|
+|switch|p1a: Zygarde|Zygarde|100/100
+|-damage|p1a: Zygarde|94/100|[from] Stealth Rock
+|-ability|p1a: Zygarde|Aura Break
+|move|p2a: Bolt|Thunderbolt|p1a: Zygarde
+|-immune|p1a: Zygarde|[msg]
+|
+|-heal|p1a: Zygarde|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+
+|
+|move|p2a: Bolt|Hidden Power|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-damage|p1a: Zygarde|30/100
+|move|p1a: Zygarde|Thousand Arrows|p2a: Bolt
+|-supereffective|p2a: Bolt
+|-damage|p2a: Bolt|0 fnt
+|faint|p2a: Bolt
+|
+|win|The Yeet King

@@ -1,0 +1,340 @@
+|init|battle
+|title|thatdude9795 vs. personkool
+|j|☆thatdude9795
+|j|☆personkool
+|player|p1|thatdude9795|196
+|player|p2|personkool|264
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] UU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lycanroc, F|item
+|poke|p1|Crawdaunt, F|item
+|poke|p1|Roserade, M|item
+|poke|p1|Machoke, M|item
+|poke|p1|Aerodactyl, M|item
+|poke|p1|Gligar, F|item
+|poke|p2|Manectric, M|item
+|poke|p2|Crobat, M|item
+|poke|p2|Crawdaunt, F|item
+|poke|p2|Umbreon, M|item
+|poke|p2|Klefki, F|item
+|poke|p2|Swampert, F|item
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by personkool)
+|
+|start
+|switch|p1a: Gligar|Gligar, F, shiny|100/100
+|switch|p2a: Swampert|Swampert, F|100/100
+|turn|1
+|
+|move|p1a: Gligar|Stealth Rock|p2a: Swampert
+|-sidestart|p2: personkool|move: Stealth Rock
+|move|p2a: Swampert|Stealth Rock|p1a: Gligar
+|-sidestart|p1: thatdude9795|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Gligar|Swords Dance|p1a: Gligar
+|-boost|p1a: Gligar|atk|2
+|move|p2a: Swampert|Scald|p1a: Gligar
+|-supereffective|p1a: Gligar
+|-damage|p1a: Gligar|57/100
+|-status|p1a: Gligar|brn
+|
+|-damage|p1a: Gligar|51/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Gligar|U-turn|p2a: Swampert
+|-damage|p2a: Swampert|87/100
+|
+|switch|p1a: Roserade|Roserade, M, shiny|100/100
+|-damage|p1a: Roserade|88/100|[from] Stealth Rock
+|move|p2a: Swampert|Scald|p1a: Roserade
+|-resisted|p1a: Roserade
+|-damage|p1a: Roserade|74/100
+|-status|p1a: Roserade|brn
+|
+|-heal|p2a: Swampert|93/100|[from] item: Leftovers
+|-damage|p1a: Roserade|68/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|personkool has 135 seconds left.
+|
+|switch|p2a: Crobat|Crobat, M|100/100
+|-damage|p2a: Crobat|76/100|[from] Stealth Rock
+|move|p1a: Roserade|Energy Ball|p2a: Crobat
+|-resisted|p2a: Crobat
+|-damage|p2a: Crobat|63/100
+|
+|-heal|p2a: Crobat|69/100|[from] item: Black Sludge
+|-damage|p1a: Roserade|62/100 brn|[from] brn
+|upkeep
+|turn|5
+
+|
+|switch|p1a: Lycanroc|Lycanroc, F, shiny|100/100
+|-damage|p1a: Lycanroc|88/100|[from] Stealth Rock
+|move|p2a: Crobat|Super Fang|p1a: Lycanroc
+|-damage|p1a: Lycanroc|44/100
+|
+|-heal|p2a: Crobat|75/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+
+|
+|switch|p2a: Swampert|Swampert, F|93/100
+|-damage|p2a: Swampert|87/100|[from] Stealth Rock
+|move|p1a: Lycanroc|Accelerock|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|80/100
+|
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|7
+
+|
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|move|p2a: Swampert|Earthquake|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|25/100
+|
+|-heal|p2a: Swampert|93/100|[from] item: Leftovers
+|upkeep
+|turn|8
+
+|
+|move|p1a: Crawdaunt|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|31/100
+|-enditem|p2a: Swampert|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|15/100|[from] item: Life Orb
+|move|p2a: Swampert|Earthquake|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+
+|
+|switch|p1a: Gligar|Gligar, F, shiny|51/100 brn
+|-damage|p1a: Gligar|39/100 brn|[from] Stealth Rock
+|turn|9
+
+|
+|switch|p2a: Umbreon|Umbreon, M, shiny|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|move|p1a: Gligar|Earthquake|p2a: Umbreon
+|-damage|p2a: Umbreon|73/100
+|
+|-heal|p2a: Umbreon|79/100|[from] item: Leftovers
+|-damage|p1a: Gligar|33/100 brn|[from] brn
+|upkeep
+|turn|10
+
+|inactive|thatdude9795 has 135 seconds left.
+
+|
+|move|p1a: Gligar|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|64/100
+
+|
+|switch|p1a: Machoke|Machoke, M|100/100
+|-damage|p1a: Machoke|94/100|[from] Stealth Rock
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|71/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|switch|p2a: Swampert|Swampert, F|31/100
+|-damage|p2a: Swampert|25/100|[from] Stealth Rock
+|move|p1a: Machoke|Bulk Up|p1a: Machoke
+|-boost|p1a: Machoke|atk|1
+|-boost|p1a: Machoke|def|1
+|
+|-heal|p2a: Swampert|79/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+|turn|12
+
+|
+|move|p2a: Swampert|Toxic|p1a: Machoke
+|-status|p1a: Machoke|tox
+|move|p1a: Machoke|Cross Chop|p2a: Swampert
+|-damage|p2a: Swampert|25/100
+|
+|-damage|p1a: Machoke|88/100 tox|[from] psn
+|upkeep
+|turn|13
+
+|inactive|thatdude9795 has 135 seconds left.
+
+|inactive|personkool has 135 seconds left.
+
+|
+|switch|p2a: Crobat|Crobat, M|75/100
+|-damage|p2a: Crobat|50/100|[from] Stealth Rock
+|move|p1a: Machoke|Rock Slide|p2a: Crobat
+|-supereffective|p2a: Crobat
+|-damage|p2a: Crobat|0 fnt
+|faint|p2a: Crobat
+|
+|-damage|p1a: Machoke|76/100 tox|[from] psn
+|upkeep
+
+|
+|switch|p2a: Klefki|Klefki, F|100/100
+|-damage|p2a: Klefki|95/100|[from] Stealth Rock
+|turn|14
+
+|inactive|personkool has 135 seconds left.
+
+|
+|move|p2a: Klefki|Foul Play|p1a: Machoke
+|-resisted|p1a: Machoke
+|-damage|p1a: Machoke|63/100 tox
+|move|p1a: Machoke|Knock Off|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|75/100
+|-enditem|p2a: Klefki|Leftovers|[from] move: Knock Off|[of] p1a: Machoke
+|
+|-damage|p1a: Machoke|45/100 tox|[from] psn
+|upkeep
+|turn|15
+
+|
+|move|p2a: Klefki|Spikes|p1a: Machoke
+|-sidestart|p1: thatdude9795|Spikes
+|move|p1a: Machoke|Rock Slide|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|59/100
+|
+|-damage|p1a: Machoke|21/100 tox|[from] psn
+|upkeep
+|turn|16
+
+|
+|move|p2a: Klefki|Spikes|p1a: Machoke
+|-sidestart|p1: thatdude9795|Spikes
+|move|p1a: Machoke|Cross Chop|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-damage|p1a: Machoke|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Machoke
+
+|inactive|personkool has 135 seconds left.
+
+|
+|switch|p2a: Manectric|Manectric, M|100/100
+|switch|p1a: Aerodactyl|Aerodactyl, M, shiny|100/100
+|-damage|p1a: Aerodactyl|76/100|[from] Stealth Rock
+|-damage|p2a: Manectric|88/100|[from] Stealth Rock
+|turn|17
+
+|
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, M, shiny
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|detailschange|p2a: Manectric|Manectric-Mega, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|move|p1a: Aerodactyl|Dragon Claw|p2a: Manectric
+|-damage|p2a: Manectric|50/100
+|move|p2a: Manectric|Volt Switch|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+
+|
+|switch|p2a: Umbreon|Umbreon, M, shiny|71/100
+|-damage|p2a: Umbreon|58/100|[from] Stealth Rock
+|
+|-heal|p2a: Umbreon|64/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p1a: Lycanroc|Lycanroc, F, shiny|44/100
+|-damage|p1a: Lycanroc|28/100|[from] Spikes
+|-damage|p1a: Lycanroc|16/100|[from] Stealth Rock
+|turn|18
+
+|inactive|thatdude9795 has 135 seconds left.
+
+|
+|move|p1a: Lycanroc|Drill Run|p2a: Umbreon
+|-damage|p2a: Umbreon|44/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|50/100|[from] item: Leftovers
+|upkeep
+|turn|19
+
+|
+|move|p1a: Lycanroc|Swords Dance|p1a: Lycanroc
+|-boost|p1a: Lycanroc|atk|2
+|move|p2a: Umbreon|Foul Play|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|-heal|p2a: Umbreon|100/100|[from] move: Wish|[wisher] Umbreon
+|upkeep
+
+|
+|switch|p1a: Roserade|Roserade, M, shiny|62/100 brn
+|-damage|p1a: Roserade|50/100 brn|[from] Stealth Rock
+|-damage|p1a: Roserade|33/100 brn|[from] Spikes
+|turn|20
+
+|
+|move|p1a: Roserade|Dazzling Gleam|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|72/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|78/100|[from] item: Leftovers
+|-damage|p1a: Roserade|27/100 brn|[from] brn
+|upkeep
+|turn|21
+
+|
+|move|p1a: Roserade|Dazzling Gleam|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|50/100
+|move|p2a: Umbreon|Foul Play|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|
+|-heal|p2a: Umbreon|99/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+
+|c|☆personkool|gg
+
+|
+|switch|p1a: Gligar|Gligar, F, shiny|33/100 brn
+|-damage|p1a: Gligar|21/100 brn|[from] Stealth Rock
+|turn|22
+
+|
+|move|p1a: Gligar|U-turn|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|85/100
+|move|p2a: Umbreon|Foul Play|p1a: Gligar
+|-damage|p1a: Gligar|0 fnt
+|faint|p1a: Gligar
+|
+|win|personkool

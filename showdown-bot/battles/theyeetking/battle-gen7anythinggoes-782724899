@@ -1,0 +1,301 @@
+|init|battle
+|title|H2owsome vs. The Yeet King
+|j|☆H2owsome
+|j|‽The Yeet King
+|player|p1|H2owsome|120
+|player|p2|The Yeet King|156
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|7
+|tier|[Gen 7] Anything Goes
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|clearpoke
+|poke|p1|Mismagius, M|item
+|poke|p1|Swampert, F|item
+|poke|p1|Haxorus, F|item
+|poke|p1|Incineroar, M|item
+|poke|p1|Nihilego|item
+|poke|p1|Primarina, M|item
+|poke|p2|Abomasnow, F|item
+|poke|p2|Kommo-o, M|item
+|poke|p2|Golisopod, F|item
+|poke|p2|Rotom-Heat|item
+|poke|p2|Empoleon, F|item
+|poke|p2|Golem, F|item
+|rule|HP Percentage Mod: HP is shown in percentages
+|teampreview
+|
+|start
+|switch|p1a: Bakugon|Swampert, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|turn|1
+|c|☆H2owsome|GL
+|c|☆H2owsome|HF
+
+|
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, F
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Bakugon|Hidden Power|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|44/100
+|move|p2a: Abomasnow|Earthquake|p1a: Bakugon
+|-damage|p1a: Bakugon|67/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Bakugon|61/100|[from] Hail
+|-heal|p1a: Bakugon|67/100|[from] item: Leftovers
+|upkeep
+|turn|2
+
+|j| 33Base
+
+|j| Thatdude9795
+
+|
+|switch|p2a: Golisopod|Golisopod, F, shiny|100/100
+|move|p1a: Bakugon|Hidden Power|p2a: Golisopod
+|-damage|p2a: Golisopod|82/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Golisopod|76/100|[from] Hail
+|-damage|p1a: Bakugon|61/100|[from] Hail
+|-heal|p1a: Bakugon|67/100|[from] item: Leftovers
+|upkeep
+|turn|3
+
+|
+|move|p2a: Golisopod|Leech Life|p1a: Bakugon
+|-crit|p1a: Bakugon
+|-damage|p1a: Bakugon|0 fnt
+|-heal|p2a: Golisopod|100/100|[from] drain|[of] p1a: Bakugon
+|-damage|p2a: Golisopod|91/100|[from] item: Life Orb
+|faint|p1a: Bakugon
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Golisopod|85/100|[from] Hail
+|upkeep
+
+|c|☆H2owsome|oof
+
+|c|☆H2owsome|that crit definitely mattered
+
+|
+|switch|p1a: Yo-kai Watch|Incineroar, M|100/100
+|-ability|p1a: Yo-kai Watch|Intimidate|boost
+|-unboost|p2a: Golisopod|atk|1
+|turn|4
+
+|
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Yo-kai Watch|Fake Out|p2a: Rotom
+|-damage|p2a: Rotom|87/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|80/100|[from] Hail
+|-damage|p1a: Yo-kai Watch|94/100|[from] Hail
+|upkeep
+|turn|5
+
+|
+|move|p2a: Rotom|Reflect|p2a: Rotom
+|-sidestart|p2: The Yeet King|Reflect
+|move|p1a: Yo-kai Watch|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|54/100
+|-enditem|p2a: Rotom|Light Clay|[from] move: Knock Off|[of] p1a: Yo-kai Watch
+|
+|-weather|none
+|upkeep
+|turn|6
+
+|
+|move|p2a: Rotom|Volt Switch|p1a: Yo-kai Watch
+|-damage|p1a: Yo-kai Watch|80/100
+
+|
+|switch|p2a: Golem|Golem, F|100/100
+|move|p1a: Yo-kai Watch|Knock Off|p2a: Golem
+|-damage|p2a: Golem|82/100
+|-enditem|p2a: Golem|Leftovers|[from] move: Knock Off|[of] p1a: Yo-kai Watch
+|
+|upkeep
+|turn|7
+
+|
+|move|p1a: Yo-kai Watch|U-turn|p2a: Golem
+|-damage|p2a: Golem|73/100
+
+|
+|switch|p1a: Beyblade|Mismagius, M|100/100
+|move|p2a: Golem|Stealth Rock|p1a: Beyblade
+|-sidestart|p1: H2owsome|move: Stealth Rock
+|
+|upkeep
+|turn|8
+
+|
+|switch|p2a: Rotom|Rotom-Heat|54/100
+|move|p1a: Beyblade|Hidden Power|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|22/100
+|
+|upkeep
+|turn|9
+
+|
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|move|p1a: Beyblade|Hidden Power|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|94/100
+|
+|-heal|p2a: Empoleon|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+
+|
+|-zpower|p1a: Beyblade
+|move|p1a: Beyblade|Gigavolt Havoc|p2a: Empoleon|[zeffect]
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|23/100
+|move|p2a: Empoleon|Knock Off|p1a: Beyblade
+|-supereffective|p1a: Beyblade
+|-damage|p1a: Beyblade|55/100
+|
+|-heal|p2a: Empoleon|29/100|[from] item: Leftovers
+|upkeep
+|turn|11
+
+|
+|move|p1a: Beyblade|Thunderbolt|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|upkeep
+
+|
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|12
+
+|
+|move|p1a: Beyblade|Dazzling Gleam|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-sideend|p2: The Yeet King|Reflect
+|upkeep
+
+|
+|switch|p2a: Abomasnow|Abomasnow-Mega, F|44/100
+|-weather|Hail|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|13
+
+|
+|move|p1a: Beyblade|Mystical Fire|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Beyblade|48/100|[from] Hail
+|upkeep
+
+|
+|switch|p2a: Golisopod|Golisopod, F, shiny|85/100
+|turn|14
+
+|
+|switch|p1a: Yo-kai Watch|Incineroar, M|80/100
+|-damage|p1a: Yo-kai Watch|55/100|[from] Stealth Rock
+|-ability|p1a: Yo-kai Watch|Intimidate|boost
+|-unboost|p2a: Golisopod|atk|1
+|move|p2a: Golisopod|Sucker Punch|p1a: Yo-kai Watch|[still]
+|-fail|p2a: Golisopod
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Golisopod|79/100|[from] Hail
+|-damage|p1a: Yo-kai Watch|49/100|[from] Hail
+|upkeep
+|turn|15
+
+|
+|switch|p2a: Rotom|Rotom-Heat|22/100
+|move|p1a: Yo-kai Watch|Fake Out|p2a: Rotom
+|-damage|p2a: Rotom|8/100
+|
+|-weather|Hail|[upkeep]
+|-damage|p2a: Rotom|1/100|[from] Hail
+|-damage|p1a: Yo-kai Watch|43/100|[from] Hail
+|upkeep
+|turn|16
+
+|
+|move|p2a: Rotom|Reflect|p2a: Rotom
+|-sidestart|p2: The Yeet King|Reflect
+|move|p1a: Yo-kai Watch|U-turn|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+
+|
+|switch|p1a: Zatch Bell|Primarina, M|100/100
+|-damage|p1a: Zatch Bell|88/100|[from] Stealth Rock
+|
+|-weather|Hail|[upkeep]
+|-damage|p1a: Zatch Bell|82/100|[from] Hail
+|-heal|p1a: Zatch Bell|88/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Golisopod|Golisopod, F, shiny|79/100
+|turn|17
+
+|
+|move|p2a: Golisopod|First Impression|p1a: Zatch Bell
+|-resisted|p1a: Zatch Bell
+|-damage|p1a: Zatch Bell|53/100
+|-damage|p2a: Golisopod|69/100|[from] item: Life Orb
+|move|p1a: Zatch Bell|Moonblast|p2a: Golisopod
+|-damage|p2a: Golisopod|8/100
+|-unboost|p2a: Golisopod|spa|1
+|-activate|p2a: Golisopod|ability: Emergency Exit
+
+|
+|switch|p2a: Golem|Golem, F|73/100
+|
+|-weather|none
+|-heal|p1a: Zatch Bell|59/100|[from] item: Leftovers
+|upkeep
+|turn|18
+
+|
+|move|p1a: Zatch Bell|Scald|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|-heal|p1a: Zatch Bell|65/100|[from] item: Leftovers
+|upkeep
+
+|
+|switch|p2a: Golisopod|Golisopod, F, shiny|8/100
+|turn|19
+
+|
+|move|p1a: Zatch Bell|Protect|p1a: Zatch Bell
+|-singleturn|p1a: Zatch Bell|Protect
+|move|p2a: Golisopod|First Impression|p1a: Zatch Bell
+|-activate|p1a: Zatch Bell|move: Protect
+|
+|-heal|p1a: Zatch Bell|71/100|[from] item: Leftovers
+|upkeep
+|turn|20
+
+|
+|move|p1a: Zatch Bell|Moonblast|p2a: Golisopod
+|-damage|p2a: Golisopod|0 fnt
+|faint|p2a: Golisopod
+|
+|win|H2owsome
