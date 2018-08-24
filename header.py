@@ -502,15 +502,19 @@ def create_wiki( username ):
     updated_index = index.content_md + '\n* [u/' + username + '](https://www.reddit.com/r/PokeVerseLeague/wiki/s2lps/'+username+')'
     index.edit(wiki_sort(updated_index))
 
-def roster_sprites(mons):
-  moncount = sum([1 if x != None else 0 for x in mons])
-  sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons]
-  finalimg = Image.new('RGBA', (130, 65), (0,0,0,0))
+def roster_sprites(mons, userid):
+  sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons if mon != None]
+  moncount = len(sprites)
+  sidecount = moncount - 6
+  finalimg = Image.new('RGBA', (130 + (0 if moncount==0 else (20 + 45*(moncount//3))), 65), (0,0,0,0))
   for i in range(moncount):
-    mon = mons[i]
+    mon = sprites[i]
     url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'.format(mon)
     monimg = Image.open(requests.get(url, stream=True).raw)
-    finalimg.paste(monimg, box=((i%3)*45, (i//3)*35))
+    if i < 6:
+      finalimg.paste(monimg, box=((i%3)*45, (i//3)*35))
+    else:
+      finalimg.paste(monimg, box=(150+45*((i-6)//2), 35*((i-6)%2)))
   finalimg.save('/root/badgebot/rosters/{}.png'.format(userid))
-  subprocess.call('/root/badgebot/git.sh')
+  #subprocess.call('/root/badgebot/git.sh')
 
