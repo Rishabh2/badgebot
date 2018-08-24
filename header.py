@@ -509,12 +509,14 @@ def roster_sprites(mons, userid):
   finalimg = Image.new('RGBA', (130 + (0 if moncount==0 else (20 + 45*(moncount//3))), 65), (0,0,0,0))
   for i in range(moncount):
     mon = sprites[i]
+    print(mon)
     url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'.format(mon)
     monimg = Image.open(requests.get(url, stream=True).raw)
     if i < 6:
       finalimg.paste(monimg, box=((i%3)*45, (i//3)*35))
     else:
       finalimg.paste(monimg, box=(150+45*((i-6)//2), 35*((i-6)%2)))
+      print((150+45*((i-6)//2), 35*((i-6)%2)))
   finalimg.save('/root/badgebot/rosters/{}.png'.format(userid))
   #subprocess.call('/root/badgebot/git.sh')
 
