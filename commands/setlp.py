@@ -33,12 +33,5 @@ async def setlp(message, args):
     cursor.execute('DELETE FROM betalp WHERE id=?', (message.author.id,))
   cursor.execute('INSERT INTO betalp (id, mon1, mon2, mon3, mon4, mon5, mon6) VALUES (?,?,?,?,?,?,?)', (message.author.id, *mons))
   connection.commit()
-  sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons]
-  finalimg = Image.new('RGBA', (130, 65), (0,0,0,0))
-  for i,mon in enumerate(sprites):
-    url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'.format(mon)
-    monimg = Image.open(requests.get(url, stream=True).raw)
-    finalimg.paste(monimg, box=((i%3)*45, (i//3)*35))
-  finalimg.save('/root/badgebot/rosters/{}.png'.format(message.author.id))
-  subprocess.call('/root/badgebot/git.sh')
+  roster_sprites(mons, message.author.id)
   await client.send_message(c, 'All Done!')
