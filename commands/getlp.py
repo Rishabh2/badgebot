@@ -20,6 +20,10 @@ async def getlp(message, args):
     msg = ', '.join([x for x in result[7:] if x!=None])
     if msg != '':
       embed.add_field(name="Sideboard",value=msg)
+    try:
+      embed.set_image(url=roster_url.format(user.id))
+    except:
+      pass
 
   await client.send_message(message.channel, embed=embed)
 # async def getlp(message, args):
