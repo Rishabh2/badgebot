@@ -505,7 +505,7 @@ def create_wiki( username ):
     index.edit(wiki_sort(updated_index))
 
 def roster_sprites(mons, userid, salt):
-  subprocess.call('/root/badgebot/roster.sh')
+  subprocess.call('/root/badgebot/roster.sh ' + userid, shell=True)
   sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons if mon != None]
   moncount = len(sprites)
   sidecount = moncount - 6
