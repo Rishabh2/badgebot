@@ -26,15 +26,15 @@ async def sideboard(message, args):
         newlp[i1], newlp[i2] = newlp[i2], newlp[i1]
         cursor.execute('UPDATE betalp SET ' + ', '.join(['mon'+str(i)+'=?' for i in range(1,11)]) + ' WHERE id=?', (*newlp, userid))
         connection.commit()
-        sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons]
-        finalimg = Image.new('RGBA', (130, 65), (0,0,0,0))
-        for i,mon in enumerate(sprites):
-          url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'.format(mon)
-          monimg = Image.open(requests.get(url, stream=True).raw)
-          finalimg.paste(monimg, box=((i%3)*45, (i//3)*35))
-        finalimg.save('/root/badgebot/rosters/{}.png'.format(userid))
-        subprocess.call('/root/badgebot/git.sh')
-        msg = 'Done'
+        # sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons]
+        # finalimg = Image.new('RGBA', (130, 65), (0,0,0,0))
+        # for i,mon in enumerate(sprites):
+        #   url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'.format(mon)
+        #   monimg = Image.open(requests.get(url, stream=True).raw)
+        #   finalimg.paste(monimg, box=((i%3)*45, (i//3)*35))
+        # finalimg.save('/root/badgebot/rosters/{}.png'.format(userid))
+        # subprocess.call('/root/badgebot/git.sh')
+        # msg = 'Done'
     else:
       msg = 'Usage: `!sideboard Pokemon` to add a pokemon, `!sideboard PokemonA PokemonB` to swap two pokemon on your roster'
   await client.send_message(message.channel, msg)
