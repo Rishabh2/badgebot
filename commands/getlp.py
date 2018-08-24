@@ -14,15 +14,16 @@ async def getlp(message, args):
   if result == None:
     msg = no_lp_message.format(discorduser_to_discordname(user))
     embed.add_field(name="No LP found",value=msg)
+    await client.send_message(message.channel, embed=embed)
   else:
     msg = ', '.join([x for x in result[1:7] if x!=None])
     embed.add_field(name="Main Roster",value=msg)
     msg = ', '.join([x for x in result[7:] if x!=None])
     if msg != '':
       embed.add_field(name="Sideboard",value=msg)
-    embed.set_image(url=roster_url.format(user.id))
+    await client.send_message(message.channel, embed=embed)
+    await client.send_file(message.channel, '/root/badgebot/rosters/{}.png'.format(user.id))
 
-  await client.send_message(message.channel, embed=embed)
 # async def getlp(message, args):
 #   user = getmention(message)
 #   if user == None:
