@@ -18,6 +18,7 @@ async def sideboard(message, args):
             connection.commit()
             newlp = list(result[1:11])
             newlp[i-1] = newmons[0]
+            await client.send_message(message.channel, 'Saving...')
             roster_sprites(newlp, userid, salt)
             msg = 'Done'
             break
@@ -32,6 +33,7 @@ async def sideboard(message, args):
           salt = ''.join(random.choice(ALPHABET) for i in range(16))
           cursor.execute('UPDATE betalp SET ' + ', '.join(['mon'+str(i)+'=?' for i in range(1,11)]) + ', salt=? WHERE id=?', (*newlp, salt, userid))
           connection.commit()
+          await client.send_message(message.channel, 'Saving...')
           roster_sprites(newlp, userid, salt)
           msg='Done'
       else:

@@ -34,5 +34,6 @@ async def setlp(message, args):
   salt = ''.join(random.choice(ALPHABET) for i in range(16))
   cursor.execute('INSERT INTO betalp (id, mon1, mon2, mon3, mon4, mon5, mon6, salt) VALUES (?,?,?,?,?,?,?, ?)', (message.author.id, *mons, salt))
   connection.commit()
+  await client.send_message(c, 'Saving...')
   roster_sprites(mons, message.author.id, salt)
   await client.send_message(c, 'All Done!')
