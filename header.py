@@ -501,3 +501,16 @@ def create_wiki( username ):
     index = subreddit.wiki['s2lps']
     updated_index = index.content_md + '\n* [u/' + username + '](https://www.reddit.com/r/PokeVerseLeague/wiki/s2lps/'+username+')'
     index.edit(wiki_sort(updated_index))
+
+def roster_sprites(mons):
+  moncount = sum([1 if x != None else 0 for x in mons])
+  sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons]
+  finalimg = Image.new('RGBA', (130, 65), (0,0,0,0))
+  for i in range(moncount):
+    mon = mons[i]
+    url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'.format(mon)
+    monimg = Image.open(requests.get(url, stream=True).raw)
+    finalimg.paste(monimg, box=((i%3)*45, (i//3)*35))
+  finalimg.save('/root/badgebot/rosters/{}.png'.format(userid))
+  subprocess.call('/root/badgebot/git.sh')
+
