@@ -35,7 +35,7 @@ async def info(message, args):
     if result != None:
       msg = ', '.join([x for x in result[1:7] if x!=None])
       embed.add_field(name="Main Roster",value=msg)
-      msg = ', '.join([x for x in result[7:] if x!=None])
+      msg = ', '.join([x for x in result[7:11] if x!=None])
       if msg != '':
         embed.add_field(name="Sideboard",value=msg)
 
