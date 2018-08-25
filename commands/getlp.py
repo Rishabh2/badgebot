@@ -18,9 +18,9 @@ async def getlp(message, args):
   else:
     embed.set_image(url=roster_url.format(user.id+'-'+result[-1])) #Get salted LP
     cursor.execute('SELECT badge FROM betabadges WHERE id=?', (user.id,))
-    badges = cursor.fetchall()
-    if len(result) > 0:
-      embed.add_field(name='Badges',value=' '.join([badge_ids[r[0]] for r in badges]), inline=False)
+    badgeresult = cursor.fetchall()
+    if len(badgeresult) > 0:
+      embed.add_field(name='Badges',value=' '.join([badge_ids[r[0]] for r in badgeresult]), inline=False)
 
     msg = ', '.join([x for x in result[1:7] if x!=None])
     embed.add_field(name="Main Roster",value=msg, inline=False)
