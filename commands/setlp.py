@@ -36,4 +36,6 @@ async def setlp(message, args):
   connection.commit()
   await client.send_message(c, 'Saving...')
   roster_sprites(mons, message.author.id, salt)
+  ch = find(lambda x: x.id == '482742805639331841', message.server.roles)
+  await client.add_role(message.author, ch)
   await client.send_message(c, 'All Done!')
