@@ -33,6 +33,12 @@ async def info(message, args):
     cursor.execute('SELECT * FROM betalp WHERE id=?', (user.id,))
     result = cursor.fetchone()
     if result != None:
+      cursor.execute('SELECT badge FROM betabadges WHERE id=?', (user.id,))
+      badgeresult = cursor.fetchall()
+      if len(badgeresult) > 0:
+        embed.add_field(name='Badges',value=' '.join([badge_ids[r[0]] for r in badgeresult]), inline=False)
+
+      embed.set_image(url=roster_url.format(user.id+'-'+result[-1])) #Get salted LP
       msg = ', '.join([x for x in result[1:7] if x!=None])
       embed.add_field(name="Main Roster",value=msg)
       msg = ', '.join([x for x in result[7:11] if x!=None])
