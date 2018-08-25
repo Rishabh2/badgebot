@@ -520,6 +520,7 @@ def roster_sprites(mons, userid, salt):
     else:
       finalimg.paste(monimg, box=(190+45*((i-6)//2), 35*((i-6)%2)))
       print((150+45*((i-6)//2), 35*((i-6)%2)))
-  finalimg.save('/root/badgebot/rosters/{}.png'.format(userid+'-'+salt))
-  #subprocess.call('/root/badgebot/git.sh')
+  filename ='/root/badgebot/rosters/{}.png'.format(userid+'-'+salt)
+  finalimg.save(filename)
+  subprocess.call(['/root/badgebot/git.sh', filename])
 
