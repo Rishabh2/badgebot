@@ -11,7 +11,7 @@ async def challenge(message, args):
     if result != None:
       msg = 'You have an open ' + result[0] + ' challenge'
     elif len(args) == 0:
-      msg = 'You have an open ' + result[0] + ' challenge'
+      msg = 'You do not have an active challenge'
     elif issingles(args):
       cursor.execute('INSERT INTO betachallenge (id, time, badge, status) VALUES (?,?,?,"O")', (userid, int(message.timestamp.timestamp()), args))
       connection.commit()
