@@ -142,40 +142,28 @@ commands = {
 swear=40
 
 gcreator = None
-gstart = None
 
 def gcreate(message):
   global gcreator
-  global gstart
-  if message.channel.id == '480933325759053854':
-    gcreator = message.author.id
-    gstart = message.timestamp
-  else:
-    gcreator = None
-    gstart = None
-
-def giveawaycheck(message):
-  if message.author.id not in [gcreator, giveawaybot]:
-    return False
-  if message.timestamp < gstart:
-    return False
-  if len(message.embeds) > 0:
-    return False
-  if message.pinned:
-    return False
-  return True
+  gcreator = message.author.id
 
 @client.event
 async def on_message(message):
-  if message.author.id == giveawaybot and ('Done!' in message.content or 'Alright,' in message.content) and message.channel.id == '480933325759053854' and gcreator != None and gstart != None:
-    await client.purge_from(message.channel, limit=50, check=giveawaycheck)
   if message.author.id == giveawaybot and len(message.embeds) > 0:
     await client.pin_message(message)
+    cursor.execute('INSERT INTO giveaways (id, gid) values (?,?)', (gcreator, message.id))
+    connection.commit()
   if message.author.id == giveawaybot and 'Congratulations' in message.content:
-    await asyncio.sleep(5)
+    await asyncio.sleep(1)
     pins = await client.pins_from(message.channel)
     for p in pins:
       if 'ENDED' in p.content:
+        cursor.execute('SELECT * from giveaways where gid=?', (p.id,))
+        result = cursor.fetchone()
+        cursor.execute('DELETE FROM giveaways where gid=?', (p.id,))
+        connection.commit()
+        if result != None:
+          await client.send_message(message.channel, 'From <@{}>'.format(result[0]))
         await client.unpin_message(p)
   if message.author.bot:
     return
