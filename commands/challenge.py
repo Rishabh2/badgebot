@@ -27,10 +27,11 @@ async def challenge(message, args):
     if result != None:
       msg = 'You have an open ' + result[0] + ' challenge'
    
-  #if the length of the message after !challenge is 0 it displays this message
+  #This section checks for a badge argument after !challenge and if none are found it gives the message 'you do not have an active challenge'
   
     elif len(args) == 0:
       msg = 'You do not have an active challenge'
+      
     
     #if there is a valid badge argument after !challenge and inserts it into the data base
     
