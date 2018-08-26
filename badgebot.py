@@ -40,7 +40,7 @@ def resetModules():
 
 
 async def reset(message, args):
-  if haspermission(message.author.id) and args == passwords.modpass:
+  if message.author.id == '242558859300831232':
     resetModules()
     await client.send_message(message.channel, 'Reset')
   else:
@@ -224,4 +224,6 @@ async def on_message(message):
     args = text[1:].split(maxsplit=1)
     if args[0].lower() in commands:
       await commands[args[0].lower()](message, args[1] if len(args) > 1 else '')
+
+os.chdir('/root/badgebot/')
 client.run(passwords.discordpass)

@@ -14,14 +14,23 @@ async def getlp(message, args):
   if result == None:
     msg = no_lp_message.format(discorduser_to_discordname(user))
     embed.add_field(name="No LP found",value=msg)
+    await client.send_message(message.channel, embed=embed)
   else:
-    msg = ', '.join([x for x in result[1:7] if x!=None])
-    embed.add_field(name="Main Roster",value=msg)
-    msg = ', '.join([x for x in result[7:] if x!=None])
-    if msg != '':
-      embed.add_field(name="Sideboard",value=msg)
+    embed.set_image(url=roster_url.format(user.id+'-'+result[-1])) #Get salted LP
+    cursor.execute('SELECT badge FROM betabadges WHERE id=?', (user.id,))
+    badgeresult = cursor.fetchall()
+    if len(badgeresult) > 0:
+      embed.add_field(name='Badges',value=' '.join([badge_ids[r[0]] for r in badgeresult]), inline=False)
 
-  await client.send_message(message.channel, embed=embed)
+    msg = ', '.join([x for x in result[1:7] if x!=None])
+    embed.add_field(name="Main Roster",value=msg, inline=False)
+    msg = ', '.join([x for x in result[7:11] if x!=None])
+    if msg != '':
+      embed.add_field(name="Sideboard",value=msg, inline=False)
+
+    await client.send_message(message.channel, embed=embed)
+    #await client.send_file(message.channel, '/root/badgebot/rosters/{}.png'.format(user.id))
+
 # async def getlp(message, args):
 #   user = getmention(message)
 #   if user == None:

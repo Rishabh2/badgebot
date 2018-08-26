@@ -14,6 +14,7 @@ import logging
 import os
 import pickle
 from PIL import Image
+import subprocess
 from io import BytesIO
 from apiclient.discovery import build
 from httplib2 import Http
@@ -207,8 +208,13 @@ singles_e4_embed=discord.Embed(title='Congratulations Challenger!',
 
      - PVL''')
 
+ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
 with open('/root/badgebot/monlist', 'rb') as fp:
   pokemon_list = pickle.load(fp)
+
+sprite_url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'
+roster_url = 'https://raw.githubusercontent.com/Rishabh2/badgebot/master/rosters/{}.png'
 
 connection = sqlite3.connect("/root/badgebot/userinfo.db")
 cursor = connection.cursor()
@@ -497,3 +503,24 @@ def create_wiki( username ):
     index = subreddit.wiki['s2lps']
     updated_index = index.content_md + '\n* [u/' + username + '](https://www.reddit.com/r/PokeVerseLeague/wiki/s2lps/'+username+')'
     index.edit(wiki_sort(updated_index))
+
+def roster_sprites(mons, userid, salt):
+  subprocess.call(['/root/badgebot/roster.sh' , userid])
+  sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons if mon != None]
+  moncount = len(sprites)
+  sidecount = moncount - 6
+  finalimg = Image.new('RGBA', (130 + (0 if sidecount<=0 else (100 + 45*(sidecount//3))), 65), (0,0,0,0))
+  for i in range(moncount):
+    mon = sprites[i]
+    print(mon)
+    url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'.format(mon)
+    monimg = Image.open(requests.get(url, stream=True).raw)
+    if i < 6:
+      finalimg.paste(monimg, box=((i%3)*45, (i//3)*35))
+    else:
+      finalimg.paste(monimg, box=(190+45*((i-6)//2), 35*((i-6)%2)))
+      print((150+45*((i-6)//2), 35*((i-6)%2)))
+  filename ='/root/badgebot/rosters/{}.png'.format(userid+'-'+salt)
+  finalimg.save(filename)
+  subprocess.call(['/root/badgebot/git.sh', filename])
+

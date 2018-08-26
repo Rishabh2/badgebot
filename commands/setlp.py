@@ -31,6 +31,11 @@ async def setlp(message, args):
   result = cursor.fetchone()
   if result != None:
     cursor.execute('DELETE FROM betalp WHERE id=?', (message.author.id,))
-  cursor.execute('INSERT INTO betalp (id, mon1, mon2, mon3, mon4, mon5, mon6) VALUES (?,?,?,?,?,?,?)', (message.author.id, *mons))
+  salt = ''.join(random.choice(ALPHABET) for i in range(16))
+  cursor.execute('INSERT INTO betalp (id, mon1, mon2, mon3, mon4, mon5, mon6, salt) VALUES (?,?,?,?,?,?,?,?)', (message.author.id, *mons, salt))
   connection.commit()
+  await client.send_message(c, 'Saving...')
+  roster_sprites(mons, message.author.id, salt)
+  ch = list(filter(lambda x: x.id == '482742805639331841', message.server.roles))[0]
+  await client.add_roles(message.author, ch)
   await client.send_message(c, 'All Done!')
