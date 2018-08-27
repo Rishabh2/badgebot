@@ -538,6 +538,6 @@ async def load_reminder(userid, msg, end, target, salt):
   await client.wait_until_ready()
   time = end - datetime.datetime.utcnow().timestamp()
   await asyncio.sleep(time)
-  await client.send_message(discord.Object(id=target), msg)
+  await client.send_message(discord.Object(id=target), '<@{}>: '.format(userid) + msg)
   cursor.execute('DELETE FROM reminders WHERE salt=?', (salt,))
   connection.commit()

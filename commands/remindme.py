@@ -1,6 +1,9 @@
 from header import *
 async def remindme(message, args):
   c = message.channel
+  if c.id != '481721487569453076':
+    await client.send_message(c, 'Please only use this command in <#481721487569453076>')
+    return
   await client.send_message(c, 'Type `cancel` to cancel')
   await client.send_message(c, 'What channel do you want to me be reminded in? If you do not respond with a valid channel, you will be reminded in this channel')
   resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
@@ -33,7 +36,7 @@ async def remindme(message, args):
     cursor.execute('INSERT INTO reminders (id, message, end, target, salt) VALUES (?,?,?,?,?)', (message.author.id, msg, finish, target, salt))
     connection.commit()
     await asyncio.sleep(time)
-    await client.send_message(discord.Object(id=target), msg)
+    await client.send_message(discord.Object(id=target), '<@{}>: '.format(message.author.id) + msg)
     cursor.execute('DELETE FROM reminders WHERE salt=?', (salt,))
     connection.commit()
 
