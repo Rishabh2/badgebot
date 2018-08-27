@@ -32,6 +32,7 @@ from commands.art import *
 from commands.setlp import *
 from commands.challenge import *
 from commands.sideboard import *
+from commands.remindme import *
 
 def resetModules():
   for mod in modules:
@@ -60,6 +61,7 @@ async def on_ready():
   print('------')
   resetModules()
   await client.change_presence(game=discord.Game(name='!help | Contact H2owsome if there is a problem'))
+
 
 modules = [
 'commands.addtsv',
@@ -93,7 +95,8 @@ modules = [
 'commands.art',
 'commands.setlp',
 'commands.challenge',
-'commands.sideboard'
+'commands.sideboard',
+'commands.remindme'
 ]
 
 commands = {
@@ -136,7 +139,8 @@ commands = {
   'art':art,
   'setlp':setlp,
   'challenge':challenge,
-  'sideboard':sideboard
+  'sideboard':sideboard,
+  'remindme':remindme
   }
 
 swear=40
@@ -214,4 +218,8 @@ async def on_message(message):
       await commands[args[0].lower()](message, args[1] if len(args) > 1 else '')
 
 os.chdir('/root/badgebot/')
+cursor.execute('SELECT * FROM reminders')
+result = cursor.fetchall()
+for r in result:
+  client.loop.create_task(load_reminder(*r))
 client.run(passwords.discordpass)
