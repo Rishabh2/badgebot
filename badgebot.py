@@ -147,10 +147,12 @@ swear=40
 
 async def gcreate(message):
   gcreator = message.author.id
-  resp = await client.wait_for_message(timeout=600, author=giveawaybot, check=lambda x: len(x.embeds) > 0)
+  print(gcreator)
+  resp = await client.wait_for_message(timeout=600, check=lambda x: x.author.id == giveawaybot and len(x.embeds) > 0)
+  print(resp)
   if resp != None:
-    await client.pin_message(message)
-    cursor.execute('INSERT INTO giveaways (id, gid) values (?,?)', (gcreator, message.id))
+    await client.pin_message(resp)
+    cursor.execute('INSERT INTO giveaways (id, gid) values (?,?)', (gcreator, resp.id))
     connection.commit()
 
 
@@ -210,7 +212,7 @@ async def on_message(message):
     text = message.content
 
   if text.lower().startswith('g!create') or text.lower().startswith('!gcreate'):
-    gcreate(message)
+    await gcreate(message)
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)
