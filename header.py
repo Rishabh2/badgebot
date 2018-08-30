@@ -528,9 +528,7 @@ def roster_sprites(mons, userid, salt):
 
 def time_parse_sec(time):
   try:
-    count = int(time[:-1])
-    char = time[-1]
-    return count * time_mult[char]
+    return sum([int(t[:-1]) * time_mult[t[-1]] for t in time.split()])
   except:
     return None
 
