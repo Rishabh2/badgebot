@@ -146,21 +146,20 @@ commands = {
 swear=40
 
 async def gcreate(message):
-  gcreator = message.author.id
-  print(gcreator)
-  resp = await client.wait_for_message(timeout=600, check=lambda x: x.author.id == giveawaybot and len(x.embeds) > 0)
-  print(resp)
-  if resp != None:
-    await client.pin_message(resp)
-    cursor.execute('INSERT INTO giveaways (id, gid) values (?,?)', (gcreator, resp.id))
-    connection.commit()
+  if message.server.id == '372042060913442818':
+    gcreator = message.author.id
+    resp = await client.wait_for_message(timeout=600, check=lambda x: x.author.id == giveawaybot and len(x.embeds) > 0)
+    if resp != None:
+      await client.pin_message(resp)
+      cursor.execute('INSERT INTO giveaways (id, gid) values (?,?)', (gcreator, resp.id))
+      connection.commit()
 
 
 
 @client.event
 async def on_message(message):
   if message.author.id == giveawaybot and 'Congratulations' in message.content:
-    await asyncio.sleep(1)
+    await asyncio.sleep(5)
     pins = await client.pins_from(message.channel)
     for p in pins:
       if 'ENDED' in p.content:
