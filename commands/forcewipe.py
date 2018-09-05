@@ -4,5 +4,6 @@ async def forcewipe(message, args):
     async for m in client.logs_from(message.channel, limit=int(args)):
       if not m.pinned:
         await client.delete_message(m)
+        await asyncio.sleep(0.5)
   else:
     await client.send_message(message.channel, no_permissions_message)
