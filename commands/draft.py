@@ -64,7 +64,7 @@ async def draft(message, args):
           }],
         'fields': 'userEnteredFormat.textFormat.strikethrough',
         'range': {
-          'sheetId': 161954080,
+          'sheetId': 819207331, #Double check when updating
           'startRowIndex': cellRow,
           'endRowIndex': cellRow+1,
           'startColumnIndex': i,
