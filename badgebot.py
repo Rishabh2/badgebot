@@ -148,7 +148,7 @@ swear=40
 async def gcreate(message):
   if message.server.id == '372042060913442818':
     gcreator = message.author.id
-    resp = await client.wait_for_message(timeout=600, check=lambda x: x.author.id == giveawaybot and len(x.embeds) > 0)
+    resp = await client.wait_for_message(timeout=600, channel=client.get_channel('480933325759053854'),check=lambda x: x.author.id == giveawaybot and '**G' in x.content)
     if resp != None:
       await client.pin_message(resp)
       cursor.execute('INSERT INTO giveaways (id, gid) values (?,?)', (gcreator, resp.id))
