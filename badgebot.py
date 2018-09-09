@@ -33,6 +33,7 @@ from commands.setlp import *
 from commands.challenge import *
 from commands.sideboard import *
 from commands.remindme import *
+from commands.propose import *
 
 def resetModules():
   for mod in modules:
@@ -96,7 +97,8 @@ modules = [
 'commands.setlp',
 'commands.challenge',
 'commands.sideboard',
-'commands.remindme'
+'commands.remindme',
+'commands.propose',
 ]
 
 commands = {
@@ -140,7 +142,8 @@ commands = {
   'setlp':setlp,
   'challenge':challenge,
   'sideboard':sideboard,
-  'remindme':remindme
+  'remindme':remindme,
+  'propose':propose,
   }
 
 swear=40

@@ -27,11 +27,17 @@ async def draft(message, args):
     return
 
   #Draft command for Dix's Draft
+  user = getmention(message)
+  if user == None:
+    userid = discorduser_to_id(message.author)
+  else:
+    userid = discorduser_to_id(user)
+
   sheet = '1ePBaCKTtmrTg_KJk6whnrw4ufsgISD5Ro6_4Nbg09gU'
   cursor.execute('SELECT position FROM dixdraft WHERE id=?', (userid,))
   result = cursor.fetchone()
   mon_col = TEAM_COLS[result[0]]
-  point_col = TEAM_COLS[result[0]]
+  point_col = POINT_COLS[result[0]]
   # Get all the cells of pokemon tiers
   tiers = service.spreadsheets().values().get(spreadsheetId=sheet, range='Tiers', majorDimension='COLUMNS').execute()
   values = tiers.get('values', [])
