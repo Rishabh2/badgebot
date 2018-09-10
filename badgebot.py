@@ -162,10 +162,11 @@ async def gcreate(message):
 @client.event
 async def on_message(message):
   if message.author.id == giveawaybot and 'Congratulations' in message.content:
-    await asyncio.sleep(5)
+    m = re.search(r'the \*\*(.*)\*\*', message.content)
+    prize = m.group(1)
     pins = await client.pins_from(message.channel)
     for p in pins:
-      if 'ENDED' in p.content:
+      if prize in p.embeds[0]['author']['name']:
         cursor.execute('SELECT * from giveaways where gid=?', (p.id,))
         result = cursor.fetchone()
         cursor.execute('DELETE FROM giveaways where gid=?', (p.id,))

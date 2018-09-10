@@ -32,6 +32,7 @@ async def draft(message, args):
     userid = discorduser_to_id(message.author)
   else:
     userid = discorduser_to_id(user)
+    args = args.split(maxsplit=1)[1]
 
   sheet = '1ePBaCKTtmrTg_KJk6whnrw4ufsgISD5Ro6_4Nbg09gU'
   cursor.execute('SELECT position FROM dixdraft WHERE id=?', (userid,))
