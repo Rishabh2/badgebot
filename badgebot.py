@@ -34,6 +34,9 @@ from commands.challenge import *
 from commands.sideboard import *
 from commands.remindme import *
 from commands.propose import *
+from commands.setbday import *
+from commands.getbday import *
+from commands.bdaylist import *
 
 def resetModules():
   for mod in modules:
@@ -99,6 +102,9 @@ modules = [
 'commands.sideboard',
 'commands.remindme',
 'commands.propose',
+'commands.getbday',
+'commands.setbday',
+'commands.bdaylist'
 ]
 
 commands = {
@@ -144,6 +150,9 @@ commands = {
   'sideboard':sideboard,
   'remindme':remindme,
   'propose':propose,
+  'getbday':getbday,
+  'setbday':setbday,
+  'bdaylist':bdaylist
   }
 
 swear=40
