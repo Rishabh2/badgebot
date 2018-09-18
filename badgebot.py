@@ -170,6 +170,8 @@ async def gcreate(message):
 
 @client.event
 async def on_message(message):
+  if message.author.id == '245963462952484864' and 'butthead' in message.content:
+    await client.send_message(message.channel, 'buttheat*')
   if message.author.id == giveawaybot and 'Congratulations' in message.content:
     m = re.search(r'the \*\*(.*)\*\*', message.content)
     prize = m.group(1)
