@@ -37,6 +37,7 @@ from commands.propose import *
 from commands.setbday import *
 from commands.getbday import *
 from commands.bdaylist import *
+from commands.settime import *
 
 def resetModules():
   for mod in modules:
@@ -104,7 +105,8 @@ modules = [
 'commands.propose',
 'commands.getbday',
 'commands.setbday',
-'commands.bdaylist'
+'commands.bdaylist',
+'commands.settime',
 ]
 
 commands = {
@@ -152,7 +154,8 @@ commands = {
   'propose':propose,
   'getbday':getbday,
   'setbday':setbday,
-  'bdaylist':bdaylist
+  'bdaylist':bdaylist,
+  'settime':settime,
   }
 
 swear=40
@@ -227,6 +230,10 @@ async def on_message(message):
 
   if text.lower().startswith('g!create') or text.lower().startswith('!gcreate'):
     await gcreate(message)
+  if text.lower().startswith('!bestpokemon'):
+    await client.send_message(message.channel, 'Pyukumuku')
+  if 'dix' in message.clean_content.lower():
+    await client.send_message(message.channel, '#DixForMod')
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)

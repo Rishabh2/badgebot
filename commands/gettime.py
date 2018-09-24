@@ -3,15 +3,16 @@ async def gettime(message, args):
   user = getmention(message)
   if user == None:
     if len(args) == 0:
-      user = message.author
-      name = discorduser_to_redditname(message.author)
+      name = message.author.id
     else:
-      name = args
+      name = args.lower()
   else:
-    name = discorduser_to_redditname(user)
-  if name == None:
-    msg = no_reddit_message.format(discorduser_to_discordname(user, client.get_server('372042060913442818')
-))
+    name = discorduser_to_id(user)
+  cursor.execute('SELECT offset FROM time WHERE id=?', (name,))
+  result = cursor.fetchone()
+  if result == None:
+    msg = 'There is no offset saved for that user/place'
   else:
-    msg = time_to_challenge(name)
+    offset = result[0]
+    msg = datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=offset))).strftime('%I:%M%p')
   await client.send_message(message.channel, msg)
