@@ -1,9 +1,11 @@
 from header import *
 async def info(message, args):
+  months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
   user = getmention(message)
   if user == None:
     user = message.author
   userid = discorduser_to_id(user)
+  #Id, FC, Url, Reddit, Swear, Coins, Month, Day
   cursor.execute(info_dump_str, (userid,))
   result = cursor.fetchone()
   if result == None:
@@ -14,8 +16,6 @@ async def info(message, args):
       embed.add_field(name='Friend Code', value=result[1])
     if result[2] != None:
       embed.set_thumbnail(url=result[2])
-    if result[3] != None:
-      embed.add_field(name='Reddit Username', value=result[3])
     if result[4] != None:
       embed.add_field(name='Swear Jar Triggers', value=result[4])
     else:
@@ -24,6 +24,8 @@ async def info(message, args):
       embed.add_field(name='PVL Coins', value=result[5])
     else:
       embed.add_field(name='PVL Coins', value=0)
+    if result[6] != None:
+      embed.add_field(name='Birthday', value=str(result[6]) + ' ' + months[result[7]])
     cursor.execute(tsv_select_str, (userid,))
     result = cursor.fetchall()
     if result != None and len(result) > 0:

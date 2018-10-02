@@ -1,7 +1,6 @@
 from header import *
 async def getbday(message, args):
   months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
-  days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
   user = getmention(message)
   if user == None:
     userid = discorduser_to_id(message.author)
