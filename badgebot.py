@@ -10,7 +10,6 @@ from commands.est import *
 from commands.getbadge import *
 from commands.getfc import *
 from commands.getlp import *
-from commands.getreddit import *
 from commands.gettime import *
 from commands.gettsv import *
 from commands.help import *
@@ -19,7 +18,6 @@ from commands.loss import *
 from commands.message import *
 from commands.retry import *
 from commands.setfc import *
-from commands.setreddit import *
 from commands.swearlist import *
 from commands.wipe import *
 from commands.getchallenge import *
@@ -28,7 +26,7 @@ from commands.coin import *
 from commands.forcewipe import *
 from commands.info import *
 from commands.draft import *
-from commands.art import *
+from commands.spooky import *
 from commands.setlp import *
 from commands.challenge import *
 from commands.sideboard import *
@@ -80,7 +78,6 @@ modules = [
 'commands.getbadge',
 'commands.getfc',
 'commands.getlp',
-'commands.getreddit',
 'commands.gettime',
 'commands.gettsv',
 'commands.help',
@@ -89,7 +86,6 @@ modules = [
 'commands.message',
 'commands.retry',
 'commands.setfc',
-'commands.setreddit',
 'commands.swearlist',
 'commands.wipe',
 'commands.time',
@@ -97,7 +93,7 @@ modules = [
 'commands.forcewipe',
 'commands.info',
 'commands.draft',
-'commands.art',
+'commands.spooky',
 'commands.setlp',
 'commands.challenge',
 'commands.sideboard',
@@ -114,8 +110,6 @@ commands = {
   'commands': help,
   'setfc': setfc,
   'getfc': getfc,
-  'getreddit': getreddit,
-  'setreddit': setreddit,
   'getlp': getlp,
   'getbadge': getbadge,
   'getbadges': getbadge,
@@ -146,7 +140,7 @@ commands = {
   'forcewipe': forcewipe,
   'info': info,
   'draft':draft,
-  'art':art,
+  'spooky':spooky,
   'setlp':setlp,
   'challenge':challenge,
   'sideboard':sideboard,
@@ -232,8 +226,6 @@ async def on_message(message):
     await gcreate(message)
   if text.lower().startswith('!bestpokemon'):
     await client.send_message(message.channel, 'Pyukumuku')
-  if 'dix' in message.clean_content.lower():
-    await client.send_message(message.channel, '#DixForMod')
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)
