@@ -26,6 +26,5 @@ async def gettsv(message, args):
         msg = ''
         server = message.server
         for result in results:
-          member = server.get_member(result[0])
-          msg += discorduser_to_discordname(member, message.server) + ' has that tsv in the game ' + result[1] + '\n'
+          msg += id_to_discordname(result[0], server) + ' has that tsv in the game ' + result[1] + '\n'
   await client.send_message(message.channel, msg)
