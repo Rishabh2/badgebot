@@ -1,5 +1,6 @@
 from header import *
 async def setbday(message, args):
+  args = args.upper()
   months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
   days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
   args = args.split()

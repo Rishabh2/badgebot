@@ -43,15 +43,6 @@ tsv_select_str = 'SELECT tsv, game FROM tsv WHERE id=?;'
 tsv_dump_str = 'SELECT * FROM tsv'
 
 
-reddit_insert_str = 'INSERT INTO userinfo (id, reddit) VALUES (?, ?);'
-
-reddit_select_str = 'SELECT reddit FROM userinfo WHERE id=?;'
-
-reddit_select_name_str = 'SELECT id FROM userinfo WHERE lower(reddit)=?;'
-
-reddit_update_str = 'UPDATE userinfo SET reddit=? WHERE id=?;'
-
-
 swear_insert_str = 'INSERT INTO userinfo (id,swears) VALUES (?, 1);'
 
 swear_select_str = 'SELECT swears FROM userinfo WHERE id=?;'
@@ -80,31 +71,7 @@ draft_select_str = 'SELECT conference, team FROM draft WHERE id=?;'
 draft_insert_str = 'INSERT INTO draft (id, conference, team) VALUES (?,?,?);'
 
 
-singles_types = ['grass', 'flying', 'poison', 'fairy', 'ice', 'normal', 'ground', 'rock']
-
-singles_leaders = ['Yuknessia', 'RoPr-Crusader', 'Zavtra13', 'hannyfish', 'TheRogueCookie', 'silent_sage93', '--Tort--', 'Esskido']
-
-singles_e4 = ['AgitatedDog', 'Lolzfool', 'dshmucker', 'SinkingWafers', 'thattimeyguy']
-
-singles_e4_channel = '451919255244505098'
-
-singles_channels = ['451919402280026162', '451919528436170754', '451919594224091136', '451919672938463255', '451919887066202113', '451920062434246656', '451920196848844810', '451920209226235914']
-
-doubles_types = ['electric', 'fairy', 'ground', 'normal', 'psychic', 'bug', 'fire', 'ghost']
-
-doubles_leaders = ['silent_sage93', 'hannyfish', 'dshmucker', 'H2owsome', 'anthonyprz29', 'PokemonStay', 's0apyjam', 'SinkingWafers']
-
-doubles_e4 = ['--Tort--', 'RoPr-Crusader', 'thattimeyguy', 'Zavtra13', 'Lolzfool']
-
-doubles_e4_channel = '455926712379768832'
-
-doubles_channels = ['456191512439685140', '455926804872429579', '455926861348995073', '455927300790157322', '455927335573520386', '455927379810975746', '455927398756777985', '455927412622884864']
-
 arcade_channel = '463817264752492574'
-
-facilities = ['tower', 'palace', 'factory', 'pyramid', 'arena', 'pike', 'dome']
-
-frontier_brains = ['KoheMaster133', 'H2owsome', 'SinkingWafers', 'Sceptistar', 'anthonyprz29', 'Sharbae', 'RoPr-Crusader']
 
 badge_ids = {
     'grasssingles':'<a:grasssingles:482073772535578655>',
@@ -117,67 +84,56 @@ badge_ids = {
     'flyingsingles':'<a:flyingsingles:482071987984793600>',
     }
 
-s_gym_flair = 'Singles Gym'
-
-s_e4champ_flair = 'Singles E4/C'
-
-d_gym_flair = 'Doubles Gym'
-
-d_e4champ_flair = 'Doubles E4/C'
-
-multi_flair = 'Multi Battle'
-
-fb_flair = 'Battle Frontier'
-
-win_flair = 'Victory'
-
-loss_flair = 'Defeat'
-
-challenge_flairs = [ s_gym_flair, s_e4champ_flair, d_gym_flair, d_e4champ_flair, multi_flair, fb_flair, win_flair, loss_flair ]
-
-singles_flairs = [ s_gym_flair, s_e4champ_flair ]
-
-singles_css = [ 'ChallengeBGL', 'ChallengeBE4C', 'Singles'+win_flair, 'Singles'+loss_flair ]
-
-doubles_flairs = [ d_gym_flair, d_e4champ_flair ]
-
-doubles_css = [ 'ChallengeIGL', 'ChallengeIE4C', 'Doubles'+win_flair, 'Doubles'+loss_flair ]
-
-finished_flairs = [ win_flair, loss_flair ]
-
-title_flairs = ['[b-gl]', '[b-e4/c]', '[i-gl]', '[i-e4/c]', '[fb]', '[mb]']
-
-challenge_css = [ 'ChallengeBGL', 'ChallengeIGL', 'ChallengeFB', 'ChallengeMulti' ]
-
 tag_err_reg = '@(.*)#(\d*)'
 
-showdown_battle_reg='(battle-gen7(.*?))":'
+badgebot_color = discord.Color(0x85bff8)
 
-time_limit_message = ">**Hello Challenger!** We are just as excited as you are about your next challenge, but as per the rules, at least 20 hours must pass between each of your challenges."
-
-multi_challenge_message = ">**Hello Challenger!** We're glad you're excited about your next challenge, but the rules state that you cannot have multiple challenges open at once. Please contact the gym leader you challenged to ensure that your previous challenge has closed before creating a new one."
-
-league_pass_message = ">**Hello Challenger!** Thank you for your interest in challenging the league! As per league rules, you must submit a League Pass before you can start taking challenges. Please read the WiKi for more information."
-
-league_pass_link = "[**Link to League Pass**]({})  \n"
-
-no_leader_message = "Please tag the Gym Leader you are battling in a comment"
-
-badgesheet_message = ">**Hello Challenger!** Your badgesheet has been created. Check it out [here](https://www.reddit.com/r/pokeverseleague/wiki/s2lps/{})"
+help_fc = discord.Embed(title='Your Friend Code', color=badgebot_color, description='First, set your Friend Code and IGN so we know who you are! You can even add a picture!')
+help_fc.set_footer(text="Please contact H2owsome with any questions.")
+help_fc.add_field(name='!setfc', value='Anything you put directly after the command will be recorded in badgebot as-is, including line breaks and any text formatting (italics, bold, etc) If you’d like to add a picture, upload the image to Discord with your !setfc message.')
 
 
-help_message = discord.Embed(title="Badgebot Commands", color=discord.Color(0x85bff8), description="Below is the documentation for the various badgebot commands.")
-help_message.set_footer(text="Please contact H2owsome with any questions.")
-help_message.add_field(name="Friends", value="Commands related to 3DS Friend Codes:\n!setFC Text - Sets your Friend Code to the specified Text\n!getFC/!getFC @User - Obtains your or the tagged user's FC")
-help_message.add_field(name="TSV", value="Commands related to your games' shiny values:\n!addTSV XXXX GameName\n!deleteTSV XXXX - Deletes all instances of a given TSV you own\n!getTSV - Obtains all users with a matching TSV\n!gettsv @User - Get the user's TSVs\n!dumpTSV - Lists all TSVs on the server")
-help_message.add_field(name="Reddit", value="Commands related to Reddit accounts:\n!setReddit Username - Links your discord and reddit accounts. *setReddit must be used before obtaining badges.*\n!getReddit @User - Obtains user's reddit account.\n!getLP @User - Obtains the tagged user's league pass.\n!getBadges @User - Obtains the tagged user's badges.\n*You may also provide a Reddit username to the above functions.*")
-help_message.add_field(name="Misc", value="!gettime - Obtains the amount of time until you may challenge.\n!est - Obtains the time in the EST timezone\n!time TimeZone - Obtains the time in the specified time zone.\n!calculate - Performs basic math calculations.\n!leaks - Toggles access to the #leaks-and-spoilers channel.\n!coin - Get a list of who has PVL coins\n!coin @User - check how many coins a user has\n", inline=True)
+help_time = discord.Embed(title='Your Time Zone', color=badgebot_color, description='Set your time zone to help coordinate with people around the world')
+help_time.set_footer(text="Please contact H2owsome with any questions.")
+help_time.add_field(name='!settime', value='`!settime #` Replace the # with your personal UTC offset (Look it up if you do not know what it is)')
 
-help_message_mod = discord.Embed(title="GLs/Mods only:", color=discord.Color(0x85bff8), description="These commands are for use with the official Gym Challenge.\nIf a command fails, do not repeatedly attempt to use it.")
-help_message_mod.set_footer(text="Please contact H2owsome with any questions.")
-help_message_mod.add_field(name="Commands", value="!badge @someone badgename - assigns a badge and autoflairs user's reddit post\n!loss @someone badgename - assings a loss and autoflairs user's reddit post\nretry @someone badgename - approves a retry\n!cancel @someone badgename - cancels someone's challengei\n!wipe - wipe your channel\nFor any of these commands, if someone has not registered their redditname, ask them to do so", inline=True)
+help_bday = discord.Embed(title='Your Birthday', color=badgebot_color, description='If you would like, you can share your birthday with the server')
+help_bday.set_footer(text='Please contact H2owsome with any questions.')
+help_bday.add_field(name='!setbday', value='`!setbday ## month` You must use this format for this command')
 
-invalid_command_message = 'There was a problem with that command, pm me for "!help" for a full list of commands with instructions'
+help_info = discord.Embed(title='Getting info about people', color=badgebot_color, description='These commands pull up the saved information of yourself/others')
+help_info.set_footer(text='Please contact H2owsome with any questions.')
+help_info.add_field(name='!getfc', value='`!getfc @someone` to pull up their FC')
+help_info.add_field(name='!getlp', value='`!getlp @someone` to pull up their LP')
+help_info.add_field(name='!gettime', value='`!gettime @someone` to pull up their time')
+help_info.add_field(name='!getbday', value='`!getbday @someone` to pull up their bday')
+help_info.add_field(name='!info', value='`!info @someone` to pull up their full info')
+
+help_lp = discord.Embed(title='Your League Pass', color=badgebot_color, description='Set up a League Pass to challenge to Gyms and other attractions')
+help_lp.set_footer(text='Please contact H2owsome with any questions.')
+help_lp.add_field(name='!setlp', value='Use this command in #bot-spam to being setting up your League Pass')
+help_lp.add_field(name='!sideboard', value='`!sideboard Pokemon` to add `Pokemon` to your League Pass. (Replace `Pokemon` with the Pokemon you want)')
+help_lp.add_field(name='!swap', value='`!swap PokemonA/PokemonB` to swap `PokemonA` and `PokemonB` on your League Pass')
+
+help_gym = discord.Embed(title='Challenge the Gyms', color=badgebot_color, description='All the info you need about challenging gyms')
+help_gym.set_footer(text='Please contact H2owsome with any questions.')
+help_gym.add_field(name='!challenge', value='`!challenge gymname` will submit a challenge and notify the gym leader. Examples include `!challenge fairygym` or `!challenge melemele`\nThe name of the gym you are challenging will match the name of the corresponding channel')
+help_gym.add_field(name='!challengetime', value='Tells you how much time you have remaining until you can challenge again. There is a 20 hour limit between challenges')
+
+help_tsv = discord.Embed(title='Your TSVs', color=badgebot_color, description='Register your TSVs and find matched for your eggs')
+help_tsv.set_footer(text='Please contact H2owsome with any questions.')
+help_tsv.add_field(name='!addtsv', value='`!addtsv #### Game Name` will add to your saved TSVs. `Game Name` can be anything that will identify the game')
+help_tsv.add_field(name='!gettsv', value='`!gettsv @someone` to pull up their TSVs\n`!gettsv ####` to see if anyone has a matching TSV')
+help_tsv.add_field(name='!dumptsv', value='Generates a text dump of every saved TSV')
+
+help_misc = discord.Embed(title='Miscellaneous Commands', color=badgebot_color, description='Miscellaneous Commands')
+help_misc.set_footer(text='Please contact H2owsome with any questions.')
+help_misc.add_field(name='!coin', value='`!coin @someone` to see how many PVL coins someone has')
+help_misc.add_field(name='!remindme', value='Set up a reminder that badgebot will ping you about')
+help_misc.add_field(name='!swearlist', value='`!swearlist @someone` to see how many times they have triggered the swear jar')
+help_misc.add_field(name='!leaks', value='Use `!leaks` to toggle access to the secret #leaks-and-spoilers channel')
+
+help_embeds = [help_fc, help_bday, help_info, help_lp, help_gym, help_tsv, help_misc]
 
 no_reddit_message = "{} does not have a registered reddit username."
 
@@ -229,8 +185,6 @@ subreddit = reddit.subreddit('PokeVerseLeague')
 
 client = discord.Client()
 
-season_start_date = datetime.datetime(2018, 6, 1) # June 1st 2018, LP limit
-
 time_mult = {'s':1, 'm':60, 'h':3600, 'd':86400}
 
 pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
@@ -264,76 +218,6 @@ service = build('sheets', 'v4', http=creds.authorize(Http()))
 
 
 
-def add_badge( username, badge ):
-  badgesheet = subreddit.wiki['s2lps/' + username]
-  badgesheetupdate = badgesheet.content_md.replace(badge+'no', badge)
-  badgesheet.edit(badgesheetupdate)
-  card = get_league_pass(username)
-  card.reply('Congrats on earning your ' + badge + ' badge!')
-  return replied(card)
-
-def approve_rematch( username ):
-  for submission in subreddit.mod.modqueue(only='submissions'):
-    if submission.author.name.lower() == username.lower():
-      submission.mod.approve()
-      for i, tf in enumerate(title_flairs):
-        if tf in submission.title.lower():
-          submission.mod.flair(text=challenge_flairs[i],css_class=challenge_css[i])
-      return True
-  return False
-
-def cancel_challenge(username, badge):
-  challenges = challenges_list(username, badge)
-  if len(challenges) > 0:
-    challenges[0].mod.flair(text='Removed', css_class='')
-    challenges[0].reply('Your challenge has been removed')
-    challenges[0].mod.remove()
-    return True
-  else:
-    return False
-
-def challenges_list(author, badge):
-  if isinstance(author, str):
-    author = reddit.redditor(author)
-  challenges = []
-  if issingles(badge):
-    challenges = list(filter(lambda x: x.subreddit == subreddit and x.link_flair_text in singles_flairs, author.submissions.new(limit=10)))
-  if isfrontier(badge):
-    challenges = list(filter(lambda x: x.subreddit == subreddit and x.link_flair_text == fb_flair, author.submissions.new(limit=10)))
-  if isdoubles(badge):
-    challenges = list(filter(lambda x: x.subreddit == subreddit and x.link_flair_text in doubles_flairs, author.submissions.new(limit=10)))
-  return challenges
-
-def flair_post( username, badge, flair ):
-  challenges = challenges_list(username, badge)
-  if len(challenges) > 0:
-    challenge = challenges[0]
-    if 'e4' in badge and flair=='Defeat':
-      losses = replied(challenge)
-      challenge.reply('This marks ' + str(losses) + ' loss(es) on your current run')
-      if losses < 3:
-        return True
-    challenge.mod.flair(text=flair, css_class=flair_to_css(badge, flair))
-    return True
-  return False
-
-def get_badges(username):
-  if username in ['me', 'my', 'your']:
-    return 'User is me'
-  elif wiki_exists(username):
-    return 'https://reddit.com/r/PokeVerseLeague/wiki/s2lps/'+username
-  else:
-    return 'User does not have a badge sheet'
-
-def get_league_pass(username):
-  if username in ['me', 'my', 'your']:
-    return 'User is me'
-  author = reddit.redditor(username)
-  for x in author.submissions.new(limit=100):
-    if x.subreddit == subreddit and x.link_flair_text  == 'League Pass' and replied(x)>0 and season_start_date < datetime.datetime.utcfromtimestamp(x.created_utc):
-      return x
-  return username + ' register your League Pass! Or face the wrath of  <@!103049236525887488>.'
-
 def getmention(message):
   return message.mentions[0] if len(message.mentions) > 0 else None
 
@@ -351,105 +235,14 @@ def coinpermission(user):
 )
   return discorduser_to_id(user) == '202380877349650432' or any([role.name=='Arcade Master' for role in user.roles]) if user != None else False
 
-def issingles(badge):
-  if badge == 'e4champsingles':
-    return True
-  for st in singles_types:
-    if badge == st + 'singles':
-      return True
-  return False
-
-def isfrontier(badge):
-  return badge in facilities
-
-def isdoubles(badge):
-  if badge == 'e4champdoubles':
-    return True
-  for dt in doubles_types:
-    if badge == dt + 'doubles':
-      return True
-  return False
-
-def isbadge(badge):
-  return issingles(badge) or isfrontier(badge) or isdoubles(badge)
-
-def flair_to_css(badge, flair):
-  if issingles(badge):
-    return 'Singles'+flair
-  if isdoubles(badge):
-    return 'Doubles'+flair
-  if isfrontier(badge):
-    return 'Frontier'+flair
-
-
-def ischallenge(title):
-  for word in title_flairs:
-    if word in title:
-      return True
-  return False
-
-
-def make_embed(text, url, user):
-  if text != None:
-    embed = discord.Embed(title=text)
-  else:
-    embed = discord.Embed()
-  embed.set_thumbnail(url=url)
-  return embed
-
-
-def replied(submission):
-  me = reddit.user.me()
-  return sum([1 if comment.author == me else 0 for comment in submission.comments])
-
 def swear_jar(message):
   return pf.is_profane(message.content)
-
-def tag_leader(submission):
-  if submission.link_flair_text == s_gym_flair:
-    return tag_leader_singles(submission.title.lower())
-  if submission.link_flair_text == fb_flair:
-    return tag_leader_frontier(submission.title.lower())
-  if submission.link_flair_text == d_gym_flair:
-    return tag_leader_doubles(submission.title.lower())
-  return None
-
-def tag_leader_singles(title):
-  for i, typ in enumerate(singles_types):
-    if typ in title:
-      return singles_leaders[i]
-  return None
-
-def tag_leader_doubles(title):
-  for i, typ in enumerate(doubles_types):
-    if typ in title:
-      return doubles_leaders[i]
-  return None
-
-def tag_leader_frontier(title):
-  for i, typ in enumerate(facilities):
-    if typ in title:
-      return frontier_brains[i]
-  return None
-
-
-
-def time_to_challenge(name):
-  author = reddit.redditor(name)
-  challenges = list(filter(lambda x: x.subreddit == subreddit and x.link_flair_text in challenge_flairs, author.submissions.new(limit=10)))
-  if len(challenges) > 0:
-    time_dif = datetime.datetime.utcnow() - datetime.datetime.fromtimestamp(challenges[0].created_utc)
-    since_20 = datetime.timedelta(hours=20) - time_dif
-    if since_20.days >= 0:
-      return name + ' can post a challenge in ' + ':'.join(str(since_20).split(':')[:2])
-  return name + ' is ready to post their next challenge!'
 
 def id_to_discorduser(discord_id, server):
   return server.get_member(discord_id)
 
 def id_to_discordname(discord_id, server):
   return discorduser_to_discordname( id_to_discorduser( discord_id, server ) )
-
 
 def redditname_to_discorduser(redditname, server):
   return id_to_discorduser( redditname_to_id( redditname ), server )
@@ -463,7 +256,6 @@ def redditname_to_id(redditname):
   if result == None or result[0] == None:
     return None
   return result[0]
-
 
 def discorduser_to_discordname(user):
   if user == None:
@@ -486,25 +278,6 @@ def id_to_redditname(discord_id):
 def discorduser_to_redditname(user):
   return id_to_redditname( discorduser_to_id( user ) )
 
-
-def wiki_exists( username ):
-  return ('[u/' + username.lower() + ']') in subreddit.wiki['s2lps'].content_md.lower()
-
-def wiki_sort( wiki_text ):
-  wiki_part = wiki_text.partition("#Season 2 LPs")
-  lines = wiki_part[2].split("\n")
-  lines.sort(key=lambda x: x.lower())
-  sted = "\n".join(lines)
-  return wiki_part[0] + wiki_part[1] + "\n" + sted
-
-def create_wiki( username ):
-  if not wiki_exists( username ):
-    template = subreddit.wiki['badges/base']
-    badgepass = template.content_md.replace('$$$$', username)
-    subreddit.wiki.create('s2lps/'+username, badgepass, reason='Assign Badge Pass')
-    index = subreddit.wiki['s2lps']
-    updated_index = index.content_md + '\n* [u/' + username + '](https://www.reddit.com/r/PokeVerseLeague/wiki/s2lps/'+username+')'
-    index.edit(wiki_sort(updated_index))
 
 def roster_sprites(mons, userid, salt):
   subprocess.call(['/root/badgebot/roster.sh' , userid])
