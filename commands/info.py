@@ -25,7 +25,7 @@ async def info(message, args):
     else:
       embed.add_field(name='PVL Coins', value=0)
     if result[6] != None:
-      embed.add_field(name='Birthday', value=str(result[6]) + ' ' + months[result[7]])
+      embed.add_field(name='Birthday', value=str(result[7]) + ' ' + months[result[6]])
     cursor.execute(tsv_select_str, (userid,))
     result = cursor.fetchall()
     if result != None and len(result) > 0:

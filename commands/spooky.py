@@ -3,7 +3,7 @@ async def spooky(message, args):
   userid=message.author.id
   if args == 'help':
     msg = 'Usage:\n`!spooky` - See your submitted art\n`!spooky link-to-art` or `!spooky embed-the-art-directly` - Submit art for the content\n`!spooky delete #` - Delete a submission, replace # with the number of the submission you want to delete'
-  elif len(args) == 0:
+  elif len(args) == 0 and len(message.attachments)==0:
     cursor.execute('SELECT number, link FROM spooky WHERE id=? ORDER BY number ASC', (userid,))
     result=cursor.fetchall()
     msg = 'Your submissions:\n' + '\n'.join([str(r[0])+': '+r[1] for r in result])

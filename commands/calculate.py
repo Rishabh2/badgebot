@@ -3,7 +3,7 @@ async def calculate(message, args):
   allowed_chars = '+-*/^0123456789.() '
   if all([c in allowed_chars for c in args]):
     try:
-      args = eval(args)
+      args = eval(args.replace('^', '**'))
     except:
       await client.send_message(message.channel, "Please check your syntax and try again")
       return
