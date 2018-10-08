@@ -227,7 +227,7 @@ async def on_message(message):
   if text.lower().startswith('!bestpokemon'):
     await client.send_message(message.channel, 'Pyukumuku')
   if text.lower().startswith('!leek'):
-    await client.send_message(message.channel, discord.Embed(color=discord.Color(0xbc614e)).set_image('https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/farfetchd.png'))
+    await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url='https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/farfetchd.png'))
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)
