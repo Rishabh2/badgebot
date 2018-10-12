@@ -205,7 +205,7 @@ async def on_message(message):
       if not any([role == give_role for role in message.author.roles]):
         await client.add_roles(message.author, give_role)
 
-      await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'! Get yourself to #bot-spam and start a giveaway using the command !gcreate. you filthy mouth trainer...)
+      await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'! Get yourself to #bot-spam and start a giveaway using the command !gcreate. you filthy mouth trainer...')
       cursor.execute(swear_select_str, (message.author.id,))
       result = cursor.fetchone()
       if result == None: # No info
