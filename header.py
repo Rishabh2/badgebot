@@ -87,53 +87,56 @@ badge_ids = {
 tag_err_reg = '@(.*)#(\d*)'
 
 badgebot_color = discord.Color(0x85bff8)
+badgebot_icon = 'https://images-ext-2.discordapp.net/external/8Z0dL7YbZmXqgEYPI06J7m4Ht1jpRb9PxwvlAIy66mU/%3Fsize%3D128/https/cdn.discordapp.com/avatars/368207908258709508/65eec358e20f26f99b3ecfcfd5d1cb5d.png'
 
-help_fc = discord.Embed(title='Your Friend Code', color=badgebot_color, description='First, set your Friend Code and IGN so we know who you are! You can even add a picture!')
-help_fc.set_footer(text="Please contact H2owsome with any questions.")
-help_fc.add_field(name='!setfc', value='Anything you put directly after the command will be recorded in badgebot as-is, including line breaks and any text formatting (italics, bold, etc) If you’d like to add a picture, upload the image to Discord with your !setfc message.')
-
-
-help_time = discord.Embed(title='Your Time Zone', color=badgebot_color, description='Set your time zone to help coordinate with people around the world')
-help_time.set_footer(text="Please contact H2owsome with any questions.")
-help_time.add_field(name='!settime', value='`!settime #` Replace the # with your personal UTC offset (Look it up if you do not know what it is)')
-
-help_bday = discord.Embed(title='Your Birthday', color=badgebot_color, description='If you would like, you can share your birthday with the server')
-help_bday.set_footer(text='Please contact H2owsome with any questions.')
-help_bday.add_field(name='!setbday', value='`!setbday ## month` You must use this format for this command')
+help_about = discord.Embed(title='About You', color=badgebot_color, description='Set your Friend Code and IGN, and other helpful information.')
+help_about.set_footer(text="Please contact H2owsome with any questions.")
+help_about.set_thumbnail(url=badgebot_icon)
+help_about.add_field(name='!setfc', value='Anything you put directly after the command will be recorded in badgebot as-is, including line breaks and any text formatting (italics, bold, etc) If you’d like to add a picture, upload the image to Discord with your !setfc message.')
+help_about.add_field(name='!settime', value='`!settime #` Replace the # with your personal UTC offset (Look it up if you do not know what it is)')
+help_about.add_field(name='!setbday', value='`!setbday ## month` You must use this format for this command')
 
 help_info = discord.Embed(title='Getting info about people', color=badgebot_color, description='These commands pull up the saved information of yourself/others')
 help_info.set_footer(text='Please contact H2owsome with any questions.')
+help_info.set_thumbnail(url=badgebot_icon)
 help_info.add_field(name='!getfc', value='`!getfc @someone` to pull up their FC')
 help_info.add_field(name='!getlp', value='`!getlp @someone` to pull up their LP')
+help_info.add_field(name='!getbadges', value='`!getbadges @someone` to pull up their badges')
 help_info.add_field(name='!gettime', value='`!gettime @someone` to pull up their time')
 help_info.add_field(name='!getbday', value='`!getbday @someone` to pull up their bday')
 help_info.add_field(name='!info', value='`!info @someone` to pull up their full info')
 
 help_lp = discord.Embed(title='Your League Pass', color=badgebot_color, description='Set up a League Pass to challenge to Gyms and other attractions')
 help_lp.set_footer(text='Please contact H2owsome with any questions.')
+help_lp.set_thumbnail(url=badgebot_icon)
 help_lp.add_field(name='!setlp', value='Use this command in #bot-spam to being setting up your League Pass')
 help_lp.add_field(name='!sideboard', value='`!sideboard Pokemon` to add `Pokemon` to your League Pass. (Replace `Pokemon` with the Pokemon you want)')
 help_lp.add_field(name='!swap', value='`!swap PokemonA/PokemonB` to swap `PokemonA` and `PokemonB` on your League Pass')
 
 help_gym = discord.Embed(title='Challenge the Gyms', color=badgebot_color, description='All the info you need about challenging gyms')
 help_gym.set_footer(text='Please contact H2owsome with any questions.')
+help_gym.set_thumbnail(url=badgebot_icon)
 help_gym.add_field(name='!challenge', value='`!challenge gymname` will submit a challenge and notify the gym leader. Examples include `!challenge fairygym` or `!challenge melemele`\nThe name of the gym you are challenging will match the name of the corresponding channel')
 help_gym.add_field(name='!challengetime', value='Tells you how much time you have remaining until you can challenge again. There is a 20 hour limit between challenges')
 
 help_tsv = discord.Embed(title='Your TSVs', color=badgebot_color, description='Register your TSVs and find matched for your eggs')
 help_tsv.set_footer(text='Please contact H2owsome with any questions.')
+help_tsv.set_thumbnail(url=badgebot_icon)
 help_tsv.add_field(name='!addtsv', value='`!addtsv #### Game Name` will add to your saved TSVs. `Game Name` can be anything that will identify the game')
 help_tsv.add_field(name='!gettsv', value='`!gettsv @someone` to pull up their TSVs\n`!gettsv ####` to see if anyone has a matching TSV')
 help_tsv.add_field(name='!dumptsv', value='Generates a text dump of every saved TSV')
 
 help_misc = discord.Embed(title='Miscellaneous Commands', color=badgebot_color, description='Miscellaneous Commands')
 help_misc.set_footer(text='Please contact H2owsome with any questions.')
+help_misc.set_thumbnail(url=badgebot_icon)
 help_misc.add_field(name='!coin', value='`!coin @someone` to see how many PVL coins someone has')
 help_misc.add_field(name='!remindme', value='Set up a reminder that badgebot will ping you about')
+help_misc.add_field(name='!gcreate', value='Start up a giveaway! (Please use command only in #bot-spam, and host the giveaway in #giveaways)')
 help_misc.add_field(name='!swearlist', value='`!swearlist @someone` to see how many times they have triggered the swear jar')
+help_misc.add_field(name='!calculate', value='A helpful calculator if you need to math on discord')
 help_misc.add_field(name='!leaks', value='Use `!leaks` to toggle access to the secret #leaks-and-spoilers channel')
 
-help_embeds = [help_fc, help_bday, help_info, help_lp, help_gym, help_tsv, help_misc]
+help_embeds = [help_about, help_info, help_lp, help_gym, help_tsv, help_misc]
 
 no_reddit_message = "{} does not have a registered reddit username."
 

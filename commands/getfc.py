@@ -24,5 +24,6 @@ async def getfc(message, args):
       msg = "Scepti's FC: " + result[0]
     await client.send_message(message.channel, msg)
   else:
-    await client.send_message(message.channel, embed=make_embed(result[0], result[1], user))
-
+    embed = discord.Embed(color=badgebot_color, title=result[0])
+    embed.set_thumbnail(url=result[1])
+    await client.send_message(message.channel, embed=embed)

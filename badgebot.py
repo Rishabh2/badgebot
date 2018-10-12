@@ -36,6 +36,7 @@ from commands.setbday import *
 from commands.getbday import *
 from commands.bdaylist import *
 from commands.settime import *
+from commands.swap import *
 
 def resetModules():
   for mod in modules:
@@ -103,6 +104,7 @@ modules = [
 'commands.setbday',
 'commands.bdaylist',
 'commands.settime',
+'commands.swap',
 ]
 
 commands = {
@@ -150,6 +152,7 @@ commands = {
   'setbday':setbday,
   'bdaylist':bdaylist,
   'settime':settime,
+  'swap':swap,
   }
 
 swear=40
