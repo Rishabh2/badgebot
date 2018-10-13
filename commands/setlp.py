@@ -1,5 +1,8 @@
 from header import *
 async def setlp(message, args):
+  if args.lower().strip() == 'help':
+    await client.send_message(message.channel, embed=help_lp)
+    return
   c = message.channel
   if c.id != '481721487569453076':
     await client.send_message(c, 'Please only use !setlp in the <#481721487569453076> channel')

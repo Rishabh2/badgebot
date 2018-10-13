@@ -1,5 +1,10 @@
 from header import *
 async def gettsv(message, args):
+  if args.lower().strip() == 'help':
+    await client.send_message(message.channel, embed=help_tsv)
+    return
+  msg = None
+  embed = None
   mentuser = getmention(message)
   if mentuser == None:
     user = message.author.id
@@ -17,6 +22,7 @@ async def gettsv(message, args):
   else:
     if len(args) != 4:
       msg = 'The tsv you are searching for must be exactly 4 characters'
+      embed = help_tsv
     else:
       cursor.execute(tsv_request_str, (args,))
       results = cursor.fetchall()
@@ -27,4 +33,4 @@ async def gettsv(message, args):
         server = message.server
         for result in results:
           msg += id_to_discordname(result[0], server) + ' has that tsv in the game ' + result[1] + '\n'
-  await client.send_message(message.channel, msg)
+  await client.send_message(message.channel, content=msg, embed=embed)

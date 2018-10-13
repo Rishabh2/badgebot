@@ -1,5 +1,8 @@
 from header import *
 async def info(message, args):
+  if args.lower().strip() == 'help':
+    await client.send_message(message.channel, embed=help_info)
+    return
   months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
   user = getmention(message)
   if user == None:

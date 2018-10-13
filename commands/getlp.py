@@ -1,5 +1,8 @@
 from header import *
 async def getlp(message, args):
+  if args.lower().strip() == 'help':
+    await client.send_message(message.channel, embed=help_info)
+    return
   user = getmention(message)
 
   if user == None:

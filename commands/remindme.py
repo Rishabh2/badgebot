@@ -1,5 +1,8 @@
 from header import *
 async def remindme(message, args):
+  if args.lower().strip() == 'help':
+    await client.send_message(message.channel, embed=help_misc)
+    return
   c = message.channel
   if c.id != '481721487569453076':
     await client.send_message(c, 'Please only use this command in <#481721487569453076>')

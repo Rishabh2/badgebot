@@ -124,6 +124,7 @@ help_tsv.set_footer(text='Please contact H2owsome with any questions.')
 help_tsv.set_thumbnail(url=badgebot_icon)
 help_tsv.add_field(name='!addtsv', value='`!addtsv #### Game Name` will add to your saved TSVs. `Game Name` can be anything that will identify the game')
 help_tsv.add_field(name='!gettsv', value='`!gettsv @someone` to pull up their TSVs\n`!gettsv ####` to see if anyone has a matching TSV')
+help_tsv.add_field(name='!deletetsv', value='`!deletetsv ####` to delete your saved TSV with value ####')
 help_tsv.add_field(name='!dumptsv', value='Generates a text dump of every saved TSV')
 
 help_misc = discord.Embed(title='Miscellaneous Commands', color=badgebot_color, description='Miscellaneous Commands')
@@ -133,6 +134,7 @@ help_misc.add_field(name='!coin', value='`!coin @someone` to see how many PVL co
 help_misc.add_field(name='!remindme', value='Set up a reminder that badgebot will ping you about')
 help_misc.add_field(name='!gcreate', value='Start up a giveaway! (Please use command only in #bot-spam, and host the giveaway in #giveaways)')
 help_misc.add_field(name='!swearlist', value='`!swearlist @someone` to see how many times they have triggered the swear jar')
+help_misc.add_field(name='!bdaylist', value='`!bdaylist` to see some upcoming birthdays')
 help_misc.add_field(name='!calculate', value='A helpful calculator if you need to math on discord')
 help_misc.add_field(name='!leaks', value='Use `!leaks` to toggle access to the secret #leaks-and-spoilers channel')
 

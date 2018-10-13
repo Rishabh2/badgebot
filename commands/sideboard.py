@@ -1,5 +1,8 @@
 from header import *
 async def sideboard(message, args):
+  if args.lower().strip() == 'help':
+    await client.send_message(message.channel, embed=help_lp)
+    return
   msg = None
   embed = None
   userid = message.author.id
