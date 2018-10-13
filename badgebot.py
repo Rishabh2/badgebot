@@ -231,6 +231,8 @@ async def on_message(message):
     await client.send_message(message.channel, 'Pyukumuku')
   if text.lower().startswith('!leek'):
     await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url='https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/farfetchd.png'))
+  if any([m.id=='213008672610189312' for m in message.mentions]):
+    await client.send_message(message.channel, 'Ponged!')
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)
