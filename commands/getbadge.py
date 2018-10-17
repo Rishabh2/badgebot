@@ -9,7 +9,7 @@ async def getbadge(message, args):
   user = getmention(message)
   if user == None:
     user = message.author
-  cursor.execute('SELECT badge FROM betabadges WHERE id=?', (user.id,))
+  cursor.execute(badge_select_str, (user.id,))
   result = cursor.fetchall()
   if len(result) == 0:
     msg = discorduser_to_discordname(user) + ' has no badges'

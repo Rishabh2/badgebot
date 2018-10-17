@@ -10,12 +10,12 @@ async def settime(message, args):
   name = message.author.id
   try:
     offset = int(args[0])
-    cursor.execute('SELECT offset FROM time WHERE id=?', (name,))
+    cursor.execute(time_select_str, (name,))
     result = cursor.fetchone()
     if result == None:
-      cursor.execute('INSERT INTO time (id, offset) VALUES (?,?)', (name, offset))
+      cursor.execute(time_insert_str, (name, offset))
     else:
-      cursor.execute('UPDATE time SET offset=? WHERE id=?', (offset, name))
+      cursor.execute(time_update_str, (offset, name))
     connection.commit()
     msg = 'Time offset saved'
   except:

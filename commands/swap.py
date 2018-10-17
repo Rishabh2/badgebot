@@ -6,7 +6,7 @@ async def swap(message, args):
   msg = None
   embed = None
   userid = message.author.id
-  cursor.execute('SELECT * from betalp WHERE id=?', (userid,))
+  cursor.execute(lp_select_str, (userid,))
   result = cursor.fetchone()
   if result == None:
     msg = 'You do not have a league pass. Register one with !setlp'

@@ -71,6 +71,48 @@ draft_select_str = 'SELECT conference, team FROM draft WHERE id=?;'
 draft_insert_str = 'INSERT INTO draft (id, conference, team) VALUES (?,?,?);'
 
 
+challenge_table = 's3challenge'
+
+open_challenge_badge_select_str = 'SELECT * FROM {} WHERE id=? AND badge=? AND status="O"'.format(challenge_table)
+
+open_challenge_select_str = 'SELECT * FROM {} WHERE id=? and status="O"'.format(challenge_table)
+
+challenge_str = 'INSERT INTO {} (id, opentime, badge, status) VALUES (?,?,?,"O")'.format(challenge_table)
+
+challenge_win_str = 'UPDATE {} SET status="W", closetime=? WHERE id=? AND badge=? AND status="O"'.format(challenge_table)
+
+challenge_loss_str = 'UPDATE {} SET status="L", closetime=? WHERE id=? AND badge=? AND status="O"'.format(challenge_table)
+
+challenge_cancel_str = 'UPDATE {} SET status="C", closetime=? WHERE id=? AND status="O"'.format(challenge_table)
+
+challenge_accept_str = 'UPDATE {} SET accepttime=? WHERE id=? AND badge=? AND status="O"'.format(challenge_table)
+
+badge_select_str = 'SELECT badge FROM {} WHERE id=? AND status="W"'.format(challenge_table)
+
+
+lp_table = 's3lp'
+
+select_lp_str = 'SELECT * FROM {} WHERE id=?'.format(lp_table)
+
+
+bday_dump_str = 'SELECT bdaymonth, bdayday, id FROM userinfo WHERE bdaymonth IS NOT NULL ORDER BY bdaymonth, bdayday ASC'
+
+bday_select_str = 'SELECT bdayday, bdaymonth FROM userinfo WHERE id=?'
+
+bday_insert_str = 'INSERT INTO userinfo (id, bdaymonth, bdayday) VALUES (?,?,?)'
+
+bday_update_str = 'UPDATE userinfo SET bdaymonth=?, bdayday=? WHERE id=?'
+
+time_select_str = 'SELECT offset FROM time WHERE id=?'
+
+time_insert_str = 'INSERT INTO time (id, offset) VALUES (?,?)'
+
+time_update_atr = 'UPDATE time SET offset=? WHERE id=?'
+
+months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
+days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+
 arcade_channel = '463817264752492574'
 
 badge_ids = {
@@ -116,7 +158,7 @@ help_lp.add_field(name='!swap', value='`!swap PokemonA/PokemonB` to swap `Pokemo
 help_gym = discord.Embed(title='Challenge the Gyms', color=badgebot_color, description='All the info you need about challenging gyms')
 help_gym.set_footer(text='Please contact H2owsome with any questions.')
 help_gym.set_thumbnail(url=badgebot_icon)
-help_gym.add_field(name='!challenge', value='`!challenge gymname` will submit a challenge and notify the gym leader. Examples include `!challenge fairygym` or `!challenge melemele`\nThe name of the gym you are challenging will match the name of the corresponding channel')
+help_gym.add_field(name='!challenge', value='`!challenge gymname` will submit a challenge and notify the gym leader. Examples include `!challenge fairygym` or `!challenge melemele`\nThe name of the gym you are challenging will match the name of the corresponding channel\nJust use `!challenge` to check if you have an open challenge')
 help_gym.add_field(name='!challengetime', value='Tells you how much time you have remaining until you can challenge again. There is a 20 hour limit between challenges')
 
 help_tsv = discord.Embed(title='Your TSVs', color=badgebot_color, description='Register your TSVs and find matched for your eggs')
@@ -317,3 +359,6 @@ async def load_reminder(userid, msg, end, target, salt):
   await client.send_message(discord.Object(id=target), '<@{}>: '.format(userid) + msg)
   cursor.execute('DELETE FROM reminders WHERE salt=?', (salt,))
   connection.commit()
+
+def isbadge(badge):
+  return badge in gym_types or badge in islands

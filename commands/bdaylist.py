@@ -1,8 +1,6 @@
 from header import *
 async def bdaylist(message, args):
-  #await client.send_message(message.channel, '<@293853774982938625> is gonna write this method')
-  months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
-  cursor.execute('SELECT bdaymonth, bdayday, id FROM userinfo WHERE bdaymonth IS NOT NULL ORDER BY bdaymonth, bdayday ASC')
+  cursor.execute(bday_dump_str)
   bdays = cursor.fetchall()
   current = datetime.date.today()
   current = (current.month-1, current.day)

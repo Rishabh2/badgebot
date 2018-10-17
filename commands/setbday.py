@@ -6,8 +6,6 @@ async def setbday(message, args):
   msg = None
   embed = None
   args = args.upper()
-  months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
-  days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
   args = args.split()
   if len(args) != 2:
     embed = help_about
@@ -21,12 +19,12 @@ async def setbday(message, args):
     user = message.author.id
     month = months.index(args[1][:3])
     day = int(args[0])
-    cursor.execute('SELECT bdayday FROM userinfo WHERE id=?', (user,))
+    cursor.execute(bday_select_str, (user,))
     result = cursor.fetchone()
     if result == None:
-      cursor.execute('INSERT INTO userinfo (id, bdaymonth, bdayday) VALUES (?,?,?)', (user, month, day))
+      cursor.execute(bday_insert_str, (user, month, day))
     else:
-      cursor.execute('UPDATE userinfo SET bdaymonth=?, bdayday=? WHERE id=?', (month, day, user))
+      cursor.execute(bday_update_str, (month, day, user))
     connection.commit()
     msg = 'Bday set'
   await client.send_message(message.channel, content=msg, embed=embed)

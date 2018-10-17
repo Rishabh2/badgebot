@@ -11,7 +11,7 @@ async def gettime(message, args):
       name = args.lower()
   else:
     name = discorduser_to_id(user)
-  cursor.execute('SELECT offset FROM time WHERE id=?', (name,))
+  cursor.execute(time_select_str, (name,))
   result = cursor.fetchone()
   if result == None:
     msg = 'There is no offset saved for that user/place'

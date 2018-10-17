@@ -16,11 +16,9 @@ from commands.help import *
 from commands.leaks import *
 from commands.loss import *
 from commands.message import *
-from commands.retry import *
 from commands.setfc import *
 from commands.swearlist import *
 from commands.wipe import *
-from commands.getchallenge import *
 from commands.time import *
 from commands.coin import *
 from commands.forcewipe import *
@@ -37,6 +35,7 @@ from commands.getbday import *
 from commands.bdaylist import *
 from commands.settime import *
 from commands.swap import *
+from commands.accept import *
 
 def resetModules():
   for mod in modules:
@@ -85,7 +84,6 @@ modules = [
 'commands.leaks',
 'commands.loss',
 'commands.message',
-'commands.retry',
 'commands.setfc',
 'commands.swearlist',
 'commands.wipe',
@@ -105,6 +103,7 @@ modules = [
 'commands.bdaylist',
 'commands.settime',
 'commands.swap',
+'commands.accept',
 ]
 
 commands = {
@@ -123,7 +122,6 @@ commands = {
   'badge': badge,
   'win': badge,
   'loss': loss,
-  'retry': retry,
   'cancel': cancel,
   'gettime': gettime,
   'getime': gettime,
@@ -134,7 +132,6 @@ commands = {
   'wipe': wipe,
   'reset': reset,
   'leaks': leaks,
-  'getchallenge': getchallenge,
   'time': time,
   'coin': coin,
   'coins': coin,
@@ -153,6 +150,7 @@ commands = {
   'bdaylist':bdaylist,
   'settime':settime,
   'swap':swap,
+  'accept':accept,
   }
 
 swear=40

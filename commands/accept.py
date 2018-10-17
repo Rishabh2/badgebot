@@ -1,5 +1,5 @@
 from header import *
-async def loss(message, args):
+async def accept(message, args):
   if haspermission(message.author):
     user = getmention(message)
     badge = args.split(maxsplit=1)[1]
@@ -8,8 +8,8 @@ async def loss(message, args):
     if result == None:
       await client.send_message(message.channel, 'User does not have a matching challenge')
       return
-    cursor.execute(challenge_loss_str, (int(message.timestamp.timestamp()), user.id, badge))
+    cursor.execute(challenge_accept_str, (int(message.timestamp.timestamp()), user.id, badge))
     connection.commit()
-    await client.send_message(message.channel, 'Assigned loss to ' + discorduser_to_discordname(getmention(message)))
+    await client.send_message(message.channel, 'Accepted challenge of ' + discorduser_to_discordname(getmention(message)))
   else:
     await client.send_message(message.channel, no_permissions_message)
