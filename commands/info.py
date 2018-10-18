@@ -3,7 +3,6 @@ async def info(message, args):
   if args.lower().strip() == 'help':
     await client.send_message(message.channel, embed=help_info)
     return
-  months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
   user = getmention(message)
   if user == None:
     user = message.author
@@ -35,18 +34,19 @@ async def info(message, args):
       for pair in result:
         embed.add_field(name='TSV: '+pair[0], value=pair[1])
 
-    cursor.execute('SELECT * FROM betalp WHERE id=?', (user.id,))
+    cursor.execute(lp_select_str, (user.id,))
     result = cursor.fetchone()
     if result != None:
-      cursor.execute('SELECT badge FROM betabadges WHERE id=?', (user.id,))
+      cursor.execute(badge_select_str, (user.id,))
       badgeresult = cursor.fetchall()
       if len(badgeresult) > 0:
         embed.add_field(name='Badges',value=' '.join([badge_ids[r[0]] for r in badgeresult]), inline=False)
 
       embed.set_image(url=roster_url.format(user.id+'-'+result[-1])) #Get salted LP
-      msg = ', '.join([x for x in result[1:7] if x!=None])
+      mons = result[1].split(',')
+      msg = ', '.join([x for x in mons[:6] if x!=None])
       embed.add_field(name="Main Roster",value=msg)
-      msg = ', '.join([x for x in result[7:11] if x!=None])
+      msg = ', '.join([x for x in mons[6:] if x!=None])
       if msg != '':
         embed.add_field(name="Sideboard",value=msg)
 

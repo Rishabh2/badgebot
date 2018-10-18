@@ -89,10 +89,16 @@ challenge_accept_str = 'UPDATE {} SET accepttime=? WHERE id=? AND badge=? AND st
 
 badge_select_str = 'SELECT badge FROM {} WHERE id=? AND status="W"'.format(challenge_table)
 
+badge_reset_str = 'UPDATE {} SET status=status+"D" WHERE id=?'.format(challenge_table)
+
 
 lp_table = 's3lp'
 
-select_lp_str = 'SELECT * FROM {} WHERE id=?'.format(lp_table)
+lp_select_str = 'SELECT * FROM {} WHERE id=?'.format(lp_table)
+
+lp_delete_str = 'DELETE FROM {} WHERE id=?'.format(lp_table)
+
+lp_update_str = 'UPDATE {} SET mons=?, salt=? WHERE id=?'.format(lp_table)
 
 
 bday_dump_str = 'SELECT bdaymonth, bdayday, id FROM userinfo WHERE bdaymonth IS NOT NULL ORDER BY bdaymonth, bdayday ASC'

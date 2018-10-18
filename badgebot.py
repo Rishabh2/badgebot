@@ -226,7 +226,9 @@ async def on_message(message):
   if text.lower().startswith('g!create') or text.lower().startswith('!gcreate'):
     await gcreate(message)
   if text.lower().startswith('!bestpokemon'):
-    await client.send_message(message.channel, 'Pyukumuku')
+    await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url='https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/pyukumuku.png'))
+  if text.lower().startswith('!cutestpokemon'):
+    await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url='https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/ralts.png'))
   if text.lower().startswith('!leek'):
     await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url='https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/farfetchd.png'))
   if any([m.id=='213008672610189312' for m in message.mentions]):

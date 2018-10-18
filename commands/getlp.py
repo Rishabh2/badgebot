@@ -25,9 +25,10 @@ async def getlp(message, args):
     if len(badgeresult) > 0:
       embed.add_field(name='Badges',value=' '.join([badge_ids[r[0]] for r in badgeresult]), inline=False)
 
-    msg = ', '.join([x for x in result[1:7] if x!=None])
+    mons = result[1].split(',')
+    msg = ', '.join([x for x in mons[:6]])
     embed.add_field(name="Main Roster",value=msg, inline=False)
-    msg = ', '.join([x for x in result[7:11] if x!=None])
+    msg = ', '.join([x for x in mons[6:]])
     if msg != '':
       embed.add_field(name="Sideboard",value=msg, inline=False)
 

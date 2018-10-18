@@ -16,10 +16,10 @@ async def sideboard(message, args):
     for i, mon in enumerate(result):
       if mon == None:
         salt = ''.join(random.choice(ALPHABET) for i in range(16))
-        cursor.execute('UPDATE betalp SET mon'+str(i)+'=?, salt=? WHERE id=?', (args, salt, userid))
+        newlp = result[1]+','+args
+        cursor.execute(lp_update_str, (newlp, salt, userid))
         connection.commit()
-        newlp = list(result[1:11])
-        newlp[i-1] = args
+        newlp = newlp.split(',')
         await client.send_message(message.channel, 'Saving...')
         roster_sprites(newlp, userid, salt)
         msg = 'Done'

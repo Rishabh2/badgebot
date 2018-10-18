@@ -17,18 +17,19 @@ async def swap(message, args):
       msg = 'One or more of those is not a Pokemon I recognize.'
       embed=help_lp
     elif len(newmons) == 2: #Swap position of two mons
-      if newmons[0] not in result or newmons[1] not in result:
+      mons = result[1]
+      m1 = newmons[0]
+      m2 = newmons[1]
+      if m1 not in mons or m2 not in mons:
         msg = 'One or more of those is not a Pokemon on your LP'
         embed=help_lp
       else:
-        i1 = result.index(newmons[0]) - 1
-        i2 = result.index(newmons[1]) - 1
-        newlp = list(result[1:11])
-        newlp[i1], newlp[i2] = newlp[i2], newlp[i1]
         salt = ''.join(random.choice(ALPHABET) for i in range(16))
-        cursor.execute('UPDATE betalp SET ' + ', '.join(['mon'+str(i)+'=?' for i in range(1,11)]) + ', salt=? WHERE id=?', (*newlp, salt, userid))
+        newlp = mons.replace(m1,'PLACEHOLDER').replace(m2,m1).replace('PLACEHOLDER',m2)
+        cursor.execute(lp_update_str, (newlp, salt, userid))
         connection.commit()
         await client.send_message(message.channel, 'Saving...')
+        newlp = newlp.split(',')
         roster_sprites(newlp, userid, salt)
         msg='Done'
     else:
