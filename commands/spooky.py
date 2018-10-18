@@ -26,3 +26,5 @@ async def spooky(message, args):
       connection.commit()
       msg = 'Done'
   await client.send_message(message.channel, msg)
+
+# Don't mind me; just checking how pull requests work -- earplugs
