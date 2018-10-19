@@ -24,7 +24,8 @@ async def setfc(message, args):
     connection.commit()
     msg = 'Friend code set to '
   if url != None:
-    embd = make_embed(args, url, user)
-    await client.send_message(message.channel, content=msg, embed=embd)
+    embed = discord.Embed(color=badgebot_color, title=args)
+    embed.set_thumbnail(url=url)
+    await client.send_message(message.channel, content=msg, embed=embed)
   else:
     await client.send_message(message.channel, msg+args)
