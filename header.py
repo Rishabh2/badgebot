@@ -96,6 +96,8 @@ lp_table = 's3lp'
 
 lp_select_str = 'SELECT * FROM {} WHERE id=?'.format(lp_table)
 
+lp_insert_str = 'INSERT INTO {} (id, mons, salt) VALUES (?,?,?)'.format(lp_table)
+
 lp_delete_str = 'DELETE FROM {} WHERE id=?'.format(lp_table)
 
 lp_update_str = 'UPDATE {} SET mons=?, salt=? WHERE id=?'.format(lp_table)
@@ -341,7 +343,7 @@ def roster_sprites(mons, userid, salt):
   for i in range(moncount):
     mon = sprites[i]
     print(mon)
-    url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'.format(mon)
+    url = sprite_url.format(mon)
     monimg = Image.open(requests.get(url, stream=True).raw)
     if i < 6:
       finalimg.paste(monimg, box=((i%3)*45, (i//3)*35))
@@ -368,3 +370,6 @@ async def load_reminder(userid, msg, end, target, salt):
 
 def isbadge(badge):
   return badge in gym_types or badge in islands
+
+def pokemon_fix(pokemon_name):
+  return pokemon_name #TODO: Fix, to make the method return the correct pokemon name if the input name is wrong

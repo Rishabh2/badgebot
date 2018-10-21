@@ -9,23 +9,28 @@ async def setlp(message, args):
     await client.send_message(c, 'Please only use !setlp in the <#481721487569453076> channel')
     return
 
-  await client.send_message(c,'Time to set up your league pass!\nYou start with 6 main pokemon, and will unlock 4 sideboard slots as you continue.\nAs a reminder, legendary pokemon are not allowed in our format.\nAs well as this please ensure pokemon are spelt correctly with a capital letter, also specify the form, for example Alolan Ninetales would be: Ninetales (Alola).\nWhen entering a Mega Pokemon, please only enter the base form.\nThe full details can be found on the subreddit wiki.')
+  await client.send_message(c,'Time to set up your league pass!\nYou start with 6 main pokemon, and will unlock 4 sideboard slots as you continue.\nAs a reminder, legendary pokemon are not allowed in our format.\nAs well as this please ensure pokemon are spelt correctly with a capital letter, also specify the form, for example Alolan Ninetales would be: Ninetales (Alola).\nThe full details can be found on the subreddit wiki.')
 
   retry = False
   while not retry:
     await client.send_message(c, 'Type "cancel" to cancel')
     await client.send_message(c, 'Now, enter the names of your first 6 pokemon, one at a time:')
     mons = []
+
     while len(mons) < 6:
       resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
       if resp == None or resp.content.lower() == 'cancel':
         await client.send_message(c, 'Bye')
         return
-      if resp.content in pokemon_list[0]:
-        mons.append(resp.content)
-        await client.send_message(c, 'Added ' + resp.content)
+      #Normalize Pokemon name
+      mon = resp.content.title()
+      if mon in pokemon_list[0]:
+        mons.append(mon)
+        embed = discord.Embed(title = 'Added ' + mon, color=badgebot_color)
+        embed.set_image(url=sprite_url.format(pokemon_list[1][pokemon_list[0].index(mon)]))
+        await client.send_message(c, embed=embed)
       else:
-        await client.send_message(c, resp.content + ' is not a Pokemon I know. Double check spelling and capitalization, and you may need to specfiy form')
+        await client.send_message(c, mon + ' is not a Pokemon I know. Double check spelling and capitalization, and you may need to specfiy form')
     await client.send_message(c, 'Alright, your pokemon are: ' + ', '.join(mons))
     await client.send_message(c, 'Is this correct? (y/n)')
     resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
