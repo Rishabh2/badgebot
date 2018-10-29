@@ -236,8 +236,6 @@ async def on_message(message):
     await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('farfetchd')))
   if any([m.id=='213008672610189312' for m in message.mentions]):
     await client.send_message(message.channel, 'Ponged!')
-  if any([m.id=='282638912227115008' for m in message.mentions]):
-    await client.send_message(message.channel, '<:BigFella:458459366782271488>')
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)
