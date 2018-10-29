@@ -5,11 +5,9 @@ async def settime(message, args):
     return
   msg = None
   embed = None
-  argr = args.lower()[::-1]
-  args = [x[::-1] for x in argr.split(maxsplit=1)]
   name = message.author.id
   try:
-    offset = int(args[0])
+    offset = int(args)
     cursor.execute(time_select_str, (name,))
     result = cursor.fetchone()
     if result == None:

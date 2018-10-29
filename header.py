@@ -115,10 +115,12 @@ time_select_str = 'SELECT offset FROM time WHERE id=?'
 
 time_insert_str = 'INSERT INTO time (id, offset) VALUES (?,?)'
 
-time_update_atr = 'UPDATE time SET offset=? WHERE id=?'
+time_update_str = 'UPDATE time SET offset=? WHERE id=?'
 
 months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
 days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+team_insert_str = 'INSERT INTO teams (id, team, timestamp) VALUES (?, ?, ?)'
 
 
 arcade_channel = '463817264752492574'

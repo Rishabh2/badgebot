@@ -13,16 +13,13 @@ async def sideboard(message, args):
   elif args not in pokemon_list[0]:
     msg = 'That is not a Pokemon I recognize'
   else:
-    for i, mon in enumerate(result):
-      if mon == None:
-        salt = ''.join(random.choice(ALPHABET) for i in range(16))
-        newlp = result[1]+','+args
-        cursor.execute(lp_update_str, (newlp, salt, userid))
-        connection.commit()
-        newlp = newlp.split(',')
-        await client.send_message(message.channel, 'Saving...')
-        roster_sprites(newlp, userid, salt)
-        msg = 'Done'
-        break
+    salt = ''.join(random.choice(ALPHABET) for i in range(16))
+    newlp = result[1]+','+args
+    cursor.execute(lp_update_str, (newlp, salt, userid))
+    connection.commit()
+    newlp = newlp.split(',')
+    await client.send_message(message.channel, 'Saving...')
+    roster_sprites(newlp, userid, salt)
+    msg = 'Done'
 
   await client.send_message(message.channel, content=msg, embed=embed)

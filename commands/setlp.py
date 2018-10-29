@@ -23,7 +23,7 @@ async def setlp(message, args):
         await client.send_message(c, 'Bye')
         return
       #Normalize Pokemon name
-      mon = resp.content.title()
+      mon = resp.content
       if mon in pokemon_list[0]:
         mons.append(mon)
         embed = discord.Embed(title = 'Added ' + mon, color=badgebot_color)

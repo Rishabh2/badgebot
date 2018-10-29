@@ -36,6 +36,7 @@ from commands.bdaylist import *
 from commands.settime import *
 from commands.swap import *
 from commands.accept import *
+from commands.addteam import *
 
 def resetModules():
   for mod in modules:
@@ -104,6 +105,7 @@ modules = [
 'commands.settime',
 'commands.swap',
 'commands.accept',
+'commands.addteam',
 ]
 
 commands = {
@@ -151,6 +153,7 @@ commands = {
   'settime':settime,
   'swap':swap,
   'accept':accept,
+  'addteam':addteam,
   }
 
 swear=40
@@ -233,6 +236,8 @@ async def on_message(message):
     await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('farfetchd')))
   if any([m.id=='213008672610189312' for m in message.mentions]):
     await client.send_message(message.channel, 'Ponged!')
+  if any([m.id=='260515473999921162' for m in message.mentions]):
+    await client.send_message(message.channel, '<:BigFella:458459366782271488>')
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)
