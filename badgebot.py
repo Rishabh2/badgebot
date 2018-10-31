@@ -234,6 +234,8 @@ async def on_message(message):
     await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('ralts')))
   if text.lower().startswith('!leek'):
     await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('farfetchd')))
+  if text.lower().startswith('!wiki'):
+    await client.send_message(message.channel, wiki_url)
   if any([m.id=='213008672610189312' for m in message.mentions]):
     await client.send_message(message.channel, 'Ponged!')
 

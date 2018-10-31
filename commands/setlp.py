@@ -32,6 +32,8 @@ async def setlp(message, args):
       else:
         await client.send_message(c, mon + ' is not a Pokemon I know. Double check spelling and capitalization, and you may need to specfiy form')
     await client.send_message(c, 'Alright, your pokemon are: ' + ', '.join(mons))
+    if any([m in ubers for m in mons]):
+      await client.send_message(c, 'Note: Your team has one or more Uber or potentially Uber Pokemon. Make sure you are familiar with the rules and banlist at\n{}'.format(wiki_url))
     await client.send_message(c, 'Is this correct? (y/n)')
     resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
     if resp == None:

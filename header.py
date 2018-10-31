@@ -77,6 +77,8 @@ open_challenge_badge_select_str = 'SELECT * FROM {} WHERE id=? AND badge=? AND s
 
 open_challenge_select_str = 'SELECT * FROM {} WHERE id=? and status="O"'.format(challenge_table)
 
+recent_challenge_select_str = 'SELECT * FROM opentime WHERE id=? AND status NOT LIKE "%D" ORDER BY opentime DESC'
+
 challenge_str = 'INSERT INTO {} (id, opentime, badge, status) VALUES (?,?,?,"O")'.format(challenge_table)
 
 challenge_win_str = 'UPDATE {} SET status="W", closetime=? WHERE id=? AND badge=? AND status="O"'.format(challenge_table)
@@ -124,6 +126,9 @@ team_insert_str = 'INSERT INTO teams (id, team, timestamp) VALUES (?, ?, ?)'
 
 
 arcade_channel = '463817264752492574'
+
+gym_types = ['flying', 'poison', 'dragon', 'fairy', 'steel', 'dark', 'ground', 'psychic']
+islands = ['melemele', 'poni', 'ulaula', 'akala']
 
 badge_ids = {
     'grasssingles':'<a:grasssingles:482073772535578655>',
@@ -225,6 +230,10 @@ ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 with open('/root/badgebot/monlist', 'rb') as fp:
   pokemon_list = pickle.load(fp)
+
+ubers = ['Gengar', 'Kangaskhan', 'Blaziken', 'Salamence', 'Metagross', 'Lucario', 'Aegislash', 'Wobuffet', 'Wynaut', 'Gothita', 'Gothorita', 'Gothitelle', 'Diglett', 'Dugtrio', 'Trapinch', 'Kecleon', 'Froakie', 'Frogadier', 'Greninja']
+
+wiki_url = 'https://www.reddit.com/r/PokeVerseLeague/wiki/index'
 
 sprite_url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'
 roster_url = 'https://raw.githubusercontent.com/Rishabh2/badgebot/master/rosters/{}.png'
@@ -371,7 +380,7 @@ async def load_reminder(userid, msg, end, target, salt):
   connection.commit()
 
 def isbadge(badge):
-  return badge in gym_types or badge in islands
+  return badge.lower() in gym_types or badge.lower() in islands
 
 def pokemon_fix(pokemon_name):
   return pokemon_name #TODO: Fix, to make the method return the correct pokemon name if the input name is wrong
