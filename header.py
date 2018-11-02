@@ -145,8 +145,16 @@ badge_ids = {
     'dark':'<a:darksingles:506408993758117898>',
     'dragon':'<a:dragonsingles:482063698127749141>',
     'psychic':'<a:psychicsingles:506409264143794176>',
-    'steel':'<a:steelsingles:482070459421294632>'
+    'steel':'<a:steelsingles:482070459421294632>',
+    'ulaula':'<a:ulaula:506385368002854912>',
+    'poni':'<a:poni:506381370260455434>',
+    'melemele':'<a:melemele:506385369760268289>',
+    'akala':'<a:akala:506387179304648728>',
+    'sunne':'<a:sunne:506387413350744064>',
+    'moone':'<a:moone:506387413388754945>',
     }
+
+challenge_time_limit = 19*60*60
 
 tag_err_reg = '@(.*)#(\d*)'
 

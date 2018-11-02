@@ -37,6 +37,7 @@ from commands.settime import *
 from commands.swap import *
 from commands.accept import *
 from commands.addteam import *
+from commands.challengetime import *
 
 def resetModules():
   for mod in modules:
@@ -106,6 +107,7 @@ modules = [
 'commands.swap',
 'commands.accept',
 'commands.addteam',
+'commands.challengetime',
 ]
 
 commands = {
@@ -154,6 +156,7 @@ commands = {
   'swap':swap,
   'accept':accept,
   'addteam':addteam,
+  'challengetime':challengetime,
   }
 
 swear=40
