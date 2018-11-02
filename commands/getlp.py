@@ -20,10 +20,7 @@ async def getlp(message, args):
     await client.send_message(message.channel, embed=embed)
   else:
     embed.set_image(url=roster_url.format(user.id+'-'+result[-1])) #Get salted LP
-    cursor.execute(badge_select_str, (user.id,))
-    badgeresult = cursor.fetchall()
-    if len(badgeresult) > 0:
-      embed.add_field(name='Badges',value=' '.join([badge_ids[r[0]] for r in badgeresult]), inline=False)
+    embed.add_field(name='Badges',value=user_badges(user.id))
 
     mons = result[1].split(',')
     msg = ', '.join([x for x in mons[:6]])

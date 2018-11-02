@@ -37,10 +37,7 @@ async def info(message, args):
     cursor.execute(lp_select_str, (user.id,))
     result = cursor.fetchone()
     if result != None:
-      cursor.execute(badge_select_str, (user.id,))
-      badgeresult = cursor.fetchall()
-      if len(badgeresult) > 0:
-        embed.add_field(name='Badges',value=' '.join([badge_ids[r[0]] for r in badgeresult]), inline=False)
+      embed.add_field(name='Badges',value=user_badges(user.id))
 
       embed.set_image(url=roster_url.format(user.id+'-'+result[-1])) #Get salted LP
       mons = result[1].split(',')

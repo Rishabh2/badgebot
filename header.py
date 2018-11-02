@@ -77,9 +77,11 @@ open_challenge_badge_select_str = 'SELECT * FROM {} WHERE id=? AND badge=? AND s
 
 open_challenge_select_str = 'SELECT * FROM {} WHERE id=? and status="O"'.format(challenge_table)
 
-recent_challenge_select_str = 'SELECT * FROM opentime WHERE id=? AND status NOT LIKE "%D" ORDER BY opentime DESC'
+recent_challenge_select_str = 'SELECT opentime FROM {} WHERE id=? AND status NOT LIKE "%D" AND status != "C" ORDER BY opentime DESC'.format(challenge_table)
 
 challenge_str = 'INSERT INTO {} (id, opentime, badge, status) VALUES (?,?,?,"O")'.format(challenge_table)
+
+challenge_override_str = 'INSERT INTO {} (id, badge, opentime, accepttime, status) VALUES (?,?,?,?,"O")'.format(challenge_table)
 
 challenge_win_str = 'UPDATE {} SET status="W", closetime=? WHERE id=? AND badge=? AND status="O"'.format(challenge_table)
 
@@ -131,14 +133,18 @@ gym_types = ['flying', 'poison', 'dragon', 'fairy', 'steel', 'dark', 'ground', '
 islands = ['melemele', 'poni', 'ulaula', 'akala']
 
 badge_ids = {
-    'grasssingles':'<a:grasssingles:482073772535578655>',
-    'normalsingles':'<a:normalsingles:482073773730824192>',
-    'fairysingles':'<a:fairysingles:482067974119882752>',
-    'icesingles':'<a:icesingles:482067977714401302>',
-    'groundsingles':'<a:groundsingles:482067974027739137>',
-    'poisonsingles':'<a:poisonsingles:482070458552942604>',
-    'rocksingles':'<a:rocksingles:482071206678495252>',
-    'flyingsingles':'<a:flyingsingles:482071987984793600>',
+    'grass':'<a:grasssingles:482073772535578655>',
+    'normal':'<a:normalsingles:482073773730824192>',
+    'fairy':'<a:fairysingles:482067974119882752>',
+    'ice':'<a:icesingles:482067977714401302>',
+    'ground':'<a:groundsingles:482067974027739137>',
+    'poison':'<a:poisonsingles:482070458552942604>',
+    'rock':'<a:rocksingles:482071206678495252>',
+    'flying':'<a:flyingsingles:482071987984793600>',
+    'dark':'<a:darksingles:506408993758117898>',
+    'dragon':'<a:dragonsingles:482063698127749141>',
+    'psychic':'<a:psychicsingles:506409264143794176>',
+    'steel':'<a:steelsingles:482070459421294632>'
     }
 
 tag_err_reg = '@(.*)#(\d*)'
@@ -251,6 +257,7 @@ subreddit = reddit.subreddit('PokeVerseLeague')
 
 client = discord.Client()
 
+
 time_mult = {'s':1, 'm':60, 'h':3600, 'd':86400}
 
 pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
@@ -290,8 +297,7 @@ def getmention(message):
 def haspermission(user):
   if not isinstance(user, str):
     user = discorduser_to_id(user)
-  user = id_to_discorduser(user, client.get_server('372042060913442818')
-)
+  user = id_to_discorduser(user, client.get_server('372042060913442818'))
   return any(role.hoist for role in user.roles) if user != None else False
 
 def coinpermission(user):
@@ -384,3 +390,13 @@ def isbadge(badge):
 
 def pokemon_fix(pokemon_name):
   return pokemon_name #TODO: Fix, to make the method return the correct pokemon name if the input name is wrong
+
+def user_badges(userid):
+  cursor.execute(badge_select_str, (userid,))
+  result = cursor.fetchall()
+  if len(result) == 0:
+    msg = 'No badges yet'
+  else:
+    msg = ' '.join([badge_ids[r[0].lower()] for r in result])
+  return msg
+
