@@ -131,6 +131,7 @@ arcade_channel = '463817264752492574'
 
 gym_types = ['flying', 'poison', 'dragon', 'fairy', 'steel', 'dark', 'ground', 'psychic']
 islands = ['melemele', 'poni', 'ulaula', 'akala']
+permission_roles = ['385447382567092234', '384724202613112843', '372559774350573570', '496397807494627338']
 
 badge_ids = {
     'grass':'<a:grasssingles:482073772535578655>',
@@ -298,7 +299,7 @@ def haspermission(user):
   if not isinstance(user, str):
     user = discorduser_to_id(user)
   user = id_to_discorduser(user, client.get_server('372042060913442818'))
-  return any(role.hoist for role in user.roles) if user != None else False
+  return any([role.id in permission_roles for role in user.roles]) if user != None else False
 
 def coinpermission(user):
   if not isinstance(user, str):
