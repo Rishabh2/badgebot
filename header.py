@@ -141,7 +141,7 @@ badge_ids = {
     'ground':'<a:groundsingles:482067974027739137>',
     'poison':'<a:poisonsingles:482070458552942604>',
     'rock':'<a:rocksingles:482071206678495252>',
-    'flying':'<a:flyingsingles:482071987984793600>',
+    'flying':'<a:flyingsingles:506409251326132305>',
     'dark':'<a:darksingles:506408993758117898>',
     'dragon':'<a:dragonsingles:482063698127749141>',
     'psychic':'<a:psychicsingles:506409264143794176>',
@@ -395,7 +395,7 @@ async def load_reminder(userid, msg, end, target, salt):
   connection.commit()
 
 def isbadge(badge):
-  return badge.lower() in gym_types or badge.lower() in islands
+  return badge.lower() in gym_types or badge.lower() in islands or badge.lower() == 'e4champ'
 
 def pokemon_fix(pokemon_name):
   return pokemon_name #TODO: Fix, to make the method return the correct pokemon name if the input name is wrong

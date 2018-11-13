@@ -241,6 +241,8 @@ async def on_message(message):
     await client.send_message(message.channel, wiki_url)
   if any([m.id=='213008672610189312' for m in message.mentions]):
     await client.send_message(message.channel, 'Ponged!')
+  if any([m.id=='227824927854559242' for m in message.mentions]):
+    await client.send_message(message.channel, 'Your goddess will arrive shortly.')
 
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)
