@@ -132,6 +132,7 @@ arcade_channel = '463817264752492574'
 gym_types = ['flying', 'poison', 'dragon', 'fairy', 'steel', 'dark', 'ground', 'psychic']
 islands = ['melemele', 'poni', 'ulaula', 'akala']
 permission_roles = ['385447382567092234', '384724202613112843', '372559774350573570', '496397807494627338']
+mute_roles = ['384724202613112843', '507833815696146434']
 
 badge_ids = {
     'grass':'<a:grasssingles:482073772535578655>',
@@ -152,6 +153,7 @@ badge_ids = {
     'akala':'<a:akala:506387179304648728>',
     'sunne':'<a:sunne:506387413350744064>',
     'moone':'<a:moone:506387413388754945>',
+    'e4champ':'<a:bugsingles:506408913428676609><a:fightingsingles:506409118194597889><a:watersingles:506409275245985793><a:firesingles:506409126759497728>'
     }
 
 challenge_time_limit = 19*60*60
@@ -303,6 +305,12 @@ service = build('sheets', 'v4', http=creds.authorize(Http()))
 def getmention(message):
   return message.mentions[0] if len(message.mentions) > 0 else None
 
+def mutepermission(user):
+  if not isinstance(user, str):
+    user = discorduser_to_id(user)
+  user = id_to_discorduser(user, client.get_server('372042060913442818'))
+  return any([role.id in mute_roles for role in user.roles]) if user != None else False
+
 def haspermission(user):
   if not isinstance(user, str):
     user = discorduser_to_id(user)
@@ -391,6 +399,19 @@ async def load_reminder(userid, msg, end, target, salt):
   time = end - datetime.datetime.utcnow().timestamp()
   await asyncio.sleep(time)
   await client.send_message(discord.Object(id=target), '<@{}>: '.format(userid) + msg)
+  cursor.execute('DELETE FROM reminders WHERE salt=?', (salt,))
+  connection.commit()
+
+async def load_mute(userid, reason, end, target, salt):
+  await client.wait_until_ready()
+  time = end - datetime.datetime.utcnow().timestamp()
+  await asyncio.sleep(time)
+
+  roles = client.get_server('372042060913442818').roles
+  for role in roles:
+    if role.name=='Muted':
+      mute_role=role
+  await client.remove_roles(target, mute_role)
   cursor.execute('DELETE FROM reminders WHERE salt=?', (salt,))
   connection.commit()
 
