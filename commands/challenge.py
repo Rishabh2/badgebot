@@ -20,10 +20,10 @@ async def challenge(message, args):
       msg = 'You have an open ' + result[1] + ' challenge'
     elif len(args) == 0:
       msg = 'You do not have an active challenge'
-    elif current_time - recent_time < challenge_time_limit:
+    elif args.lower() not in islands and current_time - recent_time < challenge_time_limit:
       msg = 'Your last challenge was too recent. Please wait 20 hours between challenges'
     elif isbadge(args):
-      cursor.execute(challenge_str, (userid, current_time, args))
+      cursor.execute(challenge_str, (userid, current_time if args.lower() not in islands else 0, args))
       connection.commit()
       msg = 'Challenge Submitted!'
     else:

@@ -130,7 +130,7 @@ team_insert_str = 'INSERT INTO teams (id, team, timestamp) VALUES (?, ?, ?)'
 arcade_channel = '463817264752492574'
 
 gym_types = ['flying', 'poison', 'dragon', 'fairy', 'steel', 'dark', 'ground', 'psychic']
-islands = ['melemele', 'poni', 'ulaula', 'akala']
+islands = ['melemele', 'poni', 'ulaula', 'akala', 'moone', 'sunne']
 permission_roles = ['385447382567092234', '384724202613112843', '372559774350573570', '496397807494627338']
 mute_roles = ['384724202613112843', '507833815696146434']
 
@@ -190,7 +190,8 @@ help_lp.add_field(name='!swap', value='`!swap PokemonA/PokemonB` to swap `Pokemo
 help_gym = discord.Embed(title='Challenge the Gyms', color=badgebot_color, description='All the info you need about challenging gyms')
 help_gym.set_footer(text='Please contact H2owsome with any questions.')
 help_gym.set_thumbnail(url=badgebot_icon)
-help_gym.add_field(name='!challenge', value='`!challenge gymname` will submit a challenge and notify the gym leader. Examples include `!challenge fairygym` or `!challenge melemele`\nThe name of the gym you are challenging will match the name of the corresponding channel\nJust use `!challenge` to check if you have an open challenge')
+help_gym.add_field(name='!challenge', value='`!challenge gymname` will submit a challenge and notify the gym leader. Examples include `!challenge fairy` or `!challenge melemele`\nThe name of the gym you are challenging will match the name of the corresponding channel\nJust use `!challenge` to check if you have an open challenge')
+help_gym.add_field(name='!cancel', value='Cancel an open challenge if you want to challenge someone else. A cancelled challenge will be ignored by the timer.')
 help_gym.add_field(name='!challengetime', value='Tells you how much time you have remaining until you can challenge again. There is a 20 hour limit between challenges')
 
 help_tsv = discord.Embed(title='Your TSVs', color=badgebot_color, description='Register your TSVs and find matched for your eggs')
