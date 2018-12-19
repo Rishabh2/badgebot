@@ -12,13 +12,13 @@ async def accept(message, args):
       if resp != None and resp.content.lower()[0] == 'y':
         cursor.execute(challenge_override_str, (user.id, badge, int(message.timestamp.timestamp()), int(message.timestamp.timestamp())))
         connection.commit()
-        msg = 'Accepted challenge of ' + discorduser_to_discordname(getmention(message))
+        msg = 'Accepted challenge of ' + discorduser_to_discordname(user)
       else:
         msg = 'Bye'
     else:
       cursor.execute(challenge_accept_str, (int(message.timestamp.timestamp()), user.id, badge))
       connection.commit()
-      msg = 'Accepted challenge of ' + discorduser_to_discordname(getmention(message))
+      msg = 'Accepted challenge of ' + discorduser_to_discordname(user)
     await client.send_message(message.channel, msg)
   else:
     await client.send_message(message.channel, no_permissions_message)

@@ -184,7 +184,7 @@ async def on_message(message):
     prize = m.group(1)
     pins = await client.pins_from(message.channel)
     for p in pins:
-      if prize in p.embeds[0]['author']['name']:
+      if p.embeds != None and len(p.embeds) > 0 and prize in p.embeds[0]['author']['name']:
         cursor.execute('SELECT * from giveaways where gid=?', (p.id,))
         result = cursor.fetchone()
         cursor.execute('DELETE FROM giveaways where gid=?', (p.id,))
@@ -203,15 +203,12 @@ async def on_message(message):
   if s=='372042060913442818' and swear_jar(message):
     global swear
     swear = (swear + 1)%50
+    cursor.execute(swear_select_str('345599035328954378',))
+    result = cursor.fetchone()
+    if message.author.id == '345599035328954378' and (result[0] == None or result[0] == 0):
+      swear = 0
     if swear == 0:
-
-      roles = message.server.roles
-      for role in roles:
-        if role.name=='Giveaways':
-          give_role=role
-      if not any([role == give_role for role in message.author.roles]):
-        await client.add_roles(message.author, give_role)
-
+      swear = 0
       await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'! Get yourself to #bot-spam and start a giveaway using the command !gcreate. you filthy mouthed trainer...\n<:Dragonite:387809726227939328> frowns upon you.')
       cursor.execute(swear_select_str, (message.author.id,))
       result = cursor.fetchone()
@@ -250,7 +247,11 @@ async def on_message(message):
   if len(text) > 0 and text[0] == '!':
     args = text[1:].split(maxsplit=1)
     if args[0].lower() in commands:
-      await commands[args[0].lower()](message, args[1] if len(args) > 1 else '')
+      try:
+        await commands[args[0].lower()](message, args[1] if len(args) > 1 else '')
+      except Exception as e:
+        errormsg = '\n'.join(['<@242558859300831232>', args, '```\n'+str(e)+'\n```'])
+        await client.send_message(client.get_channel('384790941564796930'), errormsg)
 
 os.chdir('/root/badgebot/')
 cursor.execute('SELECT * FROM reminders')

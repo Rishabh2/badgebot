@@ -7,6 +7,8 @@ async def mute(message, args):
       await client.send_message(message.channel, no_permissions_message)
     else:
       time = time_parse_sec(time)
+      if time == None:
+        return
       roles = message.server.roles
       for role in roles:
         if role.name=='Muted':

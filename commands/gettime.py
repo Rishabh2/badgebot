@@ -3,7 +3,7 @@ async def gettime(message, args):
   if args.lower().strip() == 'help':
     await client.send_message(message.channel, embed=help_info)
     return
-  user = getmention(message)
+  user = getmention(message, args, message.server)
   if user == None:
     if len(args) == 0:
       name = message.author.id

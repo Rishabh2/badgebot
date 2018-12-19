@@ -5,7 +5,7 @@ async def gettsv(message, args):
     return
   msg = None
   embed = None
-  mentuser = getmention(message)
+  mentuser = getmention(message, args, message.server)
   if mentuser == None:
     user = message.author.id
   else:

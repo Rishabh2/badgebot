@@ -303,8 +303,8 @@ service = build('sheets', 'v4', http=creds.authorize(Http()))
 
 
 
-def getmention(message):
-  return message.mentions[0] if len(message.mentions) > 0 else None
+def getmention(message, args='', server=None):
+  return message.mentions[0] if len(message.mentions) > 0 else server.get_member_named(args) if (server is not None and len(args) > 0) else None
 
 def mutepermission(user):
   if not isinstance(user, str):

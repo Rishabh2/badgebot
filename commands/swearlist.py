@@ -1,6 +1,6 @@
 from header import *
 async def swearlist(message, args):
-  user = getmention(message)
+  user = getmention(message, args, message.server)
   try:
     limit = int(args)
   except:

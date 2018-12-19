@@ -6,7 +6,7 @@ async def getbadge(message, args):
   if args[:2] == 'my':
     await client.send_message(message.channel, 'User is me')
     return
-  user = getmention(message)
+  user = getmention(message, args, message.server)
   if user == None:
     user = message.author
   cursor.execute(lp_select_str, (user.id,))
