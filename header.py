@@ -167,7 +167,7 @@ help_about = discord.Embed(title='About You', color=badgebot_color, description=
 help_about.set_footer(text="Please contact H2owsome with any questions.")
 help_about.set_thumbnail(url=badgebot_icon)
 help_about.add_field(name='!setfc', value='Anything you put directly after the command will be recorded in badgebot as-is, including line breaks and any text formatting (italics, bold, etc) If you’d like to add a picture, upload the image to Discord with your !setfc message.')
-help_about.add_field(name='!settime', value='`!settime #` Replace the # with your personal UTC offset (Look it up if you do not know what it is)')
+help_about.add_field(name='!settime', value='`!settime #` Replace the # with your personal UTC offset (Example: `!settime -7`) Be sure to update it when Daylight savings time rolls around')
 help_about.add_field(name='!setbday', value='`!setbday ## month` You must use this format for this command')
 
 help_info = discord.Embed(title='Getting info about people', color=badgebot_color, description='These commands pull up the saved information of yourself/others')
@@ -304,7 +304,7 @@ service = build('sheets', 'v4', http=creds.authorize(Http()))
 
 
 def getmention(message, args='', server=None):
-  return message.mentions[0] if len(message.mentions) > 0 else server.get_member_named(args) if (server is not None and len(args) > 0) else None
+  return message.mentions[0] if len(message.mentions) > 0 else server.get_member_named(args) if len(args) > 0 else message.author
 
 def mutepermission(user):
   if not isinstance(user, str):
@@ -326,7 +326,7 @@ def coinpermission(user):
   return discorduser_to_id(user) == '202380877349650432' or any([role.name=='Arcade Master' for role in user.roles]) if user != None else False
 
 def swear_jar(message):
-  return pf.is_profane(message.content)
+  return random.random() < 0.02 and pf.is_profane(message.content)
 
 def id_to_discorduser(discord_id, server):
   return server.get_member(discord_id)

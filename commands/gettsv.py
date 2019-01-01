@@ -6,10 +6,10 @@ async def gettsv(message, args):
   msg = None
   embed = None
   mentuser = getmention(message, args, message.server)
-  if mentuser == None:
-    user = message.author.id
-  else:
-    user = mentuser.id
+  if user == None:
+    await client.send_message(message.channel, 'There is no one on this server named ' + args)
+    return
+  user = user.id
   if len(args) == 0 or mentuser != None:
     cursor.execute(tsv_select_str, (user,))
     results = cursor.fetchall()

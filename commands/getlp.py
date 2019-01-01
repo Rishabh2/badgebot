@@ -6,7 +6,8 @@ async def getlp(message, args):
   user = getmention(message, args, message.server)
 
   if user == None:
-    user = message.author
+    await client.send_message(message.channel, 'There is no one on this server named ' + args)
+    return
 
   embed = discord.Embed(title=discorduser_to_discordname(user)+"'s League Pass",color=discord.Color(0xbc614e))
   embed.set_footer(text="Contact @DePVLoper in #committee-contact for any questions.")

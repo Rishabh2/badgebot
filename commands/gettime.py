@@ -5,16 +5,12 @@ async def gettime(message, args):
     return
   user = getmention(message, args, message.server)
   if user == None:
-    if len(args) == 0:
-      name = message.author.id
-    else:
-      name = args.lower()
-  else:
-    name = discorduser_to_id(user)
-  cursor.execute(time_select_str, (name,))
+    await client.send_message(message.channel, 'There is no one on this server named ' + args)
+    return
+  cursor.execute(time_select_str, (user.id,))
   result = cursor.fetchone()
   if result == None:
-    msg = 'There is no offset saved for that user/place'
+    msg = 'There is no offset saved for that user'
   else:
     offset = result[0]
     msg = datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=offset))).strftime('%I:%M%p')

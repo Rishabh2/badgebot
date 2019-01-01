@@ -162,7 +162,6 @@ commands = {
   'mute':mute,
   }
 
-swear=40
 
 async def gcreate(message):
   if message.server.id == '372042060913442818':
@@ -177,81 +176,73 @@ async def gcreate(message):
 
 @client.event
 async def on_message(message):
-  if message.author.id == '245963462952484864' and 'butthead' in message.content.lower():
-    await client.send_message(message.channel, 'buttheat*')
-  if message.author.id == giveawaybot and 'Congratulations' in message.content:
-    m = re.search(r'the \*\*(.*)\*\*', message.content)
-    prize = m.group(1)
-    pins = await client.pins_from(message.channel)
-    for p in pins:
-      if p.embeds != None and len(p.embeds) > 0 and prize in p.embeds[0]['author']['name']:
-        cursor.execute('SELECT * from giveaways where gid=?', (p.id,))
-        result = cursor.fetchone()
-        cursor.execute('DELETE FROM giveaways where gid=?', (p.id,))
-        connection.commit()
-        if result != None:
-          await client.send_message(message.channel, 'From <@{}>'.format(result[0]))
-        await client.unpin_message(p)
-  if message.author.bot:
-    return
-
   try:
-    s = message.server.id
-  except:
-    s = None
+    if message.author.id == '245963462952484864' and 'butthead' in message.content.lower():
+      await client.send_message(message.channel, 'buttheat*')
+    if message.author.id == giveawaybot and 'Congratulations' in message.content:
+      m = re.search(r'the \*\*(.*)\*\*', message.content)
+      prize = m.group(1)
+      pins = await client.pins_from(message.channel)
+      for p in pins:
+        if p.embeds != None and len(p.embeds) > 0 and prize in p.embeds[0]['author']['name']:
+          cursor.execute('SELECT * from giveaways where gid=?', (p.id,))
+          result = cursor.fetchone()
+          cursor.execute('DELETE FROM giveaways where gid=?', (p.id,))
+          connection.commit()
+          if result != None:
+            await client.send_message(message.channel, 'From <@{}>'.format(result[0]))
+          await client.unpin_message(p)
+    if message.author.bot:
+      return
 
-  if s=='372042060913442818' and swear_jar(message):
-    global swear
-    swear = (swear + 1)%50
-    cursor.execute(swear_select_str('345599035328954378',))
-    result = cursor.fetchone()
-    if message.author.id == '345599035328954378' and (result[0] == None or result[0] == 0):
-      swear = 0
-    if swear == 0:
-      swear = 0
-      await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'! Get yourself to #bot-spam and start a giveaway using the command !gcreate. you filthy mouthed trainer...\n<:Dragonite:387809726227939328> frowns upon you.')
-      cursor.execute(swear_select_str, (message.author.id,))
-      result = cursor.fetchone()
-      if result == None: # No info
-        cursor.execute(swear_insert_str, (message.author.id,))
-      elif result[0] == None: # No swears
-        cursor.execute(swear_begin_str, (message.author.id,))
-      else: # Swears
-        cursor.execute(swear_update_str, (message.author.id,))
-      connection.commit()
+    try:
+      s = message.server.id
+    except:
+      s = None
 
-  m = re.search(tag_err_reg, message.content)
-  if len(message.mentions) == 0 and m != None:
-    user = discord.utils.get(message.server.members, name=m.group(1),discriminator=m.group(2))
-    if user != None:
-      text = re.sub(tag_err_reg, user.mention, message.content)
-      await client.send_message(message.channel, text)
-  else:
-    text = message.content
+    if s=='372042060913442818' and swear_jar(message):
+        await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'! Get yourself to #bot-spam and start a giveaway using the command !gcreate. you filthy mouthed trainer...\n<:Dragonite:387809726227939328> frowns upon you.')
+        cursor.execute(swear_select_str, (message.author.id,))
+        result = cursor.fetchone()
+        if result == None: # No info
+          cursor.execute(swear_insert_str, (message.author.id,))
+        elif result[0] == None: # No swears
+          cursor.execute(swear_begin_str, (message.author.id,))
+        else: # Swears
+          cursor.execute(swear_update_str, (message.author.id,))
+        connection.commit()
 
-  if text.lower().startswith('g!create') or text.lower().startswith('!gcreate'):
-    await gcreate(message)
-  if text.lower().startswith('!bestpokemon'):
-    await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('pyukumuku')))
-  if text.lower().startswith('!cutestpokemon'):
-    await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('ralts')))
-  if text.lower().startswith('!leek'):
-    await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('farfetchd')))
-  if text.lower().startswith('!wiki'):
-    await client.send_message(message.channel, wiki_url)
-  if any([m.id=='213008672610189312' for m in message.mentions]):
-    await client.send_message(message.channel, 'Ponged!')
-  if any([m.id=='227824927854559242' for m in message.mentions]):
-    await client.send_message(message.channel, 'Your goddess will arrive shortly.')
+    m = re.search(tag_err_reg, message.content)
+    if len(message.mentions) == 0 and m != None:
+      user = discord.utils.get(message.server.members, name=m.group(1),discriminator=m.group(2))
+      if user != None:
+        text = re.sub(tag_err_reg, user.mention, message.content)
+        await client.send_message(message.channel, text)
+    else:
+      text = message.content
 
-  if len(text) > 0 and text[0] == '!':
-    args = text[1:].split(maxsplit=1)
-    if args[0].lower() in commands:
-      try:
+    if text.lower().startswith('g!create') or text.lower().startswith('!gcreate'):
+      await gcreate(message)
+    if text.lower().startswith('!bestpokemon'):
+      await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('pyukumuku')))
+    if text.lower().startswith('!cutestpokemon'):
+      await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('ralts')))
+    if text.lower().startswith('!leek'):
+      await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('farfetchd')))
+    if text.lower().startswith('!wiki'):
+      await client.send_message(message.channel, wiki_url)
+    if any([m.id=='213008672610189312' for m in message.mentions]):
+      await client.send_message(message.channel, 'Ponged!')
+    if any([m.id=='227824927854559242' for m in message.mentions]):
+      await client.send_message(message.channel, 'Your goddess will arrive shortly.')
+
+    if len(text) > 0 and text[0] == '!':
+      args = text[1:].split(maxsplit=1)
+      if args[0].lower() in commands:
         await commands[args[0].lower()](message, args[1] if len(args) > 1 else '')
-      except Exception as e:
-        errormsg = '\n'.join(['<@242558859300831232>', args, '```\n'+str(e)+'\n```'])
-        await client.send_message(client.get_channel('384790941564796930'), errormsg)
+  except Exception as e:
+    errormsg = '\n'.join(['<@242558859300831232>', args, '```\n'+str(e)+'\n```'])
+    await client.send_message(client.get_channel('384790941564796930'), errormsg)
 
 os.chdir('/root/badgebot/')
 cursor.execute('SELECT * FROM reminders')

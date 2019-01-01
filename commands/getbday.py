@@ -5,10 +5,10 @@ async def getbday(message, args):
     return
   user = getmention(message, args, message.server)
   if user == None:
-    userid = discorduser_to_id(message.author)
-  else:
-    userid = discorduser_to_id(user)
+    await client.send_message(message.channel, 'There is no one on this server named ' + args)
+    return
 
+  userid = user.id
   cursor.execute(bday_select_str, (userid,))
   result = cursor.fetchone()
   if result == None or result[0] == None:

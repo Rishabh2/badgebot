@@ -1,11 +1,14 @@
 from header import *
 async def swearlist(message, args):
   user = getmention(message, args, message.server)
+  if user == None:
+    await client.send_message(message.channel, 'There is no one on this server named ' + args)
+    return
   try:
     limit = int(args)
   except:
     limit = 0
-  if user == None:
+  if len(args)==0:
     cursor.execute(swear_dump_str, (limit,))
     results = cursor.fetchall()
     ids = [results[0][0]]

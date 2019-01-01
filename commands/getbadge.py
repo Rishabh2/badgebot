@@ -8,7 +8,8 @@ async def getbadge(message, args):
     return
   user = getmention(message, args, message.server)
   if user == None:
-    user = message.author
+    await client.send_message(message.channel, 'There is no one on this server named ' + args)
+    return
   cursor.execute(lp_select_str, (user.id,))
   result = cursor.fetchone()
   if result == None:

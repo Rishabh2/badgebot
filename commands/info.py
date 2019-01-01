@@ -5,7 +5,8 @@ async def info(message, args):
     return
   user = getmention(message, args, message.server)
   if user == None:
-    user = message.author
+    await client.send_message(message.channel, 'There is no one on this server named ' + args)
+    return
   userid = discorduser_to_id(user)
   #Id, FC, Url, Reddit, Swear, Coins, Month, Day
   cursor.execute(info_dump_str, (userid,))
