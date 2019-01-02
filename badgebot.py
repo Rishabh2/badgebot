@@ -241,8 +241,9 @@ async def on_message(message):
       if args[0].lower() in commands:
         await commands[args[0].lower()](message, args[1] if len(args) > 1 else '')
   except Exception as e:
-    errormsg = '\n'.join(['<@242558859300831232>', args, '```\n'+str(e)+'\n```'])
+    errormsg = '\n'.join(['<@242558859300831232>', str(args), '```\n'+traceback.format_exc()+'\n```'])
     await client.send_message(client.get_channel('384790941564796930'), errormsg)
+    raise e
 
 os.chdir('/root/badgebot/')
 cursor.execute('SELECT * FROM reminders')

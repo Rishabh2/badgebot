@@ -21,6 +21,7 @@ from httplib2 import Http
 from oauth2client import file as oauth_file, client as gclient, tools
 import passwords
 from profanityfilter import ProfanityFilter
+import traceback
 
 
 fc_insert_str = 'INSERT INTO userinfo (id, fc, url) VALUES (?, ?, ?);'
@@ -51,7 +52,7 @@ swear_update_str = 'UPDATE userinfo SET swears=swears+1 WHERE id=?;'
 
 swear_begin_str = 'UPDATE userinfo SET swears=1 WHERE id=?;'
 
-swear_dump_str = 'SELECT id, swears from userinfo WHERE swears>=? ORDER BY swears DESC;'
+swear_dump_str = 'SELECT id, swears from userinfo WHERE swears>? ORDER BY swears DESC;'
 
 
 coins_insert_str = 'INSERT INTO userinfo (id, coins) VALUES (?, ?);'
