@@ -238,7 +238,7 @@ async def on_message(message):
 
     if len(text) > 0 and text[0] == '!':
       args = text[1:].split(maxsplit=1)
-      if args[0].lower() in commands:
+      if len(args) > 0 and args[0].lower() in commands:
         await commands[args[0].lower()](message, args[1] if len(args) > 1 else '')
   except Exception as e:
     errormsg = '\n'.join(['<@242558859300831232>', str(args), '```\n'+traceback.format_exc()+'\n```'])
