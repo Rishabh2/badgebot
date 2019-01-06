@@ -5,12 +5,9 @@ async def gettsv(message, args):
     return
   msg = None
   embed = None
-  mentuser = getmention(message, args, message.server)
-  if user == None:
-    await client.send_message(message.channel, 'There is no one on this server named ' + args)
-    return
-  user = user.id
-  if len(args) == 0 or mentuser != None:
+  user = getmention(message, args, message.server)
+  if user != None:
+    user = user.id
     cursor.execute(tsv_select_str, (user,))
     results = cursor.fetchall()
     if results == None or len(results) == 0:
@@ -33,4 +30,5 @@ async def gettsv(message, args):
         server = message.server
         for result in results:
           msg += id_to_discordname(result[0], server) + ' has that tsv in the game ' + result[1] + '\n'
+
   await client.send_message(message.channel, content=msg, embed=embed)
