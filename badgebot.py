@@ -241,7 +241,11 @@ async def on_message(message):
       if len(args) > 0 and args[0].lower() in commands:
         await commands[args[0].lower()](message, args[1] if len(args) > 1 else '')
   except Exception as e:
-    errormsg = '\n'.join(['<@242558859300831232>', str(args), '```\n'+traceback.format_exc()+'\n```'])
+    errormsg = '\n'.join(['<@242558859300831232>',
+      discorduser_to_discordname(message.author),
+      str(args),
+      '```\n'+traceback.format_exc()+'\n```',
+      message.channel.name if message.channel.is_private else message.channel.mention])
     await client.send_message(client.get_channel('384790941564796930'), errormsg)
     raise e
 
