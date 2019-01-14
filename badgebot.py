@@ -19,7 +19,6 @@ from commands.message import *
 from commands.setfc import *
 from commands.swearlist import *
 from commands.wipe import *
-from commands.time import *
 from commands.coin import *
 from commands.forcewipe import *
 from commands.info import *
@@ -90,7 +89,6 @@ modules = [
 'commands.setfc',
 'commands.swearlist',
 'commands.wipe',
-'commands.time',
 'commands.coin',
 'commands.forcewipe',
 'commands.info',
@@ -138,7 +136,6 @@ commands = {
   'wipe': wipe,
   'reset': reset,
   'leaks': leaks,
-  'time': time,
   'coin': coin,
   'coins': coin,
   'calculate': calculate,
