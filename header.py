@@ -281,6 +281,7 @@ words.remove('gayboy')
 words.remove('gaygirl')
 words.remove('gays')
 words.remove('gayz')
+words.remove('nasty')
 pf.define_words(words)
 giveawaybot = '294882584201003009'
 
