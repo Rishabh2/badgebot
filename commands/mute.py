@@ -2,7 +2,9 @@ from header import *
 async def mute(message, args):
   if mutepermission(message.author):
     target, time, reason = args.split(maxsplit=2)
-    target = getmention(message)
+    target = id_to_discorduser(target, message.server)
+    if target == None:
+      target = getmention(message)
     if target.id == '242558859300831232':
       await client.send_message(message.channel, no_permissions_message)
     else:

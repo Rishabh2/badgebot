@@ -14,6 +14,8 @@ from commands.gettime import *
 from commands.gettsv import *
 from commands.help import *
 from commands.leaks import *
+from commands.breed import *
+from commands.smash import *
 from commands.loss import *
 from commands.message import *
 from commands.setfc import *
@@ -84,6 +86,8 @@ modules = [
 'commands.gettsv',
 'commands.help',
 'commands.leaks',
+'commands.breed',
+'commands.smash',
 'commands.loss',
 'commands.message',
 'commands.setfc',
@@ -136,6 +140,8 @@ commands = {
   'wipe': wipe,
   'reset': reset,
   'leaks': leaks,
+  'breed': breed,
+  'smash': smash,
   'coin': coin,
   'coins': coin,
   'calculate': calculate,

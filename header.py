@@ -132,7 +132,9 @@ arcade_channel = '463817264752492574'
 
 gym_types = ['flying', 'poison', 'dragon', 'fairy', 'steel', 'dark', 'ground', 'psychic']
 islands = ['melemele', 'poni', 'ulaula', 'akala', 'moone', 'sunne']
-permission_roles = ['385447382567092234', '384724202613112843', '372559774350573570', '496397807494627338']
+#Management, Gym Leader, Kahunas, Discipline
+permission_roles = ['384724202613112843', '372559774350573570', '496397807494627338', '507833815696146434']
+#Management and Discipline
 mute_roles = ['384724202613112843', '507833815696146434']
 
 badge_ids = {
