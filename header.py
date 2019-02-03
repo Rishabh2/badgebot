@@ -215,6 +215,8 @@ help_misc.add_field(name='!swearlist', value='`!swearlist @someone` to see how m
 help_misc.add_field(name='!bdaylist', value='`!bdaylist` to see some upcoming birthdays')
 help_misc.add_field(name='!calculate', value='A helpful calculator if you need to math on discord')
 help_misc.add_field(name='!leaks', value='Use `!leaks` to toggle access to the secret #leaks-and-spoilers channel')
+help_misc.add_field(name='!breed', value='Use `!breed` to toggle the Breed Helper role')
+help_misc.add_field(name='!leaks', value='Use `!smash` to toggle the Smasher role')
 
 help_embeds = [help_about, help_info, help_lp, help_gym, help_tsv, help_misc]
 

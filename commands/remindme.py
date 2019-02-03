@@ -27,11 +27,10 @@ async def remindme(message, args):
     await client.send_message(c, 'Bye')
     return
   time = time_parse_sec(resp.content.lower())
-  if time == None:
+  if time == None or time > 604800:
     await client.send_message(c, 'I could not parse a valid time. Please start over')
     return
   else:
-    await client.send_message(c, 'Reminder set')
     now = datetime.datetime.utcnow()
     diff = datetime.timedelta(seconds=time)
     finish = int((now + diff).timestamp())
@@ -42,4 +41,5 @@ async def remindme(message, args):
     await client.send_message(discord.Object(id=target), '<@{}>: '.format(message.author.id) + msg)
     cursor.execute('DELETE FROM reminders WHERE salt=?', (salt,))
     connection.commit()
+    await client.send_message(c, 'Reminder set')
 
