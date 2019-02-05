@@ -37,9 +37,9 @@ async def remindme(message, args):
     salt = ''.join(random.choice(ALPHABET) for i in range(16))
     cursor.execute('INSERT INTO reminders (id, message, end, target, salt) VALUES (?,?,?,?,?)', (message.author.id, msg, finish, target, salt))
     connection.commit()
+    await client.send_message(c, 'Reminder set')
     await asyncio.sleep(time)
     await client.send_message(discord.Object(id=target), '<@{}>: '.format(message.author.id) + msg)
     cursor.execute('DELETE FROM reminders WHERE salt=?', (salt,))
     connection.commit()
-    await client.send_message(c, 'Reminder set')
 
