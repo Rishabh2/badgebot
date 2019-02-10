@@ -297,7 +297,7 @@ logger.addHandler(handler)
 
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets'
 TEMPLATE_ID = '1nrDrIZ-XmpHw7dF8EMc0LXMSYOhoXTqoX4WO-k8jAgk'
-SHEET_IDS = ['1HdtNLRyAMPCD2DYas7ChcS1luKcUTi4AvrdMIsbm1PQ', '1E6ew94iL4FaV2rWCIOdn_ibdFE3hJ_20lR-UmFDLwtk']
+SHEET_IDS = ['1jbW0sTQ5B15x33NC56qoh_lb5XND-f8Xh_It3qyHM_8', '15rrd_Lo2Anuin76j-AL3aPGpOpHcKS2JcSr6ghzk42g']
 TEAM_COLS = 'C,F,I,L,O,R,U,X,AA,AD,AG,AJ'.split(',')
 POINT_COLS = 'E,H,K,N,Q,T,W,Z,AC,AF,AI,AL'.split(',')
 store = oauth_file.Storage('/root/badgebot/token.json')
