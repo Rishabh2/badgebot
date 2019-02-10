@@ -8,7 +8,7 @@ cloud-init==18.2
 command-not-found==0.3
 configobj==5.0.6
 cryptography==1.2.3
-discord==0.0.2
+discord==0.16.12
 discord.py==0.16.12
 docopt==0.6.2
 google-api-python-client==1.7.4
@@ -16,6 +16,7 @@ google-auth==1.5.1
 google-auth-httplib2==0.0.3
 httplib2==0.11.3
 idna==2.7
+idna-ssl==1.1.0
 inflection==0.3.1
 Jinja2==2.8
 jsonpatch==1.10
@@ -50,5 +51,6 @@ unattended-upgrades==0.1
 update-checker==0.16
 uritemplate==3.0.0
 urllib3==1.24
-websockets==5.0.1
+websockets==3.4
 yarg==0.1.9
+yarl==1.2.0
