@@ -24,13 +24,15 @@ async def setlp(message, args):
         return
       #Normalize Pokemon name
       mon = resp.content
-      if mon in pokemon_list[0]:
+      if mon not in pokemon_list[0]:
+        await client.send_message(c, mon + ' is not a Pokemon I know. Double check spelling and capitalization, and you may need to specfiy form')
+      elif mon in mons:
+        await client.send_message(c, 'You cannot draft duplicate Pokemon')
+      else:
         mons.append(mon)
         embed = discord.Embed(title = 'Added ' + mon, color=badgebot_color)
         embed.set_image(url=sprite_url.format(pokemon_list[1][pokemon_list[0].index(mon)]))
         await client.send_message(c, embed=embed)
-      else:
-        await client.send_message(c, mon + ' is not a Pokemon I know. Double check spelling and capitalization, and you may need to specfiy form')
     await client.send_message(c, 'Alright, your pokemon are: ' + ', '.join(mons))
     if any([m in ubers for m in mons]):
       await client.send_message(c, 'Note: Your team has one or more Uber or potentially Uber Pokemon. Make sure you are familiar with the rules and banlist at\n{}'.format(wiki_url))
