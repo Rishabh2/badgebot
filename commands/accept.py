@@ -7,7 +7,7 @@ async def accept(message, args):
     result = cursor.fetchone()
     if result == None:
       await client.send_message(message.channel, 'User does not have a matching challenge')
-      await client.send_message(message.channel, 'Are you accepting a retry? (y/n)')
+      await client.send_message(message.channel, 'Are you overriding the timer? (y/n)')
       resp = await client.wait_for_message(timeout=60, author=message.author, channel=message.channel)
       if resp != None and resp.content.lower()[0] == 'y':
         cursor.execute(challenge_override_str, (user.id, badge, int(message.timestamp.timestamp()), int(message.timestamp.timestamp())))
