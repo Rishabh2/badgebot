@@ -72,7 +72,7 @@ draft_select_str = 'SELECT conference, team FROM draft WHERE id=?;'
 draft_insert_str = 'INSERT INTO draft (id, conference, team) VALUES (?,?,?);'
 
 
-challenge_table = 's3challenge'
+challenge_table = 's4challenge'
 
 open_challenge_badge_select_str = 'SELECT * FROM {} WHERE id=? AND badge=? AND status="O"'.format(challenge_table)
 
@@ -97,7 +97,7 @@ badge_select_str = 'SELECT badge FROM {} WHERE id=? AND status="W"'.format(chall
 badge_reset_str = 'UPDATE {} SET status=status+"D" WHERE id=?'.format(challenge_table)
 
 
-lp_table = 's3lp'
+lp_table = 's4lp'
 
 lp_select_str = 'SELECT * FROM {} WHERE id=?'.format(lp_table)
 
@@ -130,8 +130,8 @@ team_insert_str = 'INSERT INTO teams (id, team, timestamp) VALUES (?, ?, ?)'
 
 arcade_channel = '463817264752492574'
 
-gym_types = ['flying', 'poison', 'dragon', 'fairy', 'steel', 'dark', 'ground', 'psychic']
-islands = ['melemele', 'poni', 'ulaula', 'akala', 'moone', 'sunne']
+gym_types = 'rock grass bug dragon poison dark fighting ghost'.split()
+islands = 'kanto johto hoenn sinnoh unova kalos alola'.split()
 #Management, Gym Leader, Kahunas, Discipline
 permission_roles = ['384724202613112843', '372559774350573570', '496397807494627338', '507833815696146434']
 #Management and Discipline
@@ -150,13 +150,23 @@ badge_ids = {
     'dragon':'<a:dragonsingles:482063698127749141>',
     'psychic':'<a:psychicsingles:506409264143794176>',
     'steel':'<a:steelsingles:482070459421294632>',
+    'bug':'<a:bugsingles:506408913428676609>',
+    'fighting':'<a:fightingsingles:506409118194597889>',
+    'ghost':'<a:ghostsingles:506409273782435840>',
     'ulaula':'<a:ulaula:506385368002854912>',
     'poni':'<a:poni:506381370260455434>',
     'melemele':'<a:melemele:506385369760268289>',
     'akala':'<a:akala:506387179304648728>',
     'sunne':'<a:sunne:506387413350744064>',
     'moone':'<a:moone:506387413388754945>',
-    'e4champ':'<a:bugsingles:506408913428676609><a:fightingsingles:506409118194597889><a:watersingles:506409275245985793><a:firesingles:506409126759497728>'
+    'e4champ':'<a:fairysingles:482067974119882752><a:watersingles:506409275245985793><a:flyingsingles:506409251326132305><a:icesingles:482067977714401302>',
+    'kanto':'<:Crusader:387809726227939328>',
+    'johto':'<:Tyranitar:542657592669765632>',
+    'hoenn':'<:Mudkipwink:387809008137797652>',
+    'sinnoh':'<:Gallade:544305168771055634>',
+    'unova':'<:minccino:488965244920791041>',
+    'kalos':'<:Goodra:496013014009511948>',
+    'alola':'<:Sandyghast:506171455277498379>',
     }
 
 challenge_time_limit = 19*60*60
