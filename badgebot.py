@@ -237,6 +237,8 @@ async def on_message(message):
       await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('farfetchd')))
     if text.lower().startswith('!wiki'):
       await client.send_message(message.channel, wiki_url)
+    if text.lower().startswith('!hitormiss') and message.channel.id in ['481721487569453076', '547137198328250369']: # Allowed spam channels
+      await client.send_message(message.channel, ':head_bandage:Hit :punch: or miss:flushed: I guess :thinking:they :point_right:never :x: miss, huh :confused::confused:? You :raised_hands:got a boyfriend:heart_eyes:, I bet :slot_machine::no_mouth:he :fearful:doesn\'t :thumbsdown:kiss :kissing_heart::kissing_heart: ya mwah:sparkling_heart: :heart_eyes_cat:He gon\' find :mag::mag: another girl :baby: and he :open_mouth:won\'t:triumph: miss:ok_hand: ya:scream_cat: He :drooling_face:gon\' :astonished:skrrt and hit :punch::punch: the dab:sunglasses: like :smile::smile: Wiz :cowboy:Khalifa:money_mouth:')
     if any([m.id=='213008672610189312' for m in message.mentions]):
       await client.send_message(message.channel, 'Ponged!')
     if any([m.id=='227824927854559242' for m in message.mentions]):
