@@ -10,8 +10,8 @@ async def bdaylist(message, args):
       pivot = i
   if pivot > 0: # We found a pivot bday
     bdays = bdays[pivot:] + bdays[:pivot]
-  bdays = bdays[:5]
+  bdays = [b for b in bdays if id_to_discordname(b[2], message.server) is not None][:5]
   msg = 'Upcoming Birthdays:\n' + '\n'.join([str(b[1])
     + ' ' + months[b[0]] + ' - ' + id_to_discordname(b[2], message.server)
-    for b in bdays if id_to_discordname(b[2], message.server) is not None ])
+    for b in bdays])
   await client.send_message(message.channel, msg)
