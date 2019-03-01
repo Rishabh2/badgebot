@@ -1,10 +1,13 @@
 from header import *
 async def mute(message, args):
   if mutepermission(message.author):
-    target, time, reason = args.split(maxsplit=2)
-    target = id_to_discorduser(target, message.server)
+    targettext, time, reason = args.split(maxsplit=2)
+    target = id_to_discorduser(targettext, message.server)
     if target == None:
-      target = getmention(message)
+      target = getmention(message, targettext, message.server)
+    if target == None:
+      await client.send_message(message.channel, 'There is no one on this server named ' + targettext)
+      return
     if target.id == '242558859300831232':
       await client.send_message(message.channel, no_permissions_message)
     else:
