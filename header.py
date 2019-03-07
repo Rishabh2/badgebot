@@ -80,9 +80,9 @@ open_challenge_select_str = 'SELECT * FROM {} WHERE id=? and status="O"'.format(
 
 recent_challenge_select_str = 'SELECT opentime FROM {} WHERE id=? AND status NOT LIKE "%D" AND status != "C" ORDER BY opentime DESC'.format(challenge_table)
 
-challenge_str = 'INSERT INTO {} (id, opentime, badge, status) VALUES (?,?,?,"O")'.format(challenge_table)
+challenge_str = 'INSERT INTO {} (id, opentime, badge, status, losses) VALUES (?,?,?,"O", 0)'.format(challenge_table)
 
-challenge_override_str = 'INSERT INTO {} (id, badge, opentime, accepttime, status) VALUES (?,?,?,?,"O")'.format(challenge_table)
+challenge_override_str = 'INSERT INTO {} (id, badge, opentime, accepttime, status, losses) VALUES (?,?,?,?,"O", 0)'.format(challenge_table)
 
 challenge_win_str = 'UPDATE {} SET status="W", closetime=? WHERE id=? AND badge=? AND status="O"'.format(challenge_table)
 
@@ -95,6 +95,10 @@ challenge_accept_str = 'UPDATE {} SET accepttime=? WHERE id=? AND badge=? AND st
 badge_select_str = 'SELECT badge FROM {} WHERE id=? AND status="W"'.format(challenge_table)
 
 badge_reset_str = 'UPDATE {} SET status=status+"D" WHERE id=?'.format(challenge_table)
+
+badge_count_str = 'SELECT * FROM {} WHERE id=? and status="W"'.format(challenge_table)
+
+e4_loss_str = 'UPDATE {} SET losses=losses+1 WHERE id=?'.format(challenge_table)
 
 
 lp_table = 's4lp'
@@ -132,10 +136,12 @@ arcade_channel = '463817264752492574'
 
 gym_types = 'rock grass bug dragon poison dark fighting ghost'.split()
 islands = 'kanto johto hoenn sinnoh unova kalos alola'.split()
-#Management, Gym Leader, Kahunas, Discipline
-permission_roles = ['384724202613112843', '372559774350573570', '496397807494627338', '507833815696146434']
-#Management and Discipline
-mute_roles = ['384724202613112843', '507833815696146434']
+#Management, Gym Leader, Kahunas, Discipline, Bot Master
+permission_roles = ['384724202613112843', '372559774350573570', '496397807494627338', '507833815696146434', '514714246102253579']
+#Management, Discipline, Bot Master
+mute_roles = ['384724202613112843', '507833815696146434', '514714246102253579']
+#Events, Bot Master
+coin_roles = ['453754647178641408', '514714246102253579']
 
 badge_ids = {
     'grass':'<a:grasssingles:482073772535578655>',
@@ -239,7 +245,7 @@ invalid_badge_message = "{} is not a valid badge"
 no_permissions_message = "You do not have permission to use that command"
 
 singles_embed = discord.Embed(title='Congratulations Challenger!',
-    description='''You've beaten the 8 singles GLs and advanced to the E4! To celebrate your accomplishment, you may choose any penta-perfect breeject you would like OR  a trophy shiny from [here](https://pokemon-trading-spreadsheet.tumblr.com/?1P2GfP-WjGFcT3KjVCdevajmuclGEHIqU-aHrzc6vfb0#4) or [here](https://pokemon-trading-spreadsheet.tumblr.com/?18aoKlyHek3DM9b1ZR1InCF5foEZ28sYR6sOgyv4W4WM#3). Contact @breeders on #comittee-contact and
+    description='''You've beaten the 8 GLs and advanced to the E4! To celebrate your accomplishment, you may choose any penta-perfect breeject you would like OR  a trophy shiny from [here](https://pokemon-trading-spreadsheet.tumblr.com/?1P2GfP-WjGFcT3KjVCdevajmuclGEHIqU-aHrzc6vfb0#4) or [here](https://pokemon-trading-spreadsheet.tumblr.com/?18aoKlyHek3DM9b1ZR1InCF5foEZ28sYR6sOgyv4W4WM#3). Contact @breeders on #comittee-contact and
       they'll get you your poke as soon as possible!
 
       Good luck on your E4 challenge!
@@ -255,7 +261,7 @@ singles_e4_embed=discord.Embed(title='Congratulations Challenger!',
 
      Contact @breeders on #comittee-contact and they'll get you your poke as soon as possible!
 
-     Good luck on your E4 challenge!
+     Welcome to the hall of fame!
 
      - PVL''')
 
@@ -339,7 +345,7 @@ def coinpermission(user):
     user = discorduser_to_id(user)
   user = id_to_discorduser(user, client.get_server('372042060913442818')
 )
-  return discorduser_to_id(user) == '202380877349650432' or any([role.name=='Arcade Master' for role in user.roles]) if user != None else False
+  return any([role.id in coin_roles for role in user.roles]) if user != None else False
 
 def swear_jar(message):
   return random.random() < 0.02 and pf.is_profane(message.content)

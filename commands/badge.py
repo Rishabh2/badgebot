@@ -11,6 +11,10 @@ async def badge(message, args):
       cursor.execute(challenge_win_str, (int(message.timestamp.timestamp()), user.id, badge))
       connection.commit()
       msg = 'Assigned ' + badge + ' badge to ' + discorduser_to_discordname(user)
+      cursor.execute(badge_count_str, (user.id,))
+      badges = len(cursor.fetchall())
+      if len == 8:
+        await client.send_message(user, embed=singles_embed)
   else:
     msg = no_permissions_message
   await client.send_message(message.channel, msg)
