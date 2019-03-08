@@ -142,6 +142,12 @@ permission_roles = ['384724202613112843', '372559774350573570', '496397807494627
 mute_roles = ['384724202613112843', '507833815696146434', '514714246102253579']
 #Events, Bot Master
 coin_roles = ['453754647178641408', '514714246102253579']
+command_roles = {
+    'leaks':'Leaks',
+    'smash':'Smasher',
+    'breed':'Breed Helper',
+    'adventure':'Adventurer',
+    }
 
 badge_ids = {
     'grass':'<a:grasssingles:482073772535578655>',

@@ -13,9 +13,6 @@ from commands.getlp import *
 from commands.gettime import *
 from commands.gettsv import *
 from commands.help import *
-from commands.leaks import *
-from commands.breed import *
-from commands.smash import *
 from commands.loss import *
 from commands.message import *
 from commands.setfc import *
@@ -88,9 +85,6 @@ modules = [
 'commands.gettime',
 'commands.gettsv',
 'commands.help',
-'commands.leaks',
-'commands.breed',
-'commands.smash',
 'commands.loss',
 'commands.message',
 'commands.setfc',
@@ -142,9 +136,6 @@ commands = {
   'est': est,
   'wipe': wipe,
   'reset': reset,
-  'leaks': leaks,
-  'breed': breed,
-  'smash': smash,
   'coin': coin,
   'coins': coin,
   'calculate': calculate,
@@ -243,6 +234,18 @@ async def on_message(message):
       await client.send_message(message.channel, 'Ponged!')
     if any([m.id=='227824927854559242' for m in message.mentions]):
       await client.send_message(message.channel, 'Your goddess will arrive shortly.')
+
+    for command, rolename in command_roles.items():
+      if text.lower().startswith('!'+command):
+        roles = message.server.roles
+        for role in roles:
+          if role.name==rolename:
+            key_role=role
+
+        if any([role == key_role for role in message.author.roles]):
+          await client.remove_roles(message.author, key_role)
+        else:
+          await client.add_roles(message.author, key_role)
 
     if len(text) > 0 and text[0] == '!':
       args = text[1:].split(maxsplit=1)
