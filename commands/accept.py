@@ -2,7 +2,11 @@ from header import *
 async def accept(message, args):
   if haspermission(message.author):
     user = getmention(message)
-    badge = args.split(maxsplit=1)[1].lower()
+    badge = args.split(maxsplit=1)
+    if len(badge) == 1:
+      await client.send_message(message.channel, 'Usage: `!accept @Tag type`')
+      return
+    badge = badge[1].lower()
     cursor.execute(open_challenge_badge_select_str, (user.id, badge))
     result = cursor.fetchone()
     if result == None:

@@ -2,7 +2,11 @@ from header import *
 async def badge(message, args):
   if haspermission(message.author):
     user = getmention(message)
-    badge = args.split(maxsplit=1)[1].lower()
+    badge = args.split(maxsplit=1)
+    if len(badge) == 1:
+      await client.send_message(message.channel, 'Usage: `!badge @Tag type`')
+      return
+    badge = badge[1].lower()
     cursor.execute(open_challenge_badge_select_str, (user.id, badge))
     result = cursor.fetchone()
     if result == None:
@@ -13,7 +17,7 @@ async def badge(message, args):
       msg = 'Assigned ' + badge + ' badge to ' + discorduser_to_discordname(user)
       cursor.execute(badge_count_str, (user.id,))
       badges = len(cursor.fetchall())
-      if len == 8:
+      if badges == 8:
         await client.send_message(user, embed=singles_embed)
   else:
     msg = no_permissions_message
