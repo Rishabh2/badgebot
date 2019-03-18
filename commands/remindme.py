@@ -27,8 +27,8 @@ async def remindme(message, args):
     await client.send_message(c, 'Bye')
     return
   time = time_parse_sec(resp.content.lower())
-  if time == None or time > 604800:
-    await client.send_message(c, 'I could not parse a valid time. Please start over')
+  if time == None or time > 3456000:
+    await client.send_message(c, 'No setting reminders over 1 month. Please start over')
     return
   else:
     now = datetime.datetime.utcnow()
