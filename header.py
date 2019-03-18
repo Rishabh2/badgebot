@@ -136,8 +136,8 @@ arcade_channel = '463817264752492574'
 
 gym_types = 'rock grass bug dragon poison dark fighting ghost'.split()
 islands = 'kanto johto hoenn sinnoh unova kalos alola'.split()
-#Management, Gym Leader, Kahunas, Discipline, Bot Master
-permission_roles = ['384724202613112843', '372559774350573570', '496397807494627338', '507833815696146434', '514714246102253579']
+#Events, Management, Gym Leader, Kahunas, Discipline, Bot Master
+permission_roles = ['453754647178641408', '384724202613112843', '372559774350573570', '496397807494627338', '507833815696146434', '514714246102253579']
 #Management, Discipline, Bot Master
 mute_roles = ['384724202613112843', '507833815696146434', '514714246102253579']
 #Events, Bot Master
