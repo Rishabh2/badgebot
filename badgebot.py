@@ -38,6 +38,7 @@ from commands.addteam import *
 from commands.challengetime import *
 from commands.mute import *
 
+
 def resetModules():
   for mod in modules:
     importlib.reload(sys.modules[mod])
@@ -69,6 +70,14 @@ async def on_ready():
 
   await client.change_presence(game=discord.Game(name='!help | Contact H2owsome if there is a problem'))
 
+@client.event
+async def on_member_join(member):
+  if member.server.id == '372042060913442818':
+    #NOTE: <message_split> is used to denote splitting the message due to discord's 2000 character limit
+    welcomes = welcome_message.split("<message_split>")
+    for me in welcomes: 
+      sendEmbed = discord.Embed(title='Welcome to the PokeVerseLeague', color=badgebot_color, description=me)
+      await client.send_message(member, embed=sendEmbed)
 
 modules = [
 'commands.addtsv',
