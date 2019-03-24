@@ -76,7 +76,7 @@ async def on_member_join(member):
     #NOTE: <message_split> is used to denote splitting the message due to discord's 2000 character limit
     welcomes = welcome_message.split("<message_split>")
     for me in welcomes: 
-      sendEmbed = discord.Embed(title='Welcome to the PokeVerseLeague', description=me)
+      sendEmbed = discord.Embed(title='Welcome to the PokeVerseLeague', color=badgebot_color, description=me)
       await client.send_message(member, embed=sendEmbed)
 
 modules = [
