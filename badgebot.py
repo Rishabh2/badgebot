@@ -38,6 +38,24 @@ from commands.addteam import *
 from commands.challengetime import *
 from commands.mute import *
 
+welcome_message = """
+Welcome to the Pokeverse League! 
+
+First and foremost, we’re a community geared towards bring all people together! But we’re also here to develop battling and have competition, whether it’s teaching new people how to play competitively or giving seasoned players a new challenge!   
+
+Bring your favorite Pokémon on your copy of SuMo/USUM and battle against real people to earn badges, then test your skills against the Elite 4 and Champion! If the gym battle route isn’t quite your thing, we also have our World Tour, where you can battle champions from the 7 Pokémon regions with teams built around that region’s Pokédex!  Visit us at https://www.reddit.com/r/PokeVerseLeague/ to start your challenge. Here’s how! 
+
+- Decide on a team. New to battling or need help? Check out #strat-discussion and #poke-chat channels for assistance. Got some experience and want to bounce ideas off other experienced players, check out #strat-discussion 
+
+- Create your League Pass. Instructions are available here at https://www.reddit.com/r/PokeVerseLeague/wiki/gettingstarted, or use the !help command in #bot-spam to get a message with all the commands you’ll ever need for the server. Make sure you check the Wiki for the ban list and league rules as you build your team. 
+
+- Issue a challenge! See https://www.reddit.com/r/PokeVerseLeague/wiki/challenge for more information on that. If the Gym Challenge or World Tour isn’t for you, we also have our very own Draft League within PVL that runs during our break month and during our competitive seasons! You can find out more about it on the Discord!
+<message_split>
+Most of our activity is on Discord, and the Reddit page is mostly for record keeping, But it’s very important that you familiarize yourself with the wiki at https://www.reddit.com/r/PokeVerseLeague/wiki/index before challenging the League! 
+
+Of course, we’re always here to help if you need! There’s a lot of different channels, too, so make sure you check out the sidebar to fully explore our server! Have a mod-specific or committee question? Post it to #committee-contact and we’ll get back with you! If you’re new to Discord, the people with colored names are our mods and committee members who should be able to help you with any questions you may have. If you want a more detailed introduction to the process of the challenge in the Discord, ping our very own @Challenge Guide who will be more than happy to show you around! We’re glad you’ve joined us and good luck, champ-in-the-making!
+"""
+
 def resetModules():
   for mod in modules:
     importlib.reload(sys.modules[mod])
@@ -65,10 +83,17 @@ async def on_ready():
   print('------')
   resetModules()
   await client.send_message(client.get_channel('384790941564796930'),
-      '<@242558859300831232>\nRestarted at ' + datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=(-8)))).strftime('%I:%M%p'))
+      '<@242558859300831232>\nRestarted at ' +   datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=(-8)))).strftime('%I:%M%p'))
 
   await client.change_presence(game=discord.Game(name='!help | Contact H2owsome if there is a problem'))
 
+@client.event
+async def on_member_join(member):
+  if member.server.id == '372042060913442818':
+    #TODO: Have the welcome message be stored in a "welcome.txt" and load it on bot startup, also <message_split> is just a way to define a split
+    welcomes = welcome_message.split("<message_split>")
+    for me in welcomes: 
+      await client.send_message(member, me)
 
 modules = [
 'commands.addtsv',
