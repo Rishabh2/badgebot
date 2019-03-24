@@ -83,7 +83,7 @@ async def on_ready():
   print('------')
   resetModules()
   await client.send_message(client.get_channel('384790941564796930'),
-      '<@242558859300831232>\nRestarted at ' +   datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=(-8)))).strftime('%I:%M%p'))
+      '<@242558859300831232>\nRestarted at ' +  datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=(-8)))).strftime('%I:%M%p'))
 
   await client.change_presence(game=discord.Game(name='!help | Contact H2owsome if there is a problem'))
 
