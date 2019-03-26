@@ -172,13 +172,13 @@ badge_ids = {
     'sunne':'<a:sunne:506387413350744064>',
     'moone':'<a:moone:506387413388754945>',
     'e4champ':'<a:fairysingles:482067974119882752><a:watersingles:506409275245985793><a:flyingsingles:506409251326132305><a:icesingles:482067977714401302>',
-    'kanto':'<:Crusader:387809726227939328>',
-    'johto':'<:Tyranitar:542657592669765632>',
-    'hoenn':'<:Mudkipwink:387809008137797652>',
-    'sinnoh':'<:Gallade:544305168771055634>',
-    'unova':'<:minccino:488965244920791041>',
-    'kalos':'<:Goodra:496013014009511948>',
-    'alola':'<:Sandyghast:506171455277498379>',
+    'kanto':'<a:Dragonite:556156897741242385>',
+    'johto':'<a:Tyranitar:556156903848148992>',
+    'hoenn':'<a:Pelipper:556156900383916072>',
+    'sinnoh':'<a:Gallade:556156906205347885>',
+    'unova':'<a:Keldeo:556156912828416011>',
+    'kalos':'<a:Goodra:556156913490853898>',
+    'alola':'<a:Togedemaru:556156912719364118>',
     }
 
 challenge_time_limit = 19*60*60
@@ -276,19 +276,19 @@ poke_chat_channel_id = '372925733192073216'
 bot_spam_channel_id = '481721487569453076'
 committee_contact_channel_id = '458483363481911298'
 
-welcome_message = '''Welcome to the Pokeverse League! 
+welcome_message = '''Welcome to the Pokeverse League!
 
-First and foremost, we’re a community geared towards bring all people together! But we’re also here to develop battling and have competition, whether it’s teaching new people how to play competitively or giving seasoned players a new challenge!   
+First and foremost, we’re a community geared towards bring all people together! But we’re also here to develop battling and have competition, whether it’s teaching new people how to play competitively or giving seasoned players a new challenge!
 
-Bring your favorite Pokémon on your copy of SuMo/USUM and battle against real people to earn badges, then test your skills against the Elite 4 and Champion! If the gym battle route isn’t quite your thing, we also have our World Tour, where you can battle champions from the 7 Pokémon regions with teams built around that region’s Pokédex!  Visit us at [r/PokeVerseLeague](https://www.reddit.com/r/PokeVerseLeague/) to start your challenge. Here’s how! 
+Bring your favorite Pokémon on your copy of SuMo/USUM and battle against real people to earn badges, then test your skills against the Elite 4 and Champion! If the gym battle route isn’t quite your thing, we also have our World Tour, where you can battle champions from the 7 Pokémon regions with teams built around that region’s Pokédex!  Visit us at [r/PokeVerseLeague](https://www.reddit.com/r/PokeVerseLeague/) to start your challenge. Here’s how!
 
 - Decide on a team. New to battling or need help? Check out <#''' + strat_discussion_channel_id + '''> and <#''' + poke_chat_channel_id + '''> for assistance. Got some experience and want to bounce ideas off other experienced players, check out <#''' + strat_discussion_channel_id + '''>
 
-- Create your League Pass. Instructions are available [here](https://www.reddit.com/r/PokeVerseLeague/wiki/gettingstarted), or use the !help command in <#'''+ bot_spam_channel_id + '''> to get a message with all the commands you’ll ever need for the server. Make sure you check the Wiki for the ban list and league rules as you build your team. 
+- Create your League Pass. Instructions are available [here](https://www.reddit.com/r/PokeVerseLeague/wiki/gettingstarted), or use the !help command in <#'''+ bot_spam_channel_id + '''> to get a message with all the commands you’ll ever need for the server. Make sure you check the Wiki for the ban list and league rules as you build your team.
 
 - Issue a challenge! See [here](https://www.reddit.com/r/PokeVerseLeague/wiki/challenge) for more information on that. If the Gym Challenge or World Tour isn’t for you, we also have our very own Draft League within PVL that runs during our break month and during our competitive seasons! You can find out more about it on the Discord!
 <message_split>
-Most of our activity is on Discord, and the Reddit page is mostly for record keeping, But it’s very important that you familiarize yourself with the [wiki](https://www.reddit.com/r/PokeVerseLeague/wiki/index) before challenging the League! 
+Most of our activity is on Discord, and the Reddit page is mostly for record keeping, But it’s very important that you familiarize yourself with the [wiki](https://www.reddit.com/r/PokeVerseLeague/wiki/index) before challenging the League!
 
 Of course, we’re always here to help if you need! There’s a lot of different channels, too, so make sure you check out the sidebar to fully explore our server! Have a mod-specific or committee question? Post it to <#''' + committee_contact_channel_id + '''> and we’ll get back with you! If you’re new to Discord, the people with colored names are our mods and committee members who should be able to help you with any questions you may have. If you want a more detailed introduction to the process of the challenge in the Discord, ping our very own @Challenge Guide who will be more than happy to show you around! We’re glad you’ve joined us and good luck, champ-in-the-making!
 '''

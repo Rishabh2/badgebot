@@ -6,7 +6,7 @@ async def bdaylist(message, args):
   current = (current.month-1, current.day)
   pivot = -1
   for i, bday in enumerate(bdays):
-    if pivot == -1 and bday[0] >= current[0] and bday[1] >= current[1]:
+    if pivot == -1 and (bday[0] > current[0] or (bday[1] >= current[1] and bday[0] == current[0])):
       pivot = i
   if pivot > 0: # We found a pivot bday
     bdays = bdays[pivot:] + bdays[:pivot]
