@@ -28,14 +28,14 @@ async def setfc(message, args):
       url = None
     else:
       url = result[1] #Get the existing url
-    if len(resp.attachments) > 0:
-      url = resp.attachments[0]['url']
+    if len(resp.embeds) > 0:
+      url = resp.embeds[0]['url']
 
   else:
     user = message.author.id
     url = None
-    if len(message.attachments) > 0:
-      url = message.attachments[0]['url']
+    if len(message.embeds) > 0:
+      url = message.embeds[0]['url']
     cursor.execute(fc_select_str, (user,))
     result = cursor.fetchone()
   if result == None:
