@@ -3,7 +3,7 @@ async def badge(message, args):
   if haspermission(message.author):
     user = getmention(message)
     badge = args.split(maxsplit=1)
-    if len(badge) == 1:
+    if len(badge) < 2:
       await client.send_message(message.channel, 'Usage: `!badge @Tag type`')
       return
     badge = badge[1].lower()
