@@ -1,6 +1,6 @@
 from header import *
 async def badge(message, args):
-  if haspermission(message.author):
+  if badgepermission(message.author):
     user = getmention(message)
     badge = args.split(maxsplit=1)
     if len(badge) < 2:

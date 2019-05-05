@@ -136,7 +136,7 @@ gym_types = 'rock grass bug dragon poison dark fighting ghost'.split()
 #Founder, HMs
 permission_roles = ['568167258380173312', '572142884883529738']
 #Founder, HMs, GLs
-badge_roles = permission_roles + ['574681803961532509']
+badge_roles = permission_roles + ['572977823367692314']
 
 command_roles = {
     'leaks':'Leaks',
@@ -176,6 +176,8 @@ badge_ids = {
     'kalos':'<a:Goodra:556156913490853898>',
     'alola':'<a:Togedemaru:556156912719364118>',
     }
+
+bot_spam_channel_id = '568173485680099428'
 
 challenge_time_limit = 19*60*60
 
@@ -365,7 +367,7 @@ def discorduser_to_redditname(user):
 
 
 def roster_sprites(mons, userid, salt):
-  #subprocess.call(['/root/badgebot/roster.sh' , userid])
+  subprocess.call(['/root/badgebot/roster.sh' , userid])
   sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons if mon != None]
   moncount = len(sprites)
   sidecount = moncount - 6
@@ -382,7 +384,7 @@ def roster_sprites(mons, userid, salt):
       print((150+45*((i-6)//2), 35*((i-6)%2)))
   filename ='/root/badgebot/rosters/{}.png'.format(userid+'-'+salt)
   finalimg.save(filename)
-  #subprocess.call(['/root/badgebot/git.sh', filename])
+  subprocess.call(['/root/badgebot/git.sh', filename])
 
 def time_parse_sec(time):
   try:

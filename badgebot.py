@@ -129,7 +129,6 @@ modules = [
 'commands.addteam',
 'commands.challengetime',
 'commands.mute',
-'commands.report'
 ]
 
 commands = {
@@ -175,18 +174,7 @@ commands = {
   'addteam':addteam,
   'challengetime':challengetime,
   'mute':mute,
-  'report':report
   }
-
-
-async def gcreate(message):
-  if message.server.id == '372042060913442818':
-    gcreator = message.author.id
-    resp = await client.wait_for_message(timeout=600, channel=client.get_channel('480933325759053854'),check=lambda x: x.author.id == giveawaybot and '**G' in x.content)
-    if resp != None:
-      await client.pin_message(resp)
-      cursor.execute('INSERT INTO giveaways (id, gid) values (?,?)', (gcreator, resp.id))
-      connection.commit()
 
 
 
@@ -195,19 +183,6 @@ async def on_message(message):
   try:
     if message.author.id == '245963462952484864' and 'butthead' in message.content.lower():
       await client.send_message(message.channel, 'buttheat*')
-    if message.author.id == giveawaybot and 'Congratulations' in message.content:
-      m = re.search(r'the \*\*(.*)\*\*', message.content)
-      prize = m.group(1)
-      pins = await client.pins_from(message.channel)
-      for p in pins:
-        if p.embeds != None and len(p.embeds) > 0 and prize in p.embeds[0]['author']['name']:
-          cursor.execute('SELECT * from giveaways where gid=?', (p.id,))
-          result = cursor.fetchone()
-          cursor.execute('DELETE FROM giveaways where gid=?', (p.id,))
-          connection.commit()
-          if result != None:
-            await client.send_message(message.channel, 'From <@{}>'.format(result[0]))
-          await client.unpin_message(p)
     if message.author.bot:
       return
 

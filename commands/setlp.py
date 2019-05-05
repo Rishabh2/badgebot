@@ -59,6 +59,6 @@ If you need any help, please contact H2owsome'''
   connection.commit()
   await client.send_message(c, 'Saving...')
   roster_sprites(mons, message.author.id, salt)
-  ch = list(filter(lambda x: x.id == '482742805639331841', message.server.roles))[0]
+  ch = list(filter(lambda x: x.id == '572978328215224344', message.server.roles))[0]
   await client.add_roles(message.author, ch)
   await client.send_message(c, 'All Done!')

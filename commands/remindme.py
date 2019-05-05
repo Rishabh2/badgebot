@@ -3,6 +3,7 @@ async def remindme(message, args):
   if args.lower().strip() == 'help':
     await client.send_message(message.channel, embed=help_misc)
     return
+
   c = message.channel
   if c.id != bot_spam_channel_id:
     await client.send_message(c, 'Please only use this command in <#{}>'.format(bot_spam_channel_id))
