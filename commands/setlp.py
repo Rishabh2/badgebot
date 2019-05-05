@@ -5,12 +5,16 @@ async def setlp(message, args):
     return
 
   c = message.channel
-  if c.id != '481721487569453076':
-    await client.send_message(c, 'Please only use !setlp in the <#481721487569453076> channel')
+  if c.id != bot_spam_channel_id:
+    await client.send_message(c, 'Please only use this command in <#{}>'.format(bot_spam_channel_id))
     return
+  lp_message = '''Time to set up your league pass!
+You start with 6 main pokemon, and will unlock 2 sideboard slots as you continue.
+If you haven't already, use the command `!rules` to read the rules for the challenge.
+As well as this please ensure pokemon are spelt correctly with a capital letter, also specify the form, for example Alolan Ninetales would be: Ninetales (Alola).
+If you need any help, please contact H2owsome'''
 
-  await client.send_message(c,'Time to set up your league pass!\nYou start with 6 main pokemon, and will unlock 4 sideboard slots as you continue.\nAs a reminder, legendary pokemon are not allowed in our format.\nAs well as this please ensure pokemon are spelt correctly with a capital letter, also specify the form, for example Alolan Ninetales would be: Ninetales (Alola).\nThe full details can be found on the subreddit wiki.')
-
+  await client.send_message(c,lp_message)
   retry = False
   while not retry:
     await client.send_message(c, 'Type "cancel" to cancel')
@@ -33,9 +37,9 @@ async def setlp(message, args):
         embed = discord.Embed(title = 'Added ' + mon, color=badgebot_color)
         embed.set_image(url=sprite_url.format(pokemon_list[1][pokemon_list[0].index(mon)]))
         await client.send_message(c, embed=embed)
+        if mon in ubers:
+          await client.send_message(c, 'Note: This pokemon cannot be mega evolved as per the challenge rules')
     await client.send_message(c, 'Alright, your pokemon are: ' + ', '.join(mons))
-    if any([m in ubers for m in mons]):
-      await client.send_message(c, 'Note: Your team has one or more Uber or potentially Uber Pokemon. Make sure you are familiar with the rules and banlist at\n{}'.format(wiki_url))
     await client.send_message(c, 'Is this correct? (y/n)')
     resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
     if resp == None:

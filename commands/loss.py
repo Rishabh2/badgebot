@@ -16,7 +16,7 @@ async def loss(message, args):
       cursor.execute(challenge_loss_str, (int(message.timestamp.timestamp()), user.id, badge))
       await client.send_message(message.channel, 'Assigned loss to ' + discorduser_to_discordname(getmention(message)))
     else:
-      losses = result[-1] + 1
+      losses = (result[-1] + 1) if message.author.id != champ_id else 3
       if losses == 3:
         cursor.execute(challenge_loss_str, (int(message.timestamp.timestamp()), user.id, badge))
       else:

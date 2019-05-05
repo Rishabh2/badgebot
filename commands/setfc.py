@@ -17,7 +17,7 @@ async def setfc(message, args):
       await client.send_message(c, 'Bye')
       return
     args = resp.content
-    await client.send_message(c, 'Now, what image do you want to include in your fc?\nEither provide a direct link to the image or embed it directly in your message\nIf you don\'t want an image, just say "No thanks"')
+    await client.send_message(c, 'Now, what image do you want to include in your fc?\nPlease provide a direct link to the image\nIf you don\'t want an image, just say "No thanks"')
     resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
     if resp == None or resp.content.lower()=='cancel':
       await client.send_message(c, 'Bye')

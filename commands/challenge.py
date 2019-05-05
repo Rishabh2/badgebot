@@ -23,9 +23,14 @@ async def challenge(message, args):
     elif args.lower() not in islands and current_time - recent_time < challenge_time_limit:
       msg = 'Your last challenge was too recent. Please wait 20 hours between challenges'
     elif isbadge(args):
-      cursor.execute(challenge_str, (userid, current_time if args.lower() not in islands else 0, args))
-      connection.commit()
-      msg = 'Challenge Submitted!'
+      cursor.execute(badge_count_str, (userid,))
+      result = cursor.fetchall()
+      if args.lower() == 'e4champ' and len(result) != 8:
+        msg = 'You need 8 badges to challenge the elite 4'
+      else:
+        cursor.execute(challenge_str, (userid, current_time if args.lower() not in islands else 0, args))
+        connection.commit()
+        msg = 'Challenge Submitted!'
     else:
       msg = args + ' is not a valid badge'
   await client.send_message(message.channel, msg)

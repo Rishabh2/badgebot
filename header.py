@@ -72,7 +72,7 @@ draft_select_str = 'SELECT conference, team FROM draft WHERE id=?;'
 draft_insert_str = 'INSERT INTO draft (id, conference, team) VALUES (?,?,?);'
 
 
-challenge_table = 's4challenge'
+challenge_table = 's5challenge'
 
 open_challenge_badge_select_str = 'SELECT * FROM {} WHERE id=? AND badge=? AND status="O"'.format(challenge_table)
 
@@ -101,7 +101,7 @@ badge_count_str = 'SELECT * FROM {} WHERE id=? and status="W"'.format(challenge_
 e4_loss_str = 'UPDATE {} SET losses=losses+1 WHERE id=?'.format(challenge_table)
 
 
-lp_table = 's4lp'
+lp_table = 's5lp'
 
 lp_select_str = 'SELECT * FROM {} WHERE id=?'.format(lp_table)
 
@@ -132,21 +132,17 @@ days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 team_insert_str = 'INSERT INTO teams (id, team, timestamp) VALUES (?, ?, ?)'
 
 
-arcade_channel = '463817264752492574'
-
 gym_types = 'rock grass bug dragon poison dark fighting ghost'.split()
-islands = 'kanto johto hoenn sinnoh unova kalos alola'.split()
-#Events, Management, Gym Leader, Kahunas, Discipline, Bot Master
-permission_roles = ['453754647178641408', '384724202613112843', '372559774350573570', '496397807494627338', '507833815696146434', '514714246102253579']
-#Management, Discipline, Bot Master
-mute_roles = ['384724202613112843', '507833815696146434', '514714246102253579']
-#Events, Bot Master
-coin_roles = ['453754647178641408', '514714246102253579']
+#Founder, HMs
+permission_roles = ['568167258380173312', '572142884883529738']
+#Founder, HMs, GLs
+badge_roles = permission_roles + ['574681803961532509']
+
 command_roles = {
     'leaks':'Leaks',
     'smash':'Smasher',
     'breed':'Breed Helper',
-    'adventure':'Adventurer',
+    'rant':'Rants'
     }
 
 badge_ids = {
@@ -208,14 +204,14 @@ help_info.add_field(name='!info', value='`!info @someone` to pull up their full 
 help_lp = discord.Embed(title='Your League Pass', color=badgebot_color, description='Set up a League Pass to challenge to Gyms and other attractions')
 help_lp.set_footer(text='Please contact H2owsome with any questions.')
 help_lp.set_thumbnail(url=badgebot_icon)
-help_lp.add_field(name='!setlp', value='Use this command in #bot-spam to being setting up your League Pass')
+help_lp.add_field(name='!setlp', value='Use this command in #birchs-lab to begin setting up your League Pass')
 help_lp.add_field(name='!sideboard', value='`!sideboard Pokemon` to add `Pokemon` to your League Pass. (Replace `Pokemon` with the Pokemon you want)')
 help_lp.add_field(name='!swap', value='`!swap PokemonA/PokemonB` to swap `PokemonA` and `PokemonB` on your League Pass')
 
 help_gym = discord.Embed(title='Challenge the Gyms', color=badgebot_color, description='All the info you need about challenging gyms')
 help_gym.set_footer(text='Please contact H2owsome with any questions.')
 help_gym.set_thumbnail(url=badgebot_icon)
-help_gym.add_field(name='!challenge', value='`!challenge gymname` will submit a challenge and notify the gym leader. Examples include `!challenge fairy` or `!challenge melemele`\nThe name of the gym you are challenging will match the name of the corresponding channel\nJust use `!challenge` to check if you have an open challenge')
+help_gym.add_field(name='!challenge', value='`!challenge gymname` will submit a challenge and notify the gym leader. Examples include `!challenge fairy`\nJust use `!challenge` to check if you have an open challenge')
 help_gym.add_field(name='!cancel', value='Cancel an open challenge if you want to challenge someone else. A cancelled challenge will be ignored by the timer.')
 help_gym.add_field(name='!challengetime', value='Tells you how much time you have remaining until you can challenge again. There is a 20 hour limit between challenges')
 
@@ -230,15 +226,13 @@ help_tsv.add_field(name='!dumptsv', value='Generates a text dump of every saved 
 help_misc = discord.Embed(title='Miscellaneous Commands', color=badgebot_color, description='Miscellaneous Commands')
 help_misc.set_footer(text='Please contact H2owsome with any questions.')
 help_misc.set_thumbnail(url=badgebot_icon)
-help_misc.add_field(name='!coin', value='`!coin @someone` to see how many PVL coins someone has')
 help_misc.add_field(name='!remindme', value='Set up a reminder that badgebot will ping you about')
-help_misc.add_field(name='!gcreate', value='Start up a giveaway! (Please use command only in #bot-spam, and host the giveaway in #giveaways)')
-help_misc.add_field(name='!swearlist', value='`!swearlist @someone` to see how many times they have triggered the swear jar')
+#help_misc.add_field(name='!gcreate', value='Start up a giveaway! (Please use command only in #bot-spam, and host the giveaway in #giveaways)')
 help_misc.add_field(name='!bdaylist', value='`!bdaylist` to see some upcoming birthdays')
 help_misc.add_field(name='!calculate', value='A helpful calculator if you need to math on discord')
 help_misc.add_field(name='!leaks', value='Use `!leaks` to toggle access to the secret #leaks-and-spoilers channel')
 help_misc.add_field(name='!breed', value='Use `!breed` to toggle the Breed Helper role')
-help_misc.add_field(name='!leaks', value='Use `!smash` to toggle the Smasher role')
+help_misc.add_field(name='!smash', value='Use `!smash` to toggle the Smasher role')
 
 help_embeds = [help_about, help_info, help_lp, help_gym, help_tsv, help_misc]
 
@@ -250,56 +244,29 @@ invalid_badge_message = "{} is not a valid badge"
 
 no_permissions_message = "You do not have permission to use that command"
 
-singles_embed = discord.Embed(title='Congratulations Challenger!',
-    description='''You've beaten the 8 GLs and advanced to the E4! To celebrate your accomplishment, you may choose any penta-perfect breeject you would like OR  a trophy shiny from [here](https://pokemon-trading-spreadsheet.tumblr.com/?1P2GfP-WjGFcT3KjVCdevajmuclGEHIqU-aHrzc6vfb0#4) or [here](https://pokemon-trading-spreadsheet.tumblr.com/?18aoKlyHek3DM9b1ZR1InCF5foEZ28sYR6sOgyv4W4WM#3). Contact @breeders on #comittee-contact and
-      they'll get you your poke as soon as possible!
 
-      Good luck on your E4 challenge!
+pokepaste_embed = discord.Embed(title='Pokepaste Guide', color=badgebot_color, description='How to Make a Pokepaste')
+pokepaste_embed.add_field(name='Step 1', value='Make your team on [showdown](https://play.pokemonshowdown.com)')
+pokepaste_embed.add_field(name='Step 2', value='Click the import/export button at the top of the team and copy it to your clipboard')
+pokepaste_embed.add_field(name='Step 3', value='Go to [pokepaste](https://pokepast.es) and paste the team in the big black box on the left')
+pokepaste_embed.add_field(name='Step 4', value='Fill out the title/author boxes, click submit paste')
+pokepaste_embed.add_field(name='Step 5', value='Copy the URL of the page and paste it wherever you want to')
 
-      - PVL''')
+rules_embed = discord.Embed(description='Each challenger begins by choosing 6 pokemon to create their League Pass (LP). Challengers will get a mon on their sideboard after every 3 badges they earn (so a mon after the 3rd and 6th gyms). You can change your sets in between challenges so that you can adapt to each gym, but be aware that the Gym Leaders will also do this. You can only challenge a gym once every 24 hours.', color=badgebot_color, title='Littleroot Town League Challenge Rules')
+rules_embed.add_field(name='Banlist', value='All Legendary Pokemon, Ubers, and Greninja are banned. All OHKO moves and the move Swagger are also banned.')
+rules_embed.add_field(name='Item Clause', value='No two Pokemon on the same team may hold the same item')
+rules_embed.add_field(name='Evasion Clause', value='No Pokemon may hold or use any items, moves, or abilities that raise its own evasion or lower the opponent\'s accuracy')
+rules_embed.add_field(name='Sleep Clause', value='You may not deliberately put more than one of your opponent\'s Pokemon to sleep at once')
+rules_embed.add_field(name='Species Clause', value='No two Pokemon on the same team may share a National Pokedex number')
 
-singles_e4_embed=discord.Embed(title='Congratulations Challenger!',
-    description='''You've beaten the singles E4! To celebrate your accomplishment, you may choose **one** of the following:
 
-     any BR pokemon available [here](https://pokemon-trading-spreadsheet.tumblr.com/?18aoKlyHek3DM9b1ZR1InCF5foEZ28sYR6sOgyv4W4WM#2) or [here](https://pokemon-trading-spreadsheet.tumblr.com/?1P2GfP-WjGFcT3KjVCdevajmuclGEHIqU-aHrzc6vfb0#6)
-
-     a comp/semi-comp shiny [here](https://pokemon-trading-spreadsheet.tumblr.com/?18aoKlyHek3DM9b1ZR1InCF5foEZ28sYR6sOgyv4W4WM#4) or [here](https://pokemon-trading-spreadsheet.tumblr.com/?1P2GfP-WjGFcT3KjVCdevajmuclGEHIqU-aHrzc6vfb0#5)
-
-     Contact @breeders on #comittee-contact and they'll get you your poke as soon as possible!
-
-     Welcome to the hall of fame!
-
-     - PVL''')
-
-strat_discussion_channel_id = '372923354291765248'
-poke_chat_channel_id = '372925733192073216'
-bot_spam_channel_id = '481721487569453076'
-committee_contact_channel_id = '458483363481911298'
-
-welcome_message = '''Welcome to the Pokeverse League!
-
-First and foremost, we’re a community geared towards bring all people together! But we’re also here to develop battling and have competition, whether it’s teaching new people how to play competitively or giving seasoned players a new challenge!
-
-Bring your favorite Pokémon on your copy of SuMo/USUM and battle against real people to earn badges, then test your skills against the Elite 4 and Champion! If the gym battle route isn’t quite your thing, we also have our World Tour, where you can battle champions from the 7 Pokémon regions with teams built around that region’s Pokédex!  Visit us at [r/PokeVerseLeague](https://www.reddit.com/r/PokeVerseLeague/) to start your challenge. Here’s how!
-
-- Decide on a team. New to battling or need help? Check out <#''' + strat_discussion_channel_id + '''> and <#''' + poke_chat_channel_id + '''> for assistance. Got some experience and want to bounce ideas off other experienced players, check out <#''' + strat_discussion_channel_id + '''>
-
-- Create your League Pass. Instructions are available [here](https://www.reddit.com/r/PokeVerseLeague/wiki/gettingstarted), or use the !help command in <#'''+ bot_spam_channel_id + '''> to get a message with all the commands you’ll ever need for the server. Make sure you check the Wiki for the ban list and league rules as you build your team.
-
-- Issue a challenge! See [here](https://www.reddit.com/r/PokeVerseLeague/wiki/challenge) for more information on that. If the Gym Challenge or World Tour isn’t for you, we also have our very own Draft League within PVL that runs during our break month and during our competitive seasons! You can find out more about it on the Discord!
-<message_split>
-Most of our activity is on Discord, and the Reddit page is mostly for record keeping, But it’s very important that you familiarize yourself with the [wiki](https://www.reddit.com/r/PokeVerseLeague/wiki/index) before challenging the League!
-
-Of course, we’re always here to help if you need! There’s a lot of different channels, too, so make sure you check out the sidebar to fully explore our server! Have a mod-specific or committee question? Post it to <#''' + committee_contact_channel_id + '''> and we’ll get back with you! If you’re new to Discord, the people with colored names are our mods and committee members who should be able to help you with any questions you may have. If you want a more detailed introduction to the process of the challenge in the Discord, ping our very own @Challenge Guide who will be more than happy to show you around! We’re glad you’ve joined us and good luck, champ-in-the-making!
-'''
 ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 with open('/root/badgebot/monlist', 'rb') as fp:
   pokemon_list = pickle.load(fp)
 
-ubers = ['Gengar', 'Kangaskhan', 'Blaziken', 'Salamence', 'Metagross', 'Lucario', 'Aegislash', 'Wobuffet', 'Wynaut', 'Gothita', 'Gothorita', 'Gothitelle', 'Diglett', 'Dugtrio', 'Trapinch', 'Kecleon', 'Froakie', 'Frogadier', 'Greninja']
+ubers = ['Gengar', 'Kangaskhan', 'Salamence', 'Metagross', 'Lucario']
 
-wiki_url = 'https://www.reddit.com/r/PokeVerseLeague/wiki/index'
 
 sprite_url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/{}.png'
 roster_url = 'https://raw.githubusercontent.com/Rishabh2/badgebot/master/rosters/{}.png'
@@ -307,30 +274,18 @@ roster_url = 'https://raw.githubusercontent.com/Rishabh2/badgebot/master/rosters
 connection = sqlite3.connect("/root/badgebot/userinfo.db")
 cursor = connection.cursor()
 
-reddit = praw.Reddit(user_agent='PokeVerseLeagueBot v0.1',
-                     client_id=passwords.client_id,
-                     client_secret=passwords.client_secret,
-                     username='BananaHammerBot',
-                     password=passwords.redditpass)
+#reddit = praw.Reddit(user_agent='PokeVerseLeagueBot v0.1',
+#                     client_id=passwords.client_id,
+#                     client_secret=passwords.client_secret,
+#                     username='BananaHammerBot',
+#                     password=passwords.redditpass)
 
-subreddit = reddit.subreddit('PokeVerseLeague')
+#subreddit = reddit.subreddit('PokeVerseLeague')
 
 client = discord.Client()
 
 
 time_mult = {'s':1, 'm':60, 'h':3600, 'd':86400}
-
-pf = ProfanityFilter(extra_censor_list=['twat', 'bellend', 'bloody', 'bugger'])
-words = pf.get_profane_words()
-words.remove('gay')
-words.remove('gaybor')
-words.remove('gayboy')
-words.remove('gaygirl')
-words.remove('gays')
-words.remove('gayz')
-words.remove('nasty')
-pf.define_words(words)
-giveawaybot = '294882584201003009'
 
 logger = logging.getLogger('discord')
 logger.setLevel(logging.ERROR)
@@ -355,27 +310,18 @@ service = build('sheets', 'v4', http=creds.authorize(Http()))
 def getmention(message, args='', server=None):
   return message.mentions[0] if len(message.mentions) > 0 else server.get_member_named(args) if len(args) > 0 else message.author
 
-def mutepermission(user):
-  if not isinstance(user, str):
-    user = discorduser_to_id(user)
-  user = id_to_discorduser(user, client.get_server('372042060913442818'))
-  return any([role.id in mute_roles for role in user.roles]) if user != None else False
-
 def haspermission(user):
   if not isinstance(user, str):
     user = discorduser_to_id(user)
-  user = id_to_discorduser(user, client.get_server('372042060913442818'))
+  user = id_to_discorduser(user, client.get_server('568166407045644314'))
   return any([role.id in permission_roles for role in user.roles]) if user != None else False
 
-def coinpermission(user):
+def badgepermission(user):
   if not isinstance(user, str):
     user = discorduser_to_id(user)
-  user = id_to_discorduser(user, client.get_server('372042060913442818')
+  user = id_to_discorduser(user, client.get_server('568166407045644314')
 )
-  return any([role.id in coin_roles for role in user.roles]) if user != None else False
-
-def swear_jar(message):
-  return random.random() < 0.02 and pf.is_profane(message.content)
+  return any([role.id in badge_roles for role in user.roles]) if user != None else False
 
 def id_to_discorduser(discord_id, server):
   return server.get_member(discord_id)
@@ -419,7 +365,7 @@ def discorduser_to_redditname(user):
 
 
 def roster_sprites(mons, userid, salt):
-  subprocess.call(['/root/badgebot/roster.sh' , userid])
+  #subprocess.call(['/root/badgebot/roster.sh' , userid])
   sprites = [pokemon_list[1][pokemon_list[0].index(mon)] for mon in mons if mon != None]
   moncount = len(sprites)
   sidecount = moncount - 6
@@ -436,7 +382,7 @@ def roster_sprites(mons, userid, salt):
       print((150+45*((i-6)//2), 35*((i-6)%2)))
   filename ='/root/badgebot/rosters/{}.png'.format(userid+'-'+salt)
   finalimg.save(filename)
-  subprocess.call(['/root/badgebot/git.sh', filename])
+  #subprocess.call(['/root/badgebot/git.sh', filename])
 
 def time_parse_sec(time):
   try:
@@ -457,7 +403,7 @@ async def load_mute(userid, reason, end, target, salt):
   time = end - datetime.datetime.utcnow().timestamp()
   await asyncio.sleep(time)
 
-  roles = client.get_server('372042060913442818').roles
+  roles = client.get_server('568166407045644314').roles
   for role in roles:
     if role.name=='Muted':
       mute_role=role

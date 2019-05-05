@@ -4,8 +4,8 @@ async def remindme(message, args):
     await client.send_message(message.channel, embed=help_misc)
     return
   c = message.channel
-  if c.id != '481721487569453076':
-    await client.send_message(c, 'Please only use this command in <#481721487569453076>')
+  if c.id != bot_spam_channel_id:
+    await client.send_message(c, 'Please only use this command in <#{}>'.format(bot_spam_channel_id))
     return
   await client.send_message(c, 'Type `cancel` to cancel')
   await client.send_message(c, 'What channel do you want to me be reminded in? If you do not respond with a valid channel, you will be reminded in this channel')
@@ -27,7 +27,7 @@ async def remindme(message, args):
     await client.send_message(c, 'Bye')
     return
   time = time_parse_sec(resp.content.lower())
-  if time == None or time > 3456000:
+  if time == None or time > 2592000:
     await client.send_message(c, 'No setting reminders over 1 month. Please start over')
     return
   else:

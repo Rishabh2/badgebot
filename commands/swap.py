@@ -18,9 +18,10 @@ async def swap(message, args):
       embed=help_lp
     elif len(newmons) == 2: #Swap position of two mons
       mons = result[1]
+      monscheck = mons.split(',')
       m1 = newmons[0]
       m2 = newmons[1]
-      if m1 not in mons or m2 not in mons:
+      if m1 not in monscheck or m2 not in monscheck:
         msg = 'One or more of those is not a Pokemon on your LP'
         embed=help_lp
       else:

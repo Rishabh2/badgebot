@@ -17,8 +17,6 @@ from commands.loss import *
 from commands.message import *
 from commands.setfc import *
 from commands.swearlist import *
-from commands.wipe import *
-from commands.coin import *
 from commands.forcewipe import *
 from commands.info import *
 from commands.draft import *
@@ -65,19 +63,34 @@ async def on_ready():
   print(datetime.datetime.now())
   print('------')
   resetModules()
-  await client.send_message(client.get_channel('384790941564796930'),
+  await client.send_message(client.get_channel('568174692687675392'),
       '<@242558859300831232>\nRestarted at ' + datetime.datetime.now(tz=datetime.timezone(datetime.timedelta(hours=(-8)))).strftime('%I:%M%p'))
 
   await client.change_presence(game=discord.Game(name='!help | Contact H2owsome if there is a problem'))
 
 @client.event
 async def on_member_join(member):
-  if member.server.id == '372042060913442818':
-    #NOTE: <message_split> is used to denote splitting the message due to discord's 2000 character limit
-    welcomes = welcome_message.split("<message_split>")
-    for me in welcomes:
-      sendEmbed = discord.Embed(title='Welcome to the PokeVerseLeague', color=badgebot_color, description=me)
-      await client.send_message(member, embed=sendEmbed)
+  welcome_message_x='''Welcome to Littleroot Town!
+
+  We’re a community of gamers and a close knit family, we’re glad you found us!
+
+  Be sure to read through the official things channel, especially the rules! Not knowing about a rule will not be a valid answer to why you broke one.
+
+  A Town of New Beginnings is home to our general channels. There you’ll find our general chat channels/picture channels/bot spam/etc.
+
+  Games ’n Stuff is home to all things nerdy! We’ve got resources for Pokemon, Stardew Valley, Smash and more! Did we miss something? Pop it into suggestions and we’ll see about getting a channel up for you.
+
+  Events is where we’ll host events. Server movie streams, CAH, tournaments, anything is fair game! Have an idea for an event? Let us know and we’ll either get it going or grant you temporary permissions to run it!
+
+  Route 101 is where we keep anything that links off discord. This includes promotional advertisements, stream/youtube notifications if you run a channel, and a channel to drop your social media links in. Posting to these channels is restricted and you can ping any moderator to be added.
+
+  We maintain a fun group Voice Chat at the bottom of the server! Please post any chatter related to what’s happening in VC in #vc-for-lurkers
+
+  Are we missing anything? post in suggestions or contact us and we’ll see about getting it added!
+  '''
+  if member.server.id == '568166407045644314':
+    sendEmbed = discord.Embed(title='Welcome to Littleroot Town', color=badgebot_color, description=welcome_message_x)
+    await client.send_message(member, embed=sendEmbed)
 
 modules = [
 'commands.addtsv',
@@ -98,8 +111,6 @@ modules = [
 'commands.message',
 'commands.setfc',
 'commands.swearlist',
-'commands.wipe',
-'commands.coin',
 'commands.forcewipe',
 'commands.info',
 'commands.draft',
@@ -118,6 +129,7 @@ modules = [
 'commands.addteam',
 'commands.challengetime',
 'commands.mute',
+'commands.report'
 ]
 
 commands = {
@@ -143,10 +155,7 @@ commands = {
   'message': message,
   'swearlist': swearlist,
   'est': est,
-  'wipe': wipe,
   'reset': reset,
-  'coin': coin,
-  'coins': coin,
   'calculate': calculate,
   'forcewipe': forcewipe,
   'info': info,
@@ -166,6 +175,7 @@ commands = {
   'addteam':addteam,
   'challengetime':challengetime,
   'mute':mute,
+  'report':report
   }
 
 
@@ -206,18 +216,6 @@ async def on_message(message):
     except:
       s = None
 
-    if s=='372042060913442818' and swear_jar(message):
-        await client.send_message(message.channel, 'You triggered the swear jar '+message.author.mention+'! Get yourself to #bot-spam and start a giveaway using the command !gcreate. you filthy mouthed trainer...\n<:Dragonite:387809726227939328> frowns upon you.')
-        cursor.execute(swear_select_str, (message.author.id,))
-        result = cursor.fetchone()
-        if result == None: # No info
-          cursor.execute(swear_insert_str, (message.author.id,))
-        elif result[0] == None: # No swears
-          cursor.execute(swear_begin_str, (message.author.id,))
-        else: # Swears
-          cursor.execute(swear_update_str, (message.author.id,))
-        connection.commit()
-
     m = re.search(tag_err_reg, message.content)
     if len(message.mentions) == 0 and m != None:
       user = discord.utils.get(message.server.members, name=m.group(1),discriminator=m.group(2))
@@ -227,22 +225,22 @@ async def on_message(message):
     else:
       text = message.content
 
-    if text.lower().startswith('g!create') or text.lower().startswith('!gcreate'):
-      await gcreate(message)
     if text.lower().startswith('!bestpokemon'):
       await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('pyukumuku')))
     if text.lower().startswith('!cutestpokemon'):
       await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('ralts')))
     if text.lower().startswith('!leek'):
       await client.send_message(message.channel, embed=discord.Embed(color=discord.Color(0xbc614e)).set_image(url=sprite_url.format('farfetchd')))
-    if text.lower().startswith('!wiki'):
-      await client.send_message(message.channel, wiki_url)
+    if text.lower().startswith('!pokepaste'):
+      await client.send_message(message.channel, embed=pokepaste_embed)
+    if text.lower().startswith('!rules'):
+      await client.send_message(message.channel, embed=rules_embed)
+    if text.lower().startswith('!breathe'):
+      await client.send_message(message.channel, 'http://66.media.tumblr.com/b1406ea40336dc68e5404b380c391d96/tumblr_inline_o19o5gSbbg1ra8azx_500.gif')
     if text.lower().startswith('!hitormiss') and message.channel.id in ['481721487569453076', '547137198328250369']: # Allowed spam channels
       await client.send_message(message.channel, ':head_bandage:Hit :punch: or miss:flushed: I guess :thinking:they :point_right:never :x: miss, huh :confused::confused:? You :raised_hands:got a boyfriend:heart_eyes:, I bet :slot_machine::no_mouth:he :fearful:doesn\'t :thumbsdown:kiss :kissing_heart::kissing_heart: ya mwah:sparkling_heart: :heart_eyes_cat:He gon\' find :mag::mag: another girl :baby: and he :open_mouth:won\'t:triumph: miss:ok_hand: ya:scream_cat: He :drooling_face:gon\' :astonished:skrrt and hit :punch::punch: the dab:sunglasses: like :smile::smile: Wiz :cowboy:Khalifa:money_mouth:')
     if any([m.id=='213008672610189312' for m in message.mentions]):
       await client.send_message(message.channel, 'Ponged!')
-    if any([m.id=='227824927854559242' for m in message.mentions]):
-      await client.send_message(message.channel, 'Your goddess will arrive shortly.')
 
     for command, rolename in command_roles.items():
       if text.lower().startswith('!'+command):
@@ -268,7 +266,7 @@ async def on_message(message):
       str(args),
       '```\n'+traceback.format_exc()+'\n```',
       message.channel.name if message.channel.is_private else message.channel.mention])
-    await client.send_message(client.get_channel('384790941564796930'), errormsg)
+    await client.send_message(client.get_channel('568174692687675392'), errormsg)
     raise e
 
 os.chdir('/root/badgebot/')

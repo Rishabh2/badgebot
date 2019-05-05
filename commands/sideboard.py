@@ -18,7 +18,7 @@ async def sideboard(message, args):
     salt = ''.join(random.choice(ALPHABET) for i in range(16))
     newlp = result[1]+','+args
     newlplist = newlp.split(',')
-    if (len(newlplist) - 6)*2 > badges:
+    if (len(newlplist) - 6)*3 > badges:
       msg = 'You do not have enough badges to add a sideboard pokemon'
     else:
       cursor.execute(lp_update_str, (newlp, salt, userid))
