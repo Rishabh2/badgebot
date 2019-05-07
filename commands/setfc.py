@@ -17,7 +17,7 @@ async def setfc(message, args):
       await client.send_message(c, 'Bye')
       return
     args = resp.content
-    await client.send_message(c, 'Now, what image do you want to include in your fc?\nPlease provide a direct link to the image\nIf you don\'t want an image, just say "No thanks"')
+    await client.send_message(c, 'Now, what image do you want to include in your fc?\nPlease provide a direct link to the image or directly embed the image.\nIf you don\'t want an image, just say "No thanks"')
     resp = await client.wait_for_message(timeout=60, author=message.author, channel=c)
     if resp == None or resp.content.lower()=='cancel':
       await client.send_message(c, 'Bye')
@@ -28,14 +28,14 @@ async def setfc(message, args):
       url = None
     else:
       url = result[1] #Get the existing url
-    if len(resp.embeds) > 0:
-      url = resp.embeds[0]['url']
+    if len(resp.attachments) > 0:
+      url = resp.attachments[0]['url']
 
   else:
     user = message.author.id
     url = None
-    if len(message.embeds) > 0:
-      url = message.embeds[0]['url']
+    if len(message.attachments) > 0:
+      url = message.attachments[0]['url']
     cursor.execute(fc_select_str, (user,))
     result = cursor.fetchone()
   if result == None:
