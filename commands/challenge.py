@@ -1,6 +1,6 @@
 from header import *
 async def challenge(message, args):
-  if args.lower().strip() == 'help':
+  if args.lower().strip() == 'help' or True: #Temp closed
     await client.send_message(message.channel, embed=help_gym)
     return
   args = args.lower()

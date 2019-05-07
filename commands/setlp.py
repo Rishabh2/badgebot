@@ -29,7 +29,7 @@ If you need any help, please contact H2owsome'''
       #Normalize Pokemon name
       mon = resp.content
       if mon not in pokemon_list[0]:
-        await client.send_message(c, mon + ' is not a Pokemon I know. Double check spelling and capitalization, and you may need to specfiy form')
+        await client.send_message(c, mon + ' is not a Pokemon I know. Double check spelling and capitalization, and you may need to specfiy form. Say `cancel` to cancel')
       elif mon in mons:
         await client.send_message(c, 'You cannot draft duplicate Pokemon')
       else:

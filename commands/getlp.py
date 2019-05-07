@@ -10,7 +10,7 @@ async def getlp(message, args):
     return
 
   embed = discord.Embed(title=discorduser_to_discordname(user)+"'s League Pass",color=badgebot_color)
-  embed.set_footer(text="Contact @DePVLoper in #committee-contact for any questions.")
+  embed.set_footer(text="Contact H2owsome in #contact-us for any questions.")
 
   cursor.execute(lp_select_str, (user.id,))
   result = cursor.fetchone()

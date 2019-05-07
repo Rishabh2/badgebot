@@ -112,6 +112,13 @@ lp_delete_str = 'DELETE FROM {} WHERE id=?'.format(lp_table)
 lp_update_str = 'UPDATE {} SET mons=?, salt=? WHERE id=?'.format(lp_table)
 
 
+gym_table = 's5gyms'
+
+gym_update_str = 'UPDATE {} SET intro=? WHERE type=?'.format(gym_table)
+
+gym_select_str = 'SELECT channel, intro, url FROM {} WHERE type=?'.format(gym_table)
+
+
 bday_dump_str = 'SELECT bdaymonth, bdayday, id FROM userinfo WHERE bdaymonth IS NOT NULL ORDER BY bdaymonth, bdayday ASC'
 
 bday_select_str = 'SELECT bdayday, bdaymonth FROM userinfo WHERE id=?'
@@ -132,7 +139,7 @@ days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 team_insert_str = 'INSERT INTO teams (id, team, timestamp) VALUES (?, ?, ?)'
 
 
-gym_types = 'rock grass bug dragon poison dark fighting ghost'.split()
+gym_types = 'ghost ground dark electric flying normal water ice'.split()
 #Founder, HMs
 permission_roles = ['568167258380173312', '572142884883529738']
 #Founder, HMs, GLs

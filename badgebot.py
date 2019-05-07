@@ -35,6 +35,8 @@ from commands.accept import *
 from commands.addteam import *
 from commands.challengetime import *
 from commands.mute import *
+from commands.getgym import *
+from commands.setgym import *
 
 
 def resetModules():
@@ -84,7 +86,7 @@ async def on_member_join(member):
 
   Route 101 is where we keep anything that links off discord. This includes promotional advertisements, stream/youtube notifications if you run a channel, and a channel to drop your social media links in. Posting to these channels is restricted and you can ping any moderator to be added.
 
-  We maintain a fun group Voice Chat at the bottom of the server! Please post any chatter related to what’s happening in VC in #vc-for-lurkers
+  We maintain a fun group Voice Chat for anyone to use! Please post any chatter related to what’s happening in VC in #vc-for-lurkers
 
   Are we missing anything? post in suggestions or contact us and we’ll see about getting it added!
   '''
@@ -129,6 +131,8 @@ modules = [
 'commands.addteam',
 'commands.challengetime',
 'commands.mute',
+'commands.getgym',
+'commands.setgym',
 ]
 
 commands = {
@@ -174,6 +178,8 @@ commands = {
   'addteam':addteam,
   'challengetime':challengetime,
   'mute':mute,
+  'getgym':getgym,
+  'setgym':setgym,
   }
 
 
