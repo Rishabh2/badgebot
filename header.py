@@ -154,34 +154,22 @@ command_roles = {
 
 badge_ids = {
     'grass':'<a:grasssingles:482073772535578655>',
-    'normal':'<a:normalsingles:482073773730824192>',
+    'normal':'<:normal:574789997362675733>',
     'fairy':'<a:fairysingles:482067974119882752>',
-    'ice':'<a:icesingles:482067977714401302>',
-    'ground':'<a:groundsingles:482067974027739137>',
+    'ice':'<:ice:574768382977638400>',
+    'ground':'<:earth:574768327617019904>',
     'poison':'<a:poisonsingles:482070458552942604>',
     'rock':'<a:rocksingles:482071206678495252>',
-    'flying':'<a:flyingsingles:506409251326132305>',
-    'dark':'<a:darksingles:506408993758117898>',
+    'flying':'<:flying:574768356889067520>',
+    'dark':'<:dark:574768309627781123>',
     'dragon':'<a:dragonsingles:482063698127749141>',
     'psychic':'<a:psychicsingles:506409264143794176>',
     'steel':'<a:steelsingles:482070459421294632>',
     'bug':'<a:bugsingles:506408913428676609>',
     'fighting':'<a:fightingsingles:506409118194597889>',
-    'ghost':'<a:ghostsingles:506409273782435840>',
-    'ulaula':'<a:ulaula:506385368002854912>',
-    'poni':'<a:poni:506381370260455434>',
-    'melemele':'<a:melemele:506385369760268289>',
-    'akala':'<a:akala:506387179304648728>',
-    'sunne':'<a:sunne:506387413350744064>',
-    'moone':'<a:moone:506387413388754945>',
-    'e4champ':'<a:fairysingles:482067974119882752><a:watersingles:506409275245985793><a:flyingsingles:506409251326132305><a:icesingles:482067977714401302>',
-    'kanto':'<a:Dragonite:556156897741242385>',
-    'johto':'<a:Tyranitar:556156903848148992>',
-    'hoenn':'<a:Pelipper:556156900383916072>',
-    'sinnoh':'<a:Gallade:556156906205347885>',
-    'unova':'<a:Keldeo:556156912828416011>',
-    'kalos':'<a:Goodra:556156913490853898>',
-    'alola':'<a:Togedemaru:556156912719364118>',
+    'ghost':'<:ghost:574768370155520028>',
+    'water':'<:water:574768393232842768>',
+    'electric':'<:electric:574768338601902081>',
     }
 
 bot_spam_channel_id = '568173485680099428'
@@ -421,7 +409,7 @@ async def load_mute(userid, reason, end, target, salt):
   connection.commit()
 
 def isbadge(badge):
-  return badge.lower() in gym_types or badge.lower() in islands or badge.lower() == 'e4champ'
+  return badge.lower() in gym_types
 
 def pokemon_fix(pokemon_name):
   return pokemon_name #TODO: Fix, to make the method return the correct pokemon name if the input name is wrong

@@ -12,28 +12,33 @@ async def swap(message, args):
     msg = 'You do not have a league pass. Register one with !setlp'
     embed=help_lp
   else:
-    newmons = [m.strip() for m in args.split('/', maxsplit=1)]
-    if not all([p in pokemon_list[0] for p in newmons]):
-      msg = 'One or more of those is not a Pokemon I recognize.'
-      embed=help_lp
-    elif len(newmons) == 2: #Swap position of two mons
-      mons = result[1]
-      monscheck = mons.split(',')
-      m1 = newmons[0]
-      m2 = newmons[1]
-      if m1 not in monscheck or m2 not in monscheck:
-        msg = 'One or more of those is not a Pokemon on your LP'
-        embed=help_lp
-      else:
-        salt = ''.join(random.choice(ALPHABET) for i in range(16))
-        newlp = mons.replace(m1,'PLACEHOLDER').replace(m2,m1).replace('PLACEHOLDER',m2)
-        cursor.execute(lp_update_str, (newlp, salt, userid))
-        connection.commit()
-        await client.send_message(message.channel, 'Saving...')
-        newlp = newlp.split(',')
-        roster_sprites(newlp, userid, salt)
-        msg='Done'
+    cursor.execute(open_challenge_select_str, (userid,))
+    result_c = cursor.fetchone()
+    if result_c != None:
+      msg = 'You cannot modify your LP while you have an open challenge'
     else:
-      embed = help_lp
+      newmons = [m.strip() for m in args.split('/', maxsplit=1)]
+      if not all([p in pokemon_list[0] for p in newmons]):
+        msg = 'One or more of those is not a Pokemon I recognize.'
+        embed=help_lp
+      elif len(newmons) == 2: #Swap position of two mons
+        mons = result[1]
+        monscheck = mons.split(',')
+        m1 = newmons[0]
+        m2 = newmons[1]
+        if m1 not in monscheck or m2 not in monscheck:
+          msg = 'One or more of those is not a Pokemon on your LP'
+          embed=help_lp
+        else:
+          salt = ''.join(random.choice(ALPHABET) for i in range(16))
+          newlp = mons.replace(m1,'PLACEHOLDER').replace(m2,m1).replace('PLACEHOLDER',m2)
+          cursor.execute(lp_update_str, (newlp, salt, userid))
+          connection.commit()
+          await client.send_message(message.channel, 'Saving...')
+          newlp = newlp.split(',')
+          roster_sprites(newlp, userid, salt)
+          msg='Done'
+      else:
+        embed = help_lp
   await client.send_message(message.channel, content=msg, embed=embed)
 
