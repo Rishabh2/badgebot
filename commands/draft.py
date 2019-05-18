@@ -2,7 +2,7 @@ from header import *
 async def draft(message, args):
   DRAFT_FLAG = True # set to true while drafting
 
-  if message.server.id == '372042060913442818':
+  if message.server.id == '568166407045644314':
     if len(message.mentions)==0:
       user = message.author
     else:
@@ -45,7 +45,7 @@ async def draft(message, args):
       for i, tier in enumerate(values):
         if args in tier:
           tierLevel = values[i][0]
-          cost = values[i+1][0][1:-1]
+          cost = values[i+1][0]
           msg = tierLevel + ' Cost: ' + cost
           found = True
 
