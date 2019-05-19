@@ -136,7 +136,9 @@ time_update_str = 'UPDATE time SET offset=? WHERE id=?'
 months = 'JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'.split()
 days = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
-team_insert_str = 'INSERT INTO teams (id, team, timestamp) VALUES (?, ?, ?)'
+text_insert_str = 'INSERT INTO text (id, text, timestamp) VALUES (?, ?, ?)'
+
+text_select_str = 'SELECT text FROM text WHERE id=? ORDER BY timestamp DESC'
 
 
 gym_types = 'ghost ground dark electric flying normal water ice'.split()

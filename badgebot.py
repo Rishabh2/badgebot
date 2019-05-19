@@ -32,11 +32,12 @@ from commands.bdaylist import *
 from commands.settime import *
 from commands.swap import *
 from commands.accept import *
-from commands.addteam import *
 from commands.challengetime import *
 from commands.mute import *
 from commands.getgym import *
 from commands.setgym import *
+from commands.store import *
+from commands.read import *
 
 
 def resetModules():
@@ -128,11 +129,12 @@ modules = [
 'commands.settime',
 'commands.swap',
 'commands.accept',
-'commands.addteam',
 'commands.challengetime',
 'commands.mute',
 'commands.getgym',
 'commands.setgym',
+'commands.store',
+'commands.read',
 ]
 
 commands = {
@@ -175,11 +177,12 @@ commands = {
   'settime':settime,
   'swap':swap,
   'accept':accept,
-  'addteam':addteam,
   'challengetime':challengetime,
   'mute':mute,
   'getgym':getgym,
   'setgym':setgym,
+  'store':store,
+  'read':read,
   }
 
 
