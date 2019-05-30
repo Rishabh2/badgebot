@@ -1,7 +1,7 @@
 from header import *
 async def mute(message, args):
-  if mutepermission(message.author):
-    targettext, time, reason = args.split(maxsplit=2)
+  if haspermission(message.author):
+    targettext, time = args.split(maxsplit=2)
     target = id_to_discorduser(targettext, message.server)
     if target == None:
       target = getmention(message, targettext, message.server)
@@ -25,7 +25,7 @@ async def mute(message, args):
       diff = datetime.timedelta(seconds=time)
       finish = int((now + diff).timestamp())
       salt = ''.join(random.choice(ALPHABET) for i in range(16))
-      cursor.execute('INSERT INTO mutes (id, reason, end, target, salt) VALUES (?,?,?,?,?)', (message.author.id, reason, finish, target.id, salt))
+      cursor.execute('INSERT INTO mutes (id, reason, end, target, salt) VALUES (?,?,?,?,?)', (message.author.id, 'No reason necessary', finish, target.id, salt))
       connection.commit()
       await asyncio.sleep(time)
       cursor.execute('DELETE FROM mutes WHERE salt=?', (salt,))
