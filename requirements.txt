@@ -51,6 +51,6 @@ unattended-upgrades==0.1
 update-checker==0.16
 uritemplate==3.0.0
 urllib3==1.24
-websockets==3.4
+websockets==9.1
 yarg==0.1.9
 yarl==1.2.0
